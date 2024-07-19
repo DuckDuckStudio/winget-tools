@@ -40,6 +40,9 @@ def check_urls_in_yaml_files(folder_path):
                         for url in urls:
                             try:
                                 response = requests.head(url, allow_redirects=True, verify=True)
+                                if response.status_code == 405:
+                                    # Retry with GET request
+                                    response = requests.get(url, allow_redirects=True, verify=True)
                                 if response.status_code >= 400:
                                     if response.status_code != 404:
                                         print(f"{Fore.YELLOW}[Warning]{Fore.RESET} URL {Fore.BLUE}{url}{Fore.RESET} in file {Fore.BLUE}{filename}{Fore.RESET} returned status code {Fore.YELLOW}{response.status_code}{Fore.RESET} (≥400)")
@@ -62,7 +65,6 @@ def check_urls_in_yaml_files(folder_path):
                     print(f"{Fore.RED}[Fail]{Fore.RESET} An unknown error occurred while processing file {Fore.BLUE}{filename}{Fore.RESET} : {Fore.RED}{e}{Fore.RESET}")
                     input("Press Enter to continue...\n")
 
-# Example usage
 folder_path = input("Please enter the directory you want to check: ")
 if folder_path.startswith(("'", '"')) and folder_path.endswith(("'", '"')):
     folder_path = folder_path[1:-1]
