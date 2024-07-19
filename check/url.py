@@ -6,6 +6,8 @@ from colorama import init, Fore
 
 init(autoreset=True)
 
+fail = 0
+
 def find_urls(data):
     """
     Recursively find URLs in nested dictionaries or lists.
@@ -48,6 +50,7 @@ def check_urls_in_yaml_files(folder_path):
                                         print(f"\n{Fore.YELLOW}[Warning]{Fore.RESET} URL {Fore.BLUE}{url}{Fore.RESET} in file {Fore.BLUE}{filename}{Fore.RESET} returned status code {Fore.YELLOW}{response.status_code}{Fore.RESET} (≥400)")
                                     else:
                                         print(f"\n{Fore.RED}[Fail (return 404)]{Fore.RESET} URL {Fore.BLUE}{url}{Fore.RESET} in file {Fore.BLUE}{filename}{Fore.RESET} returned status code {Fore.YELLOW}{response.status_code}{Fore.RESET} (Not found)")
+                                        fail = 1
                                     input("Please check the URL manually and press Enter to continue...\n")
                                     # Handle logic for status code 400 and above here
                                 else:
@@ -77,3 +80,6 @@ if not os.path.exists(folder_path):
     input("Press Enter to continue...\n")
     exit()
 check_urls_in_yaml_files(folder_path)
+
+if fail == 0:
+    print(f"{Fore.GREEN}All urls normal.")
