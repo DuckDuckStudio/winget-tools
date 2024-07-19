@@ -46,26 +46,26 @@ def check_urls_in_yaml_files(folder_path):
                                     # Retry with GET request
                                     response = requests.get(url, allow_redirects=True, verify=True)
                                 if response.status_code >= 400:
-                                    if response.status_code != 404:
-                                        print(f"\n{Fore.YELLOW}[Warning]{Fore.RESET} URL {Fore.BLUE}{url}{Fore.RESET} in file {Fore.BLUE}{filename}{Fore.RESET} returned status code {Fore.YELLOW}{response.status_code}{Fore.RESET} (≥400)")
-                                    else:
-                                        print(f"\n{Fore.RED}[Fail (return 404)]{Fore.RESET} URL {Fore.BLUE}{url}{Fore.RESET} in file {Fore.BLUE}{filename}{Fore.RESET} returned status code {Fore.YELLOW}{response.status_code}{Fore.RESET} (Not found)")
+                                    if response.status_code == 404 and url.endswith((".exe", ".zip", ".msi", ".msix", ".appx")):
+                                        print(f"\n{Fore.RED}[Fail (installer return 404)]{Fore.RESET} URL {Fore.BLUE}{url}{Fore.RESET} in file {Fore.BLUE}{file_path}{Fore.RESET} returned status code {Fore.YELLOW}{response.status_code}{Fore.RESET} (Not found)")
                                         fail = 1
-                                    input("Please check the URL manually and press Enter to continue...\n")
+                                        input("Please check the URL manually and press Enter to continue...\n")
+                                    else:
+                                        print(f"\n{Fore.YELLOW}[Warning]{Fore.RESET} URL {Fore.BLUE}{url}{Fore.RESET} in file {Fore.BLUE}{file_path}{Fore.RESET} returned status code {Fore.YELLOW}{response.status_code}{Fore.RESET} (≥400)\n")
                                     # Handle logic for status code 400 and above here
                                 else:
                                     print("*", end="")
                             except requests.exceptions.RequestException as e:
-                                print(f"\n{Fore.YELLOW}[Warning]{Fore.RESET} Unable to access URL {Fore.BLUE}{url}{Fore.RESET} in file {Fore.BLUE}{filename}{Fore.RESET}: {Fore.RED}{e}{Fore.RESET}")
+                                print(f"\n{Fore.YELLOW}[Warning]{Fore.RESET} Unable to access URL {Fore.BLUE}{url}{Fore.RESET} in file {Fore.BLUE}{file_path}{Fore.RESET}: {Fore.RED}{e}{Fore.RESET}")
                                 input("Please check the URL manually and press Enter to continue...\n")
                 except IOError as e:
-                    print(f"\n{Fore.RED}[Fail]{Fore.RESET} Can not open file {Fore.BLUE}{filename}{Fore.RESET} : {Fore.RED}{e}{Fore.RESET}")
+                    print(f"\n{Fore.RED}[Fail]{Fore.RESET} Can not open file {Fore.BLUE}{file_path}{Fore.RESET} : {Fore.RED}{e}{Fore.RESET}")
                     input("Please check the file permissions and coding, press Enter to continue...\n")
                 except yaml.YAMLError as e:
-                    print(f"\n{Fore.RED}[Fail]{Fore.RESET} Error parsing YAML for file {Fore.BLUE}{filename}{Fore.RESET} : {Fore.RED}{e}{Fore.RESET}")
+                    print(f"\n{Fore.RED}[Fail]{Fore.RESET} Error parsing YAML for file {Fore.BLUE}{file_path}{Fore.RESET} : {Fore.RED}{e}{Fore.RESET}")
                     input("Please check that the file follows YAML syntax, press Enter to continue...\n")
                 except Exception as e:
-                    print(f"\n{Fore.RED}[Fail]{Fore.RESET} An unknown error occurred while processing file {Fore.BLUE}{filename}{Fore.RESET} : {Fore.RED}{e}{Fore.RESET}")
+                    print(f"\n{Fore.RED}[Fail]{Fore.RESET} An unknown error occurred while processing file {Fore.BLUE}{file_path}{Fore.RESET} : {Fore.RED}{e}{Fore.RESET}")
                     input("Press Enter to continue...\n")
 
 folder_path = input("Please enter the directory you want to check: ")
