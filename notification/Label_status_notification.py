@@ -32,7 +32,7 @@ while True:
         else:
             print(f"{Fore.GREEN}✓{Fore.RESET} The interval has been set: {Fore.BLUE}{time_counter}{Fore.RESET}s")
             break
-    except ValueError as e:
+    except ValueError:
         print(f"{Fore.RED}✕{Fore.RESET} The entered value is not valid, it must be a positive integer!")
 
 # 可忽略的标签列表
@@ -105,7 +105,7 @@ def wait_for_labels():
         result = check_pr_labels()
         print(result)
         
-        if '(rules)' in result: # Don't use `elif ['internal error', 'xxx'] in result:`
+        if f'({Fore.YELLOW}rules{Fore.BLUE})' in result: # Don't use `elif ['internal error', 'xxx'] in result:`
             if input(f"Continue?\n[{Fore.BLUE}No{Fore.RESET}/{Fore.BLUE}Yes{Fore.RESET}]: ").lower() not in ['y', 'yes', 'continue', '是', '继续']:
                 break
         
