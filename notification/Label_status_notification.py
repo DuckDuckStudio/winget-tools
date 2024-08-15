@@ -97,7 +97,7 @@ def check_pr_labels():
             else:
                 return f'\n{Fore.BLUE}[INFO]{Fore.RESET} PR {Fore.BLUE}#{PR_NUMBER}{Fore.RESET} has {Fore.BLUE}no labels{Fore.RESET}.'
     except Exception as e:
-        return f'\n{Fore.RED}✕{Fore.RESET} Failed to retrieve PR data: {Fore.YELLOW}{response.status_code}{Fore.RESET}\n{Fore.RED}✕ {e}{Fore.RESET}'
+        return f'\n{Fore.RED}✕{Fore.RESET} Failed to retrieve PR data:\n{Fore.RED}✕ {e}{Fore.RESET}'
 
 def wait_for_labels():
     global time_counter
