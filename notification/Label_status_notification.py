@@ -106,7 +106,7 @@ def wait_for_labels():
         for i in range(time_counter, 0, -1):
             print(f"\rRefetch in {Fore.BLUE}{i}{Fore.RESET} seconds...", end="")
             time.sleep(1)
-        print("\rRefetching...")
+        print("\rRefetching latest label status...")
         time_counter = temp # 还原秒数设置
 
 if __name__ == "__main__":
