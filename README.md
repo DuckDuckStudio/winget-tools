@@ -10,7 +10,8 @@ To better check winget's PR.
 
 | Name | Location | Classification | To do | Language |
 |-----|-----|-----|-----|-----|
-| url-check | check/url.py | url, fail, check, remove | Make sure all links are available | EN/Python |
+| url check | check/url.py | url, fail, check, remove | Make sure all links are available | EN/Python |
+| Label status notification | notification/Label_status_notification.py | pr, label, notification, status | Stay updated on the status of your pull request labels. | EN/Python |
 
 ## About Open source
 Tools author: [鸭鸭「カモ」](https://duckduckstudio.github.io/yazicbs.github.io/zh_cn/index.html)  
