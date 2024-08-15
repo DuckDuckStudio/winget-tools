@@ -1,6 +1,7 @@
 import os
-import yaml
 import re
+import sys
+import yaml
 import requests
 from colorama import init, Fore
 
@@ -83,3 +84,5 @@ check_urls_in_yaml_files(folder_path)
 
 if fail == 0:
     print(f"{Fore.GREEN}All urls normal.")
+else:
+    sys.exit(fail)
