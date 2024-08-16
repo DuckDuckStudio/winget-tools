@@ -47,6 +47,7 @@ def check_urls_in_yaml_files(folder_path):
                                     if response.status_code == 404 and url.endswith((".exe", ".zip", ".msi", ".msix", ".appx")):
                                         print(f"\n[Fail (installer return 404)] URL {url} in file {file_path} returned status code {response.status_code} (Not found)")
                                         fail = 1
+                                        sys.exit(1)
                                         #input("Please check the URL manually and press Enter to continue...\n")
                                     else:
                                         print(f"\n[Warning] URL {url} in file {file_path} returned status code {response.status_code} (≥400)\n")
