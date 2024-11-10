@@ -1,4 +1,4 @@
-colorama
-requests
-pyyaml
-plyer
+colorama==0.4.6
+requests==2.32.3
+pyyaml==6.0.1
+plyer==2.1.0
