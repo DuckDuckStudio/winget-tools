@@ -31,6 +31,7 @@ def check_urls_in_yaml_files(folder_path):
     """
     Recursively check URLs found in YAML files in the specified folder and its subfolders.
     """
+    global fail
     for root, _, files in os.walk(folder_path):
         for filename in files:
             if filename.endswith(".yaml"):
