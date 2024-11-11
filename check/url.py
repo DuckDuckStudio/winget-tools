@@ -43,10 +43,13 @@ def check_urls_in_yaml_files(folder_path):
                         urls = find_urls(yaml_data)
                         for url in urls:
                             try:
-                                response = requests.head(url, allow_redirects=True, verify=True)
+                                headers = {
+                                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
+                                }
+                                response = requests.head(url, allow_redirects=True, verify=True, headers=headers)
                                 if response.status_code == 405:
                                     # Retry with GET request
-                                    response = requests.get(url, allow_redirects=True, verify=True)
+                                    response = requests.get(url, allow_redirects=True, verify=True, headers=headers)
                                 if response.status_code >= 400:
                                     if response.status_code == 404 and url.endswith((".exe", ".zip", ".msi", ".msix", ".appx")):
                                         print(f"\n{Fore.RED}[Fail (installer return 404)]{Fore.RESET} URL {Fore.BLUE}{url}{Fore.RESET} in file {Fore.BLUE}{file_path}{Fore.RESET} returned status code {Fore.YELLOW}{response.status_code}{Fore.RESET} (Not found)")
@@ -54,6 +57,7 @@ def check_urls_in_yaml_files(folder_path):
                                         input("Please check the URL manually and press Enter to continue...\n")
                                     else:
                                         print(f"\n{Fore.YELLOW}[Warning]{Fore.RESET} URL {Fore.BLUE}{url}{Fore.RESET} in file {Fore.BLUE}{file_path}{Fore.RESET} returned status code {Fore.YELLOW}{response.status_code}{Fore.RESET} (≥400)\n")
+                                        input("Please check the URL manually and press Enter to continue...\n")
                                     # Handle logic for status code 400 and above here
                                 else:
                                     print("*", end="")
