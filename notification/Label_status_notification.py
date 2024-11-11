@@ -7,7 +7,6 @@ init(autoreset=True)
 
 REPO_OWNER = 'microsoft'
 REPO_NAME = 'winget-pkgs'
-#PR_NUMBER = 167397
 
 while True:
     PR_NUMBER = input("Please enter the Pull Request number: ")
