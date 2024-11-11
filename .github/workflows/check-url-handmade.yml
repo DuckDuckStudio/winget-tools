@@ -1,4 +1,4 @@
-name: Check url
+name: Check url handmade
 
 on:
   schedule:
