@@ -81,7 +81,7 @@ if not folder_path.endswith('\\'):
 if not os.path.exists(folder_path):
     print(f"[Fail] The specified path does not exist.")
     #input("Press Enter to continue...\n")
-    exit()
+    sys.exit(1)
 check_urls_in_yaml_files(folder_path)
 
 if fail == 0:
