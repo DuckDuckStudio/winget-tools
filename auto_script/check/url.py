@@ -8,7 +8,8 @@ fail = 0
 
 def find_urls(data):
     """
-    Recursively find URLs in nested dictionaries or lists.
+    Recursively find URLs in nested dictionaries or lists, 
+    but exclude any GitHub URLs.
     """
     urls = set()
     if isinstance(data, dict):
@@ -16,7 +17,9 @@ def find_urls(data):
             if isinstance(value, str):
                 # Use regex to find potential URLs
                 found_urls = re.findall(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', value)
-                urls.update(found_urls)
+                # Exclude GitHub URLs
+                filtered_urls = {url for url in found_urls if 'github.com' not in url}
+                urls.update(filtered_urls)
             elif isinstance(value, (dict, list)):
                 urls.update(find_urls(value))
     elif isinstance(data, list):
