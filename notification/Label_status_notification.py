@@ -80,7 +80,7 @@ def check_pr_labels():
                     if 'Needs-Author-Feedback' in relevant_labels:
                         notification.notify(
                             title='winget tools',
-                            message=f'pull request seems to require the author to resolve the error.',
+                            message=f'Pull request seems to require the author to resolve the error.',
                             timeout=5
                         )
                         return f'\n{Fore.BLUE}[INFO({Fore.YELLOW}rules{Fore.BLUE})]{Fore.RESET} PR {Fore.BLUE}#{PR_NUMBER}{Fore.RESET} has the following relevant labels: {Fore.BLUE}{", ".join(relevant_labels)}{Fore.RESET}\n{Fore.BLUE}[INFO]{Fore.RESET} This pull request seems to {Fore.YELLOW}require the author to resolve the error{Fore.RESET}.'
