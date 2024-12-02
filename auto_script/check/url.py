@@ -17,8 +17,9 @@ def find_urls(data):
             if isinstance(value, str):
                 # Use regex to find potential URLs
                 found_urls = re.findall(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', value)
-                # Exclude GitHub URLs
-                filtered_urls = {url for url in found_urls if 'github.com' not in url}
+                # Filter URLs
+                excluded_domains = {'github.com', '123', '360', 'github.io'}
+                filtered_urls = {url for url in found_urls if not any(domain in url for domain in excluded_domains)}
                 urls.update(filtered_urls)
             elif isinstance(value, (dict, list)):
                 urls.update(find_urls(value))
