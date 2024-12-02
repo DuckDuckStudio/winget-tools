@@ -9,7 +9,7 @@ fail = 0
 def find_urls(data):
     """
     Recursively find URLs in nested dictionaries or lists, 
-    but exclude any GitHub URLs.
+    but exclude some URLs.
     """
     urls = set()
     if isinstance(data, dict):
@@ -38,33 +38,35 @@ def check_urls_in_yaml_files(folder_path):
             if filename.endswith(".yaml"):
                 file_path = os.path.join(root, filename)
                 try:
-                    with open(file_path, 'r', encoding='utf-8') as file:
-                        yaml_data = yaml.safe_load(file)
-                        # Find all possible URLs in the YAML data
-                        urls = find_urls(yaml_data)
-                        for url in urls:
-                            try:
-                                headers = {
-                                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
-                                }
-                                response = requests.head(url, allow_redirects=True, verify=True, headers=headers)
-                                if response.status_code == 405:
-                                    # Retry with GET request
-                                    response = requests.get(url, allow_redirects=True, verify=True, headers=headers)
-                                if response.status_code >= 400:
-                                    if response.status_code == 404 and url.endswith((".exe", ".zip", ".msi", ".msix", ".appx")):
-                                        print(f"\n[Fail (installer return 404)] URL {url} in file {file_path} returned status code {response.status_code} (Not found)")
-                                        fail = 1
-                                        sys.exit(1)
-                                        #input("Please check the URL manually and press Enter to continue...\n")
+                    exclude_pattern = re.compile(r'manifest/[0-9a]') # 忽略检查的路径 (0-9, a)
+                    if not exclude_pattern.search(file_path):
+                        with open(file_path, 'r', encoding='utf-8') as file:
+                            yaml_data = yaml.safe_load(file)
+                            # Find all possible URLs in the YAML data
+                            urls = find_urls(yaml_data)
+                            for url in urls:
+                                try:
+                                    headers = {
+                                        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
+                                    }
+                                    response = requests.head(url, allow_redirects=True, verify=True, headers=headers)
+                                    if response.status_code == 405:
+                                        # Retry with GET request
+                                        response = requests.get(url, allow_redirects=True, verify=True, headers=headers)
+                                    if response.status_code >= 400:
+                                        if response.status_code == 404 and url.endswith((".exe", ".zip", ".msi", ".msix", ".appx")):
+                                            print(f"\n[Fail (installer return 404)] URL {url} in file {file_path} returned status code {response.status_code} (Not found)")
+                                            fail = 1
+                                            sys.exit(1)
+                                            #input("Please check the URL manually and press Enter to continue...\n")
+                                        else:
+                                            print(f"\n[Warning] URL {url} in file {file_path} returned status code {response.status_code} (≥400)\n")
+                                        # Handle logic for status code 400 and above here
                                     else:
-                                        print(f"\n[Warning] URL {url} in file {file_path} returned status code {response.status_code} (≥400)\n")
-                                    # Handle logic for status code 400 and above here
-                                else:
-                                    print("*", end="")
-                            except requests.exceptions.RequestException as e:
-                                print(f"\n[Warning] Unable to access URL {url} in file {file_path}: {e}")
-                                #input("Please check the URL manually and press Enter to continue...\n")
+                                        print("*", end="")
+                                except requests.exceptions.RequestException as e:
+                                    print(f"\n[Warning] Unable to access URL {url} in file {file_path}: {e}")
+                                    #input("Please check the URL manually and press Enter to continue...\n")
                 except IOError as e:
                     print(f"\n[Fail] Can not open file {file_path} : {e}")
                     #input("Please check the file permissions and coding, press Enter to continue...\n")
@@ -76,11 +78,7 @@ def check_urls_in_yaml_files(folder_path):
                     #input("Press Enter to continue...\n")
 
 folder_path = "winget-pkgs"
-if folder_path.startswith(("'", '"')) and folder_path.endswith(("'", '"')):
-    folder_path = folder_path[1:-1]
-
-if not folder_path.endswith('\\'):
-    folder_path += '\\'
+os.path.abspath(folder_path)
 
 if not os.path.exists(folder_path):
     print(f"[Fail] The specified path does not exist.")
