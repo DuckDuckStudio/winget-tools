@@ -18,7 +18,7 @@ def find_urls(data):
                 # Use regex to find potential URLs
                 found_urls = re.findall(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', value)
                 # Filter URLs
-                excluded_domains = {'github.com', '123', '360', 'github.io'}
+                excluded_domains = {'github.com', '123', '360', 'github.io', 'sourceforge'}
                 filtered_urls = {url for url in found_urls if not any(domain in url for domain in excluded_domains)}
                 urls.update(filtered_urls)
             elif isinstance(value, (dict, list)):
@@ -38,7 +38,7 @@ def check_urls_in_yaml_files(folder_path):
             if filename.endswith(".yaml"):
                 file_path = os.path.join(root, filename)
                 try:
-                    exclude_pattern = re.compile(r'manifest/[0-9a]') # 忽略检查的路径 (0-9, a)
+                    exclude_pattern = re.compile(r'manifest/[0-9a-b]') # 忽略检查的路径 (0-9, a-b)
                     if not exclude_pattern.search(file_path):
                         with open(file_path, 'r', encoding='utf-8') as file:
                             yaml_data = yaml.safe_load(file)
