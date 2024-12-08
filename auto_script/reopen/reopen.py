@@ -9,7 +9,8 @@ init(autoreset=True)
 
 REPO_OWNER = 'microsoft'
 REPO_NAME = 'winget-pkgs'
-script_path = os.path.dirname(os.path.dirname(os.path.dirname(sys.argv[0])))
+script_path = os.path.dirname(os.path.dirname(sys.argv[0]))
+print(script_path)
 os.chdir(script_path)
 
 while True:
