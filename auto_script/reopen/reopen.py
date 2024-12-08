@@ -77,8 +77,8 @@ def check_pr_labels():
                     elif 'Moderator-Approved' in relevant_labels: # 优先级高于 Azure-Pipeline-Passed / Validation-Completed
                         return f'\n{Fore.BLUE}[INFO({Fore.YELLOW}rules{Fore.BLUE})]{Fore.RESET} PR {Fore.BLUE}#{PR_NUMBER}{Fore.RESET} has the following relevant labels: {Fore.BLUE}{", ".join(relevant_labels)}{Fore.RESET}\n{Fore.BLUE}[INFO]{Fore.RESET} 🎉 This pull request appears to have been {Fore.GREEN}approved{Fore.RESET} by the moderator.'
                     elif 'Validation-Completed' in relevant_labels: # 优先级高于 Azure-Pipeline-Passed
-                        os.remove(os.path.join(script_path, ".github\\workflows\\auto-reopen.yml"))
-                        shutil.rmtree(os.path.join(script_path, "auto_script\\reopen"))
+                        os.remove(os.path.join(script_path, ".github/workflows/auto-reopen.yml"))
+                        shutil.rmtree(os.path.join(script_path, "auto_script/reopen"))
                         subprocess.run(['git', 'add', '.'], capture_output=True, text=True)
                         subprocess.run(['git', 'commit', '-m', "[Auto] 移除PR Reopen工作流"], capture_output=True, text=True)
                         subprocess.run(['git', 'push'], capture_output=True, text=True)
