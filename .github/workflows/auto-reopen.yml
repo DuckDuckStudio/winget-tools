@@ -1,0 +1,35 @@
+name: Auto Reopen DuckStudio ChineseGit PR
+
+on:
+  schedule:
+    - cron: '0 * * * *' # 每小时一次
+  workflow_dispatch:
+
+jobs:
+  example-job:
+    runs-on: windows-latest
+
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r environment/requirements.txt
+
+      - name: 设置 Git
+        run: |
+          git config --global user.name "${{ secrets.BOT_ACCOUNT }}"
+          git config --global user.email "${{ secrets.BOT_EMAIL }}"
+
+      - name: 检查标签
+        env:
+          GH_TOKEN: ${{ secrets.ACCOUNT_Token }}
+        run: |
+          python "auto_script\reopen\reopen.py"
