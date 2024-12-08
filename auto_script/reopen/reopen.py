@@ -70,9 +70,9 @@ def check_pr_labels():
                 
                 if relevant_labels:
                     if any('Internal-Error' in label for label in relevant_labels):
-                        subprocess.run(['gh', 'pr', 'close', PR_NUMBER], capture_output=True, text=True)
-                        subprocess.run(['gh', 'pr', 'comment', PR_NUMBER, "--body", "[Auto] Reopen this pull request to get the validation pipeline running again."], capture_output=True, text=True)
-                        subprocess.run(['gh', 'pr', 'reopen', PR_NUMBER], capture_output=True, text=True)
+                        subprocess.run(['gh', 'pr', 'close', PR_NUMBER, "--repo", "microsoft/winget-pkgs"], capture_output=True, text=True)
+                        subprocess.run(['gh', 'pr', 'comment', PR_NUMBER, "--body", "[Auto] Reopen this pull request to get the validation pipeline running again.", "--repo", "microsoft/winget-pkgs"], capture_output=True, text=True)
+                        subprocess.run(['gh', 'pr', 'reopen', PR_NUMBER, "--repo", "microsoft/winget-pkgs"], capture_output=True, text=True)
                         return f'\n{Fore.BLUE}[INFO({Fore.YELLOW}rules{Fore.BLUE})]{Fore.RESET} PR {Fore.BLUE}#{PR_NUMBER}{Fore.RESET} has the following relevant labels: {Fore.BLUE}{", ".join(relevant_labels)}{Fore.RESET}\n{Fore.BLUE}[INFO]{Fore.RESET} This pull request appears to have encountered an {Fore.YELLOW}internal error{Fore.RESET}.'
                     elif 'Moderator-Approved' in relevant_labels: # 优先级高于 Azure-Pipeline-Passed / Validation-Completed
                         return f'\n{Fore.BLUE}[INFO({Fore.YELLOW}rules{Fore.BLUE})]{Fore.RESET} PR {Fore.BLUE}#{PR_NUMBER}{Fore.RESET} has the following relevant labels: {Fore.BLUE}{", ".join(relevant_labels)}{Fore.RESET}\n{Fore.BLUE}[INFO]{Fore.RESET} 🎉 This pull request appears to have been {Fore.GREEN}approved{Fore.RESET} by the moderator.'
