@@ -1,0 +1,941 @@
+name: Check url handmade - Cai
+
+on:
+  #schedule:
+  #  - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  _0:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/0.py
+
+  # ==========================================
+
+  _1:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/1.py
+
+  # ==========================================
+
+  _2:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/2.py
+
+  # ==========================================
+
+  _3:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/3.py
+
+  # ==========================================
+
+  _4:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/4.py
+
+  # ==========================================
+
+  _5:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/5.py
+
+  # ==========================================
+
+  _6:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/6.py
+
+  # ==========================================
+
+  _7:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/7.py
+
+  # ==========================================
+
+  _8:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/8.py
+
+  # ==========================================
+
+  _9:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/9.py
+
+  # ==========================================
+
+  _a:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/a.py
+
+  # ==========================================
+
+  _b:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/b.py
+
+  # ==========================================
+
+  _c:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/c.py
+
+  # ==========================================
+
+  _d:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/d.py
+
+  # ==========================================
+
+  _e:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/e.py
+
+  # ==========================================
+
+  _f:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/f.py
+
+  # ==========================================
+
+  _g:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/g.py
+
+  # ==========================================
+
+  _h:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/h.py
+
+  # ==========================================
+
+  _i:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/i.py
+
+  # ==========================================
+
+  _j:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/j.py
+
+  # ==========================================
+
+  _k:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/k.py
+
+  # ==========================================
+
+  _l:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/l.py
+
+  # ==========================================
+
+  _m:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/m.py
+
+  # ==========================================
+
+  _n:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/n.py
+
+  # ==========================================
+
+  _o:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/o.py
+
+  # ==========================================
+
+  _p:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/p.py
+
+  # ==========================================
+
+  _q:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/q.py
+
+  # ==========================================
+
+  _r:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/r.py
+
+  # ==========================================
+
+  _s:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/s.py
+
+  # ==========================================
+
+  _t:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/t.py
+
+  # ==========================================
+
+  _u:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/u.py
+
+  # ==========================================
+
+  _v:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/v.py
+
+  # ==========================================
+
+  _w:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/w.py
+
+  # ==========================================
+
+  _x:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/x.py
+
+  # ==========================================
+
+  _y:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/y.py
+
+  # ==========================================
+
+  _z:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r environment/requirements.txt
+
+    - name: Clone winget-pkgs
+      run: |
+        git clone https://github.com/DuckDuckStudio/winget-pkgs.git -b wingettools
+
+    - name: Run Python script
+      run: python auto_script/check/Cai/z.py

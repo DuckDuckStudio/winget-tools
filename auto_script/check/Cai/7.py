@@ -19,8 +19,8 @@ def find_urls(data):
                 found_urls = re.findall(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', value)
                 # Filter URLs
                 excluded_domains = {
-                    'github.com', '123', '360', 'github.io', 'sourceforge', #一般
-                    'typora', 'iflyrec', 'tchspt' # 豁免
+                    'sourceforge', 'effie' # 豁免
+                    # effie -> 7S2P.Effie
                 }
                 filtered_urls = {url for url in found_urls if not any(domain in url for domain in excluded_domains)}
                 urls.update(filtered_urls)
@@ -90,6 +90,7 @@ def check_urls_in_yaml_files(folder_path):
 
 folder_path = "winget-pkgs"
 os.path.abspath(folder_path)
+folder_path = os.path.join(folder_path, "manifests", "7") # 改这里
 
 if not os.path.exists(folder_path):
     print(f"[Fail] The specified path does not exist.")

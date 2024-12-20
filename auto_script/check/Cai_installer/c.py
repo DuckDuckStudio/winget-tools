@@ -19,8 +19,7 @@ def find_urls(data):
                 found_urls = re.findall(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', value)
                 # Filter URLs
                 excluded_domains = {
-                    'github.com', '123', '360', 'github.io', 'sourceforge', #一般
-                    'typora', 'iflyrec', 'tchspt' # 豁免
+                    'sourceforge'# 豁免
                 }
                 filtered_urls = {url for url in found_urls if not any(domain in url for domain in excluded_domains)}
                 urls.update(filtered_urls)
@@ -57,11 +56,8 @@ def check_urls_in_yaml_files(folder_path):
                                         # Retry with GET request
                                         response = requests.get(url, allow_redirects=True, verify=True, headers=headers)
                                     if response.status_code >= 400:
-                                        if response.status_code == 404:
-                                            if url.endswith((".exe", ".zip", ".msi", ".msix", ".appx")):
-                                                print(f"\n[Fail (installer return 404)] URL {url} in file {file_path} returned status code {response.status_code} (Not found)")
-                                            else:
-                                                print(f"\n[Fail] URL {url} in file {file_path} returned status code {response.status_code} (Not found)")
+                                        if response.status_code == 404 and url.endswith((".exe", ".zip", ".msi", ".msix", ".appx")):
+                                            print(f"\n[Fail (installer return 404)] URL {url} in file {file_path} returned status code {response.status_code} (Not found)")
                                             fail = 1
                                             sys.exit(1)
                                             #input("Please check the URL manually and press Enter to continue...\n")
@@ -90,6 +86,7 @@ def check_urls_in_yaml_files(folder_path):
 
 folder_path = "winget-pkgs"
 os.path.abspath(folder_path)
+folder_path = os.path.join(folder_path, "manifests", "c") # 改这里
 
 if not os.path.exists(folder_path):
     print(f"[Fail] The specified path does not exist.")
