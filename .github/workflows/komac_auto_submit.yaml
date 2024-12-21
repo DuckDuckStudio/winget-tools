@@ -1,0 +1,22 @@
+name: Auto Submit Manifest (Komac)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  submit:
+    runs-on: windows-latest
+
+    steps:
+      - uses: cargo-bins/cargo-binstall@main
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
+      - run: cargo binstall komac -y
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        shell: pwsh
+
+      - name: Create and submit new manifest
+        run: |
+          komac new "HiToysMaker.fontplayer" --version "0.0.0" --urls "https://github.com/HiToysMaker/fontplayer/releases/download/v0.0.0/fontplayer-Setup-0.0.0.exe" --package-locale "zh-CN" --publisher "HiToysMaker" --publisher-url "https://github.com/HiToysMaker" --publisher-support-url "https://github.com/HiToysMaker/fontplayer/issues" --package-name "字玩" --package-url "https://www.font-player.com/" --moniker "FontPlayer" --author "HiToysMaker" --license "专有软件" --copyright "版权所有 (c) HiToysMaker" --short-description "一款开源的字体设计工具。" --description "一款用于生成个人字库（或图标字库）的开源创意工具。使用字玩，用户可以通过钢笔工具等图形编辑工具绘制字形，然后导出OTF字体文件。同时，字玩支持从图片中导入字形，也支持自定义字形组件功能，并提供了可编程脚本模块。字玩内嵌了一款用于测试的参数化字体模板，导入该模板，可以尝试体验字玩的参数化设计功能。字玩希望通过探索更多的创意，帮助字体（或图标）设计师或爱好者，简化设计流程，提高设计效率，为字体设计领域添砖加瓦。" --release-notes-url "https://github.com/HiToysMaker/fontplayer/releases/tag/v0.0.0" --submit --token ${{ secrets.KOMAC_TOKEN }}
