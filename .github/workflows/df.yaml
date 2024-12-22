@@ -1,0 +1,31 @@
+name: Download Installer File(s)
+
+on:
+  workflow_dispatch:
+    inputs:
+      file:
+        description: 'File to download'
+        required: true
+        #default: 'https://download.dymo.com/dymo/Software/Win/DLS8Setup8.7.4.exe'
+
+jobs:
+  download-and-upload:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Download file
+      run: wget ${{ github.event.inputs.file }} -O downloaded_file.exe
+
+    - name: Calculate SHA256
+      id: sha256
+      run: echo "sha256=$(sha256sum downloaded_file.exe | awk '{ print $1 }')" >> $GITHUB_ENV
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: downloaded-file
+        path: downloaded_file.exe
+
+    - name: Print SHA256
+      run: |
+        echo "SHA256: ${{ env.sha256 }}"
