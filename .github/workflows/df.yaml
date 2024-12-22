@@ -21,7 +21,7 @@ jobs:
       run: echo "sha256=$(sha256sum downloaded_file.exe | awk '{ print $1 }')" >> $GITHUB_ENV
 
     - name: Upload artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: downloaded-file
         path: downloaded_file.exe
