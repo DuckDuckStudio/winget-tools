@@ -1,0 +1,71 @@
+找到以下版本文件夹：['0.1.1', '0.1.2', '0.2.0']
+
+正在处理版本文件夹：0.1.1
+  创建并切换到新分支：Modify-Zxilly.NotifyCli-0.1.1
+  正在处理文件：D:\...\winget-pkgs\manifests\z\Zxilly\NotifyCli\0.1.1\Zxilly.NotifyCli.installer.yaml
+    替换 ManifestVersion: 1.2.0 -> 1.9.0
+    替换 schema 引用: 1.2.0.schema.json -> 1.9.0.schema.json
+    修改后的文件已保存：D:\...\winget-pkgs\manifests\z\Zxilly\NotifyCli\0.1.1\Zxilly.NotifyCli.installer.yaml
+  正在处理文件：D:\...\winget-pkgs\manifests\z\Zxilly\NotifyCli\0.1.1\Zxilly.NotifyCli.locale.en-US.yaml
+    替换 ManifestVersion: 1.2.0 -> 1.9.0
+    替换 schema 引用: 1.2.0.schema.json -> 1.9.0.schema.json
+    修改后的文件已保存：D:\...\winget-pkgs\manifests\z\Zxilly\NotifyCli\0.1.1\Zxilly.NotifyCli.locale.en-US.yaml
+  正在处理文件：D:\...\winget-pkgs\manifests\z\Zxilly\NotifyCli\0.1.1\Zxilly.NotifyCli.yaml
+    替换 ManifestVersion: 1.2.0 -> 1.9.0
+    替换 schema 引用: 1.2.0.schema.json -> 1.9.0.schema.json
+    修改后的文件已保存：D:\...\winget-pkgs\manifests\z\Zxilly\NotifyCli\0.1.1\Zxilly.NotifyCli.yaml
+  创建新的语言清单文件：D:\...\winget-pkgs\manifests\z\Zxilly\NotifyCli\0.1.1\Zxilly.NotifyCli.locale.zh-CN.yaml
+    新的语言清单文件已创建：D:\...\winget-pkgs\manifests\z\Zxilly\NotifyCli\0.1.1\Zxilly.NotifyCli.locale.zh-CN.yaml
+  暂存并提交更改到 Git
+    提交信息：Modify: Zype.Compass version 0.1.1 (Auto)
+  推送更改到远程仓库
+    推送到远程成功：Modify-Zxilly.NotifyCli-0.1.1
+    拉取请求创建成功：https://github.com/microsoft/winget-pkgs/pull/212773
+
+正在处理版本文件夹：0.1.2
+  创建并切换到新分支：Modify-Zxilly.NotifyCli-0.1.2
+  正在处理文件：D:\...\winget-pkgs\manifests\z\Zxilly\NotifyCli\0.1.2\Zxilly.NotifyCli.installer.yaml
+    替换 ManifestVersion: 1.2.0 -> 1.9.0
+    替换 schema 引用: 1.2.0.schema.json -> 1.9.0.schema.json
+    修改后的文件已保存：D:\...\winget-pkgs\manifests\z\Zxilly\NotifyCli\0.1.2\Zxilly.NotifyCli.installer.yaml
+  正在处理文件：D:\...\winget-pkgs\manifests\z\Zxilly\NotifyCli\0.1.2\Zxilly.NotifyCli.locale.en-US.yaml
+    替换 ManifestVersion: 1.2.0 -> 1.9.0
+    替换 schema 引用: 1.2.0.schema.json -> 1.9.0.schema.json
+    修改后的文件已保存：D:\...\winget-pkgs\manifests\z\Zxilly\NotifyCli\0.1.2\Zxilly.NotifyCli.locale.en-US.yaml
+  正在处理文件：D:\...\winget-pkgs\manifests\z\Zxilly\NotifyCli\0.1.2\Zxilly.NotifyCli.yaml
+    替换 ManifestVersion: 1.2.0 -> 1.9.0
+    替换 schema 引用: 1.2.0.schema.json -> 1.9.0.schema.json
+    修改后的文件已保存：D:\...\winget-pkgs\manifests\z\Zxilly\NotifyCli\0.1.2\Zxilly.NotifyCli.yaml
+  创建新的语言清单文件：D:\...\winget-pkgs\manifests\z\Zxilly\NotifyCli\0.1.2\Zxilly.NotifyCli.locale.zh-CN.yaml
+    新的语言清单文件已创建：D:\...\winget-pkgs\manifests\z\Zxilly\NotifyCli\0.1.2\Zxilly.NotifyCli.locale.zh-CN.yaml
+  暂存并提交更改到 Git
+    提交信息：Modify: Zype.Compass version 0.1.2 (Auto)
+  推送更改到远程仓库
+    推送到远程成功：Modify-Zxilly.NotifyCli-0.1.2
+    拉取请求创建成功：https://github.com/microsoft/winget-pkgs/pull/212774
+
+正在处理版本文件夹：0.2.0
+  创建并切换到新分支：Modify-Zxilly.NotifyCli-0.2.0
+  正在处理文件：D:\...\winget-pkgs\manifests\z\Zxilly\NotifyCli\0.2.0\Zxilly.NotifyCli.installer.yaml
+    替换 ManifestVersion: 1.2.0 -> 1.9.0
+    修改后的文件已保存：D:\...\winget-pkgs\manifests\z\Zxilly\NotifyCli\0.2.0\Zxilly.NotifyCli.installer.yaml
+  正在处理文件：D:\...\winget-pkgs\manifests\z\Zxilly\NotifyCli\0.2.0\Zxilly.NotifyCli.locale.en-US.yaml
+    替换 ManifestVersion: 1.2.0 -> 1.9.0
+    修改后的文件已保存：D:\...\winget-pkgs\manifests\z\Zxilly\NotifyCli\0.2.0\Zxilly.NotifyCli.locale.en-US.yaml
+  正在处理文件：D:\...\winget-pkgs\manifests\z\Zxilly\NotifyCli\0.2.0\Zxilly.NotifyCli.yaml
+    替换 ManifestVersion: 1.2.0 -> 1.9.0
+    修改后的文件已保存：D:\...\winget-pkgs\manifests\z\Zxilly\NotifyCli\0.2.0\Zxilly.NotifyCli.yaml
+  创建新的语言清单文件：D:\...\winget-pkgs\manifests\z\Zxilly\NotifyCli\0.2.0\Zxilly.NotifyCli.locale.zh-CN.yaml
+    新的语言清单文件已创建：D:\...\winget-pkgs\manifests\z\Zxilly\NotifyCli\0.2.0\Zxilly.NotifyCli.locale.zh-CN.yaml
+  暂存并提交更改到 Git
+    提交信息：Modify: Zype.Compass version 0.2.0 (Auto)
+  推送更改到远程仓库
+    推送到远程成功：Modify-Zxilly.NotifyCli-0.2.0
+    拉取请求创建成功：https://github.com/microsoft/winget-pkgs/pull/212775
+
+所有版本清单已修改并推送完成。
+Deleted branch Modify-Zxilly.NotifyCli-0.1.1 (was b459d66cb8f).
+Deleted branch Modify-Zxilly.NotifyCli-0.1.2 (was 6e9c706d048).
+Deleted branch Modify-Zxilly.NotifyCli-0.2.0 (was 5eed8bb5947).
+
+工作区清理完成。
