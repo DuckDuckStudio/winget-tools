@@ -1,0 +1,27 @@
+~~ Start logging ~~2025-01-17 12:27:18.499 INFO Found the following version folder: ['1.0.0']
+2025-01-17 12:27:18.702 INFO Processing version folder: 1.0.0
+2025-01-17 12:27:18.702 INFO   Create and checkout to a new branch: Modify-Aakash.Swiss-1.0.0
+2025-01-17 12:27:23.244 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Aakash\Swiss\1.0.0\Aakash.Swiss.installer.yaml
+2025-01-17 12:27:23.244 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 12:27:23.244 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 12:27:23.244 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\a\Aakash\Swiss\1.0.0\Aakash.Swiss.installer.yaml
+2025-01-17 12:27:23.244 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Aakash\Swiss\1.0.0\Aakash.Swiss.locale.en-US.yaml
+2025-01-17 12:27:23.244 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 12:27:23.244 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 12:27:23.244 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\a\Aakash\Swiss\1.0.0\Aakash.Swiss.locale.en-US.yaml
+2025-01-17 12:27:23.260 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Aakash\Swiss\1.0.0\Aakash.Swiss.locale.zh-CN.yaml
+2025-01-17 12:27:23.260 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 12:27:23.276 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 12:27:23.276 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\a\Aakash\Swiss\1.0.0\Aakash.Swiss.locale.zh-CN.yaml
+2025-01-17 12:27:23.276 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Aakash\Swiss\1.0.0\Aakash.Swiss.yaml
+2025-01-17 12:27:23.276 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 12:27:23.276 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 12:27:23.276 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\a\Aakash\Swiss\1.0.0\Aakash.Swiss.yaml
+2025-01-17 12:27:23.276 INFO   Staging and Committing Changes to Git
+2025-01-17 12:27:28.139 INFO     Commit message: Modify: Aakash.Swiss version 1.0.0 (Auto)
+2025-01-17 12:27:28.139 INFO   Pushing changes to remote (origin) repository
+2025-01-17 12:27:54.956 INFO     Successfully pushed to remote (origin): Modify-Aakash.Swiss-1.0.0
+2025-01-17 12:27:56.483 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/213131
+2025-01-17 12:27:56.485 INFO All manifests have been modified and pushed through.
+2025-01-17 12:28:00.526 INFO Workspace clean-up completed.
+~~ End of logging ~~
