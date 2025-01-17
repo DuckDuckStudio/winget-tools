@@ -1,4 +1,5 @@
-~~ Start logging ~~2025-01-17 12:27:18.499 INFO Found the following version folder: ['1.0.0']
+~~ Start logging ~~
+2025-01-17 12:27:18.499 INFO Found the following version folder: ['1.0.0']
 2025-01-17 12:27:18.702 INFO Processing version folder: 1.0.0
 2025-01-17 12:27:18.702 INFO   Create and checkout to a new branch: Modify-Aakash.Swiss-1.0.0
 2025-01-17 12:27:23.244 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Aakash\Swiss\1.0.0\Aakash.Swiss.installer.yaml
