@@ -1,0 +1,45 @@
+name: 验证域访问性
+
+on:
+  workflow_dispatch:
+    inputs:
+      domain:
+        description: '需要验证的域'
+        required: true
+
+jobs:
+  download-and-upload:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 获取验证工具
+      # 更新包源 -> 更新包 -> 获取缺少的验证工具
+      shell: bash
+      run:
+        sudo apt update
+        sudo apt upgrade
+        sudo apt install traceroute
+
+    - name: 验证响应头 - curl
+      run: |
+        curl -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3" -I ${{ github.event.inputs.domain }}
+        sleep 5
+
+    - name: 验证响应头 - wget
+      run: |
+        wget --header="User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3" --server-response ${{ github.event.inputs.domain }}
+        sleep 5
+
+    - name: 验证每一跳 - ICMP 请求
+      run: |
+        traceroute ${{ github.event.inputs.domain }}
+        sleep 5
+
+    - name: 验证每一跳 - TCP 连接
+      run: |
+        traceroute -T ${{ github.event.inputs.domain }}
+        sleep 5
+
+    - name: ping
+      run: |
+        ping -c 5 ${{ github.event.inputs.domain }}

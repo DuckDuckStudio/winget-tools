@@ -1,30 +1,28 @@
-name: Download Installer File(s)
+name: 获取安装程序文件
 
 on:
   workflow_dispatch:
     inputs:
       file:
-        description: 'File to download'
+        description: '需要获取的文件'
         required: true
-        #default: 'https://download.dymo.com/dymo/Software/Win/DLS8Setup8.7.4.exe'
 
 jobs:
   download-and-upload:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Download file
-      run: wget ${{ github.event.inputs.file }} -O downloaded_file.exe
+    - name: 下载文件 - wget
+      run: wget ${{ github.event.inputs.file }} -O installer.exe
 
-    - name: Calculate SHA256
-      id: sha256
-      run: echo "sha256=$(sha256sum downloaded_file.exe | awk '{ print $1 }')" >> $GITHUB_ENV
+    - name: 获取 SHA256
+      run: echo "sha256=$(sha256sum installer.exe | awk '{ print $1 }')" >> $GITHUB_ENV
 
-    - name: Upload artifact
+    - name: 上传获取的文件
       uses: actions/upload-artifact@v4
       with:
-        name: downloaded-file
-        path: downloaded_file.exe
+        name: installer
+        path: installer.exe
 
     - name: Print SHA256
       run: |
