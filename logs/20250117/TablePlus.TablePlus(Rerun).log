@@ -1,683 +1,683 @@
 ~~ Start logging ~~
-2025-01-17 16:42:09.935 INFO Found the following version folder: ['3.12.19', '3.12.20', '4.0.3', '4.0.5', '4.1.2', '4.2.0', '4.2.12', '4.2.3', '4.2.4', '4.2.6', '4.2.8', '4.8.3', '4.8.6', '5.0.4', '5.2.6', '5.9.6', '5.9.7', '6.0.0', '6.1.0', '6.1.1', '6.1.2', '6.1.3', '6.1.4', '6.2.0', '6.2.1', '6.2.2']
-2025-01-17 16:42:10.681 INFO Processing version folder: 3.12.19
-2025-01-17 16:42:10.681 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-3.12.19
-2025-01-17 16:42:17.235 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.19\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:42:17.251 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
-2025-01-17 16:42:17.252 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:42:17.253 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.19\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:42:17.254 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.19\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:42:17.269 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
-2025-01-17 16:42:17.271 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:42:17.271 INFO   Fill in the missing Author entry: # Author: -> Author: TablePlus Inc.
-2025-01-17 16:42:17.272 INFO   Fill in the missing PrivacyUrl entry: # PrivacyUrl: -> PrivacyUrl: https://tableplus.com/privacy
-2025-01-17 16:42:17.273 INFO   Fill in the missing PublisherSupportUrl entry: # PublisherSupportUrl: -> PublisherSupportUrl: https://tableplus.com/contact
-2025-01-17 16:42:17.273 INFO   Fill in the missing PublisherUrl entry: # PublisherUrl: -> PublisherUrl: https://tableplus.com/
-2025-01-17 16:42:17.274 INFO   Correction to Licence entry: License: Copyright... -> License: Proprietary
-2025-01-17 16:42:17.274 INFO   Fill in the missing Copyright entry: # Copyright: -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
-2025-01-17 16:42:17.275 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD
-2025-01-17 16:42:17.275 INFO   Cleaning up redundant comments on Moniker entry: # Moniker: "" -> # Moniker: tableplus
-2025-01-17 16:42:17.276 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.19\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:42:17.277 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.19\TablePlus.TablePlus.yaml
-2025-01-17 16:42:17.292 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
-2025-01-17 16:42:17.292 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:42:17.292 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.19\TablePlus.TablePlus.yaml
-2025-01-17 16:42:17.292 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.19\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:42:17.292 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.19\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:42:17.292 INFO   Staging and Committing Changes to Git
-2025-01-17 16:42:21.164 INFO     Commit message: Modify: TablePlus.TablePlus version 3.12.19 (Auto)
-2025-01-17 16:42:21.164 INFO   Pushing changes to remote (origin) repository
-2025-01-17 16:42:35.799 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-3.12.19
-2025-01-17 16:42:35.800 INFO Processing version folder: 3.12.20
-2025-01-17 16:42:35.801 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-3.12.20
-2025-01-17 16:42:39.501 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.20\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:42:39.518 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
-2025-01-17 16:42:39.518 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:42:39.518 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.20\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:42:39.518 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.20\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:42:39.542 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
-2025-01-17 16:42:39.542 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:42:39.542 INFO   Fill in the missing Author entry: # Author: -> Author: TablePlus Inc.
-2025-01-17 16:42:39.546 INFO   Fill in the missing PrivacyUrl entry: # PrivacyUrl: -> PrivacyUrl: https://tableplus.com/privacy
-2025-01-17 16:42:39.547 INFO   Fill in the missing PublisherSupportUrl entry: # PublisherSupportUrl: -> PublisherSupportUrl: https://tableplus.com/contact
-2025-01-17 16:42:39.547 INFO   Fill in the missing PublisherUrl entry: # PublisherUrl: -> PublisherUrl: https://tableplus.com/
-2025-01-17 16:42:39.548 INFO   Correction to Licence entry: License: Copyright... -> License: Proprietary
-2025-01-17 16:42:39.549 INFO   Fill in the missing Copyright entry: # Copyright: -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
-2025-01-17 16:42:39.549 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD
-2025-01-17 16:42:39.550 INFO   Cleaning up redundant comments on Moniker entry: # Moniker: "" -> # Moniker: tableplus
-2025-01-17 16:42:39.552 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.20\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:42:39.553 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.20\TablePlus.TablePlus.yaml
-2025-01-17 16:42:39.568 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
-2025-01-17 16:42:39.569 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:42:39.571 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.20\TablePlus.TablePlus.yaml
-2025-01-17 16:42:39.573 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.20\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:42:39.575 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.20\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:42:39.576 INFO   Staging and Committing Changes to Git
-2025-01-17 16:42:44.308 INFO     Commit message: Modify: TablePlus.TablePlus version 3.12.20 (Auto)
-2025-01-17 16:42:44.310 INFO   Pushing changes to remote (origin) repository
-2025-01-17 16:42:55.308 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-3.12.20
-2025-01-17 16:42:55.310 INFO Processing version folder: 4.0.3
-2025-01-17 16:42:55.311 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-4.0.3
-2025-01-17 16:43:01.888 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.3\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:43:01.911 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
-2025-01-17 16:43:01.913 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:43:01.915 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.3\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:43:01.917 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.3\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:43:01.948 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
-2025-01-17 16:43:01.950 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:43:01.950 INFO   Fill in the missing Author entry: # Author: -> Author: TablePlus Inc.
-2025-01-17 16:43:01.951 INFO   Fill in the missing PrivacyUrl entry: # PrivacyUrl: -> PrivacyUrl: https://tableplus.com/privacy
-2025-01-17 16:43:01.952 INFO   Fill in the missing PublisherSupportUrl entry: # PublisherSupportUrl: -> PublisherSupportUrl: https://tableplus.com/contact
-2025-01-17 16:43:01.953 INFO   Fill in the missing PublisherUrl entry: # PublisherUrl: -> PublisherUrl: https://tableplus.com/
-2025-01-17 16:43:01.954 INFO   Correction to Licence entry: License: Copyright... -> License: Proprietary
-2025-01-17 16:43:01.954 INFO   Fill in the missing Copyright entry: # Copyright: -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
-2025-01-17 16:43:01.955 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD
-2025-01-17 16:43:01.957 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.3\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:43:01.959 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.3\TablePlus.TablePlus.yaml
-2025-01-17 16:43:01.984 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
-2025-01-17 16:43:01.985 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:43:01.987 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.3\TablePlus.TablePlus.yaml
-2025-01-17 16:43:01.993 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.3\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:43:01.996 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.3\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:43:01.999 INFO   Staging and Committing Changes to Git
-2025-01-17 16:43:09.678 INFO     Commit message: Modify: TablePlus.TablePlus version 4.0.3 (Auto)
-2025-01-17 16:43:09.680 INFO   Pushing changes to remote (origin) repository
-2025-01-17 16:43:22.218 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-4.0.3
-2025-01-17 16:43:22.220 INFO Processing version folder: 4.0.5
-2025-01-17 16:43:22.223 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-4.0.5
-2025-01-17 16:43:26.203 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.5\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:43:26.219 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
-2025-01-17 16:43:26.219 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:43:26.225 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.5\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:43:26.226 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.5\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:43:26.243 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
-2025-01-17 16:43:26.244 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:43:26.245 INFO   Fill in the missing Author entry: # Author: -> Author: TablePlus Inc.
-2025-01-17 16:43:26.246 INFO   Fill in the missing PrivacyUrl entry: # PrivacyUrl: -> PrivacyUrl: https://tableplus.com/privacy
-2025-01-17 16:43:26.246 INFO   Fill in the missing PublisherSupportUrl entry: # PublisherSupportUrl: -> PublisherSupportUrl: https://tableplus.com/contact
-2025-01-17 16:43:26.247 INFO   Fill in the missing PublisherUrl entry: # PublisherUrl: -> PublisherUrl: https://tableplus.com/
-2025-01-17 16:43:26.247 INFO   Correction to Licence entry: License: Copyright... -> License: Proprietary
-2025-01-17 16:43:26.248 INFO   Fill in the missing Copyright entry: # Copyright: -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
-2025-01-17 16:43:26.248 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD
-2025-01-17 16:43:26.250 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.5\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:43:26.252 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.5\TablePlus.TablePlus.yaml
-2025-01-17 16:43:26.270 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
-2025-01-17 16:43:26.271 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:43:26.273 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.5\TablePlus.TablePlus.yaml
-2025-01-17 16:43:26.274 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.5\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:43:26.277 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.5\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:43:26.279 INFO   Staging and Committing Changes to Git
-2025-01-17 16:43:30.802 INFO     Commit message: Modify: TablePlus.TablePlus version 4.0.5 (Auto)
-2025-01-17 16:43:30.802 INFO   Pushing changes to remote (origin) repository
-2025-01-17 16:43:46.825 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-4.0.5
-2025-01-17 16:43:46.829 INFO Processing version folder: 4.1.2
-2025-01-17 16:43:46.831 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-4.1.2
-2025-01-17 16:43:51.776 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.1.2\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:43:51.794 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
-2025-01-17 16:43:51.795 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:43:51.798 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.1.2\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:43:51.799 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.1.2\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:43:51.815 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
-2025-01-17 16:43:51.817 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:43:51.817 INFO   Fill in the missing Author entry: NULL -> Author: TablePlus Inc.
-2025-01-17 16:43:51.818 INFO   Fill in the missing PrivacyUrl entry: NULL -> PrivacyUrl: https://tableplus.com/privacy
-2025-01-17 16:43:51.819 INFO   Fill in the missing PublisherSupportUrl entry: NULL -> PublisherSupportUrl: https://tableplus.com/contact
-2025-01-17 16:43:51.819 INFO   Fill in the missing PublisherUrl entry: NULL -> PublisherUrl: https://tableplus.com/
-2025-01-17 16:43:51.820 INFO   Correction to Licence entry: License: Copyright... -> License: Proprietary
-2025-01-17 16:43:51.820 INFO   Fill in the missing Copyright entry: NULL -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
-2025-01-17 16:43:51.821 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD - NULL
-2025-01-17 16:43:51.821 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.1.2\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:43:51.821 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.1.2\TablePlus.TablePlus.yaml
-2025-01-17 16:43:51.842 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
-2025-01-17 16:43:51.843 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:43:51.845 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.1.2\TablePlus.TablePlus.yaml
-2025-01-17 16:43:51.847 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.1.2\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:43:51.849 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.1.2\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:43:51.850 INFO   Staging and Committing Changes to Git
-2025-01-17 16:43:56.664 INFO     Commit message: Modify: TablePlus.TablePlus version 4.1.2 (Auto)
-2025-01-17 16:43:56.666 INFO   Pushing changes to remote (origin) repository
-2025-01-17 16:44:09.719 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-4.1.2
-2025-01-17 16:44:09.719 INFO Processing version folder: 4.2.0
-2025-01-17 16:44:09.730 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-4.2.0
-2025-01-17 16:44:13.784 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.0\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:44:13.789 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
-2025-01-17 16:44:13.804 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:44:13.806 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.0\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:44:13.806 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.0\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:44:13.823 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
-2025-01-17 16:44:13.823 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:44:13.823 INFO   Fill in the missing Author entry: NULL -> Author: TablePlus Inc.
-2025-01-17 16:44:13.823 INFO   Fill in the missing PrivacyUrl entry: NULL -> PrivacyUrl: https://tableplus.com/privacy
-2025-01-17 16:44:13.828 INFO   Fill in the missing PublisherSupportUrl entry: NULL -> PublisherSupportUrl: https://tableplus.com/contact
-2025-01-17 16:44:13.828 INFO   Fill in the missing PublisherUrl entry: NULL -> PublisherUrl: https://tableplus.com/
-2025-01-17 16:44:13.829 INFO   Correction to Licence entry: License: Copyright... -> License: Proprietary
-2025-01-17 16:44:13.829 INFO   Fill in the missing Copyright entry: NULL -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
-2025-01-17 16:44:13.829 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD - NULL
-2025-01-17 16:44:13.830 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.0\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:44:13.831 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.0\TablePlus.TablePlus.yaml
-2025-01-17 16:44:13.846 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
-2025-01-17 16:44:13.847 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:44:13.848 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.0\TablePlus.TablePlus.yaml
-2025-01-17 16:44:13.849 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.0\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:44:13.851 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.0\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:44:13.851 INFO   Staging and Committing Changes to Git
-2025-01-17 16:44:19.895 INFO     Commit message: Modify: TablePlus.TablePlus version 4.2.0 (Auto)
-2025-01-17 16:44:19.895 INFO   Pushing changes to remote (origin) repository
-2025-01-17 16:44:28.121 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-4.2.0
-2025-01-17 16:44:28.121 INFO Processing version folder: 4.2.12
-2025-01-17 16:44:28.128 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-4.2.12
-2025-01-17 16:44:32.305 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.12\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:44:32.329 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
-2025-01-17 16:44:32.331 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:44:32.332 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.12\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:44:32.333 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.12\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:44:32.360 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
-2025-01-17 16:44:32.361 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:44:32.362 INFO   Fill in the missing Author entry: NULL -> Author: TablePlus Inc.
-2025-01-17 16:44:32.363 INFO   Fill in the missing PublisherUrl entry: NULL -> PublisherUrl: https://tableplus.com/
-2025-01-17 16:44:32.364 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD - NULL
-2025-01-17 16:44:32.365 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
-2025-01-17 16:44:32.366 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
-2025-01-17 16:44:32.368 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.12\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:44:32.370 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.12\TablePlus.TablePlus.yaml
-2025-01-17 16:44:32.394 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
-2025-01-17 16:44:32.397 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:44:32.399 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.12\TablePlus.TablePlus.yaml
-2025-01-17 16:44:32.402 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.12\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:44:32.405 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.12\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:44:32.407 INFO   Staging and Committing Changes to Git
-2025-01-17 16:44:37.631 INFO     Commit message: Modify: TablePlus.TablePlus version 4.2.12 (Auto)
-2025-01-17 16:44:37.631 INFO   Pushing changes to remote (origin) repository
-2025-01-17 16:44:47.575 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-4.2.12
-2025-01-17 16:44:47.575 INFO Processing version folder: 4.2.3
-2025-01-17 16:44:47.581 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-4.2.3
-2025-01-17 16:44:51.799 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.3\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:44:51.815 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
-2025-01-17 16:44:51.816 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:44:51.819 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.3\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:44:51.820 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.3\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:44:51.836 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
-2025-01-17 16:44:51.837 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:44:51.838 INFO   Fill in the missing Author entry: NULL -> Author: TablePlus Inc.
-2025-01-17 16:44:51.838 INFO   Fill in the missing PrivacyUrl entry: NULL -> PrivacyUrl: https://tableplus.com/privacy
-2025-01-17 16:44:51.839 INFO   Fill in the missing PublisherSupportUrl entry: NULL -> PublisherSupportUrl: https://tableplus.com/contact
-2025-01-17 16:44:51.839 INFO   Fill in the missing PublisherUrl entry: NULL -> PublisherUrl: https://tableplus.com/
-2025-01-17 16:44:51.840 INFO   Correction to Licence entry: License: Copyright... -> License: Proprietary
-2025-01-17 16:44:51.841 INFO   Fill in the missing Copyright entry: NULL -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
-2025-01-17 16:44:51.841 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD - NULL
-2025-01-17 16:44:51.844 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.3\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:44:51.845 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.3\TablePlus.TablePlus.yaml
-2025-01-17 16:44:51.859 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
-2025-01-17 16:44:51.860 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:44:51.861 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.3\TablePlus.TablePlus.yaml
-2025-01-17 16:44:51.863 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.3\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:44:51.863 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.3\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:44:51.863 INFO   Staging and Committing Changes to Git
-2025-01-17 16:44:56.106 INFO     Commit message: Modify: TablePlus.TablePlus version 4.2.3 (Auto)
-2025-01-17 16:44:56.108 INFO   Pushing changes to remote (origin) repository
-2025-01-17 16:45:06.671 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-4.2.3
-2025-01-17 16:45:06.671 INFO Processing version folder: 4.2.4
-2025-01-17 16:45:06.687 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-4.2.4
-2025-01-17 16:45:10.317 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.4\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:45:10.336 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
-2025-01-17 16:45:10.337 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:45:10.338 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.4\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:45:10.339 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.4\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:45:10.357 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
-2025-01-17 16:45:10.358 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:45:10.359 INFO   Fill in the missing Author entry: NULL -> Author: TablePlus Inc.
-2025-01-17 16:45:10.359 INFO   Fill in the missing PublisherUrl entry: NULL -> PublisherUrl: https://tableplus.com/
-2025-01-17 16:45:10.359 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD - NULL
-2025-01-17 16:45:10.359 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
-2025-01-17 16:45:10.359 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
-2025-01-17 16:45:10.359 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.4\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:45:10.359 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.4\TablePlus.TablePlus.yaml
-2025-01-17 16:45:10.373 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
-2025-01-17 16:45:10.373 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:45:10.380 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.4\TablePlus.TablePlus.yaml
-2025-01-17 16:45:10.381 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.4\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:45:10.383 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.4\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:45:10.384 INFO   Staging and Committing Changes to Git
-2025-01-17 16:45:14.550 INFO     Commit message: Modify: TablePlus.TablePlus version 4.2.4 (Auto)
-2025-01-17 16:45:14.564 INFO   Pushing changes to remote (origin) repository
-2025-01-17 16:45:24.126 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-4.2.4
-2025-01-17 16:45:24.126 INFO Processing version folder: 4.2.6
-2025-01-17 16:45:24.126 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-4.2.6
-2025-01-17 16:45:27.903 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.6\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:45:27.922 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
-2025-01-17 16:45:27.923 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:45:27.925 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.6\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:45:27.927 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.6\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:45:27.948 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
-2025-01-17 16:45:27.950 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:45:27.951 INFO   Fill in the missing Author entry: NULL -> Author: TablePlus Inc.
-2025-01-17 16:45:27.952 INFO   Fill in the missing PublisherUrl entry: NULL -> PublisherUrl: https://tableplus.com/
-2025-01-17 16:45:27.952 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD - NULL
-2025-01-17 16:45:27.953 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
-2025-01-17 16:45:27.953 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
-2025-01-17 16:45:27.954 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.6\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:45:27.955 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.6\TablePlus.TablePlus.yaml
-2025-01-17 16:45:27.971 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
-2025-01-17 16:45:27.972 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:45:27.973 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.6\TablePlus.TablePlus.yaml
-2025-01-17 16:45:27.974 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.6\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:45:27.976 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.6\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:45:27.977 INFO   Staging and Committing Changes to Git
-2025-01-17 16:45:32.128 INFO     Commit message: Modify: TablePlus.TablePlus version 4.2.6 (Auto)
-2025-01-17 16:45:32.128 INFO   Pushing changes to remote (origin) repository
-2025-01-17 16:45:40.797 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-4.2.6
-2025-01-17 16:45:40.797 INFO Processing version folder: 4.2.8
-2025-01-17 16:45:40.797 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-4.2.8
-2025-01-17 16:45:45.502 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.8\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:45:45.520 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
-2025-01-17 16:45:45.521 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:45:45.522 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.8\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:45:45.524 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.8\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:45:45.543 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
-2025-01-17 16:45:45.544 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:45:45.545 INFO   Fill in the missing Author entry: NULL -> Author: TablePlus Inc.
-2025-01-17 16:45:45.546 INFO   Fill in the missing PublisherUrl entry: NULL -> PublisherUrl: https://tableplus.com/
-2025-01-17 16:45:45.546 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD - NULL
-2025-01-17 16:45:45.547 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
-2025-01-17 16:45:45.548 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
-2025-01-17 16:45:45.549 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.8\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:45:45.550 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.8\TablePlus.TablePlus.yaml
-2025-01-17 16:45:45.566 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
-2025-01-17 16:45:45.568 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:45:45.569 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.8\TablePlus.TablePlus.yaml
-2025-01-17 16:45:45.571 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.8\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:45:45.573 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.8\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:45:45.575 INFO   Staging and Committing Changes to Git
-2025-01-17 16:45:50.329 INFO     Commit message: Modify: TablePlus.TablePlus version 4.2.8 (Auto)
-2025-01-17 16:45:50.329 INFO   Pushing changes to remote (origin) repository
-2025-01-17 16:45:59.481 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-4.2.8
-2025-01-17 16:45:59.497 INFO Processing version folder: 4.8.3
-2025-01-17 16:45:59.497 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-4.8.3
-2025-01-17 16:46:03.432 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.3\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:46:03.449 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
-2025-01-17 16:46:03.460 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:46:03.462 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.3\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:46:03.464 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.3\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:46:03.481 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
-2025-01-17 16:46:03.481 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:46:03.481 INFO   Fill in the missing Author entry: # Author: -> Author: TablePlus Inc.
-2025-01-17 16:46:03.481 INFO   Fill in the missing PublisherUrl entry: # PublisherUrl: -> PublisherUrl: https://tableplus.com/
-2025-01-17 16:46:03.481 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD
-2025-01-17 16:46:03.494 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
-2025-01-17 16:46:03.495 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
-2025-01-17 16:46:03.497 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.3\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:46:03.498 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.3\TablePlus.TablePlus.yaml
-2025-01-17 16:46:03.514 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
-2025-01-17 16:46:03.516 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:46:03.517 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.3\TablePlus.TablePlus.yaml
-2025-01-17 16:46:03.520 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.3\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:46:03.522 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.3\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:46:03.523 INFO   Staging and Committing Changes to Git
-2025-01-17 16:46:07.975 INFO     Commit message: Modify: TablePlus.TablePlus version 4.8.3 (Auto)
-2025-01-17 16:46:07.975 INFO   Pushing changes to remote (origin) repository
-2025-01-17 16:46:20.503 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-4.8.3
-2025-01-17 16:46:20.504 INFO Processing version folder: 4.8.6
-2025-01-17 16:46:20.505 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-4.8.6
-2025-01-17 16:46:24.114 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.6\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:46:24.145 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
-2025-01-17 16:46:24.145 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:46:24.145 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.6\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:46:24.145 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.6\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:46:24.161 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
-2025-01-17 16:46:24.161 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:46:24.161 INFO   Fill in the missing Author entry: # Author: -> Author: TablePlus Inc.
-2025-01-17 16:46:24.161 INFO   Fill in the missing PublisherUrl entry: # PublisherUrl: -> PublisherUrl: https://tableplus.com/
-2025-01-17 16:46:24.161 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD
-2025-01-17 16:46:24.161 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
-2025-01-17 16:46:24.177 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
-2025-01-17 16:46:24.177 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.6\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:46:24.177 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.6\TablePlus.TablePlus.yaml
-2025-01-17 16:46:24.192 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
-2025-01-17 16:46:24.192 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:46:24.192 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.6\TablePlus.TablePlus.yaml
-2025-01-17 16:46:24.192 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.6\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:46:24.192 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.6\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:46:24.192 INFO   Staging and Committing Changes to Git
-2025-01-17 16:46:28.127 INFO     Commit message: Modify: TablePlus.TablePlus version 4.8.6 (Auto)
-2025-01-17 16:46:28.127 INFO   Pushing changes to remote (origin) repository
-2025-01-17 16:46:37.180 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-4.8.6
-2025-01-17 16:46:37.180 INFO Processing version folder: 5.0.4
-2025-01-17 16:46:37.180 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-5.0.4
-2025-01-17 16:46:42.560 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.0.4\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:46:42.576 INFO     Replace ManifestVersion: 1.2.0 -> 1.9.0
-2025-01-17 16:46:42.592 INFO     Replace schema references: 1.2.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:46:42.592 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.0.4\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:46:42.592 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.0.4\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:46:42.622 INFO     Replace ManifestVersion: 1.2.0 -> 1.9.0
-2025-01-17 16:46:42.622 INFO     Replace schema references: 1.2.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:46:42.622 INFO   Fill in the missing Author entry: NULL -> Author: TablePlus Inc.
-2025-01-17 16:46:42.622 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD - NULL
-2025-01-17 16:46:42.622 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
-2025-01-17 16:46:42.622 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
-2025-01-17 16:46:42.622 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.0.4\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:46:42.622 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.0.4\TablePlus.TablePlus.yaml
-2025-01-17 16:46:42.638 INFO     Replace ManifestVersion: 1.2.0 -> 1.9.0
-2025-01-17 16:46:42.638 INFO     Replace schema references: 1.2.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:46:42.638 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.0.4\TablePlus.TablePlus.yaml
-2025-01-17 16:46:42.638 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.0.4\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:46:42.638 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.0.4\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:46:42.638 INFO   Staging and Committing Changes to Git
-2025-01-17 16:46:46.621 INFO     Commit message: Modify: TablePlus.TablePlus version 5.0.4 (Auto)
-2025-01-17 16:46:46.621 INFO   Pushing changes to remote (origin) repository
-2025-01-17 16:46:59.711 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-5.0.4
-2025-01-17 16:46:59.711 INFO Processing version folder: 5.2.6
-2025-01-17 16:46:59.711 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-5.2.6
-2025-01-17 16:47:04.640 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.2.6\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:47:04.661 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-17 16:47:04.663 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:47:04.664 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.2.6\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:47:04.666 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.2.6\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:47:04.691 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-17 16:47:04.692 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:47:04.693 INFO   Fill in the missing Author entry: NULL -> Author: TablePlus Inc.
-2025-01-17 16:47:04.694 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD - NULL
-2025-01-17 16:47:04.694 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
-2025-01-17 16:47:04.694 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
-2025-01-17 16:47:04.696 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.2.6\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:47:04.697 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.2.6\TablePlus.TablePlus.yaml
-2025-01-17 16:47:04.714 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-17 16:47:04.715 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:47:04.717 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.2.6\TablePlus.TablePlus.yaml
-2025-01-17 16:47:04.720 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.2.6\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:47:04.722 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.2.6\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:47:04.724 INFO   Staging and Committing Changes to Git
-2025-01-17 16:47:09.877 INFO     Commit message: Modify: TablePlus.TablePlus version 5.2.6 (Auto)
-2025-01-17 16:47:09.878 INFO   Pushing changes to remote (origin) repository
-2025-01-17 16:47:18.636 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-5.2.6
-2025-01-17 16:47:18.636 INFO Processing version folder: 5.9.6
-2025-01-17 16:47:18.636 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-5.9.6
-2025-01-17 16:47:22.569 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.6\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:47:22.586 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:47:22.588 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:47:22.588 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.6\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:47:22.588 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.6\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:47:22.605 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:47:22.605 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:47:22.605 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
-2025-01-17 16:47:22.605 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
-2025-01-17 16:47:22.605 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
-2025-01-17 16:47:22.605 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.6\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:47:22.605 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.6\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:47:22.622 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:47:22.622 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:47:22.622 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright (c) 2025 TablePlus Inc. 保留所有权利. (zh-CN Locale Manifest)
-2025-01-17 16:47:22.636 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.6\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:47:22.638 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.6\TablePlus.TablePlus.yaml
-2025-01-17 16:47:22.638 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:47:22.653 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:47:22.654 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.6\TablePlus.TablePlus.yaml
-2025-01-17 16:47:22.655 WARNING   zh-CN locale manifest file already exists, skip creating it: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.6\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:47:22.655 INFO   Staging and Committing Changes to Git
-2025-01-17 16:47:27.334 INFO     Commit message: Modify: TablePlus.TablePlus version 5.9.6 (Auto)
-2025-01-17 16:47:27.334 INFO   Pushing changes to remote (origin) repository
-2025-01-17 16:47:37.534 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-5.9.6
-2025-01-17 16:47:37.534 INFO Processing version folder: 5.9.7
-2025-01-17 16:47:37.534 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-5.9.7
-2025-01-17 16:47:41.628 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.7\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:47:41.784 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:47:41.784 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:47:41.784 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.7\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:47:41.940 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.7\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:47:41.109 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:47:41.109 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:47:41.109 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
-2025-01-17 16:47:41.109 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
-2025-01-17 16:47:41.109 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
-2025-01-17 16:47:41.109 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.7\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:47:41.109 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.7\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:47:41.140 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:47:41.140 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:47:41.140 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright (c) 2025 TablePlus Inc. 保留所有权利. (zh-CN Locale Manifest)
-2025-01-17 16:47:41.140 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.7\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:47:41.140 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.7\TablePlus.TablePlus.yaml
-2025-01-17 16:47:41.156 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:47:41.156 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:47:41.156 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.7\TablePlus.TablePlus.yaml
-2025-01-17 16:47:41.156 WARNING   zh-CN locale manifest file already exists, skip creating it: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.7\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:47:41.156 INFO   Staging and Committing Changes to Git
-2025-01-17 16:47:45.158 INFO     Commit message: Modify: TablePlus.TablePlus version 5.9.7 (Auto)
-2025-01-17 16:47:45.158 INFO   Pushing changes to remote (origin) repository
-2025-01-17 16:47:53.772 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-5.9.7
-2025-01-17 16:47:53.772 INFO Processing version folder: 6.0.0
-2025-01-17 16:47:53.772 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-6.0.0
-2025-01-17 16:47:57.599 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.0.0\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:47:57.632 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:47:57.632 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:47:57.632 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.0.0\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:47:57.632 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.0.0\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:47:57.649 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:47:57.649 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:47:57.649 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
-2025-01-17 16:47:57.649 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
-2025-01-17 16:47:57.649 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
-2025-01-17 16:47:57.665 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.0.0\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:47:57.665 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.0.0\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:47:57.699 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:47:57.699 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:47:57.699 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright (c) 2025 TablePlus Inc. 保留所有权利. (zh-CN Locale Manifest)
-2025-01-17 16:47:57.699 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.0.0\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:47:57.716 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.0.0\TablePlus.TablePlus.yaml
-2025-01-17 16:47:57.749 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:47:57.765 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:47:57.765 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.0.0\TablePlus.TablePlus.yaml
-2025-01-17 16:47:57.765 WARNING   zh-CN locale manifest file already exists, skip creating it: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.0.0\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:47:57.765 INFO   Staging and Committing Changes to Git
-2025-01-17 16:48:03.404 INFO     Commit message: Modify: TablePlus.TablePlus version 6.0.0 (Auto)
-2025-01-17 16:48:03.406 INFO   Pushing changes to remote (origin) repository
-2025-01-17 16:48:15.176 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-6.0.0
-2025-01-17 16:48:15.176 INFO Processing version folder: 6.1.0
-2025-01-17 16:48:15.176 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-6.1.0
-2025-01-17 16:48:18.738 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.0\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:48:18.753 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:48:18.753 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:48:18.753 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.0\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:48:18.753 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.0\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:48:18.769 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:48:18.784 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:48:18.784 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
-2025-01-17 16:48:18.784 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
-2025-01-17 16:48:18.784 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
-2025-01-17 16:48:18.784 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.0\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:48:18.784 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.0\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:48:18.800 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:48:18.800 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:48:18.800 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright (c) 2025 TablePlus Inc. 保留所有权利. (zh-CN Locale Manifest)
-2025-01-17 16:48:18.800 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.0\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:48:18.800 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.0\TablePlus.TablePlus.yaml
-2025-01-17 16:48:18.816 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:48:18.816 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:48:18.816 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.0\TablePlus.TablePlus.yaml
-2025-01-17 16:48:18.831 WARNING   zh-CN locale manifest file already exists, skip creating it: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.0\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:48:18.831 INFO   Staging and Committing Changes to Git
-2025-01-17 16:48:23.925 INFO     Commit message: Modify: TablePlus.TablePlus version 6.1.0 (Auto)
-2025-01-17 16:48:23.925 INFO   Pushing changes to remote (origin) repository
-2025-01-17 16:48:33.911 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-6.1.0
-2025-01-17 16:48:33.911 INFO Processing version folder: 6.1.1
-2025-01-17 16:48:33.954 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-6.1.1
-2025-01-17 16:48:37.573 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.1\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:48:37.199 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:48:37.199 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:48:37.225 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.1\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:48:37.235 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.1\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:48:37.398 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:48:37.398 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:48:37.432 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
-2025-01-17 16:48:37.442 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
-2025-01-17 16:48:37.442 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
-2025-01-17 16:48:37.462 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.1\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:48:37.472 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.1\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:48:37.714 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:48:37.724 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:48:37.734 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright (c) 2025 TablePlus Inc. 保留所有权利. (zh-CN Locale Manifest)
-2025-01-17 16:48:37.744 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.1\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:48:37.754 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.1\TablePlus.TablePlus.yaml
-2025-01-17 16:48:37.889 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:48:37.889 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:48:37.944 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.1\TablePlus.TablePlus.yaml
-2025-01-17 16:48:37.963 WARNING   zh-CN locale manifest file already exists, skip creating it: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.1\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:48:37.974 INFO   Staging and Committing Changes to Git
-2025-01-17 16:48:41.645 INFO     Commit message: Modify: TablePlus.TablePlus version 6.1.1 (Auto)
-2025-01-17 16:48:41.647 INFO   Pushing changes to remote (origin) repository
-2025-01-17 16:48:52.915 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-6.1.1
-2025-01-17 16:48:52.915 INFO Processing version folder: 6.1.2
-2025-01-17 16:48:52.926 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-6.1.2
-2025-01-17 16:48:56.802 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.2\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:48:56.817 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:48:56.817 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:48:56.817 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.2\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:48:56.817 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.2\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:48:56.835 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:48:56.835 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:48:56.842 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
-2025-01-17 16:48:56.843 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
-2025-01-17 16:48:56.843 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
-2025-01-17 16:48:56.845 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.2\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:48:56.846 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.2\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:48:56.865 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:48:56.866 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:48:56.867 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright (c) 2025 TablePlus Inc. 保留所有权利. (zh-CN Locale Manifest)
-2025-01-17 16:48:56.868 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.2\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:48:56.869 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.2\TablePlus.TablePlus.yaml
-2025-01-17 16:48:56.875 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:48:56.875 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:48:56.875 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.2\TablePlus.TablePlus.yaml
-2025-01-17 16:48:56.875 WARNING   zh-CN locale manifest file already exists, skip creating it: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.2\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:48:56.875 INFO   Staging and Committing Changes to Git
-2025-01-17 16:49:01.104 INFO     Commit message: Modify: TablePlus.TablePlus version 6.1.2 (Auto)
-2025-01-17 16:49:01.104 INFO   Pushing changes to remote (origin) repository
-2025-01-17 16:49:10.186 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-6.1.2
-2025-01-17 16:49:10.186 INFO Processing version folder: 6.1.3
-2025-01-17 16:49:10.186 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-6.1.3
-2025-01-17 16:49:13.885 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.3\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:49:13.916 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:49:13.916 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:49:13.916 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.3\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:49:13.916 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.3\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:49:13.932 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:49:13.932 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:49:13.932 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
-2025-01-17 16:49:13.932 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
-2025-01-17 16:49:13.932 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
-2025-01-17 16:49:13.945 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.3\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:49:13.946 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.3\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:49:13.964 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:49:13.965 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:49:13.967 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright (c) 2025 TablePlus Inc. 保留所有权利. (zh-CN Locale Manifest)
-2025-01-17 16:49:13.968 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.3\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:49:13.969 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.3\TablePlus.TablePlus.yaml
-2025-01-17 16:49:13.984 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:49:13.985 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:49:13.986 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.3\TablePlus.TablePlus.yaml
-2025-01-17 16:49:13.988 WARNING   zh-CN locale manifest file already exists, skip creating it: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.3\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:49:13.989 INFO   Staging and Committing Changes to Git
-2025-01-17 16:49:18.417 INFO     Commit message: Modify: TablePlus.TablePlus version 6.1.3 (Auto)
-2025-01-17 16:49:18.427 INFO   Pushing changes to remote (origin) repository
-2025-01-17 16:49:27.680 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-6.1.3
-2025-01-17 16:49:27.682 INFO Processing version folder: 6.1.4
-2025-01-17 16:49:27.683 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-6.1.4
-2025-01-17 16:49:31.323 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.4\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:49:31.339 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:49:31.339 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:49:31.339 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.4\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:49:31.339 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.4\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:49:31.354 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:49:31.354 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:49:31.370 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
-2025-01-17 16:49:31.370 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
-2025-01-17 16:49:31.370 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
-2025-01-17 16:49:31.370 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.4\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:49:31.370 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.4\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:49:31.386 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:49:31.386 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:49:31.386 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright (c) 2025 TablePlus Inc. 保留所有权利. (zh-CN Locale Manifest)
-2025-01-17 16:49:31.386 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.4\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:49:31.401 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.4\TablePlus.TablePlus.yaml
-2025-01-17 16:49:31.417 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:49:31.417 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:49:31.417 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.4\TablePlus.TablePlus.yaml
-2025-01-17 16:49:31.417 WARNING   zh-CN locale manifest file already exists, skip creating it: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.4\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:49:31.417 INFO   Staging and Committing Changes to Git
-2025-01-17 16:49:35.602 INFO     Commit message: Modify: TablePlus.TablePlus version 6.1.4 (Auto)
-2025-01-17 16:49:35.602 INFO   Pushing changes to remote (origin) repository
-2025-01-17 16:49:44.105 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-6.1.4
-2025-01-17 16:49:44.106 INFO Processing version folder: 6.2.0
-2025-01-17 16:49:44.107 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-6.2.0
-2025-01-17 16:49:48.837 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.0\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:49:48.871 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:49:48.872 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:49:48.874 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.0\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:49:48.875 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.0\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:49:48.899 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:49:48.901 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:49:48.901 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
-2025-01-17 16:49:48.902 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
-2025-01-17 16:49:48.903 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
-2025-01-17 16:49:48.905 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.0\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:49:48.907 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.0\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:49:48.928 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:49:48.929 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:49:48.930 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright (c) 2025 TablePlus Inc. 保留所有权利. (zh-CN Locale Manifest)
-2025-01-17 16:49:48.931 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.0\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:49:48.932 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.0\TablePlus.TablePlus.yaml
-2025-01-17 16:49:48.950 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:49:48.951 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:49:48.952 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.0\TablePlus.TablePlus.yaml
-2025-01-17 16:49:48.954 WARNING   zh-CN locale manifest file already exists, skip creating it: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.0\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:49:48.956 INFO   Staging and Committing Changes to Git
-2025-01-17 16:49:53.227 INFO     Commit message: Modify: TablePlus.TablePlus version 6.2.0 (Auto)
-2025-01-17 16:49:53.227 INFO   Pushing changes to remote (origin) repository
-2025-01-17 16:50:02.285 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-6.2.0
-2025-01-17 16:50:02.287 INFO Processing version folder: 6.2.1
-2025-01-17 16:50:02.288 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-6.2.1
-2025-01-17 16:50:05.733 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.1\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:50:05.748 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:50:05.764 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:50:05.766 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.1\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:50:05.767 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.1\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:50:05.785 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:50:05.785 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:50:05.785 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
-2025-01-17 16:50:05.785 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
-2025-01-17 16:50:05.785 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
-2025-01-17 16:50:05.794 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.1\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:50:05.795 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.1\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:50:05.811 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:50:05.811 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:50:05.814 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright (c) 2025 TablePlus Inc. 保留所有权利. (zh-CN Locale Manifest)
-2025-01-17 16:50:05.815 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.1\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:50:05.816 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.1\TablePlus.TablePlus.yaml
-2025-01-17 16:50:05.818 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-17 16:50:05.818 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-17 16:50:05.833 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.1\TablePlus.TablePlus.yaml
-2025-01-17 16:50:05.835 WARNING   zh-CN locale manifest file already exists, skip creating it: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.1\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:50:05.835 INFO   Staging and Committing Changes to Git
-2025-01-17 16:50:09.701 INFO     Commit message: Modify: TablePlus.TablePlus version 6.2.1 (Auto)
-2025-01-17 16:50:09.701 INFO   Pushing changes to remote (origin) repository
-2025-01-17 16:50:18.674 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-6.2.1
-2025-01-17 16:50:18.674 INFO Processing version folder: 6.2.2
-2025-01-17 16:50:18.683 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-6.2.2
-2025-01-17 16:50:22.142 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.2\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:50:22.173 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.2\TablePlus.TablePlus.installer.yaml
-2025-01-17 16:50:22.174 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.2\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:50:22.193 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
-2025-01-17 16:50:22.193 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
-2025-01-17 16:50:22.193 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
-2025-01-17 16:50:22.199 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.2\TablePlus.TablePlus.locale.en-US.yaml
-2025-01-17 16:50:22.200 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.2\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:50:22.222 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright (c) 2025 TablePlus Inc. 保留所有权利. (zh-CN Locale Manifest)
-2025-01-17 16:50:22.223 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.2\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:50:22.223 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.2\TablePlus.TablePlus.yaml
-2025-01-17 16:50:22.241 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.2\TablePlus.TablePlus.yaml
-2025-01-17 16:50:22.245 WARNING   zh-CN locale manifest file already exists, skip creating it: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.2\TablePlus.TablePlus.locale.zh-CN.yaml
-2025-01-17 16:50:22.246 INFO   Staging and Committing Changes to Git
-2025-01-17 16:50:26.153 INFO     Commit message: Modify: TablePlus.TablePlus version 6.2.2 (Auto)
-2025-01-17 16:50:26.153 INFO   Pushing changes to remote (origin) repository
-2025-01-17 16:50:34.929 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-6.2.2
-2025-01-17 16:50:34.929 INFO All manifests have been modified and pushed through.
-2025-01-17 16:50:41.780 INFO Workspace clean-up completed.
+2025-01-17 18:24:57.277 INFO Found the following version folder: ['3.12.19', '3.12.20', '4.0.3', '4.0.5', '4.1.2', '4.2.0', '4.2.12', '4.2.3', '4.2.4', '4.2.6', '4.2.8', '4.8.3', '4.8.6', '5.0.4', '5.2.6', '5.9.6', '5.9.7', '6.0.0', '6.1.0', '6.1.1', '6.1.2', '6.1.3', '6.1.4', '6.2.0', '6.2.1', '6.2.2']
+2025-01-17 18:24:57.490 INFO Processing version folder: 3.12.19
+2025-01-17 18:24:57.490 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-3.12.19
+2025-01-17 18:25:01.489 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.19\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:25:01.509 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-01-17 18:25:01.519 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:25:01.539 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.19\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:25:01.549 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.19\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:25:01.549 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-01-17 18:25:01.549 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:25:01.549 INFO   Fill in the missing Author entry: # Author: -> Author: TablePlus Inc.
+2025-01-17 18:25:01.588 INFO   Fill in the missing PrivacyUrl entry: # PrivacyUrl: -> PrivacyUrl: https://tableplus.com/privacy
+2025-01-17 18:25:01.588 INFO   Fill in the missing PublisherSupportUrl entry: # PublisherSupportUrl: -> PublisherSupportUrl: https://tableplus.com/contact
+2025-01-17 18:25:01.598 INFO   Fill in the missing PublisherUrl entry: # PublisherUrl: -> PublisherUrl: https://tableplus.com/
+2025-01-17 18:25:01.598 INFO   Correction to Licence entry: License: Copyright... -> License: Proprietary
+2025-01-17 18:25:01.608 INFO   Fill in the missing Copyright entry: # Copyright: -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
+2025-01-17 18:25:01.608 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD
+2025-01-17 18:25:01.618 INFO   Cleaning up redundant comments on Moniker entry: # Moniker: "" -> # Moniker: tableplus
+2025-01-17 18:25:01.628 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.19\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:25:01.648 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.19\TablePlus.TablePlus.yaml
+2025-01-17 18:25:01.658 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-01-17 18:25:01.678 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:25:01.698 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.19\TablePlus.TablePlus.yaml
+2025-01-17 18:25:01.718 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.19\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:25:01.738 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.19\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:25:01.748 INFO   Staging and Committing Changes to Git
+2025-01-17 18:25:04.853 INFO     Commit message: Modify: TablePlus.TablePlus version 3.12.19 (Auto)
+2025-01-17 18:25:04.853 INFO   Pushing changes to remote (origin) repository
+2025-01-17 18:25:14.405 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-3.12.19
+2025-01-17 18:25:14.418 INFO Processing version folder: 3.12.20
+2025-01-17 18:25:14.419 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-3.12.20
+2025-01-17 18:25:18.161 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.20\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:25:18.179 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-01-17 18:25:18.180 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:25:18.182 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.20\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:25:18.182 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.20\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:25:18.201 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-01-17 18:25:18.201 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:25:18.204 INFO   Fill in the missing Author entry: # Author: -> Author: TablePlus Inc.
+2025-01-17 18:25:18.204 INFO   Fill in the missing PrivacyUrl entry: # PrivacyUrl: -> PrivacyUrl: https://tableplus.com/privacy
+2025-01-17 18:25:18.205 INFO   Fill in the missing PublisherSupportUrl entry: # PublisherSupportUrl: -> PublisherSupportUrl: https://tableplus.com/contact
+2025-01-17 18:25:18.205 INFO   Fill in the missing PublisherUrl entry: # PublisherUrl: -> PublisherUrl: https://tableplus.com/
+2025-01-17 18:25:18.206 INFO   Correction to Licence entry: License: Copyright... -> License: Proprietary
+2025-01-17 18:25:18.206 INFO   Fill in the missing Copyright entry: # Copyright: -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
+2025-01-17 18:25:18.207 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD
+2025-01-17 18:25:18.207 INFO   Cleaning up redundant comments on Moniker entry: # Moniker: "" -> # Moniker: tableplus
+2025-01-17 18:25:18.208 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.20\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:25:18.210 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.20\TablePlus.TablePlus.yaml
+2025-01-17 18:25:18.223 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-01-17 18:25:18.226 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:25:18.228 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.20\TablePlus.TablePlus.yaml
+2025-01-17 18:25:18.230 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.20\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:25:18.232 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\3.12.20\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:25:18.233 INFO   Staging and Committing Changes to Git
+2025-01-17 18:25:22.189 INFO     Commit message: Modify: TablePlus.TablePlus version 3.12.20 (Auto)
+2025-01-17 18:25:22.189 INFO   Pushing changes to remote (origin) repository
+2025-01-17 18:25:31.758 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-3.12.20
+2025-01-17 18:25:31.794 INFO Processing version folder: 4.0.3
+2025-01-17 18:25:31.804 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-4.0.3
+2025-01-17 18:25:34.858 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.3\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:25:34.874 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-01-17 18:25:34.876 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:25:34.878 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.3\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:25:34.880 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.3\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:25:34.898 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-01-17 18:25:34.899 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:25:34.900 INFO   Fill in the missing Author entry: # Author: -> Author: TablePlus Inc.
+2025-01-17 18:25:34.900 INFO   Fill in the missing PrivacyUrl entry: # PrivacyUrl: -> PrivacyUrl: https://tableplus.com/privacy
+2025-01-17 18:25:34.900 INFO   Fill in the missing PublisherSupportUrl entry: # PublisherSupportUrl: -> PublisherSupportUrl: https://tableplus.com/contact
+2025-01-17 18:25:34.900 INFO   Fill in the missing PublisherUrl entry: # PublisherUrl: -> PublisherUrl: https://tableplus.com/
+2025-01-17 18:25:34.900 INFO   Correction to Licence entry: License: Copyright... -> License: Proprietary
+2025-01-17 18:25:34.900 INFO   Fill in the missing Copyright entry: # Copyright: -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
+2025-01-17 18:25:34.900 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD
+2025-01-17 18:25:34.900 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.3\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:25:34.900 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.3\TablePlus.TablePlus.yaml
+2025-01-17 18:25:34.922 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-01-17 18:25:34.923 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:25:34.924 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.3\TablePlus.TablePlus.yaml
+2025-01-17 18:25:34.926 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.3\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:25:34.928 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.3\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:25:34.930 INFO   Staging and Committing Changes to Git
+2025-01-17 18:25:38.871 INFO     Commit message: Modify: TablePlus.TablePlus version 4.0.3 (Auto)
+2025-01-17 18:25:38.871 INFO   Pushing changes to remote (origin) repository
+2025-01-17 18:25:48.623 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-4.0.3
+2025-01-17 18:25:48.623 INFO Processing version folder: 4.0.5
+2025-01-17 18:25:48.635 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-4.0.5
+2025-01-17 18:25:52.363 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.5\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:25:52.378 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-01-17 18:25:52.378 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:25:52.388 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.5\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:25:52.389 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.5\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:25:52.408 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-01-17 18:25:52.410 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:25:52.411 INFO   Fill in the missing Author entry: # Author: -> Author: TablePlus Inc.
+2025-01-17 18:25:52.411 INFO   Fill in the missing PrivacyUrl entry: # PrivacyUrl: -> PrivacyUrl: https://tableplus.com/privacy
+2025-01-17 18:25:52.412 INFO   Fill in the missing PublisherSupportUrl entry: # PublisherSupportUrl: -> PublisherSupportUrl: https://tableplus.com/contact
+2025-01-17 18:25:52.412 INFO   Fill in the missing PublisherUrl entry: # PublisherUrl: -> PublisherUrl: https://tableplus.com/
+2025-01-17 18:25:52.412 INFO   Correction to Licence entry: License: Copyright... -> License: Proprietary
+2025-01-17 18:25:52.413 INFO   Fill in the missing Copyright entry: # Copyright: -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
+2025-01-17 18:25:52.413 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD
+2025-01-17 18:25:52.415 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.5\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:25:52.416 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.5\TablePlus.TablePlus.yaml
+2025-01-17 18:25:52.430 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-01-17 18:25:52.433 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:25:52.434 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.5\TablePlus.TablePlus.yaml
+2025-01-17 18:25:52.436 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.5\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:25:52.436 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.0.5\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:25:52.439 INFO   Staging and Committing Changes to Git
+2025-01-17 18:25:56.289 INFO     Commit message: Modify: TablePlus.TablePlus version 4.0.5 (Auto)
+2025-01-17 18:25:56.289 INFO   Pushing changes to remote (origin) repository
+2025-01-17 18:26:04.266 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-4.0.5
+2025-01-17 18:26:04.268 INFO Processing version folder: 4.1.2
+2025-01-17 18:26:04.269 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-4.1.2
+2025-01-17 18:26:08.324 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.1.2\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:26:08.342 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
+2025-01-17 18:26:08.343 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:26:08.343 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.1.2\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:26:08.343 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.1.2\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:26:08.364 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
+2025-01-17 18:26:08.364 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:26:08.366 INFO   Fill in the missing Author entry: NULL -> Author: TablePlus Inc.
+2025-01-17 18:26:08.366 INFO   Fill in the missing PrivacyUrl entry: NULL -> PrivacyUrl: https://tableplus.com/privacy
+2025-01-17 18:26:08.367 INFO   Fill in the missing PublisherSupportUrl entry: NULL -> PublisherSupportUrl: https://tableplus.com/contact
+2025-01-17 18:26:08.367 INFO   Fill in the missing PublisherUrl entry: NULL -> PublisherUrl: https://tableplus.com/
+2025-01-17 18:26:08.368 INFO   Correction to Licence entry: License: Copyright... -> License: Proprietary
+2025-01-17 18:26:08.368 INFO   Fill in the missing Copyright entry: NULL -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
+2025-01-17 18:26:08.368 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD - NULL
+2025-01-17 18:26:08.369 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.1.2\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:26:08.371 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.1.2\TablePlus.TablePlus.yaml
+2025-01-17 18:26:08.387 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
+2025-01-17 18:26:08.388 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:26:08.390 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.1.2\TablePlus.TablePlus.yaml
+2025-01-17 18:26:08.393 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.1.2\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:26:08.395 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.1.2\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:26:08.396 INFO   Staging and Committing Changes to Git
+2025-01-17 18:26:12.366 INFO     Commit message: Modify: TablePlus.TablePlus version 4.1.2 (Auto)
+2025-01-17 18:26:12.375 INFO   Pushing changes to remote (origin) repository
+2025-01-17 18:26:19.853 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-4.1.2
+2025-01-17 18:26:19.864 INFO Processing version folder: 4.2.0
+2025-01-17 18:26:19.866 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-4.2.0
+2025-01-17 18:26:23.833 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.0\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:26:23.854 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
+2025-01-17 18:26:23.854 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:26:23.854 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.0\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:26:23.854 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.0\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:26:23.870 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
+2025-01-17 18:26:23.870 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:26:23.879 INFO   Fill in the missing Author entry: NULL -> Author: TablePlus Inc.
+2025-01-17 18:26:23.880 INFO   Fill in the missing PrivacyUrl entry: NULL -> PrivacyUrl: https://tableplus.com/privacy
+2025-01-17 18:26:23.880 INFO   Fill in the missing PublisherSupportUrl entry: NULL -> PublisherSupportUrl: https://tableplus.com/contact
+2025-01-17 18:26:23.881 INFO   Fill in the missing PublisherUrl entry: NULL -> PublisherUrl: https://tableplus.com/
+2025-01-17 18:26:23.881 INFO   Correction to Licence entry: License: Copyright... -> License: Proprietary
+2025-01-17 18:26:23.882 INFO   Fill in the missing Copyright entry: NULL -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
+2025-01-17 18:26:23.882 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD - NULL
+2025-01-17 18:26:23.883 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.0\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:26:23.884 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.0\TablePlus.TablePlus.yaml
+2025-01-17 18:26:23.902 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
+2025-01-17 18:26:23.904 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:26:23.906 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.0\TablePlus.TablePlus.yaml
+2025-01-17 18:26:23.908 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.0\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:26:23.909 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.0\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:26:23.909 INFO   Staging and Committing Changes to Git
+2025-01-17 18:26:27.885 INFO     Commit message: Modify: TablePlus.TablePlus version 4.2.0 (Auto)
+2025-01-17 18:26:27.885 INFO   Pushing changes to remote (origin) repository
+2025-01-17 18:26:35.895 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-4.2.0
+2025-01-17 18:26:35.909 INFO Processing version folder: 4.2.12
+2025-01-17 18:26:35.911 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-4.2.12
+2025-01-17 18:26:39.655 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.12\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:26:39.674 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
+2025-01-17 18:26:39.675 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:26:39.677 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.12\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:26:39.678 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.12\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:26:39.696 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
+2025-01-17 18:26:39.697 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:26:39.697 INFO   Fill in the missing Author entry: NULL -> Author: TablePlus Inc.
+2025-01-17 18:26:39.698 INFO   Fill in the missing PublisherUrl entry: NULL -> PublisherUrl: https://tableplus.com/
+2025-01-17 18:26:39.698 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD - NULL
+2025-01-17 18:26:39.699 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
+2025-01-17 18:26:39.699 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
+2025-01-17 18:26:39.702 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.12\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:26:39.704 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.12\TablePlus.TablePlus.yaml
+2025-01-17 18:26:39.717 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
+2025-01-17 18:26:39.719 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:26:39.722 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.12\TablePlus.TablePlus.yaml
+2025-01-17 18:26:39.724 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.12\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:26:39.727 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.12\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:26:39.728 INFO   Staging and Committing Changes to Git
+2025-01-17 18:26:43.617 INFO     Commit message: Modify: TablePlus.TablePlus version 4.2.12 (Auto)
+2025-01-17 18:26:43.617 INFO   Pushing changes to remote (origin) repository
+2025-01-17 18:26:52.406 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-4.2.12
+2025-01-17 18:26:52.406 INFO Processing version folder: 4.2.3
+2025-01-17 18:26:52.422 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-4.2.3
+2025-01-17 18:26:56.762 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.3\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:26:56.785 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
+2025-01-17 18:26:56.786 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:26:56.788 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.3\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:26:56.790 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.3\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:26:56.808 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
+2025-01-17 18:26:56.811 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:26:56.812 INFO   Fill in the missing Author entry: NULL -> Author: TablePlus Inc.
+2025-01-17 18:26:56.813 INFO   Fill in the missing PrivacyUrl entry: NULL -> PrivacyUrl: https://tableplus.com/privacy
+2025-01-17 18:26:56.813 INFO   Fill in the missing PublisherSupportUrl entry: NULL -> PublisherSupportUrl: https://tableplus.com/contact
+2025-01-17 18:26:56.814 INFO   Fill in the missing PublisherUrl entry: NULL -> PublisherUrl: https://tableplus.com/
+2025-01-17 18:26:56.814 INFO   Correction to Licence entry: License: Copyright... -> License: Proprietary
+2025-01-17 18:26:56.814 INFO   Fill in the missing Copyright entry: NULL -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
+2025-01-17 18:26:56.816 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD - NULL
+2025-01-17 18:26:56.817 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.3\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:26:56.820 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.3\TablePlus.TablePlus.yaml
+2025-01-17 18:26:56.836 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
+2025-01-17 18:26:56.838 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:26:56.840 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.3\TablePlus.TablePlus.yaml
+2025-01-17 18:26:56.841 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.3\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:26:56.843 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.3\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:26:56.845 INFO   Staging and Committing Changes to Git
+2025-01-17 18:27:01.930 INFO     Commit message: Modify: TablePlus.TablePlus version 4.2.3 (Auto)
+2025-01-17 18:27:01.946 INFO   Pushing changes to remote (origin) repository
+2025-01-17 18:27:10.479 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-4.2.3
+2025-01-17 18:27:10.479 INFO Processing version folder: 4.2.4
+2025-01-17 18:27:10.479 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-4.2.4
+2025-01-17 18:27:14.249 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.4\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:27:14.267 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
+2025-01-17 18:27:14.268 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:27:14.270 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.4\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:27:14.271 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.4\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:27:14.280 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
+2025-01-17 18:27:14.280 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:27:14.280 INFO   Fill in the missing Author entry: NULL -> Author: TablePlus Inc.
+2025-01-17 18:27:14.280 INFO   Fill in the missing PublisherUrl entry: NULL -> PublisherUrl: https://tableplus.com/
+2025-01-17 18:27:14.280 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD - NULL
+2025-01-17 18:27:14.280 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
+2025-01-17 18:27:14.280 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
+2025-01-17 18:27:14.296 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.4\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:27:14.296 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.4\TablePlus.TablePlus.yaml
+2025-01-17 18:27:14.311 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
+2025-01-17 18:27:14.311 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:27:14.311 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.4\TablePlus.TablePlus.yaml
+2025-01-17 18:27:14.311 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.4\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:27:14.311 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.4\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:27:14.311 INFO   Staging and Committing Changes to Git
+2025-01-17 18:27:18.325 INFO     Commit message: Modify: TablePlus.TablePlus version 4.2.4 (Auto)
+2025-01-17 18:27:18.325 INFO   Pushing changes to remote (origin) repository
+2025-01-17 18:27:26.492 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-4.2.4
+2025-01-17 18:27:26.494 INFO Processing version folder: 4.2.6
+2025-01-17 18:27:26.496 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-4.2.6
+2025-01-17 18:27:30.393 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.6\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:27:30.409 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
+2025-01-17 18:27:30.409 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:27:30.409 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.6\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:27:30.409 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.6\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:27:30.440 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
+2025-01-17 18:27:30.440 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:27:30.440 INFO   Fill in the missing Author entry: NULL -> Author: TablePlus Inc.
+2025-01-17 18:27:30.440 INFO   Fill in the missing PublisherUrl entry: NULL -> PublisherUrl: https://tableplus.com/
+2025-01-17 18:27:30.440 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD - NULL
+2025-01-17 18:27:30.440 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
+2025-01-17 18:27:30.440 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
+2025-01-17 18:27:30.440 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.6\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:27:30.440 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.6\TablePlus.TablePlus.yaml
+2025-01-17 18:27:30.455 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
+2025-01-17 18:27:30.455 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:27:30.455 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.6\TablePlus.TablePlus.yaml
+2025-01-17 18:27:30.471 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.6\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:27:30.471 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.6\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:27:30.471 INFO   Staging and Committing Changes to Git
+2025-01-17 18:27:35.879 INFO     Commit message: Modify: TablePlus.TablePlus version 4.2.6 (Auto)
+2025-01-17 18:27:35.879 INFO   Pushing changes to remote (origin) repository
+2025-01-17 18:27:44.187 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-4.2.6
+2025-01-17 18:27:44.187 INFO Processing version folder: 4.2.8
+2025-01-17 18:27:44.187 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-4.2.8
+2025-01-17 18:27:47.944 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.8\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:27:47.959 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
+2025-01-17 18:27:47.959 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:27:47.959 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.8\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:27:47.959 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.8\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:27:47.990 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
+2025-01-17 18:27:47.990 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:27:47.990 INFO   Fill in the missing Author entry: NULL -> Author: TablePlus Inc.
+2025-01-17 18:27:47.990 INFO   Fill in the missing PublisherUrl entry: NULL -> PublisherUrl: https://tableplus.com/
+2025-01-17 18:27:47.990 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD - NULL
+2025-01-17 18:27:48.599 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
+2025-01-17 18:27:48.599 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
+2025-01-17 18:27:48.599 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.8\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:27:48.599 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.8\TablePlus.TablePlus.yaml
+2025-01-17 18:27:48.372 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
+2025-01-17 18:27:48.372 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:27:48.372 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.8\TablePlus.TablePlus.yaml
+2025-01-17 18:27:48.372 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.8\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:27:48.372 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.2.8\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:27:48.372 INFO   Staging and Committing Changes to Git
+2025-01-17 18:27:52.163 INFO     Commit message: Modify: TablePlus.TablePlus version 4.2.8 (Auto)
+2025-01-17 18:27:52.163 INFO   Pushing changes to remote (origin) repository
+2025-01-17 18:28:00.659 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-4.2.8
+2025-01-17 18:28:00.659 INFO Processing version folder: 4.8.3
+2025-01-17 18:28:00.659 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-4.8.3
+2025-01-17 18:28:05.565 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.3\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:28:05.595 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-01-17 18:28:05.596 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:28:05.598 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.3\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:28:05.602 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.3\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:28:05.626 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-01-17 18:28:05.629 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:28:05.631 INFO   Fill in the missing Author entry: # Author: -> Author: TablePlus Inc.
+2025-01-17 18:28:05.632 INFO   Fill in the missing PublisherUrl entry: # PublisherUrl: -> PublisherUrl: https://tableplus.com/
+2025-01-17 18:28:05.633 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD
+2025-01-17 18:28:05.633 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
+2025-01-17 18:28:05.634 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
+2025-01-17 18:28:05.639 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.3\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:28:05.643 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.3\TablePlus.TablePlus.yaml
+2025-01-17 18:28:05.666 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-01-17 18:28:05.667 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:28:05.670 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.3\TablePlus.TablePlus.yaml
+2025-01-17 18:28:05.671 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.3\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:28:05.674 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.3\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:28:05.676 INFO   Staging and Committing Changes to Git
+2025-01-17 18:28:10.592 INFO     Commit message: Modify: TablePlus.TablePlus version 4.8.3 (Auto)
+2025-01-17 18:28:10.592 INFO   Pushing changes to remote (origin) repository
+2025-01-17 18:28:18.956 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-4.8.3
+2025-01-17 18:28:18.956 INFO Processing version folder: 4.8.6
+2025-01-17 18:28:18.956 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-4.8.6
+2025-01-17 18:28:23.245 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.6\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:28:23.401 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-01-17 18:28:23.557 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:28:23.557 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.6\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:28:23.557 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.6\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:28:23.713 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-01-17 18:28:23.713 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:28:23.713 INFO   Fill in the missing Author entry: # Author: -> Author: TablePlus Inc.
+2025-01-17 18:28:23.713 INFO   Fill in the missing PublisherUrl entry: # PublisherUrl: -> PublisherUrl: https://tableplus.com/
+2025-01-17 18:28:23.713 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD
+2025-01-17 18:28:23.713 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
+2025-01-17 18:28:23.713 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
+2025-01-17 18:28:23.870 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.6\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:28:23.870 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.6\TablePlus.TablePlus.yaml
+2025-01-17 18:28:23.106 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-01-17 18:28:23.106 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:28:23.118 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.6\TablePlus.TablePlus.yaml
+2025-01-17 18:28:23.118 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.6\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:28:23.118 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\4.8.6\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:28:23.118 INFO   Staging and Committing Changes to Git
+2025-01-17 18:28:27.245 INFO     Commit message: Modify: TablePlus.TablePlus version 4.8.6 (Auto)
+2025-01-17 18:28:27.245 INFO   Pushing changes to remote (origin) repository
+2025-01-17 18:28:41.667 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-4.8.6
+2025-01-17 18:28:41.667 INFO Processing version folder: 5.0.4
+2025-01-17 18:28:41.667 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-5.0.4
+2025-01-17 18:28:45.242 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.0.4\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:28:45.257 INFO     Replace ManifestVersion: 1.2.0 -> 1.9.0
+2025-01-17 18:28:45.257 INFO     Replace schema references: 1.2.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:28:45.257 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.0.4\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:28:45.257 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.0.4\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:28:45.278 INFO     Replace ManifestVersion: 1.2.0 -> 1.9.0
+2025-01-17 18:28:45.279 INFO     Replace schema references: 1.2.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:28:45.279 INFO   Fill in the missing Author entry: NULL -> Author: TablePlus Inc.
+2025-01-17 18:28:45.279 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD - NULL
+2025-01-17 18:28:45.279 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
+2025-01-17 18:28:45.279 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
+2025-01-17 18:28:45.279 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.0.4\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:28:45.279 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.0.4\TablePlus.TablePlus.yaml
+2025-01-17 18:28:45.293 INFO     Replace ManifestVersion: 1.2.0 -> 1.9.0
+2025-01-17 18:28:45.293 INFO     Replace schema references: 1.2.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:28:45.293 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.0.4\TablePlus.TablePlus.yaml
+2025-01-17 18:28:45.293 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.0.4\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:28:45.293 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.0.4\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:28:45.293 INFO   Staging and Committing Changes to Git
+2025-01-17 18:28:49.214 INFO     Commit message: Modify: TablePlus.TablePlus version 5.0.4 (Auto)
+2025-01-17 18:28:49.214 INFO   Pushing changes to remote (origin) repository
+2025-01-17 18:28:59.226 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-5.0.4
+2025-01-17 18:28:59.226 INFO Processing version folder: 5.2.6
+2025-01-17 18:28:59.226 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-5.2.6
+2025-01-17 18:29:02.946 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.2.6\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:29:02.955 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-17 18:29:02.968 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:29:02.970 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.2.6\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:29:02.971 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.2.6\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:29:02.992 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-17 18:29:02.992 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:29:02.992 INFO   Fill in the missing Author entry: NULL -> Author: TablePlus Inc.
+2025-01-17 18:29:03.576 INFO   Correction to ShortDescription and Description entry: TOO LONG TO LOAD - NULL
+2025-01-17 18:29:03.576 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
+2025-01-17 18:29:03.159 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
+2025-01-17 18:29:03.259 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.2.6\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:29:03.459 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.2.6\TablePlus.TablePlus.yaml
+2025-01-17 18:29:03.217 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-17 18:29:03.237 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:29:03.248 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.2.6\TablePlus.TablePlus.yaml
+2025-01-17 18:29:03.277 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.2.6\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:29:03.284 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.2.6\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:29:03.315 INFO   Staging and Committing Changes to Git
+2025-01-17 18:29:06.959 INFO     Commit message: Modify: TablePlus.TablePlus version 5.2.6 (Auto)
+2025-01-17 18:29:06.959 INFO   Pushing changes to remote (origin) repository
+2025-01-17 18:29:14.973 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-5.2.6
+2025-01-17 18:29:14.973 INFO Processing version folder: 5.9.6
+2025-01-17 18:29:14.981 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-5.9.6
+2025-01-17 18:29:18.534 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.6\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:29:18.552 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:29:18.553 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:29:18.556 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.6\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:29:18.557 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.6\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:29:18.575 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:29:18.576 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:29:18.577 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
+2025-01-17 18:29:18.577 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
+2025-01-17 18:29:18.578 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
+2025-01-17 18:29:18.579 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.6\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:29:18.580 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.6\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:29:18.600 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:29:18.602 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:29:18.603 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. 保留所有权利. (zh-CN Locale Manifest)
+2025-01-17 18:29:18.604 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.6\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:29:18.605 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.6\TablePlus.TablePlus.yaml
+2025-01-17 18:29:18.621 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:29:18.622 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:29:18.623 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.6\TablePlus.TablePlus.yaml
+2025-01-17 18:29:18.625 WARNING   zh-CN locale manifest file already exists, skip creating it: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.6\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:29:18.625 INFO   Staging and Committing Changes to Git
+2025-01-17 18:29:22.563 INFO     Commit message: Modify: TablePlus.TablePlus version 5.9.6 (Auto)
+2025-01-17 18:29:22.565 INFO   Pushing changes to remote (origin) repository
+2025-01-17 18:29:31.183 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-5.9.6
+2025-01-17 18:29:31.195 INFO Processing version folder: 5.9.7
+2025-01-17 18:29:31.196 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-5.9.7
+2025-01-17 18:29:34.752 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.7\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:29:34.770 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:29:34.770 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:29:34.770 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.7\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:29:34.770 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.7\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:29:34.797 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:29:34.799 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:29:34.800 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
+2025-01-17 18:29:34.800 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
+2025-01-17 18:29:34.801 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
+2025-01-17 18:29:34.802 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.7\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:29:34.804 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.7\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:29:34.823 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:29:34.824 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:29:34.825 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. 保留所有权利. (zh-CN Locale Manifest)
+2025-01-17 18:29:34.826 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.7\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:29:34.827 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.7\TablePlus.TablePlus.yaml
+2025-01-17 18:29:34.843 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:29:34.844 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:29:34.846 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.7\TablePlus.TablePlus.yaml
+2025-01-17 18:29:34.846 WARNING   zh-CN locale manifest file already exists, skip creating it: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\5.9.7\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:29:34.848 INFO   Staging and Committing Changes to Git
+2025-01-17 18:29:38.949 INFO     Commit message: Modify: TablePlus.TablePlus version 5.9.7 (Auto)
+2025-01-17 18:29:38.949 INFO   Pushing changes to remote (origin) repository
+2025-01-17 18:29:48.660 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-5.9.7
+2025-01-17 18:29:48.661 INFO Processing version folder: 6.0.0
+2025-01-17 18:29:48.664 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-6.0.0
+2025-01-17 18:29:52.935 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.0.0\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:29:52.951 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:29:52.951 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:29:52.951 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.0.0\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:29:52.951 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.0.0\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:29:52.982 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:29:52.982 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:29:52.982 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
+2025-01-17 18:29:52.982 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
+2025-01-17 18:29:52.982 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
+2025-01-17 18:29:52.982 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.0.0\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:29:52.982 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.0.0\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:29:53.103 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:29:53.113 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:29:53.123 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. 保留所有权利. (zh-CN Locale Manifest)
+2025-01-17 18:29:53.152 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.0.0\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:29:53.162 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.0.0\TablePlus.TablePlus.yaml
+2025-01-17 18:29:53.355 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:29:53.375 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:29:53.385 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.0.0\TablePlus.TablePlus.yaml
+2025-01-17 18:29:53.405 WARNING   zh-CN locale manifest file already exists, skip creating it: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.0.0\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:29:53.415 INFO   Staging and Committing Changes to Git
+2025-01-17 18:29:57.151 INFO     Commit message: Modify: TablePlus.TablePlus version 6.0.0 (Auto)
+2025-01-17 18:29:57.152 INFO   Pushing changes to remote (origin) repository
+2025-01-17 18:30:05.754 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-6.0.0
+2025-01-17 18:30:05.769 INFO Processing version folder: 6.1.0
+2025-01-17 18:30:05.769 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-6.1.0
+2025-01-17 18:30:09.810 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.0\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:30:09.826 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:30:09.826 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:30:09.842 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.0\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:30:09.842 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.0\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:30:09.857 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:30:09.857 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:30:09.857 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
+2025-01-17 18:30:09.873 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
+2025-01-17 18:30:09.873 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
+2025-01-17 18:30:09.873 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.0\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:30:09.873 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.0\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:30:09.889 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:30:09.904 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:30:09.904 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. 保留所有权利. (zh-CN Locale Manifest)
+2025-01-17 18:30:09.904 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.0\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:30:09.904 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.0\TablePlus.TablePlus.yaml
+2025-01-17 18:30:09.920 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:30:09.920 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:30:09.920 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.0\TablePlus.TablePlus.yaml
+2025-01-17 18:30:09.920 WARNING   zh-CN locale manifest file already exists, skip creating it: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.0\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:30:09.920 INFO   Staging and Committing Changes to Git
+2025-01-17 18:30:14.130 INFO     Commit message: Modify: TablePlus.TablePlus version 6.1.0 (Auto)
+2025-01-17 18:30:14.146 INFO   Pushing changes to remote (origin) repository
+2025-01-17 18:30:23.552 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-6.1.0
+2025-01-17 18:30:23.552 INFO Processing version folder: 6.1.1
+2025-01-17 18:30:23.552 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-6.1.1
+2025-01-17 18:30:27.178 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.1\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:30:27.193 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:30:27.193 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:30:27.209 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.1\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:30:27.209 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.1\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:30:27.224 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:30:27.224 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:30:27.224 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
+2025-01-17 18:30:27.224 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
+2025-01-17 18:30:27.224 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
+2025-01-17 18:30:27.224 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.1\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:30:27.224 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.1\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:30:27.256 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:30:27.256 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:30:27.256 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. 保留所有权利. (zh-CN Locale Manifest)
+2025-01-17 18:30:27.256 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.1\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:30:27.256 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.1\TablePlus.TablePlus.yaml
+2025-01-17 18:30:27.271 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:30:27.271 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:30:27.271 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.1\TablePlus.TablePlus.yaml
+2025-01-17 18:30:27.271 WARNING   zh-CN locale manifest file already exists, skip creating it: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.1\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:30:27.271 INFO   Staging and Committing Changes to Git
+2025-01-17 18:30:31.288 INFO     Commit message: Modify: TablePlus.TablePlus version 6.1.1 (Auto)
+2025-01-17 18:30:31.288 INFO   Pushing changes to remote (origin) repository
+2025-01-17 18:30:39.864 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-6.1.1
+2025-01-17 18:30:39.880 INFO Processing version folder: 6.1.2
+2025-01-17 18:30:39.880 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-6.1.2
+2025-01-17 18:30:43.505 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.2\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:30:43.521 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:30:43.536 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:30:43.536 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.2\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:30:43.536 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.2\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:30:43.552 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:30:43.552 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:30:43.552 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
+2025-01-17 18:30:43.552 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
+2025-01-17 18:30:43.552 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
+2025-01-17 18:30:43.552 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.2\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:30:43.552 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.2\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:30:43.568 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:30:43.583 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:30:43.583 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. 保留所有权利. (zh-CN Locale Manifest)
+2025-01-17 18:30:43.583 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.2\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:30:43.583 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.2\TablePlus.TablePlus.yaml
+2025-01-17 18:30:43.599 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:30:43.599 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:30:43.599 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.2\TablePlus.TablePlus.yaml
+2025-01-17 18:30:43.599 WARNING   zh-CN locale manifest file already exists, skip creating it: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.2\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:30:43.599 INFO   Staging and Committing Changes to Git
+2025-01-17 18:30:47.663 INFO     Commit message: Modify: TablePlus.TablePlus version 6.1.2 (Auto)
+2025-01-17 18:30:47.663 INFO   Pushing changes to remote (origin) repository
+2025-01-17 18:30:56.345 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-6.1.2
+2025-01-17 18:30:56.345 INFO Processing version folder: 6.1.3
+2025-01-17 18:30:56.345 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-6.1.3
+2025-01-17 18:31:00.243 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.3\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:31:00.180 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:31:00.336 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:31:00.336 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.3\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:31:00.336 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.3\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:31:00.493 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:31:00.493 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:31:00.493 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
+2025-01-17 18:31:00.493 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
+2025-01-17 18:31:00.493 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
+2025-01-17 18:31:00.649 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.3\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:31:00.649 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.3\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:31:00.805 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:31:00.805 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:31:00.805 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. 保留所有权利. (zh-CN Locale Manifest)
+2025-01-17 18:31:00.805 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.3\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:31:00.805 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.3\TablePlus.TablePlus.yaml
+2025-01-17 18:31:00.961 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:31:00.961 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:31:00.961 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.3\TablePlus.TablePlus.yaml
+2025-01-17 18:31:00.961 WARNING   zh-CN locale manifest file already exists, skip creating it: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.3\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:31:00.961 INFO   Staging and Committing Changes to Git
+2025-01-17 18:31:04.160 INFO     Commit message: Modify: TablePlus.TablePlus version 6.1.3 (Auto)
+2025-01-17 18:31:04.160 INFO   Pushing changes to remote (origin) repository
+2025-01-17 18:31:12.915 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-6.1.3
+2025-01-17 18:31:12.915 INFO Processing version folder: 6.1.4
+2025-01-17 18:31:12.915 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-6.1.4
+2025-01-17 18:31:16.572 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.4\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:31:16.588 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:31:16.588 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:31:16.588 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.4\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:31:16.588 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.4\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:31:16.619 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:31:16.619 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:31:16.619 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
+2025-01-17 18:31:16.619 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
+2025-01-17 18:31:16.619 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
+2025-01-17 18:31:16.619 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.4\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:31:16.619 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.4\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:31:16.651 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:31:16.651 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:31:16.651 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. 保留所有权利. (zh-CN Locale Manifest)
+2025-01-17 18:31:16.651 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.4\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:31:16.651 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.4\TablePlus.TablePlus.yaml
+2025-01-17 18:31:16.666 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:31:16.666 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:31:16.682 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.4\TablePlus.TablePlus.yaml
+2025-01-17 18:31:16.682 WARNING   zh-CN locale manifest file already exists, skip creating it: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.1.4\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:31:16.682 INFO   Staging and Committing Changes to Git
+2025-01-17 18:31:20.700 INFO     Commit message: Modify: TablePlus.TablePlus version 6.1.4 (Auto)
+2025-01-17 18:31:20.700 INFO   Pushing changes to remote (origin) repository
+2025-01-17 18:31:29.314 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-6.1.4
+2025-01-17 18:31:29.316 INFO Processing version folder: 6.2.0
+2025-01-17 18:31:29.317 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-6.2.0
+2025-01-17 18:31:34.209 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.0\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:31:34.459 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:31:34.469 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:31:34.489 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.0\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:31:34.509 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.0\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:31:34.764 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:31:34.774 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:31:34.787 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
+2025-01-17 18:31:34.787 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
+2025-01-17 18:31:34.787 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
+2025-01-17 18:31:34.787 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.0\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:31:34.787 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.0\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:31:34.104 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:31:34.104 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:31:34.104 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. 保留所有权利. (zh-CN Locale Manifest)
+2025-01-17 18:31:34.104 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.0\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:31:34.104 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.0\TablePlus.TablePlus.yaml
+2025-01-17 18:31:34.120 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:31:34.137 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:31:34.137 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.0\TablePlus.TablePlus.yaml
+2025-01-17 18:31:34.137 WARNING   zh-CN locale manifest file already exists, skip creating it: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.0\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:31:34.137 INFO   Staging and Committing Changes to Git
+2025-01-17 18:31:38.393 INFO     Commit message: Modify: TablePlus.TablePlus version 6.2.0 (Auto)
+2025-01-17 18:31:38.393 INFO   Pushing changes to remote (origin) repository
+2025-01-17 18:31:48.352 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-6.2.0
+2025-01-17 18:31:48.352 INFO Processing version folder: 6.2.1
+2025-01-17 18:31:48.488 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-6.2.1
+2025-01-17 18:31:52.668 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.1\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:31:52.910 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:31:52.930 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:31:52.940 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.1\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:31:52.960 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.1\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:31:52.120 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:31:52.120 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:31:52.121 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
+2025-01-17 18:31:52.122 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
+2025-01-17 18:31:52.124 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
+2025-01-17 18:31:52.125 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.1\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:31:52.126 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.1\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:31:52.145 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:31:52.147 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:31:52.148 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. 保留所有权利. (zh-CN Locale Manifest)
+2025-01-17 18:31:52.150 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.1\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:31:52.152 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.1\TablePlus.TablePlus.yaml
+2025-01-17 18:31:52.167 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-17 18:31:52.168 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-17 18:31:52.170 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.1\TablePlus.TablePlus.yaml
+2025-01-17 18:31:52.172 WARNING   zh-CN locale manifest file already exists, skip creating it: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.1\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:31:52.173 INFO   Staging and Committing Changes to Git
+2025-01-17 18:31:57.269 INFO     Commit message: Modify: TablePlus.TablePlus version 6.2.1 (Auto)
+2025-01-17 18:31:57.269 INFO   Pushing changes to remote (origin) repository
+2025-01-17 18:32:08.589 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-6.2.1
+2025-01-17 18:32:08.589 INFO Processing version folder: 6.2.2
+2025-01-17 18:32:08.589 INFO   Create and checkout to a new branch: Modify-TablePlus.TablePlus-6.2.2
+2025-01-17 18:32:13.132 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.2\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:32:13.133 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.2\TablePlus.TablePlus.installer.yaml
+2025-01-17 18:32:13.133 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.2\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:32:13.133 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. All rights reserved.
+2025-01-17 18:32:13.133 INFO   Comment out Moniker entry: Moniker: tableplus -> # Moniker: tableplus
+2025-01-17 18:32:13.133 WHY     When the PackageName (TablePlus) and the Moniker (tableplus) are the same, the Moniker should not be added.
+2025-01-17 18:32:13.133 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.2\TablePlus.TablePlus.locale.en-US.yaml
+2025-01-17 18:32:13.133 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.2\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:32:13.133 INFO   Correction to Copyright entry: Copyright: ©2024 TablePlus, Inc -> Copyright: Copyright (c) 2025 TablePlus Inc. 保留所有权利. (zh-CN Locale Manifest)
+2025-01-17 18:32:13.133 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.2\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:32:13.133 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.2\TablePlus.TablePlus.yaml
+2025-01-17 18:32:13.149 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.2\TablePlus.TablePlus.yaml
+2025-01-17 18:32:13.150 WARNING   zh-CN locale manifest file already exists, skip creating it: D:\...\winget-pkgs\manifests\t\TablePlus\TablePlus\6.2.2\TablePlus.TablePlus.locale.zh-CN.yaml
+2025-01-17 18:32:13.150 INFO   Staging and Committing Changes to Git
+2025-01-17 18:32:18.833 INFO     Commit message: Modify: TablePlus.TablePlus version 6.2.2 (Auto)
+2025-01-17 18:32:18.833 INFO   Pushing changes to remote (origin) repository
+2025-01-17 18:32:26.797 INFO     Successfully pushed to remote (origin): Modify-TablePlus.TablePlus-6.2.2
+2025-01-17 18:32:26.797 INFO All manifests have been modified and pushed through.
+2025-01-17 18:32:34.348 INFO Workspace clean-up completed.
 ~~ End of logging ~~
