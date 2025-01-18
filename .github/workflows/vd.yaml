@@ -8,7 +8,7 @@ on:
         required: true
 
 jobs:
-  download-and-upload:
+  validation-domain:
     runs-on: ubuntu-latest
 
     steps:

@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  download-and-upload:
+  sync-clean:
     runs-on: ubuntu-latest
 
     steps:
