@@ -12,11 +12,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: 设置 Rust
+    # 用于后续的 `cargo binstall` 安装
+      uses: cargo-bins/cargo-binstall@main
+      env:
+        GITHUB_TOKEN: $ {{ github.token }}
+
+    - name: 安装 Komac
+      run: cargo binstall komac -y
+      env:
+        GITHUB_TOKEN: $ {{ github.token }}
+
     - name: 下载文件 - wget
       run: wget ${{ github.event.inputs.file }} -O installer.exe
 
     - name: 获取 SHA256
       run: echo "sha256=$(sha256sum installer.exe | awk '{ print $1 }')" >> $GITHUB_ENV
+
+    - name: 分析安装程序
+      run: komac analyse installer.exe
 
     - name: 上传获取的文件
       uses: actions/upload-artifact@v4
@@ -24,6 +38,6 @@ jobs:
         name: installer
         path: installer.exe
 
-    - name: Print SHA256
+    - name: 输出 SHA256
       run: |
         echo "SHA256: ${{ env.sha256 }}"
