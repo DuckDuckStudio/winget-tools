@@ -1,0 +1,33 @@
+name: winget-pkgs 清理分支和同步修改
+
+on:
+  schedule: [{ cron: 0 0 * * * }]
+  workflow_dispatch:
+
+jobs:
+  download-and-upload:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 设置 Rust
+      # 用于后续的 `cargo binstall` 安装
+      uses: cargo-bins/cargo-binstall@main
+      env:
+        GITHUB_TOKEN: $ {{ github.token }}
+
+    - name: 安装 Komac
+      run: cargo binstall komac -y
+      env:
+        GITHUB_TOKEN: $ {{ github.token }}
+
+    - name: 同步上游修改
+      env:
+        KOMAC_FORK_OWNER: "DuckDuckStudio"
+        GITHUB_TOKEN: ${{ secrets.WINGET_PKGS_TOKEN }}
+      run: komac sync-fork
+
+    - name: 清理已合并分支
+      env:
+        KOMAC_FORK_OWNER: "DuckDuckStudio"
+        GITHUB_TOKEN: ${{ secrets.WINGET_PKGS_TOKEN }}
+      run: komac cleanup --only-merged
