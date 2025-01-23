@@ -1,0 +1,35 @@
+~~ Start logging ~~
+2025-01-23 16:05:57.328 FUN Just do it!
+2025-01-23 16:05:57.339 INFO Found the following version folder: ['v1.0.1']
+2025-01-23 16:05:57.723 INFO Processing version folder: v1.0.1
+2025-01-23 16:05:57.725 INFO   Create and checkout to a new branch: Modify-YARC.YARCLauncher-v1.0.1
+2025-01-23 16:06:04.790 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\y\YARC\YARCLauncher\v1.0.1\YARC.YARCLauncher.installer.yaml
+2025-01-23 16:06:04.792 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-23 16:06:04.793 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-23 16:06:04.794 WARNING   这是一个半自动处理，自动化不会对清单进行实质性修改，仅仅是格式化。
+2025-01-23 16:06:04.795 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\y\YARC\YARCLauncher\v1.0.1\YARC.YARCLauncher.installer.yaml
+2025-01-23 16:06:04.797 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\y\YARC\YARCLauncher\v1.0.1\YARC.YARCLauncher.locale.en-US.yaml
+2025-01-23 16:06:04.798 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-23 16:06:04.800 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-23 16:06:04.801 WARNING   这是一个半自动处理，自动化不会对清单进行实质性修改，仅仅是格式化。
+2025-01-23 16:06:04.803 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\y\YARC\YARCLauncher\v1.0.1\YARC.YARCLauncher.locale.en-US.yaml
+2025-01-23 16:06:04.805 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\y\YARC\YARCLauncher\v1.0.1\YARC.YARCLauncher.locale.zh-CN.yaml
+2025-01-23 16:06:04.827 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-23 16:06:04.828 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-23 16:06:04.829 WARNING   这是一个半自动处理，自动化不会对清单进行实质性修改，仅仅是格式化。
+2025-01-23 16:06:04.831 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\y\YARC\YARCLauncher\v1.0.1\YARC.YARCLauncher.locale.zh-CN.yaml
+2025-01-23 16:06:04.832 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\y\YARC\YARCLauncher\v1.0.1\YARC.YARCLauncher.yaml
+2025-01-23 16:06:04.852 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-23 16:06:04.853 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-23 16:06:04.854 WARNING   这是一个半自动处理，自动化不会对清单进行实质性修改，仅仅是格式化。
+2025-01-23 16:06:04.855 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\y\YARC\YARCLauncher\v1.0.1\YARC.YARCLauncher.yaml
+2025-01-23 16:06:05.389 INFO     清单验证成功。
+
+2025-01-23 16:06:05.409 INFO   Staging and Committing Changes to Git
+2025-01-23 16:06:15.124 INFO     Commit message: Modify: YARC.YARCLauncher version v1.0.1 (Auto)
+2025-01-23 16:06:15.126 INFO   Pushing changes to remote (origin) repository
+2025-01-23 16:06:33.288 INFO     Successfully pushed to remote (origin): Modify-YARC.YARCLauncher-v1.0.1
+2025-01-23 16:06:37.169 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/216035
+2025-01-23 16:06:37.172 INFO All manifests have been modified and pushed through.
+2025-01-23 16:06:44.535 INFO Workspace clean-up completed.
+~~ End of logging ~~
