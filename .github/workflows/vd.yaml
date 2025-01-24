@@ -15,7 +15,7 @@ jobs:
     - name: 获取验证工具
       # 更新包源 -> 更新包 -> 获取缺少的验证工具
       shell: bash
-      run:
+      run: |
         sudo apt update
         sudo apt upgrade
         sudo apt install traceroute
