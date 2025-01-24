@@ -4,7 +4,7 @@ on:
   #schedule: [{ cron: 0 0 * * * }]
 
 jobs:
-  Remove:
+  Check-installers:
     runs-on: ubuntu-latest
     strategy:
       matrix:
