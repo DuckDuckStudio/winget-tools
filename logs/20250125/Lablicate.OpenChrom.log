@@ -1,0 +1,34 @@
+~~ Start logging ~~
+2025-01-25 15:35:29.190 FUN 你这清单是从多少个现有清单中拼凑出来的？
+2025-01-25 15:35:29.192 INFO Found the following version folder: ['1.5.0']
+2025-01-25 15:35:29.359 INFO Processing version folder: 1.5.0
+2025-01-25 15:35:29.360 INFO   Create and checkout to a new branch: Modify-Lablicate.OpenChrom-1.5.0
+2025-01-25 15:35:33.783 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\l\Lablicate\OpenChrom\1.5.0\Lablicate.OpenChrom.installer.yaml
+2025-01-25 15:35:33.785 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-25 15:35:33.786 WARNING   这是一个半自动处理，自动化不会对清单进行实质性修改，仅仅是格式化。
+2025-01-25 15:35:33.789 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\l\Lablicate\OpenChrom\1.5.0\Lablicate.OpenChrom.installer.yaml
+2025-01-25 15:35:33.791 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\l\Lablicate\OpenChrom\1.5.0\Lablicate.OpenChrom.locale.en-US.yaml
+2025-01-25 15:35:33.793 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-25 15:35:33.794 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-25 15:35:33.795 WARNING   这是一个半自动处理，自动化不会对清单进行实质性修改，仅仅是格式化。
+2025-01-25 15:35:33.797 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\l\Lablicate\OpenChrom\1.5.0\Lablicate.OpenChrom.locale.en-US.yaml
+2025-01-25 15:35:33.798 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\l\Lablicate\OpenChrom\1.5.0\Lablicate.OpenChrom.locale.zh-CN.yaml
+2025-01-25 15:35:33.816 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-25 15:35:33.823 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-25 15:35:33.825 WARNING   这是一个半自动处理，自动化不会对清单进行实质性修改，仅仅是格式化。
+2025-01-25 15:35:33.828 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\l\Lablicate\OpenChrom\1.5.0\Lablicate.OpenChrom.locale.zh-CN.yaml
+2025-01-25 15:35:33.830 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\l\Lablicate\OpenChrom\1.5.0\Lablicate.OpenChrom.yaml
+2025-01-25 15:35:33.832 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-25 15:35:33.833 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-25 15:35:33.834 WARNING   这是一个半自动处理，自动化不会对清单进行实质性修改，仅仅是格式化。
+2025-01-25 15:35:33.836 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\l\Lablicate\OpenChrom\1.5.0\Lablicate.OpenChrom.yaml
+2025-01-25 15:35:34.195 INFO     清单验证成功。
+
+2025-01-25 15:35:34.210 INFO   Staging and Committing Changes to Git
+2025-01-25 15:35:40.657 INFO     Commit message: Modify: Lablicate.OpenChrom version 1.5.0 (Auto)
+2025-01-25 15:35:40.677 INFO   Pushing changes to remote (origin) repository
+2025-01-25 15:35:50.830 INFO     Successfully pushed to remote (origin): Modify-Lablicate.OpenChrom-1.5.0
+2025-01-25 15:35:55.356 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/216655
+2025-01-25 15:35:55.357 INFO All manifests have been modified and pushed through.
+2025-01-25 15:36:01.242 INFO Workspace clean-up completed.
+~~ End of logging ~~
