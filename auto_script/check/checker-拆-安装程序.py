@@ -18,7 +18,8 @@ def find_urls(data):
                 excluded_domains = { # 豁免
                     'sourceforge', # 总是 403
                     '123', '360', 'effie', 'typora', 'tchspt', 'mysql', 'voicecloud', 'iflyrec', 'jisupdf', # 之前豁免的
-                    'floorp' # 较难处理
+                    'floorp', # 较难处理
+                    'mono', # 403，但手动访问成功 (Mono.Mono)
                 }
                 filtered_urls = {url for url in found_urls if not any(domain in url for domain in excluded_domains)}
                 urls.update(filtered_urls)
