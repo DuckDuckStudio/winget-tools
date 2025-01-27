@@ -1,390 +1,358 @@
 ~~ Start logging ~~
-2025-01-27 18:01:40.610 FUN 如果你染上了__，你这辈子就完了！
-2025-01-27 18:01:40.615 INFO Found the following version folder: ['3.5.3.222', '3.5.3.223', '3.5.3.224', '3.5.3.226', '3.5.3.227', '3.5.3.228', '3.5.3.229', '3.5.3.230', '3.5.4.232', '3.5.4.233', '3.5.4.234', '3.5.5', '3.5.5.235', '3.5.5.236', '3.5.6.239', '3.5.7.245']
-2025-01-27 18:01:44.198 INFO Processing version folder: 3.5.3.222
-2025-01-27 18:01:44.199 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.222
-2025-01-27 18:02:07.963 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.222\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:02:07.965 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:02:07.966 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:02:07.967 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.222\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:02:07.968 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.222\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:02:07.970 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:02:07.971 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:02:07.972 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
-2025-01-27 18:02:07.973 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.222\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:02:07.975 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.222\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:02:07.977 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:02:07.978 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:02:07.980 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.222\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:02:07.982 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.222\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:02:07.984 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.222\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:02:08.348 INFO     清单验证成功。
-
-2025-01-27 18:02:08.364 INFO   Staging and Committing Changes to Git
-2025-01-27 18:02:14.527 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.3.222 (Auto)
-2025-01-27 18:02:14.529 INFO   Pushing changes to remote (origin) repository
-2025-01-27 18:02:24.526 INFO     Successfully pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.222
-2025-01-27 18:02:27.429 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/217149
-2025-01-27 18:03:23.479 INFO Processing version folder: 3.5.3.223
-2025-01-27 18:03:23.499 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.223
-2025-01-27 18:03:40.537 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.223\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:03:40.567 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:03:40.568 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:03:40.570 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.223\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:03:40.571 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.223\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:03:40.590 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:03:40.591 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:03:40.592 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
-2025-01-27 18:03:40.593 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.223\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:03:40.597 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.223\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:03:40.620 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:03:40.621 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:03:40.624 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.223\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:03:40.626 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.223\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:03:40.632 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.223\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:03:41.174 INFO     清单验证成功。
-
-2025-01-27 18:03:41.285 INFO   Staging and Committing Changes to Git
-2025-01-27 18:03:45.867 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.3.223 (Auto)
-2025-01-27 18:03:45.869 INFO   Pushing changes to remote (origin) repository
-2025-01-27 18:03:57.710 INFO     Successfully pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.223
-2025-01-27 18:04:00.112 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/217150
-2025-01-27 18:04:00.114 INFO Processing version folder: 3.5.3.224
-2025-01-27 18:04:00.116 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.224
-2025-01-27 18:04:11.746 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.224\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:04:11.772 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:04:11.773 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:04:11.777 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.224\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:04:11.780 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.224\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:04:11.805 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:04:11.807 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:04:11.810 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
-2025-01-27 18:04:11.814 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.224\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:04:11.816 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.224\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:04:11.850 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:04:11.854 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:04:11.859 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.224\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:04:11.864 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.224\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:04:11.866 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.224\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:04:12.346 INFO     清单验证成功。
-
-2025-01-27 18:04:12.360 INFO   Staging and Committing Changes to Git
-2025-01-27 18:04:18.679 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.3.224 (Auto)
-2025-01-27 18:04:18.689 INFO   Pushing changes to remote (origin) repository
-2025-01-27 18:04:27.779 INFO     Successfully pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.224
-2025-01-27 18:04:31.382 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/217151
-2025-01-27 18:04:31.385 INFO Processing version folder: 3.5.3.226
-2025-01-27 18:04:31.386 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.226
-2025-01-27 18:04:43.646 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.226\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:04:43.673 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:04:43.674 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:04:43.676 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.226\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:04:43.678 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.226\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:04:43.705 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:04:43.708 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:04:43.709 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
-2025-01-27 18:04:43.712 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.226\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:04:43.714 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.226\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:04:43.735 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:04:43.737 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:04:43.741 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.226\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:04:43.743 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.226\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:04:43.746 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.226\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:04:44.158 INFO     清单验证成功。
-
-2025-01-27 18:04:44.171 INFO   Staging and Committing Changes to Git
-2025-01-27 18:04:49.639 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.3.226 (Auto)
-2025-01-27 18:04:49.641 INFO   Pushing changes to remote (origin) repository
-2025-01-27 18:04:59.278 INFO     Successfully pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.226
-2025-01-27 18:05:02.572 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/217152
-2025-01-27 18:05:02.574 INFO Processing version folder: 3.5.3.227
-2025-01-27 18:05:02.575 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.227
-2025-01-27 18:05:12.714 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.227\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:05:12.742 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:05:12.743 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:05:12.745 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.227\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:05:12.746 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.227\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:05:12.777 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:05:12.778 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:05:12.779 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
-2025-01-27 18:05:12.780 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.227\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:05:12.782 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.227\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:05:12.806 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:05:12.808 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:05:12.810 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.227\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:05:12.824 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.227\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:05:12.830 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.227\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:05:13.325 INFO     清单验证成功。
-
-2025-01-27 18:05:13.336 INFO   Staging and Committing Changes to Git
-2025-01-27 18:05:19.238 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.3.227 (Auto)
-2025-01-27 18:05:19.240 INFO   Pushing changes to remote (origin) repository
-2025-01-27 18:05:31.920 INFO     Successfully pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.227
-2025-01-27 18:05:34.773 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/217153
-2025-01-27 18:05:34.775 INFO Processing version folder: 3.5.3.228
-2025-01-27 18:05:34.776 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.228
-2025-01-27 18:05:45.840 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.228\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:05:45.861 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:05:45.863 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:05:45.865 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.228\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:05:45.869 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.228\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:05:45.894 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:05:45.896 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:05:45.896 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
-2025-01-27 18:05:45.900 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.228\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:05:45.904 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.228\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:05:45.922 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:05:45.924 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:05:45.926 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.228\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:05:45.928 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.228\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:05:45.932 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.228\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:05:46.474 INFO     清单验证成功。
-
-2025-01-27 18:05:46.490 INFO   Staging and Committing Changes to Git
-2025-01-27 18:05:52.311 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.3.228 (Auto)
-2025-01-27 18:05:52.321 INFO   Pushing changes to remote (origin) repository
-2025-01-27 18:06:03.164 INFO     Successfully pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.228
-2025-01-27 18:06:06.281 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/217155
-2025-01-27 18:06:06.282 INFO Processing version folder: 3.5.3.229
-2025-01-27 18:06:06.284 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.229
-2025-01-27 18:06:16.734 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.229\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:06:16.759 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:06:16.762 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:06:16.765 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.229\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:06:16.766 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.229\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:06:16.787 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:06:16.789 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:06:16.789 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
-2025-01-27 18:06:16.791 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.229\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:06:16.793 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.229\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:06:16.815 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:06:16.817 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:06:16.819 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.229\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:06:16.820 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.229\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:06:16.823 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.229\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:06:17.180 INFO     清单验证成功。
-
-2025-01-27 18:06:17.191 INFO   Staging and Committing Changes to Git
-2025-01-27 18:06:21.806 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.3.229 (Auto)
-2025-01-27 18:06:21.807 INFO   Pushing changes to remote (origin) repository
-2025-01-27 18:06:33.294 INFO     Successfully pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.229
-2025-01-27 18:06:35.360 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/217156
-2025-01-27 18:06:35.363 INFO Processing version folder: 3.5.3.230
-2025-01-27 18:06:35.364 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.230
-2025-01-27 18:06:47.157 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.230\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:06:47.179 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:06:47.181 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:06:47.182 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.230\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:06:47.184 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.230\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:06:47.206 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:06:47.208 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:06:47.210 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
-2025-01-27 18:06:47.211 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.230\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:06:47.214 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.230\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:06:47.231 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:06:47.232 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:06:47.234 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.230\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:06:47.236 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.230\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:06:47.238 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.230\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:06:47.606 INFO     清单验证成功。
-
-2025-01-27 18:06:47.625 INFO   Staging and Committing Changes to Git
-2025-01-27 18:06:54.143 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.3.230 (Auto)
-2025-01-27 18:06:54.163 INFO   Pushing changes to remote (origin) repository
-2025-01-27 18:07:06.160 INFO     Successfully pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.230
-2025-01-27 18:07:09.224 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/217158
-2025-01-27 18:07:09.252 INFO Processing version folder: 3.5.4.232
-2025-01-27 18:07:09.272 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.4.232
-2025-01-27 18:07:19.800 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.232\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:07:19.832 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:07:19.833 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:07:19.835 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.232\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:07:19.838 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.232\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:07:19.861 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:07:19.862 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:07:19.863 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
-2025-01-27 18:07:19.865 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.232\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:07:19.866 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.232\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:07:19.885 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:07:19.887 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:07:19.890 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.232\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:07:19.892 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.232\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:07:19.894 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.232\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:07:20.256 INFO     清单验证成功。
-
-2025-01-27 18:07:20.269 INFO   Staging and Committing Changes to Git
-2025-01-27 18:07:25.263 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.4.232 (Auto)
-2025-01-27 18:07:25.265 INFO   Pushing changes to remote (origin) repository
-2025-01-27 18:07:35.335 INFO     Successfully pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.4.232
-2025-01-27 18:07:37.833 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/217159
-2025-01-27 18:07:37.835 INFO Processing version folder: 3.5.4.233
-2025-01-27 18:07:37.837 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.4.233
-2025-01-27 18:07:47.804 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.233\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:07:47.838 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:07:47.839 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:07:47.841 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.233\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:07:47.843 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.233\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:07:47.845 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:07:47.847 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:07:47.847 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
-2025-01-27 18:07:47.849 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.233\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:07:47.853 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.233\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:07:47.869 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:07:47.871 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:07:47.873 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.233\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:07:47.875 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.233\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:07:47.877 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.233\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:07:48.257 INFO     清单验证成功。
-
-2025-01-27 18:07:48.270 INFO   Staging and Committing Changes to Git
-2025-01-27 18:07:53.544 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.4.233 (Auto)
-2025-01-27 18:07:53.546 INFO   Pushing changes to remote (origin) repository
-2025-01-27 18:08:03.870 INFO     Successfully pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.4.233
-2025-01-27 18:08:06.591 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/217161
-2025-01-27 18:08:06.592 INFO Processing version folder: 3.5.4.234
-2025-01-27 18:08:06.594 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.4.234
-2025-01-27 18:08:18.170 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.234\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:08:18.219 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:08:18.221 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:08:18.226 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.234\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:08:18.233 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.234\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:08:18.271 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:08:18.273 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:08:18.274 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
-2025-01-27 18:08:18.277 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.234\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:08:18.280 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.234\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:08:18.312 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
-2025-01-27 18:08:18.313 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:08:18.317 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.234\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:08:18.321 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.234\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:08:18.323 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.234\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:08:18.782 INFO     清单验证成功。
-
-2025-01-27 18:08:18.796 INFO   Staging and Committing Changes to Git
-2025-01-27 18:08:25.742 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.4.234 (Auto)
-2025-01-27 18:08:25.743 INFO   Pushing changes to remote (origin) repository
-2025-01-27 18:08:36.827 INFO     Successfully pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.4.234
-2025-01-27 18:08:39.244 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/217162
-2025-01-27 18:08:39.247 INFO Processing version folder: 3.5.5
-2025-01-27 18:08:39.249 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.5
-2025-01-27 18:08:50.658 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:08:50.684 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
-2025-01-27 18:08:50.685 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:08:50.688 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:08:50.690 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:08:50.726 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
-2025-01-27 18:08:50.731 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:08:50.733 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
-2025-01-27 18:08:50.735 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:08:50.737 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:08:50.756 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
-2025-01-27 18:08:50.758 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:08:50.761 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:08:50.768 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:08:50.771 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:08:51.149 INFO     清单验证成功。
-
-2025-01-27 18:08:51.161 INFO   Staging and Committing Changes to Git
-2025-01-27 18:08:56.407 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.5 (Auto)
-2025-01-27 18:08:56.417 INFO   Pushing changes to remote (origin) repository
-2025-01-27 18:09:07.104 INFO     Successfully pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.5
-2025-01-27 18:09:10.640 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/217163
-2025-01-27 18:09:10.642 INFO Processing version folder: 3.5.5.235
-2025-01-27 18:09:10.643 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.5.235
-2025-01-27 18:09:22.832 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.235\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:09:22.857 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-27 18:09:22.860 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:09:22.863 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.235\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:09:22.865 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.235\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:09:22.887 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-27 18:09:22.889 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:09:22.889 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
-2025-01-27 18:09:22.895 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.235\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:09:22.897 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.235\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:09:22.916 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-27 18:09:22.918 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:09:22.920 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.235\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:09:22.922 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.235\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:09:22.927 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.235\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:09:23.277 INFO     清单验证成功。
-
-2025-01-27 18:09:23.289 INFO   Staging and Committing Changes to Git
-2025-01-27 18:09:28.251 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.5.235 (Auto)
-2025-01-27 18:09:28.351 INFO   Pushing changes to remote (origin) repository
-2025-01-27 18:09:39.226 INFO     Successfully pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.5.235
-2025-01-27 18:09:42.443 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/217164
-2025-01-27 18:09:42.445 INFO Processing version folder: 3.5.5.236
-2025-01-27 18:09:42.446 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.5.236
-2025-01-27 18:09:54.514 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.236\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:09:54.535 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-27 18:09:54.536 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:09:54.542 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.236\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:09:54.544 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.236\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:09:54.564 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-27 18:09:54.565 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:09:54.566 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
-2025-01-27 18:09:54.568 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.236\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:09:54.570 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.236\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:09:54.587 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-27 18:09:54.590 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:09:54.593 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.236\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:09:54.595 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.236\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:09:54.597 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.236\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:09:55.198 INFO     清单验证成功。
-
-2025-01-27 18:09:55.338 INFO   Staging and Committing Changes to Git
-2025-01-27 18:10:00.167 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.5.236 (Auto)
-2025-01-27 18:10:00.168 INFO   Pushing changes to remote (origin) repository
-2025-01-27 18:10:09.818 INFO     Successfully pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.5.236
-2025-01-27 18:10:12.609 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/217166
-2025-01-27 18:10:12.611 INFO Processing version folder: 3.5.6.239
-2025-01-27 18:10:12.613 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.6.239
-2025-01-27 18:10:22.732 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.6.239\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:10:22.764 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-27 18:10:22.765 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:10:22.775 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.6.239\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:10:22.798 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.6.239\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:10:22.841 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-27 18:10:22.843 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:10:22.844 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
-2025-01-27 18:10:22.846 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.6.239\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:10:22.855 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.6.239\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:10:22.880 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-27 18:10:22.881 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:10:22.888 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.6.239\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:10:22.892 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.6.239\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:10:22.896 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.6.239\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:10:23.271 INFO     清单验证成功。
-
-2025-01-27 18:10:23.283 INFO   Staging and Committing Changes to Git
-2025-01-27 18:10:28.407 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.6.239 (Auto)
-2025-01-27 18:10:28.409 INFO   Pushing changes to remote (origin) repository
-2025-01-27 18:10:38.777 INFO     Successfully pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.6.239
-2025-01-27 18:10:41.387 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/217167
-2025-01-27 18:10:41.389 INFO Processing version folder: 3.5.7.245
-2025-01-27 18:10:41.390 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.7.245
-2025-01-27 18:10:51.574 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.7.245\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:10:51.585 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-27 18:10:51.586 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:10:51.588 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.7.245\huanghongxun.HelloMinecraftLauncher.installer.yaml
-2025-01-27 18:10:51.590 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.7.245\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:10:51.592 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-27 18:10:51.593 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:10:51.594 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
-2025-01-27 18:10:51.596 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.7.245\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
-2025-01-27 18:10:51.599 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.7.245\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:10:51.617 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-01-27 18:10:51.619 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-01-27 18:10:51.621 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.7.245\huanghongxun.HelloMinecraftLauncher.yaml
-2025-01-27 18:10:51.623 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.7.245\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:10:51.625 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.7.245\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
-2025-01-27 18:10:52.222 INFO     清单验证成功。
-
-2025-01-27 18:10:52.353 INFO   Staging and Committing Changes to Git
-2025-01-27 18:10:57.986 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.7.245 (Auto)
-2025-01-27 18:10:57.988 INFO   Pushing changes to remote (origin) repository
-2025-01-27 18:11:10.292 INFO     Successfully pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.7.245
-2025-01-27 18:11:13.253 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/217168
-2025-01-27 18:11:13.255 INFO All manifests have been modified and pushed through.
-2025-01-27 18:11:21.568 INFO Workspace clean-up completed.
+2025-01-27 19:16:16.802 FUN 星际和平商城年终大促，各种精品好物价格史低不容错过！
+2025-01-27 19:16:16.816 INFO Found the following version folder: ['3.5.3.222', '3.5.3.223', '3.5.3.224', '3.5.3.226', '3.5.3.227', '3.5.3.228', '3.5.3.229', '3.5.3.230', '3.5.4.232', '3.5.4.233', '3.5.4.234', '3.5.5', '3.5.5.235', '3.5.5.236', '3.5.6.239', '3.5.7.245']
+2025-01-27 19:16:17.199 INFO Processing version folder: 3.5.3.222
+2025-01-27 19:16:17.201 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.222
+2025-01-27 19:17:14.162 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.222\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:17:14.168 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:17:14.171 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:17:14.174 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.222\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:17:14.175 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.222\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:17:14.208 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:17:14.210 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:17:14.211 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
+2025-01-27 19:17:14.213 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.222\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:17:14.215 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.222\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:17:14.222 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:17:14.224 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:17:14.227 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.222\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:17:14.230 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.222\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:17:14.232 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.222\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:17:14.837 INFO     清单验证成功。
+2025-01-27 19:17:14.858 INFO   Staging and Committing Changes to Git
+2025-01-27 19:17:26.163 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.3.222 (Auto)
+2025-01-27 19:17:26.165 INFO   Pushing changes to remote (origin) repository
+2025-01-27 19:17:47.769 INFO     Successfully FORCE pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.222
+2025-01-27 19:17:47.794 INFO Processing version folder: 3.5.3.223
+2025-01-27 19:17:47.890 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.223
+2025-01-27 19:18:09.365 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.223\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:18:09.614 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:18:09.734 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:18:09.100 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.223\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:18:09.134 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.223\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:18:09.165 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:18:09.172 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:18:09.176 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
+2025-01-27 19:18:09.256 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.223\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:18:09.263 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.223\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:18:09.272 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:18:09.275 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:18:09.285 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.223\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:18:09.291 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.223\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:18:09.294 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.223\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:18:10.187 INFO     清单验证成功。
+2025-01-27 19:18:10.225 INFO   Staging and Committing Changes to Git
+2025-01-27 19:18:21.459 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.3.223 (Auto)
+2025-01-27 19:18:21.466 INFO   Pushing changes to remote (origin) repository
+2025-01-27 19:18:38.445 INFO     Successfully FORCE pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.223
+2025-01-27 19:18:38.447 INFO Processing version folder: 3.5.3.224
+2025-01-27 19:18:38.449 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.224
+2025-01-27 19:18:52.659 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.224\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:18:52.696 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:18:52.698 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:18:52.699 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.224\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:18:52.702 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.224\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:18:52.707 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:18:52.709 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:18:52.710 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
+2025-01-27 19:18:52.712 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.224\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:18:52.717 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.224\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:18:52.741 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:18:52.745 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:18:52.749 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.224\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:18:52.752 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.224\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:18:52.757 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.224\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:18:53.270 INFO     清单验证成功。
+2025-01-27 19:18:53.291 INFO   Staging and Committing Changes to Git
+2025-01-27 19:18:59.703 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.3.224 (Auto)
+2025-01-27 19:18:59.705 INFO   Pushing changes to remote (origin) repository
+2025-01-27 19:19:27.134 INFO     Successfully FORCE pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.224
+2025-01-27 19:19:27.136 INFO Processing version folder: 3.5.3.226
+2025-01-27 19:19:27.138 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.226
+2025-01-27 19:19:42.752 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.226\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:19:42.758 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:19:42.761 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:19:42.763 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.226\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:19:42.767 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.226\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:19:42.770 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:19:42.775 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:19:42.778 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
+2025-01-27 19:19:42.784 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.226\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:19:42.787 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.226\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:19:42.791 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:19:42.793 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:19:42.797 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.226\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:19:42.800 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.226\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:19:42.808 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.226\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:19:43.508 INFO     清单验证成功。
+2025-01-27 19:19:43.532 INFO   Staging and Committing Changes to Git
+2025-01-27 19:19:51.854 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.3.226 (Auto)
+2025-01-27 19:19:51.858 INFO   Pushing changes to remote (origin) repository
+2025-01-27 19:20:09.653 INFO     Successfully FORCE pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.226
+2025-01-27 19:20:09.658 INFO Processing version folder: 3.5.3.227
+2025-01-27 19:20:09.661 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.227
+2025-01-27 19:20:25.160 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.227\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:20:25.172 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:20:25.173 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:20:25.176 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.227\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:20:25.180 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.227\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:20:25.189 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:20:25.195 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:20:25.197 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
+2025-01-27 19:20:25.205 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.227\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:20:25.208 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.227\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:20:25.217 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:20:25.220 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:20:25.225 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.227\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:20:25.237 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.227\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:20:25.241 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.227\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:20:25.963 INFO     清单验证成功。
+2025-01-27 19:20:25.999 INFO   Staging and Committing Changes to Git
+2025-01-27 19:20:34.847 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.3.227 (Auto)
+2025-01-27 19:20:34.849 INFO   Pushing changes to remote (origin) repository
+2025-01-27 19:20:53.434 INFO     Successfully FORCE pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.227
+2025-01-27 19:20:53.437 INFO Processing version folder: 3.5.3.228
+2025-01-27 19:20:53.438 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.228
+2025-01-27 19:21:09.587 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.228\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:21:09.591 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:21:09.594 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:21:09.598 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.228\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:21:09.602 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.228\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:21:09.606 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:21:09.608 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:21:09.610 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
+2025-01-27 19:21:09.614 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.228\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:21:09.616 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.228\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:21:09.619 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:21:09.621 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:21:09.624 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.228\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:21:09.628 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.228\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:21:09.632 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.228\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:21:10.297 INFO     清单验证成功。
+2025-01-27 19:21:10.320 INFO   Staging and Committing Changes to Git
+2025-01-27 19:21:17.669 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.3.228 (Auto)
+2025-01-27 19:21:17.671 INFO   Pushing changes to remote (origin) repository
+2025-01-27 19:21:48.490 INFO     Successfully FORCE pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.228
+2025-01-27 19:21:48.520 INFO Processing version folder: 3.5.3.229
+2025-01-27 19:21:48.550 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.229
+2025-01-27 19:22:02.811 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.229\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:22:02.827 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:22:02.828 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:22:02.830 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.229\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:22:02.833 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.229\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:22:02.877 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:22:02.879 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:22:02.879 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
+2025-01-27 19:22:02.881 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.229\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:22:02.885 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.229\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:22:02.892 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:22:02.893 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:22:02.897 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.229\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:22:02.902 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.229\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:22:02.906 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.229\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:22:03.495 INFO     清单验证成功。
+2025-01-27 19:22:03.515 INFO   Staging and Committing Changes to Git
+2025-01-27 19:22:10.241 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.3.229 (Auto)
+2025-01-27 19:22:10.244 INFO   Pushing changes to remote (origin) repository
+2025-01-27 19:23:04.174 INFO     Successfully FORCE pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.229
+2025-01-27 19:23:04.178 INFO Processing version folder: 3.5.3.230
+2025-01-27 19:23:04.191 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.230
+2025-01-27 19:23:19.120 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.230\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:23:19.122 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:23:19.124 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:23:19.128 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.230\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:23:19.134 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.230\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:23:19.137 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:23:19.139 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:23:19.142 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
+2025-01-27 19:23:19.144 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.230\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:23:19.148 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.230\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:23:19.150 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:23:19.152 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:23:19.154 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.230\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:23:19.158 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.230\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:23:19.168 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.3.230\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:23:19.864 INFO     清单验证成功。
+2025-01-27 19:23:19.888 INFO   Staging and Committing Changes to Git
+2025-01-27 19:23:27.137 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.3.230 (Auto)
+2025-01-27 19:23:27.140 INFO   Pushing changes to remote (origin) repository
+2025-01-27 19:23:41.413 INFO     Successfully FORCE pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.3.230
+2025-01-27 19:23:41.414 INFO Processing version folder: 3.5.4.232
+2025-01-27 19:23:41.416 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.4.232
+2025-01-27 19:23:55.242 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.232\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:23:55.255 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:23:55.257 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:23:55.261 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.232\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:23:55.264 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.232\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:23:55.272 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:23:55.274 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:23:55.276 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
+2025-01-27 19:23:55.280 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.232\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:23:55.283 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.232\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:23:55.286 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:23:55.292 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:23:55.297 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.232\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:23:55.302 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.232\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:23:55.309 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.232\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:23:55.943 INFO     清单验证成功。
+2025-01-27 19:23:55.966 INFO   Staging and Committing Changes to Git
+2025-01-27 19:24:02.773 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.4.232 (Auto)
+2025-01-27 19:24:02.776 INFO   Pushing changes to remote (origin) repository
+2025-01-27 19:27:06.883 INFO     Successfully FORCE pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.4.232
+2025-01-27 19:27:06.886 INFO Processing version folder: 3.5.4.233
+2025-01-27 19:27:06.889 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.4.233
+2025-01-27 19:27:24.855 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.233\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:27:24.860 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:27:24.865 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:27:24.870 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.233\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:27:24.878 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.233\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:27:24.882 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:27:24.886 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:27:24.889 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
+2025-01-27 19:27:24.894 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.233\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:27:24.898 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.233\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:27:24.903 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:27:24.908 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:27:24.913 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.233\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:27:24.917 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.233\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:27:24.929 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.233\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:27:25.740 INFO     清单验证成功。
+2025-01-27 19:27:25.765 INFO   Staging and Committing Changes to Git
+2025-01-27 19:27:34.153 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.4.233 (Auto)
+2025-01-27 19:27:34.155 INFO   Pushing changes to remote (origin) repository
+2025-01-27 19:28:01.653 INFO     Successfully FORCE pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.4.233
+2025-01-27 19:28:01.660 INFO Processing version folder: 3.5.4.234
+2025-01-27 19:28:01.664 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.4.234
+2025-01-27 19:28:24.460 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.234\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:28:24.553 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:28:24.554 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:28:24.557 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.234\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:28:24.560 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.234\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:28:24.577 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:28:24.584 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:28:24.588 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
+2025-01-27 19:28:24.595 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.234\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:28:24.601 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.234\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:28:24.652 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-27 19:28:24.656 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:28:24.661 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.234\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:28:24.669 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.234\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:28:24.677 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.4.234\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:28:25.442 INFO     清单验证成功。
+2025-01-27 19:28:25.471 INFO   Staging and Committing Changes to Git
+2025-01-27 19:28:34.427 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.4.234 (Auto)
+2025-01-27 19:28:34.432 INFO   Pushing changes to remote (origin) repository
+2025-01-27 19:28:55.954 INFO     Successfully FORCE pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.4.234
+2025-01-27 19:28:55.958 INFO Processing version folder: 3.5.5
+2025-01-27 19:28:55.965 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.5
+2025-01-27 19:29:15.691 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:29:15.730 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
+2025-01-27 19:29:15.732 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:29:15.736 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:29:15.747 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:29:15.768 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
+2025-01-27 19:29:15.771 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:29:15.773 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
+2025-01-27 19:29:15.778 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:29:15.786 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:29:15.795 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
+2025-01-27 19:29:15.799 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:29:15.803 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:29:15.806 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:29:15.810 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:29:16.595 INFO     清单验证成功。
+2025-01-27 19:29:16.626 INFO   Staging and Committing Changes to Git
+2025-01-27 19:29:26.287 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.5 (Auto)
+2025-01-27 19:29:26.290 INFO   Pushing changes to remote (origin) repository
+2025-01-27 19:29:47.513 INFO     Successfully FORCE pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.5
+2025-01-27 19:29:47.529 INFO Processing version folder: 3.5.5.235
+2025-01-27 19:29:47.536 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.5.235
+2025-01-27 19:30:06.314 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.235\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:30:06.320 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 19:30:06.323 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:30:06.326 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.235\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:30:06.330 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.235\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:30:06.343 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 19:30:06.346 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:30:06.347 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
+2025-01-27 19:30:06.350 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.235\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:30:06.356 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.235\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:30:06.404 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 19:30:06.407 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:30:06.410 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.235\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:30:06.413 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.235\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:30:06.416 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.235\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:30:07.529 INFO     清单验证成功。
+2025-01-27 19:30:07.726 INFO   Staging and Committing Changes to Git
+2025-01-27 19:30:15.256 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.5.235 (Auto)
+2025-01-27 19:30:15.258 INFO   Pushing changes to remote (origin) repository
+2025-01-27 19:30:29.852 INFO     Successfully FORCE pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.5.235
+2025-01-27 19:30:29.887 INFO Processing version folder: 3.5.5.236
+2025-01-27 19:30:29.917 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.5.236
+2025-01-27 19:30:47.340 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.236\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:30:47.344 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 19:30:47.346 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:30:47.349 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.236\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:30:47.352 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.236\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:30:47.356 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 19:30:47.357 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:30:47.359 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
+2025-01-27 19:30:47.362 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.236\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:30:47.368 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.236\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:30:47.372 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 19:30:47.374 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:30:47.376 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.236\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:30:47.379 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.236\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:30:47.385 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.5.236\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:30:48.502 INFO     清单验证成功。
+2025-01-27 19:30:48.713 INFO   Staging and Committing Changes to Git
+2025-01-27 19:30:56.730 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.5.236 (Auto)
+2025-01-27 19:30:56.750 INFO   Pushing changes to remote (origin) repository
+2025-01-27 19:31:05.799 INFO     Successfully FORCE pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.5.236
+2025-01-27 19:31:05.803 INFO Processing version folder: 3.5.6.239
+2025-01-27 19:31:05.805 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.6.239
+2025-01-27 19:31:23.904 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.6.239\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:31:23.909 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 19:31:23.915 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:31:23.919 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.6.239\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:31:23.921 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.6.239\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:31:23.925 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 19:31:23.928 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:31:23.931 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
+2025-01-27 19:31:23.935 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.6.239\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:31:23.938 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.6.239\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:31:23.944 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 19:31:23.951 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:31:23.958 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.6.239\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:31:23.967 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.6.239\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:31:23.971 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.6.239\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:31:24.735 INFO     清单验证成功。
+2025-01-27 19:31:24.759 INFO   Staging and Committing Changes to Git
+2025-01-27 19:31:33.470 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.6.239 (Auto)
+2025-01-27 19:31:33.475 INFO   Pushing changes to remote (origin) repository
+2025-01-27 19:31:43.153 INFO     Successfully FORCE pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.6.239
+2025-01-27 19:31:43.155 INFO Processing version folder: 3.5.7.245
+2025-01-27 19:31:43.159 INFO   Create and checkout to a new branch: Modify-huanghongxun.HelloMinecraftLauncher-3.5.7.245
+2025-01-27 19:32:08.883 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.7.245\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:32:08.933 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 19:32:08.935 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:32:08.937 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.7.245\huanghongxun.HelloMinecraftLauncher.installer.yaml
+2025-01-27 19:32:08.944 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.7.245\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:32:08.991 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 19:32:08.994 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:32:08.995 INFO   Correction to PublisherSupportUrl entry: https://afdian.net/@huanghongxun -> https://github.com/HMCL-dev/HMCL/issues
+2025-01-27 19:32:09.360 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.7.245\huanghongxun.HelloMinecraftLauncher.locale.zh-CN.yaml
+2025-01-27 19:32:09.335 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.7.245\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:32:09.144 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 19:32:09.164 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 19:32:09.184 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.7.245\huanghongxun.HelloMinecraftLauncher.yaml
+2025-01-27 19:32:09.245 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.7.245\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:32:09.289 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\h\huanghongxun\HelloMinecraftLauncher\3.5.7.245\huanghongxun.HelloMinecraftLauncher.locale.en-US.yaml
+2025-01-27 19:32:09.780 INFO     清单验证成功。
+2025-01-27 19:32:09.811 INFO   Staging and Committing Changes to Git
+2025-01-27 19:32:21.916 INFO     Commit message: Modify: huanghongxun.HelloMinecraftLauncher version 3.5.7.245 (Auto)
+2025-01-27 19:32:21.919 INFO   Pushing changes to remote (origin) repository
+2025-01-27 19:32:31.405 INFO     Successfully FORCE pushed to remote (origin): Modify-huanghongxun.HelloMinecraftLauncher-3.5.7.245
+2025-01-27 19:32:31.408 INFO All manifests have been modified and pushed through.
+2025-01-27 19:32:44.919 INFO Workspace clean-up completed.
 ~~ End of logging ~~
