@@ -1,0 +1,128 @@
+~~ Start logging ~~
+2025-01-27 21:56:39.679 FUN Just do it!
+2025-01-27 21:56:39.682 INFO Found the following version folder: ['6.0.864', '6.0.866', '6.0.868', '6.0.869', '6.0.871']
+2025-01-27 21:56:39.854 INFO Processing version folder: 6.0.864
+2025-01-27 21:56:39.855 INFO   Create and checkout to a new branch: Modify-GeoGebra.GraphingCalculator-6.0.864
+2025-01-27 21:56:56.343 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.864\GeoGebra.GraphingCalculator.installer.yaml
+2025-01-27 21:56:56.344 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 21:56:56.345 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 21:56:56.348 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.864\GeoGebra.GraphingCalculator.installer.yaml
+2025-01-27 21:56:56.348 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.864\GeoGebra.GraphingCalculator.locale.en-US.yaml
+2025-01-27 21:56:56.350 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 21:56:56.351 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 21:56:56.352 INFO   Correction to PackageName entry: GeoGebra CAS Calculator -> GeoGebra Graphing Calculator
+2025-01-27 21:56:56.354 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.864\GeoGebra.GraphingCalculator.locale.en-US.yaml
+2025-01-27 21:56:56.356 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.864\GeoGebra.GraphingCalculator.locale.zh-CN.yaml
+2025-01-27 21:56:56.358 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 21:56:56.359 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 21:56:56.360 INFO   Correction to PackageName entry: GeoGebra CAS Calculator -> GeoGebra Graphing Calculator
+2025-01-27 21:56:56.361 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.864\GeoGebra.GraphingCalculator.locale.zh-CN.yaml
+2025-01-27 21:56:56.365 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.864\GeoGebra.GraphingCalculator.yaml
+2025-01-27 21:56:56.367 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 21:56:56.368 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 21:56:56.370 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.864\GeoGebra.GraphingCalculator.yaml
+2025-01-27 21:56:56.763 INFO     清单验证成功。
+2025-01-27 21:56:56.776 INFO   Staging and Committing Changes to Git
+2025-01-27 21:57:01.460 INFO     Commit message: Modify: GeoGebra.GraphingCalculator version 6.0.864 (Auto)
+2025-01-27 21:57:01.462 INFO   Pushing changes to remote (origin) repository
+2025-01-27 21:57:06.464 INFO     Successfully FORCE pushed to remote (origin): Modify-GeoGebra.GraphingCalculator-6.0.864
+2025-01-27 21:57:08.580 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/217215
+2025-01-27 21:57:08.583 INFO Processing version folder: 6.0.866
+2025-01-27 21:57:08.586 INFO   Create and checkout to a new branch: Modify-GeoGebra.GraphingCalculator-6.0.866
+2025-01-27 21:57:18.444 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.866\GeoGebra.GraphingCalculator.installer.yaml
+2025-01-27 21:57:18.805 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 21:57:18.821 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 21:57:18.871 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.866\GeoGebra.GraphingCalculator.installer.yaml
+2025-01-27 21:57:18.924 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.866\GeoGebra.GraphingCalculator.locale.en-US.yaml
+2025-01-27 21:57:18.141 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 21:57:18.142 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 21:57:18.143 INFO   Correction to PackageName entry: GeoGebra CAS Calculator -> GeoGebra Graphing Calculator
+2025-01-27 21:57:18.150 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.866\GeoGebra.GraphingCalculator.locale.en-US.yaml
+2025-01-27 21:57:18.155 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.866\GeoGebra.GraphingCalculator.locale.zh-CN.yaml
+2025-01-27 21:57:18.188 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 21:57:18.189 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 21:57:18.190 INFO   Correction to PackageName entry: GeoGebra CAS Calculator -> GeoGebra Graphing Calculator
+2025-01-27 21:57:18.193 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.866\GeoGebra.GraphingCalculator.locale.zh-CN.yaml
+2025-01-27 21:57:18.198 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.866\GeoGebra.GraphingCalculator.yaml
+2025-01-27 21:57:18.229 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 21:57:18.231 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 21:57:18.235 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.866\GeoGebra.GraphingCalculator.yaml
+2025-01-27 21:57:18.733 INFO     清单验证成功。
+2025-01-27 21:57:18.773 INFO   Staging and Committing Changes to Git
+2025-01-27 21:57:26.407 INFO     Commit message: Modify: GeoGebra.GraphingCalculator version 6.0.866 (Auto)
+2025-01-27 21:57:26.414 INFO   Pushing changes to remote (origin) repository
+2025-01-27 21:57:31.367 INFO     Successfully FORCE pushed to remote (origin): Modify-GeoGebra.GraphingCalculator-6.0.866
+2025-01-27 21:57:33.442 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/217216
+2025-01-27 21:57:33.444 INFO Processing version folder: 6.0.868
+2025-01-27 21:57:33.446 INFO   Create and checkout to a new branch: Modify-GeoGebra.GraphingCalculator-6.0.868
+2025-01-27 21:57:45.501 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.868\GeoGebra.GraphingCalculator.installer.yaml
+2025-01-27 21:57:45.527 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 21:57:45.529 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 21:57:45.532 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.868\GeoGebra.GraphingCalculator.installer.yaml
+2025-01-27 21:57:45.534 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.868\GeoGebra.GraphingCalculator.locale.en-US.yaml
+2025-01-27 21:57:45.561 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 21:57:45.563 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 21:57:45.564 INFO   Correction to PackageName entry: GeoGebra CAS Calculator -> GeoGebra Graphing Calculator
+2025-01-27 21:57:45.566 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.868\GeoGebra.GraphingCalculator.locale.en-US.yaml
+2025-01-27 21:57:45.569 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.868\GeoGebra.GraphingCalculator.locale.zh-CN.yaml
+2025-01-27 21:57:45.592 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 21:57:45.594 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 21:57:45.594 INFO   Correction to PackageName entry: GeoGebra CAS Calculator -> GeoGebra Graphing Calculator
+2025-01-27 21:57:45.596 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.868\GeoGebra.GraphingCalculator.locale.zh-CN.yaml
+2025-01-27 21:57:45.600 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.868\GeoGebra.GraphingCalculator.yaml
+2025-01-27 21:57:45.621 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 21:57:45.622 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 21:57:45.624 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.868\GeoGebra.GraphingCalculator.yaml
+2025-01-27 21:57:45.976 INFO     清单验证成功。
+2025-01-27 21:57:45.990 INFO   Staging and Committing Changes to Git
+2025-01-27 21:57:51.858 INFO     Commit message: Modify: GeoGebra.GraphingCalculator version 6.0.868 (Auto)
+2025-01-27 21:57:51.860 INFO   Pushing changes to remote (origin) repository
+2025-01-27 21:57:57.219 INFO     Successfully FORCE pushed to remote (origin): Modify-GeoGebra.GraphingCalculator-6.0.868
+2025-01-27 21:58:01.187 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/217217
+2025-01-27 21:58:01.190 INFO Processing version folder: 6.0.869
+2025-01-27 21:58:01.192 INFO   Create and checkout to a new branch: Modify-GeoGebra.GraphingCalculator-6.0.869
+2025-01-27 21:58:11.600 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.869\GeoGebra.GraphingCalculator.installer.yaml
+2025-01-27 21:58:11.624 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 21:58:11.625 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 21:58:11.628 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.869\GeoGebra.GraphingCalculator.installer.yaml
+2025-01-27 21:58:11.631 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.869\GeoGebra.GraphingCalculator.locale.en-US.yaml
+2025-01-27 21:58:11.657 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 21:58:11.659 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 21:58:11.660 INFO   Correction to PackageName entry: GeoGebra CAS Calculator -> GeoGebra Graphing Calculator
+2025-01-27 21:58:11.662 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.869\GeoGebra.GraphingCalculator.locale.en-US.yaml
+2025-01-27 21:58:11.664 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.869\GeoGebra.GraphingCalculator.locale.zh-CN.yaml
+2025-01-27 21:58:11.689 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 21:58:11.692 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 21:58:11.693 INFO   Correction to PackageName entry: GeoGebra CAS Calculator -> GeoGebra Graphing Calculator
+2025-01-27 21:58:11.695 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.869\GeoGebra.GraphingCalculator.locale.zh-CN.yaml
+2025-01-27 21:58:11.697 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.869\GeoGebra.GraphingCalculator.yaml
+2025-01-27 21:58:11.716 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-27 21:58:11.717 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-27 21:58:11.721 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.869\GeoGebra.GraphingCalculator.yaml
+2025-01-27 21:58:12.173 INFO     清单验证成功。
+2025-01-27 21:58:12.184 INFO   Staging and Committing Changes to Git
+2025-01-27 21:58:17.344 INFO     Commit message: Modify: GeoGebra.GraphingCalculator version 6.0.869 (Auto)
+2025-01-27 21:58:17.346 INFO   Pushing changes to remote (origin) repository
+2025-01-27 21:58:22.588 INFO     Successfully FORCE pushed to remote (origin): Modify-GeoGebra.GraphingCalculator-6.0.869
+2025-01-27 21:58:25.131 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/217218
+2025-01-27 21:58:25.133 INFO Processing version folder: 6.0.871
+2025-01-27 21:58:25.135 INFO   Create and checkout to a new branch: Modify-GeoGebra.GraphingCalculator-6.0.871
+2025-01-27 21:58:40.798 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.871\GeoGebra.GraphingCalculator.installer.yaml
+2025-01-27 21:58:40.802 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.871\GeoGebra.GraphingCalculator.installer.yaml
+2025-01-27 21:58:40.804 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.871\GeoGebra.GraphingCalculator.locale.en-US.yaml
+2025-01-27 21:58:40.807 INFO   Correction to PackageName entry: GeoGebra CAS Calculator -> GeoGebra Graphing Calculator
+2025-01-27 21:58:40.811 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.871\GeoGebra.GraphingCalculator.locale.en-US.yaml
+2025-01-27 21:58:40.815 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.871\GeoGebra.GraphingCalculator.locale.zh-CN.yaml
+2025-01-27 21:58:40.816 INFO   Correction to PackageName entry: GeoGebra CAS Calculator -> GeoGebra Graphing Calculator
+2025-01-27 21:58:40.821 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.871\GeoGebra.GraphingCalculator.locale.zh-CN.yaml
+2025-01-27 21:58:40.827 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.871\GeoGebra.GraphingCalculator.yaml
+2025-01-27 21:58:40.831 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.871\GeoGebra.GraphingCalculator.yaml
+2025-01-27 21:58:41.391 INFO     清单验证成功。
+2025-01-27 21:58:41.413 INFO   Staging and Committing Changes to Git
+2025-01-27 21:58:48.980 INFO     Commit message: Modify: GeoGebra.GraphingCalculator version 6.0.871 (Auto)
+2025-01-27 21:58:48.982 INFO   Pushing changes to remote (origin) repository
+2025-01-27 21:58:54.595 INFO     Successfully FORCE pushed to remote (origin): Modify-GeoGebra.GraphingCalculator-6.0.871
+2025-01-27 21:58:56.886 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/217219
+2025-01-27 21:58:56.889 INFO All manifests have been modified and pushed through.
+2025-01-27 21:59:05.629 INFO Workspace clean-up completed.
+~~ End of logging ~~
