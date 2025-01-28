@@ -1,0 +1,31 @@
+name: 清理已合并的日志分支
+
+on:
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  delete-branch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 清理分支
+        if: github.event.pull_request.merged == true
+        run: |
+          # 获取拉取请求的标签
+          PR_LABELS=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/labels")
+          
+          # 检查标签中是否包含 'logs'
+          if echo "$PR_LABELS" | grep -q 'logs'; then
+            echo "找到 log 标签，删除分支: ${{ github.event.pull_request.head.ref }}"
+            
+            # 删除远程分支
+            git push origin --delete ${{ github.event.pull_request.head.ref }}
+          else
+            echo "未找到 log 标签，这可能不是日志拉取请求: #${{ github.event.pull_request.number }} (${{ github.event.pull_request.head.ref }})"
+          fi
