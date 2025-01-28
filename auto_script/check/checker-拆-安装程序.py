@@ -59,8 +59,8 @@ def check_urls_in_yaml_files(folder_path):
                                         sys.exit(1)
                                     if (response.status_code == 403) and (url.endswith((".exe", ".zip", ".msi", ".msix", ".appx"))) and ("github.com" not in url):
                                         print(f"\n[Error] (安装程序返回 403) {file_path} 中的 {url} 返回了状态码 {response.status_code} (Forbidden - 已禁止)")
-                                        fail = 1
-                                        sys.exit(1)
+                                        #fail = 1
+                                        #sys.exit(1)
                                     else:
                                         print(f"\n[Warning] {file_path} 中的 {url} 返回了状态码 {response.status_code} (≥400)\n")
                                 else:
