@@ -1,0 +1,79 @@
+~~ Start logging ~~
+2025-01-28 19:48:15.667 FUN O v O
+2025-01-28 19:48:15.668 INFO Found the following version folder: ['0.4.1', '0.8.0', '0.8.1']
+2025-01-28 19:48:15.816 INFO Processing version folder: 0.4.1
+2025-01-28 19:48:15.817 INFO   Create and checkout to a new branch: Modify-fzf404.Monit-0.4.1
+2025-01-28 19:48:25.568 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\fzf404\Monit\0.4.1\fzf404.Monit.installer.yaml
+2025-01-28 19:48:25.570 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-01-28 19:48:25.571 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-01-28 19:48:25.573 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\f\fzf404\Monit\0.4.1\fzf404.Monit.installer.yaml
+2025-01-28 19:48:25.574 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\fzf404\Monit\0.4.1\fzf404.Monit.locale.en-US.yaml
+2025-01-28 19:48:25.577 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-01-28 19:48:25.578 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-01-28 19:48:25.579 INFO   Add Tags entry: NULL -> electron, TS, vue
+2025-01-28 19:48:25.580 INFO   Correction to LicenseUrl entry: Branch main -> HEAD
+2025-01-28 19:48:25.580 INFO   Correction to PackageUrl entry: https://github.com/fzf404/Monit -> https://monit.fzf404.art/
+2025-01-28 19:48:25.582 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\f\fzf404\Monit\0.4.1\fzf404.Monit.locale.en-US.yaml
+2025-01-28 19:48:25.583 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\fzf404\Monit\0.4.1\fzf404.Monit.yaml
+2025-01-28 19:48:25.586 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-01-28 19:48:25.587 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-01-28 19:48:25.589 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\f\fzf404\Monit\0.4.1\fzf404.Monit.yaml
+2025-01-28 19:48:25.590 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\f\fzf404\Monit\0.4.1\fzf404.Monit.locale.zh-CN.yaml
+2025-01-28 19:48:25.592 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\f\fzf404\Monit\0.4.1\fzf404.Monit.locale.zh-CN.yaml
+2025-01-28 19:48:25.913 INFO     清单验证成功。
+2025-01-28 19:48:25.931 INFO   Staging and Committing Changes to Git
+2025-01-28 19:48:31.745 INFO     Commit message: Modify: fzf404.Monit version 0.4.1 (Auto)
+2025-01-28 19:48:31.745 INFO   Pushing changes to remote (origin) repository
+2025-01-28 19:48:42.375 INFO     Successfully FORCE pushed to remote (origin): Modify-fzf404.Monit-0.4.1
+2025-01-28 19:48:44.125 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/217887
+2025-01-28 19:48:44.129 INFO Processing version folder: 0.8.0
+2025-01-28 19:48:44.130 INFO   Create and checkout to a new branch: Modify-fzf404.Monit-0.8.0
+2025-01-28 19:48:54.900 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\fzf404\Monit\0.8.0\fzf404.Monit.installer.yaml
+2025-01-28 19:48:54.926 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-28 19:48:54.926 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-28 19:48:54.932 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\f\fzf404\Monit\0.8.0\fzf404.Monit.installer.yaml
+2025-01-28 19:48:54.934 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\fzf404\Monit\0.8.0\fzf404.Monit.locale.en-US.yaml
+2025-01-28 19:48:54.937 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-28 19:48:54.939 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-28 19:48:54.941 INFO   Add Tags entry: NULL -> electron, TS, vue
+2025-01-28 19:48:54.943 INFO   Correction to LicenseUrl entry: Branch main -> HEAD
+2025-01-28 19:48:54.943 INFO   Correction to PackageUrl entry: https://github.com/fzf404/Monit -> https://monit.fzf404.art/
+2025-01-28 19:48:54.945 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\f\fzf404\Monit\0.8.0\fzf404.Monit.locale.en-US.yaml
+2025-01-28 19:48:54.949 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\fzf404\Monit\0.8.0\fzf404.Monit.yaml
+2025-01-28 19:48:54.968 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-01-28 19:48:54.973 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-01-28 19:48:54.977 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\f\fzf404\Monit\0.8.0\fzf404.Monit.yaml
+2025-01-28 19:48:54.981 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\f\fzf404\Monit\0.8.0\fzf404.Monit.locale.zh-CN.yaml
+2025-01-28 19:48:54.983 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\f\fzf404\Monit\0.8.0\fzf404.Monit.locale.zh-CN.yaml
+2025-01-28 19:48:55.352 INFO     清单验证成功。
+2025-01-28 19:48:55.363 INFO   Staging and Committing Changes to Git
+2025-01-28 19:49:01.160 INFO     Commit message: Modify: fzf404.Monit version 0.8.0 (Auto)
+2025-01-28 19:49:01.162 INFO   Pushing changes to remote (origin) repository
+2025-01-28 19:49:11.524 INFO     Successfully FORCE pushed to remote (origin): Modify-fzf404.Monit-0.8.0
+2025-01-28 19:49:13.498 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/217888
+2025-01-28 19:49:13.499 INFO Processing version folder: 0.8.1
+2025-01-28 19:49:13.501 INFO   Create and checkout to a new branch: Modify-fzf404.Monit-0.8.1
+2025-01-28 19:49:26.715 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\fzf404\Monit\0.8.1\fzf404.Monit.installer.yaml
+2025-01-28 19:49:26.718 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-28 19:49:26.719 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-28 19:49:26.721 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\f\fzf404\Monit\0.8.1\fzf404.Monit.installer.yaml
+2025-01-28 19:49:26.723 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\fzf404\Monit\0.8.1\fzf404.Monit.locale.en-US.yaml
+2025-01-28 19:49:26.726 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-28 19:49:26.727 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-28 19:49:26.728 INFO   Correction to PackageUrl entry: https://github.com/fzf404/Monit -> https://monit.fzf404.art/
+2025-01-28 19:49:26.731 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\f\fzf404\Monit\0.8.1\fzf404.Monit.locale.en-US.yaml
+2025-01-28 19:49:26.733 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\fzf404\Monit\0.8.1\fzf404.Monit.yaml
+2025-01-28 19:49:26.735 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-01-28 19:49:26.736 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-01-28 19:49:26.739 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\f\fzf404\Monit\0.8.1\fzf404.Monit.yaml
+2025-01-28 19:49:26.741 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\f\fzf404\Monit\0.8.1\fzf404.Monit.locale.zh-CN.yaml
+2025-01-28 19:49:26.742 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\f\fzf404\Monit\0.8.1\fzf404.Monit.locale.zh-CN.yaml
+2025-01-28 19:49:27.120 INFO     清单验证成功。
+2025-01-28 19:49:27.129 INFO   Staging and Committing Changes to Git
+2025-01-28 19:49:36.571 INFO     Commit message: Modify: fzf404.Monit version 0.8.1 (Auto)
+2025-01-28 19:49:36.574 INFO   Pushing changes to remote (origin) repository
+2025-01-28 19:49:48.565 INFO     Successfully FORCE pushed to remote (origin): Modify-fzf404.Monit-0.8.1
+2025-01-28 19:49:50.682 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/217889
+2025-01-28 19:49:50.682 INFO All manifests have been modified and pushed through.
+2025-01-28 19:49:55.541 INFO Workspace clean-up completed.
+~~ End of logging ~~
