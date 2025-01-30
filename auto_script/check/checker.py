@@ -24,7 +24,8 @@ def find_urls(data):
                 excluded_domains = { # 豁免
                     '123', '360', 'effie', 'typora', 'tchspt', 'mysql', 'voicecloud', 'iflyrec', 'jisupdf', # 之前豁免的
                     'floorp', # 较难处理
-                    'https://pot.pylogmon' # 在 Auth.csv 中限制修改
+                    'https://pot.pylogmon', # 在 Auth.csv 中限制修改
+                    'https://acessos.fiorilli.com.br/api/instalacao/webextension.exe', # 假 404
                 }
                 filtered_urls = {url for url in found_urls if not any(domain in url for domain in excluded_domains)}
                 urls.update(filtered_urls)
