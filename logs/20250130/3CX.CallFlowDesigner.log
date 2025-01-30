@@ -1,0 +1,28 @@
+~~ Start logging ~~
+2025-01-30 17:44:02.726 FUN 你这清单是从多少个现有清单中拼凑出来的？
+2025-01-30 17:44:02.730 INFO Found the following version folder: ['18.5.8']
+2025-01-30 17:44:02.920 INFO Processing version folder: 18.5.8
+2025-01-30 17:44:02.921 INFO   Create and checkout to a new branch: Modify-3CX.CallFlowDesigner-18.5.8
+2025-01-30 17:44:26.778 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\3\3CX\CallFlowDesigner\18.5.8\3CX.CallFlowDesigner.installer.yaml
+2025-01-30 17:44:26.810 INFO     Replace ManifestVersion: 1.2.0 -> 1.9.0
+2025-01-30 17:44:26.824 INFO     Replace schema references: 1.2.0.schema.json -> 1.9.0.schema.json
+2025-01-30 17:44:26.834 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\3\3CX\CallFlowDesigner\18.5.8\3CX.CallFlowDesigner.installer.yaml
+2025-01-30 17:44:26.854 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\3\3CX\CallFlowDesigner\18.5.8\3CX.CallFlowDesigner.locale.en-US.yaml
+2025-01-30 17:44:26.864 INFO     Replace ManifestVersion: 1.2.0 -> 1.9.0
+2025-01-30 17:44:26.884 INFO     Replace schema references: 1.2.0.schema.json -> 1.9.0.schema.json
+2025-01-30 17:44:26.894 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\3\3CX\CallFlowDesigner\18.5.8\3CX.CallFlowDesigner.locale.en-US.yaml
+2025-01-30 17:44:26.914 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\3\3CX\CallFlowDesigner\18.5.8\3CX.CallFlowDesigner.yaml
+2025-01-30 17:44:26.107 INFO     Replace ManifestVersion: 1.2.0 -> 1.9.0
+2025-01-30 17:44:26.108 INFO     Replace schema references: 1.2.0.schema.json -> 1.9.0.schema.json
+2025-01-30 17:44:26.110 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\3\3CX\CallFlowDesigner\18.5.8\3CX.CallFlowDesigner.yaml
+2025-01-30 17:44:26.112 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\3\3CX\CallFlowDesigner\18.5.8\3CX.CallFlowDesigner.locale.zh-CN.yaml
+2025-01-30 17:44:26.114 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\3\3CX\CallFlowDesigner\18.5.8\3CX.CallFlowDesigner.locale.zh-CN.yaml
+2025-01-30 17:44:26.545 INFO     清单验证成功。
+2025-01-30 17:44:26.568 INFO   Staging and Committing Changes to Git
+2025-01-30 17:44:31.861 INFO     Commit message: Modify: 3CX.CallFlowDesigner version 18.5.8 (Auto)
+2025-01-30 17:44:31.863 INFO   Pushing changes to remote (origin) repository
+2025-01-30 17:44:46.777 INFO     Successfully FORCE pushed to remote (origin): Modify-3CX.CallFlowDesigner-18.5.8
+2025-01-30 17:44:52.883 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/219545
+2025-01-30 17:44:52.885 INFO All manifests have been modified and pushed through.
+2025-01-30 17:44:57.128 INFO Workspace clean-up completed.
+~~ End of logging ~~
