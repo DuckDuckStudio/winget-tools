@@ -21,25 +21,30 @@ jobs:
         sudo apt install traceroute
 
     - name: 验证响应头 - curl
+      continue-on-error: true
       run: |
         curl -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3" -I ${{ github.event.inputs.domain }}
         sleep 5
 
     - name: 验证响应头 - wget
+      continue-on-error: true
       run: |
         wget --header="User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3" --server-response ${{ github.event.inputs.domain }}
         sleep 5
 
     - name: 验证每一跳 - ICMP 请求
+      continue-on-error: true
       run: |
         traceroute ${{ github.event.inputs.domain }}
         sleep 5
 
     - name: 验证每一跳 - TCP 连接
+      continue-on-error: true
       run: |
         traceroute -T ${{ github.event.inputs.domain }}
         sleep 5
 
     - name: ping
+      continue-on-error: true
       run: |
         ping -c 5 ${{ github.event.inputs.domain }}
