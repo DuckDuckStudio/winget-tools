@@ -7,7 +7,7 @@ on:
 
 # 相关文档: https://docs.github.com/zh/actions/writing-workflows/choosing-what-your-workflow-does/controlling-permissions-for-github_token
 permissions:
-    contents: write
+  contents: write
 
 jobs:
   delete-branch:

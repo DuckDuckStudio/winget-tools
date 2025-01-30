@@ -4,6 +4,12 @@ import sys
 import yaml
 import requests
 
+# 输出
+# * -> 正常
+# - -> 跳过 (非安装程序链接的 403)
+# [Error] -> 致命错误 (安装程序链接 404，脚本错误)
+# [Warning] -> 非致命错误/警告
+
 fail = 0
 
 def find_urls(data):
@@ -16,10 +22,8 @@ def find_urls(data):
                 found_urls = re.findall(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', value)
                 # Filter URLs
                 excluded_domains = { # 豁免
-                    'sourceforge', # 总是 403
                     '123', '360', 'effie', 'typora', 'tchspt', 'mysql', 'voicecloud', 'iflyrec', 'jisupdf', # 之前豁免的
                     'floorp', # 较难处理
-                    'mono', 'PRQL', # 403，但手动访问成功 (Mono.Mono | PRQL.prqlc)
                     'https://pot.pylogmon' # 在 Auth.csv 中限制修改
                 }
                 filtered_urls = {url for url in found_urls if not any(domain in url for domain in excluded_domains)}
@@ -57,14 +61,13 @@ def check_urls_in_yaml_files(folder_path):
                                         print(f"\n[Error] (安装程序返回 404) {file_path} 中的 {url} 返回了状态码 {response.status_code} (Not found - 未找到)")
                                         fail = 1
                                         sys.exit(1)
-                                    if (response.status_code == 403) and (url.endswith((".exe", ".zip", ".msi", ".msix", ".appx"))) and ("github.com" not in url):
-                                        print(f"\n[Error] (安装程序返回 403) {file_path} 中的 {url} 返回了状态码 {response.status_code} (Forbidden - 已禁止)")
-                                        #fail = 1
-                                        #sys.exit(1)
+                                    elif response.status_code == 403 and (not url.endswith((".exe", ".zip", ".msi", ".msix", ".appx"))):
+                                        # 非安装程序的 403 不警告，这些链接一般是正常的。只是在访问时需要用户登录/地区限制等
+                                        print("-", end="") # 表示忽略
                                     else:
                                         print(f"\n[Warning] {file_path} 中的 {url} 返回了状态码 {response.status_code} (≥400)\n")
                                 else:
-                                    print("*", end="")
+                                    print("*", end="") # 表示正常
                             except requests.exceptions.RequestException as e:
                                 print(f"\n[Warning] 无法访问 {file_path} 中的 {url} : {e}")
                 except IOError as e:
@@ -81,11 +84,11 @@ if (not sys.argv[1]):
 folder_path = os.path.join(folder_path, "manifests", sys.argv[1])
 
 if not os.path.exists(folder_path):
-    print(f"[Error] 指定的检查目录不存在")
+    print("[Error] 指定的检查目录不存在")
     sys.exit(1)
 check_urls_in_yaml_files(folder_path)
 
 if fail == 0:
-    print(f"所有安装程序链接正常")
+    print("\n所有安装程序链接正常")
 else:
     sys.exit(fail)
