@@ -1,0 +1,83 @@
+~~ Start logging ~~
+2025-01-30 22:33:02.620 FUN 如果你染上了__，你这辈子就完了！
+2025-01-30 22:33:02.632 INFO Found the following version folder: ['1.22.1014.733', '1.22.1028.1095', '1.22.1108.720', '1.22.1207.856', '1.22.425.1112', '1.22.426.763', '1.22.513.874', '1.22.524.1107', '1.22.530.599', '1.22.616.1205', '1.22.617.1064', '1.22.701.1198', '1.22.718.956', '1.22.720.735', '1.22.725.701', '1.22.817.901', '1.22.824.692', '1.22.902.987', '1.22.907.1092', '1.22.913.1004', '1.23.104.910', '1.23.117.909', '1.23.210.846', '1.23.425.869', '1.23.615.1436', '2.23.1629.21', '2.23.1711.21', '2.23.1801.24', '2.23.1804.25', '2.23.1818.28', '2.23.1824.22', '2.23.1831.20', '2.23.1913.25', '2.23.1922.32', '2.23.2018.21', '2.23.2030.22', '2.23.2031.29', '2.23.2110.27', '2.23.2120.21', '2.23.2121.21', '2.23.2122.24', '2.23.2204.24', '2.24.1408.24', '2.24.1605.24', '2.24.1708.29', '2.24.1717.24', '2.24.1808.25', '2.24.1813.28', '2.24.1822.23', '2.24.2113.27', '2.24.2115.20', '2.24.2127.20']
+2025-01-30 22:33:02.801 WARNING Skip version 1.22.1014.733, 因为这不是目标版本.
+2025-01-30 22:33:02.802 WARNING Skip version 1.22.1028.1095, 因为这不是目标版本.
+2025-01-30 22:33:02.804 WARNING Skip version 1.22.1108.720, 因为这不是目标版本.
+2025-01-30 22:33:02.804 WARNING Skip version 1.22.1207.856, 因为这不是目标版本.
+2025-01-30 22:33:02.806 WARNING Skip version 1.22.425.1112, 因为这不是目标版本.
+2025-01-30 22:33:02.808 WARNING Skip version 1.22.426.763, 因为这不是目标版本.
+2025-01-30 22:33:02.810 WARNING Skip version 1.22.513.874, 因为这不是目标版本.
+2025-01-30 22:33:02.811 WARNING Skip version 1.22.524.1107, 因为这不是目标版本.
+2025-01-30 22:33:02.813 WARNING Skip version 1.22.530.599, 因为这不是目标版本.
+2025-01-30 22:33:02.815 WARNING Skip version 1.22.616.1205, 因为这不是目标版本.
+2025-01-30 22:33:02.816 WARNING Skip version 1.22.617.1064, 因为这不是目标版本.
+2025-01-30 22:33:02.817 WARNING Skip version 1.22.701.1198, 因为这不是目标版本.
+2025-01-30 22:33:02.819 WARNING Skip version 1.22.718.956, 因为这不是目标版本.
+2025-01-30 22:33:02.821 WARNING Skip version 1.22.720.735, 因为这不是目标版本.
+2025-01-30 22:33:02.821 WARNING Skip version 1.22.725.701, 因为这不是目标版本.
+2025-01-30 22:33:02.823 WARNING Skip version 1.22.817.901, 因为这不是目标版本.
+2025-01-30 22:33:02.824 WARNING Skip version 1.22.824.692, 因为这不是目标版本.
+2025-01-30 22:33:02.826 WARNING Skip version 1.22.902.987, 因为这不是目标版本.
+2025-01-30 22:33:02.827 WARNING Skip version 1.22.907.1092, 因为这不是目标版本.
+2025-01-30 22:33:02.829 WARNING Skip version 1.22.913.1004, 因为这不是目标版本.
+2025-01-30 22:33:02.830 WARNING Skip version 1.23.104.910, 因为这不是目标版本.
+2025-01-30 22:33:02.832 WARNING Skip version 1.23.117.909, 因为这不是目标版本.
+2025-01-30 22:33:02.833 WARNING Skip version 1.23.210.846, 因为这不是目标版本.
+2025-01-30 22:33:02.834 WARNING Skip version 1.23.425.869, 因为这不是目标版本.
+2025-01-30 22:33:02.838 WARNING Skip version 1.23.615.1436, 因为这不是目标版本.
+2025-01-30 22:33:02.839 WARNING Skip version 2.23.1629.21, 因为这不是目标版本.
+2025-01-30 22:33:02.842 WARNING Skip version 2.23.1711.21, 因为这不是目标版本.
+2025-01-30 22:33:02.844 WARNING Skip version 2.23.1801.24, 因为这不是目标版本.
+2025-01-30 22:33:02.845 WARNING Skip version 2.23.1804.25, 因为这不是目标版本.
+2025-01-30 22:33:02.846 WARNING Skip version 2.23.1818.28, 因为这不是目标版本.
+2025-01-30 22:33:02.849 WARNING Skip version 2.23.1824.22, 因为这不是目标版本.
+2025-01-30 22:33:02.851 WARNING Skip version 2.23.1831.20, 因为这不是目标版本.
+2025-01-30 22:33:02.852 WARNING Skip version 2.23.1913.25, 因为这不是目标版本.
+2025-01-30 22:33:02.854 WARNING Skip version 2.23.1922.32, 因为这不是目标版本.
+2025-01-30 22:33:02.856 WARNING Skip version 2.23.2018.21, 因为这不是目标版本.
+2025-01-30 22:33:02.858 WARNING Skip version 2.23.2030.22, 因为这不是目标版本.
+2025-01-30 22:33:02.860 WARNING Skip version 2.23.2031.29, 因为这不是目标版本.
+2025-01-30 22:33:02.861 WARNING Skip version 2.23.2110.27, 因为这不是目标版本.
+2025-01-30 22:33:02.862 WARNING Skip version 2.23.2120.21, 因为这不是目标版本.
+2025-01-30 22:33:02.865 WARNING Skip version 2.23.2121.21, 因为这不是目标版本.
+2025-01-30 22:33:02.867 INFO Processing version folder: 2.23.2122.24
+2025-01-30 22:33:02.868 INFO   Create and checkout to a new branch: Modify-Coldlake.StellarPlayer-2.23.2122.24
+2025-01-30 22:33:21.922 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Coldlake\StellarPlayer\2.23.2122.24\Coldlake.StellarPlayer.installer.yaml
+2025-01-30 22:33:21.924 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
+2025-01-30 22:33:21.925 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
+2025-01-30 22:33:21.926 INFO   Remove installer(s) entry for Architecture x64
+2025-01-30 22:33:21.927 WHY   It returns a 404 status code in GitHub Action and has been automatically verified.
+2025-01-30 22:33:21.929 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\Coldlake\StellarPlayer\2.23.2122.24\Coldlake.StellarPlayer.installer.yaml
+2025-01-30 22:33:21.931 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Coldlake\StellarPlayer\2.23.2122.24\Coldlake.StellarPlayer.locale.en-US.yaml
+2025-01-30 22:33:21.932 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
+2025-01-30 22:33:21.935 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
+2025-01-30 22:33:21.937 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\Coldlake\StellarPlayer\2.23.2122.24\Coldlake.StellarPlayer.locale.en-US.yaml
+2025-01-30 22:33:21.938 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Coldlake\StellarPlayer\2.23.2122.24\Coldlake.StellarPlayer.locale.zh-CN.yaml
+2025-01-30 22:33:21.940 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
+2025-01-30 22:33:21.941 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
+2025-01-30 22:33:21.945 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\Coldlake\StellarPlayer\2.23.2122.24\Coldlake.StellarPlayer.locale.zh-CN.yaml
+2025-01-30 22:33:21.946 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Coldlake\StellarPlayer\2.23.2122.24\Coldlake.StellarPlayer.yaml
+2025-01-30 22:33:21.969 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
+2025-01-30 22:33:21.974 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
+2025-01-30 22:33:21.977 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\Coldlake\StellarPlayer\2.23.2122.24\Coldlake.StellarPlayer.yaml
+2025-01-30 22:33:22.487 INFO     清单验证成功。
+2025-01-30 22:33:22.505 INFO   Staging and Committing Changes to Git
+2025-01-30 22:33:28.567 INFO     Commit message: Modify: Coldlake.StellarPlayer version 2.23.2122.24 (Auto)
+2025-01-30 22:33:28.570 INFO   Pushing changes to remote (origin) repository
+2025-01-30 22:33:33.681 INFO     Successfully FORCE pushed to remote (origin): Modify-Coldlake.StellarPlayer-2.23.2122.24
+2025-01-30 22:33:43.981 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/219679
+2025-01-30 22:33:43.983 WARNING Skip version 2.23.2204.24, 因为这不是目标版本.
+2025-01-30 22:33:43.985 WARNING Skip version 2.24.1408.24, 因为这不是目标版本.
+2025-01-30 22:33:43.987 WARNING Skip version 2.24.1605.24, 因为这不是目标版本.
+2025-01-30 22:33:43.988 WARNING Skip version 2.24.1708.29, 因为这不是目标版本.
+2025-01-30 22:33:43.989 WARNING Skip version 2.24.1717.24, 因为这不是目标版本.
+2025-01-30 22:33:43.991 WARNING Skip version 2.24.1808.25, 因为这不是目标版本.
+2025-01-30 22:33:43.992 WARNING Skip version 2.24.1813.28, 因为这不是目标版本.
+2025-01-30 22:33:43.995 WARNING Skip version 2.24.1822.23, 因为这不是目标版本.
+2025-01-30 22:33:43.996 WARNING Skip version 2.24.2113.27, 因为这不是目标版本.
+2025-01-30 22:33:43.997 WARNING Skip version 2.24.2115.20, 因为这不是目标版本.
+2025-01-30 22:33:43.999 WARNING Skip version 2.24.2127.20, 因为这不是目标版本.
+2025-01-30 22:33:44.107 INFO All manifests have been modified and pushed through.
+2025-01-30 22:33:48.458 INFO Workspace clean-up completed.
+~~ End of logging ~~
