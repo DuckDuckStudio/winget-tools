@@ -10,7 +10,7 @@ import requests
 # [Error] -> 致命错误 (安装程序链接 404，脚本错误)
 # [Warning] -> 非致命错误/警告
 
-fail = 0
+失败等级 = sys.argv[2] if len(sys.argv) > 2 else 1
 
 def find_urls(data):
     # 在嵌套字典或列表中递归查找 URL
@@ -37,7 +37,6 @@ def find_urls(data):
 
 def check_urls_in_yaml_files(folder_path):
     # 递归检查指定文件夹及其子文件夹中 YAML 文件中的 URL
-    global fail
     for root, _, files in os.walk(folder_path):
         for filename in files:
             if filename.endswith(".yaml"):
@@ -59,28 +58,35 @@ def check_urls_in_yaml_files(folder_path):
                                 if response.status_code >= 400:
                                     if response.status_code == 404 and url.endswith((".exe", ".zip", ".msi", ".msix", ".appx")):
                                         print(f"\n[Error] (安装程序返回 404) {file_path} 中的 {url} 返回了状态码 {response.status_code} (Not found - 未找到)")
-                                        fail = 1
                                         sys.exit(1)
                                     elif response.status_code == 403 and (not url.endswith((".exe", ".zip", ".msi", ".msix", ".appx"))):
                                         # 非安装程序的 403 不警告，这些链接一般是正常的。只是在访问时需要用户登录/地区限制等
                                         print("-", end="") # 表示忽略
                                     else:
                                         print(f"\n[Warning] {file_path} 中的 {url} 返回了状态码 {response.status_code} (≥400)\n")
+                                        if 失败等级 == "warning":
+                                            sys.exit(1)
                                 else:
                                     print("*", end="") # 表示正常
                             except requests.exceptions.RequestException as e:
                                 print(f"\n[Warning] 无法访问 {file_path} 中的 {url} : {e}")
+                                if 失败等级 == "warning":
+                                    sys.exit(1)
                 except IOError as e:
                     print(f"\n[Error] 打不开 {file_path} : {e}")
+                    sys.exit(1)
                 except yaml.YAMLError as e:
                     print(f"\n[Error] 处理文件 {file_path} 时发生 YAML 错误: {e}")
+                    sys.exit(1)
                 except Exception as e:
                     print(f"\n[Error] 处理文件 {file_path} 时发生意外错误: {e}")
+                    sys.exit(1)
 
 folder_path = "winget-pkgs"
 os.path.abspath(folder_path)
 if (not sys.argv[1]):
     print("[Error] 没有指定需要检查的目录")
+    sys.exit(1)
 folder_path = os.path.join(folder_path, "manifests", sys.argv[1])
 
 if not os.path.exists(folder_path):
@@ -88,7 +94,4 @@ if not os.path.exists(folder_path):
     sys.exit(1)
 check_urls_in_yaml_files(folder_path)
 
-if fail == 0:
-    print("\n所有安装程序链接正常")
-else:
-    sys.exit(fail)
+print("\n所有安装程序链接正常")
