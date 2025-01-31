@@ -12,6 +12,14 @@ on:
         options:
           - error
           - warning
+      branch:
+        description: "检查的分支"
+        required: true
+        default: "wingettools"
+      fork:
+        description: "检查的 fork 仓库的所有者"
+        required: true
+        default: "DuckDuckStudio"
 
 jobs:
   Check-installers:
@@ -33,7 +41,8 @@ jobs:
 
       - name: 克隆 winget-pkgs fork
         run: |
-          git clone "https://github.com/DuckDuckStudio/winget-pkgs" -b "wingettools" --depth 1
+          # 克隆对应的 fork 和对应的分支
+          git clone "https://github.com/${{ github.event.inputs.fork }}/winget-pkgs" "winget-pkgs" -b ${{ github.event.inputs.branch }} --depth 1
 
       - name: 安装依赖
         env:
