@@ -1,0 +1,39 @@
+~~ Start logging ~~
+2025-01-31 21:50:05.265 FUN 老叽米专门为大家争取到了2000个优先抢购名额，进入星际和平商城输入「狐人总冠军」，即刻领取专属优惠券！ 数量有限，先到先得！快快抢购吧！
+2025-01-31 21:50:05.269 INFO Found the following version folder: ['3.2.2', '3.4.0', '3.4.1', '3.4.2']
+2025-01-31 21:50:05.459 INFO Processing version folder: 3.2.2
+2025-01-31 21:50:05.461 INFO   Create and checkout to a new branch: Modify-Aegisub.Aegisub-3.2.2
+2025-01-31 21:50:37.107 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Aegisub\Aegisub\3.2.2\Aegisub.Aegisub.installer.yaml
+2025-01-31 21:50:37.117 INFO     Replace ManifestVersion: 1.2.0 -> 1.9.0
+2025-01-31 21:50:37.119 INFO     Replace schema references: 1.2.0.schema.json -> 1.9.0.schema.json
+2025-01-31 21:50:37.123 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\a\Aegisub\Aegisub\3.2.2\Aegisub.Aegisub.installer.yaml
+2025-01-31 21:50:37.125 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Aegisub\Aegisub\3.2.2\Aegisub.Aegisub.locale.en-US.yaml
+2025-01-31 21:50:37.127 INFO     Replace ManifestVersion: 1.2.0 -> 1.9.0
+2025-01-31 21:50:37.132 INFO     Replace schema references: 1.2.0.schema.json -> 1.9.0.schema.json
+2025-01-31 21:50:37.136 INFO   Modify PackageUrl: https://aeg-dev.github.io/AegiSite/ -> https://aegisub.org/
+2025-01-31 21:50:37.138 INFO   Modify PrivacyUrl: NULL -> https://aegisub.org/privacy-policy/
+2025-01-31 21:50:37.148 INFO   Modify ReleaseNotesUrl: https://aeg-dev.github.io/AegiSite/changelog/ -> https://aegisub.org/changelog/
+2025-01-31 21:50:37.151 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\a\Aegisub\Aegisub\3.2.2\Aegisub.Aegisub.locale.en-US.yaml
+2025-01-31 21:50:37.153 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Aegisub\Aegisub\3.2.2\Aegisub.Aegisub.locale.zh-CN.yaml
+2025-01-31 21:50:37.156 INFO     Replace ManifestVersion: 1.2.0 -> 1.9.0
+2025-01-31 21:50:37.158 INFO     Replace schema references: 1.2.0.schema.json -> 1.9.0.schema.json
+2025-01-31 21:50:37.160 INFO   Modify ReleaseNotesUrl: https://aeg-dev.github.io/AegiSite/zh-cn/changelog/ -> https://aegisub.org/changelog/
+2025-01-31 21:50:37.169 INFO   Modify PrivacyUrl: NULL -> https://aegisub.org/zh-cn/privacy-policy/
+2025-01-31 21:50:37.172 INFO   Modify PackageUrl: https://aeg-dev.github.io/AegiSite/ -> https://aegisub.org/
+2025-01-31 21:50:37.175 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\a\Aegisub\Aegisub\3.2.2\Aegisub.Aegisub.locale.zh-CN.yaml
+2025-01-31 21:50:37.187 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Aegisub\Aegisub\3.2.2\Aegisub.Aegisub.yaml
+2025-01-31 21:50:37.224 INFO     Replace ManifestVersion: 1.2.0 -> 1.9.0
+2025-01-31 21:50:37.226 INFO     Replace schema references: 1.2.0.schema.json -> 1.9.0.schema.json
+2025-01-31 21:50:37.230 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\a\Aegisub\Aegisub\3.2.2\Aegisub.Aegisub.yaml
+2025-01-31 21:50:38.170 INFO     清单验证成功。
+2025-01-31 21:50:38.211 INFO   Staging and Committing Changes to Git
+2025-01-31 21:50:46.166 INFO     Commit message: Modify: Aegisub.Aegisub version 3.2.2 (Auto)
+2025-01-31 21:50:46.168 INFO   Pushing changes to remote (origin) repository
+2025-01-31 21:50:53.958 INFO     Successfully FORCE pushed to remote (origin): Modify-Aegisub.Aegisub-3.2.2
+2025-01-31 21:50:56.642 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/220848
+2025-01-31 21:50:56.644 WARNING Skip version 3.4.0, 因为这不是目标版本.
+2025-01-31 21:50:56.646 WARNING Skip version 3.4.1, 因为这不是目标版本.
+2025-01-31 21:50:56.647 WARNING Skip version 3.4.2, 因为这不是目标版本.
+2025-01-31 21:50:56.649 INFO All manifests have been modified and pushed through.
+2025-01-31 21:51:02.287 INFO Workspace clean-up completed.
+~~ End of logging ~~
