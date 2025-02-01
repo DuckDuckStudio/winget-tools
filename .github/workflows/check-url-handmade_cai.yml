@@ -1,14 +1,12 @@
 name: 检查链接有效性 - 拆
 on:
   workflow_dispatch:
-    # 获取失败等级
     inputs:
       fail_level:
         type: choice
         description: "失败等级"
         required: true
         default: "error"
-        # 选项
         options:
           - error
           - warning
@@ -32,24 +30,21 @@ jobs:
       - name: 检出代码
         uses: actions/checkout@v4
 
-      - name: 设置 Python
-        uses: actions/setup-python@v5
-        env:
-          PYTHONIOENCODING: utf-8
+      - name: 设置 .NET
+        uses: actions/setup-dotnet@v3
         with:
-          python-version: '3.x'
+          dotnet-version: '8.0.x'
 
       - name: 克隆 winget-pkgs fork
         run: |
           # 克隆对应的 fork 和对应的分支
           git clone "https://github.com/${{ github.event.inputs.fork }}/winget-pkgs" "winget-pkgs" -b ${{ github.event.inputs.branch }} --depth 1
 
-      - name: 安装依赖
-        env:
-          PYTHONIOENCODING: utf-8
-        run: pip install -r "environment/requirements.txt"
+      - name: 恢复依赖
+        run: dotnet restore auto_script/check/checker/checker.csproj
+
+      - name: 编译项目
+        run: dotnet build auto_script/check/checker/checker.csproj --configuration Release
 
       - name: 执行检查
-        env:
-          PYTHONIOENCODING: utf-8
-        run: python "auto_script/check/checker.py" ${{ matrix.subdirectory }} ${{ github.event.inputs.fail_level }}
+        run: dotnet run --project "auto_script/check/checker/checker.csproj" -- ${{ matrix.subdirectory }} ${{ github.event.inputs.fail_level }}
