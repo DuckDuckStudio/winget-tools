@@ -131,7 +131,7 @@ namespace checker
             {
                 foreach (KeyValuePair<YamlNode, YamlNode> entry in mappingNode.Children)
                 {
-                    if (entry.Value is YamlScalarNode scalarNode)
+                    if (entry.Value is YamlScalarNode scalarNode && scalarNode.Value != null)
                     {
                         MatchCollection foundUrls = Regex.Matches(scalarNode.Value, @"http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+");
                         foreach (Match match in foundUrls)
