@@ -1,0 +1,41 @@
+~~ Start logging ~~
+2025-02-06 14:02:48.452 FUN 提问: 罗浮六御中谁最幸福? 答案: 符玄。因为她姓符。
+2025-02-06 14:02:48.502 INFO Found the following version folder: ['2.10.0', '2.11.0', '2.12.0', '2.12.1', '2.12.2', '2.12.3', '2.13.1', '2.6.20000.0', '2.6.30000.0', '2.7.0.0', '2.7.10000.0', '2.7.20000.0', '2.7.30000.0', '2.8.0.0', '2.8.10000.0', '2.8.20000.0']
+2025-02-06 14:02:48.248 INFO Skip version 2.10.0, because it's not in the list of versions to be modified.
+2025-02-06 14:02:48.249 INFO Skip version 2.11.0, because it's not in the list of versions to be modified.
+2025-02-06 14:02:48.251 INFO Skip version 2.12.0, because it's not in the list of versions to be modified.
+2025-02-06 14:02:48.252 INFO Skip version 2.12.1, because it's not in the list of versions to be modified.
+2025-02-06 14:02:48.253 INFO Skip version 2.12.2, because it's not in the list of versions to be modified.
+2025-02-06 14:02:48.254 INFO Skip version 2.12.3, because it's not in the list of versions to be modified.
+2025-02-06 14:02:48.256 INFO Processing version folder: 2.13.1
+2025-02-06 14:02:48.258 INFO   Create and checkout to a new branch: NewVersion-MusicBrainz.Picard-2.13.1
+2025-02-06 14:03:00.310 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\MusicBrainz\Picard\2.13.1\MusicBrainz.Picard.installer.yaml
+2025-02-06 14:03:00.332 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
+2025-02-06 14:03:00.333 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\m\MusicBrainz\Picard\2.13.1\MusicBrainz.Picard.installer.yaml
+2025-02-06 14:03:00.334 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\MusicBrainz\Picard\2.13.1\MusicBrainz.Picard.locale.en-US.yaml
+2025-02-06 14:03:00.337 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
+2025-02-06 14:03:00.339 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\m\MusicBrainz\Picard\2.13.1\MusicBrainz.Picard.locale.en-US.yaml
+2025-02-06 14:03:00.342 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\MusicBrainz\Picard\2.13.1\MusicBrainz.Picard.locale.zh-CN.yaml
+2025-02-06 14:03:00.361 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
+2025-02-06 14:03:00.363 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\m\MusicBrainz\Picard\2.13.1\MusicBrainz.Picard.locale.zh-CN.yaml
+2025-02-06 14:03:00.364 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\MusicBrainz\Picard\2.13.1\MusicBrainz.Picard.yaml
+2025-02-06 14:03:00.366 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
+2025-02-06 14:03:00.367 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\m\MusicBrainz\Picard\2.13.1\MusicBrainz.Picard.yaml
+2025-02-06 14:03:00.741 INFO     清单验证成功。
+2025-02-06 14:03:00.754 INFO   Staging and Committing Changes to Git
+2025-02-06 14:03:05.810 INFO     Commit message: New version: MusicBrainz.Picard version 2.13.1 (Auto)
+2025-02-06 14:03:05.811 INFO   Pushing changes to remote (origin) repository
+2025-02-06 14:03:11.469 INFO     Successfully pushed to remote (origin): NewVersion-MusicBrainz.Picard-2.13.1
+2025-02-06 14:03:14.259 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/223814
+2025-02-06 14:03:14.261 INFO Skip version 2.6.20000.0, because it's not in the list of versions to be modified.
+2025-02-06 14:03:14.262 INFO Skip version 2.6.30000.0, because it's not in the list of versions to be modified.
+2025-02-06 14:03:14.263 INFO Skip version 2.7.0.0, because it's not in the list of versions to be modified.
+2025-02-06 14:03:14.264 INFO Skip version 2.7.10000.0, because it's not in the list of versions to be modified.
+2025-02-06 14:03:14.265 INFO Skip version 2.7.20000.0, because it's not in the list of versions to be modified.
+2025-02-06 14:03:14.267 INFO Skip version 2.7.30000.0, because it's not in the list of versions to be modified.
+2025-02-06 14:03:14.268 INFO Skip version 2.8.0.0, because it's not in the list of versions to be modified.
+2025-02-06 14:03:14.270 INFO Skip version 2.8.10000.0, because it's not in the list of versions to be modified.
+2025-02-06 14:03:14.272 INFO Skip version 2.8.20000.0, because it's not in the list of versions to be modified.
+2025-02-06 14:03:14.274 INFO All manifests have been modified and pushed through.
+2025-02-06 14:03:18.862 INFO Workspace clean-up completed.
+~~ End of logging ~~
