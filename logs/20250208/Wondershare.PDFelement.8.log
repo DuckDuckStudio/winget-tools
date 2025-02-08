@@ -1,0 +1,39 @@
+~~ Start logging ~~
+2025-02-08 23:35:08.751 FUN 提问: 罗浮六御中谁最幸福? 答案: 符玄。因为她姓符。
+2025-02-08 23:35:08.751 INFO Found the following version folder: ['8.3.14', '8.4.1', '8.4.10', '8.4.11', '8.4.13', '8.4.8']
+2025-02-08 23:35:08.884 INFO Skip version 8.3.14, because it's not in the list of versions to be modified.
+2025-02-08 23:35:08.900 INFO Processing version folder: 8.4.1
+2025-02-08 23:35:08.900 INFO   Create and checkout to a new branch: Modify-Wondershare.PDFelement.8-8.4.1
+2025-02-08 23:36:05.913 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\w\Wondershare\PDFelement\8\8.4.1\Wondershare.PDFelement.8.installer.yaml
+2025-02-08 23:36:05.913 INFO     Replace ManifestVersion: 1.2.0 -> 1.9.0
+2025-02-08 23:36:05.913 INFO     Replace schema references: 1.2.0.schema.json -> 1.9.0.schema.json
+2025-02-08 23:36:05.913 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
+2025-02-08 23:36:05.929 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\w\Wondershare\PDFelement\8\8.4.1\Wondershare.PDFelement.8.installer.yaml
+2025-02-08 23:36:05.930 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\w\Wondershare\PDFelement\8\8.4.1\Wondershare.PDFelement.8.locale.en-US.yaml
+2025-02-08 23:36:05.930 INFO     Replace ManifestVersion: 1.2.0 -> 1.9.0
+2025-02-08 23:36:05.930 INFO     Replace schema references: 1.2.0.schema.json -> 1.9.0.schema.json
+2025-02-08 23:36:05.930 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
+2025-02-08 23:36:05.930 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\w\Wondershare\PDFelement\8\8.4.1\Wondershare.PDFelement.8.locale.en-US.yaml
+2025-02-08 23:36:05.930 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\w\Wondershare\PDFelement\8\8.4.1\Wondershare.PDFelement.8.locale.zh-CN.yaml
+2025-02-08 23:36:05.930 INFO     Replace ManifestVersion: 1.2.0 -> 1.9.0
+2025-02-08 23:36:05.930 INFO     Replace schema references: 1.2.0.schema.json -> 1.9.0.schema.json
+2025-02-08 23:36:05.947 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
+2025-02-08 23:36:05.950 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\w\Wondershare\PDFelement\8\8.4.1\Wondershare.PDFelement.8.locale.zh-CN.yaml
+2025-02-08 23:36:05.953 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\w\Wondershare\PDFelement\8\8.4.1\Wondershare.PDFelement.8.yaml
+2025-02-08 23:36:05.955 INFO     Replace ManifestVersion: 1.2.0 -> 1.9.0
+2025-02-08 23:36:05.956 INFO     Replace schema references: 1.2.0.schema.json -> 1.9.0.schema.json
+2025-02-08 23:36:05.957 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
+2025-02-08 23:36:05.959 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\w\Wondershare\PDFelement\8\8.4.1\Wondershare.PDFelement.8.yaml
+2025-02-08 23:36:06.427 INFO     清单验证成功。
+2025-02-08 23:36:06.443 INFO   Staging and Committing Changes to Git
+2025-02-08 23:36:11.125 INFO     Commit message: Modify: Wondershare.PDFelement.8 version 8.4.1 (Auto)
+2025-02-08 23:36:11.162 INFO   Pushing changes to remote (origin) repository
+2025-02-08 23:36:16.697 INFO     Successfully pushed to remote (origin): Modify-Wondershare.PDFelement.8-8.4.1
+2025-02-08 23:36:20.110 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/225175
+2025-02-08 23:36:20.114 INFO Skip version 8.4.10, because it's not in the list of versions to be modified.
+2025-02-08 23:36:20.115 INFO Skip version 8.4.11, because it's not in the list of versions to be modified.
+2025-02-08 23:36:20.118 INFO Skip version 8.4.13, because it's not in the list of versions to be modified.
+2025-02-08 23:36:20.120 INFO Skip version 8.4.8, because it's not in the list of versions to be modified.
+2025-02-08 23:36:20.122 INFO All manifests have been modified and pushed through.
+2025-02-08 23:36:24.789 INFO Workspace clean-up completed.
+~~ End of logging ~~
