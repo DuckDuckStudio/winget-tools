@@ -1,34 +1,45 @@
 ~~ Start logging ~~
-2025-02-08 16:11:45.972 FUN 如果你染上了__，你这辈子就完了！
-2025-02-08 16:11:45.972 INFO Found the following version folder: ['2024.06.24.2036', '2024.06.30.1356', '2024.07.02.1330', '2024.07.03.0000', '2024.07.25.2030', '2024.08.01.0000', '2024.09.08.2000', '2024.09.26.2000', '2024.10.01.0630', '2024.11.27.2000', '2025.01.02.2300', '2025.02.03.2358']
-2025-02-08 16:11:46.105 INFO Skip version 2024.06.24.2036, because it's not in the list of versions to be modified.
-2025-02-08 16:11:46.105 INFO Skip version 2024.06.30.1356, because it's not in the list of versions to be modified.
-2025-02-08 16:11:46.117 INFO Skip version 2024.07.02.1330, because it's not in the list of versions to be modified.
-2025-02-08 16:11:46.117 INFO Skip version 2024.07.03.0000, because it's not in the list of versions to be modified.
-2025-02-08 16:11:46.117 INFO Skip version 2024.07.25.2030, because it's not in the list of versions to be modified.
-2025-02-08 16:11:46.117 INFO Skip version 2024.08.01.0000, because it's not in the list of versions to be modified.
-2025-02-08 16:11:46.117 INFO Skip version 2024.09.08.2000, because it's not in the list of versions to be modified.
-2025-02-08 16:11:46.121 INFO Skip version 2024.09.26.2000, because it's not in the list of versions to be modified.
-2025-02-08 16:11:46.121 INFO Skip version 2024.10.01.0630, because it's not in the list of versions to be modified.
-2025-02-08 16:11:46.121 INFO Skip version 2024.11.27.2000, because it's not in the list of versions to be modified.
-2025-02-08 16:11:46.121 INFO Skip version 2025.01.02.2300, because it's not in the list of versions to be modified.
-2025-02-08 16:11:46.121 INFO Processing version folder: 2025.02.03.2358
-2025-02-08 16:11:46.121 INFO   Create and checkout to a new branch: Modify-DuckStudio.FufuDevTools-2025.02.03.2358
-2025-02-08 16:11:53.993 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.02.03.2358\DuckStudio.FufuDevTools.installer.yaml
-2025-02-08 16:11:54.612 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
-2025-02-08 16:11:54.708 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.02.03.2358\DuckStudio.FufuDevTools.installer.yaml
-2025-02-08 16:11:54.708 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.02.03.2358\DuckStudio.FufuDevTools.locale.zh-CN.yaml
-2025-02-08 16:11:54.708 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
-2025-02-08 16:11:54.157 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.02.03.2358\DuckStudio.FufuDevTools.locale.zh-CN.yaml
-2025-02-08 16:11:54.165 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.02.03.2358\DuckStudio.FufuDevTools.yaml
-2025-02-08 16:11:54.191 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
-2025-02-08 16:11:54.201 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.02.03.2358\DuckStudio.FufuDevTools.yaml
-2025-02-08 16:11:54.333 INFO     清单验证成功。
-2025-02-08 16:11:54.333 INFO   Staging and Committing Changes to Git
-2025-02-08 16:11:58.173 INFO     Commit message: Modify: DuckStudio.FufuDevTools version 2025.02.03.2358 (Auto)
-2025-02-08 16:11:58.181 INFO   Pushing changes to remote (origin) repository
-2025-02-08 16:12:01.966 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.FufuDevTools-2025.02.03.2358
-2025-02-08 16:12:04.413 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/225004
-2025-02-08 16:12:04.413 INFO All manifests have been modified and pushed through.
-2025-02-08 16:12:07.833 INFO Workspace clean-up completed.
+2025-02-08 16:21:59.593 FUN Just do it!
+2025-02-08 16:21:59.595 INFO Found the following version folder: ['2024.06.24.2036', '2024.06.30.1356', '2024.07.02.1330', '2024.07.03.0000', '2024.07.25.2030', '2024.08.01.0000', '2024.09.08.2000', '2024.09.26.2000', '2024.10.01.0630', '2024.11.27.2000', '2025.01.02.2300', '2025.02.03.2358']
+2025-02-08 16:21:59.706 INFO Skip version 2024.06.24.2036, because it's not in the list of versions to be modified.
+2025-02-08 16:21:59.706 INFO Skip version 2024.06.30.1356, because it's not in the list of versions to be modified.
+2025-02-08 16:21:59.706 INFO Skip version 2024.07.02.1330, because it's not in the list of versions to be modified.
+2025-02-08 16:21:59.722 INFO Skip version 2024.07.03.0000, because it's not in the list of versions to be modified.
+2025-02-08 16:21:59.722 INFO Skip version 2024.07.25.2030, because it's not in the list of versions to be modified.
+2025-02-08 16:21:59.722 INFO Skip version 2024.08.01.0000, because it's not in the list of versions to be modified.
+2025-02-08 16:21:59.722 INFO Skip version 2024.09.08.2000, because it's not in the list of versions to be modified.
+2025-02-08 16:21:59.722 INFO Skip version 2024.09.26.2000, because it's not in the list of versions to be modified.
+2025-02-08 16:21:59.722 INFO Skip version 2024.10.01.0630, because it's not in the list of versions to be modified.
+2025-02-08 16:21:59.722 INFO Skip version 2024.11.27.2000, because it's not in the list of versions to be modified.
+2025-02-08 16:21:59.722 INFO Skip version 2025.01.02.2300, because it's not in the list of versions to be modified.
+2025-02-08 16:21:59.722 INFO Processing version folder: 2025.02.03.2358
+2025-02-08 16:21:59.731 INFO   Create and checkout to a new branch: Modify-DuckStudio.FufuDevTools-2025.02.03.2358
+2025-02-08 16:22:07.279 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.02.03.2358\DuckStudio.FufuDevTools.installer.yaml
+2025-02-08 16:22:07.280 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
+2025-02-08 16:22:07.282 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.02.03.2358\DuckStudio.FufuDevTools.installer.yaml
+2025-02-08 16:22:07.284 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.02.03.2358\DuckStudio.FufuDevTools.locale.en-GB.yaml
+2025-02-08 16:22:07.286 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
+2025-02-08 16:22:07.287 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.02.03.2358\DuckStudio.FufuDevTools.locale.en-GB.yaml
+2025-02-08 16:22:07.289 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.02.03.2358\DuckStudio.FufuDevTools.locale.en-US.yaml
+2025-02-08 16:22:07.291 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
+2025-02-08 16:22:07.293 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.02.03.2358\DuckStudio.FufuDevTools.locale.en-US.yaml
+2025-02-08 16:22:07.295 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.02.03.2358\DuckStudio.FufuDevTools.locale.ja-JP.yaml
+2025-02-08 16:22:07.297 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
+2025-02-08 16:22:07.297 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.02.03.2358\DuckStudio.FufuDevTools.locale.ja-JP.yaml
+2025-02-08 16:22:07.302 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.02.03.2358\DuckStudio.FufuDevTools.locale.zh-CN.yaml
+2025-02-08 16:22:07.303 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
+2025-02-08 16:22:07.305 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.02.03.2358\DuckStudio.FufuDevTools.locale.zh-CN.yaml
+2025-02-08 16:22:07.308 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.02.03.2358\DuckStudio.FufuDevTools.locale.zh-TW.yaml
+2025-02-08 16:22:07.310 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
+2025-02-08 16:22:07.312 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.02.03.2358\DuckStudio.FufuDevTools.locale.zh-TW.yaml
+2025-02-08 16:22:07.314 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.02.03.2358\DuckStudio.FufuDevTools.yaml
+2025-02-08 16:22:07.314 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
+2025-02-08 16:22:07.314 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.02.03.2358\DuckStudio.FufuDevTools.yaml
+2025-02-08 16:22:07.582 INFO     清单验证成功。
+2025-02-08 16:22:07.582 INFO   Staging and Committing Changes to Git
+2025-02-08 16:22:11.676 INFO     Commit message: Modify: DuckStudio.FufuDevTools version 2025.02.03.2358 (Auto)
+2025-02-08 16:22:11.685 INFO   Pushing changes to remote (origin) repository
+2025-02-08 16:22:15.392 INFO     Successfully FORCE pushed to remote (origin): Modify-DuckStudio.FufuDevTools-2025.02.03.2358
+2025-02-08 16:22:15.392 INFO All manifests have been modified and pushed through.
+2025-02-08 16:22:19.389 INFO Workspace clean-up completed.
 ~~ End of logging ~~
