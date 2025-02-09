@@ -167,6 +167,7 @@ namespace checker
                 "https://www.betterbird.eu/", // 过于复杂
                 "DingTalk_v7.6.15.91110808.exe", // https://github.com/microsoft/winget-pkgs/pull/224990
                 "https://github.com/ClassicOldSong/Apollo/releases/download/v0.2.9-alpha.3/Apollo.exe", // WIP
+                "123DingTalk_v7.6.15.91110808.exe", // 重复
             ];
             return excludedDomains.Any(domain => url.Contains(domain));
         }
