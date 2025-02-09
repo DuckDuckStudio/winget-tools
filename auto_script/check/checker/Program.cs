@@ -1,6 +1,5 @@
 ﻿using System.Text.RegularExpressions;
 using YamlDotNet.RepresentationModel;
-
 namespace checker
 {
     internal class Program
@@ -12,14 +11,12 @@ namespace checker
                 Console.WriteLine("[Error] 没有指定需要检查的目录");
                 return;
             }
-
             string folderPath = Path.Combine("winget-pkgs", "manifests", args[0]);
             if (!Directory.Exists(folderPath))
             {
                 Console.WriteLine("[Error] 指定的检查目录不存在");
                 return;
             }
-
             string failureLevel;
             if (args.Length > 2)
             {
@@ -29,16 +26,13 @@ namespace checker
             {
                 failureLevel = "error";
             }
-
             await CheckUrlsInYamlFiles(folderPath, failureLevel);
             Console.WriteLine("\n所有安装程序链接正常");
         }
-
         static async Task CheckUrlsInYamlFiles(string folderPath, string failureLevel)
         {
             using HttpClient client = new();
             client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3");
-
             foreach (string filePath in Directory.EnumerateFiles(folderPath, "*.yaml", SearchOption.AllDirectories))
             {
                 try
@@ -46,10 +40,8 @@ namespace checker
                     YamlStream yaml = [];
                     using StreamReader reader = new(filePath);
                     yaml.Load(reader);
-
                     YamlMappingNode rootNode = (YamlMappingNode)yaml.Documents[0].RootNode;
                     HashSet<string> urls = FindUrls(rootNode);
-
                     foreach (string url in urls)
                     {
                         try
@@ -59,7 +51,6 @@ namespace checker
                             {
                                 response = await client.GetAsync(url);
                             }
-
                             if ((int)response.StatusCode >= 400)
                             {
                                 if (response.StatusCode == System.Net.HttpStatusCode.NotFound && (url.EndsWith(".exe") || url.EndsWith(".zip") || url.EndsWith(".msi") || url.EndsWith(".msix") || url.EndsWith(".appx")))
@@ -123,7 +114,6 @@ namespace checker
                 }
             }
         }
-
         static HashSet<string> FindUrls(YamlNode node)
         {
             HashSet<string> urls = [];
@@ -158,14 +148,12 @@ namespace checker
             }
             return urls;
         }
-
         static bool IsExcluded(string url)
         {
             HashSet<string> excludedDomains =
             [
                 "123", "360", "effie", "typora", "tchspt", "mysql", "voicecloud", "iflyrec", "jisupdf", "floorp", "https://pot.pylogmon", "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", // 之前忽略的
                 "https://www.betterbird.eu/", // 过于复杂
-                "DingTalk_v7.6.15.91110808.exe", // https://github.com/microsoft/winget-pkgs/pull/224990
                 "https://github.com/ClassicOldSong/Apollo/releases/download/v0.2.9-alpha.3/Apollo.exe", // WIP
             ];
             return excludedDomains.Any(domain => url.Contains(domain));
