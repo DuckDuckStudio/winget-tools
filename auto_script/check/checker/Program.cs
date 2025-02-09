@@ -163,7 +163,7 @@ namespace checker
         {
             HashSet<string> excludedDomains =
             [
-                "123", "360", "effie", "typora", "tchspt", "mysql", "voicecloud", "iflyrec", "jisupdf", "floorp", "https://pot.pylogmon", "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", // 之前忽略的
+                "123", "360", "effie", "typora", "tchspt", "mysql", "voicecloud", "iflyrec", "jisupdf", "floorp", "https://pot.pylogmon", "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", "777", // 之前忽略的
                 "https://www.betterbird.eu/", // 过于复杂
                 "https://github.com/ClassicOldSong/Apollo/releases/download/v0.2.9-alpha.3/Apollo.exe", // WIP
             ];
