@@ -1,34 +1,50 @@
 ~~ Start logging ~~
-2025-02-09 23:15:32.561 FUN 大意了，没有闪
-2025-02-09 23:15:32.561 INFO Found the following version folder: ['2020.3.11', '2020.3.12', '2020.3.13', '2020.3.19', '2020.3.8', '2020.3.9']
-2025-02-09 23:15:32.715 INFO Skip version 2020.3.11, because it's not in the list of versions to be modified.
-2025-02-09 23:15:32.716 INFO Skip version 2020.3.12, because it's not in the list of versions to be modified.
-2025-02-09 23:15:32.717 INFO Skip version 2020.3.13, because it's not in the list of versions to be modified.
-2025-02-09 23:15:32.718 INFO Processing version folder: 2020.3.19
-2025-02-09 23:15:32.728 INFO   Create and checkout to a new branch: Modify-FlightGear.FlightGear-2020.3.19
-2025-02-09 23:15:41.861 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\FlightGear\FlightGear\2020.3.19\FlightGear.FlightGear.installer.yaml
-2025-02-09 23:15:41.878 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-02-09 23:15:41.883 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-02-09 23:15:41.884 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
-2025-02-09 23:15:41.886 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\f\FlightGear\FlightGear\2020.3.19\FlightGear.FlightGear.installer.yaml
-2025-02-09 23:15:41.887 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\FlightGear\FlightGear\2020.3.19\FlightGear.FlightGear.locale.en-US.yaml
-2025-02-09 23:15:41.901 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-02-09 23:15:41.901 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-02-09 23:15:41.905 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
-2025-02-09 23:15:41.907 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\f\FlightGear\FlightGear\2020.3.19\FlightGear.FlightGear.locale.en-US.yaml
-2025-02-09 23:15:41.909 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\FlightGear\FlightGear\2020.3.19\FlightGear.FlightGear.yaml
-2025-02-09 23:15:41.930 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
-2025-02-09 23:15:41.931 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
-2025-02-09 23:15:41.932 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
-2025-02-09 23:15:41.933 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\f\FlightGear\FlightGear\2020.3.19\FlightGear.FlightGear.yaml
-2025-02-09 23:15:42.241 INFO     清单验证成功。
-2025-02-09 23:15:42.255 INFO   Staging and Committing Changes to Git
-2025-02-09 23:15:46.306 INFO     Commit message: Modify: FlightGear.FlightGear version 2020.3.19 (Auto)
-2025-02-09 23:15:46.314 INFO   Pushing changes to remote (origin) repository
-2025-02-09 23:15:50.625 INFO     Successfully pushed to remote (origin): Modify-FlightGear.FlightGear-2020.3.19
-2025-02-09 23:15:52.725 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/225795
-2025-02-09 23:15:52.725 INFO Skip version 2020.3.8, because it's not in the list of versions to be modified.
-2025-02-09 23:15:52.725 INFO Skip version 2020.3.9, because it's not in the list of versions to be modified.
-2025-02-09 23:15:52.725 INFO All manifests have been modified and pushed through.
-2025-02-09 23:15:56.416 INFO Workspace clean-up completed.
+2025-02-09 23:46:22.225 FUN 进不去！怎么想都进不去吧！
+2025-02-09 23:46:22.229 INFO Found the following version folder: ['2020.3.11', '2020.3.12', '2020.3.13', '2020.3.19', '2020.3.8', '2020.3.9']
+2025-02-09 23:46:22.411 INFO Skip version 2020.3.11, because it's not in the list of versions to be modified.
+2025-02-09 23:46:22.412 INFO Skip version 2020.3.12, because it's not in the list of versions to be modified.
+2025-02-09 23:46:22.413 INFO Skip version 2020.3.13, because it's not in the list of versions to be modified.
+2025-02-09 23:46:22.414 INFO Skip version 2020.3.19, because it's not in the list of versions to be modified.
+2025-02-09 23:46:22.415 INFO Processing version folder: 2020.3.8
+2025-02-09 23:46:22.416 INFO   Create and checkout to a new branch: Modify-FlightGear.FlightGear-2020.3.8
+2025-02-09 23:46:28.990 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\FlightGear\FlightGear\2020.3.8\FlightGear.FlightGear.installer.yaml
+2025-02-09 23:46:28.992 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-02-09 23:46:28.993 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-02-09 23:46:28.994 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\f\FlightGear\FlightGear\2020.3.8\FlightGear.FlightGear.installer.yaml
+2025-02-09 23:46:28.996 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\FlightGear\FlightGear\2020.3.8\FlightGear.FlightGear.locale.en-US.yaml
+2025-02-09 23:46:28.998 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-02-09 23:46:29.958 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-02-09 23:46:29.272 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\f\FlightGear\FlightGear\2020.3.8\FlightGear.FlightGear.locale.en-US.yaml
+2025-02-09 23:46:29.474 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\FlightGear\FlightGear\2020.3.8\FlightGear.FlightGear.yaml
+2025-02-09 23:46:29.674 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-02-09 23:46:29.773 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-02-09 23:46:29.940 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\f\FlightGear\FlightGear\2020.3.8\FlightGear.FlightGear.yaml
+2025-02-09 23:46:29.333 INFO     清单验证成功。
+2025-02-09 23:46:29.347 INFO   Staging and Committing Changes to Git
+2025-02-09 23:46:35.293 INFO     Commit message: Modify: FlightGear.FlightGear version 2020.3.8 (Auto)
+2025-02-09 23:46:35.313 INFO   Pushing changes to remote (origin) repository
+2025-02-09 23:46:40.110 INFO     Successfully pushed to remote (origin): Modify-FlightGear.FlightGear-2020.3.8
+2025-02-09 23:46:42.334 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/225807
+2025-02-09 23:46:42.358 INFO Processing version folder: 2020.3.9
+2025-02-09 23:46:42.361 INFO   Create and checkout to a new branch: Modify-FlightGear.FlightGear-2020.3.9
+2025-02-09 23:46:48.602 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\FlightGear\FlightGear\2020.3.9\FlightGear.FlightGear.installer.yaml
+2025-02-09 23:46:48.602 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
+2025-02-09 23:46:48.602 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
+2025-02-09 23:46:48.602 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\f\FlightGear\FlightGear\2020.3.9\FlightGear.FlightGear.installer.yaml
+2025-02-09 23:46:48.602 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\FlightGear\FlightGear\2020.3.9\FlightGear.FlightGear.locale.en-US.yaml
+2025-02-09 23:46:48.640 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
+2025-02-09 23:46:48.642 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
+2025-02-09 23:46:48.642 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\f\FlightGear\FlightGear\2020.3.9\FlightGear.FlightGear.locale.en-US.yaml
+2025-02-09 23:46:48.642 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\FlightGear\FlightGear\2020.3.9\FlightGear.FlightGear.yaml
+2025-02-09 23:46:48.663 INFO     Replace ManifestVersion: 1.0.0 -> 1.9.0
+2025-02-09 23:46:48.665 INFO     Replace schema references: 1.0.0.schema.json -> 1.9.0.schema.json
+2025-02-09 23:46:48.665 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\f\FlightGear\FlightGear\2020.3.9\FlightGear.FlightGear.yaml
+2025-02-09 23:46:48.982 INFO     清单验证成功。
+2025-02-09 23:46:48.983 INFO   Staging and Committing Changes to Git
+2025-02-09 23:46:53.661 INFO     Commit message: Modify: FlightGear.FlightGear version 2020.3.9 (Auto)
+2025-02-09 23:46:53.677 INFO   Pushing changes to remote (origin) repository
+2025-02-09 23:46:58.165 INFO     Successfully pushed to remote (origin): Modify-FlightGear.FlightGear-2020.3.9
+2025-02-09 23:47:00.194 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/225808
+2025-02-09 23:47:00.194 INFO All manifests have been modified and pushed through.
+2025-02-09 23:47:04.628 INFO Workspace clean-up completed.
 ~~ End of logging ~~
