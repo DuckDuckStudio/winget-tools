@@ -167,6 +167,7 @@ namespace checker
                 "https://www.betterbird.eu/", // 过于复杂
                 "https://github.com/ClassicOldSong/Apollo/releases/download/v0.2.9-alpha.3/Apollo.exe", "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v7.6.15.91110808.exe", "https://github.com/electerm/electerm/", // WIP
                 "https://github.com/paintdotnet/release/", // 更新时移除
+                "https://slproweb.com/download/Win64OpenSSL-3_0_8.msi", // 不是安装程序
             ];
             return excludedDomains.Any(domain => url.Contains(domain));
         }
