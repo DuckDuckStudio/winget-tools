@@ -168,7 +168,7 @@ namespace checker
                 "https://github.com/ClassicOldSong/Apollo/releases/download/v0.2.9-alpha.3/Apollo.exe", "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v7.6.15.91110808.exe", "https://download.wondershare.com/cbs_down/pdfelement-pro_64bit_8.4.8_full5239.exe", // WIP
                 "https://github.com/paintdotnet/release/", // 更新时移除
                 "https://slproweb.com/download/Win64OpenSSL-3_0_8.msi", // 不是安装程序
-                "https://cdn.krisp.ai/mp/2.20.3/win/Krisp_2.20.3.exe", // 假404
+                "https://cdn.krisp.ai", // 假404
             ];
             return excludedDomains.Any(domain => url.Contains(domain));
         }
