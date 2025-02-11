@@ -1,0 +1,36 @@
+~~ Start logging ~~
+2025-02-11 23:00:56.861 FUN qaq
+2025-02-11 23:00:56.863 INFO Found the following version folder: ['8.3.14', '8.4.1', '8.4.10', '8.4.11', '8.4.13', '8.4.8']
+2025-02-11 23:00:57.132 INFO Skip version 8.3.14, because it's not in the list of versions to be modified.
+2025-02-11 23:00:57.132 INFO Skip version 8.4.1, because it's not in the list of versions to be modified.
+2025-02-11 23:00:57.214 INFO Skip version 8.4.10, because it's not in the list of versions to be modified.
+2025-02-11 23:00:57.224 INFO Skip version 8.4.11, because it's not in the list of versions to be modified.
+2025-02-11 23:00:57.234 INFO Skip version 8.4.13, because it's not in the list of versions to be modified.
+2025-02-11 23:00:57.254 INFO Processing version folder: 8.4.8
+2025-02-11 23:00:57.274 INFO   Create and checkout to a new branch: Modify-Wondershare.PDFelement.8-8.4.8
+2025-02-11 23:01:11.994 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\w\Wondershare\PDFelement\8\8.4.8\Wondershare.PDFelement.8.installer.yaml
+2025-02-11 23:01:11.994 INFO     Replace ManifestVersion: 1.2.0 -> 1.9.0
+2025-02-11 23:01:11.994 INFO     Replace schema references: 1.2.0.schema.json -> 1.9.0.schema.json
+2025-02-11 23:01:18.542 INFO   Remove x64 installer
+2025-02-11 23:01:18.545 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\w\Wondershare\PDFelement\8\8.4.8\Wondershare.PDFelement.8.installer.yaml
+2025-02-11 23:01:18.547 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\w\Wondershare\PDFelement\8\8.4.8\Wondershare.PDFelement.8.locale.en-US.yaml
+2025-02-11 23:01:18.551 INFO     Replace ManifestVersion: 1.2.0 -> 1.9.0
+2025-02-11 23:01:18.554 INFO     Replace schema references: 1.2.0.schema.json -> 1.9.0.schema.json
+2025-02-11 23:01:18.557 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\w\Wondershare\PDFelement\8\8.4.8\Wondershare.PDFelement.8.locale.en-US.yaml
+2025-02-11 23:01:18.560 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\w\Wondershare\PDFelement\8\8.4.8\Wondershare.PDFelement.8.locale.zh-CN.yaml
+2025-02-11 23:01:18.563 INFO     Replace ManifestVersion: 1.2.0 -> 1.9.0
+2025-02-11 23:01:18.565 INFO     Replace schema references: 1.2.0.schema.json -> 1.9.0.schema.json
+2025-02-11 23:01:18.569 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\w\Wondershare\PDFelement\8\8.4.8\Wondershare.PDFelement.8.locale.zh-CN.yaml
+2025-02-11 23:01:18.572 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\w\Wondershare\PDFelement\8\8.4.8\Wondershare.PDFelement.8.yaml
+2025-02-11 23:01:18.595 INFO     Replace ManifestVersion: 1.2.0 -> 1.9.0
+2025-02-11 23:01:18.598 INFO     Replace schema references: 1.2.0.schema.json -> 1.9.0.schema.json
+2025-02-11 23:01:18.601 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\w\Wondershare\PDFelement\8\8.4.8\Wondershare.PDFelement.8.yaml
+2025-02-11 23:01:18.922 INFO     清单验证成功。
+2025-02-11 23:01:18.938 INFO   Staging and Committing Changes to Git
+2025-02-11 23:01:23.379 INFO     Commit message: Modify: Wondershare.PDFelement.8 version 8.4.8 (Auto)
+2025-02-11 23:01:23.382 INFO   Pushing changes to remote (origin) repository
+2025-02-11 23:01:27.704 INFO     Successfully pushed to remote (origin): Modify-Wondershare.PDFelement.8-8.4.8
+2025-02-11 23:01:31.358 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/227505
+2025-02-11 23:01:31.358 INFO All manifests have been modified and pushed through.
+2025-02-11 23:01:35.431 INFO Workspace clean-up completed.
+~~ End of logging ~~
