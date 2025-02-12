@@ -1,0 +1,24 @@
+~~ Start logging ~~
+2025-02-12 11:17:48.358 FUN 你这清单是从多少个现有清单中拼凑出来的？
+2025-02-12 11:17:48.361 INFO Found the following version folder: ['0.1.0.0']
+2025-02-12 11:17:48.546 INFO Processing version folder: 0.1.0.0
+2025-02-12 11:17:48.547 INFO   Create and checkout to a new branch: Modify-cryptodarth.dockerbeam-0.1.0.0
+2025-02-12 11:18:00.321 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\cryptodarth\dockerbeam\0.1.0.0\cryptodarth.dockerbeam.installer.yaml
+2025-02-12 11:18:00.349 INFO   Correcting the InstallerUrl: https://github.com/DockerBeam/DockerBeam/releases/download/v0.1.0/DockerBeam_windows_x86.exe (x86) -> https://github.com/DockerBeam/DockerBeam/releases/download/v0.1.0/DockerBeam_windows_x64.exe (x64)
+2025-02-12 11:18:00.351 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\cryptodarth\dockerbeam\0.1.0.0\cryptodarth.dockerbeam.installer.yaml
+2025-02-12 11:18:00.353 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\cryptodarth\dockerbeam\0.1.0.0\cryptodarth.dockerbeam.locale.en-US.yaml
+2025-02-12 11:18:00.378 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\cryptodarth\dockerbeam\0.1.0.0\cryptodarth.dockerbeam.locale.en-US.yaml
+2025-02-12 11:18:00.382 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\cryptodarth\dockerbeam\0.1.0.0\cryptodarth.dockerbeam.yaml
+2025-02-12 11:18:00.406 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\cryptodarth\dockerbeam\0.1.0.0\cryptodarth.dockerbeam.yaml
+2025-02-12 11:18:00.867 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-02-12 11:18:00.868 INFO       - 程序包
+2025-02-12 11:18:00.869 INFO           Microsoft.VCRedist.2015+.x64
+2025-02-12 11:18:00.870 INFO     清单验证成功。
+2025-02-12 11:18:00.887 INFO   Staging and Committing Changes to Git
+2025-02-12 11:18:06.181 INFO     Commit message: Modify: cryptodarth.dockerbeam version 0.1.0.0 (Auto)
+2025-02-12 11:18:06.183 INFO   Pushing changes to remote (origin) repository
+2025-02-12 11:18:11.623 INFO     Successfully pushed to remote (origin): Modify-cryptodarth.dockerbeam-0.1.0.0
+2025-02-12 11:18:13.652 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/227852
+2025-02-12 11:18:13.654 INFO All manifests have been modified and pushed through.
+2025-02-12 11:18:20.237 INFO Workspace clean-up completed.
+~~ End of logging ~~
