@@ -13,11 +13,11 @@ on:
       branch:
         description: "检查的分支"
         required: true
-        default: "wingettools"
+        default: "master"
       fork:
         description: "检查的 fork 仓库的所有者"
         required: true
-        default: "DuckDuckStudio"
+        default: "microsoft"
 
 jobs:
   Check-installers:
