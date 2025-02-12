@@ -167,7 +167,7 @@ namespace checker
                 "https://www.betterbird.eu/", // 过于复杂
                 "https://github.com/ClassicOldSong/Apollo/releases/download/v0.2.9-alpha.3/Apollo.exe", "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v7.6.15.91110808.exe", "https://github.com/DockerBeam/DockerBeam/releases/download/v0.1.0/DockerBeam_windows_x86.exe", // WIP
                 "https://github.com/paintdotnet/release/", // 更新时移除
-                "https://cdn.krisp.ai", "https://www.huaweicloud.com/", "https://mirrors.kodi.tv", "https://scache.vzw.com", // 假404
+                "https://cdn.krisp.ai", "https://www.huaweicloud.com/", "https://mirrors.kodi.tv", "https://scache.vzw.com", "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", // 假404
             ];
             return excludedDomains.Any(domain => url.Contains(domain));
         }
