@@ -165,7 +165,7 @@ namespace checker
             [
                 "123", "360", "effie", "typora", "tchspt", "mysql", "voicecloud", "iflyrec", "jisupdf", "floorp", "https://pot.pylogmon", "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", // 之前忽略的
                 "https://www.betterbird.eu/", // 过于复杂
-                "https://github.com/ClassicOldSong/Apollo/releases/download/v0.2.9-alpha.3/Apollo.exe", "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v7.6.15.91110808.exe", "https://download.wondershare.com/cbs_down/pdfelement-pro_64bit_8.4.8_full5239.exe", "https://download.ydstatic.com/notewebsite/downloads/YNote.exe", "https://dl.genymotion.com/releases/genymotion-3.2.1/genymotion-3.2.1.exe", // WIP
+                "https://github.com/ClassicOldSong/Apollo/releases/download/v0.2.9-alpha.3/Apollo.exe", "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v7.6.15.91110808.exe", "https://download.ydstatic.com/notewebsite/downloads/YNote.exe", "https://dl.genymotion.com/releases/genymotion-3.2.1/genymotion-3.2.1.exe", // WIP
                 "https://github.com/paintdotnet/release/", // 更新时移除
                 "https://slproweb.com/download/Win64OpenSSL-3_0_8.msi", // 不是安装程序
                 "https://cdn.krisp.ai", "https://www.huaweicloud.com/", "https://mirrors.kodi.tv", "https://scache.vzw.com", // 假404
