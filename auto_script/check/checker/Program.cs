@@ -165,7 +165,7 @@ namespace checker
             [
                 "123", "360", "effie", "typora", "tchspt", "mysql", "voicecloud", "iflyrec", "jisupdf", "floorp", "https://pot.pylogmon", "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", // 之前忽略的
                 "https://www.betterbird.eu/", // 过于复杂
-                "https://github.com/ClassicOldSong/Apollo/releases/download/v0.2.9-alpha.3/Apollo.exe", "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v7.6.15.91110808.exe", "https://download.gigabyte.com/FileList/Utility/GCC_24.12.06.01.zip", "https://github.com/DockerBeam/DockerBeam/releases/download/v0.1.0/DockerBeam_windows_x86.exe", // WIP
+                "https://github.com/ClassicOldSong/Apollo/releases/download/v0.2.9-alpha.3/Apollo.exe", "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v7.6.15.91110808.exe", "https://github.com/DockerBeam/DockerBeam/releases/download/v0.1.0/DockerBeam_windows_x86.exe", // WIP
                 "https://github.com/paintdotnet/release/", // 更新时移除
                 "https://slproweb.com/download/Win64OpenSSL-3_0_8.msi", // 不是安装程序
                 "https://cdn.krisp.ai", "https://www.huaweicloud.com/", "https://mirrors.kodi.tv", "https://scache.vzw.com", // 假404
