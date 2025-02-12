@@ -1,4 +1,4 @@
-name: 获取安装程序文件
+name: 不修改的更新清单
 
 on:
   workflow_dispatch:
@@ -14,7 +14,7 @@ on:
         required: true
 
 jobs:
-  download-and-upload:
+  komac-update:
     runs-on: ubuntu-latest
 
     steps:
