@@ -1,0 +1,36 @@
+name: 获取安装程序文件
+
+on:
+  workflow_dispatch:
+    inputs:
+      id:
+        description: 软件包标识符
+        required: true
+      ver:
+        description: 软件包版本
+        required: true
+      urls:
+        description: 软件包安装程序链接
+        required: true
+
+jobs:
+  download-and-upload:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 设置 Rust
+    # 用于后续的 `cargo binstall` 安装
+      uses: cargo-bins/cargo-binstall@main
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+
+    - name: 安装 Komac
+      run: cargo binstall komac -y
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+
+    - name: 更新清单
+      env:
+        KOMAC_FORK_OWNER: "DuckDuckStudio"
+        GITHUB_TOKEN: ${{ secrets.WINGET_PKGS_TOKEN }}
+      run: komac update ${{ github.event.inputs.id }} --version ${{ github.event.inputs.ver }} --urls ${{ github.event.inputs.urls }} --created-with "@DuckDuckStudio's Automation" --created-with-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" --submit
