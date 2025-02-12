@@ -62,12 +62,12 @@ namespace checker
 
                             if ((int)response.StatusCode >= 400)
                             {
-                                if (response.StatusCode == System.Net.HttpStatusCode.NotFound && (url.EndsWith(".exe") || url.EndsWith(".zip") || url.EndsWith(".msi") || url.EndsWith(".msix") || url.EndsWith(".appx")))
+                                if (response.StatusCode == System.Net.HttpStatusCode.NotFound && filePath.Contains("installer"))
                                 {
                                     Console.WriteLine($"\n[Error] (安装程序返回 404) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (Not found - 未找到)");
                                     Environment.Exit(1);
                                 }
-                                else if (response.StatusCode == System.Net.HttpStatusCode.Forbidden && !(url.EndsWith(".exe") || url.EndsWith(".zip") || url.EndsWith(".msi") || url.EndsWith(".msix") || url.EndsWith(".appx")))
+                                else if (response.StatusCode == System.Net.HttpStatusCode.Forbidden && !filePath.Contains("installer"))
                                 {
                                     Console.Write("-");
                                 }
