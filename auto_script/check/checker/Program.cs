@@ -168,6 +168,7 @@ namespace checker
                 "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v7.6.15.91110808.exe", "https://download.s21i.faiusr.com/4232652/0/0/ABUIABBPGAAgn-qPsgYovJen7gY.zip?f=", "https://builds.balsamiq.com/bwd/Balsamiq_Wireframes_4.8.1_x64_Setup.exe", "https://github.com/kovidgoyal/calibre/releases/download/v7.25.0/calibre-portable-installer-7.25.0.exe", // WIP
                 "https://github.com/paintdotnet/release/", // 更新时移除
                 "https://cdn.krisp.ai", "https://www.huaweicloud.com/", "https://mirrors.kodi.tv", "https://scache.vzw.com", "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", // 假404
+                "https://www.deezer.com/", // 无法验证
             ];
             return excludedDomains.Any(domain => url.Contains(domain));
         }
