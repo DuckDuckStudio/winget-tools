@@ -1,0 +1,278 @@
+~~ Start logging ~~
+2025-02-14 18:10:17.473 FUN 这回应该肯定一定能修好
+2025-02-14 18:10:17.478 INFO Found the following version folder: ['5.35.0.0', '5.36.0.0', '5.37.0.0', '6.17.0.0', '6.24.0', '6.29.0', '7.0.0.0', '7.1.0.0', '7.18.0', '7.19.0', '7.2.0.0', '7.25.0.0', '7.3.0.0']
+2025-02-14 18:10:17.660 INFO Processing version folder: 5.35.0.0
+2025-02-14 18:10:17.661 INFO   Create and checkout to a new branch: Modify-calibre.calibre.portable-5.35.0.0
+2025-02-14 18:10:34.813 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\5.35.0.0\calibre.calibre.portable.installer.yaml
+2025-02-14 18:10:34.833 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-02-14 18:10:34.834 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:10:34.837 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\5.35.0.0\calibre.calibre.portable.installer.yaml
+2025-02-14 18:10:34.839 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\5.35.0.0\calibre.calibre.portable.locale.en-US.yaml
+2025-02-14 18:10:34.857 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-02-14 18:10:34.858 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:10:34.860 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\5.35.0.0\calibre.calibre.portable.locale.en-US.yaml
+2025-02-14 18:10:34.860 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\5.35.0.0\calibre.calibre.portable.yaml
+2025-02-14 18:10:34.877 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-02-14 18:10:34.878 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:10:34.880 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\5.35.0.0\calibre.calibre.portable.yaml
+2025-02-14 18:10:34.881 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\5.35.0.0\calibre.calibre.portable.locale.zh-CN.yaml
+2025-02-14 18:10:34.882 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\5.35.0.0\calibre.calibre.portable.locale.zh-CN.yaml
+2025-02-14 18:10:35.256 INFO     清单验证成功。
+2025-02-14 18:10:35.270 INFO   Staging and Committing Changes to Git
+2025-02-14 18:10:39.832 INFO     Commit message: Modify: calibre.calibre.portable version 5.35.0.0 (Auto)
+2025-02-14 18:10:39.834 INFO   Pushing changes to remote (origin) repository
+2025-02-14 18:10:45.441 INFO     Successfully pushed to remote (origin): Modify-calibre.calibre.portable-5.35.0.0
+2025-02-14 18:10:49.332 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/229491
+2025-02-14 18:10:49.334 INFO Processing version folder: 5.36.0.0
+2025-02-14 18:10:49.336 INFO   Create and checkout to a new branch: Modify-calibre.calibre.portable-5.36.0.0
+2025-02-14 18:12:23.410 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\5.36.0.0\calibre.calibre.portable.installer.yaml
+2025-02-14 18:12:23.435 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-02-14 18:12:23.437 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:12:23.439 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\5.36.0.0\calibre.calibre.portable.installer.yaml
+2025-02-14 18:12:23.442 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\5.36.0.0\calibre.calibre.portable.locale.en-US.yaml
+2025-02-14 18:12:23.463 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-02-14 18:12:23.465 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:12:23.468 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\5.36.0.0\calibre.calibre.portable.locale.en-US.yaml
+2025-02-14 18:12:23.470 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\5.36.0.0\calibre.calibre.portable.yaml
+2025-02-14 18:12:23.489 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-02-14 18:12:23.489 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:12:23.495 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\5.36.0.0\calibre.calibre.portable.yaml
+2025-02-14 18:12:23.498 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\5.36.0.0\calibre.calibre.portable.locale.zh-CN.yaml
+2025-02-14 18:12:23.500 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\5.36.0.0\calibre.calibre.portable.locale.zh-CN.yaml
+2025-02-14 18:12:23.852 INFO     清单验证成功。
+2025-02-14 18:12:23.866 INFO   Staging and Committing Changes to Git
+2025-02-14 18:12:28.902 INFO     Commit message: Modify: calibre.calibre.portable version 5.36.0.0 (Auto)
+2025-02-14 18:12:28.903 INFO   Pushing changes to remote (origin) repository
+2025-02-14 18:12:35.327 INFO     Successfully pushed to remote (origin): Modify-calibre.calibre.portable-5.36.0.0
+2025-02-14 18:12:39.669 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/229493
+2025-02-14 18:12:39.671 INFO Processing version folder: 5.37.0.0
+2025-02-14 18:12:39.673 INFO   Create and checkout to a new branch: Modify-calibre.calibre.portable-5.37.0.0
+2025-02-14 18:12:46.948 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\5.37.0.0\calibre.calibre.portable.installer.yaml
+2025-02-14 18:12:46.976 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-02-14 18:12:46.977 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:12:46.979 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\5.37.0.0\calibre.calibre.portable.installer.yaml
+2025-02-14 18:12:46.981 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\5.37.0.0\calibre.calibre.portable.locale.en-US.yaml
+2025-02-14 18:12:47.329 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-02-14 18:12:47.830 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:12:47.103 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\5.37.0.0\calibre.calibre.portable.locale.en-US.yaml
+2025-02-14 18:12:47.123 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\5.37.0.0\calibre.calibre.portable.yaml
+2025-02-14 18:12:47.322 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-02-14 18:12:47.342 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:12:47.352 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\5.37.0.0\calibre.calibre.portable.yaml
+2025-02-14 18:12:47.382 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\5.37.0.0\calibre.calibre.portable.locale.zh-CN.yaml
+2025-02-14 18:12:47.432 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\5.37.0.0\calibre.calibre.portable.locale.zh-CN.yaml
+2025-02-14 18:12:47.398 INFO     清单验证成功。
+2025-02-14 18:12:47.412 INFO   Staging and Committing Changes to Git
+2025-02-14 18:12:53.165 INFO     Commit message: Modify: calibre.calibre.portable version 5.37.0.0 (Auto)
+2025-02-14 18:12:53.167 INFO   Pushing changes to remote (origin) repository
+2025-02-14 18:12:59.675 INFO     Successfully pushed to remote (origin): Modify-calibre.calibre.portable-5.37.0.0
+2025-02-14 18:13:31.296 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/229494
+2025-02-14 18:13:31.299 INFO Processing version folder: 6.17.0.0
+2025-02-14 18:13:31.302 INFO   Create and checkout to a new branch: Modify-calibre.calibre.portable-6.17.0.0
+2025-02-14 18:13:41.772 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\6.17.0.0\calibre.calibre.portable.installer.yaml
+2025-02-14 18:13:41.799 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-02-14 18:13:41.802 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:13:41.804 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\6.17.0.0\calibre.calibre.portable.installer.yaml
+2025-02-14 18:13:41.806 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\6.17.0.0\calibre.calibre.portable.locale.en-US.yaml
+2025-02-14 18:13:41.828 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-02-14 18:13:41.830 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:13:41.833 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\6.17.0.0\calibre.calibre.portable.locale.en-US.yaml
+2025-02-14 18:13:41.835 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\6.17.0.0\calibre.calibre.portable.yaml
+2025-02-14 18:13:41.855 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-02-14 18:13:41.856 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:13:41.858 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\6.17.0.0\calibre.calibre.portable.yaml
+2025-02-14 18:13:41.861 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\6.17.0.0\calibre.calibre.portable.locale.zh-CN.yaml
+2025-02-14 18:13:41.864 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\6.17.0.0\calibre.calibre.portable.locale.zh-CN.yaml
+2025-02-14 18:13:42.265 INFO     清单验证成功。
+2025-02-14 18:13:42.279 INFO   Staging and Committing Changes to Git
+2025-02-14 18:13:47.197 INFO     Commit message: Modify: calibre.calibre.portable version 6.17.0.0 (Auto)
+2025-02-14 18:13:47.198 INFO   Pushing changes to remote (origin) repository
+2025-02-14 18:13:52.173 INFO     Successfully pushed to remote (origin): Modify-calibre.calibre.portable-6.17.0.0
+2025-02-14 18:13:55.653 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/229495
+2025-02-14 18:13:55.655 INFO Processing version folder: 6.24.0
+2025-02-14 18:13:55.656 INFO   Create and checkout to a new branch: Modify-calibre.calibre.portable-6.24.0
+2025-02-14 18:14:03.998 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\6.24.0\calibre.calibre.portable.installer.yaml
+2025-02-14 18:14:04.279 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-02-14 18:14:04.279 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:14:04.364 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\6.24.0\calibre.calibre.portable.installer.yaml
+2025-02-14 18:14:04.374 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\6.24.0\calibre.calibre.portable.locale.en-US.yaml
+2025-02-14 18:14:04.678 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-02-14 18:14:04.688 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:14:04.718 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\6.24.0\calibre.calibre.portable.locale.en-US.yaml
+2025-02-14 18:14:04.728 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\6.24.0\calibre.calibre.portable.yaml
+2025-02-14 18:14:04.926 INFO     Replace ManifestVersion: 1.4.0 -> 1.9.0
+2025-02-14 18:14:04.936 INFO     Replace schema references: 1.4.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:14:04.978 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\6.24.0\calibre.calibre.portable.yaml
+2025-02-14 18:14:04.100 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\6.24.0\calibre.calibre.portable.locale.zh-CN.yaml
+2025-02-14 18:14:04.102 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\6.24.0\calibre.calibre.portable.locale.zh-CN.yaml
+2025-02-14 18:14:04.571 INFO     清单验证成功。
+2025-02-14 18:14:04.591 INFO   Staging and Committing Changes to Git
+2025-02-14 18:14:12.824 INFO     Commit message: Modify: calibre.calibre.portable version 6.24.0 (Auto)
+2025-02-14 18:14:12.844 INFO   Pushing changes to remote (origin) repository
+2025-02-14 18:14:18.887 INFO     Successfully pushed to remote (origin): Modify-calibre.calibre.portable-6.24.0
+2025-02-14 18:14:22.224 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/229496
+2025-02-14 18:14:22.226 INFO Processing version folder: 6.29.0
+2025-02-14 18:14:22.228 INFO   Create and checkout to a new branch: Modify-calibre.calibre.portable-6.29.0
+2025-02-14 18:14:30.173 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\6.29.0\calibre.calibre.portable.installer.yaml
+2025-02-14 18:14:30.199 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
+2025-02-14 18:14:30.201 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:14:30.202 INFO    Remove incorrect Custom
+2025-02-14 18:14:30.204 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\6.29.0\calibre.calibre.portable.installer.yaml
+2025-02-14 18:14:30.205 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\6.29.0\calibre.calibre.portable.locale.en-US.yaml
+2025-02-14 18:14:30.233 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
+2025-02-14 18:14:30.234 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:14:30.236 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\6.29.0\calibre.calibre.portable.locale.en-US.yaml
+2025-02-14 18:14:30.237 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\6.29.0\calibre.calibre.portable.yaml
+2025-02-14 18:14:30.266 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
+2025-02-14 18:14:30.267 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:14:30.269 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\6.29.0\calibre.calibre.portable.yaml
+2025-02-14 18:14:30.271 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\6.29.0\calibre.calibre.portable.locale.zh-CN.yaml
+2025-02-14 18:14:30.273 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\6.29.0\calibre.calibre.portable.locale.zh-CN.yaml
+2025-02-14 18:14:30.637 INFO     清单验证成功。
+2025-02-14 18:14:30.651 INFO   Staging and Committing Changes to Git
+2025-02-14 18:14:36.405 INFO     Commit message: Modify: calibre.calibre.portable version 6.29.0 (Auto)
+2025-02-14 18:14:36.407 INFO   Pushing changes to remote (origin) repository
+2025-02-14 18:14:53.762 INFO     Successfully pushed to remote (origin): Modify-calibre.calibre.portable-6.29.0
+2025-02-14 18:14:57.766 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/229497
+2025-02-14 18:14:57.768 INFO Processing version folder: 7.0.0.0
+2025-02-14 18:14:57.770 INFO   Create and checkout to a new branch: Modify-calibre.calibre.portable-7.0.0.0
+2025-02-14 18:15:19.360 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.0.0.0\calibre.calibre.portable.installer.yaml
+2025-02-14 18:15:19.610 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
+2025-02-14 18:15:19.630 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:15:19.640 INFO    Remove incorrect Custom
+2025-02-14 18:15:19.660 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.0.0.0\calibre.calibre.portable.installer.yaml
+2025-02-14 18:15:22.598 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.0.0.0\calibre.calibre.portable.locale.en-US.yaml
+2025-02-14 18:15:22.632 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
+2025-02-14 18:15:22.633 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:15:22.635 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.0.0.0\calibre.calibre.portable.locale.en-US.yaml
+2025-02-14 18:15:22.639 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.0.0.0\calibre.calibre.portable.yaml
+2025-02-14 18:15:22.658 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
+2025-02-14 18:15:22.660 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:15:22.661 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.0.0.0\calibre.calibre.portable.yaml
+2025-02-14 18:15:22.663 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.0.0.0\calibre.calibre.portable.locale.zh-CN.yaml
+2025-02-14 18:15:22.665 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.0.0.0\calibre.calibre.portable.locale.zh-CN.yaml
+2025-02-14 18:15:23.345 INFO     清单验证成功。
+2025-02-14 18:15:23.485 INFO   Staging and Committing Changes to Git
+2025-02-14 18:15:30.683 INFO     Commit message: Modify: calibre.calibre.portable version 7.0.0.0 (Auto)
+2025-02-14 18:15:30.688 INFO   Pushing changes to remote (origin) repository
+2025-02-14 18:15:41.926 INFO     Successfully pushed to remote (origin): Modify-calibre.calibre.portable-7.0.0.0
+2025-02-14 18:15:45.405 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/229498
+2025-02-14 18:15:45.407 INFO Processing version folder: 7.1.0.0
+2025-02-14 18:15:45.408 INFO   Create and checkout to a new branch: Modify-calibre.calibre.portable-7.1.0.0
+2025-02-14 18:15:54.863 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.1.0.0\calibre.calibre.portable.installer.yaml
+2025-02-14 18:15:54.907 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
+2025-02-14 18:15:54.908 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:15:54.909 INFO    Remove incorrect Custom
+2025-02-14 18:15:54.912 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.1.0.0\calibre.calibre.portable.installer.yaml
+2025-02-14 18:15:54.913 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.1.0.0\calibre.calibre.portable.locale.en-US.yaml
+2025-02-14 18:15:54.958 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
+2025-02-14 18:15:54.959 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:15:54.962 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.1.0.0\calibre.calibre.portable.locale.en-US.yaml
+2025-02-14 18:15:54.964 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.1.0.0\calibre.calibre.portable.yaml
+2025-02-14 18:15:54.995 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
+2025-02-14 18:15:54.998 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:15:55.758 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.1.0.0\calibre.calibre.portable.yaml
+2025-02-14 18:15:55.125 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.1.0.0\calibre.calibre.portable.locale.zh-CN.yaml
+2025-02-14 18:15:55.145 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.1.0.0\calibre.calibre.portable.locale.zh-CN.yaml
+2025-02-14 18:15:55.503 INFO     清单验证成功。
+2025-02-14 18:15:55.517 INFO   Staging and Committing Changes to Git
+2025-02-14 18:16:02.568 INFO     Commit message: Modify: calibre.calibre.portable version 7.1.0.0 (Auto)
+2025-02-14 18:16:02.578 INFO   Pushing changes to remote (origin) repository
+2025-02-14 18:16:11.377 INFO     Successfully pushed to remote (origin): Modify-calibre.calibre.portable-7.1.0.0
+2025-02-14 18:16:14.673 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/229499
+2025-02-14 18:16:14.675 INFO Processing version folder: 7.18.0
+2025-02-14 18:16:14.676 INFO   Create and checkout to a new branch: Modify-calibre.calibre.portable-7.18.0
+2025-02-14 18:16:24.305 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.18.0\calibre.calibre.portable.installer.yaml
+2025-02-14 18:16:24.335 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-02-14 18:16:24.336 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:16:24.337 INFO    Remove incorrect Custom
+2025-02-14 18:16:24.339 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.18.0\calibre.calibre.portable.installer.yaml
+2025-02-14 18:16:24.341 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.18.0\calibre.calibre.portable.locale.en-US.yaml
+2025-02-14 18:16:24.367 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-02-14 18:16:24.369 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:16:24.370 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.18.0\calibre.calibre.portable.locale.en-US.yaml
+2025-02-14 18:16:24.372 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.18.0\calibre.calibre.portable.yaml
+2025-02-14 18:16:24.392 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-02-14 18:16:24.393 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:16:24.395 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.18.0\calibre.calibre.portable.yaml
+2025-02-14 18:16:24.398 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.18.0\calibre.calibre.portable.locale.zh-CN.yaml
+2025-02-14 18:16:24.400 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.18.0\calibre.calibre.portable.locale.zh-CN.yaml
+2025-02-14 18:16:24.774 INFO     清单验证成功。
+2025-02-14 18:16:24.790 INFO   Staging and Committing Changes to Git
+2025-02-14 18:16:29.942 INFO     Commit message: Modify: calibre.calibre.portable version 7.18.0 (Auto)
+2025-02-14 18:16:29.944 INFO   Pushing changes to remote (origin) repository
+2025-02-14 18:16:35.165 INFO     Successfully pushed to remote (origin): Modify-calibre.calibre.portable-7.18.0
+2025-02-14 18:16:38.367 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/229500
+2025-02-14 18:16:38.369 INFO Processing version folder: 7.19.0
+2025-02-14 18:16:38.370 INFO   Create and checkout to a new branch: Modify-calibre.calibre.portable-7.19.0
+2025-02-14 18:16:45.918 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.19.0\calibre.calibre.portable.installer.yaml
+2025-02-14 18:16:45.943 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-02-14 18:16:45.945 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:16:45.947 INFO    Remove incorrect Custom
+2025-02-14 18:16:45.950 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.19.0\calibre.calibre.portable.installer.yaml
+2025-02-14 18:16:45.952 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.19.0\calibre.calibre.portable.locale.en-US.yaml
+2025-02-14 18:16:45.981 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-02-14 18:16:45.983 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:16:45.985 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.19.0\calibre.calibre.portable.locale.en-US.yaml
+2025-02-14 18:16:45.987 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.19.0\calibre.calibre.portable.yaml
+2025-02-14 18:16:46.916 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-02-14 18:16:46.137 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:16:46.157 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.19.0\calibre.calibre.portable.yaml
+2025-02-14 18:16:46.187 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.19.0\calibre.calibre.portable.locale.zh-CN.yaml
+2025-02-14 18:16:46.217 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.19.0\calibre.calibre.portable.locale.zh-CN.yaml
+2025-02-14 18:16:46.366 INFO     清单验证成功。
+2025-02-14 18:16:46.380 INFO   Staging and Committing Changes to Git
+2025-02-14 18:16:51.199 INFO     Commit message: Modify: calibre.calibre.portable version 7.19.0 (Auto)
+2025-02-14 18:16:51.201 INFO   Pushing changes to remote (origin) repository
+2025-02-14 18:16:56.321 INFO     Successfully pushed to remote (origin): Modify-calibre.calibre.portable-7.19.0
+2025-02-14 18:16:59.253 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/229501
+2025-02-14 18:16:59.254 INFO Processing version folder: 7.2.0.0
+2025-02-14 18:16:59.255 INFO   Create and checkout to a new branch: Modify-calibre.calibre.portable-7.2.0.0
+2025-02-14 18:17:07.397 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.2.0.0\calibre.calibre.portable.installer.yaml
+2025-02-14 18:17:07.421 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
+2025-02-14 18:17:07.422 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:17:07.424 INFO    Remove incorrect Custom
+2025-02-14 18:17:07.427 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.2.0.0\calibre.calibre.portable.installer.yaml
+2025-02-14 18:17:07.429 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.2.0.0\calibre.calibre.portable.locale.en-US.yaml
+2025-02-14 18:17:07.452 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
+2025-02-14 18:17:07.454 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:17:07.455 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.2.0.0\calibre.calibre.portable.locale.en-US.yaml
+2025-02-14 18:17:07.457 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.2.0.0\calibre.calibre.portable.yaml
+2025-02-14 18:17:07.474 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
+2025-02-14 18:17:07.476 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:17:07.479 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.2.0.0\calibre.calibre.portable.yaml
+2025-02-14 18:17:07.481 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.2.0.0\calibre.calibre.portable.locale.zh-CN.yaml
+2025-02-14 18:17:07.483 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.2.0.0\calibre.calibre.portable.locale.zh-CN.yaml
+2025-02-14 18:17:07.839 INFO     清单验证成功。
+2025-02-14 18:17:07.853 INFO   Staging and Committing Changes to Git
+2025-02-14 18:17:12.936 INFO     Commit message: Modify: calibre.calibre.portable version 7.2.0.0 (Auto)
+2025-02-14 18:17:12.938 INFO   Pushing changes to remote (origin) repository
+2025-02-14 18:17:18.252 INFO     Successfully pushed to remote (origin): Modify-calibre.calibre.portable-7.2.0.0
+2025-02-14 18:17:21.343 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/229502
+2025-02-14 18:17:21.363 INFO Skip version 7.25.0.0, because it's not in the list of versions to be modified. - WIP
+2025-02-14 18:17:21.373 INFO Processing version folder: 7.3.0.0
+2025-02-14 18:17:21.393 INFO   Create and checkout to a new branch: Modify-calibre.calibre.portable-7.3.0.0
+2025-02-14 18:17:30.178 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.3.0.0\calibre.calibre.portable.installer.yaml
+2025-02-14 18:17:30.198 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
+2025-02-14 18:17:30.199 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:17:30.200 INFO    Remove incorrect Custom
+2025-02-14 18:17:30.202 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.3.0.0\calibre.calibre.portable.installer.yaml
+2025-02-14 18:17:30.204 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.3.0.0\calibre.calibre.portable.locale.en-US.yaml
+2025-02-14 18:17:30.227 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
+2025-02-14 18:17:30.229 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:17:30.231 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.3.0.0\calibre.calibre.portable.locale.en-US.yaml
+2025-02-14 18:17:30.233 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.3.0.0\calibre.calibre.portable.yaml
+2025-02-14 18:17:30.246 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
+2025-02-14 18:17:30.246 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
+2025-02-14 18:17:30.254 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.3.0.0\calibre.calibre.portable.yaml
+2025-02-14 18:17:30.257 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.3.0.0\calibre.calibre.portable.locale.zh-CN.yaml
+2025-02-14 18:17:30.260 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\7.3.0.0\calibre.calibre.portable.locale.zh-CN.yaml
+2025-02-14 18:17:30.596 INFO     清单验证成功。
+2025-02-14 18:17:30.609 INFO   Staging and Committing Changes to Git
+2025-02-14 18:17:35.116 INFO     Commit message: Modify: calibre.calibre.portable version 7.3.0.0 (Auto)
+2025-02-14 18:17:35.119 INFO   Pushing changes to remote (origin) repository
+2025-02-14 18:17:40.260 INFO     Successfully pushed to remote (origin): Modify-calibre.calibre.portable-7.3.0.0
+2025-02-14 18:17:43.299 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/229503
+2025-02-14 18:17:43.301 INFO All manifests have been modified and pushed through.
+2025-02-14 18:17:49.530 INFO Workspace clean-up completed.
+~~ End of logging ~~
