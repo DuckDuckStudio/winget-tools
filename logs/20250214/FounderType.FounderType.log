@@ -1,0 +1,32 @@
+~~ Start logging ~~
+2025-02-14 23:14:21.772 FUN 星际和平商城年终大促，各种精品好物价格史低不容错过！
+2025-02-14 23:14:21.774 INFO Found the following version folder: ['1.1.4', '1.1.6']
+2025-02-14 23:14:21.895 INFO Processing version folder: 1.1.4
+2025-02-14 23:14:21.895 INFO   Create and checkout to a new branch: Modify-FounderType.FounderType-1.1.4
+2025-02-14 23:15:09.194 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\FounderType\FounderType\1.1.4\FounderType.FounderType.installer.yaml
+2025-02-14 23:15:09.215 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-02-14 23:15:09.216 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-02-14 23:15:09.216 INFO     Remove x64 installer due it return 404
+2025-02-14 23:15:09.218 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\f\FounderType\FounderType\1.1.4\FounderType.FounderType.installer.yaml
+2025-02-14 23:15:09.219 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\FounderType\FounderType\1.1.4\FounderType.FounderType.locale.en-US.yaml
+2025-02-14 23:15:09.238 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-02-14 23:15:09.239 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-02-14 23:15:09.242 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\f\FounderType\FounderType\1.1.4\FounderType.FounderType.locale.en-US.yaml
+2025-02-14 23:15:09.243 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\FounderType\FounderType\1.1.4\FounderType.FounderType.locale.zh-CN.yaml
+2025-02-14 23:15:09.255 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-02-14 23:15:09.255 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-02-14 23:15:09.255 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\f\FounderType\FounderType\1.1.4\FounderType.FounderType.locale.zh-CN.yaml
+2025-02-14 23:15:09.255 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\FounderType\FounderType\1.1.4\FounderType.FounderType.yaml
+2025-02-14 23:15:09.271 INFO     Replace ManifestVersion: 1.6.0 -> 1.9.0
+2025-02-14 23:15:09.271 INFO     Replace schema references: 1.6.0.schema.json -> 1.9.0.schema.json
+2025-02-14 23:15:09.271 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\f\FounderType\FounderType\1.1.4\FounderType.FounderType.yaml
+2025-02-14 23:15:09.708 INFO     清单验证成功。
+2025-02-14 23:15:09.724 INFO   Staging and Committing Changes to Git
+2025-02-14 23:15:14.668 INFO     Commit message: Modify: FounderType.FounderType version 1.1.4 (Auto)
+2025-02-14 23:15:14.668 INFO   Pushing changes to remote (origin) repository
+2025-02-14 23:15:18.144 INFO     Successfully pushed to remote (origin): Modify-FounderType.FounderType-1.1.4
+2025-02-14 23:15:21.614 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/229554
+2025-02-14 23:15:21.614 INFO Skip version 1.1.6, because it's not in the list of versions to be modified.
+2025-02-14 23:15:21.614 INFO All manifests have been modified and pushed through.
+2025-02-14 23:15:25.590 INFO Workspace clean-up completed.
+~~ End of logging ~~
