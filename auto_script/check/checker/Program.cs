@@ -165,7 +165,7 @@ namespace checker
             [
                 "123", "360", "effie", "typora", "tchspt", "mysql", "voicecloud", "iflyrec", "jisupdf", "floorp", "https://pot.pylogmon", // 之前忽略的
                 "https://www.betterbird.eu/", // 过于复杂
-                "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v7.6.15.91110808.exe", "https://builds.balsamiq.com/bwd/Balsamiq_Wireframes_4.8.1_x64_Setup.exe", "https://github.com/kovidgoyal/calibre/releases/download/v7.25.0/calibre-portable-installer-7.25.0.exe", "https://gitlab.com/ImaginaryInfinity/squiid-calculator/squiid/-/jobs/8854363723/artifacts/raw/squiid-installer.exe", "https://github.com/antares-sql/antares/releases/download/v0.7.33/Antares-0.7.33-win_x64.exe", "https://github.com/Aida-Enna/PSO2TweakerReleases/raw/master/6.2.1.5/PSO2%20Tweaker.exe", // WIP
+                "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v7.6.15.91110808.exe", "https://builds.balsamiq.com/bwd/Balsamiq_Wireframes_4.8.1_x64_Setup.exe", "https://gitlab.com/ImaginaryInfinity/squiid-calculator/squiid/-/jobs/8854363723/artifacts/raw/squiid-installer.exe", "https://github.com/antares-sql/antares/releases/download/v0.7.33/Antares-0.7.33-win_x64.exe", "https://github.com/Aida-Enna/PSO2TweakerReleases/raw/master/6.2.1.5/PSO2%20Tweaker.exe", // WIP
                 "https://github.com/paintdotnet/release/", // 更新时移除
                 "https://cdn.krisp.ai", "https://www.huaweicloud.com/", "https://mirrors.kodi.tv", "https://scache.vzw.com", "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", "https://www.magicdesktop.com/get/kiosk?src=winget", // 假404
                 "https://www.deezer.com/", // 无法验证
