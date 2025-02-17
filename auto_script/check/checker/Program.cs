@@ -167,7 +167,7 @@ namespace checker
                 "https://www.betterbird.eu/", // 过于复杂
                 "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v7.6.15.91110808.exe", "https://builds.balsamiq.com/bwd/Balsamiq_Wireframes_4.8.1_x64_Setup.exe", "https://dl.jisutodo.com/jisutodo_setup_2.0.0.2.exe", "https://github.com/mamba-org/micromamba-releases/releases/download/2.0.6-0/micromamba-win-64", // WIP
                 "https://github.com/paintdotnet/release/", // 更新时移除
-                "https://cdn.krisp.ai", "https://www.huaweicloud.com/", "https://mirrors.kodi.tv", "https://scache.vzw.com", "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", "https://www.magicdesktop.com/get/kiosk?src=winget", "https://sf1-cdn-tos.douyinstatic.com/obj/microapp/frontend/ide/package/obj/developer/ide/11797316/win32/", // 假404
+                "https://cdn.krisp.ai", "https://www.huaweicloud.com/", "https://mirrors.kodi.tv", "https://scache.vzw.com", "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", "https://www.magicdesktop.com/get/kiosk?src=winget", "https://sf1-cdn-tos.douyinstatic.com/obj/microapp/frontend/ide/package/obj/developer/ide/11797316/win32/", "https://b2.zczc.men/file/dos-electron-assets/release/", // 假404
                 "https://www.deezer.com/", // 无法验证
                 "https://sf1-cdn-tos.douyinstatic.com/obj/microapp/frontend/ide/package/obj/developer/ide/12056684/win32/", // 不完整的url
                 "https://sourceforge.net/", // 假403
