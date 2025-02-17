@@ -165,7 +165,7 @@ namespace checker
             [
                 "123", "360", "effie", "typora", "tchspt", "mysql", "voicecloud", "iflyrec", "jisupdf", "floorp", "https://pot.pylogmon", // 之前忽略的
                 "https://www.betterbird.eu/", // 过于复杂
-                "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v7.6.15.91110808.exe", "https://builds.balsamiq.com/bwd/Balsamiq_Wireframes_4.8.1_x64_Setup.exe", "https://dl.jisutodo.com/jisutodo_setup_2.0.0.2.exe", // WIP
+                "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v7.6.15.91110808.exe", "https://builds.balsamiq.com/bwd/Balsamiq_Wireframes_4.8.1_x64_Setup.exe", "https://dl.jisutodo.com/jisutodo_setup_2.0.0.2.exe", "https://github.com/mamba-org/micromamba-releases/releases/download/2.0.6-0/micromamba-win-64", // WIP
                 "https://github.com/paintdotnet/release/", // 更新时移除
                 "https://cdn.krisp.ai", "https://www.huaweicloud.com/", "https://mirrors.kodi.tv", "https://scache.vzw.com", "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", "https://www.magicdesktop.com/get/kiosk?src=winget", // 假404
                 "https://www.deezer.com/", // 无法验证
