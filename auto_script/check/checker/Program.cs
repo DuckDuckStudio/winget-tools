@@ -170,7 +170,6 @@ namespace checker
                 "https://www.deezer.com/", // 无法验证
                 "https://sf1-cdn-tos.douyinstatic.com/obj/microapp/frontend/ide/package/obj/developer/ide/12056684/win32/", "https://sf1-cdn-tos.douyinstatic.com/obj/microapp/frontend/ide/package/obj/developer/ide/11797316/win32/", "https://b2.zczc.men/file/dos-electron-assets/release/", // 不完整的url
                 "https://sourceforge.net/", // 假403
-                "https://software.sonicwall.com/GlobalVPNClient/GVCSetup32.exe", // 可能临时不可用
             ];
             return excludedDomains.Any(domain => url.Contains(domain));
         }
