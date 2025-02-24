@@ -1,0 +1,29 @@
+~~ Start logging ~~
+2025-02-24 16:56:08.116 FUN 提问: 罗浮六御中谁最幸福? 答案: 符玄。因为她姓符。
+2025-02-24 16:56:08.118 INFO Found the following version folder: ['1.4.0', '1.4.1', '1.4.2', '1.6.1']
+2025-02-24 16:56:08.267 INFO Skip version 1.4.0, because it's not in the list of versions to be modified.
+2025-02-24 16:56:08.267 INFO Skip version 1.4.1, because it's not in the list of versions to be modified.
+2025-02-24 16:56:08.267 INFO Skip version 1.4.2, because it's not in the list of versions to be modified.
+2025-02-24 16:56:08.267 INFO Processing version folder: 1.6.1
+2025-02-24 16:56:08.306 INFO   Create and checkout to a new branch: NewVersion-JackenWu.MSearcher-1.6.1
+2025-02-24 16:56:13.263 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\j\JackenWu\MSearcher\1.6.1\JackenWu.MSearcher.installer.yaml
+2025-02-24 16:56:13.263 INFO     Cleaned up JackenWu.MSearcher.installer.yaml
+2025-02-24 16:56:13.263 INFO   New manifests in D:\...\winget-pkgs\manifests\j\JackenWu\MSearcher\1.6.1 for JackenWu.MSearcher (1.9.0)
+2025-02-24 16:56:13.270 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\j\JackenWu\MSearcher\1.6.1\JackenWu.MSearcher.installer.yaml
+2025-02-24 16:56:13.271 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\j\JackenWu\MSearcher\1.6.1\JackenWu.MSearcher.locale.zh-CN.yaml
+2025-02-24 16:56:13.271 INFO     Cleaned up JackenWu.MSearcher.locale.zh-CN.yaml
+2025-02-24 16:56:13.271 INFO   New manifests in D:\...\winget-pkgs\manifests\j\JackenWu\MSearcher\1.6.1 for JackenWu.MSearcher (1.9.0)
+2025-02-24 16:56:13.271 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\j\JackenWu\MSearcher\1.6.1\JackenWu.MSearcher.locale.zh-CN.yaml
+2025-02-24 16:56:13.271 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\j\JackenWu\MSearcher\1.6.1\JackenWu.MSearcher.yaml
+2025-02-24 16:56:13.271 INFO     Cleaned up JackenWu.MSearcher.yaml
+2025-02-24 16:56:13.271 INFO   New manifests in D:\...\winget-pkgs\manifests\j\JackenWu\MSearcher\1.6.1 for JackenWu.MSearcher (1.9.0)
+2025-02-24 16:56:13.271 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\j\JackenWu\MSearcher\1.6.1\JackenWu.MSearcher.yaml
+2025-02-24 16:56:13.590 INFO     清单验证成功。
+2025-02-24 16:56:13.611 INFO   Staging and Committing Changes to Git
+2025-02-24 16:56:17.895 INFO     Commit message: New version: JackenWu.MSearcher version 1.6.1 (Auto)
+2025-02-24 16:56:17.895 INFO   Pushing changes to remote (origin) repository
+2025-02-24 16:56:21.643 INFO     Successfully pushed to remote (origin): NewVersion-JackenWu.MSearcher-1.6.1
+2025-02-24 16:56:23.548 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/232618
+2025-02-24 16:56:23.548 INFO All manifests have been modified and pushed through.
+2025-02-24 16:56:27.671 INFO Workspace clean-up completed.
+~~ End of logging ~~
