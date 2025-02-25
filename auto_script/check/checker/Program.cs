@@ -62,12 +62,12 @@ namespace checker
 
                             if ((int)response.StatusCode >= 400)
                             {
-                                if (response.StatusCode == System.Net.HttpStatusCode.NotFound && filePath.Contains("installer"))
+                                if (response.StatusCode == System.Net.HttpStatusCode.NotFound && filePath.Contains("installer.yaml"))
                                 {
                                     Console.WriteLine($"\n[Error] (安装程序返回 404) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (Not found - 未找到)");
                                     Environment.Exit(1);
                                 }
-                                else if (response.StatusCode == System.Net.HttpStatusCode.Forbidden && !filePath.Contains("installer"))
+                                else if (response.StatusCode == System.Net.HttpStatusCode.Forbidden && !filePath.Contains("installer.yaml"))
                                 {
                                     Console.Write("-");
                                 }
@@ -103,7 +103,7 @@ namespace checker
                         }
                         catch (UriFormatException e)
                         {
-                            if (failureLevel == "warning" || (url.EndsWith(".exe") || url.EndsWith(".zip") || url.EndsWith(".msi") || url.EndsWith(".msix") || url.EndsWith(".appx")))
+                            if (failureLevel == "warning" || filePath.Contains("installer.yaml"))
                             {
                                 Console.WriteLine($"\n[Error] {filePath} 中的 {url} 无效: {e.Message}");
                                 Environment.Exit(1);
