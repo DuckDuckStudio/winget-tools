@@ -1,0 +1,41 @@
+~~ Start logging ~~
+2025-02-26 01:09:55.111 FUN 这回应该肯定一定能修好
+2025-02-26 01:09:55.111 INFO Found the following version folder: ['dev-2024-03', 'dev-2024-04', 'dev-2024-04a', 'dev-2024-05', 'dev-2024-06', 'dev-2024-07', 'dev-2024-08', 'dev-2024-09', 'dev-2024-10', 'dev-2024-11', 'dev-2024-12', 'dev-2025-01', 'dev-2025-02']
+2025-02-26 01:09:55.345 INFO Skip version dev-2024-03, because it's not in the list of versions to be modified.
+2025-02-26 01:09:55.345 INFO Skip version dev-2024-04, because it's not in the list of versions to be modified.
+2025-02-26 01:09:55.345 INFO Skip version dev-2024-04a, because it's not in the list of versions to be modified.
+2025-02-26 01:09:55.345 INFO Skip version dev-2024-05, because it's not in the list of versions to be modified.
+2025-02-26 01:09:55.345 INFO Skip version dev-2024-06, because it's not in the list of versions to be modified.
+2025-02-26 01:09:55.345 INFO Skip version dev-2024-07, because it's not in the list of versions to be modified.
+2025-02-26 01:09:55.345 INFO Skip version dev-2024-08, because it's not in the list of versions to be modified.
+2025-02-26 01:09:55.345 INFO Skip version dev-2024-09, because it's not in the list of versions to be modified.
+2025-02-26 01:09:55.345 INFO Skip version dev-2024-10, because it's not in the list of versions to be modified.
+2025-02-26 01:09:55.345 INFO Skip version dev-2024-11, because it's not in the list of versions to be modified.
+2025-02-26 01:09:55.361 INFO Skip version dev-2024-12, because it's not in the list of versions to be modified.
+2025-02-26 01:09:55.361 INFO Skip version dev-2025-01, because it's not in the list of versions to be modified.
+2025-02-26 01:09:55.361 INFO Processing version folder: dev-2025-02
+2025-02-26 01:09:55.361 INFO   Create and checkout to a new branch: NewVersion-odin-lang.Odin-dev-2025-02
+2025-02-26 01:10:00.795 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\odin-lang\Odin\dev-2025-02\odin-lang.Odin.installer.yaml
+2025-02-26 01:10:00.795 INFO     Cleaned up odin-lang.Odin.installer.yaml
+2025-02-26 01:10:00.795 INFO   New manifests in D:\...\winget-pkgs\manifests\o\odin-lang\Odin\dev-2025-02 for odin-lang.Odin (1.9.0)
+2025-02-26 01:10:00.795 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\odin-lang\Odin\dev-2025-02\odin-lang.Odin.installer.yaml
+2025-02-26 01:10:00.795 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\odin-lang\Odin\dev-2025-02\odin-lang.Odin.locale.en-US.yaml
+2025-02-26 01:10:00.795 INFO     Cleaned up odin-lang.Odin.locale.en-US.yaml
+2025-02-26 01:10:00.795 INFO   New manifests in D:\...\winget-pkgs\manifests\o\odin-lang\Odin\dev-2025-02 for odin-lang.Odin (1.9.0)
+2025-02-26 01:10:00.795 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\odin-lang\Odin\dev-2025-02\odin-lang.Odin.locale.en-US.yaml
+2025-02-26 01:10:00.795 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\odin-lang\Odin\dev-2025-02\odin-lang.Odin.yaml
+2025-02-26 01:10:00.828 INFO     Cleaned up odin-lang.Odin.yaml
+2025-02-26 01:10:00.829 INFO   New manifests in D:\...\winget-pkgs\manifests\o\odin-lang\Odin\dev-2025-02 for odin-lang.Odin (1.9.0)
+2025-02-26 01:10:00.872 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\odin-lang\Odin\dev-2025-02\odin-lang.Odin.yaml
+2025-02-26 01:10:01.263 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-02-26 01:10:01.263 INFO       - 程序包
+2025-02-26 01:10:01.263 INFO           Microsoft.VCRedist.2015+.x64
+2025-02-26 01:10:01.279 INFO     清单验证成功。
+2025-02-26 01:10:01.295 INFO   Staging and Committing Changes to Git
+2025-02-26 01:10:04.938 INFO     Commit message: New version: odin-lang.Odin version dev-2025-02 (Auto)
+2025-02-26 01:10:04.938 INFO   Pushing changes to remote (origin) repository
+2025-02-26 01:10:11.343 INFO     Successfully pushed to remote (origin): NewVersion-odin-lang.Odin-dev-2025-02
+2025-02-26 01:10:13.487 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/232949
+2025-02-26 01:10:13.503 INFO All manifests have been modified and pushed through.
+2025-02-26 01:10:16.910 INFO Workspace clean-up completed.
+~~ End of logging ~~
