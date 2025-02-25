@@ -164,7 +164,7 @@ namespace checker
             HashSet<string> excludedDomains =
             [
                 "123", "360", "effie", "typora", "tchspt", "mysql", "voicecloud", "iflyrec", "jisupdf", "floorp", "https://pot.pylogmon", // 之前忽略的
-                "https://www.betterbird.eu/", "https://software.sonicwall.com/GlobalVPNClient/GVCSetup32.exe", // 过于复杂
+                "https://www.betterbird.eu/", "https://software.sonicwall.com/GlobalVPNClient/GVCSetup32.exe", "https://github.com/coq/platform/releases/", // 过于复杂
                 "https://github.com/paintdotnet/release/", // 更新时移除
                 "https://cdn.krisp.ai", "https://www.huaweicloud.com/", "https://mirrors.kodi.tv", "https://scache.vzw.com", "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", "https://www.magicdesktop.com/get/kiosk?src=winget", // 假404
                 "https://www.deezer.com/", // 无法验证
