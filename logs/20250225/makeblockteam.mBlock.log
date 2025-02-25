@@ -1,0 +1,32 @@
+~~ Start logging ~~
+2025-02-25 19:16:00.182 FUN 星际和平商城年终大促，各种精品好物价格史低不容错过！
+2025-02-25 19:16:00.446 INFO Found the following version folder: ['5.4.0', '5.4.3']
+2025-02-25 19:16:01.337 INFO Skip version 5.4.0, because it's not in the list of versions to be modified.
+2025-02-25 19:16:01.337 WAY I am lazy to handle this version, so I skip it.
+2025-02-25 19:16:01.337 INFO Processing version folder: 5.4.3
+2025-02-25 19:16:01.337 INFO   Create and checkout to a new branch: Modify-makeblockteam.mBlock-5.4.3
+2025-02-25 19:16:14.998 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\makeblockteam\mBlock\5.4.3\makeblockteam.mBlock.installer.yaml
+2025-02-25 19:16:15.143 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
+2025-02-25 19:16:15.199 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
+2025-02-25 19:16:15.249 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\m\makeblockteam\mBlock\5.4.3\makeblockteam.mBlock.installer.yaml
+2025-02-25 19:16:15.305 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\makeblockteam\mBlock\5.4.3\makeblockteam.mBlock.locale.en-US.yaml
+2025-02-25 19:16:15.355 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
+2025-02-25 19:16:15.411 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
+2025-02-25 19:16:15.584 INFO     Replace defaultLocale -> locale
+2025-02-25 19:16:15.727 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\m\makeblockteam\mBlock\5.4.3\makeblockteam.mBlock.locale.en-US.yaml
+2025-02-25 19:16:15.760 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\makeblockteam\mBlock\5.4.3\makeblockteam.mBlock.yaml
+2025-02-25 19:16:15.802 INFO     Replace ManifestVersion: 1.5.0 -> 1.9.0
+2025-02-25 19:16:15.866 INFO     Replace schema references: 1.5.0.schema.json -> 1.9.0.schema.json
+2025-02-25 19:16:15.961 INFO     Replace DefaultLocale: en-US -> zh-CN
+2025-02-25 19:16:15.107 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\m\makeblockteam\mBlock\5.4.3\makeblockteam.mBlock.yaml
+2025-02-25 19:16:15.111 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\m\makeblockteam\mBlock\5.4.3\makeblockteam.mBlock.locale.zh-CN.yaml
+2025-02-25 19:16:15.119 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\m\makeblockteam\mBlock\5.4.3\makeblockteam.mBlock.locale.zh-CN.yaml
+2025-02-25 19:16:15.575 INFO     清单验证成功。
+2025-02-25 19:16:15.585 INFO   Staging and Committing Changes to Git
+2025-02-25 19:16:19.861 INFO     Commit message: Modify: makeblockteam.mBlock version 5.4.3 (Auto)
+2025-02-25 19:16:19.861 INFO   Pushing changes to remote (origin) repository
+2025-02-25 19:16:23.845 INFO     Successfully pushed to remote (origin): Modify-makeblockteam.mBlock-5.4.3
+2025-02-25 19:16:26.209 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/232893
+2025-02-25 19:16:26.209 INFO All manifests have been modified and pushed through.
+2025-02-25 19:16:32.549 INFO Workspace clean-up completed.
+~~ End of logging ~~
