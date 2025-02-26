@@ -42,7 +42,7 @@ jobs:
         wget ${{ github.event.inputs.file }} -O installer.${{ env.file_extension }}
 
     - name: 获取 SHA256
-      run: echo "sha256=$(sha256sum installer.${{ env.file_extension }} | awk '{ print \$1 }')" >> $GITHUB_ENV
+      run: echo "sha256=$(sha256sum installer.${{ env.file_extension }})" >> $GITHUB_ENV
 
     - name: 上传获取的文件
       uses: actions/upload-artifact@v4
