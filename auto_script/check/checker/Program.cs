@@ -168,7 +168,7 @@ namespace checker
                 "https://github.com/paintdotnet/release/", // 更新时移除
                 "https://cdn.krisp.ai", "https://www.huaweicloud.com/", "https://mirrors.kodi.tv", "https://scache.vzw.com", "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", "https://www.magicdesktop.com/get/kiosk?src=winget", "https://raw.githubusercontent.com/jazzdelightsme/WingetPathUpdater/v1.2/WingetPathUpdaterInstall.ps1)", "https://dl.makeblock.com/", // 假404
                 "https://www.deezer.com/", // 无法验证
-                "https://b2.zczc.men/file/dos-electron-assets/release/", "https://sf1-cdn-tos.douyinstatic.com/", "https://download.hellofont.cn/Client/Release/channels_backup/4.1.1/official/", // 不完整的url
+                "https://b2.zczc.men/file/dos-electron-assets/release/", "https://sf1-cdn-tos.douyinstatic.com/", "https://download.hellofont.cn/Client/Release/channels_backup/4.1.1/official/", "https://alistatic.lanhuapp.com/Axure/", // 不完整的url
                 "https://sourceforge.net/", // 假403
             ];
             return excludedDomains.Any(domain => url.Contains(domain));
