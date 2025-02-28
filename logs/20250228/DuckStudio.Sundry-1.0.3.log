@@ -1,0 +1,31 @@
+~~ Start logging ~~
+2025-02-28 12:15:59.561 FUN 狐人专用尾部护毛素套装，全新优化配方，更适合仙舟狐人体质！
+2025-02-28 12:15:59.567 INFO Found the following version folder: ['1.0.1', '1.0.2', '1.0.3']
+2025-02-28 12:15:59.662 INFO Skip version 1.0.1, because it's not in the list of versions to be modified.
+2025-02-28 12:15:59.662 INFO Skip version 1.0.2, because it's not in the list of versions to be modified.
+2025-02-28 12:15:59.662 INFO Processing version folder: 1.0.3
+2025-02-28 12:15:59.662 INFO   Create and checkout to a new branch: NewVersion-DuckStudio.Sundry-1.0.3
+2025-02-28 12:16:04.376 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.3\DuckStudio.Sundry.installer.yaml
+2025-02-28 12:16:04.376 INFO     Cleaned up DuckStudio.Sundry.installer.yaml
+2025-02-28 12:16:04.376 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.3\DuckStudio.Sundry.installer.yaml
+2025-02-28 12:16:04.376 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.3\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-02-28 12:16:04.396 INFO     Cleaned up DuckStudio.Sundry.locale.zh-CN.yaml
+2025-02-28 12:16:04.396 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.3\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-02-28 12:16:04.396 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.3\DuckStudio.Sundry.yaml
+2025-02-28 12:16:04.396 INFO     Cleaned up DuckStudio.Sundry.yaml
+2025-02-28 12:16:04.396 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.3\DuckStudio.Sundry.yaml
+2025-02-28 12:16:04.396 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.3\DuckStudio.Sundry.locale.en-US.yaml
+2025-02-28 12:16:04.396 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.3\DuckStudio.Sundry.locale.en-US.yaml
+2025-02-28 12:16:04.396 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.3 for DuckStudio.Sundry (1.9.0)
+2025-02-28 12:16:04.621 INFO     清单验证失败。
+2025-02-28 12:16:04.621 INFO     Manifest Error: The multi file manifest has inconsistent field values. [PackageVersion] Value: 1.0.2 File: DuckStudio.Sundry.locale.en-US.yaml
+2025-02-28 12:16:04.622 INFO     Manifest Error: The multi file manifest contains duplicate PackageLocale. [PackageLocale] Value: zh-CN File: DuckStudio.Sundry.locale.zh-CN.yaml
+2025-02-28 12:16:04.622 INFO     清单已修正。
+2025-02-28 12:17:33.217 INFO   Staging and Committing Changes to Git
+2025-02-28 12:17:37.302 INFO     Commit message: New version: DuckStudio.Sundry version 1.0.3 (Auto)
+2025-02-28 12:17:37.302 INFO   Pushing changes to remote (origin) repository
+2025-02-28 12:17:41.915 INFO     Successfully pushed to remote (origin): NewVersion-DuckStudio.Sundry-1.0.3
+2025-02-28 12:17:43.928 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/233552
+2025-02-28 12:17:43.948 INFO All manifests have been modified and pushed through.
+2025-02-28 12:17:47.217 INFO Workspace clean-up completed.
+~~ End of logging ~~
