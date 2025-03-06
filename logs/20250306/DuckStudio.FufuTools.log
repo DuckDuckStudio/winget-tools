@@ -1,0 +1,71 @@
+~~ Start logging ~~
+2025-03-06 14:15:39.203 FUN 星际和平商城年终大促，各种精品好物价格史低不容错过！
+2025-03-06 14:15:39.203 INFO Found the following version folder: ['1.3.2', '1.3.3', '1.3.4', '1.3.5', '1.3.6']
+2025-03-06 14:15:39.317 INFO Skip version 1.3.2, because it's not needs changing.
+2025-03-06 14:15:39.317 INFO Skip version 1.3.3, because it's not needs changing.
+2025-03-06 14:15:39.317 INFO Processing version folder: 1.3.4
+2025-03-06 14:15:39.317 INFO   Create and checkout to a new branch: Modify-DuckStudio.FufuTools-1.3.4
+2025-03-06 14:15:47.637 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.4\DuckStudio.FufuTools.installer.yaml
+2025-03-06 14:15:47.637 INFO     Delete InstallerLocale
+2025-03-06 14:15:47.637 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.4\DuckStudio.FufuTools.installer.yaml
+2025-03-06 14:15:47.637 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.4\DuckStudio.FufuTools.locale.en-US.yaml
+2025-03-06 14:15:47.669 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.4\DuckStudio.FufuTools.locale.en-US.yaml
+2025-03-06 14:15:47.670 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.4\DuckStudio.FufuTools.locale.zh-CN.yaml
+2025-03-06 14:15:47.700 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.4\DuckStudio.FufuTools.locale.zh-CN.yaml
+2025-03-06 14:15:47.700 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.4\DuckStudio.FufuTools.yaml
+2025-03-06 14:15:47.715 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.4\DuckStudio.FufuTools.yaml
+2025-03-06 14:15:47.978 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-03-06 14:15:47.978 INFO       - 程序包
+2025-03-06 14:15:47.978 INFO           Microsoft.VCRedist.2015+.x86
+2025-03-06 14:15:47.978 INFO           Microsoft.VCRedist.2015+.x64
+2025-03-06 14:15:47.978 INFO     清单验证成功。
+2025-03-06 14:15:47.989 INFO   Staging and Committing Changes to Git
+2025-03-06 14:15:51.405 INFO     Commit message: Modify: DuckStudio.FufuTools version 1.3.4 (Auto)
+2025-03-06 14:15:51.405 INFO   Pushing changes to remote (origin) repository
+2025-03-06 14:15:54.731 INFO     Successfully FORCE pushed to remote (origin): Modify-DuckStudio.FufuTools-1.3.4
+2025-03-06 14:15:56.854 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/235279
+2025-03-06 14:15:56.854 INFO Processing version folder: 1.3.5
+2025-03-06 14:15:56.854 INFO   Create and checkout to a new branch: Modify-DuckStudio.FufuTools-1.3.5
+2025-03-06 14:16:04.107 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.5\DuckStudio.FufuTools.installer.yaml
+2025-03-06 14:16:04.144 INFO     Delete InstallerLocale
+2025-03-06 14:16:04.146 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.5\DuckStudio.FufuTools.installer.yaml
+2025-03-06 14:16:04.146 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.5\DuckStudio.FufuTools.locale.en-US.yaml
+2025-03-06 14:16:04.171 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.5\DuckStudio.FufuTools.locale.en-US.yaml
+2025-03-06 14:16:04.171 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.5\DuckStudio.FufuTools.locale.zh-CN.yaml
+2025-03-06 14:16:04.203 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.5\DuckStudio.FufuTools.locale.zh-CN.yaml
+2025-03-06 14:16:04.203 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.5\DuckStudio.FufuTools.yaml
+2025-03-06 14:16:04.218 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.5\DuckStudio.FufuTools.yaml
+2025-03-06 14:16:04.491 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-03-06 14:16:04.491 INFO       - 程序包
+2025-03-06 14:16:04.491 INFO           Microsoft.VCRedist.2015+.x86
+2025-03-06 14:16:04.491 INFO           Microsoft.VCRedist.2015+.x64
+2025-03-06 14:16:04.491 INFO     清单验证成功。
+2025-03-06 14:16:04.502 INFO   Staging and Committing Changes to Git
+2025-03-06 14:16:08.208 INFO     Commit message: Modify: DuckStudio.FufuTools version 1.3.5 (Auto)
+2025-03-06 14:16:08.208 INFO   Pushing changes to remote (origin) repository
+2025-03-06 14:16:11.989 INFO     Successfully FORCE pushed to remote (origin): Modify-DuckStudio.FufuTools-1.3.5
+2025-03-06 14:16:14.114 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/235280
+2025-03-06 14:16:14.114 INFO Processing version folder: 1.3.6
+2025-03-06 14:16:14.123 INFO   Create and checkout to a new branch: Modify-DuckStudio.FufuTools-1.3.6
+2025-03-06 14:16:21.681 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.6\DuckStudio.FufuTools.installer.yaml
+2025-03-06 14:16:21.698 INFO     Delete InstallerLocale
+2025-03-06 14:16:21.698 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.6\DuckStudio.FufuTools.installer.yaml
+2025-03-06 14:16:21.698 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.6\DuckStudio.FufuTools.locale.en-US.yaml
+2025-03-06 14:16:21.732 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.6\DuckStudio.FufuTools.locale.en-US.yaml
+2025-03-06 14:16:21.733 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.6\DuckStudio.FufuTools.locale.zh-CN.yaml
+2025-03-06 14:16:21.759 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.6\DuckStudio.FufuTools.locale.zh-CN.yaml
+2025-03-06 14:16:21.760 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.6\DuckStudio.FufuTools.yaml
+2025-03-06 14:16:21.774 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.6\DuckStudio.FufuTools.yaml
+2025-03-06 14:16:22.301 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-03-06 14:16:22.311 INFO       - 程序包
+2025-03-06 14:16:22.321 INFO           Microsoft.VCRedist.2015+.x86
+2025-03-06 14:16:22.321 INFO           Microsoft.VCRedist.2015+.x64
+2025-03-06 14:16:22.331 INFO     清单验证成功。
+2025-03-06 14:16:22.426 INFO   Staging and Committing Changes to Git
+2025-03-06 14:16:25.954 INFO     Commit message: Modify: DuckStudio.FufuTools version 1.3.6 (Auto)
+2025-03-06 14:16:25.954 INFO   Pushing changes to remote (origin) repository
+2025-03-06 14:16:29.484 INFO     Successfully FORCE pushed to remote (origin): Modify-DuckStudio.FufuTools-1.3.6
+2025-03-06 14:16:31.690 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/235281
+2025-03-06 14:16:31.691 INFO All manifests have been modified and pushed through.
+2025-03-06 14:16:35.855 INFO Workspace clean-up completed.
+~~ End of logging ~~
