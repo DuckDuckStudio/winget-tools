@@ -1,0 +1,67 @@
+~~ Start logging ~~
+2025-03-06 14:48:07.861 FUN O v O
+2025-03-06 14:48:07.863 INFO Found the following version folder: ['1.0.0', '1.0.1', '1.0.3', 'Nightly']
+2025-03-06 14:48:07.952 INFO Processing version folder: 1.0.0
+2025-03-06 14:48:07.952 INFO   Create and checkout to a new branch: Modify-DuckStudio.GitHubView-1.0.0
+2025-03-06 14:48:14.628 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.0\DuckStudio.GitHubView.installer.yaml
+2025-03-06 14:48:14.630 INFO     Delete InstallerLocale
+2025-03-06 14:48:14.631 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.0\DuckStudio.GitHubView.installer.yaml
+2025-03-06 14:48:14.633 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.0\DuckStudio.GitHubView.locale.zh-CN.yaml
+2025-03-06 14:48:14.654 INFO     Modify PackageUrl: https://github.com/DuckDuckStudio/GitHubView -> https://duckduckstudio.github.io/yazicbs.github.io/Tools/GitHubView/
+2025-03-06 14:48:14.655 🎉     New website page for this package!
+2025-03-06 14:48:14.655 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.0\DuckStudio.GitHubView.locale.zh-CN.yaml
+2025-03-06 14:48:14.656 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.0\DuckStudio.GitHubView.yaml
+2025-03-06 14:48:14.669 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.0\DuckStudio.GitHubView.yaml
+2025-03-06 14:48:14.907 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-03-06 14:48:14.907 INFO       - 程序包
+2025-03-06 14:48:14.907 INFO           Microsoft.DotNet.Runtime.8
+2025-03-06 14:48:14.907 INFO     清单验证成功。
+2025-03-06 14:48:14.918 INFO   Staging and Committing Changes to Git
+2025-03-06 14:48:18.427 INFO     Commit message: Modify: DuckStudio.GitHubView version 1.0.0 (Auto)
+2025-03-06 14:48:18.427 INFO   Pushing changes to remote (origin) repository
+2025-03-06 14:48:21.734 INFO     Successfully FORCE pushed to remote (origin): Modify-DuckStudio.GitHubView-1.0.0
+2025-03-06 14:48:24.326 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/235285
+2025-03-06 14:48:24.382 INFO Processing version folder: 1.0.1
+2025-03-06 14:48:24.382 INFO   Create and checkout to a new branch: Modify-DuckStudio.GitHubView-1.0.1
+2025-03-06 14:48:30.796 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.1\DuckStudio.GitHubView.installer.yaml
+2025-03-06 14:48:30.800 INFO     Delete InstallerLocale
+2025-03-06 14:48:30.800 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.1\DuckStudio.GitHubView.installer.yaml
+2025-03-06 14:48:30.800 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.1\DuckStudio.GitHubView.locale.zh-CN.yaml
+2025-03-06 14:48:30.827 INFO     Modify LicenseUrl: https://github.com/DuckDuckStudio/GitHubView/blob/HEAD/LICENSE -> https://github.com/DuckDuckStudio/GitHubView/blob/master/LICENSE
+2025-03-06 14:48:30.833 INFO     Modify PackageUrl: https://github.com/DuckDuckStudio/GitHubView -> https://duckduckstudio.github.io/yazicbs.github.io/Tools/GitHubView/
+2025-03-06 14:48:30.833 🎉     New website page for this package!
+2025-03-06 14:48:30.833 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.1\DuckStudio.GitHubView.locale.zh-CN.yaml
+2025-03-06 14:48:30.833 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.1\DuckStudio.GitHubView.yaml
+2025-03-06 14:48:30.847 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.1\DuckStudio.GitHubView.yaml
+2025-03-06 14:48:31.570 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-03-06 14:48:31.570 INFO       - 程序包
+2025-03-06 14:48:31.601 INFO           Microsoft.DotNet.Runtime.8
+2025-03-06 14:48:31.601 INFO     清单验证成功。
+2025-03-06 14:48:31.701 INFO   Staging and Committing Changes to Git
+2025-03-06 14:48:35.429 INFO     Commit message: Modify: DuckStudio.GitHubView version 1.0.1 (Auto)
+2025-03-06 14:48:35.431 INFO   Pushing changes to remote (origin) repository
+2025-03-06 14:48:38.930 INFO     Successfully FORCE pushed to remote (origin): Modify-DuckStudio.GitHubView-1.0.1
+2025-03-06 14:48:40.792 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/235286
+2025-03-06 14:48:40.796 INFO Processing version folder: 1.0.3
+2025-03-06 14:48:40.796 INFO   Create and checkout to a new branch: Modify-DuckStudio.GitHubView-1.0.3
+2025-03-06 14:48:47.673 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.3\DuckStudio.GitHubView.installer.yaml
+2025-03-06 14:48:47.673 INFO     Delete InstallerLocale
+2025-03-06 14:48:47.676 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.3\DuckStudio.GitHubView.installer.yaml
+2025-03-06 14:48:47.676 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.3\DuckStudio.GitHubView.locale.zh-CN.yaml
+2025-03-06 14:48:47.676 INFO     Modify PackageUrl: https://github.com/DuckDuckStudio/GitHubView -> https://duckduckstudio.github.io/yazicbs.github.io/Tools/GitHubView/
+2025-03-06 14:48:47.676 🎉     New website page for this package!
+2025-03-06 14:48:47.676 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.3\DuckStudio.GitHubView.locale.zh-CN.yaml
+2025-03-06 14:48:47.676 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.3\DuckStudio.GitHubView.yaml
+2025-03-06 14:48:47.693 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.3\DuckStudio.GitHubView.yaml
+2025-03-06 14:48:47.910 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-03-06 14:48:47.910 INFO       - 程序包
+2025-03-06 14:48:47.910 INFO           Microsoft.DotNet.Runtime.8
+2025-03-06 14:48:47.910 INFO     清单验证成功。
+2025-03-06 14:48:47.921 INFO   Staging and Committing Changes to Git
+2025-03-06 14:48:51.464 INFO     Commit message: Modify: DuckStudio.GitHubView version 1.0.3 (Auto)
+2025-03-06 14:48:51.464 INFO   Pushing changes to remote (origin) repository
+2025-03-06 14:48:54.695 INFO     Successfully FORCE pushed to remote (origin): Modify-DuckStudio.GitHubView-1.0.3
+2025-03-06 14:48:56.851 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/235287
+2025-03-06 14:48:56.851 INFO Processing version folder: Nightly
+2025-03-06 14:48:56.860 INFO   Create and checkout to a new branch: Modify-DuckStudio.GitHubView-Nightly
+~~ Canceled this run ~~
