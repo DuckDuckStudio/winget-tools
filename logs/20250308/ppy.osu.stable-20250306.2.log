@@ -1,0 +1,27 @@
+~~ Start logging ~~
+2025-03-08 23:30:42.770 FUN 转生成为雷电将军，然后天下无敌
+2025-03-08 23:30:42.770 INFO Found the following version folder: ['20250122.1', '20250306.2']
+2025-03-08 23:30:42.920 INFO Skip version 20250122.1, because it's not in the list of versions to be modified.
+2025-03-08 23:30:42.933 INFO Processing version folder: 20250306.2
+2025-03-08 23:30:42.934 INFO   Create and checkout to a new branch: NewVersion-ppy.osu.stable-20250306.2
+2025-03-08 23:30:55.364 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\ppy\osu\stable\20250306.2\ppy.osu.stable.installer.yaml
+2025-03-08 23:30:55.364 INFO     Cleaned up ppy.osu.stable.installer.yaml
+2025-03-08 23:30:55.364 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\ppy\osu\stable\20250306.2\ppy.osu.stable.installer.yaml
+2025-03-08 23:31:48.721 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\ppy\osu\stable\20250306.2\ppy.osu.stable.locale.en-US.yaml
+2025-03-08 23:31:48.721 INFO     Cleaned up ppy.osu.stable.locale.en-US.yaml
+2025-03-08 23:31:48.771 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\ppy\osu\stable\20250306.2\ppy.osu.stable.locale.en-US.yaml
+2025-03-08 23:34:37.280 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\ppy\osu\stable\20250306.2\ppy.osu.stable.yaml
+2025-03-08 23:34:37.280 INFO     Cleaned up ppy.osu.stable.yaml
+2025-03-08 23:34:37.280 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\ppy\osu\stable\20250306.2\ppy.osu.stable.yaml
+2025-03-08 23:34:43.743 INFO   New manifests in D:\...\winget-pkgs\manifests\p\ppy\osu\stable\20250306.2 for ppy.osu.stable (1.9.0)
+2025-03-08 23:34:43.962 INFO     清单验证成功，但出现警告。
+2025-03-08 23:34:43.962 INFO     Manifest Warning: Silent and SilentWithProgress switches are not specified for InstallerType exe. Please make sure the installer can run unattended.
+2025-03-08 23:34:43.962 INFO     
+2025-03-08 23:35:12.644 INFO   Staging and Committing Changes to Git
+2025-03-08 23:35:19.881 INFO     Commit message: New version: ppy.osu.stable version 20250306.2 (Auto)
+2025-03-08 23:35:19.881 INFO   Pushing changes to remote (origin) repository
+2025-03-08 23:35:35.655 INFO     Successfully pushed to remote (origin): NewVersion-ppy.osu.stable-20250306.2
+2025-03-08 23:35:37.701 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/235996
+2025-03-08 23:35:37.701 INFO All manifests have been modified and pushed through.
+2025-03-08 23:35:40.977 INFO Workspace clean-up completed.
+~~ End of logging ~~
