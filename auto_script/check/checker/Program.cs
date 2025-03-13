@@ -181,6 +181,7 @@ namespace checker
                 "https://www.deezer.com/", // 无法验证
                 "https://b2.zczc.men/file/dos-electron-assets/release/", "https://sf1-cdn-tos.douyinstatic.com/", "https://download.hellofont.cn/Client/Release/channels_backup/4.1.1/official/", "https://alistatic.lanhuapp.com/Axure/", // 不完整的url
                 "https://sourceforge.net/", // 假403
+                "https://dl.jisutodo.com/jisutodo_setup_3.0.0.2.exe", // WIP
             ];
             return excludedDomains.Any(domain => url.Contains(domain));
         }
