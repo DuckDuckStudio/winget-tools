@@ -66,4 +66,4 @@ jobs:
         GITHUB_TOKEN: ${{ github.token }}
 
     - name: 分析安装程序
-      run: komac analyse installer.${{ env.file_extension }}
+      run: komac analyse installer.${{ env.file_extension }} --hash
