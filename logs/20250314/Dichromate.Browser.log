@@ -1,0 +1,52 @@
+~~ Start logging ~~
+2025-03-14 22:42:32.640 FUN 提问: 罗浮六御中谁最幸福? 答案: 符玄。因为她姓符。
+2025-03-14 22:42:32.640 INFO Found the following version folder: ['103.0.5060.114', '103.0.5060.134', '104.0.5112.102', '104.0.5112.81', '105.0.5195.102', '105.0.5195.127', '105.0.5195.54', '106.0.5249.103', '106.0.5249.119', '106.0.5249.62', '106.0.5249.91', '107.0.5304.107', '107.0.5304.63', '107.0.5304.88', '108.0.5359.125', '108.0.5359.72', '108.0.5359.95', '108.0.5359.99', '109.0.5414.120', '109.0.5414.75', '110.0.5481.100', '110.0.5481.104', '110.0.5481.178', '110.0.5481.78', '111.0.5563.65']
+2025-03-14 22:42:32.750 INFO Processing version folder: 103.0.5060.114
+2025-03-14 22:42:32.750 INFO   Create and checkout to a new branch: Modify-Dichromate.Browser-103.0.5060.114
+2025-03-14 22:42:38.461 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\Dichromate\Browser\103.0.5060.114\Dichromate.Browser.installer.yaml
+2025-03-14 22:42:38.461 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-03-14 22:42:38.461 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-03-14 22:42:38.461 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\Dichromate\Browser\103.0.5060.114\Dichromate.Browser.installer.yaml
+2025-03-14 22:42:38.461 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\Dichromate\Browser\103.0.5060.114\Dichromate.Browser.locale.en-US.yaml
+2025-03-14 22:42:38.492 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-03-14 22:42:38.492 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-03-14 22:42:38.492 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\Dichromate\Browser\103.0.5060.114\Dichromate.Browser.locale.en-US.yaml
+2025-03-14 22:42:38.492 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\Dichromate\Browser\103.0.5060.114\Dichromate.Browser.yaml
+2025-03-14 22:42:38.508 INFO     Replace ManifestVersion: 1.1.0 -> 1.9.0
+2025-03-14 22:42:38.508 INFO     Replace schema references: 1.1.0.schema.json -> 1.9.0.schema.json
+2025-03-14 22:42:38.508 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\Dichromate\Browser\103.0.5060.114\Dichromate.Browser.yaml
+2025-03-14 22:42:38.711 INFO     清单验证成功，但出现警告。
+2025-03-14 22:42:38.711 INFO     Manifest Warning: Silent and SilentWithProgress switches are not specified for InstallerType exe. Please make sure the installer can run unattended.
+2025-03-14 22:42:38.711 INFO     
+2025-03-14 22:43:21.588 INFO   Staging and Committing Changes to Git
+2025-03-14 22:43:25.184 INFO     Commit message: Modify: Dichromate.Browser version 103.0.5060.114 (Auto)
+2025-03-14 22:43:25.184 INFO   Pushing changes to remote (origin) repository
+2025-03-14 22:43:31.111 INFO     Successfully pushed to remote (origin): Modify-Dichromate.Browser-103.0.5060.114
+2025-03-14 22:43:34.144 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/237400
+2025-03-14 22:43:34.144 INFO Skip version 103.0.5060.134, because it's not needs changing.
+2025-03-14 22:43:34.160 INFO Skip version 104.0.5112.102, because it's not needs changing.
+2025-03-14 22:43:34.160 INFO Skip version 104.0.5112.81, because it's not needs changing.
+2025-03-14 22:43:34.160 INFO Skip version 105.0.5195.102, because it's not needs changing.
+2025-03-14 22:43:34.160 INFO Skip version 105.0.5195.127, because it's not needs changing.
+2025-03-14 22:43:34.160 INFO Skip version 105.0.5195.54, because it's not needs changing.
+2025-03-14 22:43:34.160 INFO Skip version 106.0.5249.103, because it's not needs changing.
+2025-03-14 22:43:34.160 INFO Skip version 106.0.5249.119, because it's not needs changing.
+2025-03-14 22:43:34.160 INFO Skip version 106.0.5249.62, because it's not needs changing.
+2025-03-14 22:43:34.160 INFO Skip version 106.0.5249.91, because it's not needs changing.
+2025-03-14 22:43:34.160 INFO Skip version 107.0.5304.107, because it's not needs changing.
+2025-03-14 22:43:34.160 INFO Skip version 107.0.5304.63, because it's not needs changing.
+2025-03-14 22:43:34.160 INFO Skip version 107.0.5304.88, because it's not needs changing.
+2025-03-14 22:43:34.160 INFO Skip version 108.0.5359.125, because it's not needs changing.
+2025-03-14 22:43:34.160 INFO Skip version 108.0.5359.72, because it's not needs changing.
+2025-03-14 22:43:34.160 INFO Skip version 108.0.5359.95, because it's not needs changing.
+2025-03-14 22:43:34.175 INFO Skip version 108.0.5359.99, because it's not needs changing.
+2025-03-14 22:43:34.175 INFO Skip version 109.0.5414.120, because it's not needs changing.
+2025-03-14 22:43:34.175 INFO Skip version 109.0.5414.75, because it's not needs changing.
+2025-03-14 22:43:34.175 INFO Skip version 110.0.5481.100, because it's not needs changing.
+2025-03-14 22:43:34.175 INFO Skip version 110.0.5481.104, because it's not needs changing.
+2025-03-14 22:43:34.175 INFO Skip version 110.0.5481.178, because it's not needs changing.
+2025-03-14 22:43:34.175 INFO Skip version 110.0.5481.78, because it's not needs changing.
+2025-03-14 22:43:34.175 INFO Skip version 111.0.5563.65, because it's not needs changing.
+2025-03-14 22:43:34.175 INFO All manifests have been modified and pushed through.
+2025-03-14 22:43:37.367 INFO Workspace clean-up completed.
+~~ End of logging ~~
