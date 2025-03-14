@@ -146,16 +146,17 @@ namespace checker
             {
                 foreach (KeyValuePair<YamlNode, YamlNode> entry in mappingNode.Children)
                 {
-                    HashSet<string> other_manifest_keys =
+                    HashSet<string> must_check_manifest_keys =
                     [
+                        "InstallerUrl", "ReturnResponseUrl"
+                    ];
+
+                    HashSet<string> all_manifest_keys =
+                    [
+                        .. must_check_manifest_keys,
                         "PublisherUrl", "PublisherSupportUrl", "PrivacyUrl", "PackageUrl", "LicenseUrl", 
                         "CopyrightUrl", "AgreementUrl", "DocumentUrl", "ReleaseNotesUrl", "PurchaseUrl"
                     ];
-
-                    HashSet<string> must_check_manifest_keys = new(other_manifest_keys)
-                    {
-                        "InstallerUrl", "ReturnResponseUrl"
-                    };
 
                     // 判断 entry.Key 是否为 YamlScalarNode 且 keyNode.Value 是否不为空
                     if (entry.Key is YamlScalarNode keyNode && keyNode.Value != null)
@@ -165,8 +166,8 @@ namespace checker
                         // 根据 failureLevel 判断需要检查的集合
                         if (failureLevel == "warning")
                         {
-                            // 如果是 warning，检查所有 URL（包括其他URL）
-                            flag = must_check_manifest_keys.Contains(keyNode.Value);
+                            // 如果是 warning，检查所有 URL
+                            flag = all_manifest_keys.Contains(keyNode.Value);
                         }
                         else
                         {
