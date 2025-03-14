@@ -1,0 +1,26 @@
+~~ Start logging ~~
+2025-03-14 22:31:32.117 FUN 提问: 罗浮六御中谁最幸福? 答案: 符玄。因为她姓符。
+2025-03-14 22:31:32.117 INFO Found the following version folder: ['1.0.1', '1.0.2', '1.0.3', '1.0.4']
+2025-03-14 22:31:32.211 INFO Processing version folder: 1.0.1
+2025-03-14 22:31:32.211 INFO   Create and checkout to a new branch: Modify-CosmicPredator.Chibi-1.0.1
+2025-03-14 22:31:36.512 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\CosmicPredator\Chibi\1.0.1\CosmicPredator.Chibi.installer.yaml
+2025-03-14 22:31:36.512 INFO     Modify InstallerUrl: https://github.com/CosmicPredator/chibi-cli/releases/latest/download/chibi_installer.exe -> https://github.com/CosmicPredator/chibi-cli/releases/download/1.0.1/chibi_1.0.1_windows_amd64.exe
+2025-03-14 22:31:36.512 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\CosmicPredator\Chibi\1.0.1\CosmicPredator.Chibi.installer.yaml
+2025-03-14 22:31:36.512 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\CosmicPredator\Chibi\1.0.1\CosmicPredator.Chibi.locale.en-US.yaml
+2025-03-14 22:31:36.512 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\CosmicPredator\Chibi\1.0.1\CosmicPredator.Chibi.locale.en-US.yaml
+2025-03-14 22:31:36.512 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\CosmicPredator\Chibi\1.0.1\CosmicPredator.Chibi.yaml
+2025-03-14 22:31:36.528 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\CosmicPredator\Chibi\1.0.1\CosmicPredator.Chibi.yaml
+2025-03-14 22:31:36.544 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\c\CosmicPredator\Chibi\1.0.1\CosmicPredator.Chibi.locale.zh-CN.yaml
+2025-03-14 22:31:36.544 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\c\CosmicPredator\Chibi\1.0.1\CosmicPredator.Chibi.locale.zh-CN.yaml
+2025-03-14 22:31:36.779 INFO     清单验证成功。
+2025-03-14 22:31:36.795 INFO   Staging and Committing Changes to Git
+2025-03-14 22:31:40.263 INFO     Commit message: Modify: CosmicPredator.Chibi version 1.0.1 (Auto)
+2025-03-14 22:31:40.263 INFO   Pushing changes to remote (origin) repository
+2025-03-14 22:31:43.888 INFO     Successfully pushed to remote (origin): Modify-CosmicPredator.Chibi-1.0.1
+2025-03-14 22:31:46.854 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/237397
+2025-03-14 22:31:46.870 INFO Skip version 1.0.2, because it's not needs changing.
+2025-03-14 22:31:46.870 INFO Skip version 1.0.3, because it's not needs changing.
+2025-03-14 22:31:46.870 INFO Skip version 1.0.4, because it's not needs changing.
+2025-03-14 22:31:46.870 INFO All manifests have been modified and pushed through.
+2025-03-14 22:31:50.181 INFO Workspace clean-up completed.
+~~ End of logging ~~
