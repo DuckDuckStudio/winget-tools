@@ -48,7 +48,7 @@ namespace checker
                     yaml.Load(reader);
 
                     YamlMappingNode rootNode = (YamlMappingNode)yaml.Documents[0].RootNode;
-                    HashSet<string> urls = FindUrls(rootNode);
+                    HashSet<string> urls = FindUrls(rootNode, failureLevel);
 
                     foreach (string url in urls)
                     {
@@ -139,24 +139,56 @@ namespace checker
             }
         }
 
-        static HashSet<string> FindUrls(YamlNode node)
+        static HashSet<string> FindUrls(YamlNode node, string failureLevel)
         {
             HashSet<string> urls = [];
             if (node is YamlMappingNode mappingNode)
             {
                 foreach (KeyValuePair<YamlNode, YamlNode> entry in mappingNode.Children)
                 {
-                    if (entry.Key is YamlScalarNode keyNode && (keyNode.Value == "PackageUrl" || keyNode.Value == "InstallerUrl" || keyNode.Value == "LicanesUrl"))
+                    HashSet<string> other_manifest_keys =
+                    [
+                        "PublisherUrl", "PublisherSupportUrl", "PrivacyUrl", "PackageUrl", "LicenseUrl", 
+                        "CopyrightUrl", "AgreementUrl", "DocumentUrl", "ReleaseNotesUrl", "PurchaseUrl"
+                    ];
+
+                    HashSet<string> must_check_manifest_keys = new(other_manifest_keys)
                     {
-                        if (entry.Value is YamlScalarNode scalarNode && scalarNode.Value != null)
+                        "InstallerUrl", "ReturnResponseUrl"
+                    };
+
+                    // 判断 entry.Key 是否为 YamlScalarNode 且 keyNode.Value 是否不为空
+                    if (entry.Key is YamlScalarNode keyNode && keyNode.Value != null)
+                    {
+                        bool flag;
+
+                        // 根据 failureLevel 判断需要检查的集合
+                        if (failureLevel == "warning")
                         {
-                            // 向 urls 添加键的值
-                            urls.Add(scalarNode.Value);
+                            // 如果是 warning，检查所有 URL（包括其他URL）
+                            flag = must_check_manifest_keys.Contains(keyNode.Value);
+                        }
+                        else
+                        {
+                            // 否则，始终检查 InstallerUrl 和 ReturnResponseUrl
+                            flag = must_check_manifest_keys.Contains(keyNode.Value);
+                        }
+
+                        // 如果 flag 为 true，检查 entry.Value 是否为 YamlScalarNode 且非 null
+                        if (flag && entry.Value is YamlScalarNode scalarNode && scalarNode.Value != null)
+                        {
+                            // 如果没被忽略
+                            if (!IsExcluded(scalarNode.Value))
+                            {
+                                // 向 urls 添加键的值
+                                urls.Add(scalarNode.Value);
+                            }
                         }
                     }
                     else
                     {
-                        urls.UnionWith(FindUrls(entry.Value));
+                        // 如果是非标量节点，递归查找 urls
+                        urls.UnionWith(FindUrls(entry.Value, failureLevel));
                     }
                 }
             }
@@ -164,7 +196,7 @@ namespace checker
             {
                 foreach (YamlNode item in sequenceNode.Children)
                 {
-                    urls.UnionWith(FindUrls(item));
+                    urls.UnionWith(FindUrls(item, failureLevel));
                 }
             }
             return urls;
