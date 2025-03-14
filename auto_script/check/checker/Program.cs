@@ -124,12 +124,16 @@ namespace checker
                                 Console.WriteLine($"\n[Warning] {filePath} 中的 {url} 无效: {e.Message}");
                             }
                         }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine($"\n[Error] {filePath} 中的 {url} 发生错误: {e.Message}");
+                            Environment.Exit(1);
+                        }
                     }
                 }
                 catch (Exception e)
                 {
                     Console.WriteLine($"\n[Error] 处理文件 {filePath} 时发生错误: {e.Message}");
-                    Console.WriteLine($"\n[TIP] 这还可能是未捕获的链接错误导致的");
                     Environment.Exit(1);
                 }
             }
@@ -137,21 +141,17 @@ namespace checker
 
         static HashSet<string> FindUrls(YamlNode node)
         {
-            HashSet<string> urls = [];
+            HashSet<string> urls = new HashSet<string>();
             if (node is YamlMappingNode mappingNode)
             {
                 foreach (KeyValuePair<YamlNode, YamlNode> entry in mappingNode.Children)
                 {
-                    if (entry.Value is YamlScalarNode scalarNode && scalarNode.Value != null)
+                    if (entry.Key is YamlScalarNode keyNode && (keyNode.Value == "PackageUrl" || keyNode.Value == "InstallerUrl" || keyNode.Value == "LicanesUrl"))
                     {
-                        MatchCollection foundUrls = Regex.Matches(scalarNode.Value, @"http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+");
-                        foreach (Match match in foundUrls)
+                        if (entry.Value is YamlScalarNode scalarNode && scalarNode.Value != null)
                         {
-                            string url = match.Value;
-                            if (!IsExcluded(url))
-                            {
-                                urls.Add(url);
-                            }
+                            // 向 urls 添加键的值
+                            urls.Add(scalarNode.Value);
                         }
                     }
                     else
@@ -174,7 +174,7 @@ namespace checker
         {
             HashSet<string> excludedDomains =
             [
-                "123", "360", "effie", "typora", "tchspt", "mysql", "voicecloud", "iflyrec", "jisupdf", "floorp", "https://pot.pylogmon", // 之前忽略的
+                // "123", "360", "effie", "typora", "tchspt", "mysql", "voicecloud", "iflyrec", "jisupdf", "floorp", "https://pot.pylogmon", // 之前忽略的
                 "https://www.betterbird.eu/", "https://software.sonicwall.com/GlobalVPNClient/GVCSetup32.exe", "https://github.com/coq/platform/releases/", // 过于复杂
                 "https://github.com/paintdotnet/release/", "https://cdn.kde.org/ci-builds/education/kiten/master/windows/", // 更新时移除
                 "https://cdn.krisp.ai", "https://www.huaweicloud.com/", "https://mirrors.kodi.tv", "https://scache.vzw.com", "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", "https://www.magicdesktop.com/get/kiosk?src=winget", "https://raw.githubusercontent.com/jazzdelightsme/WingetPathUpdater/v1.2/WingetPathUpdaterInstall.ps1)", "https://dl.makeblock.com/", // 假404
