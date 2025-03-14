@@ -174,10 +174,9 @@ namespace checker
                             // 否则，始终检查 InstallerUrl 和 ReturnResponseUrl
                             flag = must_check_manifest_keys.Contains(keyNode.Value);
                         }
-
-                        Console.WriteLine(keyNode.Value);
-                        Console.WriteLine(entry.Value);
-                        Console.WriteLine(flag);
+#if DEBUG
+                        Console.WriteLine($"遍历到 {keyNode.Value} 键，值 {entry.Value}，标记为 {flag}...");
+#endif
 
                         // 如果 flag 为 true，检查 entry.Value 是否为 YamlScalarNode 且非 null
                         if (flag && entry.Value is YamlScalarNode scalarNode && scalarNode.Value != null)
