@@ -1,4 +1,4 @@
-﻿using System.Text.RegularExpressions;
+using System.Text.RegularExpressions;
 using YamlDotNet.RepresentationModel;
 
 namespace checker
@@ -38,6 +38,7 @@ namespace checker
         {
             using HttpClient client = new();
             client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3");
+            client.Timeout = TimeSpan.FromSeconds(10);
 
             foreach (string filePath in Directory.EnumerateFiles(folderPath, "*.yaml", SearchOption.AllDirectories))
             {
@@ -48,7 +49,7 @@ namespace checker
                     yaml.Load(reader);
 
                     YamlMappingNode rootNode = (YamlMappingNode)yaml.Documents[0].RootNode;
-                    HashSet<string> urls = FindUrls(rootNode);
+                    HashSet<string> urls = FindUrls(rootNode, failureLevel);
 
                     foreach (string url in urls)
                     {
@@ -124,39 +125,77 @@ namespace checker
                                 Console.WriteLine($"\n[Warning] {filePath} 中的 {url} 无效: {e.Message}");
                             }
                         }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine($"\n[Error] {filePath} 中的 {url} 发生错误: {e.Message}");
+                            Environment.Exit(1);
+                        }
                     }
                 }
                 catch (Exception e)
                 {
                     Console.WriteLine($"\n[Error] 处理文件 {filePath} 时发生错误: {e.Message}");
-                    Console.WriteLine($"\n[TIP] 这还可能是未捕获的链接错误导致的");
                     Environment.Exit(1);
                 }
             }
         }
 
-        static HashSet<string> FindUrls(YamlNode node)
+        static HashSet<string> FindUrls(YamlNode node, string failureLevel)
         {
             HashSet<string> urls = [];
             if (node is YamlMappingNode mappingNode)
             {
                 foreach (KeyValuePair<YamlNode, YamlNode> entry in mappingNode.Children)
                 {
-                    if (entry.Value is YamlScalarNode scalarNode && scalarNode.Value != null)
+                    HashSet<string> must_check_manifest_keys =
+                    [
+                        "InstallerUrl", "ReturnResponseUrl"
+                    ];
+
+                    HashSet<string> all_manifest_keys =
+                    [
+                        .. must_check_manifest_keys,
+                        "PublisherUrl", "PublisherSupportUrl", "PrivacyUrl", "PackageUrl", "LicenseUrl", 
+                        "CopyrightUrl", "AgreementUrl", "DocumentUrl", "ReleaseNotesUrl", "PurchaseUrl"
+                    ];
+
+                    // 判断 entry.Key 是否为 YamlScalarNode 且 keyNode.Value 是否不为空
+                    if (entry.Key is YamlScalarNode keyNode && keyNode.Value != null)
                     {
-                        MatchCollection foundUrls = Regex.Matches(scalarNode.Value, @"http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+");
-                        foreach (Match match in foundUrls)
+                        bool flag;
+
+                        // 根据 failureLevel 判断需要检查的集合
+                        if (failureLevel == "warning")
                         {
-                            string url = match.Value;
-                            if (!IsExcluded(url))
+                            // 如果是 warning，检查所有 URL
+                            flag = all_manifest_keys.Contains(keyNode.Value);
+                        }
+                        else
+                        {
+                            // 否则，始终检查 InstallerUrl 和 ReturnResponseUrl
+                            flag = must_check_manifest_keys.Contains(keyNode.Value);
+                        }
+#if DEBUG
+                        Console.WriteLine($"遍历到 {keyNode.Value} 键，值 {entry.Value}，标记为 {flag}...");
+#endif
+
+                        // 如果 flag 为 true，检查 entry.Value 是否为 YamlScalarNode 且非 null
+                        if (flag && entry.Value is YamlScalarNode scalarNode && scalarNode.Value != null)
+                        {
+                            // 如果没被忽略
+                            if (!IsExcluded(scalarNode.Value))
                             {
-                                urls.Add(url);
+                                // 向 urls 添加键的值
+                                urls.Add(scalarNode.Value);
                             }
                         }
+                        // 无论是否处理当前键，都递归处理值节点以查找深层URL
+                        urls.UnionWith(FindUrls(entry.Value, failureLevel));
                     }
                     else
                     {
-                        urls.UnionWith(FindUrls(entry.Value));
+                        // 如果是非标量节点，递归查找 urls
+                        urls.UnionWith(FindUrls(entry.Value, failureLevel));
                     }
                 }
             }
@@ -164,7 +203,7 @@ namespace checker
             {
                 foreach (YamlNode item in sequenceNode.Children)
                 {
-                    urls.UnionWith(FindUrls(item));
+                    urls.UnionWith(FindUrls(item, failureLevel));
                 }
             }
             return urls;
@@ -174,7 +213,7 @@ namespace checker
         {
             HashSet<string> excludedDomains =
             [
-                "123", "360", "effie", "typora", "tchspt", "mysql", "voicecloud", "iflyrec", "jisupdf", "floorp", "https://pot.pylogmon", // 之前忽略的
+                // "123", "360", "effie", "typora", "tchspt", "mysql", "voicecloud", "iflyrec", "jisupdf", "floorp", "https://pot.pylogmon", // 之前忽略的
                 "https://www.betterbird.eu/", "https://software.sonicwall.com/GlobalVPNClient/GVCSetup32.exe", "https://github.com/coq/platform/releases/", // 过于复杂
                 "https://github.com/paintdotnet/release/", "https://cdn.kde.org/ci-builds/education/kiten/master/windows/", // 更新时移除
                 "https://cdn.krisp.ai", "https://www.huaweicloud.com/", "https://mirrors.kodi.tv", "https://scache.vzw.com", "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", "https://www.magicdesktop.com/get/kiosk?src=winget", "https://raw.githubusercontent.com/jazzdelightsme/WingetPathUpdater/v1.2/WingetPathUpdaterInstall.ps1)", "https://dl.makeblock.com/", // 假404
