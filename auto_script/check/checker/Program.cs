@@ -1,4 +1,4 @@
-﻿using System.Text.RegularExpressions;
+using System.Text.RegularExpressions;
 using YamlDotNet.RepresentationModel;
 
 namespace checker
@@ -189,6 +189,8 @@ namespace checker
                                 urls.Add(scalarNode.Value);
                             }
                         }
+                        // 无论是否处理当前键，都递归处理值节点以查找深层URL
+                        urls.UnionWith(FindUrls(entry.Value, failureLevel));
                     }
                     else
                     {
