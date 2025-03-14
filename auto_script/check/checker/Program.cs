@@ -141,7 +141,7 @@ namespace checker
 
         static HashSet<string> FindUrls(YamlNode node)
         {
-            HashSet<string> urls = new HashSet<string>();
+            HashSet<string> urls = [];
             if (node is YamlMappingNode mappingNode)
             {
                 foreach (KeyValuePair<YamlNode, YamlNode> entry in mappingNode.Children)
