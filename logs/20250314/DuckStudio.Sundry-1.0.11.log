@@ -1,0 +1,41 @@
+~~ Start logging ~~
+2025-03-14 22:04:00.138 FUN (·v·)
+2025-03-14 22:04:00.140 INFO Found the following version folder: ['1.0.1', '1.0.11', '1.0.2', '1.0.3', '1.0.4', '1.0.5', '1.0.6', '1.0.7', '1.0.8', '1.0.9']
+2025-03-14 22:04:00.244 INFO Skip version 1.0.1, because it's not in the list of versions to be modified.
+2025-03-14 22:04:00.245 INFO Processing version folder: 1.0.11
+2025-03-14 22:04:00.246 INFO   Create and checkout to a new branch: NewVersion-DuckStudio.Sundry-1.0.11
+2025-03-14 22:04:07.704 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.11\DuckStudio.Sundry.installer.yaml
+2025-03-14 22:04:07.714 INFO     Cleaned up DuckStudio.Sundry.installer.yaml
+2025-03-14 22:04:07.715 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.11\DuckStudio.Sundry.installer.yaml
+2025-03-14 22:04:14.428 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.11\DuckStudio.Sundry.locale.en-US.yaml
+2025-03-14 22:04:14.428 INFO     Cleaned up DuckStudio.Sundry.locale.en-US.yaml
+2025-03-14 22:04:14.428 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.11\DuckStudio.Sundry.locale.en-US.yaml
+2025-03-14 22:04:14.184 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.11\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-03-14 22:04:14.184 INFO     Cleaned up DuckStudio.Sundry.locale.zh-CN.yaml
+2025-03-14 22:04:14.184 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.11\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-03-14 22:04:14.359 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.11\DuckStudio.Sundry.yaml
+2025-03-14 22:04:14.359 INFO     Cleaned up DuckStudio.Sundry.yaml
+2025-03-14 22:04:14.359 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.11\DuckStudio.Sundry.yaml
+2025-03-14 22:07:54.236 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.11 for DuckStudio.Sundry (1.9.0)
+2025-03-14 22:07:54.472 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-03-14 22:07:54.472 INFO       - 程序包
+2025-03-14 22:07:54.472 INFO           DuckStudio.GitHubLabelsManager
+2025-03-14 22:07:54.472 INFO           Git.Git
+2025-03-14 22:07:54.472 INFO           GitHub.cli
+2025-03-14 22:07:54.472 INFO     清单验证成功。
+2025-03-14 22:07:54.492 INFO   Staging and Committing Changes to Git
+2025-03-14 22:08:01.344 INFO     Commit message: New version: DuckStudio.Sundry version 1.0.11 (Auto)
+2025-03-14 22:08:01.344 INFO   Pushing changes to remote (origin) repository
+2025-03-14 22:08:05.790 INFO     Successfully pushed to remote (origin): NewVersion-DuckStudio.Sundry-1.0.11
+2025-03-14 22:08:08.976 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/237391
+2025-03-14 22:08:08.996 INFO Skip version 1.0.2, because it's not in the list of versions to be modified.
+2025-03-14 22:08:08.996 INFO Skip version 1.0.3, because it's not in the list of versions to be modified.
+2025-03-14 22:08:08.100 INFO Skip version 1.0.4, because it's not in the list of versions to be modified.
+2025-03-14 22:08:08.100 INFO Skip version 1.0.5, because it's not in the list of versions to be modified.
+2025-03-14 22:08:08.101 INFO Skip version 1.0.6, because it's not in the list of versions to be modified.
+2025-03-14 22:08:08.102 INFO Skip version 1.0.7, because it's not in the list of versions to be modified.
+2025-03-14 22:08:08.102 INFO Skip version 1.0.8, because it's not in the list of versions to be modified.
+2025-03-14 22:08:08.102 INFO Skip version 1.0.9, because it's not in the list of versions to be modified.
+2025-03-14 22:08:08.103 INFO All manifests have been modified and pushed through.
+2025-03-14 22:08:12.414 INFO Workspace clean-up completed.
+~~ End of logging ~~
