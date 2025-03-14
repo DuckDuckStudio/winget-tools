@@ -1,0 +1,34 @@
+~~ Start logging ~~
+2025-03-14 21:35:23.724 FUN 大意了，没有闪
+2025-03-14 21:35:23.740 INFO Found the following version folder: ['1.10.6', '1.10.8', '1.2.3', '1.2.5', '1.3.6', '1.3.7', '1.3.8', '1.4.3', '1.4.4', '1.4.7', '1.4.8', '1.5.10', '1.5.12', '1.5.6', '1.5.8', '1.5.9', '1.6.6', '1.6.7', '1.7.3', '1.7.4', '1.7.5', '1.7.6', '1.8.10', '1.8.5', '1.8.6', '1.8.9', '1.9.3', '1.9.4', '1.9.5']
+2025-03-14 21:35:23.834 INFO Processing version folder: 1.4.7
+2025-03-14 21:35:23.834 INFO   Create and checkout to a new branch: Modify-appmakes.Typora-1.4.7
+2025-03-14 21:35:30.804 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\appmakes\Typora\1.4.7\appmakes.Typora.installer.yaml
+2025-03-14 21:35:30.804 INFO     Replace ManifestVersion: 1.2.0 -> 1.9.0
+2025-03-14 21:35:30.804 INFO     Replace schema references: 1.2.0.schema.json -> 1.9.0.schema.json
+2025-03-14 21:35:30.804 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
+2025-03-14 21:35:30.804 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\a\appmakes\Typora\1.4.7\appmakes.Typora.installer.yaml
+2025-03-14 21:35:30.804 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\appmakes\Typora\1.4.7\appmakes.Typora.locale.en-US.yaml
+2025-03-14 21:35:30.835 INFO     Replace ManifestVersion: 1.2.0 -> 1.9.0
+2025-03-14 21:35:30.835 INFO     Replace schema references: 1.2.0.schema.json -> 1.9.0.schema.json
+2025-03-14 21:35:30.835 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
+2025-03-14 21:35:30.835 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\a\appmakes\Typora\1.4.7\appmakes.Typora.locale.en-US.yaml
+2025-03-14 21:35:30.835 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\appmakes\Typora\1.4.7\appmakes.Typora.locale.zh-CN.yaml
+2025-03-14 21:35:30.835 INFO     Replace ManifestVersion: 1.2.0 -> 1.9.0
+2025-03-14 21:35:30.835 INFO     Replace schema references: 1.2.0.schema.json -> 1.9.0.schema.json
+2025-03-14 21:35:30.835 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
+2025-03-14 21:35:30.835 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\a\appmakes\Typora\1.4.7\appmakes.Typora.locale.zh-CN.yaml
+2025-03-14 21:35:30.835 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\appmakes\Typora\1.4.7\appmakes.Typora.yaml
+2025-03-14 21:35:30.851 INFO     Replace ManifestVersion: 1.2.0 -> 1.9.0
+2025-03-14 21:35:30.851 INFO     Replace schema references: 1.2.0.schema.json -> 1.9.0.schema.json
+2025-03-14 21:35:30.851 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
+2025-03-14 21:35:30.851 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\a\appmakes\Typora\1.4.7\appmakes.Typora.yaml
+2025-03-14 21:35:31.102 INFO     清单验证成功。
+2025-03-14 21:35:31.118 INFO   Staging and Committing Changes to Git
+2025-03-14 21:35:34.570 INFO     Commit message: Modify: appmakes.Typora version 1.4.7 (Auto)
+2025-03-14 21:35:34.570 INFO   Pushing changes to remote (origin) repository
+2025-03-14 21:35:39.125 INFO     Successfully pushed to remote (origin): Modify-appmakes.Typora-1.4.7
+2025-03-14 21:35:42.273 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/237386
+2025-03-14 21:35:42.430 INFO All manifests have been modified and pushed through.
+2025-03-14 21:35:45.150 INFO Workspace clean-up completed.
+~~ End of logging ~~
