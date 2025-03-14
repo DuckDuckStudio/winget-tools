@@ -18,6 +18,14 @@ on:
         description: "检查的 fork 仓库的所有者"
         required: true
         default: "microsoft"
+      mode:
+        type: choice
+        description: "生成模式"
+        required: true
+        default: "Release"
+        options:
+          - Release
+          - Debug
 
 jobs:
   Check-installers:
@@ -44,7 +52,7 @@ jobs:
         run: dotnet restore auto_script/check/checker/checker.csproj
 
       - name: 编译项目
-        run: dotnet build auto_script/check/checker/checker.csproj --configuration Release
+        run: dotnet build auto_script/check/checker/checker.csproj --configuration ${{ github.event.inputs.mode }}
 
       - name: 执行检查
         run: dotnet run --project "auto_script/check/checker/checker.csproj" -- ${{ matrix.subdirectory }} ${{ github.event.inputs.fail_level }}
