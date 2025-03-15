@@ -1,0 +1,32 @@
+~~ Start logging ~~
+2025-03-15 11:47:42.252 FUN 转生成为雷电将军，然后天下无敌
+2025-03-15 11:47:42.252 INFO Found the following version folder: ['2.0.0', '2.0.1', '2.1.1', '2.4.0', '2.6.1', '2.7.3']
+2025-03-15 11:47:42.118 INFO Skip version 2.0.0, because it's not in the list of versions to be modified.
+2025-03-15 11:47:42.118 INFO Skip version 2.0.1, because it's not in the list of versions to be modified.
+2025-03-15 11:47:42.118 INFO Skip version 2.1.1, because it's not in the list of versions to be modified.
+2025-03-15 11:47:42.118 INFO Skip version 2.4.0, because it's not in the list of versions to be modified.
+2025-03-15 11:47:42.118 INFO Skip version 2.6.1, because it's not in the list of versions to be modified.
+2025-03-15 11:47:42.118 INFO Processing version folder: 2.7.3
+2025-03-15 11:47:42.118 INFO   Create and checkout to a new branch: NewVersion-Codemao.TurtleEditor.2-2.7.3
+2025-03-15 11:47:46.107 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\2\2.7.3\Codemao.TurtleEditor.2.installer.yaml
+2025-03-15 11:47:46.107 INFO     Cleaned up Codemao.TurtleEditor.2.installer.yaml
+2025-03-15 11:47:46.107 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\2\2.7.3\Codemao.TurtleEditor.2.installer.yaml
+2025-03-15 11:47:46.216 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\2\2.7.3\Codemao.TurtleEditor.2.locale.en-US.yaml
+2025-03-15 11:47:46.216 INFO     Cleaned up Codemao.TurtleEditor.2.locale.en-US.yaml
+2025-03-15 11:47:46.232 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\2\2.7.3\Codemao.TurtleEditor.2.locale.en-US.yaml
+2025-03-15 11:47:46.294 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\2\2.7.3\Codemao.TurtleEditor.2.locale.zh-CN.yaml
+2025-03-15 11:47:46.294 INFO     Cleaned up Codemao.TurtleEditor.2.locale.zh-CN.yaml
+2025-03-15 11:47:46.294 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\2\2.7.3\Codemao.TurtleEditor.2.locale.zh-CN.yaml
+2025-03-15 11:47:46.372 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\2\2.7.3\Codemao.TurtleEditor.2.yaml
+2025-03-15 11:47:46.372 INFO     Cleaned up Codemao.TurtleEditor.2.yaml
+2025-03-15 11:47:46.372 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\2\2.7.3\Codemao.TurtleEditor.2.yaml
+2025-03-15 11:47:46.450 INFO   New manifests in D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\2\2.7.3 for Codemao.TurtleEditor.2 (1.9.0)
+2025-03-15 11:48:42.613 INFO     清单验证成功。
+2025-03-15 11:48:42.628 INFO   Staging and Committing Changes to Git
+2025-03-15 11:48:45.958 INFO     Commit message: New version: Codemao.TurtleEditor.2 version 2.7.3 (Auto)
+2025-03-15 11:48:45.974 INFO   Pushing changes to remote (origin) repository
+2025-03-15 11:48:49.835 INFO     Successfully pushed to remote (origin): NewVersion-Codemao.TurtleEditor.2-2.7.3
+2025-03-15 11:48:52.255 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/237497
+2025-03-15 11:48:52.255 INFO All manifests have been modified and pushed through.
+2025-03-15 11:48:54.886 INFO Workspace clean-up completed.
+~~ End of logging ~~
