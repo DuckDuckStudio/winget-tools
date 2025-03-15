@@ -1,0 +1,36 @@
+~~ Start logging ~~
+2025-03-15 11:40:43.950 FUN O v O
+2025-03-15 11:40:43.950 INFO Found the following version folder: ['3.0.1', '3.1.1', '3.3.0', '3.4.2', '3.5.0', '3.5.1', '3.5.2', '3.5.3', '3.5.4', '3.6.0']
+2025-03-15 11:40:43.173 INFO Skip version 3.0.1, because it's not in the list of versions to be modified.
+2025-03-15 11:40:43.173 INFO Skip version 3.1.1, because it's not in the list of versions to be modified.
+2025-03-15 11:40:43.173 INFO Skip version 3.3.0, because it's not in the list of versions to be modified.
+2025-03-15 11:40:43.188 INFO Skip version 3.4.2, because it's not in the list of versions to be modified.
+2025-03-15 11:40:43.188 INFO Skip version 3.5.0, because it's not in the list of versions to be modified.
+2025-03-15 11:40:43.188 INFO Skip version 3.5.1, because it's not in the list of versions to be modified.
+2025-03-15 11:40:43.188 INFO Skip version 3.5.2, because it's not in the list of versions to be modified.
+2025-03-15 11:40:43.188 INFO Skip version 3.5.3, because it's not in the list of versions to be modified.
+2025-03-15 11:40:43.188 INFO Skip version 3.5.4, because it's not in the list of versions to be modified.
+2025-03-15 11:40:43.188 INFO Processing version folder: 3.6.0
+2025-03-15 11:40:43.188 INFO   Create and checkout to a new branch: NewVersion-Codemao.Lessons-3.6.0
+2025-03-15 11:40:47.175 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Codemao\Lessons\3.6.0\Codemao.Lessons.installer.yaml
+2025-03-15 11:40:47.175 INFO     Cleaned up Codemao.Lessons.installer.yaml
+2025-03-15 11:40:47.175 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Codemao\Lessons\3.6.0\Codemao.Lessons.installer.yaml
+2025-03-15 11:40:47.284 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Codemao\Lessons\3.6.0\Codemao.Lessons.locale.en-US.yaml
+2025-03-15 11:40:47.284 INFO     Cleaned up Codemao.Lessons.locale.en-US.yaml
+2025-03-15 11:40:47.284 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Codemao\Lessons\3.6.0\Codemao.Lessons.locale.en-US.yaml
+2025-03-15 11:40:47.362 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Codemao\Lessons\3.6.0\Codemao.Lessons.locale.zh-CN.yaml
+2025-03-15 11:40:47.362 INFO     Cleaned up Codemao.Lessons.locale.zh-CN.yaml
+2025-03-15 11:40:47.362 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Codemao\Lessons\3.6.0\Codemao.Lessons.locale.zh-CN.yaml
+2025-03-15 11:40:47.440 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Codemao\Lessons\3.6.0\Codemao.Lessons.yaml
+2025-03-15 11:40:47.440 INFO     Cleaned up Codemao.Lessons.yaml
+2025-03-15 11:40:47.440 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Codemao\Lessons\3.6.0\Codemao.Lessons.yaml
+2025-03-15 11:40:47.519 INFO   New manifests in D:\...\winget-pkgs\manifests\c\Codemao\Lessons\3.6.0 for Codemao.Lessons (1.9.0)
+2025-03-15 11:42:44.730 INFO     清单验证成功。
+2025-03-15 11:42:44.746 INFO   Staging and Committing Changes to Git
+2025-03-15 11:42:51.767 INFO     Commit message: New version: Codemao.Lessons version 3.6.0 (Auto)
+2025-03-15 11:42:51.767 INFO   Pushing changes to remote (origin) repository
+2025-03-15 11:42:56.380 INFO     Successfully pushed to remote (origin): NewVersion-Codemao.Lessons-3.6.0
+2025-03-15 11:42:58.429 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/237496
+2025-03-15 11:42:58.429 INFO All manifests have been modified and pushed through.
+2025-03-15 11:43:01.338 INFO Workspace clean-up completed.
+~~ End of logging ~~
