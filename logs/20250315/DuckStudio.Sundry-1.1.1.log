@@ -1,0 +1,44 @@
+~~ Start logging ~~
+2025-03-15 16:35:16.883 FUN 这回应该肯定一定能修好
+2025-03-15 16:35:16.883 INFO Found the following version folder: ['1.0.1', '1.0.10', '1.0.11', '1.0.2', '1.0.3', '1.0.4', '1.0.5', '1.0.6', '1.0.7', '1.0.8', '1.0.9', '1.1.0', '1.1.1']
+2025-03-15 16:35:16.993 INFO Skip version 1.0.1, because it's not in the list of versions to be modified.
+2025-03-15 16:35:16.993 INFO Skip version 1.0.10, because it's not in the list of versions to be modified.
+2025-03-15 16:35:16.993 INFO Skip version 1.0.11, because it's not in the list of versions to be modified.
+2025-03-15 16:35:16.993 INFO Skip version 1.0.2, because it's not in the list of versions to be modified.
+2025-03-15 16:35:16.993 INFO Skip version 1.0.3, because it's not in the list of versions to be modified.
+2025-03-15 16:35:16.993 INFO Skip version 1.0.4, because it's not in the list of versions to be modified.
+2025-03-15 16:35:16.993 INFO Skip version 1.0.5, because it's not in the list of versions to be modified.
+2025-03-15 16:35:16.993 INFO Skip version 1.0.6, because it's not in the list of versions to be modified.
+2025-03-15 16:35:16.993 INFO Skip version 1.0.7, because it's not in the list of versions to be modified.
+2025-03-15 16:35:17.865 INFO Skip version 1.0.8, because it's not in the list of versions to be modified.
+2025-03-15 16:35:17.865 INFO Skip version 1.0.9, because it's not in the list of versions to be modified.
+2025-03-15 16:35:17.865 INFO Skip version 1.1.0, because it's not in the list of versions to be modified.
+2025-03-15 16:35:17.865 INFO Processing version folder: 1.1.1
+2025-03-15 16:35:17.865 INFO   Create and checkout to a new branch: NewVersion-DuckStudio.Sundry-1.1.1
+2025-03-15 16:35:27.718 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.1\DuckStudio.Sundry.installer.yaml
+2025-03-15 16:35:27.718 INFO     Cleaned up DuckStudio.Sundry.installer.yaml
+2025-03-15 16:35:27.718 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.1\DuckStudio.Sundry.installer.yaml
+2025-03-15 16:35:27.906 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.1\DuckStudio.Sundry.locale.en-US.yaml
+2025-03-15 16:35:27.906 INFO     Cleaned up DuckStudio.Sundry.locale.en-US.yaml
+2025-03-15 16:35:27.906 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.1\DuckStudio.Sundry.locale.en-US.yaml
+2025-03-15 16:35:27.999 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.1\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-03-15 16:35:28.153 INFO     Cleaned up DuckStudio.Sundry.locale.zh-CN.yaml
+2025-03-15 16:35:28.153 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.1\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-03-15 16:35:28.109 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.1\DuckStudio.Sundry.yaml
+2025-03-15 16:35:28.109 INFO     Cleaned up DuckStudio.Sundry.yaml
+2025-03-15 16:35:28.109 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.1\DuckStudio.Sundry.yaml
+2025-03-15 16:35:28.218 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.1 for DuckStudio.Sundry (1.9.0)
+2025-03-15 16:42:45.125 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-03-15 16:42:45.125 INFO       - 程序包
+2025-03-15 16:42:45.125 INFO           DuckStudio.GitHubLabelsManager
+2025-03-15 16:42:45.125 INFO           Git.Git
+2025-03-15 16:42:45.125 INFO           GitHub.cli
+2025-03-15 16:42:45.140 INFO     清单验证成功。
+2025-03-15 16:42:45.140 INFO   Staging and Committing Changes to Git
+2025-03-15 16:42:52.401 INFO     Commit message: New version: DuckStudio.Sundry version 1.1.1 (Auto)
+2025-03-15 16:42:52.402 INFO   Pushing changes to remote (origin) repository
+2025-03-15 16:43:19.624 INFO     Successfully pushed to remote (origin): NewVersion-DuckStudio.Sundry-1.1.1
+2025-03-15 16:43:21.718 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/237512
+2025-03-15 16:43:21.718 INFO All manifests have been modified and pushed through.
+2025-03-15 16:43:25.449 INFO Workspace clean-up completed.
+~~ End of logging ~~
