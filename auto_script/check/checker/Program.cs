@@ -219,7 +219,7 @@ namespace checker
                 "https://cdn.krisp.ai", "https://www.huaweicloud.com/", "https://mirrors.kodi.tv", "https://scache.vzw.com", "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", "https://www.magicdesktop.com/get/kiosk?src=winget", "https://raw.githubusercontent.com/jazzdelightsme/WingetPathUpdater/v1.2/WingetPathUpdaterInstall.ps1)", "https://dl.makeblock.com/", "https://download.voicecloud.cn/", "https://dl.jisupdftoword.com/jisupdftoword_setup_3.0.0.6.exe", // 假404
                 "https://www.deezer.com/", // 无法验证
                 "https://b2.zczc.men/file/dos-electron-assets/release/", "https://sf1-cdn-tos.douyinstatic.com/", "https://download.hellofont.cn/Client/Release/channels_backup/4.1.1/official/", "https://alistatic.lanhuapp.com/Axure/", // 不完整的url
-                "https://sourceforge.net/", // 假403
+                "https://sourceforge.net/", "https://downloads.mysql.com/", // 假403
                 "https://issuepcdn.baidupcs.com/", // 超时
             ];
             return excludedDomains.Any(domain => url.Contains(domain));
