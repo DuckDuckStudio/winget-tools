@@ -27,6 +27,9 @@ namespace checker
             }
             else
             {
+#if DEBUG
+                Console.WriteLine($"[Debug] {args}");
+#endif
                 failureLevel = "error";
             }
 
@@ -155,7 +158,7 @@ namespace checker
                     HashSet<string> all_manifest_keys =
                     [
                         .. must_check_manifest_keys,
-                        "PublisherUrl", "PublisherSupportUrl", "PrivacyUrl", "PackageUrl", "LicenseUrl", 
+                        "PublisherUrl", "PublisherSupportUrl", "PrivacyUrl", "PackageUrl", "LicenseUrl",
                         "CopyrightUrl", "AgreementUrl", "DocumentUrl", "ReleaseNotesUrl", "PurchaseUrl"
                     ];
 
