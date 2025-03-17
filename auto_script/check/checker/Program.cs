@@ -21,12 +21,16 @@ namespace checker
             }
 
             string failureLevel;
-            if (args.Length > 2)
+            if (args.Length == 2)
             {
-                failureLevel = args[2];
+                failureLevel = args[1];
             }
             else
             {
+#if DEBUG
+                Console.WriteLine($"[Debug] 检查目录 {args[0]} | 失败级别 {args[1]}");
+                Console.WriteLine("[Debug] 失败级别获取失败，使用默认 error");
+#endif
                 failureLevel = "error";
             }
 
@@ -155,7 +159,7 @@ namespace checker
                     HashSet<string> all_manifest_keys =
                     [
                         .. must_check_manifest_keys,
-                        "PublisherUrl", "PublisherSupportUrl", "PrivacyUrl", "PackageUrl", "LicenseUrl", 
+                        "PublisherUrl", "PublisherSupportUrl", "PrivacyUrl", "PackageUrl", "LicenseUrl",
                         "CopyrightUrl", "AgreementUrl", "DocumentUrl", "ReleaseNotesUrl", "PurchaseUrl"
                     ];
 
@@ -175,9 +179,10 @@ namespace checker
                             // 否则，始终检查 InstallerUrl 和 ReturnResponseUrl
                             flag = must_check_manifest_keys.Contains(keyNode.Value);
                         }
-#if DEBUG
-                        Console.WriteLine($"遍历到 {keyNode.Value} 键，值 {entry.Value}，标记为 {flag}...");
-#endif
+// #if DEBUG
+//                         Console.WriteLine($"遍历到 {keyNode.Value} 键，值 {entry.Value}，标记为 {flag}...");
+// #endif
+// 仅当清单很少时才建议启用此输出
 
                         // 如果 flag 为 true，检查 entry.Value 是否为 YamlScalarNode 且非 null
                         if (flag && entry.Value is YamlScalarNode scalarNode && scalarNode.Value != null)
@@ -213,7 +218,7 @@ namespace checker
         {
             HashSet<string> excludedDomains =
             [
-                // "123", "360", "effie", "tchspt", "mysql", "iflyrec", "jisupdf", "floorp", "https://pot.pylogmon", // 之前忽略的
+                // "effie", "tchspt", "mysql", "iflyrec", "jisupdf", "floorp", "https://pot.pylogmon", // 之前忽略的
                 "https://www.betterbird.eu/", "https://software.sonicwall.com/GlobalVPNClient/GVCSetup32.exe", "https://github.com/coq/platform/releases/", "typora", // 过于复杂
                 "https://github.com/paintdotnet/release/", "https://cdn.kde.org/ci-builds/education/kiten/master/windows/", // 更新时移除
                 "https://cdn.krisp.ai", "https://www.huaweicloud.com/", "https://mirrors.kodi.tv", "https://scache.vzw.com", "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", "https://www.magicdesktop.com/get/kiosk?src=winget", "https://dl.makeblock.com/", "https://download.voicecloud.cn/", "https://dl.jisupdftoword.com/", // 假404
