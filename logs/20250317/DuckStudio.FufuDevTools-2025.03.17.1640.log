@@ -1,0 +1,82 @@
+~~ Start logging ~~
+2025-03-17 16:58:44.299 FUN 转生成为雷电将军，然后天下无敌
+2025-03-17 16:58:44.299 INFO Found the following version folder: ['2024.06.24.2036', '2024.06.30.1356', '2024.07.02.1330', '2024.07.03.0000', '2024.07.25.2030', '2024.08.01.0000', '2024.09.08.2000', '2024.09.26.2000', '2024.10.01.0630', '2024.11.27.2000', '2025.01.02.2300', '2025.02.03.2358', '2025.02.09.1314', '2025.02.14.1314', '2025.02.20.1150', '2025.03.17.1640']
+2025-03-17 16:58:44.409 INFO Skip version 2024.06.24.2036, because it's not in the list of versions to be modified.
+2025-03-17 16:58:44.409 INFO Skip version 2024.06.30.1356, because it's not in the list of versions to be modified.
+2025-03-17 16:58:44.409 INFO Skip version 2024.07.02.1330, because it's not in the list of versions to be modified.
+2025-03-17 16:58:44.424 INFO Skip version 2024.07.03.0000, because it's not in the list of versions to be modified.
+2025-03-17 16:58:44.424 INFO Skip version 2024.07.25.2030, because it's not in the list of versions to be modified.
+2025-03-17 16:58:44.424 INFO Skip version 2024.08.01.0000, because it's not in the list of versions to be modified.
+2025-03-17 16:58:44.424 INFO Skip version 2024.09.08.2000, because it's not in the list of versions to be modified.
+2025-03-17 16:58:44.424 INFO Skip version 2024.09.26.2000, because it's not in the list of versions to be modified.
+2025-03-17 16:58:44.424 INFO Skip version 2024.10.01.0630, because it's not in the list of versions to be modified.
+2025-03-17 16:58:44.424 INFO Skip version 2024.11.27.2000, because it's not in the list of versions to be modified.
+2025-03-17 16:58:44.424 INFO Skip version 2025.01.02.2300, because it's not in the list of versions to be modified.
+2025-03-17 16:58:44.424 INFO Skip version 2025.02.03.2358, because it's not in the list of versions to be modified.
+2025-03-17 16:58:44.424 INFO Skip version 2025.02.09.1314, because it's not in the list of versions to be modified.
+2025-03-17 16:58:44.424 INFO Skip version 2025.02.14.1314, because it's not in the list of versions to be modified.
+2025-03-17 16:58:44.424 INFO Skip version 2025.02.20.1150, because it's not in the list of versions to be modified.
+2025-03-17 16:58:44.424 INFO Processing version folder: 2025.03.17.1640
+2025-03-17 16:58:44.424 INFO   Create and checkout to a new branch: NewVersion-DuckStudio.FufuDevTools-2025.03.17.1640
+2025-03-17 16:58:55.629 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.03.17.1640\DuckStudio.FufuDevTools.installer.yaml
+2025-03-17 16:58:55.644 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-17 16:58:55.644 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-17 16:58:55.644 INFO     Cleaned up DuckStudio.FufuDevTools.installer.yaml
+2025-03-17 16:58:55.644 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.03.17.1640\DuckStudio.FufuDevTools.installer.yaml
+2025-03-17 16:58:55.769 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.03.17.1640\DuckStudio.FufuDevTools.locale.en-GB.yaml
+2025-03-17 16:58:55.769 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-17 16:58:55.769 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-17 16:58:55.769 INFO     Cleaned up DuckStudio.FufuDevTools.locale.en-GB.yaml
+2025-03-17 16:58:55.769 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.03.17.1640\DuckStudio.FufuDevTools.locale.en-GB.yaml
+2025-03-17 16:58:55.832 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.03.17.1640\DuckStudio.FufuDevTools.locale.en-US.yaml
+2025-03-17 16:58:55.832 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-17 16:58:55.832 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-17 16:58:55.848 INFO     Cleaned up DuckStudio.FufuDevTools.locale.en-US.yaml
+2025-03-17 16:58:55.848 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.03.17.1640\DuckStudio.FufuDevTools.locale.en-US.yaml
+2025-03-17 16:58:55.910 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.03.17.1640\DuckStudio.FufuDevTools.locale.ja-JP.yaml
+2025-03-17 16:58:55.926 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-17 16:58:55.926 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-17 16:58:55.926 INFO     Cleaned up DuckStudio.FufuDevTools.locale.ja-JP.yaml
+2025-03-17 16:58:55.926 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.03.17.1640\DuckStudio.FufuDevTools.locale.ja-JP.yaml
+2025-03-17 16:58:56.432 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.03.17.1640\DuckStudio.FufuDevTools.locale.zh-CN.yaml
+2025-03-17 16:58:56.432 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-17 16:58:56.432 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-17 16:58:56.432 INFO     Cleaned up DuckStudio.FufuDevTools.locale.zh-CN.yaml
+2025-03-17 16:58:56.432 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.03.17.1640\DuckStudio.FufuDevTools.locale.zh-CN.yaml
+2025-03-17 16:58:56.824 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.03.17.1640\DuckStudio.FufuDevTools.locale.zh-TW.yaml
+2025-03-17 16:58:56.824 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-17 16:58:56.824 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-17 16:58:56.824 INFO     Cleaned up DuckStudio.FufuDevTools.locale.zh-TW.yaml
+2025-03-17 16:58:56.980 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.03.17.1640\DuckStudio.FufuDevTools.locale.zh-TW.yaml
+2025-03-17 16:58:56.176 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.03.17.1640\DuckStudio.FufuDevTools.yaml
+2025-03-17 16:58:56.176 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-17 16:58:56.176 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-17 16:58:56.176 INFO     Cleaned up DuckStudio.FufuDevTools.yaml
+2025-03-17 16:58:56.176 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.03.17.1640\DuckStudio.FufuDevTools.yaml
+2025-03-17 16:58:56.254 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.03.17.1640 for DuckStudio.FufuDevTools (1.10.0)
+2025-03-17 17:07:50.599 INFO     清单验证失败。
+2025-03-17 17:07:50.599 INFO     Manifest Error: Invalid field value. [InstallerType]
+2025-03-17 17:07:50.599 INFO     Manifest Error: Required field missing. [NestedInstallerType]
+2025-03-17 17:07:50.599 INFO     Manifest Error: Required field missing. [NestedInstallerFiles]
+2025-03-17 17:07:50.599 INFO     Manifest Error: Only one entry for NestedInstallerFiles can be specified for non-portable InstallerTypes. [NestedInstallerFiles]
+2025-03-17 17:07:50.599 INFO     Manifest Error: Invalid field value. [InstallerType]
+2025-03-17 17:07:50.599 INFO     Manifest Error: Required field missing. [NestedInstallerType]
+2025-03-17 17:07:50.599 INFO     Manifest Error: Required field missing. [NestedInstallerFiles]
+2025-03-17 17:07:50.615 INFO     Manifest Error: Only one entry for NestedInstallerFiles can be specified for non-portable InstallerTypes. [NestedInstallerFiles]
+2025-03-17 17:07:50.615 INFO     Manifest Error: Invalid field value. [InstallerType]
+2025-03-17 17:07:50.615 INFO     Manifest Error: Required field missing. [NestedInstallerType]
+2025-03-17 17:07:50.615 INFO     Manifest Error: Required field missing. [NestedInstallerFiles]
+2025-03-17 17:07:50.615 INFO     Manifest Error: Only one entry for NestedInstallerFiles can be specified for non-portable InstallerTypes. [NestedInstallerFiles]
+2025-03-17 17:07:50.615 INFO     Manifest Error: Invalid field value. [InstallerType]
+2025-03-17 17:07:50.615 INFO     Manifest Error: Required field missing. [NestedInstallerType]
+2025-03-17 17:07:50.615 INFO     Manifest Error: Required field missing. [NestedInstallerFiles]
+2025-03-17 17:07:50.615 INFO     Manifest Error: Only one entry for NestedInstallerFiles can be specified for non-portable InstallerTypes. [NestedInstallerFiles]
+2025-03-17 17:07:50.615 INFO     
+2025-03-17 17:18:00.768 INFO   Staging and Committing Changes to Git
+2025-03-17 17:18:19.536 INFO     Commit message: New version: DuckStudio.FufuDevTools version 2025.03.17.1640 (Auto)
+2025-03-17 17:18:19.536 INFO   Pushing changes to remote (origin) repository
+2025-03-17 17:18:26.209 INFO     Successfully pushed to remote (origin): NewVersion-DuckStudio.FufuDevTools-2025.03.17.1640
+2025-03-17 17:18:28.485 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/240650
+2025-03-17 17:18:28.520 INFO All manifests have been modified and pushed through.
+2025-03-17 17:18:35.639 INFO Workspace clean-up completed.
+~~ End of logging ~~
