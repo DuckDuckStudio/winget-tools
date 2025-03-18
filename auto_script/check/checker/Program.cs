@@ -16,6 +16,9 @@ namespace checker
             string folderPath = Path.Combine("winget-pkgs", "manifests", args[0]);
             if (!Directory.Exists(folderPath))
             {
+#if DEBUG
+                Console.WriteLine($"[Debug] 检查目录 {folderPath}");
+#endif
                 Console.WriteLine("[Error] 指定的检查目录不存在");
                 return;
             }
@@ -35,7 +38,7 @@ namespace checker
             }
 
             await CheckUrlsInYamlFiles(folderPath, failureLevel);
-            Console.WriteLine("\n所有安装程序链接正常");
+            Console.WriteLine("所有安装程序链接正常");
         }
 
         static async Task CheckUrlsInYamlFiles(string folderPath, string failureLevel)
@@ -179,10 +182,10 @@ namespace checker
                             // 否则，始终检查 InstallerUrl 和 ReturnResponseUrl
                             flag = must_check_manifest_keys.Contains(keyNode.Value);
                         }
-// #if DEBUG
-//                         Console.WriteLine($"遍历到 {keyNode.Value} 键，值 {entry.Value}，标记为 {flag}...");
-// #endif
-// 仅当清单很少时才建议启用此输出
+                        // #if DEBUG
+                        //                         Console.WriteLine($"遍历到 {keyNode.Value} 键，值 {entry.Value}，标记为 {flag}...");
+                        // #endif
+                        // 仅当清单很少时才建议启用此输出
 
                         // 如果 flag 为 true，检查 entry.Value 是否为 YamlScalarNode 且非 null
                         if (flag && entry.Value is YamlScalarNode scalarNode && scalarNode.Value != null)
