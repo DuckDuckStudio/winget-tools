@@ -226,7 +226,6 @@ namespace checker
                 "https://github.com/paintdotnet/release/", "https://cdn.kde.org/ci-builds/education/kiten/master/windows/", // 更新时移除
                 "https://cdn.krisp.ai", "https://www.huaweicloud.com/", "https://mirrors.kodi.tv", "https://scache.vzw.com", "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", "https://www.magicdesktop.com/get/kiosk?src=winget", "https://dl.makeblock.com/", "https://download.voicecloud.cn/", "https://dl.jisupdftoword.com/", // 假404
                 "https://www.deezer.com/", // 无法验证
-                "https://b2.zczc.men/file/dos-electron-assets/release/", "https://sf1-cdn-tos.douyinstatic.com/", "https://download.hellofont.cn/Client/Release/channels_backup/4.1.1/official/", "https://alistatic.lanhuapp.com/Axure/", // 不完整的url
                 "https://sourceforge.net/", "https://downloads.mysql.com/", // 假403
                 "https://issuepcdn.baidupcs.com/", "https://lf-luna-release.qishui.com/obj/luna-release/", // 超时
             ];
