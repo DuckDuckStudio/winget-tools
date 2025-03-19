@@ -27,6 +27,8 @@
 2025-03-19 21:13:28.191 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
 2025-03-19 21:13:28.191 INFO     Cleaned up DuckStudio.GitHubLabelsManager.yaml
 2025-03-19 21:13:28.195 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.9\DuckStudio.GitHubLabelsManager.yaml
+Uncatched WARNING (node:1648) [DEP0168] DeprecationWarning: Uncaught N-API callback exception detected, please run node with option --force-node-api-uncaught-exceptions-policy=true to handle those exceptions properly.
+Uncatched WARNING (Use `Code --trace-deprecation ...` to show where the warning was created)
 2025-03-19 21:13:28.276 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.9 for DuckStudio.GitHubLabelsManager (1.10.0)
 2025-03-19 21:23:17.626 INFO     清单验证成功。
 2025-03-19 21:23:17.639 INFO   Staging and Committing Changes to Git
