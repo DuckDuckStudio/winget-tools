@@ -1,0 +1,214 @@
+~~ Start logging ~~
+2025-03-20 12:29:21.172 FUN 啊对对对。
+2025-03-20 12:29:21.176 INFO Found the following version folder: ['1.5', '1.6', '1.7', '1.8', 'v1.1', 'v1.2', 'v1.3', 'v1.4']
+2025-03-20 12:29:21.303 INFO Processing version folder: 1.5
+2025-03-20 12:29:21.305 INFO   Create and checkout to a new branch: Modify-DuckStudio.GitHubLabelsManager-1.5
+2025-03-20 12:29:26.771 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.5\DuckStudio.GitHubLabelsManager.installer.yaml
+2025-03-20 12:29:26.782 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-03-20 12:29:26.784 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:29:26.786 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.5\DuckStudio.GitHubLabelsManager.installer.yaml
+2025-03-20 12:29:26.787 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.5\DuckStudio.GitHubLabelsManager.locale.en-US.yaml
+2025-03-20 12:29:26.789 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-03-20 12:29:26.790 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:29:26.791 INFO     Modify DocumentUrl: https://github.com/DuckDuckStudio/GitHub-Labels-Manager/blob/main/other-languages/en_US/README.md -> https://github.com/DuckDuckStudio/GitHub-Labels-Manager/blob/main/other-languages/en-US/README.md
+2025-03-20 12:29:26.792 FUN     Honestly, I forget when I changed the folder name. 😅
+2025-03-20 12:29:26.793 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.5\DuckStudio.GitHubLabelsManager.locale.en-US.yaml
+2025-03-20 12:29:26.794 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.5\DuckStudio.GitHubLabelsManager.locale.zh-CN.yaml
+2025-03-20 12:29:26.795 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-03-20 12:29:26.797 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:29:26.798 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.5\DuckStudio.GitHubLabelsManager.locale.zh-CN.yaml
+2025-03-20 12:29:26.801 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.5\DuckStudio.GitHubLabelsManager.yaml
+2025-03-20 12:29:26.803 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-03-20 12:29:26.804 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:29:26.805 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.5\DuckStudio.GitHubLabelsManager.yaml
+2025-03-20 12:29:27.629 INFO     清单验证成功。
+2025-03-20 12:29:27.719 INFO   Staging and Committing Changes to Git
+2025-03-20 12:29:31.266 INFO     Commit message: Modify: DuckStudio.GitHubLabelsManager version 1.5 (Auto)
+2025-03-20 12:29:31.267 INFO   Pushing changes to remote (origin) repository
+2025-03-20 12:29:35.123 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.GitHubLabelsManager-1.5
+2025-03-20 12:29:37.210 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/241442
+2025-03-20 12:29:37.213 INFO Processing version folder: 1.6
+2025-03-20 12:29:37.214 INFO   Create and checkout to a new branch: Modify-DuckStudio.GitHubLabelsManager-1.6
+2025-03-20 12:29:42.323 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.6\DuckStudio.GitHubLabelsManager.installer.yaml
+2025-03-20 12:29:42.326 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-20 12:29:42.327 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:29:42.330 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.6\DuckStudio.GitHubLabelsManager.installer.yaml
+2025-03-20 12:29:42.332 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.6\DuckStudio.GitHubLabelsManager.locale.en-US.yaml
+2025-03-20 12:29:42.333 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-20 12:29:42.334 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:29:42.336 INFO     Modify DocumentUrl: https://github.com/DuckDuckStudio/GitHub-Labels-Manager/blob/main/other-languages/en_US/README.md -> https://github.com/DuckDuckStudio/GitHub-Labels-Manager/blob/main/other-languages/en-US/README.md
+2025-03-20 12:29:42.336 FUN     Honestly, I forget when I changed the folder name. 😅
+2025-03-20 12:29:42.338 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.6\DuckStudio.GitHubLabelsManager.locale.en-US.yaml
+2025-03-20 12:29:42.340 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.6\DuckStudio.GitHubLabelsManager.locale.zh-CN.yaml
+2025-03-20 12:29:42.341 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-20 12:29:42.342 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:29:42.344 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.6\DuckStudio.GitHubLabelsManager.locale.zh-CN.yaml
+2025-03-20 12:29:42.345 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.6\DuckStudio.GitHubLabelsManager.yaml
+2025-03-20 12:29:42.347 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-20 12:29:42.349 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:29:42.351 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.6\DuckStudio.GitHubLabelsManager.yaml
+2025-03-20 12:29:42.564 INFO     清单验证成功。
+2025-03-20 12:29:42.579 INFO   Staging and Committing Changes to Git
+2025-03-20 12:29:46.970 INFO     Commit message: Modify: DuckStudio.GitHubLabelsManager version 1.6 (Auto)
+2025-03-20 12:29:46.971 INFO   Pushing changes to remote (origin) repository
+2025-03-20 12:29:50.751 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.GitHubLabelsManager-1.6
+2025-03-20 12:29:52.759 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/241443
+2025-03-20 12:29:52.761 INFO Processing version folder: 1.7
+2025-03-20 12:29:52.761 INFO   Create and checkout to a new branch: Modify-DuckStudio.GitHubLabelsManager-1.7
+2025-03-20 12:29:59.105 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.7\DuckStudio.GitHubLabelsManager.installer.yaml
+2025-03-20 12:29:59.107 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-20 12:29:59.108 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:29:59.110 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.7\DuckStudio.GitHubLabelsManager.installer.yaml
+2025-03-20 12:29:59.111 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.7\DuckStudio.GitHubLabelsManager.locale.en-US.yaml
+2025-03-20 12:29:59.112 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-20 12:29:59.113 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:29:59.115 INFO     Modify DocumentUrl: https://github.com/DuckDuckStudio/GitHub-Labels-Manager/blob/main/other-languages/en_US/README.md -> https://github.com/DuckDuckStudio/GitHub-Labels-Manager/blob/main/other-languages/en-US/README.md
+2025-03-20 12:29:59.115 FUN     Honestly, I forget when I changed the folder name. 😅
+2025-03-20 12:29:59.117 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.7\DuckStudio.GitHubLabelsManager.locale.en-US.yaml
+2025-03-20 12:29:59.117 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.7\DuckStudio.GitHubLabelsManager.locale.zh-CN.yaml
+2025-03-20 12:29:59.119 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-20 12:29:59.120 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:29:59.121 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.7\DuckStudio.GitHubLabelsManager.locale.zh-CN.yaml
+2025-03-20 12:29:59.122 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.7\DuckStudio.GitHubLabelsManager.yaml
+2025-03-20 12:29:59.123 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-20 12:29:59.124 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:29:59.125 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.7\DuckStudio.GitHubLabelsManager.yaml
+2025-03-20 12:29:59.301 INFO     清单验证成功。
+2025-03-20 12:29:59.309 INFO   Staging and Committing Changes to Git
+2025-03-20 12:30:03.558 INFO     Commit message: Modify: DuckStudio.GitHubLabelsManager version 1.7 (Auto)
+2025-03-20 12:30:03.559 INFO   Pushing changes to remote (origin) repository
+2025-03-20 12:30:07.742 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.GitHubLabelsManager-1.7
+2025-03-20 12:30:10.985 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/241444
+2025-03-20 12:30:10.987 INFO Processing version folder: 1.8
+2025-03-20 12:30:10.989 INFO   Create and checkout to a new branch: Modify-DuckStudio.GitHubLabelsManager-1.8
+2025-03-20 12:30:16.107 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.8\DuckStudio.GitHubLabelsManager.installer.yaml
+2025-03-20 12:30:16.120 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-20 12:30:16.121 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:30:16.123 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.8\DuckStudio.GitHubLabelsManager.installer.yaml
+2025-03-20 12:30:16.125 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.8\DuckStudio.GitHubLabelsManager.locale.en-US.yaml
+2025-03-20 12:30:16.126 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-20 12:30:16.127 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:30:16.129 INFO     Modify DocumentUrl: https://github.com/DuckDuckStudio/GitHub-Labels-Manager/blob/main/other-languages/en_US/README.md -> https://github.com/DuckDuckStudio/GitHub-Labels-Manager/blob/main/other-languages/en-US/README.md
+2025-03-20 12:30:16.130 FUN     Honestly, I forget when I changed the folder name. 😅
+2025-03-20 12:30:16.131 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.8\DuckStudio.GitHubLabelsManager.locale.en-US.yaml
+2025-03-20 12:30:16.132 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.8\DuckStudio.GitHubLabelsManager.locale.zh-CN.yaml
+2025-03-20 12:30:16.134 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-20 12:30:16.135 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:30:16.137 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.8\DuckStudio.GitHubLabelsManager.locale.zh-CN.yaml
+2025-03-20 12:30:16.138 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.8\DuckStudio.GitHubLabelsManager.yaml
+2025-03-20 12:30:16.140 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-20 12:30:16.141 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:30:16.143 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.8\DuckStudio.GitHubLabelsManager.yaml
+2025-03-20 12:30:16.393 INFO     清单验证成功。
+2025-03-20 12:30:16.404 INFO   Staging and Committing Changes to Git
+2025-03-20 12:30:20.526 INFO     Commit message: Modify: DuckStudio.GitHubLabelsManager version 1.8 (Auto)
+2025-03-20 12:30:20.527 INFO   Pushing changes to remote (origin) repository
+2025-03-20 12:30:24.555 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.GitHubLabelsManager-1.8
+2025-03-20 12:30:26.652 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/241445
+2025-03-20 12:30:26.655 INFO Processing version folder: v1.1
+2025-03-20 12:30:26.657 INFO   Create and checkout to a new branch: Modify-DuckStudio.GitHubLabelsManager-v1.1
+2025-03-20 12:30:31.881 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.1\DuckStudio.GitHubLabelsManager.installer.yaml
+2025-03-20 12:30:31.883 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-03-20 12:30:31.884 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:30:31.885 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.1\DuckStudio.GitHubLabelsManager.installer.yaml
+2025-03-20 12:30:31.886 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.1\DuckStudio.GitHubLabelsManager.locale.en-US.yaml
+2025-03-20 12:30:31.888 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-03-20 12:30:31.889 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:30:31.890 INFO     Modify DocumentUrl: https://github.com/DuckDuckStudio/GitHub-Labels-Manager/blob/main/other-languages/en_US/README.md -> https://github.com/DuckDuckStudio/GitHub-Labels-Manager/blob/main/other-languages/en-US/README.md
+2025-03-20 12:30:31.890 FUN     Honestly, I forget when I changed the folder name. 😅
+2025-03-20 12:30:31.891 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.1\DuckStudio.GitHubLabelsManager.locale.en-US.yaml
+2025-03-20 12:30:31.893 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.1\DuckStudio.GitHubLabelsManager.locale.zh-CN.yaml
+2025-03-20 12:30:31.895 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-03-20 12:30:31.896 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:30:31.897 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.1\DuckStudio.GitHubLabelsManager.locale.zh-CN.yaml
+2025-03-20 12:30:31.898 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.1\DuckStudio.GitHubLabelsManager.yaml
+2025-03-20 12:30:31.900 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-03-20 12:30:31.900 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:30:31.902 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.1\DuckStudio.GitHubLabelsManager.yaml
+2025-03-20 12:30:32.855 INFO     清单验证成功。
+2025-03-20 12:30:32.925 INFO   Staging and Committing Changes to Git
+2025-03-20 12:30:36.148 INFO     Commit message: Modify: DuckStudio.GitHubLabelsManager version v1.1 (Auto)
+2025-03-20 12:30:36.149 INFO   Pushing changes to remote (origin) repository
+2025-03-20 12:30:42.335 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.GitHubLabelsManager-v1.1
+2025-03-20 12:30:45.519 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/241446
+2025-03-20 12:30:45.522 INFO Processing version folder: v1.2
+2025-03-20 12:30:45.524 INFO   Create and checkout to a new branch: Modify-DuckStudio.GitHubLabelsManager-v1.2
+2025-03-20 12:30:53.592 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.2\DuckStudio.GitHubLabelsManager.installer.yaml
+2025-03-20 12:30:53.604 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-03-20 12:30:53.606 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:30:53.609 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.2\DuckStudio.GitHubLabelsManager.installer.yaml
+2025-03-20 12:30:53.610 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.2\DuckStudio.GitHubLabelsManager.locale.en-US.yaml
+2025-03-20 12:30:53.612 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-03-20 12:30:53.613 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:30:53.614 INFO     Modify DocumentUrl: https://github.com/DuckDuckStudio/GitHub-Labels-Manager/blob/main/other-languages/en_US/README.md -> https://github.com/DuckDuckStudio/GitHub-Labels-Manager/blob/main/other-languages/en-US/README.md
+2025-03-20 12:30:53.615 FUN     Honestly, I forget when I changed the folder name. 😅
+2025-03-20 12:30:53.618 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.2\DuckStudio.GitHubLabelsManager.locale.en-US.yaml
+2025-03-20 12:30:53.620 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.2\DuckStudio.GitHubLabelsManager.locale.zh-CN.yaml
+2025-03-20 12:30:53.622 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-03-20 12:30:53.623 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:30:53.626 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.2\DuckStudio.GitHubLabelsManager.locale.zh-CN.yaml
+2025-03-20 12:30:53.628 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.2\DuckStudio.GitHubLabelsManager.yaml
+2025-03-20 12:30:53.629 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-03-20 12:30:53.630 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:30:53.632 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.2\DuckStudio.GitHubLabelsManager.yaml
+2025-03-20 12:30:53.849 INFO     清单验证成功。
+2025-03-20 12:30:53.859 INFO   Staging and Committing Changes to Git
+2025-03-20 12:30:57.974 INFO     Commit message: Modify: DuckStudio.GitHubLabelsManager version v1.2 (Auto)
+2025-03-20 12:30:57.976 INFO   Pushing changes to remote (origin) repository
+2025-03-20 12:31:02.439 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.GitHubLabelsManager-v1.2
+2025-03-20 12:31:04.640 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/241447
+2025-03-20 12:31:04.643 INFO Processing version folder: v1.3
+2025-03-20 12:31:04.645 INFO   Create and checkout to a new branch: Modify-DuckStudio.GitHubLabelsManager-v1.3
+2025-03-20 12:31:10.390 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.3\DuckStudio.GitHubLabelsManager.installer.yaml
+2025-03-20 12:31:10.512 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-03-20 12:31:10.522 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:31:10.532 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.3\DuckStudio.GitHubLabelsManager.installer.yaml
+2025-03-20 12:31:10.542 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.3\DuckStudio.GitHubLabelsManager.locale.en-US.yaml
+2025-03-20 12:31:10.572 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-03-20 12:31:10.582 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:31:10.592 INFO     Modify DocumentUrl: https://github.com/DuckDuckStudio/GitHub-Labels-Manager/blob/main/other-languages/en_US/README.md -> https://github.com/DuckDuckStudio/GitHub-Labels-Manager/blob/main/other-languages/en-US/README.md
+2025-03-20 12:31:10.592 FUN     Honestly, I forget when I changed the folder name. 😅
+2025-03-20 12:31:10.612 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.3\DuckStudio.GitHubLabelsManager.locale.en-US.yaml
+2025-03-20 12:31:10.622 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.3\DuckStudio.GitHubLabelsManager.locale.zh-CN.yaml
+2025-03-20 12:31:10.642 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-03-20 12:31:10.652 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:31:10.672 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.3\DuckStudio.GitHubLabelsManager.locale.zh-CN.yaml
+2025-03-20 12:31:10.682 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.3\DuckStudio.GitHubLabelsManager.yaml
+2025-03-20 12:31:10.702 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-03-20 12:31:10.722 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:31:10.742 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.3\DuckStudio.GitHubLabelsManager.yaml
+2025-03-20 12:31:10.226 INFO     清单验证成功。
+2025-03-20 12:31:10.239 INFO   Staging and Committing Changes to Git
+2025-03-20 12:31:14.239 INFO     Commit message: Modify: DuckStudio.GitHubLabelsManager version v1.3 (Auto)
+2025-03-20 12:31:14.240 INFO   Pushing changes to remote (origin) repository
+2025-03-20 12:31:18.197 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.GitHubLabelsManager-v1.3
+2025-03-20 12:31:21.513 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/241448
+2025-03-20 12:31:21.516 INFO Processing version folder: v1.4
+2025-03-20 12:31:21.518 INFO   Create and checkout to a new branch: Modify-DuckStudio.GitHubLabelsManager-v1.4
+2025-03-20 12:31:26.678 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.4\DuckStudio.GitHubLabelsManager.installer.yaml
+2025-03-20 12:31:26.689 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-03-20 12:31:26.690 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:31:26.692 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.4\DuckStudio.GitHubLabelsManager.installer.yaml
+2025-03-20 12:31:26.694 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.4\DuckStudio.GitHubLabelsManager.locale.en-US.yaml
+2025-03-20 12:31:26.696 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-03-20 12:31:26.697 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:31:26.698 INFO     Modify DocumentUrl: https://github.com/DuckDuckStudio/GitHub-Labels-Manager/blob/main/other-languages/en_US/README.md -> https://github.com/DuckDuckStudio/GitHub-Labels-Manager/blob/main/other-languages/en-US/README.md
+2025-03-20 12:31:26.699 FUN     Honestly, I forget when I changed the folder name. 😅
+2025-03-20 12:31:26.701 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.4\DuckStudio.GitHubLabelsManager.locale.en-US.yaml
+2025-03-20 12:31:26.703 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.4\DuckStudio.GitHubLabelsManager.locale.zh-CN.yaml
+2025-03-20 12:31:26.705 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-03-20 12:31:26.706 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:31:26.709 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.4\DuckStudio.GitHubLabelsManager.locale.zh-CN.yaml
+2025-03-20 12:31:26.710 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.4\DuckStudio.GitHubLabelsManager.yaml
+2025-03-20 12:31:26.712 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-03-20 12:31:26.713 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-03-20 12:31:26.715 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\v1.4\DuckStudio.GitHubLabelsManager.yaml
+2025-03-20 12:31:26.893 INFO     清单验证成功。
+2025-03-20 12:31:26.906 INFO   Staging and Committing Changes to Git
+2025-03-20 12:31:31.822 INFO     Commit message: Modify: DuckStudio.GitHubLabelsManager version v1.4 (Auto)
+2025-03-20 12:31:31.832 INFO   Pushing changes to remote (origin) repository
+2025-03-20 12:31:35.743 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.GitHubLabelsManager-v1.4
+2025-03-20 12:31:37.901 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/241449
+2025-03-20 12:31:37.905 INFO All manifests have been modified and pushed through.
+2025-03-20 12:31:42.624 INFO Workspace clean-up completed.
+~~ End of logging ~~
