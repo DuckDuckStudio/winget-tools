@@ -1,0 +1,55 @@
+~~ Start logging ~~
+2025-03-20 16:15:56.362 FUN Just do it!
+2025-03-20 16:15:56.366 INFO Found the following version folder: ['1.0.1', '1.0.10', '1.0.11', '1.0.2', '1.0.3', '1.0.4', '1.0.5', '1.0.6', '1.0.7', '1.0.8', '1.0.9', '1.1.0', '1.1.1', '1.1.2', '1.1.3', '1.1.6']
+2025-03-20 16:15:56.523 INFO Skip version 1.0.1, because it's not in the list of versions to be modified.
+2025-03-20 16:15:56.524 INFO Skip version 1.0.10, because it's not in the list of versions to be modified.
+2025-03-20 16:15:56.525 INFO Skip version 1.0.11, because it's not in the list of versions to be modified.
+2025-03-20 16:15:56.526 INFO Skip version 1.0.2, because it's not in the list of versions to be modified.
+2025-03-20 16:15:56.527 INFO Skip version 1.0.3, because it's not in the list of versions to be modified.
+2025-03-20 16:15:56.528 INFO Skip version 1.0.4, because it's not in the list of versions to be modified.
+2025-03-20 16:15:56.530 INFO Skip version 1.0.5, because it's not in the list of versions to be modified.
+2025-03-20 16:15:56.531 INFO Skip version 1.0.6, because it's not in the list of versions to be modified.
+2025-03-20 16:15:56.532 INFO Skip version 1.0.7, because it's not in the list of versions to be modified.
+2025-03-20 16:15:56.534 INFO Skip version 1.0.8, because it's not in the list of versions to be modified.
+2025-03-20 16:15:56.535 INFO Skip version 1.0.9, because it's not in the list of versions to be modified.
+2025-03-20 16:15:56.536 INFO Skip version 1.1.0, because it's not in the list of versions to be modified.
+2025-03-20 16:15:56.537 INFO Skip version 1.1.1, because it's not in the list of versions to be modified.
+2025-03-20 16:15:56.539 INFO Skip version 1.1.2, because it's not in the list of versions to be modified.
+2025-03-20 16:15:56.541 INFO Skip version 1.1.3, because it's not in the list of versions to be modified.
+2025-03-20 16:15:56.542 INFO Processing version folder: 1.1.6
+2025-03-20 16:15:56.544 INFO   Create and checkout to a new branch: NewVersion-DuckStudio.Sundry-1.1.6
+2025-03-20 16:16:05.662 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.6\DuckStudio.Sundry.installer.yaml
+2025-03-20 16:16:05.682 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-20 16:16:05.692 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-20 16:16:05.702 INFO     Cleaned up DuckStudio.Sundry.installer.yaml
+2025-03-20 16:16:05.712 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.6\DuckStudio.Sundry.installer.yaml
+2025-03-20 16:16:05.300 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.6\DuckStudio.Sundry.locale.en-US.yaml
+2025-03-20 16:16:05.303 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-20 16:16:05.304 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-20 16:16:05.306 INFO     Cleaned up DuckStudio.Sundry.locale.en-US.yaml
+2025-03-20 16:16:05.309 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.6\DuckStudio.Sundry.locale.en-US.yaml
+2025-03-20 16:16:05.473 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.6\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-03-20 16:16:05.475 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-20 16:16:05.476 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-20 16:16:05.478 INFO     Cleaned up DuckStudio.Sundry.locale.zh-CN.yaml
+2025-03-20 16:16:05.481 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.6\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-03-20 16:16:05.680 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.6\DuckStudio.Sundry.yaml
+2025-03-20 16:16:05.684 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-20 16:16:05.688 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-20 16:16:05.690 INFO     Cleaned up DuckStudio.Sundry.yaml
+2025-03-20 16:16:05.695 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.6\DuckStudio.Sundry.yaml
+2025-03-20 16:16:05.947 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.6 for DuckStudio.Sundry (1.10.0)
+2025-03-20 16:22:15.847 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-03-20 16:22:15.848 INFO       - 程序包
+2025-03-20 16:22:15.849 INFO           DuckStudio.GitHubLabelsManager
+2025-03-20 16:22:15.849 INFO           Git.Git
+2025-03-20 16:22:15.850 INFO           GitHub.cli
+2025-03-20 16:22:15.851 INFO     清单验证成功。
+2025-03-20 16:22:15.863 INFO   Staging and Committing Changes to Git
+2025-03-20 16:22:25.720 INFO     Commit message: New version: DuckStudio.Sundry version 1.1.6 (Auto)
+2025-03-20 16:22:25.721 INFO   Pushing changes to remote (origin) repository
+2025-03-20 16:22:31.709 INFO     Successfully pushed to remote (origin): NewVersion-DuckStudio.Sundry-1.1.6
+2025-03-20 16:22:34.124 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/241484
+2025-03-20 16:22:34.128 INFO All manifests have been modified and pushed through.
+2025-03-20 16:22:41.252 INFO Workspace clean-up completed.
+~~ End of logging ~~
