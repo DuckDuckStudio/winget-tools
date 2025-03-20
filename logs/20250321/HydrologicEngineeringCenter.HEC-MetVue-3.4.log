@@ -1,0 +1,48 @@
+~~ Start logging ~~
+2025-03-21 06:50:00.249 FUN Just do it!
+2025-03-21 06:50:00.251 INFO Found the following version folder: ['3.4']
+2025-03-21 06:50:00.421 INFO Processing version folder: 3.4
+2025-03-21 06:50:00.423 INFO   Create and checkout to a new branch: NewVersion-HydrologicEngineeringCenter.HEC-MetVue-3.4
+2025-03-21 06:50:15.854 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\HydrologicEngineeringCenter\HEC-MetVue\3.4\HydrologicEngineeringCenter.HEC-MetVue.installer.yaml
+2025-03-21 06:50:15.855 INFO     Cleaned up HydrologicEngineeringCenter.HEC-MetVue.installer.yaml
+2025-03-21 06:50:15.857 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\h\HydrologicEngineeringCenter\HEC-MetVue\3.4\HydrologicEngineeringCenter.HEC-MetVue.installer.yaml
+2025-03-21 06:50:16.809 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\HydrologicEngineeringCenter\HEC-MetVue\3.4\HydrologicEngineeringCenter.HEC-MetVue.locale.en-US.yaml
+2025-03-21 06:50:16.859 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-03-21 06:50:16.869 INFO     Cleaned up HydrologicEngineeringCenter.HEC-MetVue.locale.en-US.yaml
+2025-03-21 06:50:16.909 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\h\HydrologicEngineeringCenter\HEC-MetVue\3.4\HydrologicEngineeringCenter.HEC-MetVue.locale.en-US.yaml
+2025-03-21 06:50:16.324 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\HydrologicEngineeringCenter\HEC-MetVue\3.4\HydrologicEngineeringCenter.HEC-MetVue.locale.zh-CN.yaml
+2025-03-21 06:50:16.331 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-03-21 06:50:16.333 INFO     Cleaned up HydrologicEngineeringCenter.HEC-MetVue.locale.zh-CN.yaml
+2025-03-21 06:50:16.342 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\h\HydrologicEngineeringCenter\HEC-MetVue\3.4\HydrologicEngineeringCenter.HEC-MetVue.locale.zh-CN.yaml
+2025-03-21 06:50:16.593 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\HydrologicEngineeringCenter\HEC-MetVue\3.4\HydrologicEngineeringCenter.HEC-MetVue.yaml
+2025-03-21 06:50:16.599 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-03-21 06:50:16.604 INFO     Cleaned up HydrologicEngineeringCenter.HEC-MetVue.yaml
+2025-03-21 06:50:16.608 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\h\HydrologicEngineeringCenter\HEC-MetVue\3.4\HydrologicEngineeringCenter.HEC-MetVue.yaml
+Uncaught WARNING (node:276) [DEP0168] DeprecationWarning: Uncaught N-API callback exception detected, please run node with option --force-node-api-uncaught-exceptions-policy=true to handle those exceptions properly.
+Uncaught WARNING (Use `Code --trace-deprecation ...` to show where the warning was created)
+2025-03-21 06:50:16.881 INFO   New manifests in D:\...\winget-pkgs\manifests\h\HydrologicEngineeringCenter\HEC-MetVue\3.4 for HydrologicEngineeringCenter.HEC-MetVue (1.10.0)
+2025-03-21 06:50:23.861 INFO     清单验证成功。
+2025-03-21 06:50:23.871 INFO   Staging and Committing Changes to Git
+2025-03-21 06:50:41.254 INFO     Commit message: New version: HydrologicEngineeringCenter.HEC-MetVue version 3.4 (Auto)
+2025-03-21 06:50:41.255 INFO   Pushing changes to remote (origin) repository
+2025-03-21 06:50:50.821 INFO     Successfully pushed to remote (origin): NewVersion-HydrologicEngineeringCenter.HEC-MetVue-3.4
+2025-03-21 06:50:54.540 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/241598
+2025-03-21 06:50:54.544 INFO All manifests have been modified and pushed through.
+Uncaught ERROR Deletion of directory 'manifests/h/HydrologicEngineeringCenter/HEC-MetVue' failed. Should I try again? (y/n)
+INFO User Canceled this run.
+Uncaught EXCEPTION Traceback (most recent call last):
+Uncaught EXCEPTION   File "D:\...\winget\NewVersion.py", line 395, in <module>
+Uncaught EXCEPTION     subprocess.run(["git", "checkout", "master"], check=True)
+Uncaught EXCEPTION   File "D:\...\Python\Lib\subprocess.py", line 552, in run
+Uncaught EXCEPTION     stdout, stderr = process.communicate(input, timeout=timeout)
+Uncaught EXCEPTION                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Uncaught EXCEPTION   File "D:\...\Python\Lib\subprocess.py", line 1203, in communicate
+Uncaught EXCEPTION     self.wait()
+Uncaught EXCEPTION   File "D:\...\Python\Lib\subprocess.py", line 1266, in wait
+Uncaught EXCEPTION     return self._wait(timeout=timeout)
+Uncaught EXCEPTION            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Uncaught EXCEPTION   File "D:\...\Python\Lib\subprocess.py", line 1592, in _wait
+Uncaught EXCEPTION     result = _winapi.WaitForSingleObject(self._handle,
+Uncaught EXCEPTION              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Uncaught EXCEPTION KeyboardInterrupt
+~~ End of logging ~~
