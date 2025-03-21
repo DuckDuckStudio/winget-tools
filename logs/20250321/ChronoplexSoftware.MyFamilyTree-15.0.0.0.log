@@ -1,0 +1,31 @@
+~~ Start logging ~~
+2025-03-21 12:38:04.660 FUN 提问: 罗浮六御中谁最幸福? 答案: 符玄。因为她姓符。
+2025-03-21 12:38:04.661 INFO Found the following version folder: ['14.1.1.0', '15.0.0.0']
+2025-03-21 12:38:04.787 INFO Skip version 14.1.1.0, because it's not in the list of versions to be modified.
+2025-03-21 12:38:04.789 INFO Processing version folder: 15.0.0.0
+2025-03-21 12:38:04.789 INFO   Create and checkout to a new branch: NewVersion-ChronoplexSoftware.MyFamilyTree-15.0.0.0
+2025-03-21 12:38:14.630 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\ChronoplexSoftware\MyFamilyTree\15.0.0.0\ChronoplexSoftware.MyFamilyTree.installer.yaml
+2025-03-21 12:38:14.650 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-21 12:38:14.661 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-21 12:38:14.671 INFO     Cleaned up ChronoplexSoftware.MyFamilyTree.installer.yaml
+2025-03-21 12:38:14.691 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\ChronoplexSoftware\MyFamilyTree\15.0.0.0\ChronoplexSoftware.MyFamilyTree.installer.yaml
+2025-03-21 12:38:14.273 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\ChronoplexSoftware\MyFamilyTree\15.0.0.0\ChronoplexSoftware.MyFamilyTree.locale.en-US.yaml
+2025-03-21 12:38:14.279 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-21 12:38:14.280 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-21 12:38:14.280 INFO     Cleaned up ChronoplexSoftware.MyFamilyTree.locale.en-US.yaml
+2025-03-21 12:38:14.282 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\ChronoplexSoftware\MyFamilyTree\15.0.0.0\ChronoplexSoftware.MyFamilyTree.locale.en-US.yaml
+2025-03-21 12:38:14.419 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\ChronoplexSoftware\MyFamilyTree\15.0.0.0\ChronoplexSoftware.MyFamilyTree.yaml
+2025-03-21 12:38:14.421 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-21 12:38:14.423 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-21 12:38:14.424 INFO     Cleaned up ChronoplexSoftware.MyFamilyTree.yaml
+2025-03-21 12:38:14.428 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\ChronoplexSoftware\MyFamilyTree\15.0.0.0\ChronoplexSoftware.MyFamilyTree.yaml
+2025-03-21 12:38:14.569 INFO   New manifests in D:\...\winget-pkgs\manifests\c\ChronoplexSoftware\MyFamilyTree\15.0.0.0 for ChronoplexSoftware.MyFamilyTree (1.10.0)
+2025-03-21 12:47:08.266 INFO     清单验证成功。
+2025-03-21 12:47:08.278 INFO   Staging and Committing Changes to Git
+2025-03-21 12:47:18.426 INFO     Commit message: New version: ChronoplexSoftware.MyFamilyTree version 15.0.0.0 (Auto)
+2025-03-21 12:47:18.428 INFO   Pushing changes to remote (origin) repository
+2025-03-21 12:47:54.131 INFO     Successfully pushed to remote (origin): NewVersion-ChronoplexSoftware.MyFamilyTree-15.0.0.0
+2025-03-21 12:48:21.854 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/241634
+2025-03-21 12:48:21.867 INFO All manifests have been modified and pushed through.
+2025-03-21 12:48:27.765 INFO Workspace clean-up completed.
+~~ End of logging ~~
