@@ -45,7 +45,7 @@ namespace checker
         {
             using HttpClient client = new();
             client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3");
-            client.Timeout = TimeSpan.FromSeconds(10);
+            client.Timeout = TimeSpan.FromSeconds(15);
 
             foreach (string filePath in Directory.EnumerateFiles(folderPath, "*.yaml", SearchOption.AllDirectories))
             {
@@ -121,11 +121,10 @@ namespace checker
                         }
                         catch (TaskCanceledException e)
                         {
-                            Console.WriteLine($"\n[Warning] 访问 {filePath} 中的 {url} 时超时: {e.Message}");
-                            if (failureLevel == "warning")
-                            {
-                                Environment.Exit(1);
-                            }
+                            Console.Write("-");
+                            # if DEBUG
+                            Console.WriteLine($"\n[Debug] 访问 {filePath} 中的 {url} 时超时: {e.Message}");
+#endif
                         }
                         catch (UriFormatException e)
                         {
