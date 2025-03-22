@@ -1,4 +1,3 @@
-using System.Text.RegularExpressions;
 using YamlDotNet.RepresentationModel;
 
 namespace checker
@@ -104,6 +103,13 @@ namespace checker
                                 {
                                     // 抛出 TaskCanceledException 异常，并说明返回了 408，然后让下面的 catch 处理
                                     throw new TaskCanceledException("Url 返回了状态码 408 (Request Timeout - 请求超时)");
+                                }
+                                else if (response.StatusCode == System.Net.HttpStatusCode.MethodNotAllowed)
+                                {
+                                    Console.Write("-");
+#if DEBUG
+                                    Console.WriteLine($"\n[Debug] {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (Method Not Allowed - 方法不允许)");
+#endif
                                 }
                                 else
                                 {
