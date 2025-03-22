@@ -1,0 +1,31 @@
+~~ Start logging ~~
+2025-03-22 22:21:54.392 FUN 啊对对对。
+2025-03-22 22:21:54.394 INFO Found the following version folder: ['1.25.8', '1.27.3']
+2025-03-22 22:21:54.527 INFO Skip version 1.25.8, because it's not in the list of versions to be modified.
+2025-03-22 22:21:54.528 INFO Processing version folder: 1.27.3
+2025-03-22 22:21:54.529 INFO   Create and checkout to a new branch: NewVersion-FTB.App-1.27.3
+2025-03-22 22:22:01.233 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\FTB\App\1.27.3\FTB.App.installer.yaml
+2025-03-22 22:22:01.235 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-22 22:22:01.237 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-22 22:22:01.238 INFO     Cleaned up FTB.App.installer.yaml
+2025-03-22 22:22:01.240 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\f\FTB\App\1.27.3\FTB.App.installer.yaml
+2025-03-22 22:22:01.439 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\FTB\App\1.27.3\FTB.App.locale.en-US.yaml
+2025-03-22 22:22:01.441 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-22 22:22:01.443 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-22 22:22:01.444 INFO     Cleaned up FTB.App.locale.en-US.yaml
+2025-03-22 22:22:01.446 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\f\FTB\App\1.27.3\FTB.App.locale.en-US.yaml
+2025-03-22 22:22:01.571 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\FTB\App\1.27.3\FTB.App.yaml
+2025-03-22 22:22:01.572 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-22 22:22:01.573 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-22 22:22:01.574 INFO     Cleaned up FTB.App.yaml
+2025-03-22 22:22:01.577 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\f\FTB\App\1.27.3\FTB.App.yaml
+2025-03-22 22:22:01.723 INFO   New manifests in D:\...\winget-pkgs\manifests\f\FTB\App\1.27.3 for FTB.App (1.10.0)
+2025-03-22 22:28:19.146 INFO     清单验证成功。
+2025-03-22 22:28:19.156 INFO   Staging and Committing Changes to Git
+2025-03-22 22:28:24.116 INFO     Commit message: New version: FTB.App version 1.27.3 (Auto)
+2025-03-22 22:28:24.117 INFO   Pushing changes to remote (origin) repository
+2025-03-22 22:28:32.339 INFO     Successfully pushed to remote (origin): NewVersion-FTB.App-1.27.3
+2025-03-22 22:28:34.744 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/241863
+2025-03-22 22:28:34.748 INFO All manifests have been modified and pushed through.
+2025-03-22 22:28:40.252 INFO Workspace clean-up completed.
+~~ End of logging ~~
