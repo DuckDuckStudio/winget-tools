@@ -89,6 +89,9 @@ namespace checker
                                 else if (response.StatusCode == System.Net.HttpStatusCode.Forbidden && !filePath.Contains("installer.yaml"))
                                 {
                                     Console.Write("-");
+#if DEBUG
+                                    Console.WriteLine($"\n[Debug] {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (Forbidden - 已禁止)");
+#endif
                                 }
                                 else if (response.StatusCode == System.Net.HttpStatusCode.TooManyRequests)
                                 {
@@ -96,6 +99,11 @@ namespace checker
 #if DEBUG
                                     Console.WriteLine($"\n[Debug] {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (Too many requests - 请求过多)");
 #endif
+                                }
+                                else if (response.StatusCode == System.Net.HttpStatusCode.RequestTimeout)
+                                {
+                                    // 抛出 TaskCanceledException 异常，并说明返回了 408，然后让下面的 catch 处理
+                                    throw new TaskCanceledException("Url 返回了状态码 408 (Request Timeout - 请求超时)");
                                 }
                                 else
                                 {
