@@ -122,7 +122,7 @@ namespace checker
                         catch (TaskCanceledException e)
                         {
                             Console.Write("-");
-                            # if DEBUG
+#if DEBUG
                             Console.WriteLine($"\n[Debug] 访问 {filePath} 中的 {url} 时超时: {e.Message}");
 #endif
                         }
