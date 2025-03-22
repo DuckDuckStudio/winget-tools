@@ -70,16 +70,16 @@ namespace checker
 
                             if ((int)response.StatusCode >= 400)
                             {
-                                if (response.StatusCode == System.Net.HttpStatusCode.NotFound && filePath.Contains("installer.yaml"))
+                                if (((response.StatusCode == System.Net.HttpStatusCode.NotFound) || (response.StatusCode == System.Net.HttpStatusCode.Gone)) && filePath.Contains("installer.yaml"))
                                 {
                                     if (url.EndsWith(".exe") || url.EndsWith(".zip") || url.EndsWith(".msi") || url.EndsWith(".msix") || url.EndsWith(".appx"))
                                     {
-                                        Console.WriteLine($"\n[Error] (安装程序返回 404) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (Not found - 未找到)");
+                                        Console.WriteLine($"\n[Error] (安装程序返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (Not found/Gone - 未找到/永久移除)");
                                         Environment.Exit(1);
                                     }
                                     else
                                     {
-                                        Console.WriteLine($"\n[Warning] (安装程序? 返回 404) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (Not found - 未找到)");
+                                        Console.WriteLine($"\n[Warning] (安装程序? 返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (Not found/Gone - 未找到/永久移除)");
                                         if (failureLevel == "warning")
                                         {
                                             Environment.Exit(1);
