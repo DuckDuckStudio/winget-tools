@@ -71,14 +71,24 @@ namespace checker
                             {
                                 if (((response.StatusCode == System.Net.HttpStatusCode.NotFound) || (response.StatusCode == System.Net.HttpStatusCode.Gone)) && filePath.Contains("installer.yaml"))
                                 {
+                                    string message;
+                                    if (response.StatusCode == System.Net.HttpStatusCode.NotFound)
+                                    {
+                                        message = "NotFound - 未找到";
+                                    }
+                                    else if (response.StatusCode == System.Net.HttpStatusCode.Gone)
+                                    {
+                                        message = "Gone - 永久移除";
+                                    }
+
                                     if (url.EndsWith(".exe") || url.EndsWith(".zip") || url.EndsWith(".msi") || url.EndsWith(".msix") || url.EndsWith(".appx"))
                                     {
-                                        Console.WriteLine($"\n[Error] (安装程序返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (Not found/Gone - 未找到/永久移除)");
+                                        Console.WriteLine($"\n[Error] (安装程序返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})");
                                         Environment.Exit(1);
                                     }
                                     else
                                     {
-                                        Console.WriteLine($"\n[Warning] (安装程序? 返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (Not found/Gone - 未找到/永久移除)");
+                                        Console.WriteLine($"\n[Warning] (安装程序? 返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})");
                                         if (failureLevel == "warning")
                                         {
                                             Environment.Exit(1);
