@@ -10,14 +10,14 @@ on:
         options:
           - error
           - warning
-      branch:
-        description: "检查的分支"
-        required: true
-        default: "master"
       fork:
         description: "检查的 fork 仓库的所有者"
         required: true
         default: "microsoft"
+      branch:
+        description: "检查的分支"
+        required: true
+        default: "master"
       mode:
         type: choice
         description: "生成模式"
