@@ -80,6 +80,10 @@ namespace checker
                                     {
                                         message = "Gone - 永久移除";
                                     }
+                                    else
+                                    {
+                                        message = "Unknown - 未知";
+                                    }
 
                                     if (url.EndsWith(".exe") || url.EndsWith(".zip") || url.EndsWith(".msi") || url.EndsWith(".msix") || url.EndsWith(".appx"))
                                     {
