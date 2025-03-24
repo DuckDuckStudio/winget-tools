@@ -125,6 +125,15 @@ namespace checker
                                     Console.WriteLine($"\n[Debug] {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (Method Not Allowed - 方法不允许)");
 #endif
                                 }
+                                else if ((int)response.StatusCode == 418)
+                                {
+                                    // 418 I'm a teapot
+                                    Console.Write("-");
+#if DEBUG
+                                    Console.WriteLine($"\n[Debug] {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (I'm a teapot - 服务器拒绝冲泡咖啡，因为它一直都是茶壶)");
+                                    Console.WriteLine("[Debug] 这可能只是因为服务器不想处理我们的请求。");
+#endif
+                                }
                                 else
                                 {
                                     Console.WriteLine($"\n[Warning] {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (≥400)\n");
