@@ -12,6 +12,14 @@ on:
       urls:
         description: 软件包安装程序链接
         required: true
+      issue:
+        description: 解决的 Issue
+        required: false
+      submit:
+        type: boolean
+        description: 提交更新
+        required: true
+        default: true
 
 jobs:
   komac-update:
@@ -33,4 +41,13 @@ jobs:
       env:
         KOMAC_FORK_OWNER: "DuckDuckStudio"
         GITHUB_TOKEN: ${{ secrets.WINGET_PKGS_TOKEN }}
-      run: komac update ${{ github.event.inputs.id }} --version ${{ github.event.inputs.ver }} --urls ${{ github.event.inputs.urls }} --created-with "@DuckDuckStudio's Automation" --created-with-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" --submit
+      run: |-
+        if [ ${{ github.event.inputs.submit }} = true ]; then
+          if [ -n "${{ github.event.inputs.issue }}" ]; then
+            komac update ${{ github.event.inputs.id }} --version ${{ github.event.inputs.ver }} --urls ${{ github.event.inputs.urls }} --created-with "@DuckDuckStudio's Automation" --created-with-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" --submit --resolves ${{ github.event.inputs.issue }}
+          else
+            komac update ${{ github.event.inputs.id }} --version ${{ github.event.inputs.ver }} --urls ${{ github.event.inputs.urls }} --created-with "@DuckDuckStudio's Automation" --created-with-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" --submit
+          fi
+        else
+          komac update ${{ github.event.inputs.id }} --version ${{ github.event.inputs.ver }} --urls ${{ github.event.inputs.urls }} --created-with "@DuckDuckStudio's Automation" --created-with-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" --dry-run
+        fi
