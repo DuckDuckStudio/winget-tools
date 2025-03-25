@@ -270,6 +270,7 @@ namespace checker
                 "https://www.deezer.com/", // 无法验证
                 "https://downloads.mysql.com/", "https://swcdn.apple.com/content/downloads/", "sourceforge.net", // 假403
                 "https://issuepcdn.baidupcs.com/", "https://lf-luna-release.qishui.com/obj/luna-release/", "https://down.360safe.com/cse/", // 超时
+                "https://www.argyllcms.com/", // 服务器拒绝冲泡咖啡
             ];
             return excludedDomains.Any(domain => url.Contains(domain));
         }
