@@ -1,0 +1,32 @@
+~~ Start logging ~~
+2025-03-25 11:48:20.178 FUN ~~I... I'm at the edge of my life!~~ -> 啊~啊！爷缺摩拉！
+2025-03-25 11:48:20.178 INFO Found the following version folder: ['1.0.3.319', '1.0.3.438', '1.0.3.447']
+2025-03-25 11:48:20.336 INFO Skip version 1.0.3.319, because it's not in the list of versions to be modified.
+2025-03-25 11:48:20.336 INFO Skip version 1.0.3.438, because it's not in the list of versions to be modified.
+2025-03-25 11:48:20.336 INFO Processing version folder: 1.0.3.447
+2025-03-25 11:48:20.336 INFO   Create and checkout to a new branch: NewVersion-GaijinNetwork.WarThunder-1.0.3.447
+2025-03-25 11:48:27.313 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GaijinNetwork\WarThunder\1.0.3.447\GaijinNetwork.WarThunder.installer.yaml
+2025-03-25 11:48:27.313 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-25 11:48:27.313 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-25 11:48:27.313 INFO     Cleaned up GaijinNetwork.WarThunder.installer.yaml
+2025-03-25 11:48:27.313 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\GaijinNetwork\WarThunder\1.0.3.447\GaijinNetwork.WarThunder.installer.yaml
+2025-03-25 11:48:27.204 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GaijinNetwork\WarThunder\1.0.3.447\GaijinNetwork.WarThunder.locale.en-US.yaml
+2025-03-25 11:48:27.204 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-25 11:48:27.204 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-25 11:48:27.219 INFO     Cleaned up GaijinNetwork.WarThunder.locale.en-US.yaml
+2025-03-25 11:48:27.219 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\GaijinNetwork\WarThunder\1.0.3.447\GaijinNetwork.WarThunder.locale.en-US.yaml
+2025-03-25 11:48:27.353 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GaijinNetwork\WarThunder\1.0.3.447\GaijinNetwork.WarThunder.yaml
+2025-03-25 11:48:27.355 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-03-25 11:48:27.356 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-03-25 11:48:27.357 INFO     Cleaned up GaijinNetwork.WarThunder.yaml
+2025-03-25 11:48:27.363 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\GaijinNetwork\WarThunder\1.0.3.447\GaijinNetwork.WarThunder.yaml
+2025-03-25 11:48:27.485 INFO   New manifests in D:\...\winget-pkgs\manifests\g\GaijinNetwork\WarThunder\1.0.3.447 for GaijinNetwork.WarThunder (1.10.0)
+2025-03-25 12:08:41.452 INFO     清单验证成功。
+2025-03-25 12:08:41.452 INFO   Staging and Committing Changes to Git
+2025-03-25 12:08:58.445 INFO     Commit message: New version: GaijinNetwork.WarThunder version 1.0.3.447 (Auto)
+2025-03-25 12:08:58.445 INFO   Pushing changes to remote (origin) repository
+2025-03-25 12:09:05.857 INFO     Successfully pushed to remote (origin): NewVersion-GaijinNetwork.WarThunder-1.0.3.447
+2025-03-25 12:09:08.375 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/242365
+2025-03-25 12:09:08.375 INFO All manifests have been modified and pushed through.
+2025-03-25 12:09:12.295 INFO Workspace clean-up completed.
+~~ End of logging ~~
