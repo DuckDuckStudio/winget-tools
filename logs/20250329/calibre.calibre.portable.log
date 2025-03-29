@@ -32,8 +32,8 @@
 2025-03-29 13:55:54.387 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\8.0.0.0\calibre.calibre.portable.yaml
 2025-03-29 13:55:54.387 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\8.0.0.0\calibre.calibre.portable.locale.zh-CN.yaml
 2025-03-29 13:55:54.387 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\8.0.0.0\calibre.calibre.portable.locale.zh-CN.yaml
-2025-03-29 13:55:54.778 INFO     清单验证失败。
-2025-03-29 13:55:54.778 INFO     [YAML:Scanner] while scanning a simple key [line 15; col 3] could not find expected ':' [line 16; col 3]
+2025-03-29 13:55:54.778 ERROR     清单验证失败。
+2025-03-29 13:55:54.778 ERROR     [YAML:Scanner] while scanning a simple key [line 15; col 3] could not find expected ':' [line 16; col 3]
 2025-03-29 14:01:08.869 INFO   Staging and Committing Changes to Git
 2025-03-29 14:01:15.420 INFO     Commit message: Modify: calibre.calibre.portable version 8.0.0.0 (Auto)
 2025-03-29 14:01:15.420 INFO   Pushing changes to remote (origin) repository
