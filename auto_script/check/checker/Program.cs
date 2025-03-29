@@ -62,12 +62,12 @@ namespace checker
                         try
                         {
                             HttpResponseMessage response = await client.SendAsync(new HttpRequestMessage(HttpMethod.Head, url));
-                            if (response.StatusCode == System.Net.HttpStatusCode.MethodNotAllowed)
+                            if ((int)response.StatusCode >= 400)
                             {
                                 response = await client.GetAsync(url);
                             }
 
-                            if ((int)response.StatusCode >= 400)
+                            if ((int)response.StatusCode >= 400 && (int)response.StatusCode < 500)
                             {
                                 if (((response.StatusCode == System.Net.HttpStatusCode.NotFound) || (response.StatusCode == System.Net.HttpStatusCode.Gone)) && filePath.Contains("installer.yaml"))
                                 {
@@ -136,14 +136,22 @@ namespace checker
                                 }
                                 else
                                 {
-                                    Console.WriteLine($"\n[Warning] {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (≥400)\n");
+                                    Console.WriteLine($"\n[Warning] {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (≥400 - 客户端错误)");
                                     if (failureLevel == "warning")
                                     {
                                         Environment.Exit(1);
                                     }
                                 }
                             }
+                            else if ((int)response.StatusCode >= 500)
+                            {
+                                Console.Write("-");
+#if DEBUG
+                                Console.WriteLine($"\n[Debug] {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (≥500 - 服务端错误)");
+#endif
+                            }
                             else
+                            // 除了上面的 400 - 500
                             {
                                 Console.Write("*");
                             }
