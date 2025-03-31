@@ -290,6 +290,7 @@ namespace checker
                 "https://downloads.mysql.com/", "https://swcdn.apple.com/content/downloads/", "sourceforge.net", // 假403
                 "https://issuepcdn.baidupcs.com/", "https://lf-luna-release.qishui.com/obj/luna-release/", "https://down.360safe.com/cse/", // 超时
                 "https://www.argyllcms.com/", // 服务器拒绝冲泡咖啡
+                "https://www.elcomsoft.com/", // SSL错误
             ];
             return excludedDomains.Any(domain => url.Contains(domain));
         }
