@@ -99,12 +99,23 @@ namespace checker
                                         }
                                     }
                                 }
-                                else if (response.StatusCode == System.Net.HttpStatusCode.Forbidden && !filePath.Contains("installer.yaml"))
+                                else if (response.StatusCode == System.Net.HttpStatusCode.Forbidden)
                                 {
-                                    Console.Write("-");
+                                    if (filePath.Contains("installer.yaml"))
+                                    {
+                                        Console.WriteLine($"\n[Warning] {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (Forbidden - 已禁止)");
+                                        if (failureLevel == "warning")
+                                        {
+                                            Environment.Exit(1);
+                                        }
+                                    }
+                                    else
+                                    {
+                                        Console.Write("-");
 #if DEBUG
-                                    Console.WriteLine($"\n[Debug] {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (Forbidden - 已禁止)");
+                                        Console.WriteLine($"\n[Debug] {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (Forbidden - 已禁止)");
 #endif
+                                    }
                                 }
                                 else if (response.StatusCode == System.Net.HttpStatusCode.TooManyRequests)
                                 {
