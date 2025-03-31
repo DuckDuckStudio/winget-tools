@@ -43,6 +43,13 @@ jobs:
         with:
           dotnet-version: '9.0.x'
 
+      - name: 保持所有最新
+        # Only on Ubuntu Runner
+        shell: bash
+        run: |
+          sudo apt update -y
+          sudo apt upgrade -y
+
       - name: 克隆 winget-pkgs fork
         run: |
           # 克隆对应的 fork 和对应的分支
