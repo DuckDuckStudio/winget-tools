@@ -88,7 +88,7 @@ namespace checker
                                     if (url.EndsWith(".exe") || url.EndsWith(".zip") || url.EndsWith(".msi") || url.EndsWith(".msix") || url.EndsWith(".appx"))
                                     {
                                         Console.WriteLine($"\n[Error] (安装程序返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})");
-                                        Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath)} {Path.GetDirectoryName(filePath)}");
+                                        Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath)} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
                                         Environment.Exit(1);
                                     }
                                     else
@@ -96,7 +96,7 @@ namespace checker
                                         Console.WriteLine($"\n[Warning] (安装程序? 返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})");
                                         if (failureLevel == "warning")
                                         {
-                                            Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath)} {Path.GetDirectoryName(filePath)}");
+                                            Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath)} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
                                             Environment.Exit(1);
                                         }
                                     }
@@ -108,7 +108,7 @@ namespace checker
                                         Console.WriteLine($"\n[Warning] {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (Forbidden - 已禁止)");
                                         if (failureLevel == "warning")
                                         {
-                                            Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath)} {Path.GetDirectoryName(filePath)} \"It returns a 403 status code in GitHub Action\"");
+                                            Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath)} {Path.GetFileName(Path.GetDirectoryName(filePath))} \"It returns a 403 status code in GitHub Action\"");
                                             Environment.Exit(1);
                                         }
                                     }
@@ -153,7 +153,7 @@ namespace checker
                                     Console.WriteLine($"\n[Warning] {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (≥400 - 客户端错误)");
                                     if (failureLevel == "warning")
                                     {
-                                        Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath)} {Path.GetDirectoryName(filePath)} \"It returns a {(int)response.StatusCode} (≥ 400) status code in GitHub Action\"");
+                                        Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath)} {Path.GetFileName(Path.GetDirectoryName(filePath))} \"It returns a {(int)response.StatusCode} (≥ 400) status code in GitHub Action\"");
                                         Environment.Exit(1);
                                     }
                                 }
