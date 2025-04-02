@@ -37,7 +37,7 @@ namespace checker
             }
 
             await CheckUrlsInYamlFiles(folderPath, failureLevel);
-            Console.WriteLine("所有安装程序链接正常");
+            Console.WriteLine("\n所有检查的链接正常");
         }
 
         static async Task CheckUrlsInYamlFiles(string folderPath, string failureLevel)
