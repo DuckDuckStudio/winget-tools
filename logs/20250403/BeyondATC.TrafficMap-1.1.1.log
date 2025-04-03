@@ -1,0 +1,30 @@
+~~ Start logging ~~
+2025-04-03 21:39:00.956 FUN 大意了，没有闪
+2025-04-03 21:39:00.956 INFO Found the following version folder: ['1.0.0', '1.0.1', '1.1.0', '1.1.1']
+2025-04-03 21:39:01.735 INFO Skip version 1.0.0, because it's not in the list of versions to be modified.
+2025-04-03 21:39:01.840 INFO Skip version 1.0.1, because it's not in the list of versions to be modified.
+2025-04-03 21:39:01.840 INFO Skip version 1.1.0, because it's not in the list of versions to be modified.
+2025-04-03 21:39:01.840 INFO Processing version folder: 1.1.1
+2025-04-03 21:39:01.840 INFO   Create and checkout to a new branch: NewVersion-BeyondATC.TrafficMap-1.1.1
+2025-04-03 21:39:08.518 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\BeyondATC\TrafficMap\1.1.1\BeyondATC.TrafficMap.installer.yaml
+2025-04-03 21:39:08.518 INFO     Cleaned up BeyondATC.TrafficMap.installer.yaml
+2025-04-03 21:39:08.525 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\BeyondATC\TrafficMap\1.1.1\BeyondATC.TrafficMap.installer.yaml
+2025-04-03 21:39:08.736 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\BeyondATC\TrafficMap\1.1.1\BeyondATC.TrafficMap.locale.en-US.yaml
+2025-04-03 21:39:08.736 INFO     Cleaned up BeyondATC.TrafficMap.locale.en-US.yaml
+2025-04-03 21:39:08.736 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\BeyondATC\TrafficMap\1.1.1\BeyondATC.TrafficMap.locale.en-US.yaml
+2025-04-03 21:39:08.870 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\BeyondATC\TrafficMap\1.1.1\BeyondATC.TrafficMap.locale.zh-CN.yaml
+2025-04-03 21:39:08.870 INFO     Cleaned up BeyondATC.TrafficMap.locale.zh-CN.yaml
+2025-04-03 21:39:08.870 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\BeyondATC\TrafficMap\1.1.1\BeyondATC.TrafficMap.locale.zh-CN.yaml
+2025-04-03 21:39:09.241 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\BeyondATC\TrafficMap\1.1.1\BeyondATC.TrafficMap.yaml
+2025-04-03 21:39:09.241 INFO     Cleaned up BeyondATC.TrafficMap.yaml
+2025-04-03 21:39:09.261 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\BeyondATC\TrafficMap\1.1.1\BeyondATC.TrafficMap.yaml
+2025-04-03 21:39:09.202 INFO   New manifests in D:\...\winget-pkgs\manifests\b\BeyondATC\TrafficMap\1.1.1 for BeyondATC.TrafficMap (1.10.0)
+2025-04-03 21:39:29.852 INFO     清单验证成功。
+2025-04-03 21:39:29.864 INFO   Staging and Committing Changes to Git
+2025-04-03 21:39:35.197 INFO     Commit message: New version: BeyondATC.TrafficMap version 1.1.1 (Auto)
+2025-04-03 21:39:35.197 INFO   Pushing changes to remote (origin) repository
+2025-04-03 21:39:47.628 INFO     Successfully pushed to remote (origin): NewVersion-BeyondATC.TrafficMap-1.1.1
+2025-04-03 21:39:54.200 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/244817
+2025-04-03 21:39:54.205 INFO All manifests have been modified and pushed through.
+2025-04-03 21:40:00.574 INFO Workspace clean-up completed.
+~~ End of logging ~~
