@@ -298,6 +298,7 @@ namespace checker
                 "https://catsxp.oss-cn-hongkong.aliyuncs.com", // 无任何可用版本
                 "https://openrainbow.com/downloads/Rainbow_Installer_User_Electron_v2.139.2.0.exe", // WIP
                 "https://ota-downloads.nvidia.com/ota/GeForceNOW", // In Issue
+                "aaa", // TEST
             ];
             return excludedDomains.Any(domain => url.Contains(domain));
         }
