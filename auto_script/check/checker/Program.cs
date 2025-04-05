@@ -296,7 +296,7 @@ namespace checker
                 "https://www.argyllcms.com/", // 服务器拒绝冲泡咖啡
                 "https://www.elcomsoft.com/", "https://pbank.bankcomm.cn/personbank/download/SecEditCFCAforBoCom.exe", // SSL错误
                 "https://catsxp.oss-cn-hongkong.aliyuncs.com", // 无任何可用版本
-                "https://openrainbow.com/downloads/Rainbow_Installer_User_Electron_v2.139.2.0.exe", // WIP
+                "https://openrainbow.com/downloads/Rainbow_Installer_User_Electron_v2.139.2.0.exe", "https://openrainbow.com/downloads/", // WIP
                 "https://ota-downloads.nvidia.com/ota/GeForceNOW", // In Issue
             ];
             return excludedDomains.Any(domain => url.Contains(domain));
