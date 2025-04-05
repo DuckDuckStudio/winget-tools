@@ -40,6 +40,8 @@ namespace checker
             Console.WriteLine("\n所有检查的链接正常");
         }
 
+        internal static readonly string[] installerType = [".exe", ".zip", ".msi", ".msix", ".appx"];
+
         static async Task CheckUrlsInYamlFiles(string folderPath, string failureLevel)
         {
             using HttpClient client = new();
@@ -85,7 +87,7 @@ namespace checker
                                         message = "Unknown - 未知";
                                     }
 
-                                    if (url.EndsWith(".exe") || url.EndsWith(".zip") || url.EndsWith(".msi") || url.EndsWith(".msix") || url.EndsWith(".appx"))
+                                    if (installerType.Any(ext => url.EndsWith(ext, StringComparison.OrdinalIgnoreCase)))
                                     {
                                         Console.WriteLine($"\n[Error] (安装程序返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})");
                                         Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath).Replace(".installer.yaml", "")} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
