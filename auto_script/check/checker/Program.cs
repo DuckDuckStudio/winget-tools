@@ -186,6 +186,8 @@ namespace checker
                             Console.Write("-");
 #if DEBUG
                             Console.WriteLine($"\n[Debug] 访问 {filePath} 中的 {url} 时超时: {e.Message}");
+#else
+                            _ = e; // 非 Debug 模式下忽略 e 的定义以避免 CS0168 警告
 #endif
                         }
                         catch (UriFormatException e)
