@@ -1,0 +1,30 @@
+~~ Start logging ~~
+2025-04-10 08:26:33.409 FUN 啊对对对。
+2025-04-10 08:26:33.410 INFO Found the following version folder: ['20250401.2']
+2025-04-10 08:26:33.525 INFO Processing version folder: 20250401.2
+2025-04-10 08:26:33.527 INFO   Create and checkout to a new branch: NewVersion-ppy.osu.stable-20250401.2
+2025-04-10 08:26:38.869 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\ppy\osu\stable\20250401.2\ppy.osu.stable.installer.yaml
+2025-04-10 08:26:38.870 INFO     Cleaned up ppy.osu.stable.installer.yaml
+2025-04-10 08:26:38.871 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\ppy\osu\stable\20250401.2\ppy.osu.stable.installer.yaml
+2025-04-10 08:26:39.637 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\ppy\osu\stable\20250401.2\ppy.osu.stable.locale.en-US.yaml
+2025-04-10 08:26:39.655 INFO     Cleaned up ppy.osu.stable.locale.en-US.yaml
+2025-04-10 08:26:39.690 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\ppy\osu\stable\20250401.2\ppy.osu.stable.locale.en-US.yaml
+2025-04-10 08:26:39.174 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\ppy\osu\stable\20250401.2\ppy.osu.stable.locale.zh-CN.yaml
+2025-04-10 08:26:39.176 INFO     Cleaned up ppy.osu.stable.locale.zh-CN.yaml
+2025-04-10 08:26:39.178 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\ppy\osu\stable\20250401.2\ppy.osu.stable.locale.zh-CN.yaml
+2025-04-10 08:26:39.303 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\ppy\osu\stable\20250401.2\ppy.osu.stable.yaml
+2025-04-10 08:26:39.304 INFO     Cleaned up ppy.osu.stable.yaml
+2025-04-10 08:26:39.306 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\ppy\osu\stable\20250401.2\ppy.osu.stable.yaml
+2025-04-10 08:26:39.445 INFO   New manifests in D:\...\winget-pkgs\manifests\p\ppy\osu\stable\20250401.2 for ppy.osu.stable (1.10.0)
+2025-04-10 08:28:21.491 INFO     清单验证成功，但出现警告。
+2025-04-10 08:28:21.492 INFO     Manifest Warning: Silent and SilentWithProgress switches are not specified for InstallerType exe. Please make sure the installer can run unattended.
+2025-04-10 08:28:21.493 INFO     
+2025-04-10 08:28:37.920 INFO Manifest Error Fixed.
+2025-04-10 08:28:37.921 INFO   Staging and Committing Changes to Git
+2025-04-10 08:28:42.402 INFO     Commit message: New version: ppy.osu.stable version 20250401.2 (Auto)
+2025-04-10 08:28:42.403 INFO   Pushing changes to remote (origin) repository
+2025-04-10 08:28:46.940 INFO     Successfully pushed to remote (origin): NewVersion-ppy.osu.stable-20250401.2
+2025-04-10 08:28:48.759 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/247001
+2025-04-10 08:28:48.761 INFO All manifests have been modified and pushed through.
+2025-04-10 08:28:54.300 INFO Workspace clean-up completed.
+~~ End of logging ~~
