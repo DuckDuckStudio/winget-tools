@@ -1,0 +1,37 @@
+~~ Start logging ~~
+2025-04-16 20:54:04.734 FUN (·v·)
+2025-04-16 20:54:04.735 INFO Found the following version folder: ['1.3.5', '1.3.6', '1.3.7']
+2025-04-16 20:54:04.832 INFO Skip version 1.3.5, because it's not in the list of versions to be modified.
+2025-04-16 20:54:04.833 INFO Skip version 1.3.6, because it's not in the list of versions to be modified.
+2025-04-16 20:54:04.834 INFO Processing version folder: 1.3.7
+2025-04-16 20:54:04.834 INFO   Create and checkout to a new branch: NewVersion-MinistryOfEducationOfThePRC.SmartSchools-1.3.7
+2025-04-16 20:54:11.848 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\MinistryOfEducationOfThePRC\SmartSchools\1.3.7\MinistryOfEducationOfThePRC.SmartSchools.installer.yaml
+2025-04-16 20:54:11.850 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-16 20:54:11.850 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-16 20:54:11.851 INFO     Cleaned up MinistryOfEducationOfThePRC.SmartSchools.installer.yaml
+2025-04-16 20:54:11.852 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\MinistryOfEducationOfThePRC\SmartSchools\1.3.7\MinistryOfEducationOfThePRC.SmartSchools.installer.yaml
+2025-04-16 20:54:12.140 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\MinistryOfEducationOfThePRC\SmartSchools\1.3.7\MinistryOfEducationOfThePRC.SmartSchools.locale.en-US.yaml
+2025-04-16 20:54:12.157 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-16 20:54:12.185 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-16 20:54:12.553 INFO     Cleaned up MinistryOfEducationOfThePRC.SmartSchools.locale.en-US.yaml
+2025-04-16 20:54:12.580 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\MinistryOfEducationOfThePRC\SmartSchools\1.3.7\MinistryOfEducationOfThePRC.SmartSchools.locale.en-US.yaml
+2025-04-16 20:54:12.163 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\MinistryOfEducationOfThePRC\SmartSchools\1.3.7\MinistryOfEducationOfThePRC.SmartSchools.locale.zh-CN.yaml
+2025-04-16 20:54:12.165 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-16 20:54:12.166 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-16 20:54:12.167 INFO     Cleaned up MinistryOfEducationOfThePRC.SmartSchools.locale.zh-CN.yaml
+2025-04-16 20:54:12.169 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\MinistryOfEducationOfThePRC\SmartSchools\1.3.7\MinistryOfEducationOfThePRC.SmartSchools.locale.zh-CN.yaml
+2025-04-16 20:54:12.280 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\MinistryOfEducationOfThePRC\SmartSchools\1.3.7\MinistryOfEducationOfThePRC.SmartSchools.yaml
+2025-04-16 20:54:12.282 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-16 20:54:12.283 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-16 20:54:12.284 INFO     Cleaned up MinistryOfEducationOfThePRC.SmartSchools.yaml
+2025-04-16 20:54:12.286 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\MinistryOfEducationOfThePRC\SmartSchools\1.3.7\MinistryOfEducationOfThePRC.SmartSchools.yaml
+2025-04-16 20:54:12.428 INFO   New manifests in D:\...\winget-pkgs\manifests\m\MinistryOfEducationOfThePRC\SmartSchools\1.3.7 for MinistryOfEducationOfThePRC.SmartSchools (1.3.7)
+2025-04-16 20:59:58.735 INFO     清单验证成功。
+2025-04-16 20:59:58.744 INFO   Staging and Committing Changes to Git
+2025-04-16 21:00:08.226 INFO     Commit message: New version: MinistryOfEducationOfThePRC.SmartSchools version 1.3.7 (Auto)
+2025-04-16 21:00:08.227 INFO   Pushing changes to remote (origin) repository
+2025-04-16 21:01:06.224 INFO     Successfully pushed to remote (origin): NewVersion-MinistryOfEducationOfThePRC.SmartSchools-1.3.7
+2025-04-16 21:01:09.129 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/248762
+2025-04-16 21:01:09.131 INFO All manifests have been modified and pushed through.
+2025-04-16 21:01:13.115 INFO Workspace clean-up completed.
+~~ End of logging ~~
