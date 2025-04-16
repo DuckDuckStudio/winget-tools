@@ -1,0 +1,45 @@
+~~ Start logging ~~
+2025-04-16 18:16:16.611 FUN :)
+2025-04-16 18:16:16.616 INFO Found the following version folder: ['1.3.2', '1.3.3', '1.3.4', '1.3.5', '1.3.6', '1.3.7', '1.3.7.1']
+2025-04-16 18:16:16.816 INFO Skip version 1.3.2, because it's not in the list of versions to be modified.
+2025-04-16 18:16:16.817 INFO Skip version 1.3.3, because it's not in the list of versions to be modified.
+2025-04-16 18:16:16.818 INFO Skip version 1.3.4, because it's not in the list of versions to be modified.
+2025-04-16 18:16:16.819 INFO Skip version 1.3.5, because it's not in the list of versions to be modified.
+2025-04-16 18:16:16.820 INFO Skip version 1.3.6, because it's not in the list of versions to be modified.
+2025-04-16 18:16:16.821 INFO Skip version 1.3.7, because it's not in the list of versions to be modified.
+2025-04-16 18:16:16.822 INFO Processing version folder: 1.3.7.1
+2025-04-16 18:16:16.823 INFO   Create and checkout to a new branch: NewVersion-DuckStudio.FufuTools-1.3.7.1
+2025-04-16 18:16:22.843 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.7.1\DuckStudio.FufuTools.installer.yaml
+2025-04-16 18:16:22.845 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-16 18:16:22.846 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-16 18:16:22.847 INFO     Cleaned up DuckStudio.FufuTools.installer.yaml
+2025-04-16 18:16:22.848 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.7.1\DuckStudio.FufuTools.installer.yaml
+2025-04-16 18:16:23.198 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.7.1\DuckStudio.FufuTools.locale.en-US.yaml
+2025-04-16 18:16:23.201 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-16 18:16:23.203 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-16 18:16:23.204 INFO     Cleaned up DuckStudio.FufuTools.locale.en-US.yaml
+2025-04-16 18:16:23.208 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.7.1\DuckStudio.FufuTools.locale.en-US.yaml
+2025-04-16 18:16:23.349 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.7.1\DuckStudio.FufuTools.locale.zh-CN.yaml
+2025-04-16 18:16:23.352 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-16 18:16:23.354 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-16 18:16:23.355 INFO     Cleaned up DuckStudio.FufuTools.locale.zh-CN.yaml
+2025-04-16 18:16:23.357 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.7.1\DuckStudio.FufuTools.locale.zh-CN.yaml
+2025-04-16 18:16:23.498 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.7.1\DuckStudio.FufuTools.yaml
+2025-04-16 18:16:23.500 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-16 18:16:23.501 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-16 18:16:23.502 INFO     Cleaned up DuckStudio.FufuTools.yaml
+2025-04-16 18:16:23.506 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.7.1\DuckStudio.FufuTools.yaml
+2025-04-16 18:16:23.691 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.7.1 for DuckStudio.FufuTools (1.3.7.1)
+2025-04-16 18:16:30.155 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-04-16 18:16:30.156 INFO       - 程序包
+2025-04-16 18:16:30.157 INFO           Microsoft.VCRedist.2015+.x64
+2025-04-16 18:16:30.158 INFO           Microsoft.VCRedist.2015+.x86
+2025-04-16 18:16:30.159 INFO     清单验证成功。
+2025-04-16 18:16:30.167 INFO   Staging and Committing Changes to Git
+2025-04-16 18:16:42.297 INFO     Commit message: New version: DuckStudio.FufuTools version 1.3.7.1 (Auto)
+2025-04-16 18:16:42.298 INFO   Pushing changes to remote (origin) repository
+2025-04-16 18:16:48.273 INFO     Successfully pushed to remote (origin): NewVersion-DuckStudio.FufuTools-1.3.7.1
+2025-04-16 18:16:50.421 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/248737
+2025-04-16 18:16:50.427 INFO All manifests have been modified and pushed through.
+2025-04-16 18:16:54.675 INFO Workspace clean-up completed.
+~~ End of logging ~~
