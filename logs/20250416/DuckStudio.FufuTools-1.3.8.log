@@ -1,0 +1,41 @@
+~~ Start logging ~~
+2025-04-16 16:08:20.824 FUN Just do it!
+2025-04-16 16:08:20.827 INFO Found the following version folder: ['1.3.2', '1.3.3', '1.3.4', '1.3.5', '1.3.6', '1.3.7', '1.3.8']
+2025-04-16 16:08:20.970 INFO Skip version 1.3.2, because it's not in the list of versions to be modified.
+2025-04-16 16:08:20.971 INFO Skip version 1.3.3, because it's not in the list of versions to be modified.
+2025-04-16 16:08:20.972 INFO Skip version 1.3.4, because it's not in the list of versions to be modified.
+2025-04-16 16:08:20.973 INFO Skip version 1.3.5, because it's not in the list of versions to be modified.
+2025-04-16 16:08:20.973 INFO Skip version 1.3.6, because it's not in the list of versions to be modified.
+2025-04-16 16:08:20.974 INFO Skip version 1.3.7, because it's not in the list of versions to be modified.
+2025-04-16 16:08:20.974 INFO Processing version folder: 1.3.8
+2025-04-16 16:08:20.975 INFO   Create and checkout to a new branch: NewVersion-DuckStudio.FufuTools-1.3.8
+2025-04-16 16:08:32.617 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.8\DuckStudio.FufuTools.installer.yaml
+2025-04-16 16:08:32.754 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-16 16:08:32.774 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-16 16:08:32.775 INFO     Cleaned up DuckStudio.FufuTools.installer.yaml
+2025-04-16 16:08:32.787 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.8\DuckStudio.FufuTools.installer.yaml
+2025-04-16 16:08:33.927 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.8\DuckStudio.FufuTools.locale.en-US.yaml
+2025-04-16 16:08:34.942 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-16 16:08:34.125 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-16 16:08:34.155 INFO     Cleaned up DuckStudio.FufuTools.locale.en-US.yaml
+2025-04-16 16:08:34.357 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.8\DuckStudio.FufuTools.locale.en-US.yaml
+2025-04-16 16:08:34.952 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.8\DuckStudio.FufuTools.locale.zh-CN.yaml
+2025-04-16 16:08:34.966 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-16 16:08:34.979 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-16 16:08:34.980 INFO     Cleaned up DuckStudio.FufuTools.locale.zh-CN.yaml
+2025-04-16 16:08:35.140 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.8\DuckStudio.FufuTools.locale.zh-CN.yaml
+2025-04-16 16:08:35.326 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.8\DuckStudio.FufuTools.yaml
+2025-04-16 16:08:35.547 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-16 16:08:35.599 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-16 16:08:35.603 INFO     Cleaned up DuckStudio.FufuTools.yaml
+2025-04-16 16:08:35.607 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.8\DuckStudio.FufuTools.yaml
+2025-04-16 16:08:36.946 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.3.8 for DuckStudio.FufuTools (1.3.8)
+2025-04-16 16:16:42.237 INFO     清单验证成功。
+2025-04-16 16:16:42.104 INFO   Staging and Committing Changes to Git
+2025-04-16 16:16:52.910 INFO     Commit message: New version: DuckStudio.FufuTools version 1.3.8 (Auto)
+2025-04-16 16:16:52.911 INFO   Pushing changes to remote (origin) repository
+2025-04-16 16:16:58.190 INFO     Successfully pushed to remote (origin): NewVersion-DuckStudio.FufuTools-1.3.8
+2025-04-16 16:16:59.925 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/248722
+2025-04-16 16:16:59.928 INFO All manifests have been modified and pushed through.
+2025-04-16 16:17:05.513 INFO Workspace clean-up completed.
+~~ End of logging ~~
