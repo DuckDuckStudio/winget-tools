@@ -300,6 +300,7 @@ namespace checker
                 "https://www.argyllcms.com/", // 服务器拒绝冲泡咖啡
                 "https://www.elcomsoft.com/", "https://pbank.bankcomm.cn/personbank/download/SecEditCFCAforBoCom.exe", // SSL错误
                 "https://catsxp.oss-cn-hongkong.aliyuncs.com", // 无任何可用版本
+                "https://github.com/GopeedLab/gopeed/releases/download/v1.7.0/Gopeed-v1.6.12-windows-amd64.zip", "https://featherwallet.org/files/releases/win-installer/FeatherWalletSetup-2.4.5.exe", "https://github.com/ClassicOldSong/Apollo/releases/download/v0.3.4/Apollo.exe", // WIP
             ];
             return excludedDomains.Any(domain => url.Contains(domain));
         }
