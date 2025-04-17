@@ -1,34 +1,34 @@
 ~~ Start logging ~~
-2025-04-17 13:17:05.395 FUN :)
-2025-04-17 13:17:05.398 INFO Found the following version folder: ['0.3.0', '0.3.1-hotfox.1', '0.3.3', '0.3.4', 'v0.2.6-alpha.3', 'v0.2.7', 'v0.2.8-alpha.5', 'v0.2.9-alpha.8']
-2025-04-17 13:17:05.501 INFO Skip version 0.3.0. - Not in the list to be modified.
-2025-04-17 13:17:05.502 INFO Skip version 0.3.1-hotfox.1. - Not in the list to be modified.
-2025-04-17 13:17:05.503 INFO Skip version 0.3.3. - Not in the list to be modified.
-2025-04-17 13:17:05.504 INFO Processing version folder: 0.3.4
-2025-04-17 13:17:05.504 INFO   Create and checkout to a new branch: Modify-ClassicOldSong.Apollo-0.3.4
-2025-04-17 13:17:15.100 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\ClassicOldSong\Apollo\0.3.4\ClassicOldSong.Apollo.installer.yaml
-2025-04-17 13:17:15.271 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
-2025-04-17 13:17:15.351 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
-2025-04-17 13:17:15.422 INFO     Update InstallerUrl
-2025-04-17 13:17:15.544 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\ClassicOldSong\Apollo\0.3.4\ClassicOldSong.Apollo.installer.yaml
-2025-04-17 13:17:15.673 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\ClassicOldSong\Apollo\0.3.4\ClassicOldSong.Apollo.locale.en-US.yaml
-2025-04-17 13:17:15.905 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
-2025-04-17 13:17:15.979 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
-2025-04-17 13:17:15.110 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\ClassicOldSong\Apollo\0.3.4\ClassicOldSong.Apollo.locale.en-US.yaml
-2025-04-17 13:17:15.118 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\ClassicOldSong\Apollo\0.3.4\ClassicOldSong.Apollo.yaml
-2025-04-17 13:17:15.127 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
-2025-04-17 13:17:15.135 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
-2025-04-17 13:17:15.157 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\ClassicOldSong\Apollo\0.3.4\ClassicOldSong.Apollo.yaml
-2025-04-17 13:17:15.226 INFO     清单验证成功。
-2025-04-17 13:17:15.237 INFO   Staging and Committing Changes to Git
-2025-04-17 13:17:30.106 INFO     Commit message: Modify: ClassicOldSong.Apollo version 0.3.4 (Auto)
-2025-04-17 13:17:30.107 INFO   Pushing changes to remote (origin) repository
-2025-04-17 13:17:35.434 INFO     Successfully pushed to remote (origin): Modify-ClassicOldSong.Apollo-0.3.4
-2025-04-17 13:17:36.931 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/249042
-2025-04-17 13:17:36.935 INFO Skip version v0.2.6-alpha.3. - Not in the list to be modified.
-2025-04-17 13:17:36.936 INFO Skip version v0.2.7. - Not in the list to be modified.
-2025-04-17 13:17:36.937 INFO Skip version v0.2.8-alpha.5. - Not in the list to be modified.
-2025-04-17 13:17:36.938 INFO Skip version v0.2.9-alpha.8. - Not in the list to be modified.
-2025-04-17 13:17:36.940 INFO All manifests have been modified and pushed through.
-2025-04-17 13:17:41.396 INFO Workspace clean-up completed.
+2025-04-17 13:33:02.336 FUN O v O
+2025-04-17 13:33:02.338 INFO Found the following version folder: ['0.3.0', '0.3.1-hotfox.1', '0.3.3', '0.3.4', 'v0.2.6-alpha.3', 'v0.2.7', 'v0.2.8-alpha.5', 'v0.2.9-alpha.8']
+2025-04-17 13:33:02.455 INFO Skip version 0.3.0. - Not in the list to be modified.
+2025-04-17 13:33:02.456 INFO Skip version 0.3.1-hotfox.1. - Not in the list to be modified.
+2025-04-17 13:33:02.457 INFO Skip version 0.3.3. - Not in the list to be modified.
+2025-04-17 13:33:02.458 INFO Processing version folder: 0.3.4
+2025-04-17 13:33:02.459 INFO   Create and checkout to a new branch: Modify-ClassicOldSong.Apollo-0.3.4
+2025-04-17 13:33:09.916 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\ClassicOldSong\Apollo\0.3.4\ClassicOldSong.Apollo.installer.yaml
+2025-04-17 13:33:09.918 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-17 13:33:09.919 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-17 13:33:09.921 INFO     Update InstallerUrl
+2025-04-17 13:33:09.922 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\ClassicOldSong\Apollo\0.3.4\ClassicOldSong.Apollo.installer.yaml
+2025-04-17 13:33:09.923 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\ClassicOldSong\Apollo\0.3.4\ClassicOldSong.Apollo.locale.en-US.yaml
+2025-04-17 13:33:09.924 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-17 13:33:09.925 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-17 13:33:09.926 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\ClassicOldSong\Apollo\0.3.4\ClassicOldSong.Apollo.locale.en-US.yaml
+2025-04-17 13:33:09.927 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\ClassicOldSong\Apollo\0.3.4\ClassicOldSong.Apollo.yaml
+2025-04-17 13:33:09.928 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-17 13:33:09.929 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-17 13:33:09.930 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\ClassicOldSong\Apollo\0.3.4\ClassicOldSong.Apollo.yaml
+2025-04-17 13:33:10.156 INFO     清单验证成功。
+2025-04-17 13:33:10.165 INFO   Staging and Committing Changes to Git
+2025-04-17 13:33:15.493 INFO     Commit message: Modify: ClassicOldSong.Apollo version 0.3.4 (Auto)
+2025-04-17 13:33:15.495 INFO   Pushing changes to remote (origin) repository
+2025-04-17 13:33:20.137 INFO     Successfully pushed to remote (origin): Modify-ClassicOldSong.Apollo-0.3.4
+2025-04-17 13:33:21.830 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/249044
+2025-04-17 13:33:21.832 INFO Skip version v0.2.6-alpha.3. - Not in the list to be modified.
+2025-04-17 13:33:21.833 INFO Skip version v0.2.7. - Not in the list to be modified.
+2025-04-17 13:33:21.834 INFO Skip version v0.2.8-alpha.5. - Not in the list to be modified.
+2025-04-17 13:33:21.835 INFO Skip version v0.2.9-alpha.8. - Not in the list to be modified.
+2025-04-17 13:33:21.837 INFO All manifests have been modified and pushed through.
+2025-04-17 13:33:26.301 INFO Workspace clean-up completed.
 ~~ End of logging ~~
