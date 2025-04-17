@@ -1,0 +1,70 @@
+~~ Start logging ~~
+2025-04-17 14:08:26.450 FUN O v O
+2025-04-17 14:08:26.462 INFO Found the following version folder: ['1.1.2', '1.2.0', '1.2.1', '1.2.2', '1.2.3', '1.3.0', '1.3.1', '1.3.10', '1.3.11', '1.3.12', '1.3.13', '1.3.2', '1.3.3', '1.3.4', '1.3.5', '1.3.6', '1.3.7', '1.3.8', '1.3.9', '1.4.0', '1.4.1', '1.4.2', '1.4.3', '1.4.4', '1.5.0', '1.5.1', '1.5.2', '1.5.3', '1.5.4', '1.5.5', '1.5.6', '1.5.7', '1.5.8', '1.5.9', '1.6.0', '1.6.1', '1.6.10', '1.6.11', '1.6.2', '1.6.3', '1.6.4', '1.6.5', '1.6.6', '1.6.7', '1.6.8', '1.6.9', '1.7.0', 'Web']
+2025-04-17 14:08:26.617 INFO Skip version 1.1.2. - Not in the list to be modified.
+2025-04-17 14:08:26.618 INFO Skip version 1.2.0. - Not in the list to be modified.
+2025-04-17 14:08:26.620 INFO Skip version 1.2.1. - Not in the list to be modified.
+2025-04-17 14:08:26.621 INFO Skip version 1.2.2. - Not in the list to be modified.
+2025-04-17 14:08:26.622 INFO Skip version 1.2.3. - Not in the list to be modified.
+2025-04-17 14:08:26.624 INFO Skip version 1.3.0. - Not in the list to be modified.
+2025-04-17 14:08:26.625 INFO Skip version 1.3.1. - Not in the list to be modified.
+2025-04-17 14:08:26.627 INFO Skip version 1.3.10. - Not in the list to be modified.
+2025-04-17 14:08:26.628 INFO Skip version 1.3.11. - Not in the list to be modified.
+2025-04-17 14:08:26.630 INFO Skip version 1.3.12. - Not in the list to be modified.
+2025-04-17 14:08:26.631 INFO Skip version 1.3.13. - Not in the list to be modified.
+2025-04-17 14:08:26.632 INFO Skip version 1.3.2. - Not in the list to be modified.
+2025-04-17 14:08:26.634 INFO Skip version 1.3.3. - Not in the list to be modified.
+2025-04-17 14:08:26.636 INFO Skip version 1.3.4. - Not in the list to be modified.
+2025-04-17 14:08:26.637 INFO Skip version 1.3.5. - Not in the list to be modified.
+2025-04-17 14:08:26.638 INFO Skip version 1.3.6. - Not in the list to be modified.
+2025-04-17 14:08:26.640 INFO Skip version 1.3.7. - Not in the list to be modified.
+2025-04-17 14:08:26.641 INFO Skip version 1.3.8. - Not in the list to be modified.
+2025-04-17 14:08:26.642 INFO Skip version 1.3.9. - Not in the list to be modified.
+2025-04-17 14:08:26.644 INFO Skip version 1.4.0. - Not in the list to be modified.
+2025-04-17 14:08:26.646 INFO Skip version 1.4.1. - Not in the list to be modified.
+2025-04-17 14:08:26.647 INFO Skip version 1.4.2. - Not in the list to be modified.
+2025-04-17 14:08:26.648 INFO Skip version 1.4.3. - Not in the list to be modified.
+2025-04-17 14:08:26.650 INFO Skip version 1.4.4. - Not in the list to be modified.
+2025-04-17 14:08:26.652 INFO Skip version 1.5.0. - Not in the list to be modified.
+2025-04-17 14:08:26.655 INFO Skip version 1.5.1. - Not in the list to be modified.
+2025-04-17 14:08:26.656 INFO Skip version 1.5.2. - Not in the list to be modified.
+2025-04-17 14:08:26.658 INFO Skip version 1.5.3. - Not in the list to be modified.
+2025-04-17 14:08:26.659 INFO Skip version 1.5.4. - Not in the list to be modified.
+2025-04-17 14:08:26.660 INFO Skip version 1.5.5. - Not in the list to be modified.
+2025-04-17 14:08:26.662 INFO Skip version 1.5.6. - Not in the list to be modified.
+2025-04-17 14:08:26.663 INFO Skip version 1.5.7. - Not in the list to be modified.
+2025-04-17 14:08:26.666 INFO Skip version 1.5.8. - Not in the list to be modified.
+2025-04-17 14:08:26.668 INFO Skip version 1.5.9. - Not in the list to be modified.
+2025-04-17 14:08:26.671 INFO Skip version 1.6.0. - Not in the list to be modified.
+2025-04-17 14:08:26.673 INFO Skip version 1.6.1. - Not in the list to be modified.
+2025-04-17 14:08:26.675 INFO Skip version 1.6.10. - Not in the list to be modified.
+2025-04-17 14:08:26.677 INFO Skip version 1.6.11. - Not in the list to be modified.
+2025-04-17 14:08:26.681 INFO Skip version 1.6.2. - Not in the list to be modified.
+2025-04-17 14:08:26.683 INFO Skip version 1.6.3. - Not in the list to be modified.
+2025-04-17 14:08:26.686 INFO Skip version 1.6.4. - Not in the list to be modified.
+2025-04-17 14:08:26.688 INFO Skip version 1.6.5. - Not in the list to be modified.
+2025-04-17 14:08:26.689 INFO Skip version 1.6.6. - Not in the list to be modified.
+2025-04-17 14:08:26.691 INFO Skip version 1.6.7. - Not in the list to be modified.
+2025-04-17 14:08:26.693 INFO Skip version 1.6.8. - Not in the list to be modified.
+2025-04-17 14:08:26.694 INFO Skip version 1.6.9. - Not in the list to be modified.
+2025-04-17 14:08:26.702 INFO Processing version folder: 1.7.0
+2025-04-17 14:08:26.704 INFO   Create and checkout to a new branch: Modify-monkeyWie.Gopeed-1.7.0-1744870106
+2025-04-17 14:08:37.109 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\monkeyWie\Gopeed\1.7.0\monkeyWie.Gopeed.installer.yaml
+2025-04-17 14:08:37.111 INFO     Update InstallerUrl
+2025-04-17 14:08:37.113 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\m\monkeyWie\Gopeed\1.7.0\monkeyWie.Gopeed.installer.yaml
+2025-04-17 14:08:37.114 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\monkeyWie\Gopeed\1.7.0\monkeyWie.Gopeed.locale.en-US.yaml
+2025-04-17 14:08:37.116 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\m\monkeyWie\Gopeed\1.7.0\monkeyWie.Gopeed.locale.en-US.yaml
+2025-04-17 14:08:37.118 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\monkeyWie\Gopeed\1.7.0\monkeyWie.Gopeed.yaml
+2025-04-17 14:08:37.121 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\m\monkeyWie\Gopeed\1.7.0\monkeyWie.Gopeed.yaml
+2025-04-17 14:08:37.122 INFO   Create a new locale manifest file: D:\...\winget-pkgs\manifests\m\monkeyWie\Gopeed\1.7.0\monkeyWie.Gopeed.locale.zh-CN.yaml
+2025-04-17 14:08:37.124 INFO     New locale manifest file created: D:\...\winget-pkgs\manifests\m\monkeyWie\Gopeed\1.7.0\monkeyWie.Gopeed.locale.zh-CN.yaml
+2025-04-17 14:08:37.381 INFO     清单验证成功。
+2025-04-17 14:08:37.391 INFO   Staging and Committing Changes to Git
+2025-04-17 14:08:46.869 INFO     Commit message: Modify: monkeyWie.Gopeed version 1.7.0 (Auto)
+2025-04-17 14:08:46.870 INFO   Pushing changes to remote (origin) repository
+2025-04-17 14:08:51.332 INFO     Successfully pushed to remote (origin): Modify-monkeyWie.Gopeed-1.7.0-1744870106
+2025-04-17 14:08:52.896 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/249048
+2025-04-17 14:08:52.898 INFO Skip version Web. - Not in the list to be modified.
+2025-04-17 14:08:52.899 INFO All manifests have been modified and pushed through.
+2025-04-17 14:08:59.281 INFO Workspace clean-up completed.
+~~ End of logging ~~
