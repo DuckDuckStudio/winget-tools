@@ -1,0 +1,41 @@
+~~ Start logging ~~
+2025-04-10 13:49:30.190 FUN 红石学多了，就丧失了人性。
+2025-04-10 13:49:30.193 INFO Found the following version folder: ['2024.12.25.12494060383', '2025.01.14.12764289055', '2025.01.15.12782147412', '2025.01.19.12849721517', '2025.01.22.12907017964', '2025.01.22.12911106870', '2025.03.07.13718228324', '2025.03.10.13761118669', '2025.04.10.14373190636']
+2025-04-10 13:49:30.347 INFO Skip version 2024.12.25.12494060383, because it's not in the list of versions to be modified.
+2025-04-10 13:49:30.349 INFO Skip version 2025.01.14.12764289055, because it's not in the list of versions to be modified.
+2025-04-10 13:49:30.350 INFO Skip version 2025.01.15.12782147412, because it's not in the list of versions to be modified.
+2025-04-10 13:49:30.351 INFO Skip version 2025.01.19.12849721517, because it's not in the list of versions to be modified.
+2025-04-10 13:49:30.352 INFO Skip version 2025.01.22.12907017964, because it's not in the list of versions to be modified.
+2025-04-10 13:49:30.353 INFO Skip version 2025.01.22.12911106870, because it's not in the list of versions to be modified.
+2025-04-10 13:49:30.354 INFO Skip version 2025.03.07.13718228324, because it's not in the list of versions to be modified.
+2025-04-10 13:49:30.355 INFO Skip version 2025.03.10.13761118669, because it's not in the list of versions to be modified.
+2025-04-10 13:49:30.356 INFO Processing version folder: 2025.04.10.14373190636
+2025-04-10 13:49:30.357 INFO   Create and checkout to a new branch: NewVersion-DuckStudio.GitHubView.Nightly-2025.04.10.14373190636
+2025-04-10 13:49:36.229 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.04.10.14373190636\DuckStudio.GitHubView.Nightly.installer.yaml
+2025-04-10 13:49:36.231 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-10 13:49:36.232 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-10 13:49:36.233 INFO     Cleaned up DuckStudio.GitHubView.Nightly.installer.yaml
+2025-04-10 13:49:36.234 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.04.10.14373190636\DuckStudio.GitHubView.Nightly.installer.yaml
+2025-04-10 13:49:36.451 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.04.10.14373190636\DuckStudio.GitHubView.Nightly.locale.en-US.yaml
+2025-04-10 13:49:36.457 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-10 13:49:36.458 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-10 13:49:36.459 INFO     Cleaned up DuckStudio.GitHubView.Nightly.locale.en-US.yaml
+2025-04-10 13:49:36.463 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.04.10.14373190636\DuckStudio.GitHubView.Nightly.locale.en-US.yaml
+2025-04-10 13:49:36.625 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.04.10.14373190636\DuckStudio.GitHubView.Nightly.locale.zh-CN.yaml
+2025-04-10 13:49:36.627 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-10 13:49:36.628 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-10 13:49:36.629 INFO     Cleaned up DuckStudio.GitHubView.Nightly.locale.zh-CN.yaml
+2025-04-10 13:49:36.632 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.04.10.14373190636\DuckStudio.GitHubView.Nightly.locale.zh-CN.yaml
+2025-04-10 13:49:36.788 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.04.10.14373190636\DuckStudio.GitHubView.Nightly.yaml
+2025-04-10 13:49:36.790 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-10 13:49:36.791 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-10 13:49:36.792 INFO     Cleaned up DuckStudio.GitHubView.Nightly.yaml
+2025-04-10 13:49:36.794 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.04.10.14373190636\DuckStudio.GitHubView.Nightly.yaml
+2025-04-10 13:49:36.960 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.04.10.14373190636 for DuckStudio.GitHubView.Nightly (1.10.0)
+2025-04-10 14:00:01.718 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-04-10 14:00:01.719 INFO       - 程序包
+2025-04-10 14:00:01.720 INFO           Microsoft.DotNet.Runtime.9
+2025-04-10 14:00:01.721 INFO     清单验证成功。
+2025-04-10 14:00:01.733 INFO   Staging and Committing Changes to Git
+2025-04-10 14:00:11.893 INFO     Commit message: New version: DuckStudio.GitHubView.Nightly version 2025.04.10.14373190636 (Auto)
+2025-04-10 14:00:11.905 INFO   Pushing changes to remote (origin) repository

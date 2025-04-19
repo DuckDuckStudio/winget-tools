@@ -37,8 +37,10 @@ namespace checker
             }
 
             await CheckUrlsInYamlFiles(folderPath, failureLevel);
-            Console.WriteLine("所有安装程序链接正常");
+            Console.WriteLine("\n所有检查的链接正常");
         }
+
+        internal static readonly string[] installerType = [".exe", ".zip", ".msi", ".msix", ".appx"];
 
         static async Task CheckUrlsInYamlFiles(string folderPath, string failureLevel)
         {
@@ -85,9 +87,10 @@ namespace checker
                                         message = "Unknown - 未知";
                                     }
 
-                                    if (url.EndsWith(".exe") || url.EndsWith(".zip") || url.EndsWith(".msi") || url.EndsWith(".msix") || url.EndsWith(".appx"))
+                                    if (installerType.Any(ext => url.EndsWith(ext, StringComparison.OrdinalIgnoreCase)))
                                     {
                                         Console.WriteLine($"\n[Error] (安装程序返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})");
+                                        Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath).Replace(".installer.yaml", "")} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
                                         Environment.Exit(1);
                                     }
                                     else
@@ -95,6 +98,7 @@ namespace checker
                                         Console.WriteLine($"\n[Warning] (安装程序? 返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})");
                                         if (failureLevel == "warning")
                                         {
+                                            Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath).Replace(".installer.yaml", "")} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
                                             Environment.Exit(1);
                                         }
                                     }
@@ -106,6 +110,7 @@ namespace checker
                                         Console.WriteLine($"\n[Warning] {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (Forbidden - 已禁止)");
                                         if (failureLevel == "warning")
                                         {
+                                            Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath).Replace(".installer.yaml", "")} {Path.GetFileName(Path.GetDirectoryName(filePath))} \"It returns a 403 status code in GitHub Action.\"");
                                             Environment.Exit(1);
                                         }
                                     }
@@ -150,6 +155,7 @@ namespace checker
                                     Console.WriteLine($"\n[Warning] {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (≥400 - 客户端错误)");
                                     if (failureLevel == "warning")
                                     {
+                                        Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath).Replace(".installer.yaml", "")} {Path.GetFileName(Path.GetDirectoryName(filePath))} \"It returns a {(int)response.StatusCode} (≥ 400) status code in GitHub Action.\"");
                                         Environment.Exit(1);
                                     }
                                 }
@@ -180,6 +186,8 @@ namespace checker
                             Console.Write("-");
 #if DEBUG
                             Console.WriteLine($"\n[Debug] 访问 {filePath} 中的 {url} 时超时: {e.Message}");
+#else
+                            _ = e; // 非 Debug 模式下忽略 e 的定义以避免 CS0168 警告
 #endif
                         }
                         catch (UriFormatException e)
@@ -285,12 +293,13 @@ namespace checker
             [
                 "https://www.betterbird.eu/", "https://software.sonicwall.com/GlobalVPNClient/GVCSetup32.exe", "https://github.com/coq/platform/releases/", "typora", "https://storage.jd.com/joymeeting-app/app/JoyMeeting.exe", // 过于复杂
                 "https://github.com/paintdotnet/release/", "https://cdn.kde.org/ci-builds/education/kiten/master/windows/", // 更新时移除
-                "https://cdn.krisp.ai", "https://www.huaweicloud.com/", "https://mirrors.kodi.tv", "https://scache.vzw.com", "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", "https://www.magicdesktop.com/get/kiosk?src=winget", "https://dl.makeblock.com/", "https://download.voicecloud.cn/", "https://dl.jisupdftoword.com/", "https://www.123pan.com/", "jisupdf.com", "https://dl.jisupdfeditor.com/jisupdfeditor_setup_3.0.6.2.exe", // 假404
+                "https://cdn.krisp.ai", "https://www.huaweicloud.com/", "https://mirrors.kodi.tv", "https://scache.vzw.com", "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", "https://www.magicdesktop.com/get/kiosk?src=winget", "https://dl.makeblock.com/", "https://download.voicecloud.cn/", "https://dl.jisupdftoword.com/", "https://www.123pan.com/", "jisupdf.com", "jisupdfeditor.com", // 假404
                 "https://www.deezer.com/", ".mil", // 无法验证
                 "https://downloads.mysql.com/", "https://swcdn.apple.com/content/downloads/", "sourceforge.net", // 假403
                 "https://issuepcdn.baidupcs.com/", "https://lf-luna-release.qishui.com/obj/luna-release/", "https://down.360safe.com/cse/", // 超时
                 "https://www.argyllcms.com/", // 服务器拒绝冲泡咖啡
-                "https://www.elcomsoft.com/", // SSL错误
+                "https://www.elcomsoft.com/", "https://pbank.bankcomm.cn/personbank/download/SecEditCFCAforBoCom.exe", // SSL错误
+                "https://catsxp.oss-cn-hongkong.aliyuncs.com", // 无任何可用版本
             ];
             return excludedDomains.Any(domain => url.Contains(domain));
         }

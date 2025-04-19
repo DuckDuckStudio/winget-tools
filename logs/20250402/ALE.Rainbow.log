@@ -1,0 +1,39 @@
+~~ Start logging ~~
+2025-04-02 10:04:14.117 FUN 人性是什么？能量产吗？效率多少？
+2025-04-02 10:04:14.117 INFO Found the following version folder: ['2.139.2.0', '2.149.4.0']
+2025-04-02 10:04:14.182 INFO Processing version folder: 2.139.2.0
+2025-04-02 10:04:14.184 INFO   Create and checkout to a new branch: Modify-ALE.Rainbow-2.139.2.0
+2025-04-02 10:04:21.560 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\ALE\Rainbow\2.139.2.0\ALE.Rainbow.installer.yaml
+2025-04-02 10:04:21.560 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-02 10:04:21.560 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-02 10:04:21.560 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
+2025-04-02 10:04:21.560 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\a\ALE\Rainbow\2.139.2.0\ALE.Rainbow.installer.yaml
+2025-04-02 10:04:21.560 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\ALE\Rainbow\2.139.2.0\ALE.Rainbow.locale.en-US.yaml
+2025-04-02 10:04:21.560 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-02 10:04:21.560 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-02 10:04:21.717 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
+2025-04-02 10:04:21.717 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\a\ALE\Rainbow\2.139.2.0\ALE.Rainbow.locale.en-US.yaml
+2025-04-02 10:04:21.717 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\ALE\Rainbow\2.139.2.0\ALE.Rainbow.locale.zh-CN.yaml
+2025-04-02 10:04:21.717 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-02 10:04:21.717 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-02 10:04:21.717 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
+2025-04-02 10:04:21.717 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\a\ALE\Rainbow\2.139.2.0\ALE.Rainbow.locale.zh-CN.yaml
+2025-04-02 10:04:21.717 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\ALE\Rainbow\2.139.2.0\ALE.Rainbow.yaml
+2025-04-02 10:04:21.717 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-02 10:04:21.717 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-02 10:04:21.717 WARNING   This is a semi-automatic process, the automation will not make substantial changes to the manifest, only formatting.
+2025-04-02 10:04:21.873 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\a\ALE\Rainbow\2.139.2.0\ALE.Rainbow.yaml
+2025-04-02 10:04:21.369 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-04-02 10:04:21.384 INFO       - 程序包
+2025-04-02 10:04:21.384 INFO           Microsoft.VCRedist.2015+.x86
+2025-04-02 10:04:21.384 INFO           Microsoft.VCRedist.2015+.x64
+2025-04-02 10:04:21.384 INFO     清单验证成功。
+2025-04-02 10:04:21.384 INFO   Staging and Committing Changes to Git
+2025-04-02 10:04:39.523 INFO     Commit message: Modify: ALE.Rainbow version 2.139.2.0 (Auto)
+2025-04-02 10:04:39.523 INFO   Pushing changes to remote (origin) repository
+2025-04-02 10:04:43.304 INFO     Successfully pushed to remote (origin): Modify-ALE.Rainbow-2.139.2.0
+2025-04-02 10:04:44.984 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/244504
+2025-04-02 10:04:44.984 INFO Skip version 2.149.4.0, because it's not needs changing.
+2025-04-02 10:04:44.984 INFO All manifests have been modified and pushed through.
+2025-04-02 10:04:49.689 INFO Workspace clean-up completed.
+~~ End of logging ~~

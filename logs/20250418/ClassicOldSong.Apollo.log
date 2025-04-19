@@ -1,0 +1,28 @@
+~~ Start logging ~~
+2025-04-18 13:34:39.129 FUN 星际和平商城年终大促，各种精品好物价格史低不容错过！
+2025-04-18 13:34:39.371 INFO Found the following version folder: ['0.3.0', '0.3.1-hotfox.1', '0.3.3', '0.3.4', 'v0.2.6-alpha.3', 'v0.2.7', 'v0.2.8-alpha.5', 'v0.2.9-alpha.8']
+2025-04-18 13:34:39.108 INFO Skip version 0.3.0. - Not in the list to be modified.
+2025-04-18 13:34:39.109 INFO Skip version 0.3.1-hotfox.1. - Not in the list to be modified.
+2025-04-18 13:34:39.110 INFO Skip version 0.3.3. - Not in the list to be modified.
+2025-04-18 13:34:39.111 INFO Processing version folder: 0.3.4
+2025-04-18 13:34:39.112 INFO   Create and checkout to a new branch: Modify-ClassicOldSong.Apollo-0.3.4-1744954479
+2025-04-18 13:34:46.452 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\ClassicOldSong\Apollo\0.3.4\ClassicOldSong.Apollo.installer.yaml
+2025-04-18 13:34:46.453 INFO     Update InstallerUrl
+2025-04-18 13:34:46.465 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\ClassicOldSong\Apollo\0.3.4\ClassicOldSong.Apollo.installer.yaml
+2025-04-18 13:34:46.467 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\ClassicOldSong\Apollo\0.3.4\ClassicOldSong.Apollo.locale.en-US.yaml
+2025-04-18 13:34:46.470 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\ClassicOldSong\Apollo\0.3.4\ClassicOldSong.Apollo.locale.en-US.yaml
+2025-04-18 13:34:46.471 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\ClassicOldSong\Apollo\0.3.4\ClassicOldSong.Apollo.yaml
+2025-04-18 13:34:46.472 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\c\ClassicOldSong\Apollo\0.3.4\ClassicOldSong.Apollo.yaml
+2025-04-18 13:34:46.716 INFO     清单验证成功。
+2025-04-18 13:34:46.728 INFO   Staging and Committing Changes to Git
+2025-04-18 13:34:53.228 INFO     Commit message: Modify: ClassicOldSong.Apollo version 0.3.4 (Auto)
+2025-04-18 13:34:53.230 INFO   Pushing changes to remote (origin) repository
+2025-04-18 13:34:58.888 INFO     Successfully pushed to remote (origin): Modify-ClassicOldSong.Apollo-0.3.4-1744954479
+2025-04-18 13:34:59.729 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/249307
+2025-04-18 13:34:59.732 INFO Skip version v0.2.6-alpha.3. - Not in the list to be modified.
+2025-04-18 13:34:59.734 INFO Skip version v0.2.7. - Not in the list to be modified.
+2025-04-18 13:34:59.735 INFO Skip version v0.2.8-alpha.5. - Not in the list to be modified.
+2025-04-18 13:34:59.736 INFO Skip version v0.2.9-alpha.8. - Not in the list to be modified.
+2025-04-18 13:34:59.737 INFO All manifests have been modified and pushed through.
+2025-04-18 13:35:04.103 INFO Workspace clean-up completed.
+~~ End of logging ~~

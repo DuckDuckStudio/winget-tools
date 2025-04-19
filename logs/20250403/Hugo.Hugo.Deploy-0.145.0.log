@@ -1,0 +1,30 @@
+~~ Start logging ~~
+2025-04-03 10:40:58.524 FUN 如果你染上了__，你这辈子就完了！
+2025-04-03 10:40:58.540 INFO Found the following version folder: ['0.145.0']
+2025-04-03 10:40:58.649 INFO Processing version folder: 0.145.0
+2025-04-03 10:40:58.649 INFO   Create and checkout to a new branch: NewVersion-Hugo.Hugo.Deploy-0.145.0
+2025-04-03 10:41:05.418 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\Hugo\Hugo\Deploy\0.145.0\Hugo.Hugo.Deploy.installer.yaml
+2025-04-03 10:41:05.418 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-03 10:41:05.418 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-03 10:41:05.418 INFO     Cleaned up Hugo.Hugo.Deploy.installer.yaml
+2025-04-03 10:41:05.418 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\h\Hugo\Hugo\Deploy\0.145.0\Hugo.Hugo.Deploy.installer.yaml
+2025-04-03 10:41:05.590 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\Hugo\Hugo\Deploy\0.145.0\Hugo.Hugo.Deploy.locale.en-US.yaml
+2025-04-03 10:41:05.590 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-03 10:41:05.590 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-03 10:41:05.590 INFO     Cleaned up Hugo.Hugo.Deploy.locale.en-US.yaml
+2025-04-03 10:41:05.590 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\h\Hugo\Hugo\Deploy\0.145.0\Hugo.Hugo.Deploy.locale.en-US.yaml
+2025-04-03 10:41:05.699 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\Hugo\Hugo\Deploy\0.145.0\Hugo.Hugo.Deploy.yaml
+2025-04-03 10:41:05.699 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-03 10:41:05.699 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-03 10:41:05.699 INFO     Cleaned up Hugo.Hugo.Deploy.yaml
+2025-04-03 10:41:05.699 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\h\Hugo\Hugo\Deploy\0.145.0\Hugo.Hugo.Deploy.yaml
+2025-04-03 10:41:05.840 INFO   New manifests in D:\...\winget-pkgs\manifests\h\Hugo\Hugo\Deploy\0.145.0 for Hugo.Hugo.Deploy (1.10.0)
+2025-04-03 10:49:38.214 INFO     清单验证成功。
+2025-04-03 10:49:38.214 INFO   Staging and Committing Changes to Git
+2025-04-03 10:49:50.956 INFO     Commit message: New version: Hugo.Hugo.Deploy version 0.145.0 (Auto)
+2025-04-03 10:49:50.956 INFO   Pushing changes to remote (origin) repository
+2025-04-03 10:49:55.913 INFO     Successfully pushed to remote (origin): NewVersion-Hugo.Hugo.Deploy-0.145.0
+2025-04-03 10:49:57.411 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/244722
+2025-04-03 10:49:57.411 INFO All manifests have been modified and pushed through.
+2025-04-03 10:50:01.683 INFO Workspace clean-up completed.
+~~ End of logging ~~

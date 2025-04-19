@@ -10,6 +10,7 @@ on:
         options:
           - error
           - warning
+          - no-fail
       fork:
         description: "检查的 fork 仓库的所有者"
         required: true
@@ -41,7 +42,7 @@ jobs:
       - name: 设置 .NET
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '9.0.x'
+          dotnet-version: '9.x'
 
       - name: 保持所有最新
         # Only on Ubuntu Runner
@@ -57,3 +58,4 @@ jobs:
 
       - name: 执行检查
         run: dotnet run --project "auto_script/check/checker/checker.csproj" --configuration ${{ github.event.inputs.mode }} -- ${{ matrix.subdirectory }} ${{ github.event.inputs.fail_level }}
+        continue-on-error: ${{ github.event.inputs.fail_level == 'no-fail' }}

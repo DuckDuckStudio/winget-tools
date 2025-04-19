@@ -530,3 +530,9 @@ FodyWeavers.xsd
 # Debug Config
 launchSettings.json
 .editorconfig
+
+# ==============================================================================
+
+# Test files
+test/
+test.*

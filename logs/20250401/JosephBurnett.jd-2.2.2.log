@@ -1,0 +1,30 @@
+~~ Start logging ~~
+2025-04-01 14:08:49.865 FUN 老叽米专门为大家争取到了2000个优先抢购名额，进入星际和平商城输入「狐人总冠军」，即刻领取专属优惠券！ 数量有限，先到先得！快快抢购吧！
+2025-04-01 14:08:49.865 INFO Found the following version folder: ['2.2.2']
+2025-04-01 14:08:49.990 INFO Processing version folder: 2.2.2
+2025-04-01 14:08:49.990 INFO   Create and checkout to a new branch: NewVersion-JosephBurnett.jd-2.2.2
+2025-04-01 14:08:57.745 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\j\JosephBurnett\jd\2.2.2\JosephBurnett.jd.installer.yaml
+2025-04-01 14:08:57.769 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-01 14:08:57.769 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-01 14:08:57.769 INFO     Cleaned up JosephBurnett.jd.installer.yaml
+2025-04-01 14:08:57.769 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\j\JosephBurnett\jd\2.2.2\JosephBurnett.jd.installer.yaml
+2025-04-01 14:08:57.979 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\j\JosephBurnett\jd\2.2.2\JosephBurnett.jd.locale.en-US.yaml
+2025-04-01 14:08:57.979 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-01 14:08:57.979 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-01 14:08:57.979 INFO     Cleaned up JosephBurnett.jd.locale.en-US.yaml
+2025-04-01 14:08:57.979 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\j\JosephBurnett\jd\2.2.2\JosephBurnett.jd.locale.en-US.yaml
+2025-04-01 14:08:58.104 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\j\JosephBurnett\jd\2.2.2\JosephBurnett.jd.yaml
+2025-04-01 14:08:58.120 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-01 14:08:58.120 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-01 14:08:58.120 INFO     Cleaned up JosephBurnett.jd.yaml
+2025-04-01 14:08:58.120 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\j\JosephBurnett\jd\2.2.2\JosephBurnett.jd.yaml
+2025-04-01 14:08:58.245 INFO   New manifests in D:\...\winget-pkgs\manifests\j\JosephBurnett\jd\2.2.2 for JosephBurnett.jd (1.10.0)
+2025-04-01 14:13:06.459 INFO     清单验证成功。
+2025-04-01 14:13:06.474 INFO   Staging and Committing Changes to Git
+2025-04-01 14:13:21.766 INFO     Commit message: New package: JosephBurnett.jd version 2.2.2 (Auto)
+2025-04-01 14:13:21.766 INFO   Pushing changes to remote (origin) repository
+2025-04-01 14:13:26.303 INFO     Successfully pushed to remote (origin): NewVersion-JosephBurnett.jd-2.2.2
+2025-04-01 14:13:28.146 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/244164
+2025-04-01 14:13:28.146 INFO All manifests have been modified and pushed through.
+2025-04-01 14:13:32.372 INFO Workspace clean-up completed.
+~~ End of logging ~~
