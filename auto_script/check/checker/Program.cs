@@ -40,7 +40,8 @@ namespace checker
             Console.WriteLine("\n所有检查的链接正常");
         }
 
-        internal static readonly string[] installerType = [".exe", ".zip", ".msi", ".msix", ".appx"];
+        internal static readonly string[] installerType = [".exe", ".zip", ".msi", ".msix", ".appx", "&download"];
+        // &download 为 sourceforge 和类似网站的下载链接
 
         static async Task CheckUrlsInYamlFiles(string folderPath, string failureLevel)
         {
