@@ -300,6 +300,7 @@ namespace checker
                 "https://www.argyllcms.com/", // 服务器拒绝冲泡咖啡
                 "https://www.elcomsoft.com/", "https://pbank.bankcomm.cn/personbank/download/SecEditCFCAforBoCom.exe", // SSL错误
                 "https://catsxp.oss-cn-hongkong.aliyuncs.com", // 无任何可用版本
+                "https://dl.he3app.com/", // WIP
             ];
             return excludedDomains.Any(domain => url.Contains(domain));
         }
