@@ -254,7 +254,7 @@ namespace checker
                             flag = must_check_manifest_keys.Contains(keyNode.Value);
                         }
                         // #if DEBUG
-                        //                         Console.WriteLine($"遍历到 {keyNode.Value} 键，值 {entry.Value}，标记为 {flag}...");
+                        // Console.WriteLine($"遍历到 {keyNode.Value} 键，值 {entry.Value}，标记为 {flag}...");
                         // #endif
                         // 仅当清单很少时才建议启用此输出
 
