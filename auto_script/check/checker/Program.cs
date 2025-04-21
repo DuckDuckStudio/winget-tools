@@ -301,7 +301,6 @@ namespace checker
                 "https://www.argyllcms.com/", // 服务器拒绝冲泡咖啡
                 "https://www.elcomsoft.com/", "https://pbank.bankcomm.cn/personbank/download/SecEditCFCAforBoCom.exe", // SSL错误
                 "https://catsxp.oss-cn-hongkong.aliyuncs.com", // 无任何可用版本
-                "https://dl.he3app.com/", "https://github.com/alagrede/znote-app/releases/download/v2.7.2/znote-Setup-2.7.2.exe", "https://dl.bandicam.com/old/BDCAMSETUP_ENG_3_2_1_1107.EXE", // WIP
             ];
             return excludedDomains.Any(domain => url.Contains(domain));
         }
