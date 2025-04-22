@@ -1,0 +1,57 @@
+~~ Start logging ~~
+2025-04-22 22:41:59.612 FUN 转生成为雷电将军，然后天下无敌
+2025-04-22 22:41:59.618 INFO Found the following version folder: ['1.11.6', '1.12.2', '1.13.5', '1.13.7', '1.15.6', '1.16.0', '1.17.2', '1.17.4', '1.18.1', '1.19.1', '1.19.6', '1.19.7', '1.20.1', '1.20.5', '1.21.0', '1.23.0', '1.24.0', '1.25.0', '1.25.2', '1.26.2', '1.27.0', '1.27.2', '1.29.0']
+2025-04-22 22:41:59.736 INFO Skip version 1.11.6, because it's not in the list of versions to be modified.
+2025-04-22 22:41:59.740 INFO Skip version 1.12.2, because it's not in the list of versions to be modified.
+2025-04-22 22:41:59.778 INFO Skip version 1.13.5, because it's not in the list of versions to be modified.
+2025-04-22 22:41:59.780 INFO Skip version 1.13.7, because it's not in the list of versions to be modified.
+2025-04-22 22:41:59.781 INFO Skip version 1.15.6, because it's not in the list of versions to be modified.
+2025-04-22 22:41:59.783 INFO Skip version 1.16.0, because it's not in the list of versions to be modified.
+2025-04-22 22:41:59.784 INFO Skip version 1.17.2, because it's not in the list of versions to be modified.
+2025-04-22 22:41:59.785 INFO Skip version 1.17.4, because it's not in the list of versions to be modified.
+2025-04-22 22:41:59.786 INFO Skip version 1.18.1, because it's not in the list of versions to be modified.
+2025-04-22 22:41:59.807 INFO Skip version 1.19.1, because it's not in the list of versions to be modified.
+2025-04-22 22:41:59.809 INFO Skip version 1.19.6, because it's not in the list of versions to be modified.
+2025-04-22 22:41:59.811 INFO Skip version 1.19.7, because it's not in the list of versions to be modified.
+2025-04-22 22:41:59.812 INFO Skip version 1.20.1, because it's not in the list of versions to be modified.
+2025-04-22 22:41:59.815 INFO Skip version 1.20.5, because it's not in the list of versions to be modified.
+2025-04-22 22:41:59.817 INFO Skip version 1.21.0, because it's not in the list of versions to be modified.
+2025-04-22 22:41:59.818 INFO Skip version 1.23.0, because it's not in the list of versions to be modified.
+2025-04-22 22:41:59.819 INFO Skip version 1.24.0, because it's not in the list of versions to be modified.
+2025-04-22 22:41:59.823 INFO Skip version 1.25.0, because it's not in the list of versions to be modified.
+2025-04-22 22:41:59.825 INFO Skip version 1.25.2, because it's not in the list of versions to be modified.
+2025-04-22 22:41:59.826 INFO Skip version 1.26.2, because it's not in the list of versions to be modified.
+2025-04-22 22:41:59.828 INFO Skip version 1.27.0, because it's not in the list of versions to be modified.
+2025-04-22 22:41:59.829 INFO Skip version 1.27.2, because it's not in the list of versions to be modified.
+2025-04-22 22:41:59.830 INFO Processing version folder: 1.29.0
+2025-04-22 22:41:59.831 INFO   Create and checkout to a new branch: NewVersion-IDEA.ReadPaper-1.29.0-1745332919
+2025-04-22 22:42:06.761 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\i\IDEA\ReadPaper\1.29.0\IDEA.ReadPaper.installer.yaml
+2025-04-22 22:42:06.762 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-04-22 22:42:06.764 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-04-22 22:42:06.765 INFO     Cleaned up IDEA.ReadPaper.installer.yaml
+2025-04-22 22:42:06.766 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\i\IDEA\ReadPaper\1.29.0\IDEA.ReadPaper.installer.yaml
+2025-04-22 22:42:06.987 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\i\IDEA\ReadPaper\1.29.0\IDEA.ReadPaper.locale.en-US.yaml
+2025-04-22 22:42:07.224 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-04-22 22:42:07.239 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-04-22 22:42:07.282 INFO     Cleaned up IDEA.ReadPaper.locale.en-US.yaml
+2025-04-22 22:42:07.304 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\i\IDEA\ReadPaper\1.29.0\IDEA.ReadPaper.locale.en-US.yaml
+2025-04-22 22:42:07.158 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\i\IDEA\ReadPaper\1.29.0\IDEA.ReadPaper.locale.zh-CN.yaml
+2025-04-22 22:42:07.160 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-04-22 22:42:07.162 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-04-22 22:42:07.163 INFO     Cleaned up IDEA.ReadPaper.locale.zh-CN.yaml
+2025-04-22 22:42:07.166 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\i\IDEA\ReadPaper\1.29.0\IDEA.ReadPaper.locale.zh-CN.yaml
+2025-04-22 22:42:07.308 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\i\IDEA\ReadPaper\1.29.0\IDEA.ReadPaper.yaml
+2025-04-22 22:42:07.311 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-04-22 22:42:07.312 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-04-22 22:42:07.313 INFO     Cleaned up IDEA.ReadPaper.yaml
+2025-04-22 22:42:07.316 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\i\IDEA\ReadPaper\1.29.0\IDEA.ReadPaper.yaml
+2025-04-22 22:42:07.478 INFO   New manifests in D:\...\winget-pkgs\manifests\i\IDEA\ReadPaper\1.29.0 for IDEA.ReadPaper (1.29.0)
+2025-04-22 22:43:05.992 INFO     清单验证成功。
+2025-04-22 22:43:06.551 INFO   Staging and Committing Changes to Git
+2025-04-22 22:43:15.355 INFO     Commit message: New version: IDEA.ReadPaper version 1.29.0 (Auto)
+2025-04-22 22:43:15.356 INFO   Pushing changes to remote (origin) repository
+2025-04-22 22:43:22.247 INFO     Successfully pushed to remote (origin): NewVersion-IDEA.ReadPaper-1.29.0-1745332919
+2025-04-22 22:43:24.422 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/250230
+2025-04-22 22:43:24.427 INFO All manifests have been modified and pushed through.
+2025-04-22 22:43:30.234 INFO Workspace clean-up completed.
+~~ End of logging ~~
