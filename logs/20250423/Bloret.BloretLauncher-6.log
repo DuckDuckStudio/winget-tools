@@ -1,0 +1,25 @@
+~~ Start logging ~~
+2025-04-23 17:27:54.955 FUN (·v·)
+2025-04-23 17:27:54.957 INFO Found the following version folder: ['4.3', '6']
+2025-04-23 17:27:55.980 INFO Skip version 4.3, because it's not in the list of versions to be modified.
+2025-04-23 17:27:55.997 INFO Processing version folder: 6
+2025-04-23 17:27:55.101 INFO   Create and checkout to a new branch: NewVersion-Bloret.BloretLauncher-6-1745400475
+2025-04-23 17:28:04.310 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Bloret\BloretLauncher\6\Bloret.BloretLauncher.installer.yaml
+2025-04-23 17:28:04.312 INFO     Cleaned up Bloret.BloretLauncher.installer.yaml
+2025-04-23 17:28:04.316 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Bloret\BloretLauncher\6\Bloret.BloretLauncher.installer.yaml
+2025-04-23 17:28:04.582 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Bloret\BloretLauncher\6\Bloret.BloretLauncher.locale.zh-CN.yaml
+2025-04-23 17:28:04.584 INFO     Cleaned up Bloret.BloretLauncher.locale.zh-CN.yaml
+2025-04-23 17:28:04.586 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Bloret\BloretLauncher\6\Bloret.BloretLauncher.locale.zh-CN.yaml
+2025-04-23 17:28:04.729 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Bloret\BloretLauncher\6\Bloret.BloretLauncher.yaml
+2025-04-23 17:28:04.731 INFO     Cleaned up Bloret.BloretLauncher.yaml
+2025-04-23 17:28:04.734 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Bloret\BloretLauncher\6\Bloret.BloretLauncher.yaml
+2025-04-23 17:28:04.879 INFO   New manifests in D:\...\winget-pkgs\manifests\b\Bloret\BloretLauncher\6 for Bloret.BloretLauncher (6)
+2025-04-23 17:28:11.388 INFO     清单验证成功。
+2025-04-23 17:28:12.359 INFO   Staging and Committing Changes to Git
+2025-04-23 17:28:19.999 INFO     Commit message: New version: Bloret.BloretLauncher version 6 (Auto)
+2025-04-23 17:28:20.971 INFO   Pushing changes to remote (origin) repository
+2025-04-23 17:28:25.811 INFO     Successfully pushed to remote (origin): NewVersion-Bloret.BloretLauncher-6-1745400475
+2025-04-23 17:28:27.734 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/250435
+2025-04-23 17:28:27.738 INFO All manifests have been modified and pushed through.
+2025-04-23 17:28:34.296 INFO Workspace clean-up completed.
+~~ End of logging ~~
