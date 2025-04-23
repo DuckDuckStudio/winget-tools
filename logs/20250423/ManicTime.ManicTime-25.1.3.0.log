@@ -1,0 +1,50 @@
+~~ Start logging ~~
+2025-04-23 08:24:21.162 FUN 如果你染上了__，你这辈子就完了！
+2025-04-23 08:24:21.173 INFO Found the following version folder: ['23.1.1.0', '23.3.2.0', '24.2.0.6', '24.2.2.0', '24.3.0.4', '24.3.2.2', '24.3.3.0', '24.3.4.0', '24.3.5.0', '25.1.3.0', '4.6.16.0', '4.6.18.0', '4.6.19.0', '4.6.20.0', '4.6.21.1', '4.6.22.0', '4.7.3.0', '5.0.3.0', '5.1.3.2', '5.1.6.0', '5.2.6.0']
+2025-04-23 08:24:21.542 INFO Skip version 23.1.1.0, because it's not in the list of versions to be modified.
+2025-04-23 08:24:21.545 INFO Skip version 23.3.2.0, because it's not in the list of versions to be modified.
+2025-04-23 08:24:21.548 INFO Skip version 24.2.0.6, because it's not in the list of versions to be modified.
+2025-04-23 08:24:21.551 INFO Skip version 24.2.2.0, because it's not in the list of versions to be modified.
+2025-04-23 08:24:21.552 INFO Skip version 24.3.0.4, because it's not in the list of versions to be modified.
+2025-04-23 08:24:21.554 INFO Skip version 24.3.2.2, because it's not in the list of versions to be modified.
+2025-04-23 08:24:21.556 INFO Skip version 24.3.3.0, because it's not in the list of versions to be modified.
+2025-04-23 08:24:21.558 INFO Skip version 24.3.4.0, because it's not in the list of versions to be modified.
+2025-04-23 08:24:21.560 INFO Skip version 24.3.5.0, because it's not in the list of versions to be modified.
+2025-04-23 08:24:21.562 INFO Processing version folder: 25.1.3.0
+2025-04-23 08:24:21.565 INFO   Create and checkout to a new branch: NewVersion-ManicTime.ManicTime-25.1.3.0-1745367861
+2025-04-23 08:24:34.431 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\ManicTime\ManicTime\25.1.3.0\ManicTime.ManicTime.installer.yaml
+2025-04-23 08:24:34.434 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-23 08:24:34.436 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-23 08:24:34.437 INFO     Cleaned up ManicTime.ManicTime.installer.yaml
+2025-04-23 08:24:34.440 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\ManicTime\ManicTime\25.1.3.0\ManicTime.ManicTime.installer.yaml
+2025-04-23 08:24:34.888 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\ManicTime\ManicTime\25.1.3.0\ManicTime.ManicTime.locale.en-US.yaml
+2025-04-23 08:24:34.892 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-23 08:24:34.895 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-23 08:24:34.900 INFO     Cleaned up ManicTime.ManicTime.locale.en-US.yaml
+2025-04-23 08:24:34.907 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\ManicTime\ManicTime\25.1.3.0\ManicTime.ManicTime.locale.en-US.yaml
+2025-04-23 08:24:35.255 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\ManicTime\ManicTime\25.1.3.0\ManicTime.ManicTime.yaml
+2025-04-23 08:24:35.257 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-23 08:24:35.259 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-23 08:24:35.261 INFO     Cleaned up ManicTime.ManicTime.yaml
+2025-04-23 08:24:35.267 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\ManicTime\ManicTime\25.1.3.0\ManicTime.ManicTime.yaml
+2025-04-23 08:24:35.746 INFO   New manifests in D:\...\winget-pkgs\manifests\m\ManicTime\ManicTime\25.1.3.0 for ManicTime.ManicTime (25.1.3.0)
+2025-04-23 08:25:24.966 INFO     清单验证成功。
+2025-04-23 08:25:25.119 INFO   Staging and Committing Changes to Git
+2025-04-23 08:25:39.414 INFO     Commit message: New version: ManicTime.ManicTime version 25.1.3.0 (Auto)
+2025-04-23 08:25:39.416 INFO   Pushing changes to remote (origin) repository
+2025-04-23 08:25:46.288 INFO     Successfully pushed to remote (origin): NewVersion-ManicTime.ManicTime-25.1.3.0-1745367861
+2025-04-23 08:25:48.629 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/250349
+2025-04-23 08:25:48.659 INFO Skip version 4.6.16.0, because it's not in the list of versions to be modified.
+2025-04-23 08:25:48.673 INFO Skip version 4.6.18.0, because it's not in the list of versions to be modified.
+2025-04-23 08:25:48.687 INFO Skip version 4.6.19.0, because it's not in the list of versions to be modified.
+2025-04-23 08:25:48.700 INFO Skip version 4.6.20.0, because it's not in the list of versions to be modified.
+2025-04-23 08:25:48.714 INFO Skip version 4.6.21.1, because it's not in the list of versions to be modified.
+2025-04-23 08:25:48.730 INFO Skip version 4.6.22.0, because it's not in the list of versions to be modified.
+2025-04-23 08:25:48.746 INFO Skip version 4.7.3.0, because it's not in the list of versions to be modified.
+2025-04-23 08:25:48.770 INFO Skip version 5.0.3.0, because it's not in the list of versions to be modified.
+2025-04-23 08:25:48.789 INFO Skip version 5.1.3.2, because it's not in the list of versions to be modified.
+2025-04-23 08:25:48.807 INFO Skip version 5.1.6.0, because it's not in the list of versions to be modified.
+2025-04-23 08:25:48.820 INFO Skip version 5.2.6.0, because it's not in the list of versions to be modified.
+2025-04-23 08:25:48.831 INFO All manifests have been modified and pushed through.
+2025-04-23 08:25:57.695 INFO Workspace clean-up completed.
+~~ End of logging ~~
