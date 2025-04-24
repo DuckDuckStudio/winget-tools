@@ -1,4 +1,5 @@
-name: 检查链接有效性 - 拆
+name: 检查链接有效性
+
 on:
   workflow_dispatch:
     inputs:
@@ -11,6 +12,7 @@ on:
           - error
           - warning
           - no-fail
+          - complete
       fork:
         description: "检查的 fork 仓库的所有者"
         required: true
@@ -50,5 +52,5 @@ jobs:
           git clone "https://github.com/${{ github.event.inputs.fork }}/winget-pkgs" "winget-pkgs" -b ${{ github.event.inputs.branch }} --depth 1
 
       - name: 执行检查
-        run: dotnet run --project "auto_script/check/checker/checker.csproj" --configuration ${{ github.event.inputs.mode }} -- ${{ matrix.subdirectory }} ${{ github.event.inputs.fail_level }}
+        run: dotnet run --project "checker/checker.csproj" --configuration ${{ github.event.inputs.mode }} -- ${{ matrix.subdirectory }} ${{ github.event.inputs.fail_level }}
         continue-on-error: ${{ github.event.inputs.fail_level == 'no-fail' }}

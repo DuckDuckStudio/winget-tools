@@ -92,7 +92,9 @@ namespace checker
                                     {
                                         Console.WriteLine($"\n[Error] (安装程序返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})");
                                         Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath).Replace(".installer.yaml", "")} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
-                                        Environment.Exit(1);
+                                        if (failureLevel != "complete") {
+                                            Environment.Exit(1);
+                                        }
                                     }
                                     else
                                     {
@@ -196,7 +198,9 @@ namespace checker
                             if (failureLevel == "warning" || filePath.Contains("installer.yaml"))
                             {
                                 Console.WriteLine($"\n[Error] {filePath} 中的 {url} 无效: {e.Message}");
-                                Environment.Exit(1);
+                                if (failureLevel != "complete") {
+                                    Environment.Exit(1);
+                                }
                             }
                             else
                             {
@@ -206,14 +210,18 @@ namespace checker
                         catch (Exception e)
                         {
                             Console.WriteLine($"\n[Error] {filePath} 中的 {url} 发生错误: {e.Message}");
-                            Environment.Exit(1);
+                            if (failureLevel != "complete") {
+                                Environment.Exit(1);
+                            }
                         }
                     }
                 }
                 catch (Exception e)
                 {
                     Console.WriteLine($"\n[Error] 处理文件 {filePath} 时发生错误: {e.Message}");
-                    Environment.Exit(1);
+                    if (failureLevel != "complete") {
+                        Environment.Exit(1);
+                    }
                 }
             }
         }
