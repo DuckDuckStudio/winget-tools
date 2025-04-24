@@ -1,0 +1,46 @@
+~~ Start logging ~~
+2025-04-24 14:33:30.366 FUN 进不去！怎么想都进不去吧！
+2025-04-24 14:33:30.369 INFO Found the following version folder: ['1.3.0', '1.3.1', '1.3.2', '1.4.0', '1.4.1', '1.4.2', '1.7.0', '1.7.1', '1.7.2', '1.7.6', '1.8.2', '1.8.5']
+2025-04-24 14:33:30.472 INFO Skip version 1.3.0, because it's not in the list of versions to be modified.
+2025-04-24 14:33:30.474 INFO Skip version 1.3.1, because it's not in the list of versions to be modified.
+2025-04-24 14:33:30.475 INFO Skip version 1.3.2, because it's not in the list of versions to be modified.
+2025-04-24 14:33:30.485 INFO Skip version 1.4.0, because it's not in the list of versions to be modified.
+2025-04-24 14:33:30.486 INFO Skip version 1.4.1, because it's not in the list of versions to be modified.
+2025-04-24 14:33:30.487 INFO Skip version 1.4.2, because it's not in the list of versions to be modified.
+2025-04-24 14:33:30.487 INFO Skip version 1.7.0, because it's not in the list of versions to be modified.
+2025-04-24 14:33:30.488 INFO Skip version 1.7.1, because it's not in the list of versions to be modified.
+2025-04-24 14:33:30.489 INFO Skip version 1.7.2, because it's not in the list of versions to be modified.
+2025-04-24 14:33:30.489 INFO Skip version 1.7.6, because it's not in the list of versions to be modified.
+2025-04-24 14:33:30.490 INFO Skip version 1.8.2, because it's not in the list of versions to be modified.
+2025-04-24 14:33:30.491 INFO Processing version folder: 1.8.5
+2025-04-24 14:33:30.491 INFO   Create and checkout to a new branch: NewVersion-Codemao.TurtleEditor.1-1.8.5-1745476410
+2025-04-24 14:33:38.431 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\1\1.8.5\Codemao.TurtleEditor.1.installer.yaml
+2025-04-24 14:33:38.445 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-24 14:33:38.453 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-24 14:33:38.459 INFO     Cleaned up Codemao.TurtleEditor.1.installer.yaml
+2025-04-24 14:33:38.486 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\1\1.8.5\Codemao.TurtleEditor.1.installer.yaml
+2025-04-24 14:33:38.278 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\1\1.8.5\Codemao.TurtleEditor.1.locale.en-US.yaml
+2025-04-24 14:33:38.282 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-24 14:33:38.284 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-24 14:33:38.284 INFO     Cleaned up Codemao.TurtleEditor.1.locale.en-US.yaml
+2025-04-24 14:33:38.286 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\1\1.8.5\Codemao.TurtleEditor.1.locale.en-US.yaml
+2025-04-24 14:33:38.401 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\1\1.8.5\Codemao.TurtleEditor.1.locale.zh-CN.yaml
+2025-04-24 14:33:38.402 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-24 14:33:38.403 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-24 14:33:38.404 INFO     Cleaned up Codemao.TurtleEditor.1.locale.zh-CN.yaml
+2025-04-24 14:33:38.406 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\1\1.8.5\Codemao.TurtleEditor.1.locale.zh-CN.yaml
+2025-04-24 14:33:38.545 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\1\1.8.5\Codemao.TurtleEditor.1.yaml
+2025-04-24 14:33:38.550 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-24 14:33:38.552 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-24 14:33:38.553 INFO     Cleaned up Codemao.TurtleEditor.1.yaml
+2025-04-24 14:33:38.555 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\1\1.8.5\Codemao.TurtleEditor.1.yaml
+2025-04-24 14:33:38.691 INFO   New manifests in D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\1\1.8.5 for Codemao.TurtleEditor.1 (1.8.5)
+2025-04-24 14:34:53.570 INFO     清单验证成功。
+2025-04-24 14:34:53.584 INFO   Staging and Committing Changes to Git
+2025-04-24 14:35:03.144 INFO     Commit message: New version: Codemao.TurtleEditor.1 version 1.8.5 (Auto)
+2025-04-24 14:35:03.146 INFO   Pushing changes to remote (origin) repository
+2025-04-24 14:35:08.119 INFO     Successfully pushed to remote (origin): NewVersion-Codemao.TurtleEditor.1-1.8.5-1745476410
+2025-04-24 14:35:09.747 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/250700
+2025-04-24 14:35:09.750 INFO All manifests have been modified and pushed through.
+2025-04-24 14:35:14.881 INFO Workspace clean-up completed.
+~~ End of logging ~~
