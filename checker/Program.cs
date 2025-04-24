@@ -308,6 +308,7 @@ namespace checker
                 "https://issuepcdn.baidupcs.com/", "https://lf-luna-release.qishui.com/obj/luna-release/", "https://down.360safe.com/cse/", // 超时
                 "https://www.argyllcms.com/", // 服务器拒绝冲泡咖啡
                 "https://www.elcomsoft.com/", "https://pbank.bankcomm.cn/personbank/download/SecEditCFCAforBoCom.exe", // SSL错误
+                "https://github.com/winsiderss/si-builds/releases/download/3.2.25044.321/systeminformer-3.2.25044.321-canary-setup.exe", // WIP
             ];
             return excludedDomains.Any(domain => url.Contains(domain));
         }
