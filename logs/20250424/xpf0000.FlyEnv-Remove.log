@@ -1,0 +1,859 @@
+[Powered by 虚空终端] PS D:\...\winget-pkgs> sundry remove xpf0000.FlyEnv 4.8.5
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 FlyEnv [xpf0000.FlyEnv]
+版本
+-----
+4.9.5
+4.9.2
+4.9.1
+4.8.8
+4.8.7
+4.8.6
+4.8.5
+4.8.3
+4.7.1
+4.6.1
+4.6.0
+4.5.6
+======= 此软件包版本在 winget 上的信息 =======
+已找到 FlyEnv [xpf0000.FlyEnv]
+版本: 4.8.5
+发布者: pengfei xu
+发布服务器 URL: https://github.com/xpf0000
+发布服务器支持 URL: https://github.com/xpf0000/FlyEnv/issues
+作者: 徐鹏飞
+描述:
+  FlyEnv 是一个集 Web 服务器/数据库服务器/开发环境管理于一体的 GUI 应用程序
+  简而言之,FlyEnv 提供了一套完整的运行环境。帮助用户开发和调试 PHP/NodeJS/Java/Go/Python 程序,如 laravel/wordpress/yii2/thinkphp/fastadmin/NestJS/SpringBoot/Gin/Beego/Django/Flask......
+主页: https://www.macphpstudy.com/zh/
+许可证: BSD-3-Clause
+许可证 URL: https://github.com/xpf0000/FlyEnv/blob/HEAD/LICENSE
+版权所有: Copyright (c) 2024, 徐鹏飞
+发行说明:
+  1. Add Ruby module
+  2. Add Elasticsearch module
+  3. Add FlyEnv NodeJS manager module.
+  4. Fix the issue of nginx vhost configuration errors during site editing
+发行说明 URL: https://github.com/xpf0000/FlyEnv/releases/tag/v4.8.5
+文档:
+  指南: https://www.macphpstudy.com/zh/guide/what-is-phpwebstudy.html
+标记：
+  服务器
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://github.com/xpf0000/FlyEnv/releases/download/v4.8.5/FlyEnv.Setup.4.8.5.exe
+  安装程序 SHA256： 9656483536312a94dc1952304762a158620d6220e5d3037b7c151037eaef3e05
+  发布日期: 2025-02-16
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\x\xpf0000\FlyEnv\4.8.5\xpf0000.FlyEnv.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: xpf0000.FlyEnv
+PackageVersion: 4.8.5
+InstallerType: nullsoft
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ProductCode: 58e103f9-7c07-5ccc-9a52-ce8faf14c36b
+ReleaseDate: 2025-02-16
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://github.com/xpf0000/FlyEnv/releases/download/v4.8.5/FlyEnv.Setup.4.8.5.exe
+  InstallerSha256: 9656483536312A94DC1952304762A158620D6220E5D3037B7C151037EAEF3E05
+  InstallerSwitches:
+    Custom: /currentuser
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://github.com/xpf0000/FlyEnv/releases/download/v4.8.5/FlyEnv.Setup.4.8.5.exe
+  InstallerSha256: 9656483536312A94DC1952304762A158620D6220E5D3037B7C151037EAEF3E05
+  InstallerSwitches:
+    Custom: /allusers
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 FlyEnv [xpf0000.FlyEnv] 版本 4.8.5
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://github.com/xpf0000/FlyEnv/releases/download/v4.8.5/FlyEnv.Setup.4.8.5.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+no pull requests match your search in microsoft/winget-pkgs
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                      BRANCH                                        CREATED AT
+#230256  New version: xpf0000.FlyEnv version 4.8.5  SpecterShell:xpf0000.FlyEnv-4.8.5-2092497735  about 2 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-xpf0000.FlyEnv-4.8.5-1745493552'
+  已签出新分支 Remove-xpf0000.FlyEnv-4.8.5-1745493552
+  已移除软件包 xpf0000.FlyEnv 版本 4.8.5
+[Remove-xpf0000.FlyEnv-4.8.5-1745493552 89f82ba24a0] Remove version: xpf0000.FlyEnv version 4.8.5
+ 4 files changed, 87 deletions(-)
+ delete mode 100644 manifests/x/xpf0000/FlyEnv/4.8.5/xpf0000.FlyEnv.installer.yaml
+ delete mode 100644 manifests/x/xpf0000/FlyEnv/4.8.5/xpf0000.FlyEnv.locale.en-US.yaml
+ delete mode 100644 manifests/x/xpf0000/FlyEnv/4.8.5/xpf0000.FlyEnv.locale.zh-CN.yaml
+ delete mode 100644 manifests/x/xpf0000/FlyEnv/4.8.5/xpf0000.FlyEnv.yaml
+  已提交修改
+Enumerating objects: 51, done.
+Counting objects: 100% (38/38), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 707 bytes | 176.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-xpf0000.FlyEnv-4.8.5-1745493552' on GitHub by visiting:
+remote:      https://github.com/***/winget-pkgs/pull/new/Remove-xpf0000.FlyEnv-4.8.5-1745493552
+remote:
+To https://github.com/***/winget-pkgs.git
+ * [new branch]              Remove-xpf0000.FlyEnv-4.8.5-1745493552 -> Remove-xpf0000.FlyEnv-4.8.5-1745493552
+branch 'Remove-xpf0000.FlyEnv-4.8.5-1745493552' set up to track 'origin/Remove-xpf0000.FlyEnv-4.8.5-1745493552'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/250759
+ 成功移除 xpf0000.FlyEnv 版本 4.8.5
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-xpf0000.FlyEnv-4.8.5-1745493552 (was 89f82ba24a0).
+工作区清理完成
+[Powered by 虚空终端] PS D:\...\winget-pkgs> sundry remove xpf0000.FlyEnv 4.6.0
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 FlyEnv [xpf0000.FlyEnv]
+版本
+-----
+4.9.5
+4.9.2
+4.9.1
+4.8.8
+4.8.7
+4.8.6
+4.8.5
+4.8.3
+4.7.1
+4.6.1
+4.6.0
+4.5.6
+======= 此软件包版本在 winget 上的信息 =======
+已找到 FlyEnv [xpf0000.FlyEnv]
+版本: 4.6.0
+发布者: pengfei xu
+发布服务器 URL: https://github.com/xpf0000
+发布服务器支持 URL: https://github.com/xpf0000/FlyEnv/issues
+作者: 徐鹏飞
+描述:
+  FlyEnv 是一个集 Web 服务器/数据库服务器/开发环境管理于一体的 GUI 应用程序
+  简而言之,FlyEnv 提供了一套完整的运行环境。帮助用户开发和调试 PHP/NodeJS/Java/Go/Python 程序,如 laravel/wordpress/yii2/thinkphp/fastadmin/NestJS/SpringBoot/Gin/Beego/Django/Flask......
+主页: https://www.macphpstudy.com/zh/
+许可证: BSD-3-Clause
+许可证 URL: https://github.com/xpf0000/FlyEnv/blob/HEAD/LICENSE
+版权所有: Copyright (c) 2024, 徐鹏飞
+发行说明: 1. Fix bugs
+发行说明 URL: https://github.com/xpf0000/FlyEnv/releases/tag/v4.6.0
+文档:
+  指南: https://www.macphpstudy.com/zh/guide/what-is-phpwebstudy.html
+标记：
+  服务器
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://github.com/xpf0000/FlyEnv/releases/download/v4.6.0/FlyEnv.Setup.4.6.0.exe
+  安装程序 SHA256： 74aeab83a0d5ca9b4f00c70ca255e86bf7ad69a6c7543d75d1196d45215dab6c
+  发布日期: 2024-12-04
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\x\xpf0000\FlyEnv\4.6.0\xpf0000.FlyEnv.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: xpf0000.FlyEnv
+PackageVersion: 4.6.0
+InstallerType: nullsoft
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ProductCode: 58e103f9-7c07-5ccc-9a52-ce8faf14c36b
+ReleaseDate: 2024-12-04
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://github.com/xpf0000/FlyEnv/releases/download/v4.6.0/FlyEnv.Setup.4.6.0.exe
+  InstallerSha256: 74AEAB83A0D5CA9B4F00C70CA255E86BF7AD69A6C7543D75D1196D45215DAB6C
+  InstallerSwitches:
+    Custom: /currentuser
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://github.com/xpf0000/FlyEnv/releases/download/v4.6.0/FlyEnv.Setup.4.6.0.exe
+  InstallerSha256: 74AEAB83A0D5CA9B4F00C70CA255E86BF7AD69A6C7543D75D1196D45215DAB6C
+  InstallerSwitches:
+    Custom: /allusers
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 FlyEnv [xpf0000.FlyEnv] 版本 4.6.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://github.com/xpf0000/FlyEnv/releases/download/v4.6.0/FlyEnv.Setup.4.6.0.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                                BRANCH                                                 CREATED AT
+#250759  Remove version: xpf0000.FlyEnv version 4.8.5 (Auto)  ***:Remove-xpf0000.FlyEnv-4.8.5-1745493552  about 1 minute ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                      BRANCH                                        CREATED AT
+#199562  New version: xpf0000.FlyEnv version 4.6.1  SpecterShell:xpf0000.FlyEnv-4.6.1-1882494759  about 4 months ago
+#196493  New version: xpf0000.FlyEnv version 4.6.0  SpecterShell:xpf0000.FlyEnv-4.6.0-2071691785  about 4 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-xpf0000.FlyEnv-4.6.0-1745493706'
+  已签出新分支 Remove-xpf0000.FlyEnv-4.6.0-1745493706
+  已移除软件包 xpf0000.FlyEnv 版本 4.6.0
+[Remove-xpf0000.FlyEnv-4.6.0-1745493706 35ebd1d8de8] Remove version: xpf0000.FlyEnv version 4.6.0
+ 4 files changed, 83 deletions(-)
+ delete mode 100644 manifests/x/xpf0000/FlyEnv/4.6.0/xpf0000.FlyEnv.installer.yaml
+ delete mode 100644 manifests/x/xpf0000/FlyEnv/4.6.0/xpf0000.FlyEnv.locale.en-US.yaml
+ delete mode 100644 manifests/x/xpf0000/FlyEnv/4.6.0/xpf0000.FlyEnv.locale.zh-CN.yaml
+ delete mode 100644 manifests/x/xpf0000/FlyEnv/4.6.0/xpf0000.FlyEnv.yaml
+  已提交修改
+fatal: unable to access 'https://github.com/***/winget-pkgs.git/': The requested URL returned error: 502
+Traceback (most recent call last):
+  File "D:\Duckhome\CodeDebug\winget\remove.py", line 214, in <module>
+    subprocess.run(["git", "push"], check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Duckhome\env\Python313\Lib\subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['git', 'push']' returned non-zero exit status 128.
+[Powered by 虚空终端] PS D:\...\winget-pkgs> sundry remove xpf0000.FlyEnv 4.6.0
+软件包版本清单文件不存在: D:/Duckhome/projects/MSVS/Source/Repos/winget-pkgs\manifests\x\xpf0000\FlyEnv\4.6.0
+[Powered by 虚空终端] PS D:\...\winget-pkgs> ^C
+[Powered by 虚空终端] PS D:\...\winget-pkgs> git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+[Powered by 虚空终端] PS D:\...\winget-pkgs> git branch | Where-Object { $_ -notlike "master" -and $_ -notlike "main" } | ForEach-Object { git branch -D $_.Trim() }
+Deleted branch Remove-xpf0000.FlyEnv-4.6.0-1745493706 (was 35ebd1d8de8).
+error: branch '* master' not found
+[Powered by 虚空终端] PS D:\...\winget-pkgs> sundry remove xpf0000.FlyEnv 4.6.0
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 FlyEnv [xpf0000.FlyEnv]
+版本
+-----
+4.9.5
+4.9.2
+4.9.1
+4.8.8
+4.8.7
+4.8.6
+4.8.5
+4.8.3
+4.7.1
+4.6.1
+4.6.0
+4.5.6
+======= 此软件包版本在 winget 上的信息 =======
+已找到 FlyEnv [xpf0000.FlyEnv]
+版本: 4.6.0
+发布者: pengfei xu
+发布服务器 URL: https://github.com/xpf0000
+发布服务器支持 URL: https://github.com/xpf0000/FlyEnv/issues
+作者: 徐鹏飞
+描述:
+  FlyEnv 是一个集 Web 服务器/数据库服务器/开发环境管理于一体的 GUI 应用程序
+  简而言之,FlyEnv 提供了一套完整的运行环境。帮助用户开发和调试 PHP/NodeJS/Java/Go/Python 程序,如 laravel/wordpress/yii2/thinkphp/fastadmin/NestJS/SpringBoot/Gin/Beego/Django/Flask......
+主页: https://www.macphpstudy.com/zh/
+许可证: BSD-3-Clause
+许可证 URL: https://github.com/xpf0000/FlyEnv/blob/HEAD/LICENSE
+版权所有: Copyright (c) 2024, 徐鹏飞
+发行说明: 1. Fix bugs
+发行说明 URL: https://github.com/xpf0000/FlyEnv/releases/tag/v4.6.0
+文档:
+  指南: https://www.macphpstudy.com/zh/guide/what-is-phpwebstudy.html
+标记：
+  服务器
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://github.com/xpf0000/FlyEnv/releases/download/v4.6.0/FlyEnv.Setup.4.6.0.exe
+  安装程序 SHA256： 74aeab83a0d5ca9b4f00c70ca255e86bf7ad69a6c7543d75d1196d45215dab6c
+  发布日期: 2024-12-04
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\x\xpf0000\FlyEnv\4.6.0\xpf0000.FlyEnv.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: xpf0000.FlyEnv
+PackageVersion: 4.6.0
+InstallerType: nullsoft
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ProductCode: 58e103f9-7c07-5ccc-9a52-ce8faf14c36b
+ReleaseDate: 2024-12-04
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://github.com/xpf0000/FlyEnv/releases/download/v4.6.0/FlyEnv.Setup.4.6.0.exe
+  InstallerSha256: 74AEAB83A0D5CA9B4F00C70CA255E86BF7AD69A6C7543D75D1196D45215DAB6C
+  InstallerSwitches:
+    Custom: /currentuser
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://github.com/xpf0000/FlyEnv/releases/download/v4.6.0/FlyEnv.Setup.4.6.0.exe
+  InstallerSha256: 74AEAB83A0D5CA9B4F00C70CA255E86BF7AD69A6C7543D75D1196D45215DAB6C
+  InstallerSwitches:
+    Custom: /allusers
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 FlyEnv [xpf0000.FlyEnv] 版本 4.6.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://github.com/xpf0000/FlyEnv/releases/download/v4.6.0/FlyEnv.Setup.4.6.0.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                                BRANCH                                                 CREATED AT
+#250759  Remove version: xpf0000.FlyEnv version 4.8.5 (Auto)  ***:Remove-xpf0000.FlyEnv-4.8.5-1745493552  about 4 minutes ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                      BRANCH                                        CREATED AT
+#199562  New version: xpf0000.FlyEnv version 4.6.1  SpecterShell:xpf0000.FlyEnv-4.6.1-1882494759  about 4 months ago
+#196493  New version: xpf0000.FlyEnv version 4.6.0  SpecterShell:xpf0000.FlyEnv-4.6.0-2071691785  about 4 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+remote: Enumerating objects: 39, done.
+remote: Counting objects: 100% (39/39), done.
+remote: Compressing objects: 100% (22/22), done.
+remote: Total 28 (delta 15), reused 11 (delta 4), pack-reused 0 (from 0)
+Unpacking objects: 100% (28/28), 10.20 KiB | 44.00 KiB/s, done.
+From https://github.com/microsoft/winget-pkgs
+   a361273e0a6..c5fdaf29e92  master     -> upstream/master
+Successfully rebased and updated refs/heads/master.
+  已拉取上游修改
+Switched to a new branch 'Remove-xpf0000.FlyEnv-4.6.0-1745493916'
+  已签出新分支 Remove-xpf0000.FlyEnv-4.6.0-1745493916
+  已移除软件包 xpf0000.FlyEnv 版本 4.6.0
+[Remove-xpf0000.FlyEnv-4.6.0-1745493916 20f0a19ace6] Remove version: xpf0000.FlyEnv version 4.6.0
+ 4 files changed, 83 deletions(-)
+ delete mode 100644 manifests/x/xpf0000/FlyEnv/4.6.0/xpf0000.FlyEnv.installer.yaml
+ delete mode 100644 manifests/x/xpf0000/FlyEnv/4.6.0/xpf0000.FlyEnv.locale.en-US.yaml
+ delete mode 100644 manifests/x/xpf0000/FlyEnv/4.6.0/xpf0000.FlyEnv.locale.zh-CN.yaml
+ delete mode 100644 manifests/x/xpf0000/FlyEnv/4.6.0/xpf0000.FlyEnv.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (43/43), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 715 bytes | 143.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-xpf0000.FlyEnv-4.6.0-1745493916' on GitHub by visiting:
+remote:      https://github.com/***/winget-pkgs/pull/new/Remove-xpf0000.FlyEnv-4.6.0-1745493916
+remote:
+To https://github.com/***/winget-pkgs.git
+ * [new branch]              Remove-xpf0000.FlyEnv-4.6.0-1745493916 -> Remove-xpf0000.FlyEnv-4.6.0-1745493916
+branch 'Remove-xpf0000.FlyEnv-4.6.0-1745493916' set up to track 'origin/Remove-xpf0000.FlyEnv-4.6.0-1745493916'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/250761
+ 成功移除 xpf0000.FlyEnv 版本 4.6.0
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-xpf0000.FlyEnv-4.6.0-1745493916 (was 20f0a19ace6).
+工作区清理完成
+[Powered by 虚空终端] PS D:\...\winget-pkgs> sundry remove xpf0000.FlyEnv 4.5.6
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 FlyEnv [xpf0000.FlyEnv]
+版本
+-----
+4.9.5
+4.9.2
+4.9.1
+4.8.8
+4.8.7
+4.8.6
+4.8.5
+4.8.3
+4.7.1
+4.6.1
+4.6.0
+4.5.6
+======= 此软件包版本在 winget 上的信息 =======
+已找到 FlyEnv [xpf0000.FlyEnv]
+版本: 4.5.6
+发布者: pengfei xu
+发布服务器 URL: https://github.com/xpf0000
+发布服务器支持 URL: https://github.com/xpf0000/FlyEnv/issues
+作者: 徐鹏飞
+描述:
+  FlyEnv 是一个集 Web 服务器/数据库服务器/开发环境管理于一体的 GUI 应用程序
+  简而言之,FlyEnv 提供了一套完整的运行环境。帮助用户开发和调试 PHP/NodeJS/Java/Go/Python 程序,如 laravel/wordpress/yii2/thinkphp/fastadmin/NestJS/SpringBoot/Gin/Beego/Django/Flask......
+主页: https://www.macphpstudy.com/zh/
+许可证: BSD-3-Clause
+许可证 URL: https://github.com/xpf0000/FlyEnv/blob/HEAD/LICENSE
+版权所有: Copyright (c) 2024, 徐鹏飞
+发行说明:
+  1. add Vhost Template manager. user can set custom vhost template to create or edit site
+  2. fixed issues: Mailpit version check failed when dir path has space
+发行说明 URL: https://github.com/xpf0000/FlyEnv/releases/tag/v4.5.6
+文档:
+  指南: https://www.macphpstudy.com/zh/guide/what-is-phpwebstudy.html
+标记：
+  服务器
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://github.com/xpf0000/FlyEnv/releases/download/v4.5.6/FlyEnv.Setup.4.5.6.exe
+  安装程序 SHA256： 4d5670e98939c04903d70d786bd750762338754f093333ca8d301152366cef77
+  发布日期: 2024-11-19
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\x\xpf0000\FlyEnv\4.5.6\xpf0000.FlyEnv.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.1 $debug=NVS1.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: xpf0000.FlyEnv
+PackageVersion: 4.5.6
+InstallerType: nullsoft # electron-builder
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ReleaseDate: 2024-11-19
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://github.com/xpf0000/FlyEnv/releases/download/v4.5.6/FlyEnv.Setup.4.5.6.exe
+  InstallerSha256: 4D5670E98939C04903D70D786BD750762338754F093333CA8D301152366CEF77
+  InstallerSwitches:
+    Custom: /currentuser
+  ProductCode: 58e103f9-7c07-5ccc-9a52-ce8faf14c36b
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://github.com/xpf0000/FlyEnv/releases/download/v4.5.6/FlyEnv.Setup.4.5.6.exe
+  InstallerSha256: 4D5670E98939C04903D70D786BD750762338754F093333CA8D301152366CEF77
+  InstallerSwitches:
+    Custom: /allusers
+  ProductCode: 58e103f9-7c07-5ccc-9a52-ce8faf14c36b
+ManifestType: installer
+ManifestVersion: 1.6.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 FlyEnv [xpf0000.FlyEnv] 版本 4.5.6
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://github.com/xpf0000/FlyEnv/releases/download/v4.5.6/FlyEnv.Setup.4.5.6.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                BRANCH                                                 CREATED AT
+#250761  Remove version: xpf0000.FlyEnv version 4.6.0 (Auto)  ***:Remove-xpf0000.FlyEnv-4.6.0-1745493916  about 1 minute ago
+#250759  Remove version: xpf0000.FlyEnv version 4.8.5 (Auto)  ***:Remove-xpf0000.FlyEnv-4.8.5-1745493552  about 7 minutes ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                      BRANCH                                        CREATED AT
+#196493  New version: xpf0000.FlyEnv version 4.6.0  SpecterShell:xpf0000.FlyEnv-4.6.0-2071691785  about 4 months ago
+#192776  New package: xpf0000.FlyEnv version 4.5.6  SpecterShell:xpf0000.FlyEnv-4.5.6-555B2A23    about 5 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-xpf0000.FlyEnv-4.5.6-1745494065'
+  已签出新分支 Remove-xpf0000.FlyEnv-4.5.6-1745494065
+  已移除软件包 xpf0000.FlyEnv 版本 4.5.6
+[Remove-xpf0000.FlyEnv-4.5.6-1745494065 5f40d64df2a] Remove version: xpf0000.FlyEnv version 4.5.6
+ 4 files changed, 103 deletions(-)
+ delete mode 100644 manifests/x/xpf0000/FlyEnv/4.5.6/xpf0000.FlyEnv.installer.yaml
+ delete mode 100644 manifests/x/xpf0000/FlyEnv/4.5.6/xpf0000.FlyEnv.locale.en-US.yaml
+ delete mode 100644 manifests/x/xpf0000/FlyEnv/4.5.6/xpf0000.FlyEnv.locale.zh-CN.yaml
+ delete mode 100644 manifests/x/xpf0000/FlyEnv/4.5.6/xpf0000.FlyEnv.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (46/46), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 711 bytes | 355.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-xpf0000.FlyEnv-4.5.6-1745494065' on GitHub by visiting:
+remote:      https://github.com/***/winget-pkgs/pull/new/Remove-xpf0000.FlyEnv-4.5.6-1745494065
+remote:
+To https://github.com/***/winget-pkgs.git
+ * [new branch]              Remove-xpf0000.FlyEnv-4.5.6-1745494065 -> Remove-xpf0000.FlyEnv-4.5.6-1745494065
+branch 'Remove-xpf0000.FlyEnv-4.5.6-1745494065' set up to track 'origin/Remove-xpf0000.FlyEnv-4.5.6-1745494065'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/250762
+ 成功移除 xpf0000.FlyEnv 版本 4.5.6
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-xpf0000.FlyEnv-4.5.6-1745494065 (was 5f40d64df2a).
+工作区清理完成
+[Powered by 虚空终端] PS D:\...\winget-pkgs>
+[Powered by 虚空终端] PS D:\...\winget-pkgs>
+[Powered by 虚空终端] PS D:\...\winget-pkgs> sundry remove xpf0000.FlyEnv 4.6.1
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 FlyEnv [xpf0000.FlyEnv]
+版本
+-----
+4.9.5
+4.9.2
+4.9.1
+4.8.8
+4.8.7
+4.8.6
+4.8.5
+4.8.3
+4.7.1
+4.6.1
+4.6.0
+4.5.6
+======= 此软件包版本在 winget 上的信息 =======
+已找到 FlyEnv [xpf0000.FlyEnv]
+版本: 4.6.1
+发布者: pengfei xu
+发布服务器 URL: https://github.com/xpf0000
+发布服务器支持 URL: https://github.com/xpf0000/FlyEnv/issues
+作者: 徐鹏飞
+描述:
+  FlyEnv 是一个集 Web 服务器/数据库服务器/开发环境管理于一体的 GUI 应用程序
+  简而言之,FlyEnv 提供了一套完整的运行环境。帮助用户开发和调试 PHP/NodeJS/Java/Go/Python 程序,如 laravel/wordpress/yii2/thinkphp/fastadmin/NestJS/SpringBoot/Gin/Beego/Django/Flask......
+主页: https://www.macphpstudy.com/zh/
+许可证: BSD-3-Clause
+许可证 URL: https://github.com/xpf0000/FlyEnv/blob/HEAD/LICENSE
+版权所有: Copyright (c) 2024, 徐鹏飞
+发行说明: Recommend upgrading. Fix license expiration issue
+发行说明 URL: https://github.com/xpf0000/FlyEnv/releases/tag/v4.6.1
+文档:
+  指南: https://www.macphpstudy.com/zh/guide/what-is-phpwebstudy.html
+标记：
+  服务器
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://github.com/xpf0000/FlyEnv/releases/download/v4.6.1/FlyEnv.Setup.4.6.1.exe
+  安装程序 SHA256： c3bbb897b978a5beddc7ae8dcabff72a60fc7ec3a7771865a3716dfd39126169
+  发布日期: 2024-12-18
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\x\xpf0000\FlyEnv\4.6.1\xpf0000.FlyEnv.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: xpf0000.FlyEnv
+PackageVersion: 4.6.1
+InstallerType: nullsoft
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ProductCode: 58e103f9-7c07-5ccc-9a52-ce8faf14c36b
+ReleaseDate: 2024-12-18
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://github.com/xpf0000/FlyEnv/releases/download/v4.6.1/FlyEnv.Setup.4.6.1.exe
+  InstallerSha256: C3BBB897B978A5BEDDC7AE8DCABFF72A60FC7EC3A7771865A3716DFD39126169
+  InstallerSwitches:
+    Custom: /currentuser
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://github.com/xpf0000/FlyEnv/releases/download/v4.6.1/FlyEnv.Setup.4.6.1.exe
+  InstallerSha256: C3BBB897B978A5BEDDC7AE8DCABFF72A60FC7EC3A7771865A3716DFD39126169
+  InstallerSwitches:
+    Custom: /allusers
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 FlyEnv [xpf0000.FlyEnv] 版本 4.6.1
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://github.com/xpf0000/FlyEnv/releases/download/v4.6.1/FlyEnv.Setup.4.6.1.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 3 of 3 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                BRANCH                                                 CREATED AT
+#250762  Remove version: xpf0000.FlyEnv version 4.5.6 (Auto)  ***:Remove-xpf0000.FlyEnv-4.5.6-1745494065  less than a minute ago
+#250761  Remove version: xpf0000.FlyEnv version 4.6.0 (Auto)  ***:Remove-xpf0000.FlyEnv-4.6.0-1745493916  about 3 minutes ago
+#250759  Remove version: xpf0000.FlyEnv version 4.8.5 (Auto)  ***:Remove-xpf0000.FlyEnv-4.8.5-1745493552  about 9 minutes ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                      BRANCH                                        CREATED AT
+#207793  New version: xpf0000.FlyEnv version 4.7.0  SpecterShell:xpf0000.FlyEnv-4.7.0-1125782791  about 3 months ago
+#199562  New version: xpf0000.FlyEnv version 4.6.1  SpecterShell:xpf0000.FlyEnv-4.6.1-1882494759  about 4 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-xpf0000.FlyEnv-4.6.1-1745494145'
+  已签出新分支 Remove-xpf0000.FlyEnv-4.6.1-1745494145
+  已移除软件包 xpf0000.FlyEnv 版本 4.6.1
+[Remove-xpf0000.FlyEnv-4.6.1-1745494145 883034a8feb] Remove version: xpf0000.FlyEnv version 4.6.1
+ 4 files changed, 83 deletions(-)
+ delete mode 100644 manifests/x/xpf0000/FlyEnv/4.6.1/xpf0000.FlyEnv.installer.yaml
+ delete mode 100644 manifests/x/xpf0000/FlyEnv/4.6.1/xpf0000.FlyEnv.locale.en-US.yaml
+ delete mode 100644 manifests/x/xpf0000/FlyEnv/4.6.1/xpf0000.FlyEnv.locale.zh-CN.yaml
+ delete mode 100644 manifests/x/xpf0000/FlyEnv/4.6.1/xpf0000.FlyEnv.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (46/46), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 717 bytes | 358.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-xpf0000.FlyEnv-4.6.1-1745494145' on GitHub by visiting:
+remote:      https://github.com/***/winget-pkgs/pull/new/Remove-xpf0000.FlyEnv-4.6.1-1745494145
+remote:
+To https://github.com/***/winget-pkgs.git
+ * [new branch]              Remove-xpf0000.FlyEnv-4.6.1-1745494145 -> Remove-xpf0000.FlyEnv-4.6.1-1745494145
+branch 'Remove-xpf0000.FlyEnv-4.6.1-1745494145' set up to track 'origin/Remove-xpf0000.FlyEnv-4.6.1-1745494145'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/250763
+ 成功移除 xpf0000.FlyEnv 版本 4.6.1
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-xpf0000.FlyEnv-4.6.1-1745494145 (was 883034a8feb).
+工作区清理完成
+[Powered by 虚空终端] PS D:\...\winget-pkgs> sundry remove xpf0000.FlyEnv 4.8.3
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 FlyEnv [xpf0000.FlyEnv]
+版本
+-----
+4.9.5
+4.9.2
+4.9.1
+4.8.8
+4.8.7
+4.8.6
+4.8.5
+4.8.3
+4.7.1
+4.6.1
+4.6.0
+4.5.6
+======= 此软件包版本在 winget 上的信息 =======
+已找到 FlyEnv [xpf0000.FlyEnv]
+版本: 4.8.3
+发布者: pengfei xu
+发布服务器 URL: https://github.com/xpf0000
+发布服务器支持 URL: https://github.com/xpf0000/FlyEnv/issues
+作者: 徐鹏飞
+描述:
+  FlyEnv 是一个集 Web 服务器/数据库服务器/开发环境管理于一体的 GUI 应用程序
+  简而言之,FlyEnv 提供了一套完整的运行环境。帮助用户开发和调试 PHP/NodeJS/Java/Go/Python 程序,如 laravel/wordpress/yii2/thinkphp/fastadmin/NestJS/SpringBoot/Gin/Beego/Django/Flask......
+主页: https://www.macphpstudy.com/zh/
+许可证: BSD-3-Clause
+许可证 URL: https://github.com/xpf0000/FlyEnv/blob/HEAD/LICENSE
+版权所有: Copyright (c) 2024, 徐鹏飞
+发行说明:
+  macOS
+  1. Fix the issue of vhost file errors during site editing
+  2. Fix the issue of license loss when setting items are changed in the settings
+  3. Add Erlang module
+
+  Windows
+  1. Optimize service start/stop methods. The service start/stop speed is faster
+  2. Fix the issue of vhost file errors during site editing
+  3. Fix the issue of license loss when setting items are changed in the settings
+  4. Add Erlang module
+
+  5. PHP extension adds loaded extension list
+发行说明 URL: https://github.com/xpf0000/FlyEnv/releases/tag/v4.8.3
+文档:
+  指南: https://www.macphpstudy.com/zh/guide/what-is-phpwebstudy.html
+标记：
+  服务器
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://github.com/xpf0000/FlyEnv/releases/download/v4.8.3/FlyEnv.Setup.4.8.3.exe
+  安装程序 SHA256： d8a08a77bf591292ea31f4b30b03f0657d4f4b4fb6b6c237269ca7dbbd349e10
+  发布日期: 2025-02-09
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\x\xpf0000\FlyEnv\4.8.3\xpf0000.FlyEnv.installer.yaml
+
+# Automatically updated by the winget bot at 2025/Feb/12
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: xpf0000.FlyEnv
+PackageVersion: 4.8.3
+InstallerType: nullsoft
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ProductCode: 58e103f9-7c07-5ccc-9a52-ce8faf14c36b
+ReleaseDate: 2025-02-09
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://github.com/xpf0000/FlyEnv/releases/download/v4.8.3/FlyEnv.Setup.4.8.3.exe
+  InstallerSha256: D8A08A77BF591292EA31F4B30B03F0657D4F4B4FB6B6C237269CA7DBBD349E10
+  InstallerSwitches:
+    Custom: /currentuser
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://github.com/xpf0000/FlyEnv/releases/download/v4.8.3/FlyEnv.Setup.4.8.3.exe
+  InstallerSha256: D8A08A77BF591292EA31F4B30B03F0657D4F4B4FB6B6C237269CA7DBBD349E10
+  InstallerSwitches:
+    Custom: /allusers
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 FlyEnv [xpf0000.FlyEnv] 版本 4.8.3
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://github.com/xpf0000/FlyEnv/releases/download/v4.8.3/FlyEnv.Setup.4.8.3.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 4 of 4 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                BRANCH                                                 CREATED AT
+#250763  Remove version: xpf0000.FlyEnv version 4.6.1 (Auto)  ***:Remove-xpf0000.FlyEnv-4.6.1-1745494145  less than a minute ago
+#250762  Remove version: xpf0000.FlyEnv version 4.5.6 (Auto)  ***:Remove-xpf0000.FlyEnv-4.5.6-1745494065  about 1 minute ago
+#250761  Remove version: xpf0000.FlyEnv version 4.6.0 (Auto)  ***:Remove-xpf0000.FlyEnv-4.6.0-1745493916  about 4 minutes ago
+#250759  Remove version: xpf0000.FlyEnv version 4.8.5 (Auto)  ***:Remove-xpf0000.FlyEnv-4.8.5-1745493552  about 10 minutes ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                      BRANCH                                                          CREATED AT
+#227893  Automatic update of xpf0000.FlyEnv 4.8.3   wingetbot:AutomaticUpdate_f7bcf23d-3379-49a7-af45-b328d4e9cbcd  about 2 months ago
+#226613  New version: xpf0000.FlyEnv version 4.8.3  SpecterShell:xpf0000.FlyEnv-4.8.3-624204047                     about 2 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-xpf0000.FlyEnv-4.8.3-1745494197'
+  已签出新分支 Remove-xpf0000.FlyEnv-4.8.3-1745494197
+  已移除软件包 xpf0000.FlyEnv 版本 4.8.3
+[Remove-xpf0000.FlyEnv-4.8.3-1745494197 191c0198715] Remove version: xpf0000.FlyEnv version 4.8.3
+ 4 files changed, 95 deletions(-)
+ delete mode 100644 manifests/x/xpf0000/FlyEnv/4.8.3/xpf0000.FlyEnv.installer.yaml
+ delete mode 100644 manifests/x/xpf0000/FlyEnv/4.8.3/xpf0000.FlyEnv.locale.en-US.yaml
+ delete mode 100644 manifests/x/xpf0000/FlyEnv/4.8.3/xpf0000.FlyEnv.locale.zh-CN.yaml
+ delete mode 100644 manifests/x/xpf0000/FlyEnv/4.8.3/xpf0000.FlyEnv.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (46/46), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 711 bytes | 355.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-xpf0000.FlyEnv-4.8.3-1745494197' on GitHub by visiting:
+remote:      https://github.com/***/winget-pkgs/pull/new/Remove-xpf0000.FlyEnv-4.8.3-1745494197
+remote:
+To https://github.com/***/winget-pkgs.git
+ * [new branch]              Remove-xpf0000.FlyEnv-4.8.3-1745494197 -> Remove-xpf0000.FlyEnv-4.8.3-1745494197
+branch 'Remove-xpf0000.FlyEnv-4.8.3-1745494197' set up to track 'origin/Remove-xpf0000.FlyEnv-4.8.3-1745494197'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/250764
+ 成功移除 xpf0000.FlyEnv 版本 4.8.3
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-xpf0000.FlyEnv-4.8.3-1745494197 (was 191c0198715).
+工作区清理完成
