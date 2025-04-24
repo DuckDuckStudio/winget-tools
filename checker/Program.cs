@@ -36,18 +36,26 @@ namespace checker
                 failureLevel = "error";
             }
 
-            await CheckUrlsInYamlFiles(folderPath, failureLevel);
-            Console.WriteLine("\n所有检查的链接正常");
+            if (await CheckUrlsInYamlFiles(folderPath, failureLevel))
+            {
+                Console.WriteLine("\n所有检查的链接正常");
+            }
+            else
+            {
+                Environment.Exit(1);
+            }
         }
 
         internal static readonly string[] installerType = [".exe", ".zip", ".msi", ".msix", ".appx", "&download"];
         // &download 为 sourceforge 和类似网站的下载链接
 
-        static async Task CheckUrlsInYamlFiles(string folderPath, string failureLevel)
+        static async Task<bool> CheckUrlsInYamlFiles(string folderPath, string failureLevel)
         {
             using HttpClient client = new();
             client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3");
             client.Timeout = TimeSpan.FromSeconds(15);
+
+            bool failed = false; // 在失败模式 complete 下的标记
 
             foreach (string filePath in Directory.EnumerateFiles(folderPath, "*.yaml", SearchOption.AllDirectories))
             {
@@ -93,7 +101,11 @@ namespace checker
                                         Console.WriteLine($"\n[Error] (安装程序返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})");
                                         Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath).Replace(".installer.yaml", "")} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
                                         if (failureLevel != "complete") {
-                                            Environment.Exit(1);
+                                            return false;
+                                        }
+                                        else
+                                        {
+                                            failed = true;
                                         }
                                     }
                                     else
@@ -102,7 +114,7 @@ namespace checker
                                         if (failureLevel == "warning")
                                         {
                                             Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath).Replace(".installer.yaml", "")} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
-                                            Environment.Exit(1);
+                                            return false;
                                         }
                                     }
                                 }
@@ -114,7 +126,7 @@ namespace checker
                                         if (failureLevel == "warning")
                                         {
                                             Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath).Replace(".installer.yaml", "")} {Path.GetFileName(Path.GetDirectoryName(filePath))} \"It returns a 403 status code in GitHub Action.\"");
-                                            Environment.Exit(1);
+                                            return false;
                                         }
                                     }
                                     else
@@ -159,7 +171,7 @@ namespace checker
                                     if (failureLevel == "warning")
                                     {
                                         Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath).Replace(".installer.yaml", "")} {Path.GetFileName(Path.GetDirectoryName(filePath))} \"It returns a {(int)response.StatusCode} (≥ 400) status code in GitHub Action.\"");
-                                        Environment.Exit(1);
+                                        return false;
                                     }
                                 }
                             }
@@ -181,7 +193,7 @@ namespace checker
                             Console.WriteLine($"\n[Warning] 无法访问 {filePath} 中的 {url} : {e.Message}");
                             if (failureLevel == "warning")
                             {
-                                Environment.Exit(1);
+                                return false;
                             }
                         }
                         catch (TaskCanceledException e)
@@ -199,7 +211,11 @@ namespace checker
                             {
                                 Console.WriteLine($"\n[Error] {filePath} 中的 {url} 无效: {e.Message}");
                                 if (failureLevel != "complete") {
-                                    Environment.Exit(1);
+                                    return false;
+                                }
+                                else
+                                {
+                                    failed = true;
                                 }
                             }
                             else
@@ -211,7 +227,11 @@ namespace checker
                         {
                             Console.WriteLine($"\n[Error] {filePath} 中的 {url} 发生错误: {e.Message}");
                             if (failureLevel != "complete") {
-                                Environment.Exit(1);
+                                return false;
+                            }
+                            else
+                            {
+                                failed = true;
                             }
                         }
                     }
@@ -220,10 +240,19 @@ namespace checker
                 {
                     Console.WriteLine($"\n[Error] 处理文件 {filePath} 时发生错误: {e.Message}");
                     if (failureLevel != "complete") {
-                        Environment.Exit(1);
+                        return false;
+                    }
+                    else
+                    {
+                        failed = true;
                     }
                 }
             }
+            if (failureLevel == "complete" && failed)
+            {
+                return false;
+            }
+            return true;
         }
 
         static HashSet<string> FindUrls(YamlNode node, string failureLevel)
