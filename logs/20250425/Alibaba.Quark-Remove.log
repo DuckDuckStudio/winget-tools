@@ -1,0 +1,567 @@
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Alibaba.Quark 1.2.5.25
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 夸克 [Alibaba.Quark]
+版本
+--------
+1.2.5.25
+1.2.4.24
+1.2.3.18
+1.2.3.17
+======= 此软件包版本在 winget 上的信息 =======
+已找到 夸克 [Alibaba.Quark]
+版本: 1.2.5.25
+发布者: Quark
+发布服务器 URL: https://www.quark.cn/
+作者: 广州市动悦信息技术有限公司
+描述: 夸克是一款集搜索、网盘、工具等功能于一体的浏览器,为用户提供极速、智能、高效的体验。
+主页: https://www.quark.cn/
+许可证: 免费软件
+许可证 URL: https://terms.alicdn.com/legal-agreement/terms/c_end_product_protocol/20230727183841535/20230727183841535.html
+隐私 URL: https://terms.alicdn.com/legal-agreement/terms/c_end_product_protocol/20230727184418287/20230727184418287.html
+版权所有: 版权所有 2024 The Quark Authors。保留所有权利。
+标记：
+  chromium
+  互联网
+  浏览器
+  网页
+安装：
+  安装程序类型： inno
+  安装程序 URL： https://umcdn.quark.cn/download/37212/quarkpc/pcquark@store_guanwang/QuarkPC_V1.2.5.25_pc_pf30002_(zh-cn)_release_(Build1707620-240313220512-x64).exe
+  安装程序 SHA256： dc77b2f5cf54c19462f12d5bdc9318e89f02df80569f993ffe3364b4503b5787
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\a\Alibaba\Quark\1.2.5.25\Alibaba.Quark.installer.yaml
+
+# Created with YamlCreate.ps1 v2.3.4 Dumplings Mod $debug=QUSU.CRLF.7-4-1.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: Alibaba.Quark
+PackageVersion: 1.2.5.25
+InstallerType: inno
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+Protocols:
+- http
+- https
+- mailto
+- tel
+FileExtensions:
+- htm
+- html
+- mhtml
+- pdf
+- shtml
+- svg
+- webp
+- xht
+- xhtml
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://umcdn.quark.cn/download/37212/quarkpc/pcquark@store_guanwang/QuarkPC_V1.2.5.25_pc_pf30002_(zh-cn)_release_(Build1707620-240313220512-x64).exe
+  InstallerSha256: DC77B2F5CF54C19462F12D5BDC9318E89F02DF80569F993FFE3364B4503B5787
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+  ProductCode: '{FB7670C2-7F99-426D-B687-21BB585A5C73}_is1'
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://umcdn.quark.cn/download/37212/quarkpc/pcquark@store_guanwang/QuarkPC_V1.2.5.25_pc_pf30002_(zh-cn)_release_(Build1707620-240313220512-x64).exe
+  InstallerSha256: DC77B2F5CF54C19462F12D5BDC9318E89F02DF80569F993FFE3364B4503B5787
+  InstallerSwitches:
+    Custom: /ALLUSERS
+  ProductCode: '{FB7670C2-7F99-426D-B687-21BB585A5C73}_is1'
+ManifestType: installer
+ManifestVersion: 1.6.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?m
+手动验证结果: Higest-Version-Removal
+自动翻译结果: Higest-Version-Removal 正确吗?
+使用 winget 验证...
+已找到 夸克 [Alibaba.Quark] 版本 1.2.5.25
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://umcdn.quark.cn/download/37212/quarkpc/pcquark@store_guanwang/QuarkPC_V1.2.5.25_pc_pf30002_(zh-cn)_release_(Build1707620-240313220512-x64).exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+no pull requests match your search in microsoft/winget-pkgs
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                        BRANCH                                          CREATED AT
+#145070  New version: Alibaba.Quark version 1.2.5.25  SpecterShell:Alibaba.Quark-1.2.5.25-1300468226  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.Quark-1.2.5.25-1745564604'
+  已签出新分支 Remove-Alibaba.Quark-1.2.5.25-1745564604
+  已移除软件包 Alibaba.Quark 版本 1.2.5.25
+[Remove-Alibaba.Quark-1.2.5.25-1745564604 6a0ccc4bab4] Remove version: Alibaba.Quark version 1.2.5.25
+ 4 files changed, 114 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/Quark/1.2.5.25/Alibaba.Quark.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/Quark/1.2.5.25/Alibaba.Quark.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/Quark/1.2.5.25/Alibaba.Quark.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/Quark/1.2.5.25/Alibaba.Quark.yaml
+  已提交修改
+Enumerating objects: 46, done.
+Counting objects: 100% (35/35), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 733 bytes | 244.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.Quark-1.2.5.25-1745564604' on GitHub by visiting:
+remote:      https://github.com/***/winget-pkgs/pull/new/Remove-Alibaba.Quark-1.2.5.25-1745564604
+remote:
+To https://github.com/***/winget-pkgs.git
+ * [new branch]              Remove-Alibaba.Quark-1.2.5.25-1745564604 -> Remove-Alibaba.Quark-1.2.5.25-1745564604
+branch 'Remove-Alibaba.Quark-1.2.5.25-1745564604' set up to track 'origin/Remove-Alibaba.Quark-1.2.5.25-1745564604'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/250954
+ 成功移除 Alibaba.Quark 版本 1.2.5.25
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.Quark-1.2.5.25-1745564604 (was 6a0ccc4bab4).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Alibaba.Quark 1.2.3.17
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 夸克 [Alibaba.Quark]
+版本
+--------
+1.2.5.25
+1.2.4.24
+1.2.3.18
+1.2.3.17
+======= 此软件包版本在 winget 上的信息 =======
+已找到 夸克 [Alibaba.Quark]
+版本: 1.2.3.17
+发布者: Quark
+发布服务器 URL: https://www.quark.cn/
+作者: 广州市动悦信息技术有限公司
+描述: 夸克是一款集搜索、网盘、工具等功能于一体的浏览器,为用户提供极速、智能、高效的体验。
+主页: https://www.quark.cn/
+许可证: 免费软件
+许可证 URL: https://terms.alicdn.com/legal-agreement/terms/c_end_product_protocol/20230727183841535/20230727183841535.html
+隐私 URL: https://terms.alicdn.com/legal-agreement/terms/c_end_product_protocol/20230727184418287/20230727184418287.html
+版权所有: 版权所有 2024 The Quark Authors。保留所有权利。
+标记：
+  chromium
+  互联网
+  浏览器
+  网页
+安装：
+  安装程序类型： inno
+  安装程序 URL： https://umcdn.quark.cn/download/37212/quarkpc/pcquark@store_guanwang/QuarkPC_V1.2.3.17_pc_pf30002_(zh-cn)_release_(Build1690726-240227171149-x64).exe
+  安装程序 SHA256： fc042fd97190a85811c2e7c8b7050fb9c8689e7dc80984294d416d89d0fc9aa7
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\a\Alibaba\Quark\1.2.3.17\Alibaba.Quark.installer.yaml
+
+# Created with YamlCreate.ps1 v2.3.4 Dumplings Mod $debug=QUSU.CRLF.7-4-1.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: Alibaba.Quark
+PackageVersion: 1.2.3.17
+InstallerType: inno
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+Protocols:
+- http
+- https
+- mailto
+- tel
+FileExtensions:
+- htm
+- html
+- mhtml
+- pdf
+- shtml
+- svg
+- webp
+- xht
+- xhtml
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://umcdn.quark.cn/download/37212/quarkpc/pcquark@store_guanwang/QuarkPC_V1.2.3.17_pc_pf30002_(zh-cn)_release_(Build1690726-240227171149-x64).exe
+  InstallerSha256: FC042FD97190A85811C2E7C8B7050FB9C8689E7DC80984294D416D89D0FC9AA7
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+  ProductCode: '{FB7670C2-7F99-426D-B687-21BB585A5C73}_is1'
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://umcdn.quark.cn/download/37212/quarkpc/pcquark@store_guanwang/QuarkPC_V1.2.3.17_pc_pf30002_(zh-cn)_release_(Build1690726-240227171149-x64).exe
+  InstallerSha256: FC042FD97190A85811C2E7C8B7050FB9C8689E7DC80984294D416D89D0FC9AA7
+  InstallerSwitches:
+    Custom: /ALLUSERS
+  ProductCode: '{FB7670C2-7F99-426D-B687-21BB585A5C73}_is1'
+ManifestType: installer
+ManifestVersion: 1.6.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 夸克 [Alibaba.Quark] 版本 1.2.3.17
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://umcdn.quark.cn/download/37212/quarkpc/pcquark@store_guanwang/QuarkPC_V1.2.3.17_pc_pf30002_(zh-cn)_release_(Build1690726-240227171149-x64).exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                         BRANCH                                        CREATED AT
+#250954  Remove version: Alibaba.Quark version 1.2...  ***:Remove-Alibaba.Quark-1.2.5...  about 2 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                        BRANCH                                        CREATED AT
+#141309  New version: Alibaba.Quark version 1.2.3.17  SpecterShell:Alibaba.Quark-1.2.3.17-40914263  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.Quark-1.2.3.17-1745564751'
+  已签出新分支 Remove-Alibaba.Quark-1.2.3.17-1745564751
+  已移除软件包 Alibaba.Quark 版本 1.2.3.17
+[Remove-Alibaba.Quark-1.2.3.17-1745564751 2f143c6a991] Remove version: Alibaba.Quark version 1.2.3.17
+ 4 files changed, 114 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/Quark/1.2.3.17/Alibaba.Quark.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/Quark/1.2.3.17/Alibaba.Quark.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/Quark/1.2.3.17/Alibaba.Quark.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/Quark/1.2.3.17/Alibaba.Quark.yaml
+  已提交修改
+Enumerating objects: 51, done.
+Counting objects: 100% (40/40), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 732 bytes | 244.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.Quark-1.2.3.17-1745564751' on GitHub by visiting:
+remote:      https://github.com/***/winget-pkgs/pull/new/Remove-Alibaba.Quark-1.2.3.17-1745564751
+remote:
+To https://github.com/***/winget-pkgs.git
+ * [new branch]              Remove-Alibaba.Quark-1.2.3.17-1745564751 -> Remove-Alibaba.Quark-1.2.3.17-1745564751
+branch 'Remove-Alibaba.Quark-1.2.3.17-1745564751' set up to track 'origin/Remove-Alibaba.Quark-1.2.3.17-1745564751'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/250955
+ 成功移除 Alibaba.Quark 版本 1.2.3.17
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.Quark-1.2.3.17-1745564751 (was 2f143c6a991).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Alibaba.Quark 1.2.4.24
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 夸克 [Alibaba.Quark]
+版本
+--------
+1.2.5.25
+1.2.4.24
+1.2.3.18
+1.2.3.17
+======= 此软件包版本在 winget 上的信息 =======
+已找到 夸克 [Alibaba.Quark]
+版本: 1.2.4.24
+发布者: Quark
+发布服务器 URL: https://www.quark.cn/
+作者: 广州市动悦信息技术有限公司
+描述: 夸克是一款集搜索、网盘、工具等功能于一体的浏览器,为用户提供极速、智能、高效的体验。
+主页: https://www.quark.cn/
+许可证: 免费软件
+许可证 URL: https://terms.alicdn.com/legal-agreement/terms/c_end_product_protocol/20230727183841535/20230727183841535.html
+隐私 URL: https://terms.alicdn.com/legal-agreement/terms/c_end_product_protocol/20230727184418287/20230727184418287.html
+版权所有: 版权所有 2024 The Quark Authors。保留所有权利。
+标记：
+  chromium
+  互联网
+  浏览器
+  网页
+安装：
+  安装程序类型： inno
+  安装程序 URL： https://umcdn.quark.cn/download/37212/quarkpc/pcquark@store_guanwang/QuarkPC_V1.2.4.24_pc_pf30002_(zh-cn)_release_(Build1704937-240311185814-x64).exe
+  安装程序 SHA256： 8aa6375340899053c0802bc09fa52f83caf649dbaac3afd866d305d099cb4bd7
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\a\Alibaba\Quark\1.2.4.24\Alibaba.Quark.installer.yaml
+
+# Created with YamlCreate.ps1 v2.3.4 Dumplings Mod $debug=QUSU.CRLF.7-4-1.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: Alibaba.Quark
+PackageVersion: 1.2.4.24
+InstallerType: inno
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+Protocols:
+- http
+- https
+- mailto
+- tel
+FileExtensions:
+- htm
+- html
+- mhtml
+- pdf
+- shtml
+- svg
+- webp
+- xht
+- xhtml
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://umcdn.quark.cn/download/37212/quarkpc/pcquark@store_guanwang/QuarkPC_V1.2.4.24_pc_pf30002_(zh-cn)_release_(Build1704937-240311185814-x64).exe
+  InstallerSha256: 8AA6375340899053C0802BC09FA52F83CAF649DBAAC3AFD866D305D099CB4BD7
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+  ProductCode: '{FB7670C2-7F99-426D-B687-21BB585A5C73}_is1'
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://umcdn.quark.cn/download/37212/quarkpc/pcquark@store_guanwang/QuarkPC_V1.2.4.24_pc_pf30002_(zh-cn)_release_(Build1704937-240311185814-x64).exe
+  InstallerSha256: 8AA6375340899053C0802BC09FA52F83CAF649DBAAC3AFD866D305D099CB4BD7
+  InstallerSwitches:
+    Custom: /ALLUSERS
+  ProductCode: '{FB7670C2-7F99-426D-B687-21BB585A5C73}_is1'
+ManifestType: installer
+ManifestVersion: 1.6.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 夸克 [Alibaba.Quark] 版本 1.2.4.24
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://umcdn.quark.cn/download/37212/quarkpc/pcquark@store_guanwang/QuarkPC_V1.2.4.24_pc_pf30002_(zh-cn)_release_(Build1704937-240311185814-x64).exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                        BRANCH                                      CREATED AT
+#250955  Remove version: Alibaba.Quark version 1....  ***:Remove-Alibaba.Quark-1.2...  less than a minute ago
+#250954  Remove version: Alibaba.Quark version 1....  ***:Remove-Alibaba.Quark-1.2...  about 2 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                        BRANCH                                          CREATED AT
+#143938  New version: Alibaba.Quark version 1.2.4.24  SpecterShell:Alibaba.Quark-1.2.4.24-1426069158  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.Quark-1.2.4.24-1745564803'
+  已签出新分支 Remove-Alibaba.Quark-1.2.4.24-1745564803
+  已移除软件包 Alibaba.Quark 版本 1.2.4.24
+[Remove-Alibaba.Quark-1.2.4.24-1745564803 7bd94e2a154] Remove version: Alibaba.Quark version 1.2.4.24
+ 4 files changed, 114 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/Quark/1.2.4.24/Alibaba.Quark.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/Quark/1.2.4.24/Alibaba.Quark.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/Quark/1.2.4.24/Alibaba.Quark.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/Quark/1.2.4.24/Alibaba.Quark.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (45/45), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 734 bytes | 146.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.Quark-1.2.4.24-1745564803' on GitHub by visiting:
+remote:      https://github.com/***/winget-pkgs/pull/new/Remove-Alibaba.Quark-1.2.4.24-1745564803
+remote:
+To https://github.com/***/winget-pkgs.git
+ * [new branch]              Remove-Alibaba.Quark-1.2.4.24-1745564803 -> Remove-Alibaba.Quark-1.2.4.24-1745564803
+branch 'Remove-Alibaba.Quark-1.2.4.24-1745564803' set up to track 'origin/Remove-Alibaba.Quark-1.2.4.24-1745564803'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/250956
+ 成功移除 Alibaba.Quark 版本 1.2.4.24
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.Quark-1.2.4.24-1745564803 (was 7bd94e2a154).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Alibaba.Quark 1.2.3.18
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 夸克 [Alibaba.Quark]
+版本
+--------
+1.2.5.25
+1.2.4.24
+1.2.3.18
+1.2.3.17
+======= 此软件包版本在 winget 上的信息 =======
+已找到 夸克 [Alibaba.Quark]
+版本: 1.2.3.18
+发布者: Quark
+发布服务器 URL: https://www.quark.cn/
+作者: 广州市动悦信息技术有限公司
+描述: 夸克是一款集搜索、网盘、工具等功能于一体的浏览器,为用户提供极速、智能、高效的体验。
+主页: https://www.quark.cn/
+许可证: 免费软件
+许可证 URL: https://terms.alicdn.com/legal-agreement/terms/c_end_product_protocol/20230727183841535/20230727183841535.html
+隐私 URL: https://terms.alicdn.com/legal-agreement/terms/c_end_product_protocol/20230727184418287/20230727184418287.html
+版权所有: 版权所有 2024 The Quark Authors。保留所有权利。
+标记：
+  chromium
+  互联网
+  浏览器
+  网页
+安装：
+  安装程序类型： inno
+  安装程序 URL： https://umcdn.quark.cn/download/37212/quarkpc/pcquark@store_guanwang/QuarkPC_V1.2.3.18_pc_pf30002_(zh-cn)_release_(Build1695044-240302125839-x64).exe
+  安装程序 SHA256： a953901be5f60c81a6085408c61685fd3eac464f57b20b9eb79a6a8806ec2e85
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\a\Alibaba\Quark\1.2.3.18\Alibaba.Quark.installer.yaml
+
+# Created with YamlCreate.ps1 v2.3.4 Dumplings Mod $debug=QUSU.CRLF.7-4-1.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: Alibaba.Quark
+PackageVersion: 1.2.3.18
+InstallerType: inno
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+Protocols:
+- http
+- https
+- mailto
+- tel
+FileExtensions:
+- htm
+- html
+- mhtml
+- pdf
+- shtml
+- svg
+- webp
+- xht
+- xhtml
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://umcdn.quark.cn/download/37212/quarkpc/pcquark@store_guanwang/QuarkPC_V1.2.3.18_pc_pf30002_(zh-cn)_release_(Build1695044-240302125839-x64).exe
+  InstallerSha256: A953901BE5F60C81A6085408C61685FD3EAC464F57B20B9EB79A6A8806EC2E85
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+  ProductCode: '{FB7670C2-7F99-426D-B687-21BB585A5C73}_is1'
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://umcdn.quark.cn/download/37212/quarkpc/pcquark@store_guanwang/QuarkPC_V1.2.3.18_pc_pf30002_(zh-cn)_release_(Build1695044-240302125839-x64).exe
+  InstallerSha256: A953901BE5F60C81A6085408C61685FD3EAC464F57B20B9EB79A6A8806EC2E85
+  InstallerSwitches:
+    Custom: /ALLUSERS
+  ProductCode: '{FB7670C2-7F99-426D-B687-21BB585A5C73}_is1'
+ManifestType: installer
+ManifestVersion: 1.6.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?m
+手动验证结果: Last-Version-Removal
+自动翻译结果: Last-Version-Removal 正确吗?
+使用 winget 验证...
+已找到 夸克 [Alibaba.Quark] 版本 1.2.3.18
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://umcdn.quark.cn/download/37212/quarkpc/pcquark@store_guanwang/QuarkPC_V1.2.3.18_pc_pf30002_(zh-cn)_release_(Build1695044-240302125839-x64).exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 3 of 3 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                        BRANCH                                      CREATED AT
+#250956  Remove version: Alibaba.Quark version 1....  ***:Remove-Alibaba.Quark-1.2...  less than a minute ago
+#250955  Remove version: Alibaba.Quark version 1....  ***:Remove-Alibaba.Quark-1.2...  about 1 minute ago
+#250954  Remove version: Alibaba.Quark version 1....  ***:Remove-Alibaba.Quark-1.2...  about 3 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                        BRANCH                                         CREATED AT
+#141748  New version: Alibaba.Quark version 1.2.3.18  SpecterShell:Alibaba.Quark-1.2.3.18-155889270  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.Quark-1.2.3.18-1745564865'
+  已签出新分支 Remove-Alibaba.Quark-1.2.3.18-1745564865
+  已移除软件包 Alibaba.Quark 版本 1.2.3.18
+[Remove-Alibaba.Quark-1.2.3.18-1745564865 66c0b83f9ca] Remove version: Alibaba.Quark version 1.2.3.18
+ 4 files changed, 114 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/Quark/1.2.3.18/Alibaba.Quark.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/Quark/1.2.3.18/Alibaba.Quark.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/Quark/1.2.3.18/Alibaba.Quark.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/Quark/1.2.3.18/Alibaba.Quark.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (48/48), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 733 bytes | 244.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.Quark-1.2.3.18-1745564865' on GitHub by visiting:
+remote:      https://github.com/***/winget-pkgs/pull/new/Remove-Alibaba.Quark-1.2.3.18-1745564865
+remote:
+To https://github.com/***/winget-pkgs.git
+ * [new branch]              Remove-Alibaba.Quark-1.2.3.18-1745564865 -> Remove-Alibaba.Quark-1.2.3.18-1745564865
+branch 'Remove-Alibaba.Quark-1.2.3.18-1745564865' set up to track 'origin/Remove-Alibaba.Quark-1.2.3.18-1745564865'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/250957
+ 成功移除 Alibaba.Quark 版本 1.2.3.18
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.Quark-1.2.3.18-1745564865 (was 66c0b83f9ca).
+工作区清理完成
