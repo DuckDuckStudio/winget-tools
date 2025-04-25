@@ -1,0 +1,30 @@
+~~ Start logging ~~
+2025-04-25 09:31:22.706 FUN 进不去！怎么想都进不去吧！
+2025-04-25 09:31:22.707 INFO Found the following version folder: ['1.6.7.0']
+2025-04-25 09:31:22.828 INFO Processing version folder: 1.6.7.0
+2025-04-25 09:31:22.829 INFO   Create and checkout to a new branch: NewVersion-ESET.AVRemover-1.6.7.0-1745544682
+2025-04-25 09:31:31.464 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\e\ESET\AVRemover\1.6.7.0\ESET.AVRemover.installer.yaml
+2025-04-25 09:31:31.467 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-04-25 09:31:31.469 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-04-25 09:31:31.480 INFO     Cleaned up ESET.AVRemover.installer.yaml
+2025-04-25 09:31:31.483 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\e\ESET\AVRemover\1.6.7.0\ESET.AVRemover.installer.yaml
+2025-04-25 09:31:31.961 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\e\ESET\AVRemover\1.6.7.0\ESET.AVRemover.locale.en-US.yaml
+2025-04-25 09:31:31.969 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-04-25 09:31:31.971 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-04-25 09:31:31.973 INFO     Cleaned up ESET.AVRemover.locale.en-US.yaml
+2025-04-25 09:31:31.976 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\e\ESET\AVRemover\1.6.7.0\ESET.AVRemover.locale.en-US.yaml
+2025-04-25 09:31:32.258 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\e\ESET\AVRemover\1.6.7.0\ESET.AVRemover.yaml
+2025-04-25 09:31:32.263 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-04-25 09:31:32.265 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-04-25 09:31:32.267 INFO     Cleaned up ESET.AVRemover.yaml
+2025-04-25 09:31:32.272 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\e\ESET\AVRemover\1.6.7.0\ESET.AVRemover.yaml
+2025-04-25 09:31:32.577 INFO   New manifests in D:\...\winget-pkgs\manifests\e\ESET\AVRemover\1.6.7.0 for ESET.AVRemover (1.6.7.0)
+2025-04-25 09:38:40.353 INFO     清单验证成功。
+2025-04-25 09:38:40.364 INFO   Staging and Committing Changes to Git
+2025-04-25 09:38:50.812 INFO     Commit message: New version: ESET.AVRemover version 1.6.7.0 (Auto)
+2025-04-25 09:38:50.813 INFO   Pushing changes to remote (origin) repository
+2025-04-25 09:38:57.316 INFO     Successfully pushed to remote (origin): NewVersion-ESET.AVRemover-1.6.7.0-1745544682
+2025-04-25 09:38:58.856 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/250906
+2025-04-25 09:38:58.860 INFO All manifests have been modified and pushed through.
+2025-04-25 09:39:06.999 INFO Workspace clean-up completed.
+~~ End of logging ~~
