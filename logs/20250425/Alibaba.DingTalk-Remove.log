@@ -1,0 +1,2008 @@
+sundry sync
+sundry ignore list
+
+winget show --id Alibaba.DingTalk -s winget -e --versions | ForEach-Object {
+    if (($_ -match '^\d+\.\d+\.\d+-Release\.\d+$') -and ($_ -ne "7.1.0-Release.10199111") -and ($_ -ne "7.5.30-Release.5179102") -and ($_ -ne "7.6.10-Release.82010807")) {
+        sundry remove Alibaba.DingTalk $_ True @"
+- It respose 403 Forbidden.
+- Resolves https://github.com/microsoft/winget-pkgs/issues/250985
+"@
+    }
+}
+
+# ===============================================================
+
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+INFO 开始同步...
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+INFO     已签出到 main 分支
+Already up to date.
+INFO     已拉取远程修改
+✓ 同步完成
+INFO 现有忽略条目:
+HashSet<string> excludedDomains =
+[
+"https://www.betterbird.eu/", "https://software.sonicwall.com/GlobalVPNClient/GVCSetup32.exe", "https://github.com/coq/platform/releases/", "typora", "https://storage.jd.com/joymeeting-app/app/JoyMeeting.exe", // 过于复杂
+"https://github.com/paintdotnet/release/", "https://cdn.kde.org/ci-builds/education/kiten/master/windows/", // 更新时移除
+"https://cdn.krisp.ai", "https://www.huaweicloud.com/", "https://mirrors.kodi.tv", "https://scache.vzw.com", "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", "https://www.magicdesktop.com/get/kiosk?src=winget", "https://dl.makeblock.com/", "https://download.voicecloud.cn/", "https://dl.jisupdftoword.com/", "https://www.123pan.com/", "jisupdf.com", "jisupdfeditor.com", // 假404
+"https://www.deezer.com/", ".mil", "https://download.wondershare.com/cbs_down/", "https://catsxp.oss-cn-hongkong.aliyuncs.com/", // 无法验证
+"https://downloads.mysql.com/", "https://swcdn.apple.com/content/downloads/", "sourceforge.net", "https://static.centbrowser.cn/", "https://cdn1.waterfox.net/waterfox/releases/", "https://downloads.tableau.com/public/", "https://sp.thsi.cn/staticS3/mobileweb-upload-static-server.file/app_6/downloadcenter/THS_insoft", "https://files02.tchspt.com/down/", // 假403
+"https://issuepcdn.baidupcs.com/", "https://lf-luna-release.qishui.com/obj/luna-release/", "https://down.360safe.com/cse/", // 超时
+"https://www.argyllcms.com/", // 服务器拒绝冲泡咖啡
+"https://www.elcomsoft.com/", "https://pbank.bankcomm.cn/personbank/download/SecEditCFCAforBoCom.exe", // SSL错误
+"https://download.eset.com/com/eset/tools/installers/av_remover/latest/avremover_arm64_enu.exe", // WIP
+]
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-7.6.10-Release.82010805-1745590437'
+  已签出新分支 Remove-Alibaba.DingTalk-7.6.10-Release.82010805-1745590437
+  已移除软件包 Alibaba.DingTalk 版本 7.6.10-Release.82010805
+[Remove-Alibaba.DingTalk-7.6.10-Release.82010805-1745590437 a4594ba7cae] Remove version: Alibaba.DingTalk version 7.6.10-Release.82010805
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.10-Release.82010805/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.10-Release.82010805/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.10-Release.82010805/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.10-Release.82010805/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 31, done.
+Counting objects: 100% (29/29), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 754 bytes | 251.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-7.6.10-Release.82010805-1745590437' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-7.6.10-Release.82010805-1745590437
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-7.6.10-Release.82010805-1745590437 -> Remove-Alibaba.DingTalk-7.6.10-Release.82010805-1745590437
+branch 'Remove-Alibaba.DingTalk-7.6.10-Release.82010805-1745590437' set up to track 'origin/Remove-Alibaba.DingTalk-7.6.10-Release.82010805-1745590437'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251039
+ 成功移除 Alibaba.DingTalk 版本 7.6.10-Release.82010805
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Alibaba.DingTalk-7.6.10-Release.82010805-1745590437 (was a4594ba7cae).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-7.6.10-Release.81910806-1745590480'
+  已签出新分支 Remove-Alibaba.DingTalk-7.6.10-Release.81910806-1745590480
+  已移除软件包 Alibaba.DingTalk 版本 7.6.10-Release.81910806
+[Remove-Alibaba.DingTalk-7.6.10-Release.81910806-1745590480 4c5f1e3b409] Remove version: Alibaba.DingTalk version 7.6.10-Release.81910806
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.10-Release.81910806/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.10-Release.81910806/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.10-Release.81910806/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.10-Release.81910806/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 36, done.
+Counting objects: 100% (34/34), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 749 bytes | 374.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-7.6.10-Release.81910806-1745590480' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-7.6.10-Release.81910806-1745590480
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-7.6.10-Release.81910806-1745590480 -> Remove-Alibaba.DingTalk-7.6.10-Release.81910806-1745590480
+branch 'Remove-Alibaba.DingTalk-7.6.10-Release.81910806-1745590480' set up to track 'origin/Remove-Alibaba.DingTalk-7.6.10-Release.81910806-1745590480'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251040
+ 成功移除 Alibaba.DingTalk 版本 7.6.10-Release.81910806
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Alibaba.DingTalk-7.6.10-Release.81910806-1745590480 (was 4c5f1e3b409).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-7.6.0-Release.73010802-1745590515'
+  已签出新分支 Remove-Alibaba.DingTalk-7.6.0-Release.73010802-1745590515
+  已移除软件包 Alibaba.DingTalk 版本 7.6.0-Release.73010802
+[Remove-Alibaba.DingTalk-7.6.0-Release.73010802-1745590515 5cf2116b27f] Remove version: Alibaba.DingTalk version 7.6.0-Release.73010802
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.0-Release.73010802/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.0-Release.73010802/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.0-Release.73010802/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.0-Release.73010802/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 41, done.
+Counting objects: 100% (39/39), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 746 bytes | 248.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-7.6.0-Release.73010802-1745590515' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-7.6.0-Release.73010802-1745590515
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-7.6.0-Release.73010802-1745590515 -> Remove-Alibaba.DingTalk-7.6.0-Release.73010802-1745590515
+branch 'Remove-Alibaba.DingTalk-7.6.0-Release.73010802-1745590515' set up to track 'origin/Remove-Alibaba.DingTalk-7.6.0-Release.73010802-1745590515'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251041
+ 成功移除 Alibaba.DingTalk 版本 7.6.0-Release.73010802
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Alibaba.DingTalk-7.6.0-Release.73010802-1745590515 (was 5cf2116b27f).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-7.6.0-Release.72910805-1745590545'
+  已签出新分支 Remove-Alibaba.DingTalk-7.6.0-Release.72910805-1745590545
+  已移除软件包 Alibaba.DingTalk 版本 7.6.0-Release.72910805
+[Remove-Alibaba.DingTalk-7.6.0-Release.72910805-1745590545 23c4e42f312] Remove version: Alibaba.DingTalk version 7.6.0-Release.72910805
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.0-Release.72910805/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.0-Release.72910805/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.0-Release.72910805/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.0-Release.72910805/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 46, done.
+Counting objects: 100% (44/44), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 747 bytes | 249.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-7.6.0-Release.72910805-1745590545' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-7.6.0-Release.72910805-1745590545
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-7.6.0-Release.72910805-1745590545 -> Remove-Alibaba.DingTalk-7.6.0-Release.72910805-1745590545
+branch 'Remove-Alibaba.DingTalk-7.6.0-Release.72910805-1745590545' set up to track 'origin/Remove-Alibaba.DingTalk-7.6.0-Release.72910805-1745590545'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251042
+ 成功移除 Alibaba.DingTalk 版本 7.6.0-Release.72910805
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Alibaba.DingTalk-7.6.0-Release.72910805-1745590545 (was 23c4e42f312).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-7.6.0-Release.72310802-1745590575'
+  已签出新分支 Remove-Alibaba.DingTalk-7.6.0-Release.72310802-1745590575
+  已移除软件包 Alibaba.DingTalk 版本 7.6.0-Release.72310802
+[Remove-Alibaba.DingTalk-7.6.0-Release.72310802-1745590575 aa0d26ecafd] Remove version: Alibaba.DingTalk version 7.6.0-Release.72310802
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.0-Release.72310802/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.0-Release.72310802/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.0-Release.72310802/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.0-Release.72310802/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 51, done.
+Counting objects: 100% (49/49), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 750 bytes | 375.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-7.6.0-Release.72310802-1745590575' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-7.6.0-Release.72310802-1745590575
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-7.6.0-Release.72310802-1745590575 -> Remove-Alibaba.DingTalk-7.6.0-Release.72310802-1745590575
+branch 'Remove-Alibaba.DingTalk-7.6.0-Release.72310802-1745590575' set up to track 'origin/Remove-Alibaba.DingTalk-7.6.0-Release.72310802-1745590575'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251043
+ 成功移除 Alibaba.DingTalk 版本 7.6.0-Release.72310802
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Alibaba.DingTalk-7.6.0-Release.72310802-1745590575 (was aa0d26ecafd).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-7.6.0-Release.71210801-1745590604'
+  已签出新分支 Remove-Alibaba.DingTalk-7.6.0-Release.71210801-1745590604
+  已移除软件包 Alibaba.DingTalk 版本 7.6.0-Release.71210801
+[Remove-Alibaba.DingTalk-7.6.0-Release.71210801-1745590604 f619aedca98] Remove version: Alibaba.DingTalk version 7.6.0-Release.71210801
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.0-Release.71210801/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.0-Release.71210801/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.0-Release.71210801/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.0-Release.71210801/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 749 bytes | 374.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-7.6.0-Release.71210801-1745590604' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-7.6.0-Release.71210801-1745590604
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-7.6.0-Release.71210801-1745590604 -> Remove-Alibaba.DingTalk-7.6.0-Release.71210801-1745590604
+branch 'Remove-Alibaba.DingTalk-7.6.0-Release.71210801-1745590604' set up to track 'origin/Remove-Alibaba.DingTalk-7.6.0-Release.71210801-1745590604'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251045
+ 成功移除 Alibaba.DingTalk 版本 7.6.0-Release.71210801
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Alibaba.DingTalk-7.6.0-Release.71210801-1745590604 (was f619aedca98).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-7.6.0-Release.70310805-1745590646'
+  已签出新分支 Remove-Alibaba.DingTalk-7.6.0-Release.70310805-1745590646
+  已移除软件包 Alibaba.DingTalk 版本 7.6.0-Release.70310805
+[Remove-Alibaba.DingTalk-7.6.0-Release.70310805-1745590646 7d310013cff] Remove version: Alibaba.DingTalk version 7.6.0-Release.70310805
+ 4 files changed, 118 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.0-Release.70310805/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.0-Release.70310805/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.0-Release.70310805/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.0-Release.70310805/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 752 bytes | 250.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-7.6.0-Release.70310805-1745590646' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-7.6.0-Release.70310805-1745590646
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-7.6.0-Release.70310805-1745590646 -> Remove-Alibaba.DingTalk-7.6.0-Release.70310805-1745590646
+branch 'Remove-Alibaba.DingTalk-7.6.0-Release.70310805-1745590646' set up to track 'origin/Remove-Alibaba.DingTalk-7.6.0-Release.70310805-1745590646'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251046
+ 成功移除 Alibaba.DingTalk 版本 7.6.0-Release.70310805
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Alibaba.DingTalk-7.6.0-Release.70310805-1745590646 (was 7d310013cff).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-7.6.0-Release.62810810-1745590678'
+  已签出新分支 Remove-Alibaba.DingTalk-7.6.0-Release.62810810-1745590678
+  已移除软件包 Alibaba.DingTalk 版本 7.6.0-Release.62810810
+[Remove-Alibaba.DingTalk-7.6.0-Release.62810810-1745590678 723e71edd58] Remove version: Alibaba.DingTalk version 7.6.0-Release.62810810
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.0-Release.62810810/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.0-Release.62810810/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.0-Release.62810810/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.6.0-Release.62810810/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 750 bytes | 750.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-7.6.0-Release.62810810-1745590678' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-7.6.0-Release.62810810-1745590678
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-7.6.0-Release.62810810-1745590678 -> Remove-Alibaba.DingTalk-7.6.0-Release.62810810-1745590678
+branch 'Remove-Alibaba.DingTalk-7.6.0-Release.62810810-1745590678' set up to track 'origin/Remove-Alibaba.DingTalk-7.6.0-Release.62810810-1745590678'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251047
+ 成功移除 Alibaba.DingTalk 版本 7.6.0-Release.62810810
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Alibaba.DingTalk-7.6.0-Release.62810810-1745590678 (was 723e71edd58).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-7.5.34-Release.6139102-1745590707'
+  已签出新分支 Remove-Alibaba.DingTalk-7.5.34-Release.6139102-1745590707
+  已移除软件包 Alibaba.DingTalk 版本 7.5.34-Release.6139102
+[Remove-Alibaba.DingTalk-7.5.34-Release.6139102-1745590707 ad4566bac31] Remove version: Alibaba.DingTalk version 7.5.34-Release.6139102
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.5.34-Release.6139102/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.5.34-Release.6139102/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.5.34-Release.6139102/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.5.34-Release.6139102/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 750 bytes | 250.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-7.5.34-Release.6139102-1745590707' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-7.5.34-Release.6139102-1745590707
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-7.5.34-Release.6139102-1745590707 -> Remove-Alibaba.DingTalk-7.5.34-Release.6139102-1745590707
+branch 'Remove-Alibaba.DingTalk-7.5.34-Release.6139102-1745590707' set up to track 'origin/Remove-Alibaba.DingTalk-7.5.34-Release.6139102-1745590707'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251048
+ 成功移除 Alibaba.DingTalk 版本 7.5.34-Release.6139102
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Alibaba.DingTalk-7.5.34-Release.6139102-1745590707 (was ad4566bac31).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-7.5.30-Release.6139103-1745590737'
+  已签出新分支 Remove-Alibaba.DingTalk-7.5.30-Release.6139103-1745590737
+  已移除软件包 Alibaba.DingTalk 版本 7.5.30-Release.6139103
+[Remove-Alibaba.DingTalk-7.5.30-Release.6139103-1745590737 533aaefb737] Remove version: Alibaba.DingTalk version 7.5.30-Release.6139103
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.5.30-Release.6139103/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.5.30-Release.6139103/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.5.30-Release.6139103/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.5.30-Release.6139103/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 750 bytes | 375.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-7.5.30-Release.6139103-1745590737' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-7.5.30-Release.6139103-1745590737
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-7.5.30-Release.6139103-1745590737 -> Remove-Alibaba.DingTalk-7.5.30-Release.6139103-1745590737
+branch 'Remove-Alibaba.DingTalk-7.5.30-Release.6139103-1745590737' set up to track 'origin/Remove-Alibaba.DingTalk-7.5.30-Release.6139103-1745590737'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251049
+ 成功移除 Alibaba.DingTalk 版本 7.5.30-Release.6139103
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Alibaba.DingTalk-7.5.30-Release.6139103-1745590737 (was 533aaefb737).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-7.5.30-Release.6069102-1745590766'
+  已签出新分支 Remove-Alibaba.DingTalk-7.5.30-Release.6069102-1745590766
+  已移除软件包 Alibaba.DingTalk 版本 7.5.30-Release.6069102
+[Remove-Alibaba.DingTalk-7.5.30-Release.6069102-1745590766 fd74661c4ab] Remove version: Alibaba.DingTalk version 7.5.30-Release.6069102
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.5.30-Release.6069102/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.5.30-Release.6069102/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.5.30-Release.6069102/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.5.30-Release.6069102/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 753 bytes | 188.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-7.5.30-Release.6069102-1745590766' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-7.5.30-Release.6069102-1745590766
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-7.5.30-Release.6069102-1745590766 -> Remove-Alibaba.DingTalk-7.5.30-Release.6069102-1745590766
+branch 'Remove-Alibaba.DingTalk-7.5.30-Release.6069102-1745590766' set up to track 'origin/Remove-Alibaba.DingTalk-7.5.30-Release.6069102-1745590766'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251052
+ 成功移除 Alibaba.DingTalk 版本 7.5.30-Release.6069102
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Alibaba.DingTalk-7.5.30-Release.6069102-1745590766 (was fd74661c4ab).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-7.5.20-Release.5099102-1745590797'
+  已签出新分支 Remove-Alibaba.DingTalk-7.5.20-Release.5099102-1745590797
+  已移除软件包 Alibaba.DingTalk 版本 7.5.20-Release.5099102
+[Remove-Alibaba.DingTalk-7.5.20-Release.5099102-1745590797 76e698185b5] Remove version: Alibaba.DingTalk version 7.5.20-Release.5099102
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.5.20-Release.5099102/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.5.20-Release.5099102/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.5.20-Release.5099102/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.5.20-Release.5099102/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 756 bytes | 252.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-7.5.20-Release.5099102-1745590797' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-7.5.20-Release.5099102-1745590797
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-7.5.20-Release.5099102-1745590797 -> Remove-Alibaba.DingTalk-7.5.20-Release.5099102-1745590797
+branch 'Remove-Alibaba.DingTalk-7.5.20-Release.5099102-1745590797' set up to track 'origin/Remove-Alibaba.DingTalk-7.5.20-Release.5099102-1745590797'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251053
+ 成功移除 Alibaba.DingTalk 版本 7.5.20-Release.5099102
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Alibaba.DingTalk-7.5.20-Release.5099102-1745590797 (was 76e698185b5).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-7.5.20-Release.4219102-1745590829'
+  已签出新分支 Remove-Alibaba.DingTalk-7.5.20-Release.4219102-1745590829
+  已移除软件包 Alibaba.DingTalk 版本 7.5.20-Release.4219102
+[Remove-Alibaba.DingTalk-7.5.20-Release.4219102-1745590829 f280c2f8824] Remove version: Alibaba.DingTalk version 7.5.20-Release.4219102
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.5.20-Release.4219102/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.5.20-Release.4219102/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.5.20-Release.4219102/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.5.20-Release.4219102/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 749 bytes | 374.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-7.5.20-Release.4219102-1745590829' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-7.5.20-Release.4219102-1745590829
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-7.5.20-Release.4219102-1745590829 -> Remove-Alibaba.DingTalk-7.5.20-Release.4219102-1745590829
+branch 'Remove-Alibaba.DingTalk-7.5.20-Release.4219102-1745590829' set up to track 'origin/Remove-Alibaba.DingTalk-7.5.20-Release.4219102-1745590829'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251054
+ 成功移除 Alibaba.DingTalk 版本 7.5.20-Release.4219102
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Alibaba.DingTalk-7.5.20-Release.4219102-1745590829 (was f280c2f8824).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-7.0.20-Release.4239101-1745590859'
+  已签出新分支 Remove-Alibaba.DingTalk-7.0.20-Release.4239101-1745590859
+  已移除软件包 Alibaba.DingTalk 版本 7.0.20-Release.4239101
+[Remove-Alibaba.DingTalk-7.0.20-Release.4239101-1745590859 c731c6eeca8] Remove version: Alibaba.DingTalk version 7.0.20-Release.4239101
+ 4 files changed, 130 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.20-Release.4239101/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.20-Release.4239101/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.20-Release.4239101/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.20-Release.4239101/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 751 bytes | 250.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-7.0.20-Release.4239101-1745590859' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-7.0.20-Release.4239101-1745590859
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-7.0.20-Release.4239101-1745590859 -> Remove-Alibaba.DingTalk-7.0.20-Release.4239101-1745590859
+branch 'Remove-Alibaba.DingTalk-7.0.20-Release.4239101-1745590859' set up to track 'origin/Remove-Alibaba.DingTalk-7.0.20-Release.4239101-1745590859'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251055
+ 成功移除 Alibaba.DingTalk 版本 7.0.20-Release.4239101
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Alibaba.DingTalk-7.0.20-Release.4239101-1745590859 (was c731c6eeca8).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-7.0.20-Release.4199103-1745590888'
+  已签出新分支 Remove-Alibaba.DingTalk-7.0.20-Release.4199103-1745590888
+  已移除软件包 Alibaba.DingTalk 版本 7.0.20-Release.4199103
+[Remove-Alibaba.DingTalk-7.0.20-Release.4199103-1745590888 74fda9408b4] Remove version: Alibaba.DingTalk version 7.0.20-Release.4199103
+ 4 files changed, 130 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.20-Release.4199103/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.20-Release.4199103/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.20-Release.4199103/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.20-Release.4199103/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 751 bytes | 375.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-7.0.20-Release.4199103-1745590888' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-7.0.20-Release.4199103-1745590888
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-7.0.20-Release.4199103-1745590888 -> Remove-Alibaba.DingTalk-7.0.20-Release.4199103-1745590888
+branch 'Remove-Alibaba.DingTalk-7.0.20-Release.4199103-1745590888' set up to track 'origin/Remove-Alibaba.DingTalk-7.0.20-Release.4199103-1745590888'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251056
+ 成功移除 Alibaba.DingTalk 版本 7.0.20-Release.4199103
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Alibaba.DingTalk-7.0.20-Release.4199103-1745590888 (was 74fda9408b4).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-7.0.10-Release.3139101-1745590919'
+  已签出新分支 Remove-Alibaba.DingTalk-7.0.10-Release.3139101-1745590919
+  已移除软件包 Alibaba.DingTalk 版本 7.0.10-Release.3139101
+[Remove-Alibaba.DingTalk-7.0.10-Release.3139101-1745590919 1ee296e702f] Remove version: Alibaba.DingTalk version 7.0.10-Release.3139101
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.10-Release.3139101/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.10-Release.3139101/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.10-Release.3139101/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.10-Release.3139101/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 752 bytes | 250.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-7.0.10-Release.3139101-1745590919' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-7.0.10-Release.3139101-1745590919
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-7.0.10-Release.3139101-1745590919 -> Remove-Alibaba.DingTalk-7.0.10-Release.3139101-1745590919
+branch 'Remove-Alibaba.DingTalk-7.0.10-Release.3139101-1745590919' set up to track 'origin/Remove-Alibaba.DingTalk-7.0.10-Release.3139101-1745590919'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251058
+ 成功移除 Alibaba.DingTalk 版本 7.0.10-Release.3139101
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Alibaba.DingTalk-7.0.10-Release.3139101-1745590919 (was 1ee296e702f).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-7.0.10-Release.2279103-1745590949'
+  已签出新分支 Remove-Alibaba.DingTalk-7.0.10-Release.2279103-1745590949
+  已移除软件包 Alibaba.DingTalk 版本 7.0.10-Release.2279103
+[Remove-Alibaba.DingTalk-7.0.10-Release.2279103-1745590949 2e09575618e] Remove version: Alibaba.DingTalk version 7.0.10-Release.2279103
+ 4 files changed, 155 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.10-Release.2279103/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.10-Release.2279103/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.10-Release.2279103/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.10-Release.2279103/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 750 bytes | 250.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-7.0.10-Release.2279103-1745590949' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-7.0.10-Release.2279103-1745590949
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-7.0.10-Release.2279103-1745590949 -> Remove-Alibaba.DingTalk-7.0.10-Release.2279103-1745590949
+branch 'Remove-Alibaba.DingTalk-7.0.10-Release.2279103-1745590949' set up to track 'origin/Remove-Alibaba.DingTalk-7.0.10-Release.2279103-1745590949'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251059
+ 成功移除 Alibaba.DingTalk 版本 7.0.10-Release.2279103
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Alibaba.DingTalk-7.0.10-Release.2279103-1745590949 (was 2e09575618e).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-7.0.10-Release.2239102-1745590979'
+  已签出新分支 Remove-Alibaba.DingTalk-7.0.10-Release.2239102-1745590979
+  已移除软件包 Alibaba.DingTalk 版本 7.0.10-Release.2239102
+[Remove-Alibaba.DingTalk-7.0.10-Release.2239102-1745590979 9f029404b0b] Remove version: Alibaba.DingTalk version 7.0.10-Release.2239102
+ 4 files changed, 155 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.10-Release.2239102/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.10-Release.2239102/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.10-Release.2239102/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.10-Release.2239102/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 751 bytes | 375.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-7.0.10-Release.2239102-1745590979' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-7.0.10-Release.2239102-1745590979
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-7.0.10-Release.2239102-1745590979 -> Remove-Alibaba.DingTalk-7.0.10-Release.2239102-1745590979
+branch 'Remove-Alibaba.DingTalk-7.0.10-Release.2239102-1745590979' set up to track 'origin/Remove-Alibaba.DingTalk-7.0.10-Release.2239102-1745590979'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251060
+ 成功移除 Alibaba.DingTalk 版本 7.0.10-Release.2239102
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Alibaba.DingTalk-7.0.10-Release.2239102-1745590979 (was 9f029404b0b).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-7.0.10-Release.2219104-1745591010'
+  已签出新分支 Remove-Alibaba.DingTalk-7.0.10-Release.2219104-1745591010
+  已移除软件包 Alibaba.DingTalk 版本 7.0.10-Release.2219104
+[Remove-Alibaba.DingTalk-7.0.10-Release.2219104-1745591010 a79f59e5c14] Remove version: Alibaba.DingTalk version 7.0.10-Release.2219104
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.10-Release.2219104/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.10-Release.2219104/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.10-Release.2219104/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.10-Release.2219104/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 752 bytes | 752.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-7.0.10-Release.2219104-1745591010' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-7.0.10-Release.2219104-1745591010
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-7.0.10-Release.2219104-1745591010 -> Remove-Alibaba.DingTalk-7.0.10-Release.2219104-1745591010
+branch 'Remove-Alibaba.DingTalk-7.0.10-Release.2219104-1745591010' set up to track 'origin/Remove-Alibaba.DingTalk-7.0.10-Release.2219104-1745591010'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251061
+ 成功移除 Alibaba.DingTalk 版本 7.0.10-Release.2219104
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Alibaba.DingTalk-7.0.10-Release.2219104-1745591010 (was a79f59e5c14).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 10 (delta 5), reused 7 (delta 2), pack-reused 0 (from 0)
+Unpacking objects: 100% (10/10), 2.51 KiB | 38.00 KiB/s, done.
+From https://github.com/microsoft/winget-pkgs
+   672a8a0e7c8..0ff2ec27285  master     -> upstream/master
+Successfully rebased and updated refs/heads/master.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-7.0.10-Release.2189102-1745591046'
+  已签出新分支 Remove-Alibaba.DingTalk-7.0.10-Release.2189102-1745591046
+  已移除软件包 Alibaba.DingTalk 版本 7.0.10-Release.2189102
+[Remove-Alibaba.DingTalk-7.0.10-Release.2189102-1745591046 0ef5f8dc019] Remove version: Alibaba.DingTalk version 7.0.10-Release.2189102
+ 4 files changed, 155 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.10-Release.2189102/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.10-Release.2189102/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.10-Release.2189102/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.10-Release.2189102/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 751 bytes | 751.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-7.0.10-Release.2189102-1745591046' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-7.0.10-Release.2189102-1745591046
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-7.0.10-Release.2189102-1745591046 -> Remove-Alibaba.DingTalk-7.0.10-Release.2189102-1745591046
+branch 'Remove-Alibaba.DingTalk-7.0.10-Release.2189102-1745591046' set up to track 'origin/Remove-Alibaba.DingTalk-7.0.10-Release.2189102-1745591046'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251062
+ 成功移除 Alibaba.DingTalk 版本 7.0.10-Release.2189102
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-7.0.10-Release.2189102-1745591046 (was 0ef5f8dc019).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-7.0.0-Release.12299103-1745591076'
+  已签出新分支 Remove-Alibaba.DingTalk-7.0.0-Release.12299103-1745591076
+  已移除软件包 Alibaba.DingTalk 版本 7.0.0-Release.12299103
+[Remove-Alibaba.DingTalk-7.0.0-Release.12299103-1745591076 a46fb41dce4] Remove version: Alibaba.DingTalk version 7.0.0-Release.12299103
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.0-Release.12299103/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.0-Release.12299103/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.0-Release.12299103/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.0-Release.12299103/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 750 bytes | 250.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-7.0.0-Release.12299103-1745591076' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-7.0.0-Release.12299103-1745591076
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-7.0.0-Release.12299103-1745591076 -> Remove-Alibaba.DingTalk-7.0.0-Release.12299103-1745591076
+branch 'Remove-Alibaba.DingTalk-7.0.0-Release.12299103-1745591076' set up to track 'origin/Remove-Alibaba.DingTalk-7.0.0-Release.12299103-1745591076'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251063
+ 成功移除 Alibaba.DingTalk 版本 7.0.0-Release.12299103
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-7.0.0-Release.12299103-1745591076 (was a46fb41dce4).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-7.0.0-Release.12279104-1745591103'
+  已签出新分支 Remove-Alibaba.DingTalk-7.0.0-Release.12279104-1745591103
+  已移除软件包 Alibaba.DingTalk 版本 7.0.0-Release.12279104
+[Remove-Alibaba.DingTalk-7.0.0-Release.12279104-1745591103 08c42745d73] Remove version: Alibaba.DingTalk version 7.0.0-Release.12279104
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.0-Release.12279104/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.0-Release.12279104/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.0-Release.12279104/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.0-Release.12279104/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 753 bytes | 251.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-7.0.0-Release.12279104-1745591103' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-7.0.0-Release.12279104-1745591103
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-7.0.0-Release.12279104-1745591103 -> Remove-Alibaba.DingTalk-7.0.0-Release.12279104-1745591103
+branch 'Remove-Alibaba.DingTalk-7.0.0-Release.12279104-1745591103' set up to track 'origin/Remove-Alibaba.DingTalk-7.0.0-Release.12279104-1745591103'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251064
+ 成功移除 Alibaba.DingTalk 版本 7.0.0-Release.12279104
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-7.0.0-Release.12279104-1745591103 (was 08c42745d73).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-7.0.0-Release.2019102-1745591131'
+  已签出新分支 Remove-Alibaba.DingTalk-7.0.0-Release.2019102-1745591131
+  已移除软件包 Alibaba.DingTalk 版本 7.0.0-Release.2019102
+[Remove-Alibaba.DingTalk-7.0.0-Release.2019102-1745591131 df181ea4011] Remove version: Alibaba.DingTalk version 7.0.0-Release.2019102
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.0-Release.2019102/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.0-Release.2019102/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.0-Release.2019102/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/7.0.0-Release.2019102/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 750 bytes | 250.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-7.0.0-Release.2019102-1745591131' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-7.0.0-Release.2019102-1745591131
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-7.0.0-Release.2019102-1745591131 -> Remove-Alibaba.DingTalk-7.0.0-Release.2019102-1745591131
+branch 'Remove-Alibaba.DingTalk-7.0.0-Release.2019102-1745591131' set up to track 'origin/Remove-Alibaba.DingTalk-7.0.0-Release.2019102-1745591131'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251065
+ 成功移除 Alibaba.DingTalk 版本 7.0.0-Release.2019102
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-7.0.0-Release.2019102-1745591131 (was df181ea4011).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-6.5.50-Release.11089104-1745591159'
+  已签出新分支 Remove-Alibaba.DingTalk-6.5.50-Release.11089104-1745591159
+  已移除软件包 Alibaba.DingTalk 版本 6.5.50-Release.11089104
+[Remove-Alibaba.DingTalk-6.5.50-Release.11089104-1745591159 62bafe2ec7e] Remove version: Alibaba.DingTalk version 6.5.50-Release.11089104
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.50-Release.11089104/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.50-Release.11089104/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.50-Release.11089104/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.50-Release.11089104/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 750 bytes | 375.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-6.5.50-Release.11089104-1745591159' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-6.5.50-Release.11089104-1745591159
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-6.5.50-Release.11089104-1745591159 -> Remove-Alibaba.DingTalk-6.5.50-Release.11089104-1745591159
+branch 'Remove-Alibaba.DingTalk-6.5.50-Release.11089104-1745591159' set up to track 'origin/Remove-Alibaba.DingTalk-6.5.50-Release.11089104-1745591159'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251066
+ 成功移除 Alibaba.DingTalk 版本 6.5.50-Release.11089104
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-6.5.50-Release.11089104-1745591159 (was 62bafe2ec7e).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+remote: Enumerating objects: 18, done.
+remote: Counting objects: 100% (18/18), done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 12 (delta 8), reused 5 (delta 2), pack-reused 0 (from 0)
+Unpacking objects: 100% (12/12), 3.65 KiB | 56.00 KiB/s, done.
+From https://github.com/microsoft/winget-pkgs
+   0ff2ec27285..6d735956209  master     -> upstream/master
+Successfully rebased and updated refs/heads/master.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-6.5.40-Release.9059101-1745591193'
+  已签出新分支 Remove-Alibaba.DingTalk-6.5.40-Release.9059101-1745591193
+  已移除软件包 Alibaba.DingTalk 版本 6.5.40-Release.9059101
+[Remove-Alibaba.DingTalk-6.5.40-Release.9059101-1745591193 8dee10d18b5] Remove version: Alibaba.DingTalk version 6.5.40-Release.9059101
+ 4 files changed, 151 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.40-Release.9059101/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.40-Release.9059101/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.40-Release.9059101/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.40-Release.9059101/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 753 bytes | 376.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-6.5.40-Release.9059101-1745591193' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-6.5.40-Release.9059101-1745591193
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-6.5.40-Release.9059101-1745591193 -> Remove-Alibaba.DingTalk-6.5.40-Release.9059101-1745591193
+branch 'Remove-Alibaba.DingTalk-6.5.40-Release.9059101-1745591193' set up to track 'origin/Remove-Alibaba.DingTalk-6.5.40-Release.9059101-1745591193'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251067
+ 成功移除 Alibaba.DingTalk 版本 6.5.40-Release.9059101
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-6.5.40-Release.9059101-1745591193 (was 8dee10d18b5).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-6.5.30-Release.7289101-1745591221'
+  已签出新分支 Remove-Alibaba.DingTalk-6.5.30-Release.7289101-1745591221
+  已移除软件包 Alibaba.DingTalk 版本 6.5.30-Release.7289101
+[Remove-Alibaba.DingTalk-6.5.30-Release.7289101-1745591221 1f1990117d0] Remove version: Alibaba.DingTalk version 6.5.30-Release.7289101
+ 4 files changed, 118 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.30-Release.7289101/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.30-Release.7289101/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.30-Release.7289101/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.30-Release.7289101/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 750 bytes | 250.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-6.5.30-Release.7289101-1745591221' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-6.5.30-Release.7289101-1745591221
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-6.5.30-Release.7289101-1745591221 -> Remove-Alibaba.DingTalk-6.5.30-Release.7289101-1745591221
+branch 'Remove-Alibaba.DingTalk-6.5.30-Release.7289101-1745591221' set up to track 'origin/Remove-Alibaba.DingTalk-6.5.30-Release.7289101-1745591221'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251068
+ 成功移除 Alibaba.DingTalk 版本 6.5.30-Release.7289101
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-6.5.30-Release.7289101-1745591221 (was 1f1990117d0).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+remote: Enumerating objects: 16, done.
+remote: Counting objects: 100% (16/16), done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 11 (delta 4), reused 5 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (11/11), 2.70 KiB | 56.00 KiB/s, done.
+From https://github.com/microsoft/winget-pkgs
+   6d735956209..9def93c0a05  master     -> upstream/master
+Successfully rebased and updated refs/heads/master.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-6.5.30-Release.7279105-1745591257'
+  已签出新分支 Remove-Alibaba.DingTalk-6.5.30-Release.7279105-1745591257
+  已移除软件包 Alibaba.DingTalk 版本 6.5.30-Release.7279105
+[Remove-Alibaba.DingTalk-6.5.30-Release.7279105-1745591257 2018a9c15ea] Remove version: Alibaba.DingTalk version 6.5.30-Release.7279105
+ 4 files changed, 118 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.30-Release.7279105/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.30-Release.7279105/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.30-Release.7279105/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.30-Release.7279105/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 751 bytes | 250.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-6.5.30-Release.7279105-1745591257' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-6.5.30-Release.7279105-1745591257
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-6.5.30-Release.7279105-1745591257 -> Remove-Alibaba.DingTalk-6.5.30-Release.7279105-1745591257
+branch 'Remove-Alibaba.DingTalk-6.5.30-Release.7279105-1745591257' set up to track 'origin/Remove-Alibaba.DingTalk-6.5.30-Release.7279105-1745591257'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251070
+ 成功移除 Alibaba.DingTalk 版本 6.5.30-Release.7279105
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-6.5.30-Release.7279105-1745591257 (was 2018a9c15ea).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-6.5.30-Release.7229101-1745591287'
+  已签出新分支 Remove-Alibaba.DingTalk-6.5.30-Release.7229101-1745591287
+  已移除软件包 Alibaba.DingTalk 版本 6.5.30-Release.7229101
+[Remove-Alibaba.DingTalk-6.5.30-Release.7229101-1745591287 bd2e80fbbb9] Remove version: Alibaba.DingTalk version 6.5.30-Release.7229101
+ 4 files changed, 118 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.30-Release.7229101/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.30-Release.7229101/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.30-Release.7229101/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.30-Release.7229101/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 751 bytes | 375.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-6.5.30-Release.7229101-1745591287' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-6.5.30-Release.7229101-1745591287
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-6.5.30-Release.7229101-1745591287 -> Remove-Alibaba.DingTalk-6.5.30-Release.7229101-1745591287
+branch 'Remove-Alibaba.DingTalk-6.5.30-Release.7229101-1745591287' set up to track 'origin/Remove-Alibaba.DingTalk-6.5.30-Release.7229101-1745591287'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251071
+ 成功移除 Alibaba.DingTalk 版本 6.5.30-Release.7229101
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-6.5.30-Release.7229101-1745591287 (was bd2e80fbbb9).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-6.5.0-Release.3289101-1745591314'
+  已签出新分支 Remove-Alibaba.DingTalk-6.5.0-Release.3289101-1745591314
+  已移除软件包 Alibaba.DingTalk 版本 6.5.0-Release.3289101
+[Remove-Alibaba.DingTalk-6.5.0-Release.3289101-1745591314 519a66ad753] Remove version: Alibaba.DingTalk version 6.5.0-Release.3289101
+ 4 files changed, 156 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.0-Release.3289101/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.0-Release.3289101/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.0-Release.3289101/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.0-Release.3289101/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 759 bytes | 379.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-6.5.0-Release.3289101-1745591314' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-6.5.0-Release.3289101-1745591314
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-6.5.0-Release.3289101-1745591314 -> Remove-Alibaba.DingTalk-6.5.0-Release.3289101-1745591314
+branch 'Remove-Alibaba.DingTalk-6.5.0-Release.3289101-1745591314' set up to track 'origin/Remove-Alibaba.DingTalk-6.5.0-Release.3289101-1745591314'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251072
+ 成功移除 Alibaba.DingTalk 版本 6.5.0-Release.3289101
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-6.5.0-Release.3289101-1745591314 (was 519a66ad753).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-6.5.0-Release.3219102-1745591341'
+  已签出新分支 Remove-Alibaba.DingTalk-6.5.0-Release.3219102-1745591341
+  已移除软件包 Alibaba.DingTalk 版本 6.5.0-Release.3219102
+[Remove-Alibaba.DingTalk-6.5.0-Release.3219102-1745591341 30d321049a6] Remove version: Alibaba.DingTalk version 6.5.0-Release.3219102
+ 4 files changed, 154 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.0-Release.3219102/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.0-Release.3219102/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.0-Release.3219102/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.5.0-Release.3219102/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 752 bytes | 376.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-6.5.0-Release.3219102-1745591341' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-6.5.0-Release.3219102-1745591341
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-6.5.0-Release.3219102-1745591341 -> Remove-Alibaba.DingTalk-6.5.0-Release.3219102-1745591341
+branch 'Remove-Alibaba.DingTalk-6.5.0-Release.3219102-1745591341' set up to track 'origin/Remove-Alibaba.DingTalk-6.5.0-Release.3219102-1745591341'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251073
+ 成功移除 Alibaba.DingTalk 版本 6.5.0-Release.3219102
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-6.5.0-Release.3219102-1745591341 (was 30d321049a6).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-6.3.35-Release.3199101-1745591372'
+  已签出新分支 Remove-Alibaba.DingTalk-6.3.35-Release.3199101-1745591372
+  已移除软件包 Alibaba.DingTalk 版本 6.3.35-Release.3199101
+[Remove-Alibaba.DingTalk-6.3.35-Release.3199101-1745591372 0ea44cdf871] Remove version: Alibaba.DingTalk version 6.3.35-Release.3199101
+ 4 files changed, 142 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.35-Release.3199101/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.35-Release.3199101/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.35-Release.3199101/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.35-Release.3199101/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 751 bytes | 751.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-6.3.35-Release.3199101-1745591372' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-6.3.35-Release.3199101-1745591372
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-6.3.35-Release.3199101-1745591372 -> Remove-Alibaba.DingTalk-6.3.35-Release.3199101-1745591372
+branch 'Remove-Alibaba.DingTalk-6.3.35-Release.3199101-1745591372' set up to track 'origin/Remove-Alibaba.DingTalk-6.3.35-Release.3199101-1745591372'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251074
+ 成功移除 Alibaba.DingTalk 版本 6.3.35-Release.3199101
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-6.3.35-Release.3199101-1745591372 (was 0ea44cdf871).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-6.3.35-Release.3179104-1745591399'
+  已签出新分支 Remove-Alibaba.DingTalk-6.3.35-Release.3179104-1745591399
+  已移除软件包 Alibaba.DingTalk 版本 6.3.35-Release.3179104
+[Remove-Alibaba.DingTalk-6.3.35-Release.3179104-1745591399 a0b85a8e7b7] Remove version: Alibaba.DingTalk version 6.3.35-Release.3179104
+ 4 files changed, 142 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.35-Release.3179104/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.35-Release.3179104/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.35-Release.3179104/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.35-Release.3179104/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 755 bytes | 377.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-6.3.35-Release.3179104-1745591399' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-6.3.35-Release.3179104-1745591399
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-6.3.35-Release.3179104-1745591399 -> Remove-Alibaba.DingTalk-6.3.35-Release.3179104-1745591399
+branch 'Remove-Alibaba.DingTalk-6.3.35-Release.3179104-1745591399' set up to track 'origin/Remove-Alibaba.DingTalk-6.3.35-Release.3179104-1745591399'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251075
+ 成功移除 Alibaba.DingTalk 版本 6.3.35-Release.3179104
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-6.3.35-Release.3179104-1745591399 (was a0b85a8e7b7).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-6.3.35-Release.3149109-1745591429'
+  已签出新分支 Remove-Alibaba.DingTalk-6.3.35-Release.3149109-1745591429
+  已移除软件包 Alibaba.DingTalk 版本 6.3.35-Release.3149109
+[Remove-Alibaba.DingTalk-6.3.35-Release.3149109-1745591429 c6781f6b8a2] Remove version: Alibaba.DingTalk version 6.3.35-Release.3149109
+ 4 files changed, 118 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.35-Release.3149109/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.35-Release.3149109/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.35-Release.3149109/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.35-Release.3149109/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 750 bytes | 250.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-6.3.35-Release.3149109-1745591429' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-6.3.35-Release.3149109-1745591429
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-6.3.35-Release.3149109-1745591429 -> Remove-Alibaba.DingTalk-6.3.35-Release.3149109-1745591429
+branch 'Remove-Alibaba.DingTalk-6.3.35-Release.3149109-1745591429' set up to track 'origin/Remove-Alibaba.DingTalk-6.3.35-Release.3149109-1745591429'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251077
+ 成功移除 Alibaba.DingTalk 版本 6.3.35-Release.3149109
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-6.3.35-Release.3149109-1745591429 (was c6781f6b8a2).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-6.3.25-Release.3019101-1745591461'
+  已签出新分支 Remove-Alibaba.DingTalk-6.3.25-Release.3019101-1745591461
+  已移除软件包 Alibaba.DingTalk 版本 6.3.25-Release.3019101
+[Remove-Alibaba.DingTalk-6.3.25-Release.3019101-1745591461 c25cff10b08] Remove version: Alibaba.DingTalk version 6.3.25-Release.3019101
+ 4 files changed, 118 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.25-Release.3019101/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.25-Release.3019101/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.25-Release.3019101/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.25-Release.3019101/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 753 bytes | 251.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-6.3.25-Release.3019101-1745591461' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-6.3.25-Release.3019101-1745591461
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-6.3.25-Release.3019101-1745591461 -> Remove-Alibaba.DingTalk-6.3.25-Release.3019101-1745591461
+branch 'Remove-Alibaba.DingTalk-6.3.25-Release.3019101-1745591461' set up to track 'origin/Remove-Alibaba.DingTalk-6.3.25-Release.3019101-1745591461'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251078
+ 成功移除 Alibaba.DingTalk 版本 6.3.25-Release.3019101
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-6.3.25-Release.3019101-1745591461 (was c25cff10b08).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-6.3.25-Release.2189103-1745591488'
+  已签出新分支 Remove-Alibaba.DingTalk-6.3.25-Release.2189103-1745591488
+  已移除软件包 Alibaba.DingTalk 版本 6.3.25-Release.2189103
+[Remove-Alibaba.DingTalk-6.3.25-Release.2189103-1745591488 643adaf90d9] Remove version: Alibaba.DingTalk version 6.3.25-Release.2189103
+ 4 files changed, 154 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.25-Release.2189103/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.25-Release.2189103/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.25-Release.2189103/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.25-Release.2189103/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 752 bytes | 376.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-6.3.25-Release.2189103-1745591488' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-6.3.25-Release.2189103-1745591488
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-6.3.25-Release.2189103-1745591488 -> Remove-Alibaba.DingTalk-6.3.25-Release.2189103-1745591488
+branch 'Remove-Alibaba.DingTalk-6.3.25-Release.2189103-1745591488' set up to track 'origin/Remove-Alibaba.DingTalk-6.3.25-Release.2189103-1745591488'.
+  已推送修改
+  拉取请求创建失败：500 -
+ 成功移除 Alibaba.DingTalk 版本 6.3.25-Release.2189103
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-6.3.25-Release.2189103-1745591488 (was 643adaf90d9).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-6.3.25-Release.2169106-1745591599'
+  已签出新分支 Remove-Alibaba.DingTalk-6.3.25-Release.2169106-1745591599
+  已移除软件包 Alibaba.DingTalk 版本 6.3.25-Release.2169106
+[Remove-Alibaba.DingTalk-6.3.25-Release.2169106-1745591599 613a934f980] Remove version: Alibaba.DingTalk version 6.3.25-Release.2169106
+ 4 files changed, 118 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.25-Release.2169106/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.25-Release.2169106/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.25-Release.2169106/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.25-Release.2169106/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 748 bytes | 374.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-6.3.25-Release.2169106-1745591599' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-6.3.25-Release.2169106-1745591599
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-6.3.25-Release.2169106-1745591599 -> Remove-Alibaba.DingTalk-6.3.25-Release.2169106-1745591599
+branch 'Remove-Alibaba.DingTalk-6.3.25-Release.2169106-1745591599' set up to track 'origin/Remove-Alibaba.DingTalk-6.3.25-Release.2169106-1745591599'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251080
+ 成功移除 Alibaba.DingTalk 版本 6.3.25-Release.2169106
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-6.3.25-Release.2169106-1745591599 (was 613a934f980).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+remote: Enumerating objects: 16, done.
+remote: Counting objects: 100% (16/16), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 11 (delta 7), reused 5 (delta 2), pack-reused 0 (from 0)
+Unpacking objects: 100% (11/11), 2.57 KiB | 32.00 KiB/s, done.
+From https://github.com/microsoft/winget-pkgs
+   9def93c0a05..d6e9f27e27e  master     -> upstream/master
+Successfully rebased and updated refs/heads/master.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-6.3.25-Release.2149108-1745591638'
+  已签出新分支 Remove-Alibaba.DingTalk-6.3.25-Release.2149108-1745591638
+  已移除软件包 Alibaba.DingTalk 版本 6.3.25-Release.2149108
+[Remove-Alibaba.DingTalk-6.3.25-Release.2149108-1745591638 72b1b42ef5d] Remove version: Alibaba.DingTalk version 6.3.25-Release.2149108
+ 4 files changed, 118 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.25-Release.2149108/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.25-Release.2149108/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.25-Release.2149108/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.25-Release.2149108/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 757 bytes | 757.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-6.3.25-Release.2149108-1745591638' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-6.3.25-Release.2149108-1745591638
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-6.3.25-Release.2149108-1745591638 -> Remove-Alibaba.DingTalk-6.3.25-Release.2149108-1745591638
+branch 'Remove-Alibaba.DingTalk-6.3.25-Release.2149108-1745591638' set up to track 'origin/Remove-Alibaba.DingTalk-6.3.25-Release.2149108-1745591638'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251081
+ 成功移除 Alibaba.DingTalk 版本 6.3.25-Release.2149108
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-6.3.25-Release.2149108-1745591638 (was 72b1b42ef5d).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-6.3.18-Release.12278704-1745591670'
+  已签出新分支 Remove-Alibaba.DingTalk-6.3.18-Release.12278704-1745591670
+  已移除软件包 Alibaba.DingTalk 版本 6.3.18-Release.12278704
+[Remove-Alibaba.DingTalk-6.3.18-Release.12278704-1745591670 78ffe6099f1] Remove version: Alibaba.DingTalk version 6.3.18-Release.12278704
+ 4 files changed, 118 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.18-Release.12278704/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.18-Release.12278704/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.18-Release.12278704/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.18-Release.12278704/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 750 bytes | 375.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-6.3.18-Release.12278704-1745591670' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-6.3.18-Release.12278704-1745591670
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-6.3.18-Release.12278704-1745591670 -> Remove-Alibaba.DingTalk-6.3.18-Release.12278704-1745591670
+branch 'Remove-Alibaba.DingTalk-6.3.18-Release.12278704-1745591670' set up to track 'origin/Remove-Alibaba.DingTalk-6.3.18-Release.12278704-1745591670'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251082
+ 成功移除 Alibaba.DingTalk 版本 6.3.18-Release.12278704
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-6.3.18-Release.12278704-1745591670 (was 78ffe6099f1).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-6.3.15-Release.12108702-1745591703'
+  已签出新分支 Remove-Alibaba.DingTalk-6.3.15-Release.12108702-1745591703
+  已移除软件包 Alibaba.DingTalk 版本 6.3.15-Release.12108702
+[Remove-Alibaba.DingTalk-6.3.15-Release.12108702-1745591703 5e07a40d273] Remove version: Alibaba.DingTalk version 6.3.15-Release.12108702
+ 4 files changed, 118 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.15-Release.12108702/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.15-Release.12108702/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.15-Release.12108702/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.15-Release.12108702/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 750 bytes | 250.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-6.3.15-Release.12108702-1745591703' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-6.3.15-Release.12108702-1745591703
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-6.3.15-Release.12108702-1745591703 -> Remove-Alibaba.DingTalk-6.3.15-Release.12108702-1745591703
+branch 'Remove-Alibaba.DingTalk-6.3.15-Release.12108702-1745591703' set up to track 'origin/Remove-Alibaba.DingTalk-6.3.15-Release.12108702-1745591703'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251083
+ 成功移除 Alibaba.DingTalk 版本 6.3.15-Release.12108702
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-6.3.15-Release.12108702-1745591703 (was 5e07a40d273).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-6.3.5-Release.11308701-1745591738'
+  已签出新分支 Remove-Alibaba.DingTalk-6.3.5-Release.11308701-1745591738
+  已移除软件包 Alibaba.DingTalk 版本 6.3.5-Release.11308701
+[Remove-Alibaba.DingTalk-6.3.5-Release.11308701-1745591738 7d7c9a9fb9f] Remove version: Alibaba.DingTalk version 6.3.5-Release.11308701
+ 4 files changed, 111 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.5-Release.11308701/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.5-Release.11308701/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.5-Release.11308701/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.5-Release.11308701/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 752 bytes | 752.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-6.3.5-Release.11308701-1745591738' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-6.3.5-Release.11308701-1745591738
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-6.3.5-Release.11308701-1745591738 -> Remove-Alibaba.DingTalk-6.3.5-Release.11308701-1745591738
+branch 'Remove-Alibaba.DingTalk-6.3.5-Release.11308701-1745591738' set up to track 'origin/Remove-Alibaba.DingTalk-6.3.5-Release.11308701-1745591738'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251084
+ 成功移除 Alibaba.DingTalk 版本 6.3.5-Release.11308701
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-6.3.5-Release.11308701-1745591738 (was 7d7c9a9fb9f).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-6.3.5-Release.11178701-1745591771'
+  已签出新分支 Remove-Alibaba.DingTalk-6.3.5-Release.11178701-1745591771
+  已移除软件包 Alibaba.DingTalk 版本 6.3.5-Release.11178701
+[Remove-Alibaba.DingTalk-6.3.5-Release.11178701-1745591771 0df3b4433f4] Remove version: Alibaba.DingTalk version 6.3.5-Release.11178701
+ 4 files changed, 111 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.5-Release.11178701/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.5-Release.11178701/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.5-Release.11178701/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.5-Release.11178701/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 750 bytes | 750.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-6.3.5-Release.11178701-1745591771' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-6.3.5-Release.11178701-1745591771
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-6.3.5-Release.11178701-1745591771 -> Remove-Alibaba.DingTalk-6.3.5-Release.11178701-1745591771
+branch 'Remove-Alibaba.DingTalk-6.3.5-Release.11178701-1745591771' set up to track 'origin/Remove-Alibaba.DingTalk-6.3.5-Release.11178701-1745591771'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251085
+ 成功移除 Alibaba.DingTalk 版本 6.3.5-Release.11178701
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-6.3.5-Release.11178701-1745591771 (was 0df3b4433f4).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-6.3.5-Release.10278702-1745591803'
+  已签出新分支 Remove-Alibaba.DingTalk-6.3.5-Release.10278702-1745591803
+  已移除软件包 Alibaba.DingTalk 版本 6.3.5-Release.10278702
+[Remove-Alibaba.DingTalk-6.3.5-Release.10278702-1745591803 a161fb94598] Remove version: Alibaba.DingTalk version 6.3.5-Release.10278702
+ 4 files changed, 111 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.5-Release.10278702/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.5-Release.10278702/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.5-Release.10278702/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.3.5-Release.10278702/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 747 bytes | 249.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-6.3.5-Release.10278702-1745591803' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-6.3.5-Release.10278702-1745591803
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-6.3.5-Release.10278702-1745591803 -> Remove-Alibaba.DingTalk-6.3.5-Release.10278702-1745591803
+branch 'Remove-Alibaba.DingTalk-6.3.5-Release.10278702-1745591803' set up to track 'origin/Remove-Alibaba.DingTalk-6.3.5-Release.10278702-1745591803'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251086
+ 成功移除 Alibaba.DingTalk 版本 6.3.5-Release.10278702
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-6.3.5-Release.10278702-1745591803 (was a161fb94598).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-6.0.30-Release.9178701-1745591834'
+  已签出新分支 Remove-Alibaba.DingTalk-6.0.30-Release.9178701-1745591834
+  已移除软件包 Alibaba.DingTalk 版本 6.0.30-Release.9178701
+[Remove-Alibaba.DingTalk-6.0.30-Release.9178701-1745591834 3a10be96577] Remove version: Alibaba.DingTalk version 6.0.30-Release.9178701
+ 4 files changed, 111 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.0.30-Release.9178701/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.0.30-Release.9178701/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.0.30-Release.9178701/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.0.30-Release.9178701/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 753 bytes | 376.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-6.0.30-Release.9178701-1745591834' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-6.0.30-Release.9178701-1745591834
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-6.0.30-Release.9178701-1745591834 -> Remove-Alibaba.DingTalk-6.0.30-Release.9178701-1745591834
+branch 'Remove-Alibaba.DingTalk-6.0.30-Release.9178701-1745591834' set up to track 'origin/Remove-Alibaba.DingTalk-6.0.30-Release.9178701-1745591834'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251087
+ 成功移除 Alibaba.DingTalk 版本 6.0.30-Release.9178701
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-6.0.30-Release.9178701-1745591834 (was 3a10be96577).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 12 (delta 4), reused 5 (delta 1), pack-reused 0 (from 0)
+Unpacking objects: 100% (12/12), 4.21 KiB | 64.00 KiB/s, done.
+From https://github.com/microsoft/winget-pkgs
+   d6e9f27e27e..2b8e1c9ffbc  master     -> upstream/master
+Successfully rebased and updated refs/heads/master.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-6.0.26-Release.9039987-1745591870'
+  已签出新分支 Remove-Alibaba.DingTalk-6.0.26-Release.9039987-1745591870
+  已移除软件包 Alibaba.DingTalk 版本 6.0.26-Release.9039987
+[Remove-Alibaba.DingTalk-6.0.26-Release.9039987-1745591870 70f119e115a] Remove version: Alibaba.DingTalk version 6.0.26-Release.9039987
+ 4 files changed, 111 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.0.26-Release.9039987/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.0.26-Release.9039987/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.0.26-Release.9039987/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.0.26-Release.9039987/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 753 bytes | 376.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-6.0.26-Release.9039987-1745591870' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-6.0.26-Release.9039987-1745591870
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-6.0.26-Release.9039987-1745591870 -> Remove-Alibaba.DingTalk-6.0.26-Release.9039987-1745591870
+branch 'Remove-Alibaba.DingTalk-6.0.26-Release.9039987-1745591870' set up to track 'origin/Remove-Alibaba.DingTalk-6.0.26-Release.9039987-1745591870'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251088
+ 成功移除 Alibaba.DingTalk 版本 6.0.26-Release.9039987
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-6.0.26-Release.9039987-1745591870 (was 70f119e115a).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-6.0.26-Release.8240887-1745591916'
+  已签出新分支 Remove-Alibaba.DingTalk-6.0.26-Release.8240887-1745591916
+  已移除软件包 Alibaba.DingTalk 版本 6.0.26-Release.8240887
+[Remove-Alibaba.DingTalk-6.0.26-Release.8240887-1745591916 a030c9da5a1] Remove version: Alibaba.DingTalk version 6.0.26-Release.8240887
+ 4 files changed, 111 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.0.26-Release.8240887/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.0.26-Release.8240887/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.0.26-Release.8240887/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.0.26-Release.8240887/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 748 bytes | 249.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-6.0.26-Release.8240887-1745591916' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-6.0.26-Release.8240887-1745591916
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-6.0.26-Release.8240887-1745591916 -> Remove-Alibaba.DingTalk-6.0.26-Release.8240887-1745591916
+branch 'Remove-Alibaba.DingTalk-6.0.26-Release.8240887-1745591916' set up to track 'origin/Remove-Alibaba.DingTalk-6.0.26-Release.8240887-1745591916'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251091
+ 成功移除 Alibaba.DingTalk 版本 6.0.26-Release.8240887
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-6.0.26-Release.8240887-1745591916 (was a030c9da5a1).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-6.0.26-Release.8200187-1745591945'
+  已签出新分支 Remove-Alibaba.DingTalk-6.0.26-Release.8200187-1745591945
+  已移除软件包 Alibaba.DingTalk 版本 6.0.26-Release.8200187
+[Remove-Alibaba.DingTalk-6.0.26-Release.8200187-1745591945 5a559a8d4c2] Remove version: Alibaba.DingTalk version 6.0.26-Release.8200187
+ 4 files changed, 111 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.0.26-Release.8200187/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.0.26-Release.8200187/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.0.26-Release.8200187/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.0.26-Release.8200187/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 746 bytes | 746.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-6.0.26-Release.8200187-1745591945' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-6.0.26-Release.8200187-1745591945
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-6.0.26-Release.8200187-1745591945 -> Remove-Alibaba.DingTalk-6.0.26-Release.8200187-1745591945
+branch 'Remove-Alibaba.DingTalk-6.0.26-Release.8200187-1745591945' set up to track 'origin/Remove-Alibaba.DingTalk-6.0.26-Release.8200187-1745591945'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251093
+ 成功移除 Alibaba.DingTalk 版本 6.0.26-Release.8200187
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-6.0.26-Release.8200187-1745591945 (was 5a559a8d4c2).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-6.0.22-Release.7190187-1745591975'
+  已签出新分支 Remove-Alibaba.DingTalk-6.0.22-Release.7190187-1745591975
+  已移除软件包 Alibaba.DingTalk 版本 6.0.22-Release.7190187
+[Remove-Alibaba.DingTalk-6.0.22-Release.7190187-1745591975 dcd9999c4fb] Remove version: Alibaba.DingTalk version 6.0.22-Release.7190187
+ 4 files changed, 111 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.0.22-Release.7190187/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.0.22-Release.7190187/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.0.22-Release.7190187/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.0.22-Release.7190187/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 749 bytes | 374.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-6.0.22-Release.7190187-1745591975' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-6.0.22-Release.7190187-1745591975
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-6.0.22-Release.7190187-1745591975 -> Remove-Alibaba.DingTalk-6.0.22-Release.7190187-1745591975
+branch 'Remove-Alibaba.DingTalk-6.0.22-Release.7190187-1745591975' set up to track 'origin/Remove-Alibaba.DingTalk-6.0.22-Release.7190187-1745591975'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251094
+ 成功移除 Alibaba.DingTalk 版本 6.0.22-Release.7190187
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-6.0.22-Release.7190187-1745591975 (was dcd9999c4fb).
+工作区清理完成
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.DingTalk-6.0.18-Release.6280687-1745592014'
+  已签出新分支 Remove-Alibaba.DingTalk-6.0.18-Release.6280687-1745592014
+  已移除软件包 Alibaba.DingTalk 版本 6.0.18-Release.6280687
+[Remove-Alibaba.DingTalk-6.0.18-Release.6280687-1745592014 7a332d3d272] Remove version: Alibaba.DingTalk version 6.0.18-Release.6280687
+ 4 files changed, 111 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.0.18-Release.6280687/Alibaba.DingTalk.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.0.18-Release.6280687/Alibaba.DingTalk.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.0.18-Release.6280687/Alibaba.DingTalk.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/DingTalk/6.0.18-Release.6280687/Alibaba.DingTalk.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 748 bytes | 374.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.DingTalk-6.0.18-Release.6280687-1745592014' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Alibaba.DingTalk-6.0.18-Release.6280687-1745592014
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Alibaba.DingTalk-6.0.18-Release.6280687-1745592014 -> Remove-Alibaba.DingTalk-6.0.18-Release.6280687-1745592014
+branch 'Remove-Alibaba.DingTalk-6.0.18-Release.6280687-1745592014' set up to track 'origin/Remove-Alibaba.DingTalk-6.0.18-Release.6280687-1745592014'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251095
+ 成功移除 Alibaba.DingTalk 版本 6.0.18-Release.6280687
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.DingTalk-6.0.18-Release.6280687-1745592014 (was 7a332d3d272).
+工作区清理完成
