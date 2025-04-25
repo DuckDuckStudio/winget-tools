@@ -1,0 +1,618 @@
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> winget show --id Alibaba.aDrive --versions
+已找到 阿里云盘 [Alibaba.aDrive]
+版本
+-----
+6.8.7
+6.8.6
+6.8.5
+6.8.0
+6.7.3
+6.6.0
+6.5.0
+6.4.2
+6.3.2
+6.2.0
+3.6.1
+3.6.0
+3.5.1
+3.5.0
+3.4.1
+3.4.0
+3.3.0
+3.0.0
+2.2.4
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Alibaba.aDrive 6.2.0 "403 Forbidden"
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 阿里云盘 [Alibaba.aDrive]
+版本
+-----
+6.8.7
+6.8.6
+6.8.5
+6.8.0
+6.7.3
+6.6.0
+6.5.0
+6.4.2
+6.3.2
+6.2.0
+3.6.1
+3.6.0
+3.5.1
+3.5.0
+3.4.1
+3.4.0
+3.3.0
+3.0.0
+2.2.4
+======= 此软件包版本在 winget 上的信息 =======
+已找到 阿里云盘 [Alibaba.aDrive]
+版本: 6.2.0
+发布者: Alibaba Group
+作者: 杭州短趣网络传媒技术有限公司
+绰号： aliyundrive
+描述: 阿里云盘是一款速度快、不打扰、够安全、易于分享的网盘,你可以在这里存储、管理和探索内容,尽情打造丰富的数字世界。
+许可证: 专有软件
+许可证 URL: https://terms.alicdn.com/legal-agreement/terms/suit_bu1_dingtalk/suit_bu1_dingtalk202103191654_76478.html
+隐私 URL: https://terms.alicdn.com/legal-agreement/terms/suit_bu1_alibaba_group/suit_bu1_alibaba_group202102022125_53871.html
+版权所有: 版权所有 @ 2024 阿里巴巴集团 保留所有权利
+发行说明: - 优化了自动同步文件夹的性能。
+购买 URL： https://www.aliyundrive.com/drive/membership
+标记：
+  上传
+  下载
+  云
+  云盘
+  共享
+  分享
+  同步
+  备份
+  文件
+  网盘
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://cdn.aliyundrive.net/downloads/apps/desktop/update/6.2.0/win32/x64/aDrive-6.2.0.exe
+  安装程序 SHA256： ffe02fafa98caf820df70f909e3548204915fb59aa0a428e5f4504c08a96ccdf
+  发布日期: 2024-08-12
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\a\Alibaba\aDrive\6.2.0\Alibaba.aDrive.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Alibaba.aDrive
+PackageVersion: 6.2.0
+InstallerType: nullsoft
+Scope: user
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+Protocols:
+- smartdrive
+ReleaseDate: 2024-08-12
+Installers:
+- Architecture: x64
+  InstallerUrl: https://cdn.aliyundrive.net/downloads/apps/desktop/update/6.2.0/win32/x64/aDrive-6.2.0.exe
+  InstallerSha256: FFE02FAFA98CAF820DF70F909E3548204915FB59AA0A428E5F4504C08A96CCDF
+  ProductCode: 300f80e0-781e-56db-ae9d-9d0190486ca9
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 阿里云盘 [Alibaba.aDrive] 版本 6.2.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://cdn.aliyundrive.net/downloads/apps/desktop/update/6.2.0/win32/x64/aDrive-6.2.0.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190193 : 已禁止(403)。
+使用 winget 验证证实确实存在问题 (2149122451)
+查重...
+======= 打开的 =======
+no pull requests match your search in microsoft/winget-pkgs
+======= 所有 =======
+
+Showing 4 of 4 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                       BRANCH                                                                   CREATED AT
+#171118  Alibaba.aDrive version 6.2.0                vedantmgoyal9:Alibaba.aDrive-6.2.0-23fdf0fe-b806-408b-8ec2-0d1900b055a8  about 7 months ago
+#175975  Fix: Alibaba.aDrive version 6.2.0           SpecterShell:Alibaba.aDrive-6.2.0-Fix                                    about 6 months ago
+#171115  New version: Alibaba.aDrive version 6.2.0   SpecterShell:Alibaba.aDrive-6.2.0-50262016                               about 7 months ago
+#171875  ReleaseNotes: Alibaba.aDrive version 6.3.2  SpecterShell:Alibaba.aDrive-6.3.2-365383887                              about 7 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.aDrive-6.2.0-1745565783'
+  已签出新分支 Remove-Alibaba.aDrive-6.2.0-1745565783
+  已移除软件包 Alibaba.aDrive 版本 6.2.0
+[Remove-Alibaba.aDrive-6.2.0-1745565783 d799f897325] Remove version: Alibaba.aDrive version 6.2.0
+ 4 files changed, 104 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/aDrive/6.2.0/Alibaba.aDrive.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/aDrive/6.2.0/Alibaba.aDrive.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/aDrive/6.2.0/Alibaba.aDrive.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/aDrive/6.2.0/Alibaba.aDrive.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (48/48), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 733 bytes | 244.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.aDrive-6.2.0-1745565783' on GitHub by visiting:
+remote:      https://github.com/***/winget-pkgs/pull/new/Remove-Alibaba.aDrive-6.2.0-1745565783
+remote:
+To https://github.com/***/winget-pkgs.git
+ * [new branch]              Remove-Alibaba.aDrive-6.2.0-1745565783 -> Remove-Alibaba.aDrive-6.2.0-1745565783
+branch 'Remove-Alibaba.aDrive-6.2.0-1745565783' set up to track 'origin/Remove-Alibaba.aDrive-6.2.0-1745565783'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/250962
+ 成功移除 Alibaba.aDrive 版本 6.2.0
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.aDrive-6.2.0-1745565783 (was d799f897325).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Alibaba.aDrive 6.5.0 "- 403 Forbidden
+>> - Resposes xml similar to https://github.com/microsoft/winget-pkgs/pull/250962
+>> - See my automation log for WinGet output: [logs\20250425\Alibaba.aDrive-Remove.log](https://github.com/***/winget-tools/tree/main/logs/20250425/Alibaba.aDrive-Remove.log)"
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 阿里云盘 [Alibaba.aDrive]
+版本
+-----
+6.8.7
+6.8.6
+6.8.5
+6.8.0
+6.7.3
+6.6.0
+6.5.0
+6.4.2
+6.3.2
+6.2.0
+3.6.1
+3.6.0
+3.5.1
+3.5.0
+3.4.1
+3.4.0
+3.3.0
+3.0.0
+2.2.4
+======= 此软件包版本在 winget 上的信息 =======
+已找到 阿里云盘 [Alibaba.aDrive]
+版本: 6.5.0
+发布者: Alibaba Group
+作者: 杭州短趣网络传媒技术有限公司
+绰号： aliyundrive
+描述: 阿里云盘是一款速度快、不打扰、够安全、易于分享的网盘,你可以在这里存储、管理和探索内容,尽情打造丰富的数字世界。
+许可证: 专有软件
+许可证 URL: https://terms.alicdn.com/legal-agreement/terms/suit_bu1_dingtalk/suit_bu1_dingtalk202103191654_76478.html
+隐私 URL: https://terms.alicdn.com/legal-agreement/terms/suit_bu1_alibaba_group/suit_bu1_alibaba_group202102022125_53871.html
+版权所有: 版权所有 @ 2024 阿里巴巴集团 保留所有权利
+发行说明:
+  - 优化了自动同步文件夹的使用体验
+  - 修复了一些已知问题
+购买 URL： https://www.aliyundrive.com/drive/membership
+标记：
+  上传
+  下载
+  云
+  云盘
+  共享
+  分享
+  同步
+  备份
+  文件
+  网盘
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://cdn.aliyundrive.net/downloads/apps/desktop/update/6.5.0/win32/x64/aDrive-6.5.0.exe
+  安装程序 SHA256： 38225e358b18b46b3e6df2b03fe315c79583046748519a3cefffe0ec56b76d44
+  发布日期: 2024-09-29
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\a\Alibaba\aDrive\6.5.0\Alibaba.aDrive.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Alibaba.aDrive
+PackageVersion: 6.5.0
+InstallerType: nullsoft
+Scope: user
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+Protocols:
+- smartdrive
+ReleaseDate: 2024-09-29
+Installers:
+- Architecture: x64
+  InstallerUrl: https://cdn.aliyundrive.net/downloads/apps/desktop/update/6.5.0/win32/x64/aDrive-6.5.0.exe
+  InstallerSha256: 38225E358B18B46B3E6DF2B03FE315C79583046748519A3CEFFFE0EC56B76D44
+  ProductCode: 300f80e0-781e-56db-ae9d-9d0190486ca9
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 阿里云盘 [Alibaba.aDrive] 版本 6.5.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://cdn.aliyundrive.net/downloads/apps/desktop/update/6.5.0/win32/x64/aDrive-6.5.0.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190193 : 已禁止(403)。
+使用 winget 验证证实确实存在问题 (2149122451)
+查重...
+======= 打开的 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                                BRANCH                                                 CREATED AT
+#250962  Remove version: Alibaba.aDrive version 6.2.0 (Auto)  ***:Remove-Alibaba.aDrive-6.2.0-1745565783  about 4 minutes ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                      BRANCH                                        CREATED AT
+#186247  New version: Alibaba.aDrive version 6.6.0  SpecterShell:Alibaba.aDrive-6.6.0-1566855629  about 5 months ago
+#181397  New version: Alibaba.aDrive version 6.5.0  SpecterShell:Alibaba.aDrive-6.5.0-772652048   about 6 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+remote: Enumerating objects: 63, done.
+remote: Counting objects: 100% (63/63), done.
+remote: Compressing objects: 100% (35/35), done.
+remote: Total 51 (delta 31), reused 25 (delta 12), pack-reused 0 (from 0)
+Unpacking objects: 100% (51/51), 10.90 KiB | 57.00 KiB/s, done.
+From https://github.com/microsoft/winget-pkgs
+   28278442e0a..661a82b5258  master     -> upstream/master
+Successfully rebased and updated refs/heads/master.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.aDrive-6.5.0-1745566126'
+  已签出新分支 Remove-Alibaba.aDrive-6.5.0-1745566126
+  已移除软件包 Alibaba.aDrive 版本 6.5.0
+[Remove-Alibaba.aDrive-6.5.0-1745566126 eb0ac1e4cad] Remove version: Alibaba.aDrive version 6.5.0
+ 4 files changed, 106 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/aDrive/6.5.0/Alibaba.aDrive.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/aDrive/6.5.0/Alibaba.aDrive.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/aDrive/6.5.0/Alibaba.aDrive.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/aDrive/6.5.0/Alibaba.aDrive.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (49/49), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 733 bytes | 366.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.aDrive-6.5.0-1745566126' on GitHub by visiting:
+remote:      https://github.com/***/winget-pkgs/pull/new/Remove-Alibaba.aDrive-6.5.0-1745566126
+remote:
+To https://github.com/***/winget-pkgs.git
+ * [new branch]              Remove-Alibaba.aDrive-6.5.0-1745566126 -> Remove-Alibaba.aDrive-6.5.0-1745566126
+branch 'Remove-Alibaba.aDrive-6.5.0-1745566126' set up to track 'origin/Remove-Alibaba.aDrive-6.5.0-1745566126'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/250963
+ 成功移除 Alibaba.aDrive 版本 6.5.0
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 9 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.aDrive-6.5.0-1745566126 (was eb0ac1e4cad).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Alibaba.aDrive 6.4.2 "- 403 Forbidden
+>> - Resposes xml similar to https://github.com/microsoft/winget-pkgs/pull/250962
+>> - See my automation log for WinGet output: [logs\20250425\Alibaba.aDrive-Remove.log](https://github.com/***/winget-tools/tree/main/logs/20250425/Alibaba.aDrive-Remove.log)"
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 阿里云盘 [Alibaba.aDrive]
+版本
+-----
+6.8.7
+6.8.6
+6.8.5
+6.8.0
+6.7.3
+6.6.0
+6.5.0
+6.4.2
+6.3.2
+6.2.0
+3.6.1
+3.6.0
+3.5.1
+3.5.0
+3.4.1
+3.4.0
+3.3.0
+3.0.0
+2.2.4
+======= 此软件包版本在 winget 上的信息 =======
+已找到 阿里云盘 [Alibaba.aDrive]
+版本: 6.4.2
+发布者: Alibaba Group
+作者: 杭州短趣网络传媒技术有限公司
+绰号： aliyundrive
+描述: 阿里云盘是一款速度快、不打扰、够安全、易于分享的网盘,你可以在这里存储、管理和探索内容,尽情打造丰富的数字世界。
+许可证: 专有软件
+许可证 URL: https://terms.alicdn.com/legal-agreement/terms/suit_bu1_dingtalk/suit_bu1_dingtalk202103191654_76478.html
+隐私 URL: https://terms.alicdn.com/legal-agreement/terms/suit_bu1_alibaba_group/suit_bu1_alibaba_group202102022125_53871.html
+版权所有: 版权所有 @ 2024 阿里巴巴集团 保留所有权利
+发行说明: 优化:修复了一些已知问题
+购买 URL： https://www.aliyundrive.com/drive/membership
+标记：
+  上传
+  下载
+  云
+  云盘
+  共享
+  分享
+  同步
+  备份
+  文件
+  网盘
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://cdn.aliyundrive.net/downloads/apps/desktop/update/6.4.2/win32/x64/aDrive-6.4.2.exe
+  安装程序 SHA256： afb7bf38f3e5787f7905ee992dc53f05539844a70abf7d917ce094df7da42d73
+  发布日期: 2024-09-23
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\a\Alibaba\aDrive\6.4.2\Alibaba.aDrive.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Alibaba.aDrive
+PackageVersion: 6.4.2
+InstallerType: nullsoft
+Scope: user
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+Protocols:
+- smartdrive
+ReleaseDate: 2024-09-23
+Installers:
+- Architecture: x64
+  InstallerUrl: https://cdn.aliyundrive.net/downloads/apps/desktop/update/6.4.2/win32/x64/aDrive-6.4.2.exe
+  InstallerSha256: AFB7BF38F3E5787F7905EE992DC53F05539844A70ABF7D917CE094DF7DA42D73
+  ProductCode: 300f80e0-781e-56db-ae9d-9d0190486ca9
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 阿里云盘 [Alibaba.aDrive] 版本 6.4.2
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://cdn.aliyundrive.net/downloads/apps/desktop/update/6.4.2/win32/x64/aDrive-6.4.2.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190193 : 已禁止(403)。
+使用 winget 验证证实确实存在问题 (2149122451)
+查重...
+======= 打开的 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                BRANCH                                                 CREATED AT
+#250963  Remove version: Alibaba.aDrive version 6.5.0 (Auto)  ***:Remove-Alibaba.aDrive-6.5.0-1745566126  less than a minute ago
+#250962  Remove version: Alibaba.aDrive version 6.2.0 (Auto)  ***:Remove-Alibaba.aDrive-6.2.0-1745565783  about 6 minutes ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                      BRANCH                                        CREATED AT
+#181397  New version: Alibaba.aDrive version 6.5.0  SpecterShell:Alibaba.aDrive-6.5.0-772652048   about 6 months ago
+#175977  New version: Alibaba.aDrive version 6.4.2  SpecterShell:Alibaba.aDrive-6.4.2-1890056441  about 6 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 9 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.aDrive-6.4.2-1745566200'
+  已签出新分支 Remove-Alibaba.aDrive-6.4.2-1745566200
+  已移除软件包 Alibaba.aDrive 版本 6.4.2
+[Remove-Alibaba.aDrive-6.4.2-1745566200 ed45c69d522] Remove version: Alibaba.aDrive version 6.4.2
+ 4 files changed, 104 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/aDrive/6.4.2/Alibaba.aDrive.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/aDrive/6.4.2/Alibaba.aDrive.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/aDrive/6.4.2/Alibaba.aDrive.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/aDrive/6.4.2/Alibaba.aDrive.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (49/49), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 728 bytes | 242.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.aDrive-6.4.2-1745566200' on GitHub by visiting:
+remote:      https://github.com/***/winget-pkgs/pull/new/Remove-Alibaba.aDrive-6.4.2-1745566200
+remote:
+To https://github.com/***/winget-pkgs.git
+ * [new branch]              Remove-Alibaba.aDrive-6.4.2-1745566200 -> Remove-Alibaba.aDrive-6.4.2-1745566200
+branch 'Remove-Alibaba.aDrive-6.4.2-1745566200' set up to track 'origin/Remove-Alibaba.aDrive-6.4.2-1745566200'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/250964
+ 成功移除 Alibaba.aDrive 版本 6.4.2
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 9 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.aDrive-6.4.2-1745566200 (was ed45c69d522).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Alibaba.aDrive 6.3.2 "- 403 Forbidden
+>> - Resposes xml similar to https://github.com/microsoft/winget-pkgs/pull/250962
+>> - See my automation log for WinGet output: [logs\20250425\Alibaba.aDrive-Remove.log](https://github.com/***/winget-tools/tree/main/logs/20250425/Alibaba.aDrive-Remove.log)"
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 阿里云盘 [Alibaba.aDrive]
+版本
+-----
+6.8.7
+6.8.6
+6.8.5
+6.8.0
+6.7.3
+6.6.0
+6.5.0
+6.4.2
+6.3.2
+6.2.0
+3.6.1
+3.6.0
+3.5.1
+3.5.0
+3.4.1
+3.4.0
+3.3.0
+3.0.0
+2.2.4
+======= 此软件包版本在 winget 上的信息 =======
+已找到 阿里云盘 [Alibaba.aDrive]
+版本: 6.3.2
+发布者: Alibaba Group
+作者: 杭州短趣网络传媒技术有限公司
+绰号： aliyundrive
+描述: 阿里云盘是一款速度快、不打扰、够安全、易于分享的网盘,你可以在这里存储、管理和探索内容,尽情打造丰富的数字世界。
+许可证: 专有软件
+许可证 URL: https://terms.alicdn.com/legal-agreement/terms/suit_bu1_dingtalk/suit_bu1_dingtalk202103191654_76478.html
+隐私 URL: https://terms.alicdn.com/legal-agreement/terms/suit_bu1_alibaba_group/suit_bu1_alibaba_group202102022125_53871.html
+版权所有: 版权所有 @ 2024 阿里巴巴集团 保留所有权利
+发行说明: 优化:修复了一些已知问题
+购买 URL： https://www.aliyundrive.com/drive/membership
+标记：
+  上传
+  下载
+  云
+  云盘
+  共享
+  分享
+  同步
+  备份
+  文件
+  网盘
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://cdn.aliyundrive.net/downloads/apps/desktop/update/6.3.2/win32/x64/aDrive-6.3.2.exe
+  安装程序 SHA256： 4361f5981b379076b597a07a0ebbddbaf673f75ae62a5ffd1e3dacb8be72e9eb
+  发布日期: 2024-09-04
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\a\Alibaba\aDrive\6.3.2\Alibaba.aDrive.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Alibaba.aDrive
+PackageVersion: 6.3.2
+InstallerType: nullsoft
+Scope: user
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+Protocols:
+- smartdrive
+ReleaseDate: 2024-09-04
+Installers:
+- Architecture: x64
+  InstallerUrl: https://cdn.aliyundrive.net/downloads/apps/desktop/update/6.3.2/win32/x64/aDrive-6.3.2.exe
+  InstallerSha256: 4361F5981B379076B597A07A0EBBDDBAF673F75AE62A5FFD1E3DACB8BE72E9EB
+  ProductCode: 300f80e0-781e-56db-ae9d-9d0190486ca9
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 阿里云盘 [Alibaba.aDrive] 版本 6.3.2
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://cdn.aliyundrive.net/downloads/apps/desktop/update/6.3.2/win32/x64/aDrive-6.3.2.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190193 : 已禁止(403)。
+使用 winget 验证证实确实存在问题 (2149122451)
+查重...
+======= 打开的 =======
+
+Showing 3 of 3 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                BRANCH                                                 CREATED AT
+#250964  Remove version: Alibaba.aDrive version 6.4.2 (Auto)  ***:Remove-Alibaba.aDrive-6.4.2-1745566200  less than a minute ago
+#250963  Remove version: Alibaba.aDrive version 6.5.0 (Auto)  ***:Remove-Alibaba.aDrive-6.5.0-1745566126  about 2 minutes ago
+#250962  Remove version: Alibaba.aDrive version 6.2.0 (Auto)  ***:Remove-Alibaba.aDrive-6.2.0-1745565783  about 7 minutes ago
+======= 所有 =======
+
+Showing 5 of 5 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                       BRANCH                                                                   CREATED AT
+#173435  Alibaba.aDrive version 6.3.2                vedantmgoyal9:Alibaba.aDrive-6.3.2-bc3c3502-f879-4bed-8aa8-f590a1d766a1  about 7 months ago
+#171879  Alibaba.aDrive version 6.3.2                vedantmgoyal9:Alibaba.aDrive-6.3.2-d6dd0684-c9eb-4f32-bcc0-09a16c287324  about 7 months ago
+#175978  Fix: Alibaba.aDrive version 6.3.2           SpecterShell:Alibaba.aDrive-6.3.2-Fix                                    about 6 months ago
+#175977  New version: Alibaba.aDrive version 6.4.2   SpecterShell:Alibaba.aDrive-6.4.2-1890056441                             about 6 months ago
+#171875  ReleaseNotes: Alibaba.aDrive version 6.3.2  SpecterShell:Alibaba.aDrive-6.3.2-365383887                              about 7 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 9 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Alibaba.aDrive-6.3.2-1745566303'
+  已签出新分支 Remove-Alibaba.aDrive-6.3.2-1745566303
+  已移除软件包 Alibaba.aDrive 版本 6.3.2
+[Remove-Alibaba.aDrive-6.3.2-1745566303 195b6672b04] Remove version: Alibaba.aDrive version 6.3.2
+ 4 files changed, 104 deletions(-)
+ delete mode 100644 manifests/a/Alibaba/aDrive/6.3.2/Alibaba.aDrive.installer.yaml
+ delete mode 100644 manifests/a/Alibaba/aDrive/6.3.2/Alibaba.aDrive.locale.en-US.yaml
+ delete mode 100644 manifests/a/Alibaba/aDrive/6.3.2/Alibaba.aDrive.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/Alibaba/aDrive/6.3.2/Alibaba.aDrive.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (49/49), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 730 bytes | 365.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Alibaba.aDrive-6.3.2-1745566303' on GitHub by visiting:
+remote:      https://github.com/***/winget-pkgs/pull/new/Remove-Alibaba.aDrive-6.3.2-1745566303
+remote:
+To https://github.com/***/winget-pkgs.git
+ * [new branch]              Remove-Alibaba.aDrive-6.3.2-1745566303 -> Remove-Alibaba.aDrive-6.3.2-1745566303
+branch 'Remove-Alibaba.aDrive-6.3.2-1745566303' set up to track 'origin/Remove-Alibaba.aDrive-6.3.2-1745566303'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/250965
+ 成功移除 Alibaba.aDrive 版本 6.3.2
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 9 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Alibaba.aDrive-6.3.2-1745566303 (was 195b6672b04).
+工作区清理完成
