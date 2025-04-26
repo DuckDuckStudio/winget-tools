@@ -1,0 +1,3264 @@
+PowerShell 7.5.1
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry sync
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+remote: Enumerating objects: 63, done.
+remote: Counting objects: 100% (63/63), done.
+remote: Compressing objects: 100% (34/34), done.
+remote: Total 49 (delta 25), reused 32 (delta 9), pack-reused 0 (from 0)
+Unpacking objects: 100% (49/49), 12.15 KiB | 59.00 KiB/s, done.
+From https://github.com/microsoft/winget-pkgs
+   6d9b34059a4..92cc2b772bd  master     -> upstream/master
+  已获取上游修改
+From https://github.com/.../winget-pkgs
+   6d9b34059a4..11946c6d65f  master     -> origin/master
+  已获取远程修改
+Successfully rebased and updated refs/heads/master.
+  已变基上游修改
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Bypassed rule violations for refs/heads/master:
+remote:
+remote: - Changes must be made through a pull request.
+remote:
+To https://github.com/.../winget-pkgs.git
+   11946c6d65f..92cc2b772bd  master -> master
+  已推送 master 分支
+✓ 同步完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 3.2.5.1125
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本
+----------
+8.1.1.2518
+8.1.0.2516
+8.0.1.2512
+8.0.0.2509
+7.1.6.2461
+7.1.5.2460
+7.1.4.2458
+7.1.3.2456
+7.1.2.2451
+7.1.1.2158
+7.1.0.2151
+7.0.2.2138
+7.0.1.2132
+7.0.0.2117
+6.2.4.2083
+6.2.3.2078
+6.2.2.2072
+6.2.1.2068
+6.2.0.2057
+6.1.0.2044
+6.0.6.2034
+6.0.5.2033
+6.0.4.2024
+6.0.2.2018
+6.0.1.2003
+6.0.0.1998
+5.4.3.1923
+5.4.2.1921
+5.4.1.1914
+5.4.0.1907
+5.4.0.1906
+5.3.3.1895
+5.3.3.1893
+5.3.2.1889
+5.3.1.1880
+5.3.0.1879
+5.2.1.1860
+5.2.0.1855
+5.1.1.1837
+5.1.0.1822
+5.0.2.1813
+5.0.1.1799
+5.0.0.1796
+4.6.5.1757
+4.6.4.1728
+4.6.3.1725
+4.6.2.1699
+4.6.1.1688
+4.6.0.1683
+4.5.8.1673
+4.5.7.1660
+4.5.6.1646
+4.5.5.1632
+4.5.4.1624
+4.5.3.1608
+4.5.2.1602
+4.5.1.1597
+4.5.0.1587
+4.4.3.1557
+4.4.2.1550
+4.4.1.1539
+4.4.0.1535
+4.3.4.1503
+4.3.3.1498
+4.3.2.1496
+4.3.1.1490
+4.3.0.1479
+4.2.1.1454
+4.2.0.1439
+4.1.7.1424
+4.1.6.1423
+4.1.5.1421
+4.1.4.1413
+4.1.3.1400
+4.1.2.1385
+4.1.0.1362
+4.0.2.1352
+4.0.1.1339
+4.0.0.1331
+3.4.4.1264
+3.4.3.1263
+3.4.2.1258
+3.4.1.1256
+3.4.0.1227
+3.3.3.1209
+3.3.2.1195
+3.3.1.1192
+3.3.0.1175
+3.2.5.1125
+3.2.4.1118
+3.2.3.1114
+3.2.2.1111
+3.2.0.1102
+3.0.2.1014
+3.0.1.1003
+3.0.0.997
+2.4.2.905
+2.4.1.903
+2.3.3.860
+2.3.1.840
+2.3.0.834
+2.2.5.815
+2.1.2.740
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本: 3.2.5.1125
+发布者: Bandicam.com
+发布服务器 URL: https://www.bandicam.com/
+发布服务器支持 URL: https://www.bandicam.com/faqs/
+作者: Bandicam Company
+绰号： bandicam
+描述:
+  Bandicam is a lightweight screen recorder software for Windows that can capture anything on your PC screen as a high-quality video.
+  This app also makes it possible to record a certain area on a PC screen, or capture a game that uses the DirectX/OpenGL/Vulkan graphics technologies.
+  Bandicam will help you carry out a screen capture with high compression ratio, while preserving the video quality of the original work, and provide performance far superior to other screen capture software that provides similar functions.
+主页: https://www.bandicam.com/
+许可证: Shareware
+许可证 URL: https://www.bandicam.com/company/tos/
+隐私 URL: https://www.bandicam.com/company/privacy/
+版权所有: Copyright (c) 2008-2016 Bandicam Company. All rights reserved.
+版权 URL: https://www.bandicam.com/company/tos/
+发行说明 URL: https://www.bandicam.com/downloads/version_history/
+标记：
+  capture
+  screen-capture
+  video
+  video-recording
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://dl.bandicam.com/old/BDCAMSETUP_ENG_3_2_5_1125.EXE
+  安装程序 SHA256： d988e098e7e98220bab4db9f249b9d410eb7645d885a5b6b8bacefecdfa05c58
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\BandicamCompany\Bandicam\3.2.5.1125\BandicamCompany.Bandicam.installer.yaml
+
+# Created using wingetcreate 1.9.2.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: BandicamCompany.Bandicam
+PackageVersion: 3.2.5.1125
+Platform:
+- Windows.Desktop
+InstallerType: nullsoft
+Scope: machine
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  InstallerUrl: https://dl.bandicam.com/old/BDCAMSETUP_ENG_3_2_5_1125.EXE
+  InstallerSha256: D988E098E7E98220BAB4DB9F249B9D410EB7645D885A5B6B8BACEFECDFA05C58
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Bandicam [BandicamCompany.Bandicam] 版本 3.2.5.1125
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://dl.bandicam.com/old/BDCAMSETUP_ENG_3_2_5_1125.EXE
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+no pull requests match your search in microsoft/winget-pkgs
+======= 所有 =======
+
+Showing 5 of 5 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                          BRANCH                                        CREATED AT
+#201857  Modify: BandicamCompany.Bandicam version 3...  KarbitsCode:BandicamCompany.Bandicam-3.2....  about 4 months ago
+#197774  Modify: BandicamCompany.Bandicam version 3...  KarbitsCode:BandicamCompany.Bandicam-3.2....  about 4 months ago
+#169163  BandicamCompany.Bandicam version 3.2.5.1125    KarbitsCode:BandicamCompany.Bandicam-3.2....  about 8 months ago
+#48030   Remove BandicamCompany.Bandicam 3.2.5.1125     Trenly:RM3.2.5.1125                           about 3 years ago
+#29435   Add version: BandicamCompany.Bandicam vers...  Trenly:BandicamCompany.Bandicam-3.2.5.112...  about 3 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-BandicamCompany.Bandicam-3.2.5.1125-1745636749'
+  已签出新分支 Remove-BandicamCompany.Bandicam-3.2.5.1125-1745636749
+  已移除软件包 BandicamCompany.Bandicam 版本 3.2.5.1125
+[Remove-BandicamCompany.Bandicam-3.2.5.1125-1745636749 26107f71b5a] Remove version: BandicamCompany.Bandicam version 3.2.5.1125
+ 3 files changed, 58 deletions(-)
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/3.2.5.1125/BandicamCompany.Bandicam.installer.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/3.2.5.1125/BandicamCompany.Bandicam.locale.en-US.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/3.2.5.1125/BandicamCompany.Bandicam.yaml
+  已提交修改
+Enumerating objects: 36, done.
+Counting objects: 100% (30/30), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 779 bytes | 259.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-BandicamCompany.Bandicam-3.2.5.1125-1745636749' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-BandicamCompany.Bandicam-3.2.5.1125-1745636749
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-BandicamCompany.Bandicam-3.2.5.1125-1745636749 -> Remove-BandicamCompany.Bandicam-3.2.5.1125-1745636749
+branch 'Remove-BandicamCompany.Bandicam-3.2.5.1125-1745636749' set up to track 'origin/Remove-BandicamCompany.Bandicam-3.2.5.1125-1745636749'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251182
+ 成功移除 BandicamCompany.Bandicam 版本 3.2.5.1125
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-BandicamCompany.Bandicam-3.2.5.1125-1745636749 (was 26107f71b5a).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 3.2.4.1118
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本
+----------
+8.1.1.2518
+8.1.0.2516
+8.0.1.2512
+8.0.0.2509
+7.1.6.2461
+7.1.5.2460
+7.1.4.2458
+7.1.3.2456
+7.1.2.2451
+7.1.1.2158
+7.1.0.2151
+7.0.2.2138
+7.0.1.2132
+7.0.0.2117
+6.2.4.2083
+6.2.3.2078
+6.2.2.2072
+6.2.1.2068
+6.2.0.2057
+6.1.0.2044
+6.0.6.2034
+6.0.5.2033
+6.0.4.2024
+6.0.2.2018
+6.0.1.2003
+6.0.0.1998
+5.4.3.1923
+5.4.2.1921
+5.4.1.1914
+5.4.0.1907
+5.4.0.1906
+5.3.3.1895
+5.3.3.1893
+5.3.2.1889
+5.3.1.1880
+5.3.0.1879
+5.2.1.1860
+5.2.0.1855
+5.1.1.1837
+5.1.0.1822
+5.0.2.1813
+5.0.1.1799
+5.0.0.1796
+4.6.5.1757
+4.6.4.1728
+4.6.3.1725
+4.6.2.1699
+4.6.1.1688
+4.6.0.1683
+4.5.8.1673
+4.5.7.1660
+4.5.6.1646
+4.5.5.1632
+4.5.4.1624
+4.5.3.1608
+4.5.2.1602
+4.5.1.1597
+4.5.0.1587
+4.4.3.1557
+4.4.2.1550
+4.4.1.1539
+4.4.0.1535
+4.3.4.1503
+4.3.3.1498
+4.3.2.1496
+4.3.1.1490
+4.3.0.1479
+4.2.1.1454
+4.2.0.1439
+4.1.7.1424
+4.1.6.1423
+4.1.5.1421
+4.1.4.1413
+4.1.3.1400
+4.1.2.1385
+4.1.0.1362
+4.0.2.1352
+4.0.1.1339
+4.0.0.1331
+3.4.4.1264
+3.4.3.1263
+3.4.2.1258
+3.4.1.1256
+3.4.0.1227
+3.3.3.1209
+3.3.2.1195
+3.3.1.1192
+3.3.0.1175
+3.2.5.1125
+3.2.4.1118
+3.2.3.1114
+3.2.2.1111
+3.2.0.1102
+3.0.2.1014
+3.0.1.1003
+3.0.0.997
+2.4.2.905
+2.4.1.903
+2.3.3.860
+2.3.1.840
+2.3.0.834
+2.2.5.815
+2.1.2.740
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本: 3.2.4.1118
+发布者: Bandicam.com
+发布服务器 URL: https://www.bandicam.com/
+发布服务器支持 URL: https://www.bandicam.com/faqs/
+作者: Bandicam Company
+绰号： bandicam
+描述:
+  Bandicam is a lightweight screen recorder software for Windows that can capture anything on your PC screen as a high-quality video.
+  This app also makes it possible to record a certain area on a PC screen, or capture a game that uses the DirectX/OpenGL/Vulkan graphics technologies.
+  Bandicam will help you carry out a screen capture with high compression ratio, while preserving the video quality of the original work, and provide performance far superior to other screen capture software that provides similar functions.
+主页: https://www.bandicam.com/
+许可证: Shareware
+许可证 URL: https://www.bandicam.com/company/tos/
+隐私 URL: https://www.bandicam.com/company/privacy/
+版权所有: Copyright (c) 2008-2016 Bandicam Company. All rights reserved.
+版权 URL: https://www.bandicam.com/company/tos/
+发行说明 URL: https://www.bandicam.com/downloads/version_history/
+标记：
+  capture
+  screen-capture
+  video
+  video-recording
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://dl.bandicam.com/old/BDCAMSETUP_ENG_3_2_4_1118.EXE
+  安装程序 SHA256： 5c1846509762e5f0123ac6611c4eece85ddcff6ca13b3082d47f4545b0a9d8ce
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\BandicamCompany\Bandicam\3.2.4.1118\BandicamCompany.Bandicam.installer.yaml
+
+# Created using wingetcreate 1.9.2.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: BandicamCompany.Bandicam
+PackageVersion: 3.2.4.1118
+Platform:
+- Windows.Desktop
+InstallerType: nullsoft
+Scope: machine
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  InstallerUrl: https://dl.bandicam.com/old/BDCAMSETUP_ENG_3_2_4_1118.EXE
+  InstallerSha256: 5C1846509762E5F0123AC6611C4EECE85DDCFF6CA13B3082D47F4545B0A9D8CE
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Bandicam [BandicamCompany.Bandicam] 版本 3.2.4.1118
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://dl.bandicam.com/old/BDCAMSETUP_ENG_3_2_4_1118.EXE
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                          BRANCH                                        CREATED AT
+#251182  Remove version: BandicamCompany.Bandicam v...  ...:Remove-BandicamCompany.Ban...  about 1 minute ago
+======= 所有 =======
+
+Showing 5 of 5 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                          BRANCH                                        CREATED AT
+#201856  Modify: BandicamCompany.Bandicam version 3...  KarbitsCode:BandicamCompany.Bandicam-3.2....  about 4 months ago
+#197773  Modify: BandicamCompany.Bandicam version 3...  KarbitsCode:BandicamCompany.Bandicam-3.2....  about 4 months ago
+#169162  BandicamCompany.Bandicam version 3.2.4.1118    KarbitsCode:BandicamCompany.Bandicam-3.2....  about 8 months ago
+#48029   Remove BandicamCompany.Bandicam 3.2.4.1118     Trenly:RM3.2.4.1118                           about 3 years ago
+#29436   Add version: BandicamCompany.Bandicam vers...  Trenly:BandicamCompany.Bandicam-3.2.4.111...  about 3 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-BandicamCompany.Bandicam-3.2.4.1118-1745636850'
+  已签出新分支 Remove-BandicamCompany.Bandicam-3.2.4.1118-1745636850
+  已移除软件包 BandicamCompany.Bandicam 版本 3.2.4.1118
+[Remove-BandicamCompany.Bandicam-3.2.4.1118-1745636850 6cd638745fe] Remove version: BandicamCompany.Bandicam version 3.2.4.1118
+ 3 files changed, 58 deletions(-)
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/3.2.4.1118/BandicamCompany.Bandicam.installer.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/3.2.4.1118/BandicamCompany.Bandicam.locale.en-US.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/3.2.4.1118/BandicamCompany.Bandicam.yaml
+  已提交修改
+Enumerating objects: 41, done.
+Counting objects: 100% (35/35), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 779 bytes | 194.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-BandicamCompany.Bandicam-3.2.4.1118-1745636850' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-BandicamCompany.Bandicam-3.2.4.1118-1745636850
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-BandicamCompany.Bandicam-3.2.4.1118-1745636850 -> Remove-BandicamCompany.Bandicam-3.2.4.1118-1745636850
+branch 'Remove-BandicamCompany.Bandicam-3.2.4.1118-1745636850' set up to track 'origin/Remove-BandicamCompany.Bandicam-3.2.4.1118-1745636850'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251186
+ 成功移除 BandicamCompany.Bandicam 版本 3.2.4.1118
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-BandicamCompany.Bandicam-3.2.4.1118-1745636850 (was 6cd638745fe).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 3.0.2.1014
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本
+----------
+8.1.1.2518
+8.1.0.2516
+8.0.1.2512
+8.0.0.2509
+7.1.6.2461
+7.1.5.2460
+7.1.4.2458
+7.1.3.2456
+7.1.2.2451
+7.1.1.2158
+7.1.0.2151
+7.0.2.2138
+7.0.1.2132
+7.0.0.2117
+6.2.4.2083
+6.2.3.2078
+6.2.2.2072
+6.2.1.2068
+6.2.0.2057
+6.1.0.2044
+6.0.6.2034
+6.0.5.2033
+6.0.4.2024
+6.0.2.2018
+6.0.1.2003
+6.0.0.1998
+5.4.3.1923
+5.4.2.1921
+5.4.1.1914
+5.4.0.1907
+5.4.0.1906
+5.3.3.1895
+5.3.3.1893
+5.3.2.1889
+5.3.1.1880
+5.3.0.1879
+5.2.1.1860
+5.2.0.1855
+5.1.1.1837
+5.1.0.1822
+5.0.2.1813
+5.0.1.1799
+5.0.0.1796
+4.6.5.1757
+4.6.4.1728
+4.6.3.1725
+4.6.2.1699
+4.6.1.1688
+4.6.0.1683
+4.5.8.1673
+4.5.7.1660
+4.5.6.1646
+4.5.5.1632
+4.5.4.1624
+4.5.3.1608
+4.5.2.1602
+4.5.1.1597
+4.5.0.1587
+4.4.3.1557
+4.4.2.1550
+4.4.1.1539
+4.4.0.1535
+4.3.4.1503
+4.3.3.1498
+4.3.2.1496
+4.3.1.1490
+4.3.0.1479
+4.2.1.1454
+4.2.0.1439
+4.1.7.1424
+4.1.6.1423
+4.1.5.1421
+4.1.4.1413
+4.1.3.1400
+4.1.2.1385
+4.1.0.1362
+4.0.2.1352
+4.0.1.1339
+4.0.0.1331
+3.4.4.1264
+3.4.3.1263
+3.4.2.1258
+3.4.1.1256
+3.4.0.1227
+3.3.3.1209
+3.3.2.1195
+3.3.1.1192
+3.3.0.1175
+3.2.5.1125
+3.2.4.1118
+3.2.3.1114
+3.2.2.1111
+3.2.0.1102
+3.0.2.1014
+3.0.1.1003
+3.0.0.997
+2.4.2.905
+2.4.1.903
+2.3.3.860
+2.3.1.840
+2.3.0.834
+2.2.5.815
+2.1.2.740
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本: 3.0.2.1014
+发布者: Bandicam.com
+发布服务器 URL: https://www.bandicam.com/
+发布服务器支持 URL: https://www.bandicam.com/faqs/
+作者: Bandicam Company
+绰号： bandicam
+描述:
+  Bandicam is a lightweight screen recorder software for Windows that can capture anything on your PC screen as a high-quality video.
+  This app also makes it possible to record a certain area on a PC screen, or capture a game that uses the DirectX/OpenGL/Vulkan graphics technologies.
+  Bandicam will help you carry out a screen capture with high compression ratio, while preserving the video quality of the original work, and provide performance far superior to other screen capture software that provides similar functions.
+主页: https://www.bandicam.com/
+许可证: Shareware
+许可证 URL: https://www.bandicam.com/company/tos/
+隐私 URL: https://www.bandicam.com/company/privacy/
+版权所有: Copyright (c) 2008-2016 Bandicam Company. All rights reserved.
+版权 URL: https://www.bandicam.com/company/tos/
+发行说明 URL: https://www.bandicam.com/downloads/version_history/
+标记：
+  capture
+  screen-capture
+  video
+  video-recording
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://dl.bandicam.com/old/BDCAMSETUP_ENG_3_0_2_1014.EXE
+  安装程序 SHA256： 18a7bb6b3e4d78def8a2faf793e8446937aae9e4a747ce34e3b1e40eb5197181
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\BandicamCompany\Bandicam\3.0.2.1014\BandicamCompany.Bandicam.installer.yaml
+
+# Created using wingetcreate 1.9.2.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: BandicamCompany.Bandicam
+PackageVersion: 3.0.2.1014
+Platform:
+- Windows.Desktop
+InstallerType: nullsoft
+Scope: machine
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  InstallerUrl: https://dl.bandicam.com/old/BDCAMSETUP_ENG_3_0_2_1014.EXE
+  InstallerSha256: 18A7BB6B3E4D78DEF8A2FAF793E8446937AAE9E4A747CE34E3B1E40EB5197181
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Bandicam [BandicamCompany.Bandicam] 版本 3.0.2.1014
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://dl.bandicam.com/old/BDCAMSETUP_ENG_3_0_2_1014.EXE
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                        BRANCH                                      CREATED AT
+#251186  Remove version: BandicamCompany.Bandicam...  ...:Remove-BandicamCompany.B...  less than a minute ago
+#251182  Remove version: BandicamCompany.Bandicam...  ...:Remove-BandicamCompany.B...  about 2 minutes ago
+======= 所有 =======
+
+Showing 5 of 5 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                          BRANCH                                        CREATED AT
+#201847  Modify: BandicamCompany.Bandicam version 3...  KarbitsCode:BandicamCompany.Bandicam-3.0....  about 4 months ago
+#197764  Modify: BandicamCompany.Bandicam version 3...  KarbitsCode:BandicamCompany.Bandicam-3.0....  about 4 months ago
+#169102  BandicamCompany.Bandicam version 3.0.2.1014    KarbitsCode:BandicamCompany.Bandicam-3.0....  about 8 months ago
+#48020   Remove BandicamCompany.Bandicam 3.0.2.1014     Trenly:RM3.0.2.1014                           about 3 years ago
+#29445   Add version: BandicamCompany.Bandicam vers...  Trenly:BandicamCompany.Bandicam-3.0.2.101...  about 3 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-BandicamCompany.Bandicam-3.0.2.1014-1745636902'
+  已签出新分支 Remove-BandicamCompany.Bandicam-3.0.2.1014-1745636902
+  已移除软件包 BandicamCompany.Bandicam 版本 3.0.2.1014
+[Remove-BandicamCompany.Bandicam-3.0.2.1014-1745636902 18f97a2e7f6] Remove version: BandicamCompany.Bandicam version 3.0.2.1014
+ 3 files changed, 58 deletions(-)
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/3.0.2.1014/BandicamCompany.Bandicam.installer.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/3.0.2.1014/BandicamCompany.Bandicam.locale.en-US.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/3.0.2.1014/BandicamCompany.Bandicam.yaml
+  已提交修改
+Enumerating objects: 46, done.
+Counting objects: 100% (40/40), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 782 bytes | 195.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-BandicamCompany.Bandicam-3.0.2.1014-1745636902' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-BandicamCompany.Bandicam-3.0.2.1014-1745636902
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-BandicamCompany.Bandicam-3.0.2.1014-1745636902 -> Remove-BandicamCompany.Bandicam-3.0.2.1014-1745636902
+branch 'Remove-BandicamCompany.Bandicam-3.0.2.1014-1745636902' set up to track 'origin/Remove-BandicamCompany.Bandicam-3.0.2.1014-1745636902'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251187
+ 成功移除 BandicamCompany.Bandicam 版本 3.0.2.1014
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-BandicamCompany.Bandicam-3.0.2.1014-1745636902 (was 18f97a2e7f6).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 3.2.0.1102
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本
+----------
+8.1.1.2518
+8.1.0.2516
+8.0.1.2512
+8.0.0.2509
+7.1.6.2461
+7.1.5.2460
+7.1.4.2458
+7.1.3.2456
+7.1.2.2451
+7.1.1.2158
+7.1.0.2151
+7.0.2.2138
+7.0.1.2132
+7.0.0.2117
+6.2.4.2083
+6.2.3.2078
+6.2.2.2072
+6.2.1.2068
+6.2.0.2057
+6.1.0.2044
+6.0.6.2034
+6.0.5.2033
+6.0.4.2024
+6.0.2.2018
+6.0.1.2003
+6.0.0.1998
+5.4.3.1923
+5.4.2.1921
+5.4.1.1914
+5.4.0.1907
+5.4.0.1906
+5.3.3.1895
+5.3.3.1893
+5.3.2.1889
+5.3.1.1880
+5.3.0.1879
+5.2.1.1860
+5.2.0.1855
+5.1.1.1837
+5.1.0.1822
+5.0.2.1813
+5.0.1.1799
+5.0.0.1796
+4.6.5.1757
+4.6.4.1728
+4.6.3.1725
+4.6.2.1699
+4.6.1.1688
+4.6.0.1683
+4.5.8.1673
+4.5.7.1660
+4.5.6.1646
+4.5.5.1632
+4.5.4.1624
+4.5.3.1608
+4.5.2.1602
+4.5.1.1597
+4.5.0.1587
+4.4.3.1557
+4.4.2.1550
+4.4.1.1539
+4.4.0.1535
+4.3.4.1503
+4.3.3.1498
+4.3.2.1496
+4.3.1.1490
+4.3.0.1479
+4.2.1.1454
+4.2.0.1439
+4.1.7.1424
+4.1.6.1423
+4.1.5.1421
+4.1.4.1413
+4.1.3.1400
+4.1.2.1385
+4.1.0.1362
+4.0.2.1352
+4.0.1.1339
+4.0.0.1331
+3.4.4.1264
+3.4.3.1263
+3.4.2.1258
+3.4.1.1256
+3.4.0.1227
+3.3.3.1209
+3.3.2.1195
+3.3.1.1192
+3.3.0.1175
+3.2.5.1125
+3.2.4.1118
+3.2.3.1114
+3.2.2.1111
+3.2.0.1102
+3.0.2.1014
+3.0.1.1003
+3.0.0.997
+2.4.2.905
+2.4.1.903
+2.3.3.860
+2.3.1.840
+2.3.0.834
+2.2.5.815
+2.1.2.740
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本: 3.2.0.1102
+发布者: Bandicam.com
+发布服务器 URL: https://www.bandicam.com/
+发布服务器支持 URL: https://www.bandicam.com/faqs/
+作者: Bandicam Company
+绰号： bandicam
+描述:
+  Bandicam is a lightweight screen recorder software for Windows that can capture anything on your PC screen as a high-quality video.
+  This app also makes it possible to record a certain area on a PC screen, or capture a game that uses the DirectX/OpenGL/Vulkan graphics technologies.
+  Bandicam will help you carry out a screen capture with high compression ratio, while preserving the video quality of the original work, and provide performance far superior to other screen capture software that provides similar functions.
+主页: https://www.bandicam.com/
+许可证: Shareware
+许可证 URL: https://www.bandicam.com/company/tos/
+隐私 URL: https://www.bandicam.com/company/privacy/
+版权所有: Copyright (c) 2008-2016 Bandicam Company. All rights reserved.
+版权 URL: https://www.bandicam.com/company/tos/
+发行说明 URL: https://www.bandicam.com/downloads/version_history/
+标记：
+  capture
+  screen-capture
+  video
+  video-recording
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://dl.bandicam.com/old/BDCAMSETUP_ENG_3_2_0_1102.EXE
+  安装程序 SHA256： e55a85a00c586a66d4ee82d9967bd2c026f385ca2aede55c778629e4f12da10b
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\BandicamCompany\Bandicam\3.2.0.1102\BandicamCompany.Bandicam.installer.yaml
+
+# Created using wingetcreate 1.9.2.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: BandicamCompany.Bandicam
+PackageVersion: 3.2.0.1102
+Platform:
+- Windows.Desktop
+InstallerType: nullsoft
+Scope: machine
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  InstallerUrl: https://dl.bandicam.com/old/BDCAMSETUP_ENG_3_2_0_1102.EXE
+  InstallerSha256: E55A85A00C586A66D4EE82D9967BD2C026F385CA2AEDE55C778629E4F12DA10B
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Bandicam [BandicamCompany.Bandicam] 版本 3.2.0.1102
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://dl.bandicam.com/old/BDCAMSETUP_ENG_3_2_0_1102.EXE
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 3 of 3 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                        BRANCH                                      CREATED AT
+#251187  Remove version: BandicamCompany.Bandicam...  ...:Remove-BandicamCompany.B...  less than a minute ago
+#251186  Remove version: BandicamCompany.Bandicam...  ...:Remove-BandicamCompany.B...  about 1 minute ago
+#251182  Remove version: BandicamCompany.Bandicam...  ...:Remove-BandicamCompany.B...  about 3 minutes ago
+======= 所有 =======
+
+Showing 5 of 5 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                          BRANCH                                        CREATED AT
+#201852  Modify: BandicamCompany.Bandicam version 3...  KarbitsCode:BandicamCompany.Bandicam-3.2....  about 4 months ago
+#197769  Modify: BandicamCompany.Bandicam version 3...  KarbitsCode:BandicamCompany.Bandicam-3.2....  about 4 months ago
+#169158  BandicamCompany.Bandicam version 3.2.0.1102    KarbitsCode:BandicamCompany.Bandicam-3.2....  about 8 months ago
+#48025   Remove BandicamCompany.Bandicam 3.2.0.1102     Trenly:RM3.2.0.1102                           about 3 years ago
+#29440   Add version: BandicamCompany.Bandicam vers...  Trenly:BandicamCompany.Bandicam-3.2.0.110...  about 3 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-BandicamCompany.Bandicam-3.2.0.1102-1745636957'
+  已签出新分支 Remove-BandicamCompany.Bandicam-3.2.0.1102-1745636957
+  已移除软件包 BandicamCompany.Bandicam 版本 3.2.0.1102
+[Remove-BandicamCompany.Bandicam-3.2.0.1102-1745636957 0b60b56eac0] Remove version: BandicamCompany.Bandicam version 3.2.0.1102
+ 3 files changed, 58 deletions(-)
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/3.2.0.1102/BandicamCompany.Bandicam.installer.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/3.2.0.1102/BandicamCompany.Bandicam.locale.en-US.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/3.2.0.1102/BandicamCompany.Bandicam.yaml
+  已提交修改
+Enumerating objects: 51, done.
+Counting objects: 100% (45/45), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 779 bytes | 259.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-BandicamCompany.Bandicam-3.2.0.1102-1745636957' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-BandicamCompany.Bandicam-3.2.0.1102-1745636957
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-BandicamCompany.Bandicam-3.2.0.1102-1745636957 -> Remove-BandicamCompany.Bandicam-3.2.0.1102-1745636957
+branch 'Remove-BandicamCompany.Bandicam-3.2.0.1102-1745636957' set up to track 'origin/Remove-BandicamCompany.Bandicam-3.2.0.1102-1745636957'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251188
+ 成功移除 BandicamCompany.Bandicam 版本 3.2.0.1102
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-BandicamCompany.Bandicam-3.2.0.1102-1745636957 (was 0b60b56eac0).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 2.3.3.860
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本
+----------
+8.1.1.2518
+8.1.0.2516
+8.0.1.2512
+8.0.0.2509
+7.1.6.2461
+7.1.5.2460
+7.1.4.2458
+7.1.3.2456
+7.1.2.2451
+7.1.1.2158
+7.1.0.2151
+7.0.2.2138
+7.0.1.2132
+7.0.0.2117
+6.2.4.2083
+6.2.3.2078
+6.2.2.2072
+6.2.1.2068
+6.2.0.2057
+6.1.0.2044
+6.0.6.2034
+6.0.5.2033
+6.0.4.2024
+6.0.2.2018
+6.0.1.2003
+6.0.0.1998
+5.4.3.1923
+5.4.2.1921
+5.4.1.1914
+5.4.0.1907
+5.4.0.1906
+5.3.3.1895
+5.3.3.1893
+5.3.2.1889
+5.3.1.1880
+5.3.0.1879
+5.2.1.1860
+5.2.0.1855
+5.1.1.1837
+5.1.0.1822
+5.0.2.1813
+5.0.1.1799
+5.0.0.1796
+4.6.5.1757
+4.6.4.1728
+4.6.3.1725
+4.6.2.1699
+4.6.1.1688
+4.6.0.1683
+4.5.8.1673
+4.5.7.1660
+4.5.6.1646
+4.5.5.1632
+4.5.4.1624
+4.5.3.1608
+4.5.2.1602
+4.5.1.1597
+4.5.0.1587
+4.4.3.1557
+4.4.2.1550
+4.4.1.1539
+4.4.0.1535
+4.3.4.1503
+4.3.3.1498
+4.3.2.1496
+4.3.1.1490
+4.3.0.1479
+4.2.1.1454
+4.2.0.1439
+4.1.7.1424
+4.1.6.1423
+4.1.5.1421
+4.1.4.1413
+4.1.3.1400
+4.1.2.1385
+4.1.0.1362
+4.0.2.1352
+4.0.1.1339
+4.0.0.1331
+3.4.4.1264
+3.4.3.1263
+3.4.2.1258
+3.4.1.1256
+3.4.0.1227
+3.3.3.1209
+3.3.2.1195
+3.3.1.1192
+3.3.0.1175
+3.2.5.1125
+3.2.4.1118
+3.2.3.1114
+3.2.2.1111
+3.2.0.1102
+3.0.2.1014
+3.0.1.1003
+3.0.0.997
+2.4.2.905
+2.4.1.903
+2.3.3.860
+2.3.1.840
+2.3.0.834
+2.2.5.815
+2.1.2.740
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本: 2.3.3.860
+发布者: Bandicam.com
+发布服务器 URL: https://www.bandicam.com/
+发布服务器支持 URL: https://www.bandicam.com/faqs/
+作者: Bandicam Company
+绰号： bandicam
+描述:
+  Bandicam is a lightweight screen recorder software for Windows that can capture anything on your PC screen as a high-quality video.
+  This app also makes it possible to record a certain area on a PC screen, or capture a game that uses the DirectX/OpenGL/Vulkan graphics technologies.
+  Bandicam will help you carry out a screen capture with high compression ratio, while preserving the video quality of the original work, and provide performance far superior to other screen capture software that provides similar functions.
+主页: https://www.bandicam.com/
+许可证: Shareware
+许可证 URL: https://www.bandicam.com/company/tos/
+隐私 URL: https://www.bandicam.com/company/privacy/
+版权所有: Copyright (c) 2008-2015 Bandicam Company. All rights reserved.
+版权 URL: https://www.bandicam.com/company/tos/
+发行说明 URL: https://www.bandicam.com/downloads/version_history/
+标记：
+  capture
+  screen-capture
+  video
+  video-recording
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://dl.bandicam.com/old/BDCAMSETUP_ENG_2_3_3_860.EXE
+  安装程序 SHA256： 1380a29bebad0c59837bcd633961e9d2dc72b95f55804d60c265631c8f4be629
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\BandicamCompany\Bandicam\2.3.3.860\BandicamCompany.Bandicam.installer.yaml
+
+# Created using wingetcreate 1.9.2.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: BandicamCompany.Bandicam
+PackageVersion: 2.3.3.860
+Platform:
+- Windows.Desktop
+InstallerType: nullsoft
+Scope: machine
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  InstallerUrl: https://dl.bandicam.com/old/BDCAMSETUP_ENG_2_3_3_860.EXE
+  InstallerSha256: 1380A29BEBAD0C59837BCD633961E9D2DC72B95F55804D60C265631C8F4BE629
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Bandicam [BandicamCompany.Bandicam] 版本 2.3.3.860
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://dl.bandicam.com/old/BDCAMSETUP_ENG_2_3_3_860.EXE
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 4 of 4 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                        BRANCH                                      CREATED AT
+#251188  Remove version: BandicamCompany.Bandicam...  ...:Remove-BandicamCompany.B...  less than a minute ago
+#251187  Remove version: BandicamCompany.Bandicam...  ...:Remove-BandicamCompany.B...  about 1 minute ago
+#251186  Remove version: BandicamCompany.Bandicam...  ...:Remove-BandicamCompany.B...  about 2 minutes ago
+#251182  Remove version: BandicamCompany.Bandicam...  ...:Remove-BandicamCompany.B...  about 3 minutes ago
+======= 所有 =======
+
+Showing 5 of 5 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                          BRANCH                                        CREATED AT
+#201842  Modify: BandicamCompany.Bandicam version 2...  KarbitsCode:BandicamCompany.Bandicam-2.3....  about 4 months ago
+#197757  Modify: BandicamCompany.Bandicam version 2...  KarbitsCode:BandicamCompany.Bandicam-2.3....  about 4 months ago
+#169028  BandicamCompany.Bandicam version 2.3.3.860     KarbitsCode:BandicamCompany.Bandicam-2.3....  about 8 months ago
+#48015   Remove BandicamCompany.Bandicam 2.3.3.860      Trenly:RM2.3.3.860                            about 3 years ago
+#29450   Add version: BandicamCompany.Bandicam vers...  Trenly:BandicamCompany.Bandicam-2.3.3.860...  about 3 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-BandicamCompany.Bandicam-2.3.3.860-1745637009'
+  已签出新分支 Remove-BandicamCompany.Bandicam-2.3.3.860-1745637009
+  已移除软件包 BandicamCompany.Bandicam 版本 2.3.3.860
+[Remove-BandicamCompany.Bandicam-2.3.3.860-1745637009 7a56daa56a0] Remove version: BandicamCompany.Bandicam version 2.3.3.860
+ 3 files changed, 58 deletions(-)
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/2.3.3.860/BandicamCompany.Bandicam.installer.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/2.3.3.860/BandicamCompany.Bandicam.locale.en-US.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/2.3.3.860/BandicamCompany.Bandicam.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (50/50), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 781 bytes | 260.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-BandicamCompany.Bandicam-2.3.3.860-1745637009' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-BandicamCompany.Bandicam-2.3.3.860-174563700
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-BandicamCompany.Bandicam-2.3.3.860-1745637009 -> Remove-BandicamCompany.Bandicam-2.3.3.860-1745637009
+branch 'Remove-BandicamCompany.Bandicam-2.3.3.860-1745637009' set up to track 'origin/Remove-BandicamCompany.Bandicam-2.3.3.860-1745637009'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251189
+ 成功移除 BandicamCompany.Bandicam 版本 2.3.3.860
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-BandicamCompany.Bandicam-2.3.3.860-1745637009 (was 7a56daa56a0).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 3.2.2.1111
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本
+----------
+8.1.1.2518
+8.1.0.2516
+8.0.1.2512
+8.0.0.2509
+7.1.6.2461
+7.1.5.2460
+7.1.4.2458
+7.1.3.2456
+7.1.2.2451
+7.1.1.2158
+7.1.0.2151
+7.0.2.2138
+7.0.1.2132
+7.0.0.2117
+6.2.4.2083
+6.2.3.2078
+6.2.2.2072
+6.2.1.2068
+6.2.0.2057
+6.1.0.2044
+6.0.6.2034
+6.0.5.2033
+6.0.4.2024
+6.0.2.2018
+6.0.1.2003
+6.0.0.1998
+5.4.3.1923
+5.4.2.1921
+5.4.1.1914
+5.4.0.1907
+5.4.0.1906
+5.3.3.1895
+5.3.3.1893
+5.3.2.1889
+5.3.1.1880
+5.3.0.1879
+5.2.1.1860
+5.2.0.1855
+5.1.1.1837
+5.1.0.1822
+5.0.2.1813
+5.0.1.1799
+5.0.0.1796
+4.6.5.1757
+4.6.4.1728
+4.6.3.1725
+4.6.2.1699
+4.6.1.1688
+4.6.0.1683
+4.5.8.1673
+4.5.7.1660
+4.5.6.1646
+4.5.5.1632
+4.5.4.1624
+4.5.3.1608
+4.5.2.1602
+4.5.1.1597
+4.5.0.1587
+4.4.3.1557
+4.4.2.1550
+4.4.1.1539
+4.4.0.1535
+4.3.4.1503
+4.3.3.1498
+4.3.2.1496
+4.3.1.1490
+4.3.0.1479
+4.2.1.1454
+4.2.0.1439
+4.1.7.1424
+4.1.6.1423
+4.1.5.1421
+4.1.4.1413
+4.1.3.1400
+4.1.2.1385
+4.1.0.1362
+4.0.2.1352
+4.0.1.1339
+4.0.0.1331
+3.4.4.1264
+3.4.3.1263
+3.4.2.1258
+3.4.1.1256
+3.4.0.1227
+3.3.3.1209
+3.3.2.1195
+3.3.1.1192
+3.3.0.1175
+3.2.5.1125
+3.2.4.1118
+3.2.3.1114
+3.2.2.1111
+3.2.0.1102
+3.0.2.1014
+3.0.1.1003
+3.0.0.997
+2.4.2.905
+2.4.1.903
+2.3.3.860
+2.3.1.840
+2.3.0.834
+2.2.5.815
+2.1.2.740
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本: 3.2.2.1111
+发布者: Bandicam.com
+发布服务器 URL: https://www.bandicam.com/
+发布服务器支持 URL: https://www.bandicam.com/faqs/
+作者: Bandicam Company
+绰号： bandicam
+描述:
+  Bandicam is a lightweight screen recorder software for Windows that can capture anything on your PC screen as a high-quality video.
+  This app also makes it possible to record a certain area on a PC screen, or capture a game that uses the DirectX/OpenGL/Vulkan graphics technologies.
+  Bandicam will help you carry out a screen capture with high compression ratio, while preserving the video quality of the original work, and provide performance far superior to other screen capture software that provides similar functions.
+主页: https://www.bandicam.com/
+许可证: Shareware
+许可证 URL: https://www.bandicam.com/company/tos/
+隐私 URL: https://www.bandicam.com/company/privacy/
+版权所有: Copyright (c) 2008-2016 Bandicam Company. All rights reserved.
+版权 URL: https://www.bandicam.com/company/tos/
+发行说明 URL: https://www.bandicam.com/downloads/version_history/
+标记：
+  capture
+  screen-capture
+  video
+  video-recording
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://dl.bandicam.com/old/BDCAMSETUP_ENG_3_2_2_1111.EXE
+  安装程序 SHA256： 9bc315f01332a255770209709ce71c36f082dee8b45d2de809bdddb3047b6ccf
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\BandicamCompany\Bandicam\3.2.2.1111\BandicamCompany.Bandicam.installer.yaml
+
+# Created using wingetcreate 1.9.2.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: BandicamCompany.Bandicam
+PackageVersion: 3.2.2.1111
+Platform:
+- Windows.Desktop
+InstallerType: nullsoft
+Scope: machine
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  InstallerUrl: https://dl.bandicam.com/old/BDCAMSETUP_ENG_3_2_2_1111.EXE
+  InstallerSha256: 9BC315F01332A255770209709CE71C36F082DEE8B45D2DE809BDDDB3047B6CCF
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Bandicam [BandicamCompany.Bandicam] 版本 3.2.2.1111
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://dl.bandicam.com/old/BDCAMSETUP_ENG_3_2_2_1111.EXE
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 5 of 5 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                        BRANCH                                      CREATED AT
+#251189  Remove version: BandicamCompany.Bandicam...  ...:Remove-BandicamCompany.B...  less than a minute ago
+#251188  Remove version: BandicamCompany.Bandicam...  ...:Remove-BandicamCompany.B...  about 1 minute ago
+#251187  Remove version: BandicamCompany.Bandicam...  ...:Remove-BandicamCompany.B...  about 2 minutes ago
+#251186  Remove version: BandicamCompany.Bandicam...  ...:Remove-BandicamCompany.B...  about 3 minutes ago
+#251182  Remove version: BandicamCompany.Bandicam...  ...:Remove-BandicamCompany.B...  about 4 minutes ago
+======= 所有 =======
+
+Showing 5 of 5 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                          BRANCH                                        CREATED AT
+#201854  Modify: BandicamCompany.Bandicam version 3...  KarbitsCode:BandicamCompany.Bandicam-3.2....  about 4 months ago
+#197771  Modify: BandicamCompany.Bandicam version 3...  KarbitsCode:BandicamCompany.Bandicam-3.2....  about 4 months ago
+#169160  BandicamCompany.Bandicam version 3.2.2.1111    KarbitsCode:BandicamCompany.Bandicam-3.2....  about 8 months ago
+#48027   Remove BandicamCompany.Bandicam 3.2.2.1111     Trenly:RM3.2.2.1111                           about 3 years ago
+#29438   Add version: BandicamCompany.Bandicam vers...  Trenly:BandicamCompany.Bandicam-3.2.2.111...  about 3 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-BandicamCompany.Bandicam-3.2.2.1111-1745637061'
+  已签出新分支 Remove-BandicamCompany.Bandicam-3.2.2.1111-1745637061
+  已移除软件包 BandicamCompany.Bandicam 版本 3.2.2.1111
+[Remove-BandicamCompany.Bandicam-3.2.2.1111-1745637061 34fd6af5c0b] Remove version: BandicamCompany.Bandicam version 3.2.2.1111
+ 3 files changed, 58 deletions(-)
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/3.2.2.1111/BandicamCompany.Bandicam.installer.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/3.2.2.1111/BandicamCompany.Bandicam.locale.en-US.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/3.2.2.1111/BandicamCompany.Bandicam.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (50/50), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 781 bytes | 260.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-BandicamCompany.Bandicam-3.2.2.1111-1745637061' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-BandicamCompany.Bandicam-3.2.2.1111-1745637061
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-BandicamCompany.Bandicam-3.2.2.1111-1745637061 -> Remove-BandicamCompany.Bandicam-3.2.2.1111-1745637061
+branch 'Remove-BandicamCompany.Bandicam-3.2.2.1111-1745637061' set up to track 'origin/Remove-BandicamCompany.Bandicam-3.2.2.1111-1745637061'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251191
+ 成功移除 BandicamCompany.Bandicam 版本 3.2.2.1111
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-BandicamCompany.Bandicam-3.2.2.1111-1745637061 (was 34fd6af5c0b).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 3.2.3.1114
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本
+----------
+8.1.1.2518
+8.1.0.2516
+8.0.1.2512
+8.0.0.2509
+7.1.6.2461
+7.1.5.2460
+7.1.4.2458
+7.1.3.2456
+7.1.2.2451
+7.1.1.2158
+7.1.0.2151
+7.0.2.2138
+7.0.1.2132
+7.0.0.2117
+6.2.4.2083
+6.2.3.2078
+6.2.2.2072
+6.2.1.2068
+6.2.0.2057
+6.1.0.2044
+6.0.6.2034
+6.0.5.2033
+6.0.4.2024
+6.0.2.2018
+6.0.1.2003
+6.0.0.1998
+5.4.3.1923
+5.4.2.1921
+5.4.1.1914
+5.4.0.1907
+5.4.0.1906
+5.3.3.1895
+5.3.3.1893
+5.3.2.1889
+5.3.1.1880
+5.3.0.1879
+5.2.1.1860
+5.2.0.1855
+5.1.1.1837
+5.1.0.1822
+5.0.2.1813
+5.0.1.1799
+5.0.0.1796
+4.6.5.1757
+4.6.4.1728
+4.6.3.1725
+4.6.2.1699
+4.6.1.1688
+4.6.0.1683
+4.5.8.1673
+4.5.7.1660
+4.5.6.1646
+4.5.5.1632
+4.5.4.1624
+4.5.3.1608
+4.5.2.1602
+4.5.1.1597
+4.5.0.1587
+4.4.3.1557
+4.4.2.1550
+4.4.1.1539
+4.4.0.1535
+4.3.4.1503
+4.3.3.1498
+4.3.2.1496
+4.3.1.1490
+4.3.0.1479
+4.2.1.1454
+4.2.0.1439
+4.1.7.1424
+4.1.6.1423
+4.1.5.1421
+4.1.4.1413
+4.1.3.1400
+4.1.2.1385
+4.1.0.1362
+4.0.2.1352
+4.0.1.1339
+4.0.0.1331
+3.4.4.1264
+3.4.3.1263
+3.4.2.1258
+3.4.1.1256
+3.4.0.1227
+3.3.3.1209
+3.3.2.1195
+3.3.1.1192
+3.3.0.1175
+3.2.5.1125
+3.2.4.1118
+3.2.3.1114
+3.2.2.1111
+3.2.0.1102
+3.0.2.1014
+3.0.1.1003
+3.0.0.997
+2.4.2.905
+2.4.1.903
+2.3.3.860
+2.3.1.840
+2.3.0.834
+2.2.5.815
+2.1.2.740
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本: 3.2.3.1114
+发布者: Bandicam.com
+发布服务器 URL: https://www.bandicam.com/
+发布服务器支持 URL: https://www.bandicam.com/faqs/
+作者: Bandicam Company
+绰号： bandicam
+描述:
+  Bandicam is a lightweight screen recorder software for Windows that can capture anything on your PC screen as a high-quality video.
+  This app also makes it possible to record a certain area on a PC screen, or capture a game that uses the DirectX/OpenGL/Vulkan graphics technologies.
+  Bandicam will help you carry out a screen capture with high compression ratio, while preserving the video quality of the original work, and provide performance far superior to other screen capture software that provides similar functions.
+主页: https://www.bandicam.com/
+许可证: Shareware
+许可证 URL: https://www.bandicam.com/company/tos/
+隐私 URL: https://www.bandicam.com/company/privacy/
+版权所有: Copyright (c) 2008-2016 Bandicam Company. All rights reserved.
+版权 URL: https://www.bandicam.com/company/tos/
+发行说明 URL: https://www.bandicam.com/downloads/version_history/
+标记：
+  capture
+  screen-capture
+  video
+  video-recording
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://dl.bandicam.com/old/BDCAMSETUP_ENG_3_2_3_1114.EXE
+  安装程序 SHA256： bb55daacc2d965874865cc884cab928edddbf9f27fc4f54f4f933ea48a0c2c5f
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\BandicamCompany\Bandicam\3.2.3.1114\BandicamCompany.Bandicam.installer.yaml
+
+# Created using wingetcreate 1.9.2.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: BandicamCompany.Bandicam
+PackageVersion: 3.2.3.1114
+Platform:
+- Windows.Desktop
+InstallerType: nullsoft
+Scope: machine
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  InstallerUrl: https://dl.bandicam.com/old/BDCAMSETUP_ENG_3_2_3_1114.EXE
+  InstallerSha256: BB55DAACC2D965874865CC884CAB928EDDDBF9F27FC4F54F4F933EA48A0C2C5F
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Bandicam [BandicamCompany.Bandicam] 版本 3.2.3.1114
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://dl.bandicam.com/old/BDCAMSETUP_ENG_3_2_3_1114.EXE
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 6 of 6 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                        BRANCH                                      CREATED AT
+#251191  Remove version: BandicamCompany.Bandicam...  ...:Remove-BandicamCompany.B...  less than a minute ago
+#251189  Remove version: BandicamCompany.Bandicam...  ...:Remove-BandicamCompany.B...  about 1 minute ago
+#251188  Remove version: BandicamCompany.Bandicam...  ...:Remove-BandicamCompany.B...  about 2 minutes ago
+#251187  Remove version: BandicamCompany.Bandicam...  ...:Remove-BandicamCompany.B...  about 3 minutes ago
+#251186  Remove version: BandicamCompany.Bandicam...  ...:Remove-BandicamCompany.B...  about 3 minutes ago
+#251182  Remove version: BandicamCompany.Bandicam...  ...:Remove-BandicamCompany.B...  about 5 minutes ago
+======= 所有 =======
+
+Showing 5 of 5 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                          BRANCH                                        CREATED AT
+#201855  Modify: BandicamCompany.Bandicam version 3...  KarbitsCode:BandicamCompany.Bandicam-3.2....  about 4 months ago
+#197772  Modify: BandicamCompany.Bandicam version 3...  KarbitsCode:BandicamCompany.Bandicam-3.2....  about 4 months ago
+#169161  BandicamCompany.Bandicam version 3.2.3.1114    KarbitsCode:BandicamCompany.Bandicam-3.2....  about 8 months ago
+#48028   Remove BandicamCompany.Bandicam 3.2.3.1114     Trenly:RM3.2.3.1114                           about 3 years ago
+#29437   Add version: BandicamCompany.Bandicam vers...  Trenly:BandicamCompany.Bandicam-3.2.3.111...  about 3 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-BandicamCompany.Bandicam-3.2.3.1114-1745637114'
+  已签出新分支 Remove-BandicamCompany.Bandicam-3.2.3.1114-1745637114
+  已移除软件包 BandicamCompany.Bandicam 版本 3.2.3.1114
+[Remove-BandicamCompany.Bandicam-3.2.3.1114-1745637114 b6a4b42c87e] Remove version: BandicamCompany.Bandicam version 3.2.3.1114
+ 3 files changed, 58 deletions(-)
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/3.2.3.1114/BandicamCompany.Bandicam.installer.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/3.2.3.1114/BandicamCompany.Bandicam.locale.en-US.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/3.2.3.1114/BandicamCompany.Bandicam.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (50/50), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 781 bytes | 260.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-BandicamCompany.Bandicam-3.2.3.1114-1745637114' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-BandicamCompany.Bandicam-3.2.3.1114-1745637114
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-BandicamCompany.Bandicam-3.2.3.1114-1745637114 -> Remove-BandicamCompany.Bandicam-3.2.3.1114-1745637114
+branch 'Remove-BandicamCompany.Bandicam-3.2.3.1114-1745637114' set up to track 'origin/Remove-BandicamCompany.Bandicam-3.2.3.1114-1745637114'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251192
+ 成功移除 BandicamCompany.Bandicam 版本 3.2.3.1114
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-BandicamCompany.Bandicam-3.2.3.1114-1745637114 (was b6a4b42c87e).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 3.0.1.1003
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本
+----------
+8.1.1.2518
+8.1.0.2516
+8.0.1.2512
+8.0.0.2509
+7.1.6.2461
+7.1.5.2460
+7.1.4.2458
+7.1.3.2456
+7.1.2.2451
+7.1.1.2158
+7.1.0.2151
+7.0.2.2138
+7.0.1.2132
+7.0.0.2117
+6.2.4.2083
+6.2.3.2078
+6.2.2.2072
+6.2.1.2068
+6.2.0.2057
+6.1.0.2044
+6.0.6.2034
+6.0.5.2033
+6.0.4.2024
+6.0.2.2018
+6.0.1.2003
+6.0.0.1998
+5.4.3.1923
+5.4.2.1921
+5.4.1.1914
+5.4.0.1907
+5.4.0.1906
+5.3.3.1895
+5.3.3.1893
+5.3.2.1889
+5.3.1.1880
+5.3.0.1879
+5.2.1.1860
+5.2.0.1855
+5.1.1.1837
+5.1.0.1822
+5.0.2.1813
+5.0.1.1799
+5.0.0.1796
+4.6.5.1757
+4.6.4.1728
+4.6.3.1725
+4.6.2.1699
+4.6.1.1688
+4.6.0.1683
+4.5.8.1673
+4.5.7.1660
+4.5.6.1646
+4.5.5.1632
+4.5.4.1624
+4.5.3.1608
+4.5.2.1602
+4.5.1.1597
+4.5.0.1587
+4.4.3.1557
+4.4.2.1550
+4.4.1.1539
+4.4.0.1535
+4.3.4.1503
+4.3.3.1498
+4.3.2.1496
+4.3.1.1490
+4.3.0.1479
+4.2.1.1454
+4.2.0.1439
+4.1.7.1424
+4.1.6.1423
+4.1.5.1421
+4.1.4.1413
+4.1.3.1400
+4.1.2.1385
+4.1.0.1362
+4.0.2.1352
+4.0.1.1339
+4.0.0.1331
+3.4.4.1264
+3.4.3.1263
+3.4.2.1258
+3.4.1.1256
+3.4.0.1227
+3.3.3.1209
+3.3.2.1195
+3.3.1.1192
+3.3.0.1175
+3.2.5.1125
+3.2.4.1118
+3.2.3.1114
+3.2.2.1111
+3.2.0.1102
+3.0.2.1014
+3.0.1.1003
+3.0.0.997
+2.4.2.905
+2.4.1.903
+2.3.3.860
+2.3.1.840
+2.3.0.834
+2.2.5.815
+2.1.2.740
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本: 3.0.1.1003
+发布者: Bandicam.com
+发布服务器 URL: https://www.bandicam.com/
+发布服务器支持 URL: https://www.bandicam.com/faqs/
+作者: Bandicam Company
+绰号： bandicam
+描述:
+  Bandicam is a lightweight screen recorder software for Windows that can capture anything on your PC screen as a high-quality video.
+  This app also makes it possible to record a certain area on a PC screen, or capture a game that uses the DirectX/OpenGL/Vulkan graphics technologies.
+  Bandicam will help you carry out a screen capture with high compression ratio, while preserving the video quality of the original work, and provide performance far superior to other screen capture software that provides similar functions.
+主页: https://www.bandicam.com/
+许可证: Shareware
+许可证 URL: https://www.bandicam.com/company/tos/
+隐私 URL: https://www.bandicam.com/company/privacy/
+版权所有: Copyright (c) 2008-2015 Bandicam Company. All rights reserved.
+版权 URL: https://www.bandicam.com/company/tos/
+发行说明 URL: https://www.bandicam.com/downloads/version_history/
+标记：
+  capture
+  screen-capture
+  video
+  video-recording
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://dl.bandicam.com/old/BDCAMSETUP_ENG_3_0_1_1003.EXE
+  安装程序 SHA256： 21dfafc11d0c63ba11995bf206b9de297bc835dde6a13ebff445b0c762eb749f
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\BandicamCompany\Bandicam\3.0.1.1003\BandicamCompany.Bandicam.installer.yaml
+
+# Created using wingetcreate 1.9.2.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: BandicamCompany.Bandicam
+PackageVersion: 3.0.1.1003
+Platform:
+- Windows.Desktop
+InstallerType: nullsoft
+Scope: machine
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  InstallerUrl: https://dl.bandicam.com/old/BDCAMSETUP_ENG_3_0_1_1003.EXE
+  InstallerSha256: 21DFAFC11D0C63BA11995BF206B9DE297BC835DDE6A13EBFF445B0C762EB749F
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Bandicam [BandicamCompany.Bandicam] 版本 3.0.1.1003
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://dl.bandicam.com/old/BDCAMSETUP_ENG_3_0_1_1003.EXE
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 7 of 7 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                        BRANCH                                      CREATED AT
+#251192  Remove version: BandicamCompany.Bandicam...  ...:Remove-BandicamCompany.B...  less than a minute ago
+#251191  Remove version: BandicamCompany.Bandicam...  ...:Remove-BandicamCompany.B...  about 1 minute ago
+#251189  Remove version: BandicamCompany.Bandicam...  ...:Remove-BandicamCompany.B...  about 2 minutes ago
+#251188  Remove version: BandicamCompany.Bandicam...  ...:Remove-BandicamCompany.B...  about 3 minutes ago
+#251187  Remove version: BandicamCompany.Bandicam...  ...:Remove-BandicamCompany.B...  about 3 minutes ago
+#251186  Remove version: BandicamCompany.Bandicam...  ...:Remove-BandicamCompany.B...  about 4 minutes ago
+#251182  Remove version: BandicamCompany.Bandicam...  ...:Remove-BandicamCompany.B...  about 6 minutes ago
+======= 所有 =======
+
+Showing 6 of 6 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                          BRANCH                                        CREATED AT
+#201867  Modify: BandicamCompany.Bandicam version 3...  KarbitsCode:BandicamCompany.Bandicam-3.0....  about 4 months ago
+#201846  Modify: BandicamCompany.Bandicam version 3...  KarbitsCode:BandicamCompany.Bandicam-3.0....  about 4 months ago
+#197763  Modify: BandicamCompany.Bandicam version 3...  KarbitsCode:BandicamCompany.Bandicam-3.0....  about 4 months ago
+#169101  BandicamCompany.Bandicam version 3.0.1.1003    KarbitsCode:BandicamCompany.Bandicam-3.0....  about 8 months ago
+#48019   Remove BandicamCompany.Bandicam 3.0.1.1003     Trenly:RM3.0.1.1003                           about 3 years ago
+#29446   Add version: BandicamCompany.Bandicam vers...  Trenly:BandicamCompany.Bandicam-3.0.1.100...  about 3 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-BandicamCompany.Bandicam-3.0.1.1003-1745637167'
+  已签出新分支 Remove-BandicamCompany.Bandicam-3.0.1.1003-1745637167
+  已移除软件包 BandicamCompany.Bandicam 版本 3.0.1.1003
+[Remove-BandicamCompany.Bandicam-3.0.1.1003-1745637167 0cb37e56fb6] Remove version: BandicamCompany.Bandicam version 3.0.1.1003
+ 3 files changed, 58 deletions(-)
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/3.0.1.1003/BandicamCompany.Bandicam.installer.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/3.0.1.1003/BandicamCompany.Bandicam.locale.en-US.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/3.0.1.1003/BandicamCompany.Bandicam.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (50/50), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 779 bytes | 259.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-BandicamCompany.Bandicam-3.0.1.1003-1745637167' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-BandicamCompany.Bandicam-3.0.1.1003-1745637167
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-BandicamCompany.Bandicam-3.0.1.1003-1745637167 -> Remove-BandicamCompany.Bandicam-3.0.1.1003-1745637167
+branch 'Remove-BandicamCompany.Bandicam-3.0.1.1003-1745637167' set up to track 'origin/Remove-BandicamCompany.Bandicam-3.0.1.1003-1745637167'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251193
+ 成功移除 BandicamCompany.Bandicam 版本 3.0.1.1003
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-BandicamCompany.Bandicam-3.0.1.1003-1745637167 (was 0cb37e56fb6).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 3.0.0.997
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本
+----------
+8.1.1.2518
+8.1.0.2516
+8.0.1.2512
+8.0.0.2509
+7.1.6.2461
+7.1.5.2460
+7.1.4.2458
+7.1.3.2456
+7.1.2.2451
+7.1.1.2158
+7.1.0.2151
+7.0.2.2138
+7.0.1.2132
+7.0.0.2117
+6.2.4.2083
+6.2.3.2078
+6.2.2.2072
+6.2.1.2068
+6.2.0.2057
+6.1.0.2044
+6.0.6.2034
+6.0.5.2033
+6.0.4.2024
+6.0.2.2018
+6.0.1.2003
+6.0.0.1998
+5.4.3.1923
+5.4.2.1921
+5.4.1.1914
+5.4.0.1907
+5.4.0.1906
+5.3.3.1895
+5.3.3.1893
+5.3.2.1889
+5.3.1.1880
+5.3.0.1879
+5.2.1.1860
+5.2.0.1855
+5.1.1.1837
+5.1.0.1822
+5.0.2.1813
+5.0.1.1799
+5.0.0.1796
+4.6.5.1757
+4.6.4.1728
+4.6.3.1725
+4.6.2.1699
+4.6.1.1688
+4.6.0.1683
+4.5.8.1673
+4.5.7.1660
+4.5.6.1646
+4.5.5.1632
+4.5.4.1624
+4.5.3.1608
+4.5.2.1602
+4.5.1.1597
+4.5.0.1587
+4.4.3.1557
+4.4.2.1550
+4.4.1.1539
+4.4.0.1535
+4.3.4.1503
+4.3.3.1498
+4.3.2.1496
+4.3.1.1490
+4.3.0.1479
+4.2.1.1454
+4.2.0.1439
+4.1.7.1424
+4.1.6.1423
+4.1.5.1421
+4.1.4.1413
+4.1.3.1400
+4.1.2.1385
+4.1.0.1362
+4.0.2.1352
+4.0.1.1339
+4.0.0.1331
+3.4.4.1264
+3.4.3.1263
+3.4.2.1258
+3.4.1.1256
+3.4.0.1227
+3.3.3.1209
+3.3.2.1195
+3.3.1.1192
+3.3.0.1175
+3.2.5.1125
+3.2.4.1118
+3.2.3.1114
+3.2.2.1111
+3.2.0.1102
+3.0.2.1014
+3.0.1.1003
+3.0.0.997
+2.4.2.905
+2.4.1.903
+2.3.3.860
+2.3.1.840
+2.3.0.834
+2.2.5.815
+2.1.2.740
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本: 3.0.0.997
+发布者: Bandicam.com
+发布服务器 URL: https://www.bandicam.com/
+发布服务器支持 URL: https://www.bandicam.com/faqs/
+作者: Bandicam Company
+绰号： bandicam
+描述:
+  Bandicam is a lightweight screen recorder software for Windows that can capture anything on your PC screen as a high-quality video.
+  This app also makes it possible to record a certain area on a PC screen, or capture a game that uses the DirectX/OpenGL/Vulkan graphics technologies.
+  Bandicam will help you carry out a screen capture with high compression ratio, while preserving the video quality of the original work, and provide performance far superior to other screen capture software that provides similar functions.
+主页: https://www.bandicam.com/
+许可证: Shareware
+许可证 URL: https://www.bandicam.com/company/tos/
+隐私 URL: https://www.bandicam.com/company/privacy/
+版权所有: Copyright (c) 2008-2015 Bandicam Company. All rights reserved.
+版权 URL: https://www.bandicam.com/company/tos/
+发行说明 URL: https://www.bandicam.com/downloads/version_history/
+标记：
+  capture
+  screen-capture
+  video
+  video-recording
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://dl.bandicam.com/old/BDCAMSETUP_ENG_3_0_0_997.EXE
+  安装程序 SHA256： 16fd117d7a0cd41c1953a59c756877521615f055f4b540acc0f118576c5f7264
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\BandicamCompany\Bandicam\3.0.0.997\BandicamCompany.Bandicam.installer.yaml
+
+# Created using wingetcreate 1.9.2.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: BandicamCompany.Bandicam
+PackageVersion: 3.0.0.997
+Platform:
+- Windows.Desktop
+InstallerType: nullsoft
+Scope: machine
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  InstallerUrl: https://dl.bandicam.com/old/BDCAMSETUP_ENG_3_0_0_997.EXE
+  InstallerSha256: 16FD117D7A0CD41C1953A59C756877521615F055F4B540ACC0F118576C5F7264
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Bandicam [BandicamCompany.Bandicam] 版本 3.0.0.997
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://dl.bandicam.com/old/BDCAMSETUP_ENG_3_0_0_997.EXE
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 8 of 8 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                          BRANCH                                                        CREATED AT
+#251193  Remove version: BandicamCompany.Bandicam version 3.0.1.100...  ...:Remove-BandicamCompany.Bandicam-3.0.1.1003...  less than a minute ago
+#251192  Remove version: BandicamCompany.Bandicam version 3.2.3.111...  ...:Remove-BandicamCompany.Bandicam-3.2.3.1114...  about 1 minute ago
+#251191  Remove version: BandicamCompany.Bandicam version 3.2.2.111...  ...:Remove-BandicamCompany.Bandicam-3.2.2.1111...  about 2 minutes ago
+#251189  Remove version: BandicamCompany.Bandicam version 2.3.3.860...  ...:Remove-BandicamCompany.Bandicam-2.3.3.860-...  about 3 minutes ago
+#251188  Remove version: BandicamCompany.Bandicam version 3.2.0.110...  ...:Remove-BandicamCompany.Bandicam-3.2.0.1102...  about 3 minutes ago
+#251187  Remove version: BandicamCompany.Bandicam version 3.0.2.101...  ...:Remove-BandicamCompany.Bandicam-3.0.2.1014...  about 4 minutes ago
+#251186  Remove version: BandicamCompany.Bandicam version 3.2.4.111...  ...:Remove-BandicamCompany.Bandicam-3.2.4.1118...  about 5 minutes ago
+#251182  Remove version: BandicamCompany.Bandicam version 3.2.5.112...  ...:Remove-BandicamCompany.Bandicam-3.2.5.1125...  about 7 minutes ago
+======= 所有 =======
+
+Showing 5 of 5 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                    BRANCH                                                                  CREATED AT
+#201845  Modify: BandicamCompany.Bandicam version 3.0.0.997       KarbitsCode:BandicamCompany.Bandicam-3.0.0.997-6f3bb025-b3db-42d6-9...  about 4 months ago
+#197762  Modify: BandicamCompany.Bandicam version 3.0.0.997       KarbitsCode:BandicamCompany.Bandicam-3.0.0.997-84e9d773-681e-452c-8...  about 4 months ago
+#169100  BandicamCompany.Bandicam version 3.0.0.997               KarbitsCode:BandicamCompany.Bandicam-3.0.0.997-f5153b2a-c116-47f2-8...  about 8 months ago
+#48018   Remove BandicamCompany.Bandicam 3.0.0.997                Trenly:RM3.0.0.997                                                      about 3 years ago
+#29447   Add version: BandicamCompany.Bandicam version 3.0.0.997  Trenly:BandicamCompany.Bandicam-3.0.0.997-2B7B3FA                       about 3 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-BandicamCompany.Bandicam-3.0.0.997-1745637218'
+  已签出新分支 Remove-BandicamCompany.Bandicam-3.0.0.997-1745637218
+  已移除软件包 BandicamCompany.Bandicam 版本 3.0.0.997
+[Remove-BandicamCompany.Bandicam-3.0.0.997-1745637218 97a0213dda1] Remove version: BandicamCompany.Bandicam version 3.0.0.997
+ 3 files changed, 58 deletions(-)
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/3.0.0.997/BandicamCompany.Bandicam.installer.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/3.0.0.997/BandicamCompany.Bandicam.locale.en-US.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/3.0.0.997/BandicamCompany.Bandicam.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (50/50), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 786 bytes | 393.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-BandicamCompany.Bandicam-3.0.0.997-1745637218' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-BandicamCompany.Bandicam-3.0.0.997-1745637218
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-BandicamCompany.Bandicam-3.0.0.997-1745637218 -> Remove-BandicamCompany.Bandicam-3.0.0.997-1745637218
+branch 'Remove-BandicamCompany.Bandicam-3.0.0.997-1745637218' set up to track 'origin/Remove-BandicamCompany.Bandicam-3.0.0.997-1745637218'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251194
+ 成功移除 BandicamCompany.Bandicam 版本 3.0.0.997
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-BandicamCompany.Bandicam-3.0.0.997-1745637218 (was 97a0213dda1).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 2.1.2.740
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本
+----------
+8.1.1.2518
+8.1.0.2516
+8.0.1.2512
+8.0.0.2509
+7.1.6.2461
+7.1.5.2460
+7.1.4.2458
+7.1.3.2456
+7.1.2.2451
+7.1.1.2158
+7.1.0.2151
+7.0.2.2138
+7.0.1.2132
+7.0.0.2117
+6.2.4.2083
+6.2.3.2078
+6.2.2.2072
+6.2.1.2068
+6.2.0.2057
+6.1.0.2044
+6.0.6.2034
+6.0.5.2033
+6.0.4.2024
+6.0.2.2018
+6.0.1.2003
+6.0.0.1998
+5.4.3.1923
+5.4.2.1921
+5.4.1.1914
+5.4.0.1907
+5.4.0.1906
+5.3.3.1895
+5.3.3.1893
+5.3.2.1889
+5.3.1.1880
+5.3.0.1879
+5.2.1.1860
+5.2.0.1855
+5.1.1.1837
+5.1.0.1822
+5.0.2.1813
+5.0.1.1799
+5.0.0.1796
+4.6.5.1757
+4.6.4.1728
+4.6.3.1725
+4.6.2.1699
+4.6.1.1688
+4.6.0.1683
+4.5.8.1673
+4.5.7.1660
+4.5.6.1646
+4.5.5.1632
+4.5.4.1624
+4.5.3.1608
+4.5.2.1602
+4.5.1.1597
+4.5.0.1587
+4.4.3.1557
+4.4.2.1550
+4.4.1.1539
+4.4.0.1535
+4.3.4.1503
+4.3.3.1498
+4.3.2.1496
+4.3.1.1490
+4.3.0.1479
+4.2.1.1454
+4.2.0.1439
+4.1.7.1424
+4.1.6.1423
+4.1.5.1421
+4.1.4.1413
+4.1.3.1400
+4.1.2.1385
+4.1.0.1362
+4.0.2.1352
+4.0.1.1339
+4.0.0.1331
+3.4.4.1264
+3.4.3.1263
+3.4.2.1258
+3.4.1.1256
+3.4.0.1227
+3.3.3.1209
+3.3.2.1195
+3.3.1.1192
+3.3.0.1175
+3.2.5.1125
+3.2.4.1118
+3.2.3.1114
+3.2.2.1111
+3.2.0.1102
+3.0.2.1014
+3.0.1.1003
+3.0.0.997
+2.4.2.905
+2.4.1.903
+2.3.3.860
+2.3.1.840
+2.3.0.834
+2.2.5.815
+2.1.2.740
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本: 2.1.2.740
+发布者: Bandicam.com
+发布服务器 URL: https://www.bandicam.com/
+发布服务器支持 URL: https://www.bandicam.com/faqs/
+作者: Bandicam Company
+绰号： bandicam
+描述:
+  Bandicam is a lightweight screen recorder software for Windows that can capture anything on your PC screen as a high-quality video.
+  This app also makes it possible to record a certain area on a PC screen, or capture a game that uses the DirectX/OpenGL/Vulkan graphics technologies.
+  Bandicam will help you carry out a screen capture with high compression ratio, while preserving the video quality of the original work, and provide performance far superior to other screen capture software that provides similar functions.
+主页: https://www.bandicam.com/
+许可证: Shareware
+许可证 URL: https://www.bandicam.com/company/tos/
+隐私 URL: https://www.bandicam.com/company/privacy/
+版权所有: Copyright (c) 2008-2014 Bandicam Company. All rights reserved.
+版权 URL: https://www.bandicam.com/company/tos/
+发行说明 URL: https://www.bandicam.com/downloads/version_history/
+标记：
+  capture
+  screen-capture
+  video
+  video-recording
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://dl.bandicam.com/old/BDCAMSETUP_ENG_2_1_2_740.EXE
+  安装程序 SHA256： b8eaa407a494f0d5d94f1e235e06dcae8e3edceeac1cb31e4cb76da463701924
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\BandicamCompany\Bandicam\2.1.2.740\BandicamCompany.Bandicam.installer.yaml
+
+# Created using wingetcreate 1.9.2.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: BandicamCompany.Bandicam
+PackageVersion: 2.1.2.740
+Platform:
+- Windows.Desktop
+InstallerType: nullsoft
+Scope: machine
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  InstallerUrl: https://dl.bandicam.com/old/BDCAMSETUP_ENG_2_1_2_740.EXE
+  InstallerSha256: B8EAA407A494F0D5D94F1E235E06DCAE8E3EDCEEAC1CB31E4CB76DA463701924
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Bandicam [BandicamCompany.Bandicam] 版本 2.1.2.740
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://dl.bandicam.com/old/BDCAMSETUP_ENG_2_1_2_740.EXE
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 9 of 9 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                          BRANCH                                                        CREATED AT
+#251194  Remove version: BandicamCompany.Bandicam version 3.0.0.997...  ...:Remove-BandicamCompany.Bandicam-3.0.0.997-...  less than a minute ago
+#251193  Remove version: BandicamCompany.Bandicam version 3.0.1.100...  ...:Remove-BandicamCompany.Bandicam-3.0.1.1003...  about 1 minute ago
+#251192  Remove version: BandicamCompany.Bandicam version 3.2.3.111...  ...:Remove-BandicamCompany.Bandicam-3.2.3.1114...  about 2 minutes ago
+#251191  Remove version: BandicamCompany.Bandicam version 3.2.2.111...  ...:Remove-BandicamCompany.Bandicam-3.2.2.1111...  about 3 minutes ago
+#251189  Remove version: BandicamCompany.Bandicam version 2.3.3.860...  ...:Remove-BandicamCompany.Bandicam-2.3.3.860-...  about 3 minutes ago
+#251188  Remove version: BandicamCompany.Bandicam version 3.2.0.110...  ...:Remove-BandicamCompany.Bandicam-3.2.0.1102...  about 4 minutes ago
+#251187  Remove version: BandicamCompany.Bandicam version 3.0.2.101...  ...:Remove-BandicamCompany.Bandicam-3.0.2.1014...  about 5 minutes ago
+#251186  Remove version: BandicamCompany.Bandicam version 3.2.4.111...  ...:Remove-BandicamCompany.Bandicam-3.2.4.1118...  about 6 minutes ago
+#251182  Remove version: BandicamCompany.Bandicam version 3.2.5.112...  ...:Remove-BandicamCompany.Bandicam-3.2.5.1125...  about 8 minutes ago
+======= 所有 =======
+
+Showing 3 of 3 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                               BRANCH                                                                       CREATED AT
+#201838  Modify: BandicamCompany.Bandicam version 2.1.2.740  KarbitsCode:BandicamCompany.Bandicam-2.1.2.740-03bd1581-10fe-4918-821f-a...  about 4 months ago
+#197753  Modify: BandicamCompany.Bandicam version 2.1.2.740  KarbitsCode:BandicamCompany.Bandicam-2.1.2.740-c2e88259-15c3-4013-88a1-b...  about 4 months ago
+#169024  BandicamCompany.Bandicam version 2.1.2.740          KarbitsCode:BandicamCompany.Bandicam-2.1.2.740-af4f13ad-b90e-46e0-9c1f-a...  about 8 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-BandicamCompany.Bandicam-2.1.2.740-1745637268'
+  已签出新分支 Remove-BandicamCompany.Bandicam-2.1.2.740-1745637268
+  已移除软件包 BandicamCompany.Bandicam 版本 2.1.2.740
+[Remove-BandicamCompany.Bandicam-2.1.2.740-1745637268 d9749c3dc7a] Remove version: BandicamCompany.Bandicam version 2.1.2.740
+ 3 files changed, 58 deletions(-)
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/2.1.2.740/BandicamCompany.Bandicam.installer.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/2.1.2.740/BandicamCompany.Bandicam.locale.en-US.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/2.1.2.740/BandicamCompany.Bandicam.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (50/50), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 776 bytes | 258.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-BandicamCompany.Bandicam-2.1.2.740-1745637268' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-BandicamCompany.Bandicam-2.1.2.740-1745637268
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-BandicamCompany.Bandicam-2.1.2.740-1745637268 -> Remove-BandicamCompany.Bandicam-2.1.2.740-1745637268
+branch 'Remove-BandicamCompany.Bandicam-2.1.2.740-1745637268' set up to track 'origin/Remove-BandicamCompany.Bandicam-2.1.2.740-1745637268'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251195
+ 成功移除 BandicamCompany.Bandicam 版本 2.1.2.740
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-BandicamCompany.Bandicam-2.1.2.740-1745637268 (was d9749c3dc7a).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 2.2.5.815
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本
+----------
+8.1.1.2518
+8.1.0.2516
+8.0.1.2512
+8.0.0.2509
+7.1.6.2461
+7.1.5.2460
+7.1.4.2458
+7.1.3.2456
+7.1.2.2451
+7.1.1.2158
+7.1.0.2151
+7.0.2.2138
+7.0.1.2132
+7.0.0.2117
+6.2.4.2083
+6.2.3.2078
+6.2.2.2072
+6.2.1.2068
+6.2.0.2057
+6.1.0.2044
+6.0.6.2034
+6.0.5.2033
+6.0.4.2024
+6.0.2.2018
+6.0.1.2003
+6.0.0.1998
+5.4.3.1923
+5.4.2.1921
+5.4.1.1914
+5.4.0.1907
+5.4.0.1906
+5.3.3.1895
+5.3.3.1893
+5.3.2.1889
+5.3.1.1880
+5.3.0.1879
+5.2.1.1860
+5.2.0.1855
+5.1.1.1837
+5.1.0.1822
+5.0.2.1813
+5.0.1.1799
+5.0.0.1796
+4.6.5.1757
+4.6.4.1728
+4.6.3.1725
+4.6.2.1699
+4.6.1.1688
+4.6.0.1683
+4.5.8.1673
+4.5.7.1660
+4.5.6.1646
+4.5.5.1632
+4.5.4.1624
+4.5.3.1608
+4.5.2.1602
+4.5.1.1597
+4.5.0.1587
+4.4.3.1557
+4.4.2.1550
+4.4.1.1539
+4.4.0.1535
+4.3.4.1503
+4.3.3.1498
+4.3.2.1496
+4.3.1.1490
+4.3.0.1479
+4.2.1.1454
+4.2.0.1439
+4.1.7.1424
+4.1.6.1423
+4.1.5.1421
+4.1.4.1413
+4.1.3.1400
+4.1.2.1385
+4.1.0.1362
+4.0.2.1352
+4.0.1.1339
+4.0.0.1331
+3.4.4.1264
+3.4.3.1263
+3.4.2.1258
+3.4.1.1256
+3.4.0.1227
+3.3.3.1209
+3.3.2.1195
+3.3.1.1192
+3.3.0.1175
+3.2.5.1125
+3.2.4.1118
+3.2.3.1114
+3.2.2.1111
+3.2.0.1102
+3.0.2.1014
+3.0.1.1003
+3.0.0.997
+2.4.2.905
+2.4.1.903
+2.3.3.860
+2.3.1.840
+2.3.0.834
+2.2.5.815
+2.1.2.740
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本: 2.2.5.815
+发布者: Bandicam.com
+发布服务器 URL: https://www.bandicam.com/
+发布服务器支持 URL: https://www.bandicam.com/faqs/
+作者: Bandicam Company
+绰号： bandicam
+描述:
+  Bandicam is a lightweight screen recorder software for Windows that can capture anything on your PC screen as a high-quality video.
+  This app also makes it possible to record a certain area on a PC screen, or capture a game that uses the DirectX/OpenGL/Vulkan graphics technologies.
+  Bandicam will help you carry out a screen capture with high compression ratio, while preserving the video quality of the original work, and provide performance far superior to other screen capture software that provides similar functions.
+主页: https://www.bandicam.com/
+许可证: Shareware
+许可证 URL: https://www.bandicam.com/company/tos/
+隐私 URL: https://www.bandicam.com/company/privacy/
+版权所有: Copyright (c) 2008-2014 Bandicam Company. All rights reserved.
+版权 URL: https://www.bandicam.com/company/tos/
+发行说明 URL: https://www.bandicam.com/downloads/version_history/
+标记：
+  capture
+  screen-capture
+  video
+  video-recording
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://dl.bandicam.com/old/BDCAMSETUP_ENG_2_2_5_815.EXE
+  安装程序 SHA256： 623c55e4289f40c25508522eaa758ed78718adfe7ee689166b3268ee2872e9d1
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\BandicamCompany\Bandicam\2.2.5.815\BandicamCompany.Bandicam.installer.yaml
+
+# Created using wingetcreate 1.9.2.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: BandicamCompany.Bandicam
+PackageVersion: 2.2.5.815
+Platform:
+- Windows.Desktop
+InstallerType: nullsoft
+Scope: machine
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  InstallerUrl: https://dl.bandicam.com/old/BDCAMSETUP_ENG_2_2_5_815.EXE
+  InstallerSha256: 623C55E4289F40C25508522EAA758ED78718ADFE7EE689166B3268EE2872E9D1
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Bandicam [BandicamCompany.Bandicam] 版本 2.2.5.815
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://dl.bandicam.com/old/BDCAMSETUP_ENG_2_2_5_815.EXE
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 10 of 10 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                          BRANCH                                                        CREATED AT
+#251195  Remove version: BandicamCompany.Bandicam version 2.1.2.740...  ...:Remove-BandicamCompany.Bandicam-2.1.2.740-...  less than a minute ago
+#251194  Remove version: BandicamCompany.Bandicam version 3.0.0.997...  ...:Remove-BandicamCompany.Bandicam-3.0.0.997-...  about 1 minute ago
+#251193  Remove version: BandicamCompany.Bandicam version 3.0.1.100...  ...:Remove-BandicamCompany.Bandicam-3.0.1.1003...  about 2 minutes ago
+#251192  Remove version: BandicamCompany.Bandicam version 3.2.3.111...  ...:Remove-BandicamCompany.Bandicam-3.2.3.1114...  about 2 minutes ago
+#251191  Remove version: BandicamCompany.Bandicam version 3.2.2.111...  ...:Remove-BandicamCompany.Bandicam-3.2.2.1111...  about 3 minutes ago
+#251189  Remove version: BandicamCompany.Bandicam version 2.3.3.860...  ...:Remove-BandicamCompany.Bandicam-2.3.3.860-...  about 4 minutes ago
+#251186  Remove version: BandicamCompany.Bandicam version 3.2.4.111...  ...:Remove-BandicamCompany.Bandicam-3.2.4.1118...  about 7 minutes ago
+#251188  Remove version: BandicamCompany.Bandicam version 3.2.0.110...  ...:Remove-BandicamCompany.Bandicam-3.2.0.1102...  about 5 minutes ago
+#251182  Remove version: BandicamCompany.Bandicam version 3.2.5.112...  ...:Remove-BandicamCompany.Bandicam-3.2.5.1125...  about 9 minutes ago
+#251187  Remove version: BandicamCompany.Bandicam version 3.0.2.101...  ...:Remove-BandicamCompany.Bandicam-3.0.2.1014...  about 6 minutes ago
+======= 所有 =======
+
+Showing 5 of 5 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                    BRANCH                                                                  CREATED AT
+#201839  Modify: BandicamCompany.Bandicam version 2.2.5.815       KarbitsCode:BandicamCompany.Bandicam-2.2.5.815-2e11c671-cf2e-45d5-b...  about 4 months ago
+#197754  Modify: BandicamCompany.Bandicam version 2.2.5.815       KarbitsCode:BandicamCompany.Bandicam-2.2.5.815-87f0b8d6-eedb-4b5a-9...  about 4 months ago
+#169025  BandicamCompany.Bandicam version 2.2.5.815               KarbitsCode:BandicamCompany.Bandicam-2.2.5.815-845a9bf4-e347-4183-b...  about 8 months ago
+#48012   Remove BandicamCompany.Bandicam 2.2.5.815                Trenly:RM2.2.5.815                                                      about 3 years ago
+#29453   Add version: BandicamCompany.Bandicam version 2.2.5.815  Trenly:BandicamCompany.Bandicam-2.2.5.815-4FB639B                       about 3 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-BandicamCompany.Bandicam-2.2.5.815-1745637318'
+  已签出新分支 Remove-BandicamCompany.Bandicam-2.2.5.815-1745637318
+  已移除软件包 BandicamCompany.Bandicam 版本 2.2.5.815
+[Remove-BandicamCompany.Bandicam-2.2.5.815-1745637318 35baee2cdf9] Remove version: BandicamCompany.Bandicam version 2.2.5.815
+ 3 files changed, 58 deletions(-)
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/2.2.5.815/BandicamCompany.Bandicam.installer.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/2.2.5.815/BandicamCompany.Bandicam.locale.en-US.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/2.2.5.815/BandicamCompany.Bandicam.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (50/50), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 779 bytes | 389.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-BandicamCompany.Bandicam-2.2.5.815-1745637318' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-BandicamCompany.Bandicam-2.2.5.815-1745637318
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-BandicamCompany.Bandicam-2.2.5.815-1745637318 -> Remove-BandicamCompany.Bandicam-2.2.5.815-1745637318
+branch 'Remove-BandicamCompany.Bandicam-2.2.5.815-1745637318' set up to track 'origin/Remove-BandicamCompany.Bandicam-2.2.5.815-1745637318'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251196
+ 成功移除 BandicamCompany.Bandicam 版本 2.2.5.815
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-BandicamCompany.Bandicam-2.2.5.815-1745637318 (was 35baee2cdf9).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 2.3.0.834
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本
+----------
+8.1.1.2518
+8.1.0.2516
+8.0.1.2512
+8.0.0.2509
+7.1.6.2461
+7.1.5.2460
+7.1.4.2458
+7.1.3.2456
+7.1.2.2451
+7.1.1.2158
+7.1.0.2151
+7.0.2.2138
+7.0.1.2132
+7.0.0.2117
+6.2.4.2083
+6.2.3.2078
+6.2.2.2072
+6.2.1.2068
+6.2.0.2057
+6.1.0.2044
+6.0.6.2034
+6.0.5.2033
+6.0.4.2024
+6.0.2.2018
+6.0.1.2003
+6.0.0.1998
+5.4.3.1923
+5.4.2.1921
+5.4.1.1914
+5.4.0.1907
+5.4.0.1906
+5.3.3.1895
+5.3.3.1893
+5.3.2.1889
+5.3.1.1880
+5.3.0.1879
+5.2.1.1860
+5.2.0.1855
+5.1.1.1837
+5.1.0.1822
+5.0.2.1813
+5.0.1.1799
+5.0.0.1796
+4.6.5.1757
+4.6.4.1728
+4.6.3.1725
+4.6.2.1699
+4.6.1.1688
+4.6.0.1683
+4.5.8.1673
+4.5.7.1660
+4.5.6.1646
+4.5.5.1632
+4.5.4.1624
+4.5.3.1608
+4.5.2.1602
+4.5.1.1597
+4.5.0.1587
+4.4.3.1557
+4.4.2.1550
+4.4.1.1539
+4.4.0.1535
+4.3.4.1503
+4.3.3.1498
+4.3.2.1496
+4.3.1.1490
+4.3.0.1479
+4.2.1.1454
+4.2.0.1439
+4.1.7.1424
+4.1.6.1423
+4.1.5.1421
+4.1.4.1413
+4.1.3.1400
+4.1.2.1385
+4.1.0.1362
+4.0.2.1352
+4.0.1.1339
+4.0.0.1331
+3.4.4.1264
+3.4.3.1263
+3.4.2.1258
+3.4.1.1256
+3.4.0.1227
+3.3.3.1209
+3.3.2.1195
+3.3.1.1192
+3.3.0.1175
+3.2.5.1125
+3.2.4.1118
+3.2.3.1114
+3.2.2.1111
+3.2.0.1102
+3.0.2.1014
+3.0.1.1003
+3.0.0.997
+2.4.2.905
+2.4.1.903
+2.3.3.860
+2.3.1.840
+2.3.0.834
+2.2.5.815
+2.1.2.740
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本: 2.3.0.834
+发布者: Bandicam.com
+发布服务器 URL: https://www.bandicam.com/
+发布服务器支持 URL: https://www.bandicam.com/faqs/
+作者: Bandicam Company
+绰号： bandicam
+描述:
+  Bandicam is a lightweight screen recorder software for Windows that can capture anything on your PC screen as a high-quality video.
+  This app also makes it possible to record a certain area on a PC screen, or capture a game that uses the DirectX/OpenGL/Vulkan graphics technologies.
+  Bandicam will help you carry out a screen capture with high compression ratio, while preserving the video quality of the original work, and provide performance far superior to other screen capture software that provides similar functions.
+主页: https://www.bandicam.com/
+许可证: Shareware
+许可证 URL: https://www.bandicam.com/company/tos/
+隐私 URL: https://www.bandicam.com/company/privacy/
+版权所有: Copyright (c) 2008-2015 Bandicam Company. All rights reserved.
+版权 URL: https://www.bandicam.com/company/tos/
+发行说明 URL: https://www.bandicam.com/downloads/version_history/
+标记：
+  capture
+  screen-capture
+  video
+  video-recording
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://dl.bandicam.com/old/BDCAMSETUP_ENG_2_3_0_834.EXE
+  安装程序 SHA256： 2665ce1de20dc29634af8b4f8346f04a018a52990789719c925918d3073baa09
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\BandicamCompany\Bandicam\2.3.0.834\BandicamCompany.Bandicam.installer.yaml
+
+# Created using wingetcreate 1.9.2.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: BandicamCompany.Bandicam
+PackageVersion: 2.3.0.834
+Platform:
+- Windows.Desktop
+InstallerType: nullsoft
+Scope: machine
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  InstallerUrl: https://dl.bandicam.com/old/BDCAMSETUP_ENG_2_3_0_834.EXE
+  InstallerSha256: 2665CE1DE20DC29634AF8B4F8346F04A018A52990789719C925918D3073BAA09
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Bandicam [BandicamCompany.Bandicam] 版本 2.3.0.834
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://dl.bandicam.com/old/BDCAMSETUP_ENG_2_3_0_834.EXE
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 11 of 11 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                          BRANCH                                                        CREATED AT
+#251196  Remove version: BandicamCompany.Bandicam version 2.2.5.815...  ...:Remove-BandicamCompany.Bandicam-2.2.5.815-...  less than a minute ago
+#251195  Remove version: BandicamCompany.Bandicam version 2.1.2.740...  ...:Remove-BandicamCompany.Bandicam-2.1.2.740-...  about 1 minute ago
+#251194  Remove version: BandicamCompany.Bandicam version 3.0.0.997...  ...:Remove-BandicamCompany.Bandicam-3.0.0.997-...  about 2 minutes ago
+#251193  Remove version: BandicamCompany.Bandicam version 3.0.1.100...  ...:Remove-BandicamCompany.Bandicam-3.0.1.1003...  about 2 minutes ago
+#251192  Remove version: BandicamCompany.Bandicam version 3.2.3.111...  ...:Remove-BandicamCompany.Bandicam-3.2.3.1114...  about 3 minutes ago
+#251191  Remove version: BandicamCompany.Bandicam version 3.2.2.111...  ...:Remove-BandicamCompany.Bandicam-3.2.2.1111...  about 4 minutes ago
+#251189  Remove version: BandicamCompany.Bandicam version 2.3.3.860...  ...:Remove-BandicamCompany.Bandicam-2.3.3.860-...  about 5 minutes ago
+#251186  Remove version: BandicamCompany.Bandicam version 3.2.4.111...  ...:Remove-BandicamCompany.Bandicam-3.2.4.1118...  about 8 minutes ago
+#251188  Remove version: BandicamCompany.Bandicam version 3.2.0.110...  ...:Remove-BandicamCompany.Bandicam-3.2.0.1102...  about 6 minutes ago
+#251182  Remove version: BandicamCompany.Bandicam version 3.2.5.112...  ...:Remove-BandicamCompany.Bandicam-3.2.5.1125...  about 9 minutes ago
+#251187  Remove version: BandicamCompany.Bandicam version 3.0.2.101...  ...:Remove-BandicamCompany.Bandicam-3.0.2.1014...  about 7 minutes ago
+======= 所有 =======
+
+Showing 5 of 5 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                    BRANCH                                                                  CREATED AT
+#201840  Modify: BandicamCompany.Bandicam version 2.3.0.834       KarbitsCode:BandicamCompany.Bandicam-2.3.0.834-bac73031-6829-4c0d-9...  about 4 months ago
+#197755  Modify: BandicamCompany.Bandicam version 2.3.0.834       KarbitsCode:BandicamCompany.Bandicam-2.3.0.834-c057fa87-9a81-42dc-8...  about 4 months ago
+#169026  BandicamCompany.Bandicam version 2.3.0.834               KarbitsCode:BandicamCompany.Bandicam-2.3.0.834-85f81b40-afbb-4236-8...  about 8 months ago
+#48013   Remove BandicamCompany.Bandicam 2.3.0.834                Trenly:RM2.3.0.834                                                      about 3 years ago
+#29452   Add version: BandicamCompany.Bandicam version 2.3.0.834  Trenly:BandicamCompany.Bandicam-2.3.0.834-C39617E                       about 3 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-BandicamCompany.Bandicam-2.3.0.834-1745637368'
+  已签出新分支 Remove-BandicamCompany.Bandicam-2.3.0.834-1745637368
+  已移除软件包 BandicamCompany.Bandicam 版本 2.3.0.834
+[Remove-BandicamCompany.Bandicam-2.3.0.834-1745637368 2d1fd483dfd] Remove version: BandicamCompany.Bandicam version 2.3.0.834
+ 3 files changed, 58 deletions(-)
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/2.3.0.834/BandicamCompany.Bandicam.installer.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/2.3.0.834/BandicamCompany.Bandicam.locale.en-US.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/2.3.0.834/BandicamCompany.Bandicam.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (50/50), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 780 bytes | 260.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-BandicamCompany.Bandicam-2.3.0.834-1745637368' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-BandicamCompany.Bandicam-2.3.0.834-1745637368
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-BandicamCompany.Bandicam-2.3.0.834-1745637368 -> Remove-BandicamCompany.Bandicam-2.3.0.834-1745637368
+branch 'Remove-BandicamCompany.Bandicam-2.3.0.834-1745637368' set up to track 'origin/Remove-BandicamCompany.Bandicam-2.3.0.834-1745637368'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251197
+ 成功移除 BandicamCompany.Bandicam 版本 2.3.0.834
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-BandicamCompany.Bandicam-2.3.0.834-1745637368 (was 2d1fd483dfd).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 2.4.1.903
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本
+----------
+8.1.1.2518
+8.1.0.2516
+8.0.1.2512
+8.0.0.2509
+7.1.6.2461
+7.1.5.2460
+7.1.4.2458
+7.1.3.2456
+7.1.2.2451
+7.1.1.2158
+7.1.0.2151
+7.0.2.2138
+7.0.1.2132
+7.0.0.2117
+6.2.4.2083
+6.2.3.2078
+6.2.2.2072
+6.2.1.2068
+6.2.0.2057
+6.1.0.2044
+6.0.6.2034
+6.0.5.2033
+6.0.4.2024
+6.0.2.2018
+6.0.1.2003
+6.0.0.1998
+5.4.3.1923
+5.4.2.1921
+5.4.1.1914
+5.4.0.1907
+5.4.0.1906
+5.3.3.1895
+5.3.3.1893
+5.3.2.1889
+5.3.1.1880
+5.3.0.1879
+5.2.1.1860
+5.2.0.1855
+5.1.1.1837
+5.1.0.1822
+5.0.2.1813
+5.0.1.1799
+5.0.0.1796
+4.6.5.1757
+4.6.4.1728
+4.6.3.1725
+4.6.2.1699
+4.6.1.1688
+4.6.0.1683
+4.5.8.1673
+4.5.7.1660
+4.5.6.1646
+4.5.5.1632
+4.5.4.1624
+4.5.3.1608
+4.5.2.1602
+4.5.1.1597
+4.5.0.1587
+4.4.3.1557
+4.4.2.1550
+4.4.1.1539
+4.4.0.1535
+4.3.4.1503
+4.3.3.1498
+4.3.2.1496
+4.3.1.1490
+4.3.0.1479
+4.2.1.1454
+4.2.0.1439
+4.1.7.1424
+4.1.6.1423
+4.1.5.1421
+4.1.4.1413
+4.1.3.1400
+4.1.2.1385
+4.1.0.1362
+4.0.2.1352
+4.0.1.1339
+4.0.0.1331
+3.4.4.1264
+3.4.3.1263
+3.4.2.1258
+3.4.1.1256
+3.4.0.1227
+3.3.3.1209
+3.3.2.1195
+3.3.1.1192
+3.3.0.1175
+3.2.5.1125
+3.2.4.1118
+3.2.3.1114
+3.2.2.1111
+3.2.0.1102
+3.0.2.1014
+3.0.1.1003
+3.0.0.997
+2.4.2.905
+2.4.1.903
+2.3.3.860
+2.3.1.840
+2.3.0.834
+2.2.5.815
+2.1.2.740
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本: 2.4.1.903
+发布者: Bandicam.com
+发布服务器 URL: https://www.bandicam.com/
+发布服务器支持 URL: https://www.bandicam.com/faqs/
+作者: Bandicam Company
+绰号： bandicam
+描述:
+  Bandicam is a lightweight screen recorder software for Windows that can capture anything on your PC screen as a high-quality video.
+  This app also makes it possible to record a certain area on a PC screen, or capture a game that uses the DirectX/OpenGL/Vulkan graphics technologies.
+  Bandicam will help you carry out a screen capture with high compression ratio, while preserving the video quality of the original work, and provide performance far superior to other screen capture software that provides similar functions.
+主页: https://www.bandicam.com/
+许可证: Shareware
+许可证 URL: https://www.bandicam.com/company/tos/
+隐私 URL: https://www.bandicam.com/company/privacy/
+版权所有: Copyright (c) 2008-2015 Bandicam Company. All rights reserved.
+版权 URL: https://www.bandicam.com/company/tos/
+发行说明 URL: https://www.bandicam.com/downloads/version_history/
+标记：
+  capture
+  screen-capture
+  video
+  video-recording
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://dl.bandicam.com/old/BDCAMSETUP_ENG_2_4_1_903.EXE
+  安装程序 SHA256： cbd3b8d336c5f57a08294453d63534585a1063b4dec1355dbad92930b2065962
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\BandicamCompany\Bandicam\2.4.1.903\BandicamCompany.Bandicam.installer.yaml
+
+# Created using wingetcreate 1.9.2.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: BandicamCompany.Bandicam
+PackageVersion: 2.4.1.903
+Platform:
+- Windows.Desktop
+InstallerType: nullsoft
+Scope: machine
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  InstallerUrl: https://dl.bandicam.com/old/BDCAMSETUP_ENG_2_4_1_903.EXE
+  InstallerSha256: CBD3B8D336C5F57A08294453D63534585A1063B4DEC1355DBAD92930B2065962
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Bandicam [BandicamCompany.Bandicam] 版本 2.4.1.903
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://dl.bandicam.com/old/BDCAMSETUP_ENG_2_4_1_903.EXE
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 12 of 12 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                          BRANCH                                                        CREATED AT
+#251197  Remove version: BandicamCompany.Bandicam version 2.3.0.834...  ...:Remove-BandicamCompany.Bandicam-2.3.0.834-...  less than a minute ago
+#251196  Remove version: BandicamCompany.Bandicam version 2.2.5.815...  ...:Remove-BandicamCompany.Bandicam-2.2.5.815-...  about 1 minute ago
+#251195  Remove version: BandicamCompany.Bandicam version 2.1.2.740...  ...:Remove-BandicamCompany.Bandicam-2.1.2.740-...  about 2 minutes ago
+#251194  Remove version: BandicamCompany.Bandicam version 3.0.0.997...  ...:Remove-BandicamCompany.Bandicam-3.0.0.997-...  about 2 minutes ago
+#251193  Remove version: BandicamCompany.Bandicam version 3.0.1.100...  ...:Remove-BandicamCompany.Bandicam-3.0.1.1003...  about 3 minutes ago
+#251192  Remove version: BandicamCompany.Bandicam version 3.2.3.111...  ...:Remove-BandicamCompany.Bandicam-3.2.3.1114...  about 4 minutes ago
+#251191  Remove version: BandicamCompany.Bandicam version 3.2.2.111...  ...:Remove-BandicamCompany.Bandicam-3.2.2.1111...  about 5 minutes ago
+#251187  Remove version: BandicamCompany.Bandicam version 3.0.2.101...  ...:Remove-BandicamCompany.Bandicam-3.0.2.1014...  about 8 minutes ago
+#251189  Remove version: BandicamCompany.Bandicam version 2.3.3.860...  ...:Remove-BandicamCompany.Bandicam-2.3.3.860-...  about 6 minutes ago
+#251186  Remove version: BandicamCompany.Bandicam version 3.2.4.111...  ...:Remove-BandicamCompany.Bandicam-3.2.4.1118...  about 9 minutes ago
+#251188  Remove version: BandicamCompany.Bandicam version 3.2.0.110...  ...:Remove-BandicamCompany.Bandicam-3.2.0.1102...  about 7 minutes ago
+#251182  Remove version: BandicamCompany.Bandicam version 3.2.5.112...  ...:Remove-BandicamCompany.Bandicam-3.2.5.1125...  about 10 minutes ago
+======= 所有 =======
+
+Showing 5 of 5 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                    BRANCH                                                                  CREATED AT
+#201843  Modify: BandicamCompany.Bandicam version 2.4.1.903       KarbitsCode:BandicamCompany.Bandicam-2.4.1.903-bd58ebe0-1ee7-4348-b...  about 4 months ago
+#197758  Modify: BandicamCompany.Bandicam version 2.4.1.903       KarbitsCode:BandicamCompany.Bandicam-2.4.1.903-6c4084e9-e899-4374-a...  about 4 months ago
+#169029  BandicamCompany.Bandicam version 2.4.1.903               KarbitsCode:BandicamCompany.Bandicam-2.4.1.903-a05a640d-e78e-46b8-a...  about 8 months ago
+#48016   Remove BandicamCompany.Bandicam 2.4.1.903                Trenly:RM2.4.1.903                                                      about 3 years ago
+#29449   Add version: BandicamCompany.Bandicam version 2.4.1.903  Trenly:BandicamCompany.Bandicam-2.4.1.903-7E78035                       about 3 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-BandicamCompany.Bandicam-2.4.1.903-1745637419'
+  已签出新分支 Remove-BandicamCompany.Bandicam-2.4.1.903-1745637419
+  已移除软件包 BandicamCompany.Bandicam 版本 2.4.1.903
+[Remove-BandicamCompany.Bandicam-2.4.1.903-1745637419 c43e736b40f] Remove version: BandicamCompany.Bandicam version 2.4.1.903
+ 3 files changed, 58 deletions(-)
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/2.4.1.903/BandicamCompany.Bandicam.installer.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/2.4.1.903/BandicamCompany.Bandicam.locale.en-US.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/2.4.1.903/BandicamCompany.Bandicam.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (50/50), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 778 bytes | 389.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-BandicamCompany.Bandicam-2.4.1.903-1745637419' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-BandicamCompany.Bandicam-2.4.1.903-1745637419
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-BandicamCompany.Bandicam-2.4.1.903-1745637419 -> Remove-BandicamCompany.Bandicam-2.4.1.903-1745637419
+branch 'Remove-BandicamCompany.Bandicam-2.4.1.903-1745637419' set up to track 'origin/Remove-BandicamCompany.Bandicam-2.4.1.903-1745637419'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251198
+ 成功移除 BandicamCompany.Bandicam 版本 2.4.1.903
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-BandicamCompany.Bandicam-2.4.1.903-1745637419 (was c43e736b40f).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 2.4.2.905
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本
+----------
+8.1.1.2518
+8.1.0.2516
+8.0.1.2512
+8.0.0.2509
+7.1.6.2461
+7.1.5.2460
+7.1.4.2458
+7.1.3.2456
+7.1.2.2451
+7.1.1.2158
+7.1.0.2151
+7.0.2.2138
+7.0.1.2132
+7.0.0.2117
+6.2.4.2083
+6.2.3.2078
+6.2.2.2072
+6.2.1.2068
+6.2.0.2057
+6.1.0.2044
+6.0.6.2034
+6.0.5.2033
+6.0.4.2024
+6.0.2.2018
+6.0.1.2003
+6.0.0.1998
+5.4.3.1923
+5.4.2.1921
+5.4.1.1914
+5.4.0.1907
+5.4.0.1906
+5.3.3.1895
+5.3.3.1893
+5.3.2.1889
+5.3.1.1880
+5.3.0.1879
+5.2.1.1860
+5.2.0.1855
+5.1.1.1837
+5.1.0.1822
+5.0.2.1813
+5.0.1.1799
+5.0.0.1796
+4.6.5.1757
+4.6.4.1728
+4.6.3.1725
+4.6.2.1699
+4.6.1.1688
+4.6.0.1683
+4.5.8.1673
+4.5.7.1660
+4.5.6.1646
+4.5.5.1632
+4.5.4.1624
+4.5.3.1608
+4.5.2.1602
+4.5.1.1597
+4.5.0.1587
+4.4.3.1557
+4.4.2.1550
+4.4.1.1539
+4.4.0.1535
+4.3.4.1503
+4.3.3.1498
+4.3.2.1496
+4.3.1.1490
+4.3.0.1479
+4.2.1.1454
+4.2.0.1439
+4.1.7.1424
+4.1.6.1423
+4.1.5.1421
+4.1.4.1413
+4.1.3.1400
+4.1.2.1385
+4.1.0.1362
+4.0.2.1352
+4.0.1.1339
+4.0.0.1331
+3.4.4.1264
+3.4.3.1263
+3.4.2.1258
+3.4.1.1256
+3.4.0.1227
+3.3.3.1209
+3.3.2.1195
+3.3.1.1192
+3.3.0.1175
+3.2.5.1125
+3.2.4.1118
+3.2.3.1114
+3.2.2.1111
+3.2.0.1102
+3.0.2.1014
+3.0.1.1003
+3.0.0.997
+2.4.2.905
+2.4.1.903
+2.3.3.860
+2.3.1.840
+2.3.0.834
+2.2.5.815
+2.1.2.740
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Bandicam [BandicamCompany.Bandicam]
+版本: 2.4.2.905
+发布者: Bandicam.com
+发布服务器 URL: https://www.bandicam.com/
+发布服务器支持 URL: https://www.bandicam.com/faqs/
+作者: Bandicam Company
+绰号： bandicam
+描述:
+  Bandicam is a lightweight screen recorder software for Windows that can capture anything on your PC screen as a high-quality video.
+  This app also makes it possible to record a certain area on a PC screen, or capture a game that uses the DirectX/OpenGL/Vulkan graphics technologies.
+  Bandicam will help you carry out a screen capture with high compression ratio, while preserving the video quality of the original work, and provide performance far superior to other screen capture software that provides similar functions.
+主页: https://www.bandicam.com/
+许可证: Shareware
+许可证 URL: https://www.bandicam.com/company/tos/
+隐私 URL: https://www.bandicam.com/company/privacy/
+版权所有: Copyright (c) 2008-2015 Bandicam Company. All rights reserved.
+版权 URL: https://www.bandicam.com/company/tos/
+发行说明 URL: https://www.bandicam.com/downloads/version_history/
+标记：
+  capture
+  screen-capture
+  video
+  video-recording
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://dl.bandicam.com/old/BDCAMSETUP_ENG_2_4_2_905.EXE
+  安装程序 SHA256： 910639fd2ec89951b63e7b5780303b6310d96ff71daf090c2db69384ef984e11
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\BandicamCompany\Bandicam\2.4.2.905\BandicamCompany.Bandicam.installer.yaml
+
+# Created using wingetcreate 1.9.2.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: BandicamCompany.Bandicam
+PackageVersion: 2.4.2.905
+Platform:
+- Windows.Desktop
+InstallerType: nullsoft
+Scope: machine
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  InstallerUrl: https://dl.bandicam.com/old/BDCAMSETUP_ENG_2_4_2_905.EXE
+  InstallerSha256: 910639FD2EC89951B63E7B5780303B6310D96FF71DAF090C2DB69384EF984E11
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Bandicam [BandicamCompany.Bandicam] 版本 2.4.2.905
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://dl.bandicam.com/old/BDCAMSETUP_ENG_2_4_2_905.EXE
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 13 of 13 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                          BRANCH                                                        CREATED AT
+#251198  Remove version: BandicamCompany.Bandicam version 2.4.1.903...  ...:Remove-BandicamCompany.Bandicam-2.4.1.903-...  less than a minute ago
+#251197  Remove version: BandicamCompany.Bandicam version 2.3.0.834...  ...:Remove-BandicamCompany.Bandicam-2.3.0.834-...  about 1 minute ago
+#251196  Remove version: BandicamCompany.Bandicam version 2.2.5.815...  ...:Remove-BandicamCompany.Bandicam-2.2.5.815-...  about 2 minutes ago
+#251195  Remove version: BandicamCompany.Bandicam version 2.1.2.740...  ...:Remove-BandicamCompany.Bandicam-2.1.2.740-...  about 2 minutes ago
+#251194  Remove version: BandicamCompany.Bandicam version 3.0.0.997...  ...:Remove-BandicamCompany.Bandicam-3.0.0.997-...  about 3 minutes ago
+#251193  Remove version: BandicamCompany.Bandicam version 3.0.1.100...  ...:Remove-BandicamCompany.Bandicam-3.0.1.1003...  about 4 minutes ago
+#251192  Remove version: BandicamCompany.Bandicam version 3.2.3.111...  ...:Remove-BandicamCompany.Bandicam-3.2.3.1114...  about 5 minutes ago
+#251188  Remove version: BandicamCompany.Bandicam version 3.2.0.110...  ...:Remove-BandicamCompany.Bandicam-3.2.0.1102...  about 8 minutes ago
+#251191  Remove version: BandicamCompany.Bandicam version 3.2.2.111...  ...:Remove-BandicamCompany.Bandicam-3.2.2.1111...  about 6 minutes ago
+#251187  Remove version: BandicamCompany.Bandicam version 3.0.2.101...  ...:Remove-BandicamCompany.Bandicam-3.0.2.1014...  about 9 minutes ago
+#251189  Remove version: BandicamCompany.Bandicam version 2.3.3.860...  ...:Remove-BandicamCompany.Bandicam-2.3.3.860-...  about 7 minutes ago
+#251186  Remove version: BandicamCompany.Bandicam version 3.2.4.111...  ...:Remove-BandicamCompany.Bandicam-3.2.4.1118...  about 9 minutes ago
+#251182  Remove version: BandicamCompany.Bandicam version 3.2.5.112...  ...:Remove-BandicamCompany.Bandicam-3.2.5.1125...  about 11 minutes ago
+======= 所有 =======
+
+Showing 5 of 5 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                    BRANCH                                                                  CREATED AT
+#201844  Modify: BandicamCompany.Bandicam version 2.4.2.905       KarbitsCode:BandicamCompany.Bandicam-2.4.2.905-78f49cb9-958e-4601-b...  about 4 months ago
+#197759  Modify: BandicamCompany.Bandicam version 2.4.2.905       KarbitsCode:BandicamCompany.Bandicam-2.4.2.905-b0968ddb-6d9d-4b73-b...  about 4 months ago
+#169030  BandicamCompany.Bandicam version 2.4.2.905               KarbitsCode:BandicamCompany.Bandicam-2.4.2.905-66cf3899-91b7-41ab-a...  about 8 months ago
+#48017   Remove BandicamCompany.Bandicam 2.4.2.905                Trenly:RM2.4.2.905                                                      about 3 years ago
+#29448   Add version: BandicamCompany.Bandicam version 2.4.2.905  Trenly:BandicamCompany.Bandicam-2.4.2.905-4532D33                       about 3 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-BandicamCompany.Bandicam-2.4.2.905-1745637475'
+  已签出新分支 Remove-BandicamCompany.Bandicam-2.4.2.905-1745637475
+  已移除软件包 BandicamCompany.Bandicam 版本 2.4.2.905
+[Remove-BandicamCompany.Bandicam-2.4.2.905-1745637475 ce05aa5f952] Remove version: BandicamCompany.Bandicam version 2.4.2.905
+ 3 files changed, 58 deletions(-)
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/2.4.2.905/BandicamCompany.Bandicam.installer.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/2.4.2.905/BandicamCompany.Bandicam.locale.en-US.yaml
+ delete mode 100644 manifests/b/BandicamCompany/Bandicam/2.4.2.905/BandicamCompany.Bandicam.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (50/50), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 783 bytes | 156.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-BandicamCompany.Bandicam-2.4.2.905-1745637475' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-BandicamCompany.Bandicam-2.4.2.905-1745637475
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-BandicamCompany.Bandicam-2.4.2.905-1745637475 -> Remove-BandicamCompany.Bandicam-2.4.2.905-1745637475
+branch 'Remove-BandicamCompany.Bandicam-2.4.2.905-1745637475' set up to track 'origin/Remove-BandicamCompany.Bandicam-2.4.2.905-1745637475'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251199
+ 成功移除 BandicamCompany.Bandicam 版本 2.4.2.905
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-BandicamCompany.Bandicam-2.4.2.905-1745637475 (was ce05aa5f952).
+工作区清理完成
