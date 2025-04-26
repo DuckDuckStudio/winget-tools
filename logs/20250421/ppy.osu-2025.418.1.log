@@ -1,0 +1,65 @@
+~~ Start logging ~~
+2025-04-21 15:16:45.320 FUN 入口函数 🤔，能吃吗？
+2025-04-21 15:16:45.328 INFO Found the following version folder: ['2024.1009.1', '2024.1115.1', '2024.1115.2', '2024.1115.3', '2024.1208.0', '2024.1219.2', '2024.1224.1', '2024.412.1', '2024.521.2', '2024.625.0', '2024.625.2', '2024.906.2', '2025.101.0', '2025.118.2', '2025.118.3', '2025.220.0', '2025.221.0', '2025.225.0', '2025.306.0', '2025.310.0', '2025.321.0', '2025.418.1', 'stable']
+2025-04-21 15:16:45.606 INFO Skip version 2024.1009.1, because it's not in the list of versions to be modified.
+2025-04-21 15:16:45.609 INFO Skip version 2024.1115.1, because it's not in the list of versions to be modified.
+2025-04-21 15:16:45.611 INFO Skip version 2024.1115.2, because it's not in the list of versions to be modified.
+2025-04-21 15:16:45.612 INFO Skip version 2024.1115.3, because it's not in the list of versions to be modified.
+2025-04-21 15:16:45.614 INFO Skip version 2024.1208.0, because it's not in the list of versions to be modified.
+2025-04-21 15:16:45.616 INFO Skip version 2024.1219.2, because it's not in the list of versions to be modified.
+2025-04-21 15:16:45.619 INFO Skip version 2024.1224.1, because it's not in the list of versions to be modified.
+2025-04-21 15:16:45.621 INFO Skip version 2024.412.1, because it's not in the list of versions to be modified.
+2025-04-21 15:16:45.623 INFO Skip version 2024.521.2, because it's not in the list of versions to be modified.
+2025-04-21 15:16:45.625 INFO Skip version 2024.625.0, because it's not in the list of versions to be modified.
+2025-04-21 15:16:45.626 INFO Skip version 2024.625.2, because it's not in the list of versions to be modified.
+2025-04-21 15:16:45.628 INFO Skip version 2024.906.2, because it's not in the list of versions to be modified.
+2025-04-21 15:16:45.630 INFO Skip version 2025.101.0, because it's not in the list of versions to be modified.
+2025-04-21 15:16:45.631 INFO Skip version 2025.118.2, because it's not in the list of versions to be modified.
+2025-04-21 15:16:45.633 INFO Skip version 2025.118.3, because it's not in the list of versions to be modified.
+2025-04-21 15:16:45.634 INFO Skip version 2025.220.0, because it's not in the list of versions to be modified.
+2025-04-21 15:16:45.636 INFO Skip version 2025.221.0, because it's not in the list of versions to be modified.
+2025-04-21 15:16:45.637 INFO Skip version 2025.225.0, because it's not in the list of versions to be modified.
+2025-04-21 15:16:45.639 INFO Skip version 2025.306.0, because it's not in the list of versions to be modified.
+2025-04-21 15:16:45.641 INFO Skip version 2025.310.0, because it's not in the list of versions to be modified.
+2025-04-21 15:16:45.644 INFO Skip version 2025.321.0, because it's not in the list of versions to be modified.
+2025-04-21 15:16:45.646 INFO Processing version folder: 2025.418.1
+2025-04-21 15:16:45.649 INFO   Create and checkout to a new branch: NewVersion-ppy.osu-2025.418.1-1745219805
+2025-04-21 15:16:55.413 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\ppy\osu\2025.418.1\ppy.osu.installer.yaml
+2025-04-21 15:16:55.414 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-21 15:16:55.416 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-21 15:16:55.417 INFO     Cleaned up ppy.osu.installer.yaml
+2025-04-21 15:16:55.419 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\ppy\osu\2025.418.1\ppy.osu.installer.yaml
+2025-04-21 15:16:55.692 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\ppy\osu\2025.418.1\ppy.osu.locale.en-US.yaml
+2025-04-21 15:16:55.696 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-21 15:16:55.697 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-21 15:16:55.699 INFO     Cleaned up ppy.osu.locale.en-US.yaml
+2025-04-21 15:16:55.703 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\ppy\osu\2025.418.1\ppy.osu.locale.en-US.yaml
+2025-04-21 15:16:55.824 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\ppy\osu\2025.418.1\ppy.osu.locale.ja-JP.yaml
+2025-04-21 15:16:55.826 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-21 15:16:55.827 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-21 15:16:55.828 INFO     Cleaned up ppy.osu.locale.ja-JP.yaml
+2025-04-21 15:16:55.829 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\ppy\osu\2025.418.1\ppy.osu.locale.ja-JP.yaml
+2025-04-21 15:16:55.949 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\ppy\osu\2025.418.1\ppy.osu.locale.zh-CN.yaml
+2025-04-21 15:16:55.951 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-21 15:16:55.951 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-21 15:16:55.952 INFO     Cleaned up ppy.osu.locale.zh-CN.yaml
+2025-04-21 15:16:55.954 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\ppy\osu\2025.418.1\ppy.osu.locale.zh-CN.yaml
+2025-04-21 15:16:56.112 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\ppy\osu\2025.418.1\ppy.osu.yaml
+2025-04-21 15:16:56.114 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-21 15:16:56.116 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-21 15:16:56.117 INFO     Cleaned up ppy.osu.yaml
+2025-04-21 15:16:56.120 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\ppy\osu\2025.418.1\ppy.osu.yaml
+2025-04-21 15:16:56.287 INFO   New manifests in D:\...\winget-pkgs\manifests\p\ppy\osu\2025.418.1 for ppy.osu (2025.418.1)
+2025-04-21 15:21:07.699 INFO     清单验证成功，但出现警告。
+2025-04-21 15:21:07.700 INFO     Manifest Warning: Silent and SilentWithProgress switches are not specified for InstallerType exe. Please make sure the installer can run unattended.
+2025-04-21 15:21:07.701 INFO     
+2025-04-21 15:21:26.281 INFO Manifest Error Fixed.
+2025-04-21 15:21:26.283 INFO   Staging and Committing Changes to Git
+2025-04-21 15:21:34.758 INFO     Commit message: New version: ppy.osu version 2025.418.1 (Auto)
+2025-04-21 15:21:34.759 INFO   Pushing changes to remote (origin) repository
+2025-04-21 15:21:40.576 INFO     Successfully pushed to remote (origin): NewVersion-ppy.osu-2025.418.1-1745219805
+2025-04-21 15:21:42.320 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/249961
+2025-04-21 15:21:42.325 INFO Skip version stable, because it's not in the list of versions to be modified.
+2025-04-21 15:21:42.327 INFO All manifests have been modified and pushed through.
+2025-04-21 15:21:46.995 INFO Workspace clean-up completed.
+~~ End of logging ~~

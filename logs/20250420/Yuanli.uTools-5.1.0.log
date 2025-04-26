@@ -1,0 +1,45 @@
+~~ Start logging ~~
+2025-04-20 21:11:01.133 FUN ~~I... I'm at the edge of my life!~~ -> 啊~啊！爷缺摩拉！
+2025-04-20 21:11:01.137 INFO Found the following version folder: ['4.4.1', '5.0.0', '5.1.0', '5.1.1', '5.2.0', '5.2.1', '6.0.0', '6.0.1', '6.1.0', '7.0.0', '7.1.0']
+2025-04-20 21:11:01.265 INFO Skip version 4.4.1, because it's not in the list of versions to be modified.
+2025-04-20 21:11:01.267 INFO Skip version 5.0.0, because it's not in the list of versions to be modified.
+2025-04-20 21:11:01.268 INFO Processing version folder: 5.1.0
+2025-04-20 21:11:01.269 INFO   Create and checkout to a new branch: NewVersion-Yuanli.uTools-5.1.0-1745154661
+2025-04-20 21:11:07.962 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\y\Yuanli\uTools\5.1.0\Yuanli.uTools.installer.yaml
+2025-04-20 21:11:07.963 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-04-20 21:11:07.964 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-04-20 21:11:07.964 INFO     Cleaned up Yuanli.uTools.installer.yaml
+2025-04-20 21:11:07.966 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\y\Yuanli\uTools\5.1.0\Yuanli.uTools.installer.yaml
+2025-04-20 21:11:08.229 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\y\Yuanli\uTools\5.1.0\Yuanli.uTools.locale.en-US.yaml
+2025-04-20 21:11:08.235 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-04-20 21:11:08.237 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-04-20 21:11:08.238 INFO     Cleaned up Yuanli.uTools.locale.en-US.yaml
+2025-04-20 21:11:08.241 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\y\Yuanli\uTools\5.1.0\Yuanli.uTools.locale.en-US.yaml
+2025-04-20 21:11:08.399 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\y\Yuanli\uTools\5.1.0\Yuanli.uTools.locale.zh-CN.yaml
+2025-04-20 21:11:08.402 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-04-20 21:11:08.405 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-04-20 21:11:08.406 INFO     Cleaned up Yuanli.uTools.locale.zh-CN.yaml
+2025-04-20 21:11:08.409 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\y\Yuanli\uTools\5.1.0\Yuanli.uTools.locale.zh-CN.yaml
+2025-04-20 21:11:08.595 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\y\Yuanli\uTools\5.1.0\Yuanli.uTools.yaml
+2025-04-20 21:11:08.598 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-04-20 21:11:08.600 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-04-20 21:11:08.601 INFO     Cleaned up Yuanli.uTools.yaml
+2025-04-20 21:11:08.605 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\y\Yuanli\uTools\5.1.0\Yuanli.uTools.yaml
+2025-04-20 21:11:08.819 INFO   New manifests in D:\...\winget-pkgs\manifests\y\Yuanli\uTools\5.1.0 for Yuanli.uTools (5.1.0)
+2025-04-20 21:13:04.561 INFO     清单验证成功。
+2025-04-20 21:13:04.573 INFO   Staging and Committing Changes to Git
+2025-04-20 21:13:21.937 INFO     Commit message: New version: Yuanli.uTools version 5.1.0 (Auto)
+2025-04-20 21:13:21.938 INFO   Pushing changes to remote (origin) repository
+2025-04-20 21:13:30.869 INFO     Successfully pushed to remote (origin): NewVersion-Yuanli.uTools-5.1.0-1745154661
+2025-04-20 21:13:32.553 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/249825
+2025-04-20 21:13:32.557 INFO Skip version 5.1.1, because it's not in the list of versions to be modified.
+2025-04-20 21:13:32.558 INFO Skip version 5.2.0, because it's not in the list of versions to be modified.
+2025-04-20 21:13:32.560 INFO Skip version 5.2.1, because it's not in the list of versions to be modified.
+2025-04-20 21:13:32.562 INFO Skip version 6.0.0, because it's not in the list of versions to be modified.
+2025-04-20 21:13:32.563 INFO Skip version 6.0.1, because it's not in the list of versions to be modified.
+2025-04-20 21:13:32.564 INFO Skip version 6.1.0, because it's not in the list of versions to be modified.
+2025-04-20 21:13:32.566 INFO Skip version 7.0.0, because it's not in the list of versions to be modified.
+2025-04-20 21:13:32.567 INFO Skip version 7.1.0, because it's not in the list of versions to be modified.
+2025-04-20 21:13:32.569 INFO All manifests have been modified and pushed through.
+2025-04-20 21:13:39.693 INFO Workspace clean-up completed.
+~~ End of logging ~~

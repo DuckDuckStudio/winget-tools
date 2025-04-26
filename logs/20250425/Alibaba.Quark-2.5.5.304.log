@@ -1,0 +1,39 @@
+~~ Start logging ~~
+2025-04-25 15:16:18.646 FUN (*≧︶≦))(￣▽￣* )ゞ
+2025-04-25 15:16:18.648 INFO Found the following version folder: ['1.2.3.17', '1.2.3.18', '1.2.4.24', '1.2.5.25', '2.5.5.304']
+2025-04-25 15:16:18.746 INFO Skip version 1.2.3.17, because it's not in the list of versions to be modified.
+2025-04-25 15:16:18.747 INFO Skip version 1.2.3.18, because it's not in the list of versions to be modified.
+2025-04-25 15:16:18.748 INFO Skip version 1.2.4.24, because it's not in the list of versions to be modified.
+2025-04-25 15:16:18.749 INFO Skip version 1.2.5.25, because it's not in the list of versions to be modified.
+2025-04-25 15:16:18.749 INFO Processing version folder: 2.5.5.304
+2025-04-25 15:16:18.750 INFO   Create and checkout to a new branch: NewVersion-Alibaba.Quark-2.5.5.304-1745565378
+2025-04-25 15:16:24.144 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Alibaba\Quark\2.5.5.304\Alibaba.Quark.installer.yaml
+2025-04-25 15:16:24.146 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-25 15:16:24.147 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-25 15:16:24.148 INFO     Cleaned up Alibaba.Quark.installer.yaml
+2025-04-25 15:16:24.150 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Alibaba\Quark\2.5.5.304\Alibaba.Quark.installer.yaml
+2025-04-25 15:16:24.396 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Alibaba\Quark\2.5.5.304\Alibaba.Quark.locale.en-US.yaml
+2025-04-25 15:16:24.400 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-25 15:16:24.402 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-25 15:16:24.403 INFO     Cleaned up Alibaba.Quark.locale.en-US.yaml
+2025-04-25 15:16:24.407 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Alibaba\Quark\2.5.5.304\Alibaba.Quark.locale.en-US.yaml
+2025-04-25 15:16:24.524 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Alibaba\Quark\2.5.5.304\Alibaba.Quark.locale.zh-CN.yaml
+2025-04-25 15:16:24.526 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-25 15:16:24.527 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-25 15:16:24.528 INFO     Cleaned up Alibaba.Quark.locale.zh-CN.yaml
+2025-04-25 15:16:24.529 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Alibaba\Quark\2.5.5.304\Alibaba.Quark.locale.zh-CN.yaml
+2025-04-25 15:16:24.654 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Alibaba\Quark\2.5.5.304\Alibaba.Quark.yaml
+2025-04-25 15:16:24.656 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-25 15:16:24.657 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-25 15:16:24.658 INFO     Cleaned up Alibaba.Quark.yaml
+2025-04-25 15:16:24.660 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Alibaba\Quark\2.5.5.304\Alibaba.Quark.yaml
+2025-04-25 15:16:24.797 INFO   New manifests in D:\...\winget-pkgs\manifests\a\Alibaba\Quark\2.5.5.304 for Alibaba.Quark (2.5.5.304)
+2025-04-25 15:18:12.315 INFO     清单验证成功。
+2025-04-25 15:18:12.330 INFO   Staging and Committing Changes to Git
+2025-04-25 15:18:16.897 INFO     Commit message: New version: Alibaba.Quark version 2.5.5.304 (Auto)
+2025-04-25 15:18:16.898 INFO   Pushing changes to remote (origin) repository
+2025-04-25 15:18:22.297 INFO     Successfully pushed to remote (origin): NewVersion-Alibaba.Quark-2.5.5.304-1745565378
+2025-04-25 15:18:25.282 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/250961
+2025-04-25 15:18:25.286 INFO All manifests have been modified and pushed through.
+2025-04-25 15:18:29.335 INFO Workspace clean-up completed.
+~~ End of logging ~~

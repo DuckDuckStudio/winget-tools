@@ -1,0 +1,31 @@
+~~ Start logging ~~
+2025-04-19 21:03:40.272 FUN 如果你染上了__，你这辈子就完了！
+2025-04-19 21:03:40.275 INFO Found the following version folder: ['2.20', '2.24']
+2025-04-19 21:03:40.419 INFO Skip version 2.20, because it's not in the list of versions to be modified.
+2025-04-19 21:03:40.420 INFO Processing version folder: 2.24
+2025-04-19 21:03:40.422 INFO   Create and checkout to a new branch: NewVersion-Heaventools.ResourceTunerConsole-2.24-1745067820
+2025-04-19 21:03:48.138 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\Heaventools\ResourceTunerConsole\2.24\Heaventools.ResourceTunerConsole.installer.yaml
+2025-04-19 21:03:48.140 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-19 21:03:48.141 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-19 21:03:48.142 INFO     Cleaned up Heaventools.ResourceTunerConsole.installer.yaml
+2025-04-19 21:03:48.144 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\h\Heaventools\ResourceTunerConsole\2.24\Heaventools.ResourceTunerConsole.installer.yaml
+2025-04-19 21:03:48.402 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\Heaventools\ResourceTunerConsole\2.24\Heaventools.ResourceTunerConsole.locale.en-US.yaml
+2025-04-19 21:03:48.404 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-19 21:03:48.406 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-19 21:03:48.407 INFO     Cleaned up Heaventools.ResourceTunerConsole.locale.en-US.yaml
+2025-04-19 21:03:48.409 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\h\Heaventools\ResourceTunerConsole\2.24\Heaventools.ResourceTunerConsole.locale.en-US.yaml
+2025-04-19 21:03:48.590 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\Heaventools\ResourceTunerConsole\2.24\Heaventools.ResourceTunerConsole.yaml
+2025-04-19 21:03:48.592 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-19 21:03:48.594 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-19 21:03:48.595 INFO     Cleaned up Heaventools.ResourceTunerConsole.yaml
+2025-04-19 21:03:48.597 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\h\Heaventools\ResourceTunerConsole\2.24\Heaventools.ResourceTunerConsole.yaml
+2025-04-19 21:03:48.811 INFO   New manifests in D:\...\winget-pkgs\manifests\h\Heaventools\ResourceTunerConsole\2.24 for Heaventools.ResourceTunerConsole (2.24)
+2025-04-19 21:09:20.897 INFO     清单验证成功。
+2025-04-19 21:09:20.909 INFO   Staging and Committing Changes to Git
+2025-04-19 21:09:27.597 INFO     Commit message: New version: Heaventools.ResourceTunerConsole version 2.24 (Auto)
+2025-04-19 21:09:27.599 INFO   Pushing changes to remote (origin) repository
+2025-04-19 21:09:33.421 INFO     Successfully pushed to remote (origin): NewVersion-Heaventools.ResourceTunerConsole-2.24-1745067820
+2025-04-19 21:09:35.904 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/249661
+2025-04-19 21:09:35.941 INFO All manifests have been modified and pushed through.
+2025-04-19 21:09:40.944 INFO Workspace clean-up completed.
+~~ End of logging ~~

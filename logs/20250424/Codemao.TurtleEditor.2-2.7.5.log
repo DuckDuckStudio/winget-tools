@@ -1,0 +1,41 @@
+~~ Start logging ~~
+2025-04-24 12:05:09.787 FUN 星际和平商城年终大促，各种精品好物价格史低不容错过！
+2025-04-24 12:05:09.789 INFO Found the following version folder: ['2.0.0', '2.0.1', '2.1.1', '2.4.0', '2.6.1', '2.7.3', '2.7.5']
+2025-04-24 12:05:09.884 INFO Skip version 2.0.0, because it's not in the list of versions to be modified.
+2025-04-24 12:05:09.885 INFO Skip version 2.0.1, because it's not in the list of versions to be modified.
+2025-04-24 12:05:09.886 INFO Skip version 2.1.1, because it's not in the list of versions to be modified.
+2025-04-24 12:05:09.887 INFO Skip version 2.4.0, because it's not in the list of versions to be modified.
+2025-04-24 12:05:09.888 INFO Skip version 2.6.1, because it's not in the list of versions to be modified.
+2025-04-24 12:05:09.889 INFO Skip version 2.7.3, because it's not in the list of versions to be modified.
+2025-04-24 12:05:09.890 INFO Processing version folder: 2.7.5
+2025-04-24 12:05:09.890 INFO   Create and checkout to a new branch: NewVersion-Codemao.TurtleEditor.2-2.7.5-1745467509
+2025-04-24 12:05:18.414 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\2\2.7.5\Codemao.TurtleEditor.2.installer.yaml
+2025-04-24 12:05:18.418 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-24 12:05:18.435 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-24 12:05:18.436 INFO     Cleaned up Codemao.TurtleEditor.2.installer.yaml
+2025-04-24 12:05:18.488 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\2\2.7.5\Codemao.TurtleEditor.2.installer.yaml
+2025-04-24 12:05:18.995 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\2\2.7.5\Codemao.TurtleEditor.2.locale.en-US.yaml
+2025-04-24 12:05:19.572 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-24 12:05:19.686 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-24 12:05:19.791 INFO     Cleaned up Codemao.TurtleEditor.2.locale.en-US.yaml
+2025-04-24 12:05:19.162 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\2\2.7.5\Codemao.TurtleEditor.2.locale.en-US.yaml
+2025-04-24 12:05:19.272 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\2\2.7.5\Codemao.TurtleEditor.2.locale.zh-CN.yaml
+2025-04-24 12:05:19.274 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-24 12:05:19.275 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-24 12:05:19.276 INFO     Cleaned up Codemao.TurtleEditor.2.locale.zh-CN.yaml
+2025-04-24 12:05:19.278 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\2\2.7.5\Codemao.TurtleEditor.2.locale.zh-CN.yaml
+2025-04-24 12:05:19.450 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\2\2.7.5\Codemao.TurtleEditor.2.yaml
+2025-04-24 12:05:19.452 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-24 12:05:19.454 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-24 12:05:19.455 INFO     Cleaned up Codemao.TurtleEditor.2.yaml
+2025-04-24 12:05:19.460 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\2\2.7.5\Codemao.TurtleEditor.2.yaml
+2025-04-24 12:05:19.619 INFO   New manifests in D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\2\2.7.5 for Codemao.TurtleEditor.2 (2.7.5)
+2025-04-24 12:06:19.719 INFO     清单验证成功。
+2025-04-24 12:06:19.730 INFO   Staging and Committing Changes to Git
+2025-04-24 12:06:24.246 INFO     Commit message: New version: Codemao.TurtleEditor.2 version 2.7.5 (Auto)
+2025-04-24 12:06:24.247 INFO   Pushing changes to remote (origin) repository
+2025-04-24 12:06:29.185 INFO     Successfully pushed to remote (origin): NewVersion-Codemao.TurtleEditor.2-2.7.5-1745467509
+2025-04-24 12:06:30.889 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/250682
+2025-04-24 12:06:30.891 INFO All manifests have been modified and pushed through.
+2025-04-24 12:06:34.940 INFO Workspace clean-up completed.
+~~ End of logging ~~

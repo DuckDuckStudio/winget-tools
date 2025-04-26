@@ -1,0 +1,31 @@
+~~ Start logging ~~
+2025-04-25 07:40:42.643 FUN 那又 怎样！！！
+2025-04-25 07:40:42.657 INFO Found the following version folder: ['2.36.1', '25.4.18.2187402']
+2025-04-25 07:40:42.206 INFO Skip version 2.36.1, because it's not in the list of versions to be modified.
+2025-04-25 07:40:42.207 INFO Processing version folder: 25.4.18.2187402
+2025-04-25 07:40:42.207 INFO   Create and checkout to a new branch: NewVersion-HuoHuaSiWei.HuoHuaSiWei-25.4.18.2187402-1745538042
+2025-04-25 07:40:49.228 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\HuoHuaSiWei\HuoHuaSiWei\25.4.18.2187402\HuoHuaSiWei.HuoHuaSiWei.installer.yaml
+2025-04-25 07:40:49.239 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-25 07:40:49.240 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-25 07:40:49.240 INFO     Cleaned up HuoHuaSiWei.HuoHuaSiWei.installer.yaml
+2025-04-25 07:40:49.241 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\h\HuoHuaSiWei\HuoHuaSiWei\25.4.18.2187402\HuoHuaSiWei.HuoHuaSiWei.installer.yaml
+2025-04-25 07:40:49.412 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\HuoHuaSiWei\HuoHuaSiWei\25.4.18.2187402\HuoHuaSiWei.HuoHuaSiWei.locale.zh-CN.yaml
+2025-04-25 07:40:49.415 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-25 07:40:49.417 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-25 07:40:49.418 INFO     Cleaned up HuoHuaSiWei.HuoHuaSiWei.locale.zh-CN.yaml
+2025-04-25 07:40:49.419 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\h\HuoHuaSiWei\HuoHuaSiWei\25.4.18.2187402\HuoHuaSiWei.HuoHuaSiWei.locale.zh-CN.yaml
+2025-04-25 07:40:49.524 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\HuoHuaSiWei\HuoHuaSiWei\25.4.18.2187402\HuoHuaSiWei.HuoHuaSiWei.yaml
+2025-04-25 07:40:49.525 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-25 07:40:49.526 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-25 07:40:49.527 INFO     Cleaned up HuoHuaSiWei.HuoHuaSiWei.yaml
+2025-04-25 07:40:49.529 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\h\HuoHuaSiWei\HuoHuaSiWei\25.4.18.2187402\HuoHuaSiWei.HuoHuaSiWei.yaml
+2025-04-25 07:40:49.640 INFO   New manifests in D:\...\winget-pkgs\manifests\h\HuoHuaSiWei\HuoHuaSiWei\25.4.18.2187402 for HuoHuaSiWei.HuoHuaSiWei (25.4.18.2187402)
+2025-04-25 07:42:38.707 INFO     清单验证成功。
+2025-04-25 07:42:38.718 INFO   Staging and Committing Changes to Git
+2025-04-25 07:42:54.148 INFO     Commit message: New version: HuoHuaSiWei.HuoHuaSiWei version 25.4.18.2187402 (Auto)
+2025-04-25 07:42:54.149 INFO   Pushing changes to remote (origin) repository
+2025-04-25 07:42:59.964 INFO     Successfully pushed to remote (origin): NewVersion-HuoHuaSiWei.HuoHuaSiWei-25.4.18.2187402-1745538042
+2025-04-25 07:43:01.539 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/250893
+2025-04-25 07:43:01.541 INFO All manifests have been modified and pushed through.
+2025-04-25 07:43:06.338 INFO Workspace clean-up completed.
+~~ End of logging ~~
