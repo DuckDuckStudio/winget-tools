@@ -1,0 +1,44 @@
+~~ Start logging ~~
+2025-04-27 17:11:59.458 FUN 转生成为雷电将军，然后天下无敌
+2025-04-27 17:11:59.466 INFO Found the following version folder: ['0.2', '0.2-1', '0.2-2', '0.2.0.1', '0.2.0.3', '0.3', '0.3.0.2', '0.3.0.3', '0.4.0', '0.4.0.1', '0.4.0.3', '0.4.0.4']
+2025-04-27 17:11:59.670 INFO Skip version 0.2, because it's not in the list of versions to be modified.
+2025-04-27 17:11:59.671 INFO Skip version 0.2-1, because it's not in the list of versions to be modified.
+2025-04-27 17:11:59.673 INFO Skip version 0.2-2, because it's not in the list of versions to be modified.
+2025-04-27 17:11:59.709 INFO Skip version 0.2.0.1, because it's not in the list of versions to be modified.
+2025-04-27 17:11:59.711 INFO Skip version 0.2.0.3, because it's not in the list of versions to be modified.
+2025-04-27 17:11:59.714 INFO Skip version 0.3, because it's not in the list of versions to be modified.
+2025-04-27 17:11:59.716 INFO Skip version 0.3.0.2, because it's not in the list of versions to be modified.
+2025-04-27 17:11:59.718 INFO Skip version 0.3.0.3, because it's not in the list of versions to be modified.
+2025-04-27 17:11:59.721 INFO Processing version folder: 0.4.0
+2025-04-27 17:11:59.724 INFO   Create and checkout to a new branch: NewVersion-GiulioSorrentino.wheelofnumfortune.avalonia-0.4.0-1745745119
+2025-04-27 17:12:21.508 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GiulioSorrentino\wheelofnumfortune\avalonia\0.4.0\GiulioSorrentino.wheelofnumfortune.avalonia.installer.yaml
+2025-04-27 17:12:21.511 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-27 17:12:21.512 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-27 17:12:21.513 INFO     Cleaned up GiulioSorrentino.wheelofnumfortune.avalonia.installer.yaml
+2025-04-27 17:12:21.516 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\GiulioSorrentino\wheelofnumfortune\avalonia\0.4.0\GiulioSorrentino.wheelofnumfortune.avalonia.installer.yaml
+2025-04-27 17:12:21.788 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GiulioSorrentino\wheelofnumfortune\avalonia\0.4.0\GiulioSorrentino.wheelofnumfortune.avalonia.locale.en-US.yaml
+2025-04-27 17:12:21.791 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-27 17:12:21.801 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-27 17:12:21.804 INFO     Cleaned up GiulioSorrentino.wheelofnumfortune.avalonia.locale.en-US.yaml
+2025-04-27 17:12:21.808 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\GiulioSorrentino\wheelofnumfortune\avalonia\0.4.0\GiulioSorrentino.wheelofnumfortune.avalonia.locale.en-US.yaml
+2025-04-27 17:12:21.972 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GiulioSorrentino\wheelofnumfortune\avalonia\0.4.0\GiulioSorrentino.wheelofnumfortune.avalonia.yaml
+2025-04-27 17:12:21.975 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-27 17:12:21.976 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-27 17:12:21.978 INFO     Cleaned up GiulioSorrentino.wheelofnumfortune.avalonia.yaml
+2025-04-27 17:12:21.982 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\GiulioSorrentino\wheelofnumfortune\avalonia\0.4.0\GiulioSorrentino.wheelofnumfortune.avalonia.yaml
+2025-04-27 17:12:22.155 INFO   New manifests in D:\...\winget-pkgs\manifests\g\GiulioSorrentino\wheelofnumfortune\avalonia\0.4.0 for GiulioSorrentino.wheelofnumfortune.avalonia (0.4.0)
+2025-04-27 17:13:41.525 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-04-27 17:13:41.527 INFO       - 程序包
+2025-04-27 17:13:41.528 INFO           Microsoft.DotNet.DesktopRuntime.9
+2025-04-27 17:13:41.529 INFO     清单验证成功。
+2025-04-27 17:13:41.538 INFO   Staging and Committing Changes to Git
+2025-04-27 17:14:04.146 INFO     Commit message: New version: GiulioSorrentino.wheelofnumfortune.avalonia version 0.4.0 (Auto)
+2025-04-27 17:14:04.148 INFO   Pushing changes to remote (origin) repository
+2025-04-27 17:14:11.916 INFO     Successfully pushed to remote (origin): NewVersion-GiulioSorrentino.wheelofnumfortune.avalonia-0.4.0-1745745119
+2025-04-27 17:14:13.644 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/251444
+2025-04-27 17:14:13.647 INFO Skip version 0.4.0.1, because it's not in the list of versions to be modified.
+2025-04-27 17:14:13.648 INFO Skip version 0.4.0.3, because it's not in the list of versions to be modified.
+2025-04-27 17:14:13.650 INFO Skip version 0.4.0.4, because it's not in the list of versions to be modified.
+2025-04-27 17:14:13.651 INFO All manifests have been modified and pushed through.
+2025-04-27 17:14:34.716 INFO Workspace clean-up completed.
+~~ End of logging ~~
