@@ -1,0 +1,648 @@
+PowerShell 7.5.1
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.Geometry 6.0.873
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 GeoGebra Geometry [GeoGebra.Geometry]
+版本
+-------
+6.0.883
+6.0.882
+6.0.881
+6.0.879
+6.0.878
+6.0.876
+6.0.875
+6.0.874
+6.0.873
+======= 此软件包版本在 winget 上的信息 =======
+已找到 GeoGebra Geometry [GeoGebra.Geometry]
+版本: 6.0.873
+发布者: International GeoGebra Institute
+发布服务器 URL: https://www.geogebra.org/
+发布服务器支持 URL: https://help.geogebra.org/
+作者: GeoGebra GmbH
+绰号： geogebrageometry
+描述: 使用免费几何工具构建圆、角度、变换等图形
+主页: https://www.geogebra.org/download
+许可证: 专有软件
+许可证 URL: https://www.geogebra.org/license
+隐私 URL: https://www.geogebra.org/privacy
+版权所有: © 2024 GeoGebra®
+标记：
+  几何
+  图形
+  教育
+  数学
+  绘图
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://download.geogebra.org/installers/6.0/geometry/GeoGebraGeometry-Windows-Installer-6-0-873-2.exe
+  安装程序 SHA256： 0fd3f7fbd5a93423fcbd57365f7a39ab1854c88cfb6ebac23a379564ac365d68
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\g\GeoGebra\Geometry\6.0.873\GeoGebra.Geometry.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: GeoGebra.Geometry
+PackageVersion: 6.0.873
+InstallerType: exe
+Scope: user
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: --silent
+  SilentWithProgress: --silent
+UpgradeBehavior: install
+FileExtensions:
+- ggb
+ProductCode: GeoGebra_Geometry
+Installers:
+- Architecture: x86
+  InstallerUrl: https://download.geogebra.org/installers/6.0/geometry/GeoGebraGeometry-Windows-Installer-6-0-873-2.exe
+  InstallerSha256: 0FD3F7FBD5A93423FCBD57365F7A39AB1854C88CFB6EBAC23A379564AC365D68
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 GeoGebra Geometry [GeoGebra.Geometry] 版本 6.0.873
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://download.geogebra.org/installers/6.0/geometry/GeoGebraGeometry-Windows-Installer-6-0-873-2.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+no pull requests match your search in microsoft/winget-pkgs
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                          BRANCH                                        CREATED AT
+#217252  New version: GeoGebra.Geometry version 6.0...  SpecterShell:GeoGebra.Geometry-6.0.873-15...  about 3 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-GeoGebra.Geometry-6.0.873-1745794788'
+  已签出新分支 Remove-GeoGebra.Geometry-6.0.873-1745794788
+  已移除软件包 GeoGebra.Geometry 版本 6.0.873
+[Remove-GeoGebra.Geometry-6.0.873-1745794788 5106d15c43c] Remove version: GeoGebra.Geometry version 6.0.873
+ 4 files changed, 82 deletions(-)
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.873/GeoGebra.Geometry.installer.yaml
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.873/GeoGebra.Geometry.locale.en-US.yaml
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.873/GeoGebra.Geometry.locale.zh-CN.yaml
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.873/GeoGebra.Geometry.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (47/47), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 734 bytes | 367.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-GeoGebra.Geometry-6.0.873-1745794788' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-GeoGebra.Geometry-6.0.873-1745794788
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-GeoGebra.Geometry-6.0.873-1745794788 -> Remove-GeoGebra.Geometry-6.0.873-1745794788
+branch 'Remove-GeoGebra.Geometry-6.0.873-1745794788' set up to track 'origin/Remove-GeoGebra.Geometry-6.0.873-1745794788'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251520
+ 成功移除 GeoGebra.Geometry 版本 6.0.873
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-GeoGebra.Geometry-6.0.873-1745794788 (was 5106d15c43c).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.Geometry 6.0.874
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 GeoGebra Geometry [GeoGebra.Geometry]
+版本
+-------
+6.0.883
+6.0.882
+6.0.881
+6.0.879
+6.0.878
+6.0.876
+6.0.875
+6.0.874
+6.0.873
+======= 此软件包版本在 winget 上的信息 =======
+已找到 GeoGebra Geometry [GeoGebra.Geometry]
+版本: 6.0.874
+发布者: International GeoGebra Institute
+发布服务器 URL: https://www.geogebra.org/
+发布服务器支持 URL: https://help.geogebra.org/
+作者: GeoGebra GmbH
+绰号： geogebrageometry
+描述: 使用免费几何工具构建圆、角度、变换等图形
+主页: https://www.geogebra.org/download
+许可证: 专有软件
+许可证 URL: https://www.geogebra.org/license
+隐私 URL: https://www.geogebra.org/privacy
+版权所有: © 2024 GeoGebra®
+标记：
+  几何
+  图形
+  教育
+  数学
+  绘图
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://download.geogebra.org/installers/6.0/geometry/GeoGebraGeometry-Windows-Installer-6-0-874-1.exe
+  安装程序 SHA256： 3cb8f47f689b3492be56f3ae3613a6bb4dcaa05c7e6848cc1401f305493eee5b
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\g\GeoGebra\Geometry\6.0.874\GeoGebra.Geometry.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: GeoGebra.Geometry
+PackageVersion: 6.0.874
+InstallerType: exe
+Scope: user
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: --silent
+  SilentWithProgress: --silent
+UpgradeBehavior: install
+FileExtensions:
+- ggb
+ProductCode: GeoGebra_Geometry
+Installers:
+- Architecture: x86
+  InstallerUrl: https://download.geogebra.org/installers/6.0/geometry/GeoGebraGeometry-Windows-Installer-6-0-874-1.exe
+  InstallerSha256: 3CB8F47F689B3492BE56F3AE3613A6BB4DCAA05C7E6848CC1401F305493EEE5B
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 GeoGebra Geometry [GeoGebra.Geometry] 版本 6.0.874
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://download.geogebra.org/installers/6.0/geometry/GeoGebraGeometry-Windows-Installer-6-0-874-1.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                        BRANCH                                      CREATED AT
+#251520  Remove version: GeoGebra.Geometry versio...  ...:Remove-GeoGebra.Geometry...  less than a minute ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                          BRANCH                                        CREATED AT
+#223167  New version: GeoGebra.Geometry version 6.0...  SpecterShell:GeoGebra.Geometry-6.0.874-10...  about 2 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-GeoGebra.Geometry-6.0.874-1745794849'
+  已签出新分支 Remove-GeoGebra.Geometry-6.0.874-1745794849
+  已移除软件包 GeoGebra.Geometry 版本 6.0.874
+[Remove-GeoGebra.Geometry-6.0.874-1745794849 aec02ec97b9] Remove version: GeoGebra.Geometry version 6.0.874
+ 4 files changed, 82 deletions(-)
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.874/GeoGebra.Geometry.installer.yaml
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.874/GeoGebra.Geometry.locale.en-US.yaml
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.874/GeoGebra.Geometry.locale.zh-CN.yaml
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.874/GeoGebra.Geometry.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (48/48), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 735 bytes | 735.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-GeoGebra.Geometry-6.0.874-1745794849' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-GeoGebra.Geometry-6.0.874-1745794849
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-GeoGebra.Geometry-6.0.874-1745794849 -> Remove-GeoGebra.Geometry-6.0.874-1745794849
+branch 'Remove-GeoGebra.Geometry-6.0.874-1745794849' set up to track 'origin/Remove-GeoGebra.Geometry-6.0.874-1745794849'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251521
+ 成功移除 GeoGebra.Geometry 版本 6.0.874
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-GeoGebra.Geometry-6.0.874-1745794849 (was aec02ec97b9).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.Geometry 6.0.875
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 GeoGebra Geometry [GeoGebra.Geometry]
+版本
+-------
+6.0.883
+6.0.882
+6.0.881
+6.0.879
+6.0.878
+6.0.876
+6.0.875
+6.0.874
+6.0.873
+======= 此软件包版本在 winget 上的信息 =======
+已找到 GeoGebra Geometry [GeoGebra.Geometry]
+版本: 6.0.875
+发布者: International GeoGebra Institute
+发布服务器 URL: https://www.geogebra.org/
+发布服务器支持 URL: https://help.geogebra.org/
+作者: GeoGebra GmbH
+绰号： geogebrageometry
+描述: 使用免费几何工具构建圆、角度、变换等图形
+主页: https://www.geogebra.org/download
+许可证: 专有软件
+许可证 URL: https://www.geogebra.org/license
+隐私 URL: https://www.geogebra.org/privacy
+版权所有: © 2024 GeoGebra®
+标记：
+  几何
+  图形
+  教育
+  数学
+  绘图
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://download.geogebra.org/installers/6.0/geometry/GeoGebraGeometry-Windows-Installer-6-0-875-1.exe
+  安装程序 SHA256： af03a7fbf08c548060f9af9cc4ec469a04053dd775519f2bef035b6ce7711486
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\g\GeoGebra\Geometry\6.0.875\GeoGebra.Geometry.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: GeoGebra.Geometry
+PackageVersion: 6.0.875
+InstallerType: exe
+Scope: user
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: --silent
+  SilentWithProgress: --silent
+UpgradeBehavior: install
+FileExtensions:
+- ggb
+ProductCode: GeoGebra_Geometry
+Installers:
+- Architecture: x86
+  InstallerUrl: https://download.geogebra.org/installers/6.0/geometry/GeoGebraGeometry-Windows-Installer-6-0-875-1.exe
+  InstallerSha256: AF03A7FBF08C548060F9AF9CC4EC469A04053DD775519F2BEF035B6CE7711486
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 GeoGebra Geometry [GeoGebra.Geometry] 版本 6.0.875
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://download.geogebra.org/installers/6.0/geometry/GeoGebraGeometry-Windows-Installer-6-0-875-1.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                     BRANCH                                                      CREATED AT
+#251521  Remove version: GeoGebra.Geometry version 6.0.874 (Auto)  ...:Remove-GeoGebra.Geometry-6.0.874-1745794849  less than a minute ago
+#251520  Remove version: GeoGebra.Geometry version 6.0.873 (Auto)  ...:Remove-GeoGebra.Geometry-6.0.873-1745794788  about 1 minute ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                           BRANCH                                             CREATED AT
+#230904  New version: GeoGebra.Geometry version 6.0.875  SpecterShell:GeoGebra.Geometry-6.0.875-1212224031  about 2 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-GeoGebra.Geometry-6.0.875-1745794896'
+  已签出新分支 Remove-GeoGebra.Geometry-6.0.875-1745794896
+  已移除软件包 GeoGebra.Geometry 版本 6.0.875
+[Remove-GeoGebra.Geometry-6.0.875-1745794896 905f33c2093] Remove version: GeoGebra.Geometry version 6.0.875
+ 4 files changed, 82 deletions(-)
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.875/GeoGebra.Geometry.installer.yaml
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.875/GeoGebra.Geometry.locale.en-US.yaml
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.875/GeoGebra.Geometry.locale.zh-CN.yaml
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.875/GeoGebra.Geometry.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (49/49), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 737 bytes | 737.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-GeoGebra.Geometry-6.0.875-1745794896' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-GeoGebra.Geometry-6.0.875-1745794896
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-GeoGebra.Geometry-6.0.875-1745794896 -> Remove-GeoGebra.Geometry-6.0.875-1745794896
+branch 'Remove-GeoGebra.Geometry-6.0.875-1745794896' set up to track 'origin/Remove-GeoGebra.Geometry-6.0.875-1745794896'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251522
+ 成功移除 GeoGebra.Geometry 版本 6.0.875
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-GeoGebra.Geometry-6.0.875-1745794896 (was 905f33c2093).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.Geometry 6.0.876
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 GeoGebra Geometry [GeoGebra.Geometry]
+版本
+-------
+6.0.883
+6.0.882
+6.0.881
+6.0.879
+6.0.878
+6.0.876
+6.0.875
+6.0.874
+6.0.873
+======= 此软件包版本在 winget 上的信息 =======
+已找到 GeoGebra Geometry [GeoGebra.Geometry]
+版本: 6.0.876
+发布者: International GeoGebra Institute
+发布服务器 URL: https://www.geogebra.org/
+发布服务器支持 URL: https://help.geogebra.org/
+作者: GeoGebra GmbH
+绰号： geogebrageometry
+描述: 使用免费几何工具构建圆、角度、变换等图形
+主页: https://www.geogebra.org/download
+许可证: 专有软件
+许可证 URL: https://www.geogebra.org/license
+隐私 URL: https://www.geogebra.org/privacy
+版权所有: © 2024 GeoGebra®
+标记：
+  几何
+  图形
+  教育
+  数学
+  绘图
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://download.geogebra.org/installers/6.0/geometry/GeoGebraGeometry-Windows-Installer-6-0-876-0.exe
+  安装程序 SHA256： 97adf7c0dec237c0c2ff43b5808bc8b2e1a4da9339ba7e40a437231e4767db08
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\g\GeoGebra\Geometry\6.0.876\GeoGebra.Geometry.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: GeoGebra.Geometry
+PackageVersion: 6.0.876
+InstallerType: exe
+Scope: user
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: --silent
+  SilentWithProgress: --silent
+UpgradeBehavior: install
+FileExtensions:
+- ggb
+ProductCode: GeoGebra_Geometry
+Installers:
+- Architecture: x86
+  InstallerUrl: https://download.geogebra.org/installers/6.0/geometry/GeoGebraGeometry-Windows-Installer-6-0-876-0.exe
+  InstallerSha256: 97ADF7C0DEC237C0C2FF43B5808BC8B2E1A4DA9339BA7E40A437231E4767DB08
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 GeoGebra Geometry [GeoGebra.Geometry] 版本 6.0.876
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://download.geogebra.org/installers/6.0/geometry/GeoGebraGeometry-Windows-Installer-6-0-876-0.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 3 of 3 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                     BRANCH                                                      CREATED AT
+#251522  Remove version: GeoGebra.Geometry version 6.0.875 (Auto)  ...:Remove-GeoGebra.Geometry-6.0.875-1745794896  less than a minute ago
+#251521  Remove version: GeoGebra.Geometry version 6.0.874 (Auto)  ...:Remove-GeoGebra.Geometry-6.0.874-1745794849  about 1 minute ago
+#251520  Remove version: GeoGebra.Geometry version 6.0.873 (Auto)  ...:Remove-GeoGebra.Geometry-6.0.873-1745794788  about 2 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                           BRANCH                                             CREATED AT
+#232681  New version: GeoGebra.Geometry version 6.0.876  SpecterShell:GeoGebra.Geometry-6.0.876-1876967740  about 2 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-GeoGebra.Geometry-6.0.876-1745794945'
+  已签出新分支 Remove-GeoGebra.Geometry-6.0.876-1745794945
+  已移除软件包 GeoGebra.Geometry 版本 6.0.876
+[Remove-GeoGebra.Geometry-6.0.876-1745794945 1d2f99652a7] Remove version: GeoGebra.Geometry version 6.0.876
+ 4 files changed, 82 deletions(-)
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.876/GeoGebra.Geometry.installer.yaml
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.876/GeoGebra.Geometry.locale.en-US.yaml
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.876/GeoGebra.Geometry.locale.zh-CN.yaml
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.876/GeoGebra.Geometry.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (50/50), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 737 bytes | 737.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-GeoGebra.Geometry-6.0.876-1745794945' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-GeoGebra.Geometry-6.0.876-1745794945
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-GeoGebra.Geometry-6.0.876-1745794945 -> Remove-GeoGebra.Geometry-6.0.876-1745794945
+branch 'Remove-GeoGebra.Geometry-6.0.876-1745794945' set up to track 'origin/Remove-GeoGebra.Geometry-6.0.876-1745794945'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251523
+ 成功移除 GeoGebra.Geometry 版本 6.0.876
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-GeoGebra.Geometry-6.0.876-1745794945 (was 1d2f99652a7).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.Geometry 6.0.878
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 GeoGebra Geometry [GeoGebra.Geometry]
+版本
+-------
+6.0.883
+6.0.882
+6.0.881
+6.0.879
+6.0.878
+6.0.876
+6.0.875
+6.0.874
+6.0.873
+======= 此软件包版本在 winget 上的信息 =======
+已找到 GeoGebra Geometry [GeoGebra.Geometry]
+版本: 6.0.878
+发布者: International GeoGebra Institute
+发布服务器 URL: https://www.geogebra.org/
+发布服务器支持 URL: https://help.geogebra.org/
+作者: GeoGebra GmbH
+绰号： geogebrageometry
+描述: 使用免费几何工具构建圆、角度、变换等图形
+主页: https://www.geogebra.org/download
+许可证: 专有软件
+许可证 URL: https://www.geogebra.org/license
+隐私 URL: https://www.geogebra.org/privacy
+版权所有: © 2024 GeoGebra®
+标记：
+  几何
+  图形
+  教育
+  数学
+  绘图
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://download.geogebra.org/installers/6.0/geometry/GeoGebraGeometry-Windows-Installer-6-0-878-0.exe
+  安装程序 SHA256： 61f8c1116973e44c3d72772149332f968d24ed68ffc0ae9b87fdebdb17f5c9b5
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\g\GeoGebra\Geometry\6.0.878\GeoGebra.Geometry.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: GeoGebra.Geometry
+PackageVersion: 6.0.878
+InstallerType: exe
+Scope: user
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: --silent
+  SilentWithProgress: --silent
+UpgradeBehavior: install
+FileExtensions:
+- ggb
+ProductCode: GeoGebra_Geometry
+Installers:
+- Architecture: x86
+  InstallerUrl: https://download.geogebra.org/installers/6.0/geometry/GeoGebraGeometry-Windows-Installer-6-0-878-0.exe
+  InstallerSha256: 61F8C1116973E44C3D72772149332F968D24ED68FFC0AE9B87FDEBDB17F5C9B5
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 GeoGebra Geometry [GeoGebra.Geometry] 版本 6.0.878
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://download.geogebra.org/installers/6.0/geometry/GeoGebraGeometry-Windows-Installer-6-0-878-0.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 4 of 4 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                     BRANCH                                                      CREATED AT
+#251523  Remove version: GeoGebra.Geometry version 6.0.876 (Auto)  ...:Remove-GeoGebra.Geometry-6.0.876-1745794945  about 2 minutes ago
+#251522  Remove version: GeoGebra.Geometry version 6.0.875 (Auto)  ...:Remove-GeoGebra.Geometry-6.0.875-1745794896  about 3 minutes ago
+#251521  Remove version: GeoGebra.Geometry version 6.0.874 (Auto)  ...:Remove-GeoGebra.Geometry-6.0.874-1745794849  about 3 minutes ago
+#251520  Remove version: GeoGebra.Geometry version 6.0.873 (Auto)  ...:Remove-GeoGebra.Geometry-6.0.873-1745794788  about 4 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                           BRANCH                                            CREATED AT
+#240667  New version: GeoGebra.Geometry version 6.0.878  SpecterShell:GeoGebra.Geometry-6.0.878-579051921  about 1 month ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-GeoGebra.Geometry-6.0.878-1745795104'
+  已签出新分支 Remove-GeoGebra.Geometry-6.0.878-1745795104
+  已移除软件包 GeoGebra.Geometry 版本 6.0.878
+[Remove-GeoGebra.Geometry-6.0.878-1745795104 48eea0e5024] Remove version: GeoGebra.Geometry version 6.0.878
+ 4 files changed, 82 deletions(-)
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.878/GeoGebra.Geometry.installer.yaml
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.878/GeoGebra.Geometry.locale.en-US.yaml
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.878/GeoGebra.Geometry.locale.zh-CN.yaml
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.878/GeoGebra.Geometry.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (50/50), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 738 bytes | 369.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-GeoGebra.Geometry-6.0.878-1745795104' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-GeoGebra.Geometry-6.0.878-1745795104
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-GeoGebra.Geometry-6.0.878-1745795104 -> Remove-GeoGebra.Geometry-6.0.878-1745795104
+branch 'Remove-GeoGebra.Geometry-6.0.878-1745795104' set up to track 'origin/Remove-GeoGebra.Geometry-6.0.878-1745795104'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251524
+ 成功移除 GeoGebra.Geometry 版本 6.0.878
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-GeoGebra.Geometry-6.0.878-1745795104 (was 48eea0e5024).
+工作区清理完成
