@@ -1,0 +1,106 @@
+~~ Start logging ~~
+2025-04-28 13:55:54.832 FUN 这回应该肯定一定能修好
+2025-04-28 13:55:54.842 INFO Found the following version folder: ['0.7.120', '0.7.121', '0.7.122', '0.7.123', '0.7.124', '0.7.125', '0.7.126', '0.7.127', '0.7.128', '0.7.129', '0.7.130', '0.7.131', '0.7.132', '0.7.133', '0.7.134', '0.7.135', '0.7.136', '0.7.137', '0.7.139', '0.7.140', '0.7.141', '0.7.142', '0.7.143', '0.7.94', '0.7.96', '0.8.0', '0.8.1', '0.8.10', '0.8.11', '0.8.12', '0.8.13', '0.8.14', '0.8.15', '0.8.16', '0.8.18', '0.8.2', '0.8.20', '0.8.21', '0.8.22', '0.8.23', '0.8.24', '0.8.25', '0.8.26', '0.8.27', '0.8.28', '0.8.29', '0.8.3', '0.8.31', '0.8.32', '0.8.33', '0.8.34', '0.8.35', '0.8.36', '0.8.38', '0.8.39', '0.8.4', '0.8.40', '0.8.41', '0.8.42', '0.8.43', '0.8.44', '0.8.45', '0.8.46', '0.8.47', '0.8.48', '0.8.49', '0.8.5', '0.8.50', '0.8.51', '0.8.52', '0.8.53', '0.8.54', '0.8.55', '0.8.56', '0.8.7', '0.8.8', '0.8.9']
+2025-04-28 13:55:54.944 INFO Skip version 0.7.120, because it's not in the list of versions to be modified.
+2025-04-28 13:55:54.945 INFO Skip version 0.7.121, because it's not in the list of versions to be modified.
+2025-04-28 13:55:54.945 INFO Skip version 0.7.122, because it's not in the list of versions to be modified.
+2025-04-28 13:55:54.946 INFO Skip version 0.7.123, because it's not in the list of versions to be modified.
+2025-04-28 13:55:54.947 INFO Skip version 0.7.124, because it's not in the list of versions to be modified.
+2025-04-28 13:55:54.947 INFO Skip version 0.7.125, because it's not in the list of versions to be modified.
+2025-04-28 13:55:54.948 INFO Skip version 0.7.126, because it's not in the list of versions to be modified.
+2025-04-28 13:55:54.948 INFO Skip version 0.7.127, because it's not in the list of versions to be modified.
+2025-04-28 13:55:54.949 INFO Skip version 0.7.128, because it's not in the list of versions to be modified.
+2025-04-28 13:55:54.949 INFO Skip version 0.7.129, because it's not in the list of versions to be modified.
+2025-04-28 13:55:54.950 INFO Skip version 0.7.130, because it's not in the list of versions to be modified.
+2025-04-28 13:55:54.951 INFO Skip version 0.7.131, because it's not in the list of versions to be modified.
+2025-04-28 13:55:54.951 INFO Skip version 0.7.132, because it's not in the list of versions to be modified.
+2025-04-28 13:55:54.952 INFO Skip version 0.7.133, because it's not in the list of versions to be modified.
+2025-04-28 13:55:54.952 INFO Skip version 0.7.134, because it's not in the list of versions to be modified.
+2025-04-28 13:55:54.953 INFO Skip version 0.7.135, because it's not in the list of versions to be modified.
+2025-04-28 13:55:54.954 INFO Skip version 0.7.136, because it's not in the list of versions to be modified.
+2025-04-28 13:55:54.955 INFO Skip version 0.7.137, because it's not in the list of versions to be modified.
+2025-04-28 13:55:54.956 INFO Skip version 0.7.139, because it's not in the list of versions to be modified.
+2025-04-28 13:55:54.957 INFO Skip version 0.7.140, because it's not in the list of versions to be modified.
+2025-04-28 13:55:54.957 INFO Skip version 0.7.141, because it's not in the list of versions to be modified.
+2025-04-28 13:55:54.958 INFO Skip version 0.7.142, because it's not in the list of versions to be modified.
+2025-04-28 13:55:54.958 INFO Skip version 0.7.143, because it's not in the list of versions to be modified.
+2025-04-28 13:55:54.959 INFO Skip version 0.7.94, because it's not in the list of versions to be modified.
+2025-04-28 13:55:54.960 INFO Processing version folder: 0.7.96
+2025-04-28 13:55:54.960 INFO   Create and checkout to a new branch: NewVersion-xemu-project.xemu-0.7.96-1745819754
+2025-04-28 13:56:01.525 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\x\xemu-project\xemu\0.7.96\xemu-project.xemu.installer.yaml
+2025-04-28 13:56:01.526 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-04-28 13:56:01.527 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-04-28 13:56:01.528 INFO     Cleaned up xemu-project.xemu.installer.yaml
+2025-04-28 13:56:01.529 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\x\xemu-project\xemu\0.7.96\xemu-project.xemu.installer.yaml
+2025-04-28 13:56:01.717 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\x\xemu-project\xemu\0.7.96\xemu-project.xemu.locale.en-US.yaml
+2025-04-28 13:56:01.721 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-04-28 13:56:01.722 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-04-28 13:56:01.723 INFO     Cleaned up xemu-project.xemu.locale.en-US.yaml
+2025-04-28 13:56:01.726 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\x\xemu-project\xemu\0.7.96\xemu-project.xemu.locale.en-US.yaml
+2025-04-28 13:56:01.840 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\x\xemu-project\xemu\0.7.96\xemu-project.xemu.yaml
+2025-04-28 13:56:01.842 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-04-28 13:56:01.843 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-04-28 13:56:01.844 INFO     Cleaned up xemu-project.xemu.yaml
+2025-04-28 13:56:01.847 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\x\xemu-project\xemu\0.7.96\xemu-project.xemu.yaml
+2025-04-28 13:56:01.975 INFO   New manifests in D:\...\winget-pkgs\manifests\x\xemu-project\xemu\0.7.96 for xemu-project.xemu (0.7.96)
+2025-04-28 13:58:22.294 INFO     清单验证成功。
+2025-04-28 13:58:22.302 INFO   Staging and Committing Changes to Git
+2025-04-28 13:58:30.441 INFO     Commit message: New version: xemu-project.xemu version 0.7.96 (Auto)
+2025-04-28 13:58:30.443 INFO   Pushing changes to remote (origin) repository
+2025-04-28 13:58:35.996 INFO     Successfully pushed to remote (origin): NewVersion-xemu-project.xemu-0.7.96-1745819754
+2025-04-28 13:58:37.792 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/251558
+2025-04-28 13:58:37.805 INFO Skip version 0.8.0, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.807 INFO Skip version 0.8.1, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.808 INFO Skip version 0.8.10, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.809 INFO Skip version 0.8.11, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.810 INFO Skip version 0.8.12, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.812 INFO Skip version 0.8.13, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.813 INFO Skip version 0.8.14, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.814 INFO Skip version 0.8.15, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.815 INFO Skip version 0.8.16, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.816 INFO Skip version 0.8.18, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.818 INFO Skip version 0.8.2, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.820 INFO Skip version 0.8.20, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.821 INFO Skip version 0.8.21, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.822 INFO Skip version 0.8.22, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.823 INFO Skip version 0.8.23, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.824 INFO Skip version 0.8.24, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.825 INFO Skip version 0.8.25, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.826 INFO Skip version 0.8.26, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.827 INFO Skip version 0.8.27, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.828 INFO Skip version 0.8.28, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.829 INFO Skip version 0.8.29, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.830 INFO Skip version 0.8.3, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.831 INFO Skip version 0.8.31, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.833 INFO Skip version 0.8.32, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.835 INFO Skip version 0.8.33, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.836 INFO Skip version 0.8.34, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.838 INFO Skip version 0.8.35, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.839 INFO Skip version 0.8.36, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.840 INFO Skip version 0.8.38, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.841 INFO Skip version 0.8.39, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.842 INFO Skip version 0.8.4, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.843 INFO Skip version 0.8.40, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.843 INFO Skip version 0.8.41, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.844 INFO Skip version 0.8.42, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.845 INFO Skip version 0.8.43, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.846 INFO Skip version 0.8.44, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.847 INFO Skip version 0.8.45, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.848 INFO Skip version 0.8.46, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.849 INFO Skip version 0.8.47, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.850 INFO Skip version 0.8.48, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.851 INFO Skip version 0.8.49, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.852 INFO Skip version 0.8.5, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.853 INFO Skip version 0.8.50, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.854 INFO Skip version 0.8.51, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.855 INFO Skip version 0.8.52, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.856 INFO Skip version 0.8.53, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.857 INFO Skip version 0.8.54, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.857 INFO Skip version 0.8.55, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.858 INFO Skip version 0.8.56, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.859 INFO Skip version 0.8.7, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.860 INFO Skip version 0.8.8, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.860 INFO Skip version 0.8.9, because it's not in the list of versions to be modified.
+2025-04-28 13:58:37.862 INFO All manifests have been modified and pushed through.
+2025-04-28 13:58:42.197 INFO Workspace clean-up completed.
+~~ End of logging ~~
