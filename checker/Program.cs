@@ -337,7 +337,7 @@ namespace checker
                 "https://issuepcdn.baidupcs.com/", "https://lf-luna-release.qishui.com/obj/luna-release/", "https://down.360safe.com/cse/", // 超时
                 "https://www.argyllcms.com/", // 服务器拒绝冲泡咖啡
                 "https://www.elcomsoft.com/", "https://pbank.bankcomm.cn/personbank/download/SecEditCFCAforBoCom.exe", // SSL错误
-                "https://download.eset.com/com/eset/tools/installers/av_remover/latest/avremover_arm64_enu.exe", // WIP
+                "https://download.eset.com/com/eset/tools/installers/av_remover/latest/avremover_arm64_enu.exe", "https://github.com/lutzroeder/netron/releases/download/", // WIP
                 "https://aurorabuilder.com/downloads/Aurora%20Setup.zip", // 假400
             ];
             return excludedDomains.Any(domain => url.Contains(domain));
