@@ -1,0 +1,37 @@
+~~ Start logging ~~
+2025-05-01 12:50:35.655 FUN 人性是什么？能量产吗？效率多少？
+2025-05-01 12:50:35.657 INFO Found the following version folder: ['5.50', '5.51', '5.53']
+2025-05-01 12:50:35.760 INFO Skip version 5.50, because it's not in the list of versions to be modified.
+2025-05-01 12:50:35.761 INFO Skip version 5.51, because it's not in the list of versions to be modified.
+2025-05-01 12:50:35.762 INFO Processing version folder: 5.53
+2025-05-01 12:50:35.762 INFO   Create and checkout to a new branch: NewVersion-Bandisoft.Honeyview-5.53-1746075035
+2025-05-01 12:50:41.822 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Bandisoft\Honeyview\5.53\Bandisoft.Honeyview.installer.yaml
+2025-05-01 12:50:41.825 INFO     Replace ManifestVersion: 1.5.0 -> 1.10.0
+2025-05-01 12:50:41.826 INFO     Replace schema references: 1.5.0.schema.json -> 1.10.0.schema.json
+2025-05-01 12:50:41.827 INFO     Cleaned up Bandisoft.Honeyview.installer.yaml
+2025-05-01 12:50:41.829 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Bandisoft\Honeyview\5.53\Bandisoft.Honeyview.installer.yaml
+2025-05-01 12:50:42.540 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Bandisoft\Honeyview\5.53\Bandisoft.Honeyview.locale.en-US.yaml
+2025-05-01 12:50:42.565 INFO     Replace ManifestVersion: 1.5.0 -> 1.10.0
+2025-05-01 12:50:42.588 INFO     Replace schema references: 1.5.0.schema.json -> 1.10.0.schema.json
+2025-05-01 12:50:42.595 INFO     Cleaned up Bandisoft.Honeyview.locale.en-US.yaml
+2025-05-01 12:50:42.618 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Bandisoft\Honeyview\5.53\Bandisoft.Honeyview.locale.en-US.yaml
+2025-05-01 12:50:42.159 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Bandisoft\Honeyview\5.53\Bandisoft.Honeyview.locale.ko-KR.yaml
+2025-05-01 12:50:42.161 INFO     Replace ManifestVersion: 1.5.0 -> 1.10.0
+2025-05-01 12:50:42.162 INFO     Replace schema references: 1.5.0.schema.json -> 1.10.0.schema.json
+2025-05-01 12:50:42.163 INFO     Cleaned up Bandisoft.Honeyview.locale.ko-KR.yaml
+2025-05-01 12:50:42.165 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Bandisoft\Honeyview\5.53\Bandisoft.Honeyview.locale.ko-KR.yaml
+2025-05-01 12:50:42.270 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Bandisoft\Honeyview\5.53\Bandisoft.Honeyview.yaml
+2025-05-01 12:50:42.272 INFO     Replace ManifestVersion: 1.5.0 -> 1.10.0
+2025-05-01 12:50:42.273 INFO     Replace schema references: 1.5.0.schema.json -> 1.10.0.schema.json
+2025-05-01 12:50:42.274 INFO     Cleaned up Bandisoft.Honeyview.yaml
+2025-05-01 12:50:42.276 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Bandisoft\Honeyview\5.53\Bandisoft.Honeyview.yaml
+2025-05-01 12:50:42.385 INFO   New manifests in D:\...\winget-pkgs\manifests\b\Bandisoft\Honeyview\5.53 for Bandisoft.Honeyview (5.53)
+2025-05-01 12:53:08.644 INFO     清单验证成功。
+2025-05-01 12:53:08.652 INFO   Staging and Committing Changes to Git
+2025-05-01 12:53:12.995 INFO     Commit message: New version: Bandisoft.Honeyview version 5.53 (Auto)
+2025-05-01 12:53:12.996 INFO   Pushing changes to remote (origin) repository
+2025-05-01 12:53:17.752 INFO     Successfully pushed to remote (origin): NewVersion-Bandisoft.Honeyview-5.53-1746075035
+2025-05-01 12:53:19.354 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/252929
+2025-05-01 12:53:19.356 INFO All manifests have been modified and pushed through.
+2025-05-01 12:53:23.286 INFO Workspace clean-up completed.
+~~ End of logging ~~
