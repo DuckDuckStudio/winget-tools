@@ -339,6 +339,7 @@ namespace checker
                 "https://www.elcomsoft.com/", "https://pbank.bankcomm.cn/personbank/download/SecEditCFCAforBoCom.exe", // SSL错误
                 "https://download.eset.com/com/eset/tools/installers/av_remover/latest/avremover_arm64_enu.exe", "http://www.heaventools.com/files/11hFgnI0s/FlexHex_editor_setup.exe", "https://www.z-download.de/down/zcron.zip", "https://ota-downloads.nvidia.com/ota/GeForceNOW-release_E2BBA5.exe", // WIP
                 "https://aurorabuilder.com/downloads/Aurora%20Setup.zip", // 假400
+                "http://www.sminstall.com/simsetup.exe", // 讨论中
             ];
             return excludedDomains.Any(domain => url.Contains(domain));
         }
