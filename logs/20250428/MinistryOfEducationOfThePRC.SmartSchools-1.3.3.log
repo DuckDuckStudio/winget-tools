@@ -1,0 +1,39 @@
+~~ Start logging ~~
+2025-04-28 02:39:36.447 FUN 红石学多了，就丧失了人性。
+2025-04-28 02:39:36.449 INFO Found the following version folder: ['1.3.3', '1.3.5', '1.3.6', '1.3.7', '1.3.8']
+2025-04-28 02:39:36.622 INFO Processing version folder: 1.3.3
+2025-04-28 02:39:36.658 INFO   Create and checkout to a new branch: NewVersion-MinistryOfEducationOfThePRC.SmartSchools-1.3.3-1745779176
+2025-04-28 02:39:42.540 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\MinistryOfEducationOfThePRC\SmartSchools\1.3.3\MinistryOfEducationOfThePRC.SmartSchools.installer.yaml
+2025-04-28 02:39:42.542 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-28 02:39:42.543 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-28 02:39:42.544 INFO     Cleaned up MinistryOfEducationOfThePRC.SmartSchools.installer.yaml
+2025-04-28 02:39:42.546 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\MinistryOfEducationOfThePRC\SmartSchools\1.3.3\MinistryOfEducationOfThePRC.SmartSchools.installer.yaml
+2025-04-28 02:39:42.766 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\MinistryOfEducationOfThePRC\SmartSchools\1.3.3\MinistryOfEducationOfThePRC.SmartSchools.locale.en-US.yaml
+2025-04-28 02:39:42.768 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-28 02:39:42.772 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-28 02:39:42.773 INFO     Cleaned up MinistryOfEducationOfThePRC.SmartSchools.locale.en-US.yaml
+2025-04-28 02:39:42.776 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\MinistryOfEducationOfThePRC\SmartSchools\1.3.3\MinistryOfEducationOfThePRC.SmartSchools.locale.en-US.yaml
+2025-04-28 02:39:42.894 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\MinistryOfEducationOfThePRC\SmartSchools\1.3.3\MinistryOfEducationOfThePRC.SmartSchools.locale.zh-CN.yaml
+2025-04-28 02:39:42.896 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-28 02:39:42.897 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-28 02:39:42.898 INFO     Cleaned up MinistryOfEducationOfThePRC.SmartSchools.locale.zh-CN.yaml
+2025-04-28 02:39:42.900 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\MinistryOfEducationOfThePRC\SmartSchools\1.3.3\MinistryOfEducationOfThePRC.SmartSchools.locale.zh-CN.yaml
+2025-04-28 02:39:43.329 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\MinistryOfEducationOfThePRC\SmartSchools\1.3.3\MinistryOfEducationOfThePRC.SmartSchools.yaml
+2025-04-28 02:39:43.357 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-28 02:39:43.370 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-28 02:39:43.380 INFO     Cleaned up MinistryOfEducationOfThePRC.SmartSchools.yaml
+2025-04-28 02:39:43.404 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\MinistryOfEducationOfThePRC\SmartSchools\1.3.3\MinistryOfEducationOfThePRC.SmartSchools.yaml
+2025-04-28 02:39:43.190 INFO   New manifests in D:\...\winget-pkgs\manifests\m\MinistryOfEducationOfThePRC\SmartSchools\1.3.3 for MinistryOfEducationOfThePRC.SmartSchools (1.3.3)
+2025-04-28 02:46:44.659 INFO     清单验证成功。
+2025-04-28 02:46:44.774 INFO   Staging and Committing Changes to Git
+2025-04-28 02:46:55.613 INFO     Commit message: New version: MinistryOfEducationOfThePRC.SmartSchools version 1.3.3 (Auto)
+2025-04-28 02:46:55.615 INFO   Pushing changes to remote (origin) repository
+2025-04-28 02:47:03.671 INFO     Successfully pushed to remote (origin): NewVersion-MinistryOfEducationOfThePRC.SmartSchools-1.3.3-1745779176
+2025-04-28 02:47:04.564 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/251492
+2025-04-28 02:47:04.567 INFO Skip version 1.3.5, because it's not in the list of versions to be modified.
+2025-04-28 02:47:04.569 INFO Skip version 1.3.6, because it's not in the list of versions to be modified.
+2025-04-28 02:47:04.570 INFO Skip version 1.3.7, because it's not in the list of versions to be modified.
+2025-04-28 02:47:04.571 INFO Skip version 1.3.8, because it's not in the list of versions to be modified.
+2025-04-28 02:47:04.572 INFO All manifests have been modified and pushed through.
+2025-04-28 02:47:10.491 INFO Workspace clean-up completed.
+~~ End of logging ~~

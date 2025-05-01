@@ -1,0 +1,321 @@
+sundry sync
+
+winget show --id RingCentral.RingCentral -s winget -e --versions | ForEach-Object {
+    if (($_ -match '^\d+\.\d+\.\d+$') -and ($_ -ne "25.2.1510")) { # Exclude versions 25.2.1510
+        sundry remove RingCentral.RingCentral $_ True @"
+It returns a 404 status code in [GitHub Action](https://github.com/.../winget-tools/actions/runs/14751824419/job/41410855332#step:5:30) and has been [automatically verified](https://github.com/.../Test/actions/runs/14752689812/job/41413598924) and manually confirmed.
+Manual Verification: Based on the results of the automated validation, they seem to keep only the latest version of the installer.
+"@
+    }
+}
+
+===================================================================================
+
+PowerShell 7.5.1
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> & remove.ps1
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+remote: Enumerating objects: 324, done.
+remote: Counting objects: 100% (324/324), done.
+remote: Compressing objects: 100% (204/204), done.
+remote: Total 290 (delta 214), reused 138 (delta 81), pack-reused 0 (from 0)
+Receiving objects: 100% (290/290), 65.13 KiB | 10.00 KiB/s, done.
+Resolving deltas: 100% (214/214), completed with 18 local objects.
+From https://github.com/microsoft/winget-pkgs
+   956505e4b5d..d5a464a5467  master     -> upstream/master
+  已获取上游修改
+From https://github.com/.../winget-pkgs
+   c7d2ebc3fab..22aab771e2b  master     -> origin/master
+  已获取远程修改
+Successfully rebased and updated refs/heads/master.
+  已变基上游修改
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Bypassed rule violations for refs/heads/master:
+remote:
+remote: - Changes must be made through a pull request.
+remote:
+To https://github.com/.../winget-pkgs.git
+   22aab771e2b..d5a464a5467  master -> master
+  已推送 master 分支
+✓ 同步完成
+
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-RingCentral.RingCentral-25.2.1011-1746010767'
+  已签出新分支 Remove-RingCentral.RingCentral-25.2.1011-1746010767
+  已移除软件包 RingCentral.RingCentral 版本 25.2.1011
+[Remove-RingCentral.RingCentral-25.2.1011-1746010767 95ddb44c75e] Remove version: RingCentral.RingCentral version 25.2.1011
+ 4 files changed, 132 deletions(-)
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.2.1011/RingCentral.RingCentral.installer.yaml
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.2.1011/RingCentral.RingCentral.locale.en-US.yaml
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.2.1011/RingCentral.RingCentral.locale.zh-CN.yaml
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.2.1011/RingCentral.RingCentral.yaml
+  已提交修改
+Enumerating objects: 26, done.
+Counting objects: 100% (26/26), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 729 bytes | 364.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-RingCentral.RingCentral-25.2.1011-1746010767' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-RingCentral.RingCentral-25.2.1011-1746010767
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-RingCentral.RingCentral-25.2.1011-1746010767 -> Remove-RingCentral.RingCentral-25.2.1011-1746010767
+branch 'Remove-RingCentral.RingCentral-25.2.1011-1746010767' set up to track 'origin/Remove-RingCentral.RingCentral-25.2.1011-1746010767'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/252612
+ 成功移除 RingCentral.RingCentral 版本 25.2.1011
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-RingCentral.RingCentral-25.2.1011-1746010767 (was 95ddb44c75e).
+工作区清理完成
+
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-RingCentral.RingCentral-25.1.3612-1746010801'
+  已签出新分支 Remove-RingCentral.RingCentral-25.1.3612-1746010801
+  已移除软件包 RingCentral.RingCentral 版本 25.1.3612
+[Remove-RingCentral.RingCentral-25.1.3612-1746010801 6b9394008e7] Remove version: RingCentral.RingCentral version 25.1.3612
+ 4 files changed, 132 deletions(-)
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.1.3612/RingCentral.RingCentral.installer.yaml
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.1.3612/RingCentral.RingCentral.locale.en-US.yaml
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.1.3612/RingCentral.RingCentral.locale.zh-CN.yaml
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.1.3612/RingCentral.RingCentral.yaml
+  已提交修改
+Enumerating objects: 31, done.
+Counting objects: 100% (31/31), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 728 bytes | 364.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-RingCentral.RingCentral-25.1.3612-1746010801' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-RingCentral.RingCentral-25.1.3612-1746010801
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-RingCentral.RingCentral-25.1.3612-1746010801 -> Remove-RingCentral.RingCentral-25.1.3612-1746010801
+branch 'Remove-RingCentral.RingCentral-25.1.3612-1746010801' set up to track 'origin/Remove-RingCentral.RingCentral-25.1.3612-1746010801'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/252613
+ 成功移除 RingCentral.RingCentral 版本 25.1.3612
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-RingCentral.RingCentral-25.1.3612-1746010801 (was 6b9394008e7).
+工作区清理完成
+
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-RingCentral.RingCentral-25.1.3510-1746010830'
+  已签出新分支 Remove-RingCentral.RingCentral-25.1.3510-1746010830
+  已移除软件包 RingCentral.RingCentral 版本 25.1.3510
+[Remove-RingCentral.RingCentral-25.1.3510-1746010830 42f46415364] Remove version: RingCentral.RingCentral version 25.1.3510
+ 4 files changed, 132 deletions(-)
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.1.3510/RingCentral.RingCentral.installer.yaml
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.1.3510/RingCentral.RingCentral.locale.en-US.yaml
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.1.3510/RingCentral.RingCentral.locale.zh-CN.yaml
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.1.3510/RingCentral.RingCentral.yaml
+  已提交修改
+Enumerating objects: 36, done.
+Counting objects: 100% (36/36), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 727 bytes | 363.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-RingCentral.RingCentral-25.1.3510-1746010830' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-RingCentral.RingCentral-25.1.3510-1746010830
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-RingCentral.RingCentral-25.1.3510-1746010830 -> Remove-RingCentral.RingCentral-25.1.3510-1746010830
+branch 'Remove-RingCentral.RingCentral-25.1.3510-1746010830' set up to track 'origin/Remove-RingCentral.RingCentral-25.1.3510-1746010830'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/252614
+ 成功移除 RingCentral.RingCentral 版本 25.1.3510
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-RingCentral.RingCentral-25.1.3510-1746010830 (was 42f46415364).
+工作区清理完成
+
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-RingCentral.RingCentral-25.1.3010-1746010869'
+  已签出新分支 Remove-RingCentral.RingCentral-25.1.3010-1746010869
+  已移除软件包 RingCentral.RingCentral 版本 25.1.3010
+[Remove-RingCentral.RingCentral-25.1.3010-1746010869 1b244a556f8] Remove version: RingCentral.RingCentral version 25.1.3010
+ 4 files changed, 132 deletions(-)
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.1.3010/RingCentral.RingCentral.installer.yaml
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.1.3010/RingCentral.RingCentral.locale.en-US.yaml
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.1.3010/RingCentral.RingCentral.locale.zh-CN.yaml
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.1.3010/RingCentral.RingCentral.yaml
+  已提交修改
+Enumerating objects: 41, done.
+Counting objects: 100% (41/41), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 731 bytes | 243.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-RingCentral.RingCentral-25.1.3010-1746010869' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-RingCentral.RingCentral-25.1.3010-1746010869
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-RingCentral.RingCentral-25.1.3010-1746010869 -> Remove-RingCentral.RingCentral-25.1.3010-1746010869
+branch 'Remove-RingCentral.RingCentral-25.1.3010-1746010869' set up to track 'origin/Remove-RingCentral.RingCentral-25.1.3010-1746010869'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/252615
+ 成功移除 RingCentral.RingCentral 版本 25.1.3010
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-RingCentral.RingCentral-25.1.3010-1746010869 (was 1b244a556f8).
+工作区清理完成
+
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-RingCentral.RingCentral-25.1.2511-1746010903'
+  已签出新分支 Remove-RingCentral.RingCentral-25.1.2511-1746010903
+  已移除软件包 RingCentral.RingCentral 版本 25.1.2511
+[Remove-RingCentral.RingCentral-25.1.2511-1746010903 4c65a022e29] Remove version: RingCentral.RingCentral version 25.1.2511
+ 4 files changed, 132 deletions(-)
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.1.2511/RingCentral.RingCentral.installer.yaml
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.1.2511/RingCentral.RingCentral.locale.en-US.yaml
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.1.2511/RingCentral.RingCentral.locale.zh-CN.yaml
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.1.2511/RingCentral.RingCentral.yaml
+  已提交修改
+Enumerating objects: 46, done.
+Counting objects: 100% (46/46), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 724 bytes | 362.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-RingCentral.RingCentral-25.1.2511-1746010903' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-RingCentral.RingCentral-25.1.2511-1746010903
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-RingCentral.RingCentral-25.1.2511-1746010903 -> Remove-RingCentral.RingCentral-25.1.2511-1746010903
+branch 'Remove-RingCentral.RingCentral-25.1.2511-1746010903' set up to track 'origin/Remove-RingCentral.RingCentral-25.1.2511-1746010903'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/252616
+ 成功移除 RingCentral.RingCentral 版本 25.1.2511
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-RingCentral.RingCentral-25.1.2511-1746010903 (was 4c65a022e29).
+工作区清理完成
+
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-RingCentral.RingCentral-25.1.2010-1746010933'
+  已签出新分支 Remove-RingCentral.RingCentral-25.1.2010-1746010933
+  已移除软件包 RingCentral.RingCentral 版本 25.1.2010
+[Remove-RingCentral.RingCentral-25.1.2010-1746010933 489a3201fdd] Remove version: RingCentral.RingCentral version 25.1.2010
+ 4 files changed, 132 deletions(-)
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.1.2010/RingCentral.RingCentral.installer.yaml
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.1.2010/RingCentral.RingCentral.locale.en-US.yaml
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.1.2010/RingCentral.RingCentral.locale.zh-CN.yaml
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.1.2010/RingCentral.RingCentral.yaml
+  已提交修改
+Enumerating objects: 51, done.
+Counting objects: 100% (51/51), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 724 bytes | 362.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-RingCentral.RingCentral-25.1.2010-1746010933' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-RingCentral.RingCentral-25.1.2010-1746010933
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-RingCentral.RingCentral-25.1.2010-1746010933 -> Remove-RingCentral.RingCentral-25.1.2010-1746010933
+branch 'Remove-RingCentral.RingCentral-25.1.2010-1746010933' set up to track 'origin/Remove-RingCentral.RingCentral-25.1.2010-1746010933'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/252617
+ 成功移除 RingCentral.RingCentral 版本 25.1.2010
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-RingCentral.RingCentral-25.1.2010-1746010933 (was 489a3201fdd).
+工作区清理完成
+
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-RingCentral.RingCentral-25.1.1610-1746010962'
+  已签出新分支 Remove-RingCentral.RingCentral-25.1.1610-1746010962
+  已移除软件包 RingCentral.RingCentral 版本 25.1.1610
+[Remove-RingCentral.RingCentral-25.1.1610-1746010962 d2b8d2c5ed5] Remove version: RingCentral.RingCentral version 25.1.1610
+ 4 files changed, 132 deletions(-)
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.1.1610/RingCentral.RingCentral.installer.yaml
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.1.1610/RingCentral.RingCentral.locale.en-US.yaml
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.1.1610/RingCentral.RingCentral.locale.zh-CN.yaml
+ delete mode 100644 manifests/r/RingCentral/RingCentral/25.1.1610/RingCentral.RingCentral.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (56/56), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 723 bytes | 361.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-RingCentral.RingCentral-25.1.1610-1746010962' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-RingCentral.RingCentral-25.1.1610-1746010962
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-RingCentral.RingCentral-25.1.1610-1746010962 -> Remove-RingCentral.RingCentral-25.1.1610-1746010962
+branch 'Remove-RingCentral.RingCentral-25.1.1610-1746010962' set up to track 'origin/Remove-RingCentral.RingCentral-25.1.1610-1746010962'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/252618
+ 成功移除 RingCentral.RingCentral 版本 25.1.1610
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-RingCentral.RingCentral-25.1.1610-1746010962 (was d2b8d2c5ed5).
+工作区清理完成

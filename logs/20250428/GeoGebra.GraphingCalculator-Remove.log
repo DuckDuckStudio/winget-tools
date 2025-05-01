@@ -1,0 +1,511 @@
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.GraphingCalculator 6.0.874
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 GeoGebra Graphing Calculator [GeoGebra.GraphingCalculator]
+版本
+-------
+6.0.883
+6.0.882
+6.0.881
+6.0.879
+6.0.878
+6.0.876
+6.0.875
+6.0.874
+======= 此软件包版本在 winget 上的信息 =======
+已找到 GeoGebra Graphing Calculator [GeoGebra.GraphingCalculator]
+版本: 6.0.874
+发布者: International GeoGebra Institute
+发布服务器 URL: https://www.geogebra.org/
+发布服务器支持 URL: https://help.geogebra.org/
+作者: GeoGebra GmbH
+绰号： graphingcalculator
+描述: 使用我们的免费图形应用程序绘制函数图、研究方程和绘制数据图
+主页: https://www.geogebra.org/download
+许可证: 专有软件
+许可证 URL: https://www.geogebra.org/license
+隐私 URL: https://www.geogebra.org/privacy
+版权所有: © 2024 GeoGebra®
+标记：
+  几何
+  图形
+  教育
+  数学
+  绘图
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://download.geogebra.org/installers/6.0/graphing/GeoGebraGraphing-Windows-Installer-6-0-874-1.exe
+  安装程序 SHA256： da1c63e110a218f7e6a647574a1fa214b8178f47d4ec5486c861be40769c2657
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.874\GeoGebra.GraphingCalculator.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: GeoGebra.GraphingCalculator
+PackageVersion: 6.0.874
+InstallerType: exe
+Scope: user
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: --silent
+  SilentWithProgress: --silent
+UpgradeBehavior: install
+FileExtensions:
+- ggb
+ProductCode: GeoGebra_Graphing
+Installers:
+- Architecture: x86
+  InstallerUrl: https://download.geogebra.org/installers/6.0/graphing/GeoGebraGraphing-Windows-Installer-6-0-874-1.exe
+  InstallerSha256: DA1C63E110A218F7E6A647574A1FA214B8178F47D4EC5486C861BE40769C2657
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 GeoGebra Graphing Calculator [GeoGebra.GraphingCalculator] 版本 6.0.874
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://download.geogebra.org/installers/6.0/graphing/GeoGebraGraphing-Windows-Installer-6-0-874-1.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+no pull requests match your search in microsoft/winget-pkgs
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                          BRANCH                                        CREATED AT
+#223169  New version: GeoGebra.GraphingCalculator v...  SpecterShell:GeoGebra.GraphingCalculator-...  about 2 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-GeoGebra.GraphingCalculator-6.0.874-1745794179'
+  已签出新分支 Remove-GeoGebra.GraphingCalculator-6.0.874-1745794179
+  已移除软件包 GeoGebra.GraphingCalculator 版本 6.0.874
+[Remove-GeoGebra.GraphingCalculator-6.0.874-1745794179 2982076e16b] Remove version: GeoGebra.GraphingCalculator version 6.0.874
+ 4 files changed, 82 deletions(-)
+ delete mode 100644 manifests/g/GeoGebra/GraphingCalculator/6.0.874/GeoGebra.GraphingCalculator.installer.yaml
+ delete mode 100644 manifests/g/GeoGebra/GraphingCalculator/6.0.874/GeoGebra.GraphingCalculator.locale.en-US.yaml
+ delete mode 100644 manifests/g/GeoGebra/GraphingCalculator/6.0.874/GeoGebra.GraphingCalculator.locale.zh-CN.yaml
+ delete mode 100644 manifests/g/GeoGebra/GraphingCalculator/6.0.874/GeoGebra.GraphingCalculator.yaml
+  已提交修改
+Enumerating objects: 46, done.
+Counting objects: 100% (38/38), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 741 bytes | 370.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-GeoGebra.GraphingCalculator-6.0.874-1745794179' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-GeoGebra.GraphingCalculator-6.0.874-1745794179
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-GeoGebra.GraphingCalculator-6.0.874-1745794179 -> Remove-GeoGebra.GraphingCalculator-6.0.874-1745794179
+branch 'Remove-GeoGebra.GraphingCalculator-6.0.874-1745794179' set up to track 'origin/Remove-GeoGebra.GraphingCalculator-6.0.874-1745794179'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251516
+ 成功移除 GeoGebra.GraphingCalculator 版本 6.0.874
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-GeoGebra.GraphingCalculator-6.0.874-1745794179 (was 2982076e16b).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.GraphingCalculator 6.0.876
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 GeoGebra Graphing Calculator [GeoGebra.GraphingCalculator]
+版本
+-------
+6.0.883
+6.0.882
+6.0.881
+6.0.879
+6.0.878
+6.0.876
+6.0.875
+6.0.874
+======= 此软件包版本在 winget 上的信息 =======
+已找到 GeoGebra Graphing Calculator [GeoGebra.GraphingCalculator]
+版本: 6.0.876
+发布者: International GeoGebra Institute
+发布服务器 URL: https://www.geogebra.org/
+发布服务器支持 URL: https://help.geogebra.org/
+作者: GeoGebra GmbH
+绰号： graphingcalculator
+描述: 使用我们的免费图形应用程序绘制函数图、研究方程和绘制数据图
+主页: https://www.geogebra.org/download
+许可证: 专有软件
+许可证 URL: https://www.geogebra.org/license
+隐私 URL: https://www.geogebra.org/privacy
+版权所有: © 2024 GeoGebra®
+标记：
+  几何
+  图形
+  教育
+  数学
+  绘图
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://download.geogebra.org/installers/6.0/graphing/GeoGebraGraphing-Windows-Installer-6-0-876-0.exe
+  安装程序 SHA256： bc62e8dd18068290805a9e0b6db4b3d244341c814f3ae8d7fb655b51a91cd9a9
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.876\GeoGebra.GraphingCalculator.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: GeoGebra.GraphingCalculator
+PackageVersion: 6.0.876
+InstallerType: exe
+Scope: user
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: --silent
+  SilentWithProgress: --silent
+UpgradeBehavior: install
+FileExtensions:
+- ggb
+ProductCode: GeoGebra_Graphing
+Installers:
+- Architecture: x86
+  InstallerUrl: https://download.geogebra.org/installers/6.0/graphing/GeoGebraGraphing-Windows-Installer-6-0-876-0.exe
+  InstallerSha256: BC62E8DD18068290805A9E0B6DB4B3D244341C814F3AE8D7FB655B51A91CD9A9
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 GeoGebra Graphing Calculator [GeoGebra.GraphingCalculator] 版本 6.0.876
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://download.geogebra.org/installers/6.0/graphing/GeoGebraGraphing-Windows-Installer-6-0-876-0.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                        BRANCH                                      CREATED AT
+#251516  Remove version: GeoGebra.GraphingCalcula...  ...:Remove-GeoGebra.Graphing...  less than a minute ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                          BRANCH                                        CREATED AT
+#232684  New version: GeoGebra.GraphingCalculator v...  SpecterShell:GeoGebra.GraphingCalculator-...  about 2 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-GeoGebra.GraphingCalculator-6.0.876-1745794261'
+  已签出新分支 Remove-GeoGebra.GraphingCalculator-6.0.876-1745794261
+  已移除软件包 GeoGebra.GraphingCalculator 版本 6.0.876
+[Remove-GeoGebra.GraphingCalculator-6.0.876-1745794261 2537e790eec] Remove version: GeoGebra.GraphingCalculator version 6.0.876
+ 4 files changed, 82 deletions(-)
+ delete mode 100644 manifests/g/GeoGebra/GraphingCalculator/6.0.876/GeoGebra.GraphingCalculator.installer.yaml
+ delete mode 100644 manifests/g/GeoGebra/GraphingCalculator/6.0.876/GeoGebra.GraphingCalculator.locale.en-US.yaml
+ delete mode 100644 manifests/g/GeoGebra/GraphingCalculator/6.0.876/GeoGebra.GraphingCalculator.locale.zh-CN.yaml
+ delete mode 100644 manifests/g/GeoGebra/GraphingCalculator/6.0.876/GeoGebra.GraphingCalculator.yaml
+  已提交修改
+Enumerating objects: 51, done.
+Counting objects: 100% (43/43), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 741 bytes | 370.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-GeoGebra.GraphingCalculator-6.0.876-1745794261' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-GeoGebra.GraphingCalculator-6.0.876-1745794261
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-GeoGebra.GraphingCalculator-6.0.876-1745794261 -> Remove-GeoGebra.GraphingCalculator-6.0.876-1745794261
+branch 'Remove-GeoGebra.GraphingCalculator-6.0.876-1745794261' set up to track 'origin/Remove-GeoGebra.GraphingCalculator-6.0.876-1745794261'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251517
+ 成功移除 GeoGebra.GraphingCalculator 版本 6.0.876
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-GeoGebra.GraphingCalculator-6.0.876-1745794261 (was 2537e790eec).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.GraphingCalculator 6.0.875
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 GeoGebra Graphing Calculator [GeoGebra.GraphingCalculator]
+版本
+-------
+6.0.883
+6.0.882
+6.0.881
+6.0.879
+6.0.878
+6.0.876
+6.0.875
+6.0.874
+======= 此软件包版本在 winget 上的信息 =======
+已找到 GeoGebra Graphing Calculator [GeoGebra.GraphingCalculator]
+版本: 6.0.875
+发布者: International GeoGebra Institute
+发布服务器 URL: https://www.geogebra.org/
+发布服务器支持 URL: https://help.geogebra.org/
+作者: GeoGebra GmbH
+绰号： graphingcalculator
+描述: 使用我们的免费图形应用程序绘制函数图、研究方程和绘制数据图
+主页: https://www.geogebra.org/download
+许可证: 专有软件
+许可证 URL: https://www.geogebra.org/license
+隐私 URL: https://www.geogebra.org/privacy
+版权所有: © 2024 GeoGebra®
+标记：
+  几何
+  图形
+  教育
+  数学
+  绘图
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://download.geogebra.org/installers/6.0/graphing/GeoGebraGraphing-Windows-Installer-6-0-875-1.exe
+  安装程序 SHA256： 8c4ff71909241e099f739483d78979298fb963d452ffc384c70004ffedb4c6c5
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.875\GeoGebra.GraphingCalculator.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: GeoGebra.GraphingCalculator
+PackageVersion: 6.0.875
+InstallerType: exe
+Scope: user
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: --silent
+  SilentWithProgress: --silent
+UpgradeBehavior: install
+FileExtensions:
+- ggb
+ProductCode: GeoGebra_Graphing
+Installers:
+- Architecture: x86
+  InstallerUrl: https://download.geogebra.org/installers/6.0/graphing/GeoGebraGraphing-Windows-Installer-6-0-875-1.exe
+  InstallerSha256: 8C4FF71909241E099F739483D78979298FB963D452FFC384C70004FFEDB4C6C5
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 GeoGebra Graphing Calculator [GeoGebra.GraphingCalculator] 版本 6.0.875
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://download.geogebra.org/installers/6.0/graphing/GeoGebraGraphing-Windows-Installer-6-0-875-1.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                        BRANCH                                      CREATED AT
+#251517  Remove version: GeoGebra.GraphingCalcula...  ...:Remove-GeoGebra.Graphing...  less than a minute ago
+#251516  Remove version: GeoGebra.GraphingCalcula...  ...:Remove-GeoGebra.Graphing...  about 1 minute ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                          BRANCH                                        CREATED AT
+#230905  New version: GeoGebra.GraphingCalculator v...  SpecterShell:GeoGebra.GraphingCalculator-...  about 2 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-GeoGebra.GraphingCalculator-6.0.875-1745794322'
+  已签出新分支 Remove-GeoGebra.GraphingCalculator-6.0.875-1745794322
+  已移除软件包 GeoGebra.GraphingCalculator 版本 6.0.875
+[Remove-GeoGebra.GraphingCalculator-6.0.875-1745794322 8d9f60cbe8f] Remove version: GeoGebra.GraphingCalculator version 6.0.875
+ 4 files changed, 82 deletions(-)
+ delete mode 100644 manifests/g/GeoGebra/GraphingCalculator/6.0.875/GeoGebra.GraphingCalculator.installer.yaml
+ delete mode 100644 manifests/g/GeoGebra/GraphingCalculator/6.0.875/GeoGebra.GraphingCalculator.locale.en-US.yaml
+ delete mode 100644 manifests/g/GeoGebra/GraphingCalculator/6.0.875/GeoGebra.GraphingCalculator.locale.zh-CN.yaml
+ delete mode 100644 manifests/g/GeoGebra/GraphingCalculator/6.0.875/GeoGebra.GraphingCalculator.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (48/48), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 742 bytes | 371.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-GeoGebra.GraphingCalculator-6.0.875-1745794322' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-GeoGebra.GraphingCalculator-6.0.875-1745794322
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-GeoGebra.GraphingCalculator-6.0.875-1745794322 -> Remove-GeoGebra.GraphingCalculator-6.0.875-1745794322
+branch 'Remove-GeoGebra.GraphingCalculator-6.0.875-1745794322' set up to track 'origin/Remove-GeoGebra.GraphingCalculator-6.0.875-1745794322'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251518
+ 成功移除 GeoGebra.GraphingCalculator 版本 6.0.875
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-GeoGebra.GraphingCalculator-6.0.875-1745794322 (was 8d9f60cbe8f).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.GraphingCalculator 6.0.878
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 GeoGebra Graphing Calculator [GeoGebra.GraphingCalculator]
+版本
+-------
+6.0.883
+6.0.882
+6.0.881
+6.0.879
+6.0.878
+6.0.876
+6.0.875
+6.0.874
+======= 此软件包版本在 winget 上的信息 =======
+已找到 GeoGebra Graphing Calculator [GeoGebra.GraphingCalculator]
+版本: 6.0.878
+发布者: International GeoGebra Institute
+发布服务器 URL: https://www.geogebra.org/
+发布服务器支持 URL: https://help.geogebra.org/
+作者: GeoGebra GmbH
+绰号： graphingcalculator
+描述: 使用我们的免费图形应用程序绘制函数图、研究方程和绘制数据图
+主页: https://www.geogebra.org/download
+许可证: 专有软件
+许可证 URL: https://www.geogebra.org/license
+隐私 URL: https://www.geogebra.org/privacy
+版权所有: © 2024 GeoGebra®
+标记：
+  几何
+  图形
+  教育
+  数学
+  绘图
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://download.geogebra.org/installers/6.0/graphing/GeoGebraGraphing-Windows-Installer-6-0-878-0.exe
+  安装程序 SHA256： 25a3559bdeaed358fec7593a2fb1d3ffe53ffff4f7b29454e80ea166116ec184
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\g\GeoGebra\GraphingCalculator\6.0.878\GeoGebra.GraphingCalculator.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: GeoGebra.GraphingCalculator
+PackageVersion: 6.0.878
+InstallerType: exe
+Scope: user
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: --silent
+  SilentWithProgress: --silent
+UpgradeBehavior: install
+FileExtensions:
+- ggb
+ProductCode: GeoGebra_Graphing
+Installers:
+- Architecture: x86
+  InstallerUrl: https://download.geogebra.org/installers/6.0/graphing/GeoGebraGraphing-Windows-Installer-6-0-878-0.exe
+  InstallerSha256: 25A3559BDEAED358FEC7593A2FB1D3FFE53FFFF4F7B29454E80EA166116EC184
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 GeoGebra Graphing Calculator [GeoGebra.GraphingCalculator] 版本 6.0.878
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://download.geogebra.org/installers/6.0/graphing/GeoGebraGraphing-Windows-Installer-6-0-878-0.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 3 of 3 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                         BRANCH                                        CREATED AT
+#251518  Remove version: GeoGebra.GraphingCalculat...  ...:Remove-GeoGebra.GraphingCa...  about 1 minute ago
+#251517  Remove version: GeoGebra.GraphingCalculat...  ...:Remove-GeoGebra.GraphingCa...  about 2 minutes ago
+#251516  Remove version: GeoGebra.GraphingCalculat...  ...:Remove-GeoGebra.GraphingCa...  about 4 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                          BRANCH                                         CREATED AT
+#240669  New version: GeoGebra.GraphingCalculator v...  SpecterShell:GeoGebra.GraphingCalculator-6...  about 1 month ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-GeoGebra.GraphingCalculator-6.0.878-1745794449'
+  已签出新分支 Remove-GeoGebra.GraphingCalculator-6.0.878-1745794449
+  已移除软件包 GeoGebra.GraphingCalculator 版本 6.0.878
+[Remove-GeoGebra.GraphingCalculator-6.0.878-1745794449 c5332a740e5] Remove version: GeoGebra.GraphingCalculator version 6.0.878
+ 4 files changed, 82 deletions(-)
+ delete mode 100644 manifests/g/GeoGebra/GraphingCalculator/6.0.878/GeoGebra.GraphingCalculator.installer.yaml
+ delete mode 100644 manifests/g/GeoGebra/GraphingCalculator/6.0.878/GeoGebra.GraphingCalculator.locale.en-US.yaml
+ delete mode 100644 manifests/g/GeoGebra/GraphingCalculator/6.0.878/GeoGebra.GraphingCalculator.locale.zh-CN.yaml
+ delete mode 100644 manifests/g/GeoGebra/GraphingCalculator/6.0.878/GeoGebra.GraphingCalculator.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (50/50), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 742 bytes | 371.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-GeoGebra.GraphingCalculator-6.0.878-1745794449' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-GeoGebra.GraphingCalculator-6.0.878-1745794449
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-GeoGebra.GraphingCalculator-6.0.878-1745794449 -> Remove-GeoGebra.GraphingCalculator-6.0.878-1745794449
+branch 'Remove-GeoGebra.GraphingCalculator-6.0.878-1745794449' set up to track 'origin/Remove-GeoGebra.GraphingCalculator-6.0.878-1745794449'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251519
+ 成功移除 GeoGebra.GraphingCalculator 版本 6.0.878
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-GeoGebra.GraphingCalculator-6.0.878-1745794449 (was c5332a740e5).
+工作区清理完成

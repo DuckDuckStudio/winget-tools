@@ -1,0 +1,803 @@
+PowerShell 7.5.1
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.Classic 6.0.873
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 GeoGebra Classic [GeoGebra.Classic]
+版本
+-------
+6.0.883
+6.0.882
+6.0.881
+6.0.879
+6.0.878
+6.0.876
+6.0.875
+6.0.874
+6.0.873
+======= 此软件包版本在 winget 上的信息 =======
+已找到 GeoGebra Classic [GeoGebra.Classic]
+版本: 6.0.873
+发布者: International GeoGebra Institute
+发布服务器 URL: https://www.geogebra.org/
+发布服务器支持 URL: https://help.geogebra.org/
+作者: GeoGebra GmbH
+绰号： geogebraclassic
+描述: 应用程序捆绑包,包括几何、电子表格、概率和 CAS 的免费工具
+主页: https://www.geogebra.org/download
+许可证: 专有软件
+许可证 URL: https://www.geogebra.org/license
+隐私 URL: https://www.geogebra.org/privacy
+版权所有: © 2024 GeoGebra®
+标记：
+  几何
+  图形
+  教育
+  数学
+  数学工具
+  绘图
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-873-2.exe
+  安装程序 SHA256： de3b0350e706a9edbbcc7d2aefe24a930cc59fdbe2322f3f12e17652a5cb161f
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\g\GeoGebra\Classic\6.0.873\GeoGebra.Classic.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: GeoGebra.Classic
+PackageVersion: 6.0.873
+FileExtensions:
+- ggb
+Installers:
+- Architecture: x86
+  InstallerType: exe
+  Scope: user
+  InstallerUrl: https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-873-2.exe
+  InstallerSha256: DE3B0350E706A9EDBBCC7D2AEFE24A930CC59FDBE2322F3F12E17652A5CB161F
+  InstallModes:
+  - interactive
+  - silent
+  InstallerSwitches:
+    Silent: --silent
+    SilentWithProgress: --silent
+  UpgradeBehavior: install
+  ProductCode: GeoGebra_6
+- Architecture: x86
+  InstallerType: wix
+  Scope: machine
+  InstallerUrl: https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-873-2.msi
+  InstallerSha256: 37B552483113D6A336DB9A158C7E301BA2BD3B62BD792963059CDCF24D5D740C
+  InstallerSwitches:
+    InstallLocation: APPLICATIONROOTDIRECTORY="<INSTALLPATH>"
+  UpgradeBehavior: uninstallPrevious
+  ProductCode: '{4748282E-2448-11E8-81BC-53A8D56EE868}'
+  AppsAndFeaturesEntries:
+  - ProductCode: '{4748282E-2448-11E8-81BC-53A8D56EE868}'
+    UpgradeCode: '{27555540-BDD5-486C-94BF-D367BC812CEF}'
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 GeoGebra Classic [GeoGebra.Classic] 版本 6.0.873
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-873-2.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+no pull requests match your search in microsoft/winget-pkgs
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                          BRANCH                                           CREATED AT
+#217250  New version: GeoGebra.Classic version 6.0.873  SpecterShell:GeoGebra.Classic-6.0.873-679456842  about 3 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-GeoGebra.Classic-6.0.873-1745795333'
+  已签出新分支 Remove-GeoGebra.Classic-6.0.873-1745795333
+  已移除软件包 GeoGebra.Classic 版本 6.0.873
+[Remove-GeoGebra.Classic-6.0.873-1745795333 81dd2108485] Remove version: GeoGebra.Classic version 6.0.873
+ 4 files changed, 96 deletions(-)
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.873/GeoGebra.Classic.installer.yaml
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.873/GeoGebra.Classic.locale.en-US.yaml
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.873/GeoGebra.Classic.locale.zh-CN.yaml
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.873/GeoGebra.Classic.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (47/47), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 737 bytes | 737.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-GeoGebra.Classic-6.0.873-1745795333' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-GeoGebra.Classic-6.0.873-1745795333
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-GeoGebra.Classic-6.0.873-1745795333 -> Remove-GeoGebra.Classic-6.0.873-1745795333
+branch 'Remove-GeoGebra.Classic-6.0.873-1745795333' set up to track 'origin/Remove-GeoGebra.Classic-6.0.873-1745795333'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251525
+ 成功移除 GeoGebra.Classic 版本 6.0.873
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-GeoGebra.Classic-6.0.873-1745795333 (was 81dd2108485).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.Classic 6.0.874
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 GeoGebra Classic [GeoGebra.Classic]
+版本
+-------
+6.0.883
+6.0.882
+6.0.881
+6.0.879
+6.0.878
+6.0.876
+6.0.875
+6.0.874
+6.0.873
+======= 此软件包版本在 winget 上的信息 =======
+已找到 GeoGebra Classic [GeoGebra.Classic]
+版本: 6.0.874
+发布者: International GeoGebra Institute
+发布服务器 URL: https://www.geogebra.org/
+发布服务器支持 URL: https://help.geogebra.org/
+作者: GeoGebra GmbH
+绰号： geogebraclassic
+描述: 应用程序捆绑包,包括几何、电子表格、概率和 CAS 的免费工具
+主页: https://www.geogebra.org/download
+许可证: 专有软件
+许可证 URL: https://www.geogebra.org/license
+隐私 URL: https://www.geogebra.org/privacy
+版权所有: © 2024 GeoGebra®
+标记：
+  几何
+  图形
+  教育
+  数学
+  数学工具
+  绘图
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-874-1.exe
+  安装程序 SHA256： f0e159f1313f5abc82a59d2666f3f3f8a789a7d019b819c960609ec5dd2acd15
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\g\GeoGebra\Classic\6.0.874\GeoGebra.Classic.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: GeoGebra.Classic
+PackageVersion: 6.0.874
+FileExtensions:
+- ggb
+Installers:
+- Architecture: x86
+  InstallerType: exe
+  Scope: user
+  InstallerUrl: https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-874-1.exe
+  InstallerSha256: F0E159F1313F5ABC82A59D2666F3F3F8A789A7D019B819C960609EC5DD2ACD15
+  InstallModes:
+  - interactive
+  - silent
+  InstallerSwitches:
+    Silent: --silent
+    SilentWithProgress: --silent
+  UpgradeBehavior: install
+  ProductCode: GeoGebra_6
+- Architecture: x86
+  InstallerType: wix
+  Scope: machine
+  InstallerUrl: https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-874-1.msi
+  InstallerSha256: 24314C397756C3185DFC2EB441D1B5DDD841B364EF3D8527304FAEEC96A21939
+  InstallerSwitches:
+    InstallLocation: APPLICATIONROOTDIRECTORY="<INSTALLPATH>"
+  UpgradeBehavior: uninstallPrevious
+  ProductCode: '{4748282E-2448-11E8-81BC-53A8D56EE868}'
+  AppsAndFeaturesEntries:
+  - ProductCode: '{4748282E-2448-11E8-81BC-53A8D56EE868}'
+    UpgradeCode: '{27555540-BDD5-486C-94BF-D367BC812CEF}'
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 GeoGebra Classic [GeoGebra.Classic] 版本 6.0.874
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-874-1.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                                    BRANCH                                                     CREATED AT
+#251525  Remove version: GeoGebra.Classic version 6.0.873 (Auto)  ...:Remove-GeoGebra.Classic-6.0.873-1745795333  less than a minute ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                          BRANCH                                            CREATED AT
+#223168  New version: GeoGebra.Classic version 6.0.874  SpecterShell:GeoGebra.Classic-6.0.874-1442904072  about 2 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-GeoGebra.Classic-6.0.874-1745795378'
+  已签出新分支 Remove-GeoGebra.Classic-6.0.874-1745795378
+  已移除软件包 GeoGebra.Classic 版本 6.0.874
+[Remove-GeoGebra.Classic-6.0.874-1745795378 db43673b125] Remove version: GeoGebra.Classic version 6.0.874
+ 4 files changed, 96 deletions(-)
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.874/GeoGebra.Classic.installer.yaml
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.874/GeoGebra.Classic.locale.en-US.yaml
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.874/GeoGebra.Classic.locale.zh-CN.yaml
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.874/GeoGebra.Classic.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (48/48), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 734 bytes | 734.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-GeoGebra.Classic-6.0.874-1745795378' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-GeoGebra.Classic-6.0.874-1745795378
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-GeoGebra.Classic-6.0.874-1745795378 -> Remove-GeoGebra.Classic-6.0.874-1745795378
+branch 'Remove-GeoGebra.Classic-6.0.874-1745795378' set up to track 'origin/Remove-GeoGebra.Classic-6.0.874-1745795378'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251526
+ 成功移除 GeoGebra.Classic 版本 6.0.874
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-GeoGebra.Classic-6.0.874-1745795378 (was db43673b125).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.Classic 6.0.875
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 GeoGebra Classic [GeoGebra.Classic]
+版本
+-------
+6.0.883
+6.0.882
+6.0.881
+6.0.879
+6.0.878
+6.0.876
+6.0.875
+6.0.874
+6.0.873
+======= 此软件包版本在 winget 上的信息 =======
+已找到 GeoGebra Classic [GeoGebra.Classic]
+版本: 6.0.875
+发布者: International GeoGebra Institute
+发布服务器 URL: https://www.geogebra.org/
+发布服务器支持 URL: https://help.geogebra.org/
+作者: GeoGebra GmbH
+绰号： geogebraclassic
+描述: 应用程序捆绑包,包括几何、电子表格、概率和 CAS 的免费工具
+主页: https://www.geogebra.org/download
+许可证: 专有软件
+许可证 URL: https://www.geogebra.org/license
+隐私 URL: https://www.geogebra.org/privacy
+版权所有: © 2024 GeoGebra®
+标记：
+  几何
+  图形
+  教育
+  数学
+  数学工具
+  绘图
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-875-1.exe
+  安装程序 SHA256： 333c77aa3ebbfec8eb5d7d3fca2aa06ab68201f9c2f1a3cde2bef77848dba761
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\g\GeoGebra\Classic\6.0.875\GeoGebra.Classic.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: GeoGebra.Classic
+PackageVersion: 6.0.875
+FileExtensions:
+- ggb
+Installers:
+- Architecture: x86
+  InstallerType: exe
+  Scope: user
+  InstallerUrl: https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-875-1.exe
+  InstallerSha256: 333C77AA3EBBFEC8EB5D7D3FCA2AA06AB68201F9C2F1A3CDE2BEF77848DBA761
+  InstallModes:
+  - interactive
+  - silent
+  InstallerSwitches:
+    Silent: --silent
+    SilentWithProgress: --silent
+  UpgradeBehavior: install
+  ProductCode: GeoGebra_6
+- Architecture: x86
+  InstallerType: wix
+  Scope: machine
+  InstallerUrl: https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-875-1.msi
+  InstallerSha256: F3280F81F3E1AE9895A9CAF229FCC2043947F139420A1AD8734BC3F3FFB24625
+  InstallerSwitches:
+    InstallLocation: APPLICATIONROOTDIRECTORY="<INSTALLPATH>"
+  UpgradeBehavior: uninstallPrevious
+  ProductCode: '{4748282E-2448-11E8-81BC-53A8D56EE868}'
+  AppsAndFeaturesEntries:
+  - ProductCode: '{4748282E-2448-11E8-81BC-53A8D56EE868}'
+    UpgradeCode: '{27555540-BDD5-486C-94BF-D367BC812CEF}'
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 GeoGebra Classic [GeoGebra.Classic] 版本 6.0.875
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-875-1.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                    BRANCH                                                     CREATED AT
+#251526  Remove version: GeoGebra.Classic version 6.0.874 (Auto)  ...:Remove-GeoGebra.Classic-6.0.874-1745795378  less than a minute ago
+#251525  Remove version: GeoGebra.Classic version 6.0.873 (Auto)  ...:Remove-GeoGebra.Classic-6.0.873-1745795333  about 1 minute ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                          BRANCH                                           CREATED AT
+#230903  New version: GeoGebra.Classic version 6.0.875  SpecterShell:GeoGebra.Classic-6.0.875-890002371  about 2 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-GeoGebra.Classic-6.0.875-1745795425'
+  已签出新分支 Remove-GeoGebra.Classic-6.0.875-1745795425
+  已移除软件包 GeoGebra.Classic 版本 6.0.875
+[Remove-GeoGebra.Classic-6.0.875-1745795425 621ea35cd40] Remove version: GeoGebra.Classic version 6.0.875
+ 4 files changed, 96 deletions(-)
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.875/GeoGebra.Classic.installer.yaml
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.875/GeoGebra.Classic.locale.en-US.yaml
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.875/GeoGebra.Classic.locale.zh-CN.yaml
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.875/GeoGebra.Classic.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (49/49), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 738 bytes | 738.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-GeoGebra.Classic-6.0.875-1745795425' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-GeoGebra.Classic-6.0.875-1745795425
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-GeoGebra.Classic-6.0.875-1745795425 -> Remove-GeoGebra.Classic-6.0.875-1745795425
+branch 'Remove-GeoGebra.Classic-6.0.875-1745795425' set up to track 'origin/Remove-GeoGebra.Classic-6.0.875-1745795425'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251527
+ 成功移除 GeoGebra.Classic 版本 6.0.875
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-GeoGebra.Classic-6.0.875-1745795425 (was 621ea35cd40).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.Classic 6.0.876
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 GeoGebra Classic [GeoGebra.Classic]
+版本
+-------
+6.0.883
+6.0.882
+6.0.881
+6.0.879
+6.0.878
+6.0.876
+6.0.875
+6.0.874
+6.0.873
+======= 此软件包版本在 winget 上的信息 =======
+已找到 GeoGebra Classic [GeoGebra.Classic]
+版本: 6.0.876
+发布者: International GeoGebra Institute
+发布服务器 URL: https://www.geogebra.org/
+发布服务器支持 URL: https://help.geogebra.org/
+作者: GeoGebra GmbH
+绰号： geogebraclassic
+描述: 应用程序捆绑包,包括几何、电子表格、概率和 CAS 的免费工具
+主页: https://www.geogebra.org/download
+许可证: 专有软件
+许可证 URL: https://www.geogebra.org/license
+隐私 URL: https://www.geogebra.org/privacy
+版权所有: © 2024 GeoGebra®
+标记：
+  几何
+  图形
+  教育
+  数学
+  数学工具
+  绘图
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-876-0.exe
+  安装程序 SHA256： 7aa6a5dac3cb4e76946c3c7f2e76e8fe6f4599204e319dfdcce36b4399ccee6c
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\g\GeoGebra\Classic\6.0.876\GeoGebra.Classic.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: GeoGebra.Classic
+PackageVersion: 6.0.876
+FileExtensions:
+- ggb
+Installers:
+- Architecture: x86
+  InstallerType: exe
+  Scope: user
+  InstallerUrl: https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-876-0.exe
+  InstallerSha256: 7AA6A5DAC3CB4E76946C3C7F2E76E8FE6F4599204E319DFDCCE36B4399CCEE6C
+  InstallModes:
+  - interactive
+  - silent
+  InstallerSwitches:
+    Silent: --silent
+    SilentWithProgress: --silent
+  UpgradeBehavior: install
+  ProductCode: GeoGebra_6
+- Architecture: x86
+  InstallerType: wix
+  Scope: machine
+  InstallerUrl: https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-876-0.msi
+  InstallerSha256: 31D36906156DB0CEDD0897563EA084588DC1CBA30D13023E7A59D71F8E04BA4F
+  InstallerSwitches:
+    InstallLocation: APPLICATIONROOTDIRECTORY="<INSTALLPATH>"
+  UpgradeBehavior: uninstallPrevious
+  ProductCode: '{4748282E-2448-11E8-81BC-53A8D56EE868}'
+  AppsAndFeaturesEntries:
+  - ProductCode: '{4748282E-2448-11E8-81BC-53A8D56EE868}'
+    UpgradeCode: '{27555540-BDD5-486C-94BF-D367BC812CEF}'
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 GeoGebra Classic [GeoGebra.Classic] 版本 6.0.876
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-876-0.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 3 of 3 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                    BRANCH                                                     CREATED AT
+#251527  Remove version: GeoGebra.Classic version 6.0.875 (Auto)  ...:Remove-GeoGebra.Classic-6.0.875-1745795425  less than a minute ago
+#251526  Remove version: GeoGebra.Classic version 6.0.874 (Auto)  ...:Remove-GeoGebra.Classic-6.0.874-1745795378  about 1 minute ago
+#251525  Remove version: GeoGebra.Classic version 6.0.873 (Auto)  ...:Remove-GeoGebra.Classic-6.0.873-1745795333  about 1 minute ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                          BRANCH                                            CREATED AT
+#232682  New version: GeoGebra.Classic version 6.0.876  SpecterShell:GeoGebra.Classic-6.0.876-1443781713  about 2 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-GeoGebra.Classic-6.0.876-1745795472'
+  已签出新分支 Remove-GeoGebra.Classic-6.0.876-1745795472
+  已移除软件包 GeoGebra.Classic 版本 6.0.876
+[Remove-GeoGebra.Classic-6.0.876-1745795472 0a85ae0a5da] Remove version: GeoGebra.Classic version 6.0.876
+ 4 files changed, 96 deletions(-)
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.876/GeoGebra.Classic.installer.yaml
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.876/GeoGebra.Classic.locale.en-US.yaml
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.876/GeoGebra.Classic.locale.zh-CN.yaml
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.876/GeoGebra.Classic.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (50/50), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 735 bytes | 735.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-GeoGebra.Classic-6.0.876-1745795472' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-GeoGebra.Classic-6.0.876-1745795472
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-GeoGebra.Classic-6.0.876-1745795472 -> Remove-GeoGebra.Classic-6.0.876-1745795472
+branch 'Remove-GeoGebra.Classic-6.0.876-1745795472' set up to track 'origin/Remove-GeoGebra.Classic-6.0.876-1745795472'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251528
+ 成功移除 GeoGebra.Classic 版本 6.0.876
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-GeoGebra.Classic-6.0.876-1745795472 (was 0a85ae0a5da).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.Classic 6.0.878
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 GeoGebra Classic [GeoGebra.Classic]
+版本
+-------
+6.0.883
+6.0.882
+6.0.881
+6.0.879
+6.0.878
+6.0.876
+6.0.875
+6.0.874
+6.0.873
+======= 此软件包版本在 winget 上的信息 =======
+已找到 GeoGebra Classic [GeoGebra.Classic]
+版本: 6.0.878
+发布者: International GeoGebra Institute
+发布服务器 URL: https://www.geogebra.org/
+发布服务器支持 URL: https://help.geogebra.org/
+作者: GeoGebra GmbH
+绰号： geogebraclassic
+描述: 应用程序捆绑包,包括几何、电子表格、概率和 CAS 的免费工具
+主页: https://www.geogebra.org/download
+许可证: 专有软件
+许可证 URL: https://www.geogebra.org/license
+隐私 URL: https://www.geogebra.org/privacy
+版权所有: © 2024 GeoGebra®
+标记：
+  几何
+  图形
+  教育
+  数学
+  数学工具
+  绘图
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-878-0.exe
+  安装程序 SHA256： cfc2a5a2ffa7194ff22c82a766f7a45227eca451071f4edf623f4a8c4227e9cb
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\g\GeoGebra\Classic\6.0.878\GeoGebra.Classic.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: GeoGebra.Classic
+PackageVersion: 6.0.878
+FileExtensions:
+- ggb
+Installers:
+- Architecture: x86
+  InstallerType: exe
+  Scope: user
+  InstallerUrl: https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-878-0.exe
+  InstallerSha256: CFC2A5A2FFA7194FF22C82A766F7A45227ECA451071F4EDF623F4A8C4227E9CB
+  InstallModes:
+  - interactive
+  - silent
+  InstallerSwitches:
+    Silent: --silent
+    SilentWithProgress: --silent
+  UpgradeBehavior: install
+  ProductCode: GeoGebra_6
+- Architecture: x86
+  InstallerType: wix
+  Scope: machine
+  InstallerUrl: https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-878-0.msi
+  InstallerSha256: 82F5DF709646A0A3617B805D12DC6FA872984C9222E68A76431EE5FBBA7D2FC7
+  InstallerSwitches:
+    InstallLocation: APPLICATIONROOTDIRECTORY="<INSTALLPATH>"
+  UpgradeBehavior: uninstallPrevious
+  ProductCode: '{4748282E-2448-11E8-81BC-53A8D56EE868}'
+  AppsAndFeaturesEntries:
+  - ProductCode: '{4748282E-2448-11E8-81BC-53A8D56EE868}'
+    UpgradeCode: '{27555540-BDD5-486C-94BF-D367BC812CEF}'
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 GeoGebra Classic [GeoGebra.Classic] 版本 6.0.878
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-878-0.exe
+  ▎                               1024 KB /  111 MB
+已取消操作，没有修改任何文件
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> # 它是在下载什么玩意？ - 手动验证确定 404 Not Found...
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.Classic 6.0.878
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 GeoGebra Classic [GeoGebra.Classic]
+版本
+-------
+6.0.883
+6.0.882
+6.0.881
+6.0.879
+6.0.878
+6.0.876
+6.0.875
+6.0.874
+6.0.873
+======= 此软件包版本在 winget 上的信息 =======
+已找到 GeoGebra Classic [GeoGebra.Classic]
+版本: 6.0.878
+发布者: International GeoGebra Institute
+发布服务器 URL: https://www.geogebra.org/
+发布服务器支持 URL: https://help.geogebra.org/
+作者: GeoGebra GmbH
+绰号： geogebraclassic
+描述: 应用程序捆绑包,包括几何、电子表格、概率和 CAS 的免费工具
+主页: https://www.geogebra.org/download
+许可证: 专有软件
+许可证 URL: https://www.geogebra.org/license
+隐私 URL: https://www.geogebra.org/privacy
+版权所有: © 2024 GeoGebra®
+标记：
+  几何
+  图形
+  教育
+  数学
+  数学工具
+  绘图
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-878-0.exe
+  安装程序 SHA256： cfc2a5a2ffa7194ff22c82a766f7a45227eca451071f4edf623f4a8c4227e9cb
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\g\GeoGebra\Classic\6.0.878\GeoGebra.Classic.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: GeoGebra.Classic
+PackageVersion: 6.0.878
+FileExtensions:
+- ggb
+Installers:
+- Architecture: x86
+  InstallerType: exe
+  Scope: user
+  InstallerUrl: https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-878-0.exe
+  InstallerSha256: CFC2A5A2FFA7194FF22C82A766F7A45227ECA451071F4EDF623F4A8C4227E9CB
+  InstallModes:
+  - interactive
+  - silent
+  InstallerSwitches:
+    Silent: --silent
+    SilentWithProgress: --silent
+  UpgradeBehavior: install
+  ProductCode: GeoGebra_6
+- Architecture: x86
+  InstallerType: wix
+  Scope: machine
+  InstallerUrl: https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-878-0.msi
+  InstallerSha256: 82F5DF709646A0A3617B805D12DC6FA872984C9222E68A76431EE5FBBA7D2FC7
+  InstallerSwitches:
+    InstallLocation: APPLICATIONROOTDIRECTORY="<INSTALLPATH>"
+  UpgradeBehavior: uninstallPrevious
+  ProductCode: '{4748282E-2448-11E8-81BC-53A8D56EE868}'
+  AppsAndFeaturesEntries:
+  - ProductCode: '{4748282E-2448-11E8-81BC-53A8D56EE868}'
+    UpgradeCode: '{27555540-BDD5-486C-94BF-D367BC812CEF}'
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 GeoGebra Classic [GeoGebra.Classic] 版本 6.0.878
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-878-0.exe
+  █████████████████▏              64.0 MB /  111 MB
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 4 of 4 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                    BRANCH                                                     CREATED AT
+#251528  Remove version: GeoGebra.Classic version 6.0.876 (Auto)  ...:Remove-GeoGebra.Classic-6.0.876-1745795472  about 5 minutes ago
+#251527  Remove version: GeoGebra.Classic version 6.0.875 (Auto)  ...:Remove-GeoGebra.Classic-6.0.875-1745795425  about 6 minutes ago
+#251526  Remove version: GeoGebra.Classic version 6.0.874 (Auto)  ...:Remove-GeoGebra.Classic-6.0.874-1745795378  about 6 minutes ago
+#251525  Remove version: GeoGebra.Classic version 6.0.873 (Auto)  ...:Remove-GeoGebra.Classic-6.0.873-1745795333  about 7 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                          BRANCH                                           CREATED AT
+#240668  New version: GeoGebra.Classic version 6.0.878  SpecterShell:GeoGebra.Classic-6.0.878-105831536  about 1 month ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-GeoGebra.Classic-6.0.878-1745795808'
+  已签出新分支 Remove-GeoGebra.Classic-6.0.878-1745795808
+  已移除软件包 GeoGebra.Classic 版本 6.0.878
+[Remove-GeoGebra.Classic-6.0.878-1745795808 a58518b3e3c] Remove version: GeoGebra.Classic version 6.0.878
+ 4 files changed, 96 deletions(-)
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.878/GeoGebra.Classic.installer.yaml
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.878/GeoGebra.Classic.locale.en-US.yaml
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.878/GeoGebra.Classic.locale.zh-CN.yaml
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.878/GeoGebra.Classic.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (50/50), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 734 bytes | 734.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-GeoGebra.Classic-6.0.878-1745795808' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-GeoGebra.Classic-6.0.878-1745795808
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-GeoGebra.Classic-6.0.878-1745795808 -> Remove-GeoGebra.Classic-6.0.878-1745795808
+branch 'Remove-GeoGebra.Classic-6.0.878-1745795808' set up to track 'origin/Remove-GeoGebra.Classic-6.0.878-1745795808'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/251529
+ 成功移除 GeoGebra.Classic 版本 6.0.878
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-GeoGebra.Classic-6.0.878-1745795808 (was a58518b3e3c).
+工作区清理完成

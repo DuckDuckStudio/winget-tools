@@ -1,0 +1,30 @@
+~~ Start logging ~~
+2025-04-27 15:54:42.624 FUN 红石学多了，就丧失了人性。
+2025-04-27 15:54:42.626 INFO Found the following version folder: ['5.1.7']
+2025-04-27 15:54:42.792 INFO Processing version folder: 5.1.7
+2025-04-27 15:54:42.793 INFO   Create and checkout to a new branch: NewVersion-Brosix.Brosix-5.1.7-1745740482
+2025-04-27 15:54:53.957 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Brosix\Brosix\5.1.7\Brosix.Brosix.installer.yaml
+2025-04-27 15:54:53.959 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-27 15:54:53.960 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-27 15:54:53.961 INFO     Cleaned up Brosix.Brosix.installer.yaml
+2025-04-27 15:54:53.963 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Brosix\Brosix\5.1.7\Brosix.Brosix.installer.yaml
+2025-04-27 15:54:54.195 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Brosix\Brosix\5.1.7\Brosix.Brosix.locale.en-US.yaml
+2025-04-27 15:54:54.198 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-27 15:54:54.200 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-27 15:54:54.201 INFO     Cleaned up Brosix.Brosix.locale.en-US.yaml
+2025-04-27 15:54:54.203 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Brosix\Brosix\5.1.7\Brosix.Brosix.locale.en-US.yaml
+2025-04-27 15:54:54.364 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Brosix\Brosix\5.1.7\Brosix.Brosix.yaml
+2025-04-27 15:54:54.366 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-27 15:54:54.368 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-27 15:54:54.369 INFO     Cleaned up Brosix.Brosix.yaml
+2025-04-27 15:54:54.379 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Brosix\Brosix\5.1.7\Brosix.Brosix.yaml
+2025-04-27 15:54:54.565 INFO   New manifests in D:\...\winget-pkgs\manifests\b\Brosix\Brosix\5.1.7 for Brosix.Brosix (5.1.7)
+2025-04-27 16:03:40.698 INFO     清单验证成功。
+2025-04-27 16:03:40.712 INFO   Staging and Committing Changes to Git
+2025-04-27 16:03:50.924 INFO     Commit message: New version: Brosix.Brosix version 5.1.7 (Auto)
+2025-04-27 16:03:50.926 INFO   Pushing changes to remote (origin) repository
+2025-04-27 16:03:57.517 INFO     Successfully pushed to remote (origin): NewVersion-Brosix.Brosix-5.1.7-1745740482
+2025-04-27 16:03:58.902 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/251426
+2025-04-27 16:03:58.910 INFO All manifests have been modified and pushed through.
+2025-04-27 16:04:05.188 INFO Workspace clean-up completed.
+~~ End of logging ~~

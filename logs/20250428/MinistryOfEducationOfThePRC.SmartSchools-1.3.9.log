@@ -1,0 +1,39 @@
+~~ Start logging ~~
+2025-04-28 02:28:17.386 FUN (*≧︶≦))(￣▽￣* )ゞ
+2025-04-28 02:28:17.390 INFO Found the following version folder: ['1.3.5', '1.3.6', '1.3.7', '1.3.8', '1.3.9']
+2025-04-28 02:28:17.613 INFO Skip version 1.3.5, because it's not in the list of versions to be modified.
+2025-04-28 02:28:17.615 INFO Skip version 1.3.6, because it's not in the list of versions to be modified.
+2025-04-28 02:28:17.616 INFO Skip version 1.3.7, because it's not in the list of versions to be modified.
+2025-04-28 02:28:17.617 INFO Skip version 1.3.8, because it's not in the list of versions to be modified.
+2025-04-28 02:28:17.618 INFO Processing version folder: 1.3.9
+2025-04-28 02:28:17.619 INFO   Create and checkout to a new branch: NewVersion-MinistryOfEducationOfThePRC.SmartSchools-1.3.9-1745778497
+2025-04-28 02:28:23.952 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\MinistryOfEducationOfThePRC\SmartSchools\1.3.9\MinistryOfEducationOfThePRC.SmartSchools.installer.yaml
+2025-04-28 02:28:23.953 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-28 02:28:23.954 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-28 02:28:23.955 INFO     Cleaned up MinistryOfEducationOfThePRC.SmartSchools.installer.yaml
+2025-04-28 02:28:23.958 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\MinistryOfEducationOfThePRC\SmartSchools\1.3.9\MinistryOfEducationOfThePRC.SmartSchools.installer.yaml
+2025-04-28 02:28:24.217 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\MinistryOfEducationOfThePRC\SmartSchools\1.3.9\MinistryOfEducationOfThePRC.SmartSchools.locale.en-US.yaml
+2025-04-28 02:28:24.219 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-28 02:28:24.220 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-28 02:28:24.221 INFO     Cleaned up MinistryOfEducationOfThePRC.SmartSchools.locale.en-US.yaml
+2025-04-28 02:28:24.223 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\MinistryOfEducationOfThePRC\SmartSchools\1.3.9\MinistryOfEducationOfThePRC.SmartSchools.locale.en-US.yaml
+2025-04-28 02:28:24.360 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\MinistryOfEducationOfThePRC\SmartSchools\1.3.9\MinistryOfEducationOfThePRC.SmartSchools.locale.zh-CN.yaml
+2025-04-28 02:28:24.362 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-28 02:28:24.364 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-28 02:28:24.365 INFO     Cleaned up MinistryOfEducationOfThePRC.SmartSchools.locale.zh-CN.yaml
+2025-04-28 02:28:24.368 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\MinistryOfEducationOfThePRC\SmartSchools\1.3.9\MinistryOfEducationOfThePRC.SmartSchools.locale.zh-CN.yaml
+2025-04-28 02:28:24.506 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\MinistryOfEducationOfThePRC\SmartSchools\1.3.9\MinistryOfEducationOfThePRC.SmartSchools.yaml
+2025-04-28 02:28:24.508 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-04-28 02:28:24.509 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-04-28 02:28:24.510 INFO     Cleaned up MinistryOfEducationOfThePRC.SmartSchools.yaml
+2025-04-28 02:28:24.513 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\MinistryOfEducationOfThePRC\SmartSchools\1.3.9\MinistryOfEducationOfThePRC.SmartSchools.yaml
+2025-04-28 02:28:24.660 INFO   New manifests in D:\...\winget-pkgs\manifests\m\MinistryOfEducationOfThePRC\SmartSchools\1.3.9 for MinistryOfEducationOfThePRC.SmartSchools (1.3.9)
+2025-04-28 02:30:23.291 INFO     清单验证成功。
+2025-04-28 02:30:23.304 INFO   Staging and Committing Changes to Git
+2025-04-28 02:30:40.203 INFO     Commit message: New version: MinistryOfEducationOfThePRC.SmartSchools version 1.3.9 (Auto)
+2025-04-28 02:30:40.204 INFO   Pushing changes to remote (origin) repository
+2025-04-28 02:30:47.308 INFO     Successfully pushed to remote (origin): NewVersion-MinistryOfEducationOfThePRC.SmartSchools-1.3.9-1745778497
+2025-04-28 02:30:48.836 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/251491
+2025-04-28 02:30:48.844 INFO All manifests have been modified and pushed through.
+2025-04-28 02:30:55.294 INFO Workspace clean-up completed.
+~~ End of logging ~~
