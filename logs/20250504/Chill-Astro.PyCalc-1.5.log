@@ -1,0 +1,30 @@
+~~ Start logging ~~
+2025-05-04 19:04:03.373 FUN Just do it!
+2025-05-04 19:04:03.376 INFO Found the following version folder: ['1.5']
+2025-05-04 19:04:03.575 INFO Processing version folder: 1.5
+2025-05-04 19:04:03.577 INFO   Create and checkout to a new branch: NewVersion-Chill-Astro.PyCalc-1.5-1746356643
+2025-05-04 19:04:15.271 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Chill-Astro\PyCalc\1.5\Chill-Astro.PyCalc.installer.yaml
+2025-05-04 19:04:15.274 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-04 19:04:15.276 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-04 19:04:15.277 INFO     Cleaned up Chill-Astro.PyCalc.installer.yaml
+2025-05-04 19:04:15.279 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Chill-Astro\PyCalc\1.5\Chill-Astro.PyCalc.installer.yaml
+2025-05-04 19:04:15.552 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Chill-Astro\PyCalc\1.5\Chill-Astro.PyCalc.locale.en-US.yaml
+2025-05-04 19:04:15.558 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-04 19:04:15.560 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-04 19:04:15.563 INFO     Cleaned up Chill-Astro.PyCalc.locale.en-US.yaml
+2025-05-04 19:04:15.565 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Chill-Astro\PyCalc\1.5\Chill-Astro.PyCalc.locale.en-US.yaml
+2025-05-04 19:04:15.725 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Chill-Astro\PyCalc\1.5\Chill-Astro.PyCalc.yaml
+2025-05-04 19:04:15.728 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-04 19:04:15.729 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-04 19:04:15.731 INFO     Cleaned up Chill-Astro.PyCalc.yaml
+2025-05-04 19:04:15.734 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Chill-Astro\PyCalc\1.5\Chill-Astro.PyCalc.yaml
+2025-05-04 19:04:15.908 INFO   New manifests in D:\...\winget-pkgs\manifests\c\Chill-Astro\PyCalc\1.5 for Chill-Astro.PyCalc (1.5)
+2025-05-04 19:18:13.882 INFO     清单验证成功。
+2025-05-04 19:18:13.896 INFO   Staging and Committing Changes to Git
+2025-05-04 19:18:26.132 INFO     Commit message: New version: Chill-Astro.PyCalc version 1.5 (Auto)
+2025-05-04 19:18:26.134 INFO   Pushing changes to remote (origin) repository
+2025-05-04 19:18:31.198 INFO     Successfully pushed to remote (origin): NewVersion-Chill-Astro.PyCalc-1.5-1746356643
+2025-05-04 19:18:33.381 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/253643
+2025-05-04 19:18:33.419 INFO All manifests have been modified and pushed through.
+2025-05-04 19:18:40.472 INFO Workspace clean-up completed.
+~~ End of logging ~~
