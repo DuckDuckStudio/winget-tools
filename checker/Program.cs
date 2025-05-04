@@ -381,6 +381,7 @@ namespace checker
                 "https://aurorabuilder.com/downloads/Aurora%20Setup.zip", // 假400
                 "https://download.eset.com/com/eset/tools/installers/av_remover/latest/avremover_arm64_enu.exe", "https://cdn.localwp.com/releases-stable", // WIP
                 "http://www.sminstall.com/simsetup.exe", "http://www.heaventools.com/files/11hFgnI0s/FlexHex_editor_setup.exe", // 讨论中
+                "https://github.com/Chill-Astro/PyCalc-SE/releases/download/Latest/PyCalc-SE-Setup.exe", // WIP - https://github.com/microsoft/winget-pkgs/pull/252669
             ];
             return excludedDomains.Any(domain => url.Contains(domain));
         }
