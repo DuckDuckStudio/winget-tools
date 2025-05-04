@@ -1,0 +1,36 @@
+~~ Start logging ~~
+2025-05-04 19:27:50.747 FUN 提问: 罗浮六御中谁最幸福? 答案: 符玄。因为她姓符。
+2025-05-04 19:27:50.751 INFO Found the following version folder: ['6.29', '7.37']
+2025-05-04 19:27:50.916 INFO Skip version 6.29, because it's not in the list of versions to be modified.
+2025-05-04 19:27:50.917 INFO Processing version folder: 7.37
+2025-05-04 19:27:50.919 INFO   Create and checkout to a new branch: NewVersion-Bandisoft.Bandizip-7.37-1746358070
+2025-05-04 19:28:05.173 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Bandisoft\Bandizip\7.37\Bandisoft.Bandizip.installer.yaml
+2025-05-04 19:28:05.176 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-04 19:28:05.178 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-04 19:28:05.179 INFO     Cleaned up Bandisoft.Bandizip.installer.yaml
+2025-05-04 19:28:05.182 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Bandisoft\Bandizip\7.37\Bandisoft.Bandizip.installer.yaml
+2025-05-04 19:28:05.458 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Bandisoft\Bandizip\7.37\Bandisoft.Bandizip.locale.en-US.yaml
+2025-05-04 19:28:05.497 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-04 19:28:05.499 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-04 19:28:05.500 INFO     Cleaned up Bandisoft.Bandizip.locale.en-US.yaml
+2025-05-04 19:28:05.503 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Bandisoft\Bandizip\7.37\Bandisoft.Bandizip.locale.en-US.yaml
+2025-05-04 19:28:05.665 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Bandisoft\Bandizip\7.37\Bandisoft.Bandizip.locale.zh-CN.yaml
+2025-05-04 19:28:05.668 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-04 19:28:05.670 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-04 19:28:05.672 INFO     Cleaned up Bandisoft.Bandizip.locale.zh-CN.yaml
+2025-05-04 19:28:05.676 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Bandisoft\Bandizip\7.37\Bandisoft.Bandizip.locale.zh-CN.yaml
+2025-05-04 19:28:05.842 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Bandisoft\Bandizip\7.37\Bandisoft.Bandizip.yaml
+2025-05-04 19:28:05.844 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-04 19:28:05.846 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-04 19:28:05.847 INFO     Cleaned up Bandisoft.Bandizip.yaml
+2025-05-04 19:28:05.852 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Bandisoft\Bandizip\7.37\Bandisoft.Bandizip.yaml
+2025-05-04 19:28:06.296 INFO   New manifests in D:\...\winget-pkgs\manifests\b\Bandisoft\Bandizip\7.37 for Bandisoft.Bandizip (7.37)
+2025-05-04 19:31:35.963 INFO     清单验证成功。
+2025-05-04 19:31:35.976 INFO   Staging and Committing Changes to Git
+2025-05-04 19:31:42.654 INFO     Commit message: New version: Bandisoft.Bandizip version 7.37 (Auto)
+2025-05-04 19:31:42.655 INFO   Pushing changes to remote (origin) repository
+2025-05-04 19:31:48.758 INFO     Successfully pushed to remote (origin): NewVersion-Bandisoft.Bandizip-7.37-1746358070
+2025-05-04 19:31:50.246 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/253646
+2025-05-04 19:31:50.250 INFO All manifests have been modified and pushed through.
+2025-05-04 19:31:57.523 INFO Workspace clean-up completed.
+~~ End of logging ~~
