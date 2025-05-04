@@ -1,0 +1,3013 @@
+PowerShell 7.5.1
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 7.2.0 "It returns a 404 status code in GitHub Action and has been automatically verified.
+>>
+>> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Local [Flywheel.Local]
+版本
+----------------
+9.2.4
+9.2.3
+9.2.0
+8.1.0
+7.2.1
+7.2.0
+7.1.2
+7.1.0
+6.7.0.20230323.2
+6.6.1
+6.6.0
+6.5.2
+6.5.1
+6.4.3
+6.4.2
+6.4.1
+6.4.0
+6.3.1
+6.3.0
+6.2.0
+6.1.8
+6.1.0
+6.0.0
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Local [Flywheel.Local]
+版本: 7.2.0
+发布者: WPEngine, Inc.
+发布服务器 URL: https://localwp.com
+发布服务器支持 URL: https://localwp.com/help-docs
+绰号： flywheel-local
+描述: Local is a free local development environment designed to simplify the workflow of WordPress developers and designers. Download it for free today!
+主页: https://localwp.com
+许可证: Proprietary
+许可证 URL: https://localwp.com/legal
+隐私 URL: https://localwp.com/legal/privacy-policy
+版权所有: Copyright (c) 2021 Local
+版权 URL: https://localwp.com/legal
+标记：
+  development
+  flywheel
+  sites
+  web
+  wordpress
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://cdn.localwp.com/releases-stable/7.2.0+6425/local-7.2.0-windows.exe
+  安装程序 SHA256： a3e5c147cb71dca59bd622575d115986b702de5ebd354723552b1d9e8162c506
+  发布日期: 2023-09-11
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\f\Flywheel\Local\7.2.0\Flywheel.Local.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Flywheel.Local
+PackageVersion: 7.2.0
+Platform:
+- Windows.Desktop
+InstallerType: nullsoft
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+ReleaseDate: 2023-09-11
+Installers:
+- Architecture: x86
+  Scope: user
+  InstallerUrl: https://cdn.localwp.com/releases-stable/7.2.0+6425/local-7.2.0-windows.exe
+  InstallerSha256: A3E5C147CB71DCA59BD622575D115986B702DE5EBD354723552B1D9E8162C506
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+- Architecture: x86
+  Scope: machine
+  InstallerUrl: https://cdn.localwp.com/releases-stable/7.2.0+6425/local-7.2.0-windows.exe
+  InstallerSha256: A3E5C147CB71DCA59BD622575D115986B702DE5EBD354723552B1D9E8162C506
+  InstallerSwitches:
+    Custom: /ALLUSERS
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Local [Flywheel.Local] 版本 7.2.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://cdn.localwp.com/releases-stable/7.2.0+6425/local-7.2.0-windows.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+no pull requests match your search in microsoft/winget-pkgs
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                      BRANCH                                              CREATED AT
+#119481  New version: Flywheel.Local version 7.2.0  vedantmgoyal9:Flywheel.Local-7.2.0-DB95838F18A3...  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Flywheel.Local-7.2.0-1746198279'
+  已签出新分支 Remove-Flywheel.Local-7.2.0-1746198279
+  已移除软件包 Flywheel.Local 版本 7.2.0
+[Remove-Flywheel.Local-7.2.0-1746198279 d55badd19f4] Remove version: Flywheel.Local version 7.2.0
+ 3 files changed, 69 deletions(-)
+ delete mode 100644 manifests/f/Flywheel/Local/7.2.0/Flywheel.Local.installer.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/7.2.0/Flywheel.Local.locale.en-US.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/7.2.0/Flywheel.Local.yaml
+  已提交修改
+Enumerating objects: 26, done.
+Counting objects: 100% (24/24), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 718 bytes | 718.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-Flywheel.Local-7.2.0-1746198279' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Flywheel.Local-7.2.0-1746198279
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Flywheel.Local-7.2.0-1746198279 -> Remove-Flywheel.Local-7.2.0-1746198279
+branch 'Remove-Flywheel.Local-7.2.0-1746198279' set up to track 'origin/Remove-Flywheel.Local-7.2.0-1746198279'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/253272
+ 成功移除 Flywheel.Local 版本 7.2.0
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Flywheel.Local-7.2.0-1746198279 (was d55badd19f4).
+Deleted branch if/storj-uplink-v1.127.1 (was be4e8533872).
+工作区清理完成
+
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.4.3 "It returns a 404 status code in GitHub Action and has been automatically verified.
+>>
+>> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Local [Flywheel.Local]
+版本
+----------------
+9.2.4
+9.2.3
+9.2.0
+8.1.0
+7.2.1
+7.2.0
+7.1.2
+7.1.0
+6.7.0.20230323.2
+6.6.1
+6.6.0
+6.5.2
+6.5.1
+6.4.3
+6.4.2
+6.4.1
+6.4.0
+6.3.1
+6.3.0
+6.2.0
+6.1.8
+6.1.0
+6.0.0
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Local [Flywheel.Local]
+版本: 6.4.3
+发布者: WPEngine, Inc.
+发布服务器 URL: https://localwp.com
+发布服务器支持 URL: https://localwp.com/help-docs
+绰号： flywheel-local
+描述: Local is a free local development environment designed to simplify the workflow of WordPress developers and designers. Download it for free today!
+主页: https://localwp.com
+许可证: Proprietary
+许可证 URL: https://localwp.com/legal
+隐私 URL: https://localwp.com/legal/privacy-policy
+版权所有: Copyright (c) 2021 Local
+版权 URL: https://localwp.com/legal
+标记：
+  development
+  flywheel
+  sites
+  web
+  wordpress
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://cdn.localwp.com/releases-stable/6.4.3+6116/local-6.4.3-windows.exe
+  安装程序 SHA256： ce10c36d95d850e35c6f3fe391dd0a4c2ef9affeb6b3d1e4ba8b975485b7eeb3
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\f\Flywheel\Local\6.4.3\Flywheel.Local.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Flywheel.Local
+PackageVersion: 6.4.3
+Platform:
+- Windows.Desktop
+MinimumOSVersion: 10.0.0.0
+InstallerType: nullsoft
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  Scope: user
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.4.3+6116/local-6.4.3-windows.exe
+  InstallerSha256: CE10C36D95D850E35C6F3FE391DD0A4C2EF9AFFEB6B3D1E4BA8B975485B7EEB3
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+- Architecture: x86
+  Scope: machine
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.4.3+6116/local-6.4.3-windows.exe
+  InstallerSha256: CE10C36D95D850E35C6F3FE391DD0A4C2EF9AFFEB6B3D1E4BA8B975485B7EEB3
+  InstallerSwitches:
+    Custom: /ALLUSERS
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Local [Flywheel.Local] 版本 6.4.3
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://cdn.localwp.com/releases-stable/6.4.3+6116/local-6.4.3-windows.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                        BRANCH                                      CREATED AT
+#253272  Remove version: Flywheel.Local version 7...  ...:Remove-Flywheel.Local-7....  less than a minute ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID      TITLE                                      BRANCH                                             CREATED AT
+#79436  New version: Flywheel.Local version 6.4.3  vedantmgoyal9:Flywheel.Local-6.4.3-838A1766802D9E  about 2 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Flywheel.Local-6.4.3-1746198355'
+  已签出新分支 Remove-Flywheel.Local-6.4.3-1746198355
+  已移除软件包 Flywheel.Local 版本 6.4.3
+[Remove-Flywheel.Local-6.4.3-1746198355 8cba97c04ae] Remove version: Flywheel.Local version 6.4.3
+ 3 files changed, 69 deletions(-)
+ delete mode 100644 manifests/f/Flywheel/Local/6.4.3/Flywheel.Local.installer.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.4.3/Flywheel.Local.locale.en-US.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.4.3/Flywheel.Local.yaml
+  已提交修改
+Enumerating objects: 31, done.
+Counting objects: 100% (29/29), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 718 bytes | 359.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-Flywheel.Local-6.4.3-1746198355' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Flywheel.Local-6.4.3-1746198355
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Flywheel.Local-6.4.3-1746198355 -> Remove-Flywheel.Local-6.4.3-1746198355
+branch 'Remove-Flywheel.Local-6.4.3-1746198355' set up to track 'origin/Remove-Flywheel.Local-6.4.3-1746198355'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/253273
+ 成功移除 Flywheel.Local 版本 6.4.3
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Flywheel.Local-6.4.3-1746198355 (was 8cba97c04ae).
+工作区清理完成
+
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.3.0 "It returns a 404 status code in GitHub Action and has been automatically verified.
+>>
+>> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Local [Flywheel.Local]
+版本
+----------------
+9.2.4
+9.2.3
+9.2.0
+8.1.0
+7.2.1
+7.2.0
+7.1.2
+7.1.0
+6.7.0.20230323.2
+6.6.1
+6.6.0
+6.5.2
+6.5.1
+6.4.3
+6.4.2
+6.4.1
+6.4.0
+6.3.1
+6.3.0
+6.2.0
+6.1.8
+6.1.0
+6.0.0
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Local [Flywheel.Local]
+版本: 6.3.0
+发布者: WPEngine, Inc.
+发布服务器 URL: https://localwp.com
+发布服务器支持 URL: https://localwp.com/help-docs
+绰号： flywheel-local
+描述: Local is a free local development environment designed to simplify the workflow of WordPress developers and designers. Download it for free today!
+主页: https://localwp.com
+许可证: Proprietary
+许可证 URL: https://localwp.com/legal
+隐私 URL: https://localwp.com/legal/privacy-policy
+版权所有: Copyright (c) 2021 Local
+版权 URL: https://localwp.com/legal
+标记：
+  development
+  flywheel
+  sites
+  web
+  wordpress
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://cdn.localwp.com/releases-stable/6.3.0+5756/local-6.3.0-windows.exe
+  安装程序 SHA256： 585887c3e413f038446286b71d85434120fab6ef660c86e584309252646577f9
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\f\Flywheel\Local\6.3.0\Flywheel.Local.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Flywheel.Local
+PackageVersion: 6.3.0
+Platform:
+- Windows.Desktop
+MinimumOSVersion: 10.0.0.0
+InstallerType: nullsoft
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  Scope: user
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.3.0+5756/local-6.3.0-windows.exe
+  InstallerSha256: 585887C3E413F038446286B71D85434120FAB6EF660C86E584309252646577F9
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+- Architecture: x86
+  Scope: machine
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.3.0+5756/local-6.3.0-windows.exe
+  InstallerSha256: 585887C3E413F038446286B71D85434120FAB6EF660C86E584309252646577F9
+  InstallerSwitches:
+    Custom: /ALLUSERS
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Local [Flywheel.Local] 版本 6.3.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://cdn.localwp.com/releases-stable/6.3.0+5756/local-6.3.0-windows.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                        BRANCH                                      CREATED AT
+#253273  Remove version: Flywheel.Local version 6...  ...:Remove-Flywheel.Local-6....  less than a minute ago
+#253272  Remove version: Flywheel.Local version 7...  ...:Remove-Flywheel.Local-7....  about 1 minute ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID      TITLE                                      BRANCH                                             CREATED AT
+#46212  New version: Flywheel.Local version 6.3.0  vedantmgoyal9:Flywheel.Local-6.3.0-D94B732EFA101D  about 3 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Flywheel.Local-6.3.0-1746198422'
+  已签出新分支 Remove-Flywheel.Local-6.3.0-1746198422
+  已移除软件包 Flywheel.Local 版本 6.3.0
+[Remove-Flywheel.Local-6.3.0-1746198422 8a09be5c70a] Remove version: Flywheel.Local version 6.3.0
+ 3 files changed, 69 deletions(-)
+ delete mode 100644 manifests/f/Flywheel/Local/6.3.0/Flywheel.Local.installer.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.3.0/Flywheel.Local.locale.en-US.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.3.0/Flywheel.Local.yaml
+  已提交修改
+Enumerating objects: 36, done.
+Counting objects: 100% (34/34), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 715 bytes | 357.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-Flywheel.Local-6.3.0-1746198422' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Flywheel.Local-6.3.0-1746198422
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Flywheel.Local-6.3.0-1746198422 -> Remove-Flywheel.Local-6.3.0-1746198422
+branch 'Remove-Flywheel.Local-6.3.0-1746198422' set up to track 'origin/Remove-Flywheel.Local-6.3.0-1746198422'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/253274
+ 成功移除 Flywheel.Local 版本 6.3.0
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Flywheel.Local-6.3.0-1746198422 (was 8a09be5c70a).
+工作区清理完成
+
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.5.1 "It returns a 404 status code in GitHub Action and has been automatically verified.
+>>
+>> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Local [Flywheel.Local]
+版本
+----------------
+9.2.4
+9.2.3
+9.2.0
+8.1.0
+7.2.1
+7.2.0
+7.1.2
+7.1.0
+6.7.0.20230323.2
+6.6.1
+6.6.0
+6.5.2
+6.5.1
+6.4.3
+6.4.2
+6.4.1
+6.4.0
+6.3.1
+6.3.0
+6.2.0
+6.1.8
+6.1.0
+6.0.0
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Local [Flywheel.Local]
+版本: 6.5.1
+发布者: WPEngine, Inc.
+发布服务器 URL: https://localwp.com
+发布服务器支持 URL: https://localwp.com/help-docs
+绰号： flywheel-local
+描述: Local is a free local development environment designed to simplify the workflow of WordPress developers and designers. Download it for free today!
+主页: https://localwp.com
+许可证: Proprietary
+许可证 URL: https://localwp.com/legal
+隐私 URL: https://localwp.com/legal/privacy-policy
+版权所有: Copyright (c) 2021 Local
+版权 URL: https://localwp.com/legal
+标记：
+  development
+  flywheel
+  sites
+  web
+  wordpress
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://cdn.localwp.com/releases-stable/6.5.1+6195/local-6.5.1-windows.exe
+  安装程序 SHA256： 5b419d9d27994645e786f91624289b22dccc64f4ee8aa8949a03a12c1dc1b417
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\f\Flywheel\Local\6.5.1\Flywheel.Local.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Flywheel.Local
+PackageVersion: 6.5.1
+Platform:
+- Windows.Desktop
+MinimumOSVersion: 10.0.0.0
+InstallerType: nullsoft
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  Scope: user
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.5.1+6195/local-6.5.1-windows.exe
+  InstallerSha256: 5B419D9D27994645E786F91624289B22DCCC64F4EE8AA8949A03A12C1DC1B417
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+- Architecture: x86
+  Scope: machine
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.5.1+6195/local-6.5.1-windows.exe
+  InstallerSha256: 5B419D9D27994645E786F91624289B22DCCC64F4EE8AA8949A03A12C1DC1B417
+  InstallerSwitches:
+    Custom: /ALLUSERS
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Local [Flywheel.Local] 版本 6.5.1
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://cdn.localwp.com/releases-stable/6.5.1+6195/local-6.5.1-windows.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 3 of 3 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                BRANCH                                                 CREATED AT
+#253274  Remove version: Flywheel.Local version 6.3.0 (Auto)  ...:Remove-Flywheel.Local-6.3.0-1746198422  less than a minute ago
+#253273  Remove version: Flywheel.Local version 6.4.3 (Auto)  ...:Remove-Flywheel.Local-6.4.3-1746198355  about 1 minute ago
+#253272  Remove version: Flywheel.Local version 7.2.0 (Auto)  ...:Remove-Flywheel.Local-7.2.0-1746198279  about 2 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID      TITLE                                      BRANCH                                             CREATED AT
+#87120  New version: Flywheel.Local version 6.5.1  vedantmgoyal9:Flywheel.Local-6.5.1-3F4CD35E4356A4  about 2 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Flywheel.Local-6.5.1-1746198480'
+  已签出新分支 Remove-Flywheel.Local-6.5.1-1746198480
+  已移除软件包 Flywheel.Local 版本 6.5.1
+[Remove-Flywheel.Local-6.5.1-1746198480 19ecd5eecc1] Remove version: Flywheel.Local version 6.5.1
+ 3 files changed, 69 deletions(-)
+ delete mode 100644 manifests/f/Flywheel/Local/6.5.1/Flywheel.Local.installer.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.5.1/Flywheel.Local.locale.en-US.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.5.1/Flywheel.Local.yaml
+  已提交修改
+Enumerating objects: 41, done.
+Counting objects: 100% (39/39), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 717 bytes | 717.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-Flywheel.Local-6.5.1-1746198480' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Flywheel.Local-6.5.1-1746198480
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Flywheel.Local-6.5.1-1746198480 -> Remove-Flywheel.Local-6.5.1-1746198480
+branch 'Remove-Flywheel.Local-6.5.1-1746198480' set up to track 'origin/Remove-Flywheel.Local-6.5.1-1746198480'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/253276
+ 成功移除 Flywheel.Local 版本 6.5.1
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Flywheel.Local-6.5.1-1746198480 (was 19ecd5eecc1).
+工作区清理完成
+
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.2.0 "It returns a 404 status code in GitHub Action and has been automatically verified.
+>>
+>> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Local [Flywheel.Local]
+版本
+----------------
+9.2.4
+9.2.3
+9.2.0
+8.1.0
+7.2.1
+7.2.0
+7.1.2
+7.1.0
+6.7.0.20230323.2
+6.6.1
+6.6.0
+6.5.2
+6.5.1
+6.4.3
+6.4.2
+6.4.1
+6.4.0
+6.3.1
+6.3.0
+6.2.0
+6.1.8
+6.1.0
+6.0.0
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Local [Flywheel.Local]
+版本: 6.2.0
+发布者: WPEngine, Inc.
+发布服务器 URL: https://localwp.com
+发布服务器支持 URL: https://localwp.com/help-docs
+绰号： flywheel-local
+描述: Local is a free local development environment designed to simplify the workflow of WordPress developers and designers. Download it for free today!
+主页: https://localwp.com
+许可证: Proprietary
+许可证 URL: https://localwp.com/legal
+隐私 URL: https://localwp.com/legal/privacy-policy
+版权所有: Copyright (c) 2021 Local
+版权 URL: https://localwp.com/legal
+标记：
+  development
+  flywheel
+  sites
+  web
+  wordpress
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://cdn.localwp.com/releases-stable/6.2.0+5679/local-6.2.0-windows.exe
+  安装程序 SHA256： 48f003ec052031d5fe8c3ed62c72b59278a0fb8544eb573bb0ad993eac3d0e9d
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\f\Flywheel\Local\6.2.0\Flywheel.Local.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Flywheel.Local
+PackageVersion: 6.2.0
+Platform:
+- Windows.Desktop
+MinimumOSVersion: 10.0.0.0
+InstallerType: nullsoft
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  Scope: user
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.2.0+5679/local-6.2.0-windows.exe
+  InstallerSha256: 48F003EC052031D5FE8C3ED62C72B59278A0FB8544EB573BB0AD993EAC3D0E9D
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+- Architecture: x86
+  Scope: machine
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.2.0+5679/local-6.2.0-windows.exe
+  InstallerSha256: 48F003EC052031D5FE8C3ED62C72B59278A0FB8544EB573BB0AD993EAC3D0E9D
+  InstallerSwitches:
+    Custom: /ALLUSERS
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Local [Flywheel.Local] 版本 6.2.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://cdn.localwp.com/releases-stable/6.2.0+5679/local-6.2.0-windows.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 4 of 4 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                BRANCH                                                 CREATED AT
+#253276  Remove version: Flywheel.Local version 6.5.1 (Auto)  ...:Remove-Flywheel.Local-6.5.1-1746198480  less than a minute ago
+#253274  Remove version: Flywheel.Local version 6.3.0 (Auto)  ...:Remove-Flywheel.Local-6.3.0-1746198422  about 1 minute ago
+#253273  Remove version: Flywheel.Local version 6.4.3 (Auto)  ...:Remove-Flywheel.Local-6.4.3-1746198355  about 2 minutes ago
+#253272  Remove version: Flywheel.Local version 7.2.0 (Auto)  ...:Remove-Flywheel.Local-7.2.0-1746198279  about 3 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID      TITLE                                      BRANCH                                             CREATED AT
+#41467  New version: Flywheel.Local version 6.2.0  vedantmgoyal9:Flywheel.Local-6.2.0-E1FDA999A27F9B  about 3 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Flywheel.Local-6.2.0-1746198539'
+  已签出新分支 Remove-Flywheel.Local-6.2.0-1746198539
+  已移除软件包 Flywheel.Local 版本 6.2.0
+[Remove-Flywheel.Local-6.2.0-1746198539 ed8493f3bef] Remove version: Flywheel.Local version 6.2.0
+ 3 files changed, 69 deletions(-)
+ delete mode 100644 manifests/f/Flywheel/Local/6.2.0/Flywheel.Local.installer.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.2.0/Flywheel.Local.locale.en-US.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.2.0/Flywheel.Local.yaml
+  已提交修改
+Enumerating objects: 46, done.
+Counting objects: 100% (44/44), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 712 bytes | 712.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-Flywheel.Local-6.2.0-1746198539' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Flywheel.Local-6.2.0-1746198539
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Flywheel.Local-6.2.0-1746198539 -> Remove-Flywheel.Local-6.2.0-1746198539
+branch 'Remove-Flywheel.Local-6.2.0-1746198539' set up to track 'origin/Remove-Flywheel.Local-6.2.0-1746198539'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/253277
+ 成功移除 Flywheel.Local 版本 6.2.0
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Flywheel.Local-6.2.0-1746198539 (was ed8493f3bef).
+工作区清理完成
+
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.1.0 "It returns a 404 status code in GitHub Action and has been automatically verified.
+>>
+>> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Local [Flywheel.Local]
+版本
+----------------
+9.2.4
+9.2.3
+9.2.0
+8.1.0
+7.2.1
+7.2.0
+7.1.2
+7.1.0
+6.7.0.20230323.2
+6.6.1
+6.6.0
+6.5.2
+6.5.1
+6.4.3
+6.4.2
+6.4.1
+6.4.0
+6.3.1
+6.3.0
+6.2.0
+6.1.8
+6.1.0
+6.0.0
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Local [Flywheel.Local]
+版本: 6.1.0
+发布者: Flywheel
+发布服务器 URL: https://localwp.com
+发布服务器支持 URL: https://localwp.com/help-docs
+绰号： flywheel-local
+描述: Local is a free local development environment designed to simplify the workflow of WordPress developers and designers. Download it for free today!
+主页: https://localwp.com
+许可证: Proprietary
+许可证 URL: https://localwp.com/legal
+隐私 URL: https://localwp.com/legal/privacy-policy
+版权所有: Copyright (c) 2021 Local
+版权 URL: https://localwp.com/legal
+标记：
+  development
+  flywheel
+  sites
+  web
+  wordpress
+安装：
+  安装程序类型： nullsoft
+  安装程序区域设置： en-US
+  安装程序 URL： https://cdn.localwp.com/releases-stable/6.1.0+5452/local-6.1.0-windows.exe
+  安装程序 SHA256： 4abc49b8586c6ac114e73bb793c9a0c444e5e405c4b7e503bd30c95b9db3fd17
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\f\Flywheel\Local\6.1.0\Flywheel.Local.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Flywheel.Local
+PackageVersion: 6.1.0
+InstallerLocale: en-US
+MinimumOSVersion: 10.0.0.0
+InstallerType: nullsoft
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  Scope: user
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.1.0+5452/local-6.1.0-windows.exe
+  InstallerSha256: 4ABC49B8586C6AC114E73BB793C9A0C444E5E405C4B7E503BD30C95B9DB3FD17
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+- Architecture: x86
+  Scope: machine
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.1.0+5452/local-6.1.0-windows.exe
+  InstallerSha256: 4ABC49B8586C6AC114E73BB793C9A0C444E5E405C4B7E503BD30C95B9DB3FD17
+  InstallerSwitches:
+    Custom: /ALLUSERS
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Local [Flywheel.Local] 版本 6.1.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://cdn.localwp.com/releases-stable/6.1.0+5452/local-6.1.0-windows.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 5 of 5 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                BRANCH                                                 CREATED AT
+#253277  Remove version: Flywheel.Local version 6.2.0 (Auto)  ...:Remove-Flywheel.Local-6.2.0-1746198539  less than a minute ago
+#253276  Remove version: Flywheel.Local version 6.5.1 (Auto)  ...:Remove-Flywheel.Local-6.5.1-1746198480  about 1 minute ago
+#253274  Remove version: Flywheel.Local version 6.3.0 (Auto)  ...:Remove-Flywheel.Local-6.3.0-1746198422  about 2 minutes ago
+#253273  Remove version: Flywheel.Local version 6.4.3 (Auto)  ...:Remove-Flywheel.Local-6.4.3-1746198355  about 3 minutes ago
+#253272  Remove version: Flywheel.Local version 7.2.0 (Auto)  ...:Remove-Flywheel.Local-7.2.0-1746198279  about 4 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID      TITLE                              BRANCH                                  CREATED AT
+#23370  Add version: Flywheel.Local 6.1.0  quhxl:Add-version-Flywheel.Local-6.1.0  about 3 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Flywheel.Local-6.1.0-1746198594'
+  已签出新分支 Remove-Flywheel.Local-6.1.0-1746198594
+  已移除软件包 Flywheel.Local 版本 6.1.0
+[Remove-Flywheel.Local-6.1.0-1746198594 c8ebf94fb3c] Remove version: Flywheel.Local version 6.1.0
+ 3 files changed, 68 deletions(-)
+ delete mode 100644 manifests/f/Flywheel/Local/6.1.0/Flywheel.Local.installer.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.1.0/Flywheel.Local.locale.en-US.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.1.0/Flywheel.Local.yaml
+  已提交修改
+Enumerating objects: 51, done.
+Counting objects: 100% (49/49), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 714 bytes | 357.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-Flywheel.Local-6.1.0-1746198594' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Flywheel.Local-6.1.0-1746198594
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Flywheel.Local-6.1.0-1746198594 -> Remove-Flywheel.Local-6.1.0-1746198594
+branch 'Remove-Flywheel.Local-6.1.0-1746198594' set up to track 'origin/Remove-Flywheel.Local-6.1.0-1746198594'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/253278
+ 成功移除 Flywheel.Local 版本 6.1.0
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Flywheel.Local-6.1.0-1746198594 (was c8ebf94fb3c).
+工作区清理完成
+
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.1.8 "It returns a 404 status code in GitHub Action and has been automatically verified.
+>>
+>> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Local [Flywheel.Local]
+版本
+----------------
+9.2.4
+9.2.3
+9.2.0
+8.1.0
+7.2.1
+7.2.0
+7.1.2
+7.1.0
+6.7.0.20230323.2
+6.6.1
+6.6.0
+6.5.2
+6.5.1
+6.4.3
+6.4.2
+6.4.1
+6.4.0
+6.3.1
+6.3.0
+6.2.0
+6.1.8
+6.1.0
+6.0.0
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Local [Flywheel.Local]
+版本: 6.1.8
+发布者: Flywheel
+发布服务器 URL: https://localwp.com
+发布服务器支持 URL: https://localwp.com/help-docs
+绰号： flywheel-local
+描述: Local is a free local development environment designed to simplify the workflow of WordPress developers and designers. Download it for free today!
+主页: https://localwp.com
+许可证: Proprietary
+许可证 URL: https://localwp.com/legal
+隐私 URL: https://localwp.com/legal/privacy-policy
+版权所有: Copyright (c) 2021 Local
+版权 URL: https://localwp.com/legal
+标记：
+  development
+  flywheel
+  sites
+  web
+  wordpress
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://cdn.localwp.com/releases-stable/6.1.8+5621/local-6.1.8-windows.exe
+  安装程序 SHA256： 610d51d97943cfe7c278a6c25a4d34a41f97452c1239fb4aa780fe1cfa3dec99
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\f\Flywheel\Local\6.1.8\Flywheel.Local.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Flywheel.Local
+PackageVersion: 6.1.8
+Platform:
+- Windows.Desktop
+MinimumOSVersion: 10.0.0.0
+InstallerType: nullsoft
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  Scope: user
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.1.8+5621/local-6.1.8-windows.exe
+  InstallerSha256: 610D51D97943CFE7C278A6C25A4D34A41F97452C1239FB4AA780FE1CFA3DEC99
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+- Architecture: x86
+  Scope: machine
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.1.8+5621/local-6.1.8-windows.exe
+  InstallerSha256: 610D51D97943CFE7C278A6C25A4D34A41F97452C1239FB4AA780FE1CFA3DEC99
+  InstallerSwitches:
+    Custom: /ALLUSERS
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Local [Flywheel.Local] 版本 6.1.8
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://cdn.localwp.com/releases-stable/6.1.8+5621/local-6.1.8-windows.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 6 of 6 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                BRANCH                                                 CREATED AT
+#253278  Remove version: Flywheel.Local version 6.1.0 (Auto)  ...:Remove-Flywheel.Local-6.1.0-1746198594  less than a minute ago
+#253277  Remove version: Flywheel.Local version 6.2.0 (Auto)  ...:Remove-Flywheel.Local-6.2.0-1746198539  about 1 minute ago
+#253276  Remove version: Flywheel.Local version 6.5.1 (Auto)  ...:Remove-Flywheel.Local-6.5.1-1746198480  about 2 minutes ago
+#253274  Remove version: Flywheel.Local version 6.3.0 (Auto)  ...:Remove-Flywheel.Local-6.3.0-1746198422  about 3 minutes ago
+#253273  Remove version: Flywheel.Local version 6.4.3 (Auto)  ...:Remove-Flywheel.Local-6.4.3-1746198355  about 4 minutes ago
+#253272  Remove version: Flywheel.Local version 7.2.0 (Auto)  ...:Remove-Flywheel.Local-7.2.0-1746198279  about 5 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID      TITLE                                      BRANCH                                     CREATED AT
+#38021  New version: Flywheel.Local version 6.1.8  OfficialEsco:Flywheel.Local-6.1.8-AF6FDA7  about 3 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Flywheel.Local-6.1.8-1746198656'
+  已签出新分支 Remove-Flywheel.Local-6.1.8-1746198656
+  已移除软件包 Flywheel.Local 版本 6.1.8
+[Remove-Flywheel.Local-6.1.8-1746198656 f657234e4b0] Remove version: Flywheel.Local version 6.1.8
+ 3 files changed, 69 deletions(-)
+ delete mode 100644 manifests/f/Flywheel/Local/6.1.8/Flywheel.Local.installer.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.1.8/Flywheel.Local.locale.en-US.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.1.8/Flywheel.Local.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 715 bytes | 357.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-Flywheel.Local-6.1.8-1746198656' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Flywheel.Local-6.1.8-1746198656
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Flywheel.Local-6.1.8-1746198656 -> Remove-Flywheel.Local-6.1.8-1746198656
+branch 'Remove-Flywheel.Local-6.1.8-1746198656' set up to track 'origin/Remove-Flywheel.Local-6.1.8-1746198656'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/253279
+ 成功移除 Flywheel.Local 版本 6.1.8
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Flywheel.Local-6.1.8-1746198656 (was f657234e4b0).
+工作区清理完成
+
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.4.0 "It returns a 404 status code in GitHub Action and has been automatically verified.
+>>
+>> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Local [Flywheel.Local]
+版本
+----------------
+9.2.4
+9.2.3
+9.2.0
+8.1.0
+7.2.1
+7.2.0
+7.1.2
+7.1.0
+6.7.0.20230323.2
+6.6.1
+6.6.0
+6.5.2
+6.5.1
+6.4.3
+6.4.2
+6.4.1
+6.4.0
+6.3.1
+6.3.0
+6.2.0
+6.1.8
+6.1.0
+6.0.0
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Local [Flywheel.Local]
+版本: 6.4.0
+发布者: WPEngine, Inc.
+发布服务器 URL: https://localwp.com
+发布服务器支持 URL: https://localwp.com/help-docs
+绰号： flywheel-local
+描述: Local is a free local development environment designed to simplify the workflow of WordPress developers and designers. Download it for free today!
+主页: https://localwp.com
+许可证: Proprietary
+许可证 URL: https://localwp.com/legal
+隐私 URL: https://localwp.com/legal/privacy-policy
+版权所有: Copyright (c) 2021 Local
+版权 URL: https://localwp.com/legal
+标记：
+  development
+  flywheel
+  sites
+  web
+  wordpress
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://cdn.localwp.com/releases-stable/6.4.0+5927/local-6.4.0-windows.exe
+  安装程序 SHA256： 0a7dc0ccc4b1c138e3ecbeeccf07742f697059a6d1259127ab9594720f21c6bd
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\f\Flywheel\Local\6.4.0\Flywheel.Local.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://raw.githubusercontent.com/microsoft/winget-cli/master/schemas/JSON/manifests/v1.9.0/manifest.installer.1.9.0.json
+
+PackageIdentifier: Flywheel.Local
+PackageVersion: 6.4.0
+Platform:
+- Windows.Desktop
+MinimumOSVersion: 10.0.0.0
+InstallerType: nullsoft
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  Scope: user
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.4.0+5927/local-6.4.0-windows.exe
+  InstallerSha256: 0A7DC0CCC4B1C138E3ECBEECCF07742F697059A6D1259127AB9594720F21C6BD
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+- Architecture: x86
+  Scope: machine
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.4.0+5927/local-6.4.0-windows.exe
+  InstallerSha256: 0A7DC0CCC4B1C138E3ECBEECCF07742F697059A6D1259127AB9594720F21C6BD
+  InstallerSwitches:
+    Custom: /ALLUSERS
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Local [Flywheel.Local] 版本 6.4.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://cdn.localwp.com/releases-stable/6.4.0+5927/local-6.4.0-windows.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 7 of 7 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                BRANCH                                                 CREATED AT
+#253279  Remove version: Flywheel.Local version 6.1.8 (Auto)  ...:Remove-Flywheel.Local-6.1.8-1746198656  less than a minute ago
+#253278  Remove version: Flywheel.Local version 6.1.0 (Auto)  ...:Remove-Flywheel.Local-6.1.0-1746198594  about 1 minute ago
+#253277  Remove version: Flywheel.Local version 6.2.0 (Auto)  ...:Remove-Flywheel.Local-6.2.0-1746198539  about 2 minutes ago
+#253276  Remove version: Flywheel.Local version 6.5.1 (Auto)  ...:Remove-Flywheel.Local-6.5.1-1746198480  about 3 minutes ago
+#253274  Remove version: Flywheel.Local version 6.3.0 (Auto)  ...:Remove-Flywheel.Local-6.3.0-1746198422  about 4 minutes ago
+#253273  Remove version: Flywheel.Local version 6.4.3 (Auto)  ...:Remove-Flywheel.Local-6.4.3-1746198355  about 5 minutes ago
+#253272  Remove version: Flywheel.Local version 7.2.0 (Auto)  ...:Remove-Flywheel.Local-7.2.0-1746198279  about 6 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID      TITLE                                      BRANCH                                             CREATED AT
+#58229  New version: Flywheel.Local version 6.4.0  vedantmgoyal9:Flywheel.Local-6.4.0-82C3E6B98917F5  about 3 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Flywheel.Local-6.4.0-1746198710'
+  已签出新分支 Remove-Flywheel.Local-6.4.0-1746198710
+  已移除软件包 Flywheel.Local 版本 6.4.0
+[Remove-Flywheel.Local-6.4.0-1746198710 1538ac0055f] Remove version: Flywheel.Local version 6.4.0
+ 3 files changed, 69 deletions(-)
+ delete mode 100644 manifests/f/Flywheel/Local/6.4.0/Flywheel.Local.installer.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.4.0/Flywheel.Local.locale.en-US.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.4.0/Flywheel.Local.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 715 bytes | 715.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-Flywheel.Local-6.4.0-1746198710' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Flywheel.Local-6.4.0-1746198710
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Flywheel.Local-6.4.0-1746198710 -> Remove-Flywheel.Local-6.4.0-1746198710
+branch 'Remove-Flywheel.Local-6.4.0-1746198710' set up to track 'origin/Remove-Flywheel.Local-6.4.0-1746198710'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/253280
+ 成功移除 Flywheel.Local 版本 6.4.0
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Flywheel.Local-6.4.0-1746198710 (was 1538ac0055f).
+工作区清理完成
+
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.0.0 "It returns a 404 status code in GitHub Action and has been automatically verified.
+>>
+>> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Local [Flywheel.Local]
+版本
+----------------
+9.2.4
+9.2.3
+9.2.0
+8.1.0
+7.2.1
+7.2.0
+7.1.2
+7.1.0
+6.7.0.20230323.2
+6.6.1
+6.6.0
+6.5.2
+6.5.1
+6.4.3
+6.4.2
+6.4.1
+6.4.0
+6.3.1
+6.3.0
+6.2.0
+6.1.8
+6.1.0
+6.0.0
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Local [Flywheel.Local]
+版本: 6.0.0
+发布者: Flywheel
+发布服务器 URL: https://localwp.com
+发布服务器支持 URL: https://localwp.com/help-docs
+绰号： flywheel-local
+描述: Local is a free local development environment designed to simplify the workflow of WordPress developers and designers. Download it for free today!
+主页: https://localwp.com
+许可证: Proprietary
+许可证 URL: https://localwp.com/legal
+隐私 URL: https://localwp.com/legal/privacy-policy
+版权所有: Copyright (c) 2021 Local
+版权 URL: https://localwp.com/legal
+标记：
+  development
+  flywheel
+  sites
+  web
+  wordpress
+安装：
+  安装程序类型： nullsoft
+  安装程序区域设置： en-US
+  安装程序 URL： https://cdn.localwp.com/releases-stable/6.0.0+5444/local-6.0.0-windows.exe
+  安装程序 SHA256： 9fe7daf99b22c91b53785340f47678ef450b2dc485352cebfba9b51537eb1f6e
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\f\Flywheel\Local\6.0.0\Flywheel.Local.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Flywheel.Local
+PackageVersion: 6.0.0
+InstallerLocale: en-US
+MinimumOSVersion: 10.0.0.0
+InstallerType: nullsoft
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.0.0+5444/local-6.0.0-windows.exe
+  InstallerSha256: 9FE7DAF99B22C91B53785340F47678EF450B2DC485352CEBFBA9B51537EB1F6E
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.0.0+5444/local-6.0.0-windows.exe
+  InstallerSha256: 9FE7DAF99B22C91B53785340F47678EF450B2DC485352CEBFBA9B51537EB1F6E
+  InstallerSwitches:
+    Custom: /ALLUSERS
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Local [Flywheel.Local] 版本 6.0.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://cdn.localwp.com/releases-stable/6.0.0+5444/local-6.0.0-windows.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 8 of 8 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                BRANCH                                                 CREATED AT
+#253280  Remove version: Flywheel.Local version 6.4.0 (Auto)  ...:Remove-Flywheel.Local-6.4.0-1746198710  less than a minute ago
+#253279  Remove version: Flywheel.Local version 6.1.8 (Auto)  ...:Remove-Flywheel.Local-6.1.8-1746198656  about 1 minute ago
+#253278  Remove version: Flywheel.Local version 6.1.0 (Auto)  ...:Remove-Flywheel.Local-6.1.0-1746198594  about 2 minutes ago
+#253277  Remove version: Flywheel.Local version 6.2.0 (Auto)  ...:Remove-Flywheel.Local-6.2.0-1746198539  about 3 minutes ago
+#253276  Remove version: Flywheel.Local version 6.5.1 (Auto)  ...:Remove-Flywheel.Local-6.5.1-1746198480  about 4 minutes ago
+#253274  Remove version: Flywheel.Local version 6.3.0 (Auto)  ...:Remove-Flywheel.Local-6.3.0-1746198422  about 5 minutes ago
+#253273  Remove version: Flywheel.Local version 6.4.3 (Auto)  ...:Remove-Flywheel.Local-6.4.3-1746198355  about 6 minutes ago
+#253272  Remove version: Flywheel.Local version 7.2.0 (Auto)  ...:Remove-Flywheel.Local-7.2.0-1746198279  about 7 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID      TITLE                                BRANCH                CREATED AT
+#21073  Add: `Flywheel.Local` version 6.0.0  vedantmgoyal9:flocal  about 3 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Flywheel.Local-6.0.0-1746198765'
+  已签出新分支 Remove-Flywheel.Local-6.0.0-1746198765
+  已移除软件包 Flywheel.Local 版本 6.0.0
+[Remove-Flywheel.Local-6.0.0-1746198765 a1048914c9d] Remove version: Flywheel.Local version 6.0.0
+ 3 files changed, 68 deletions(-)
+ delete mode 100644 manifests/f/Flywheel/Local/6.0.0/Flywheel.Local.installer.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.0.0/Flywheel.Local.locale.en-US.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.0.0/Flywheel.Local.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 713 bytes | 356.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-Flywheel.Local-6.0.0-1746198765' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Flywheel.Local-6.0.0-1746198765
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Flywheel.Local-6.0.0-1746198765 -> Remove-Flywheel.Local-6.0.0-1746198765
+branch 'Remove-Flywheel.Local-6.0.0-1746198765' set up to track 'origin/Remove-Flywheel.Local-6.0.0-1746198765'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/253281
+ 成功移除 Flywheel.Local 版本 6.0.0
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Flywheel.Local-6.0.0-1746198765 (was a1048914c9d).
+工作区清理完成
+
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.6.1 "It returns a 404 status code in GitHub Action and has been automatically verified.
+>>
+>> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Local [Flywheel.Local]
+版本
+----------------
+9.2.4
+9.2.3
+9.2.0
+8.1.0
+7.2.1
+7.2.0
+7.1.2
+7.1.0
+6.7.0.20230323.2
+6.6.1
+6.6.0
+6.5.2
+6.5.1
+6.4.3
+6.4.2
+6.4.1
+6.4.0
+6.3.1
+6.3.0
+6.2.0
+6.1.8
+6.1.0
+6.0.0
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Local [Flywheel.Local]
+版本: 6.6.1
+发布者: WPEngine, Inc.
+发布服务器 URL: https://localwp.com
+发布服务器支持 URL: https://localwp.com/help-docs
+绰号： flywheel-local
+描述: Local is a free local development environment designed to simplify the workflow of WordPress developers and designers. Download it for free today!
+主页: https://localwp.com
+许可证: Proprietary
+许可证 URL: https://localwp.com/legal
+隐私 URL: https://localwp.com/legal/privacy-policy
+版权所有: Copyright (c) 2021 Local
+版权 URL: https://localwp.com/legal
+标记：
+  development
+  flywheel
+  sites
+  web
+  wordpress
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://cdn.localwp.com/releases-stable/6.6.1+6281/local-6.6.1-windows.exe
+  安装程序 SHA256： dc55e44c8b92b20e0e68beffdc3bb15c38c7e91a260d0cc46422ca11e48e8b7d
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\f\Flywheel\Local\6.6.1\Flywheel.Local.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Flywheel.Local
+PackageVersion: 6.6.1
+Platform:
+- Windows.Desktop
+MinimumOSVersion: 10.0.0.0
+InstallerType: nullsoft
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  Scope: user
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.6.1+6281/local-6.6.1-windows.exe
+  InstallerSha256: DC55E44C8B92B20E0E68BEFFDC3BB15C38C7E91A260D0CC46422CA11E48E8B7D
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+- Architecture: x86
+  Scope: machine
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.6.1+6281/local-6.6.1-windows.exe
+  InstallerSha256: DC55E44C8B92B20E0E68BEFFDC3BB15C38C7E91A260D0CC46422CA11E48E8B7D
+  InstallerSwitches:
+    Custom: /ALLUSERS
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Local [Flywheel.Local] 版本 6.6.1
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://cdn.localwp.com/releases-stable/6.6.1+6281/local-6.6.1-windows.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 9 of 9 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                BRANCH                                                 CREATED AT
+#253281  Remove version: Flywheel.Local version 6.0.0 (Auto)  ...:Remove-Flywheel.Local-6.0.0-1746198765  less than a minute ago
+#253280  Remove version: Flywheel.Local version 6.4.0 (Auto)  ...:Remove-Flywheel.Local-6.4.0-1746198710  about 1 minute ago
+#253279  Remove version: Flywheel.Local version 6.1.8 (Auto)  ...:Remove-Flywheel.Local-6.1.8-1746198656  about 2 minutes ago
+#253278  Remove version: Flywheel.Local version 6.1.0 (Auto)  ...:Remove-Flywheel.Local-6.1.0-1746198594  about 3 minutes ago
+#253277  Remove version: Flywheel.Local version 6.2.0 (Auto)  ...:Remove-Flywheel.Local-6.2.0-1746198539  about 4 minutes ago
+#253276  Remove version: Flywheel.Local version 6.5.1 (Auto)  ...:Remove-Flywheel.Local-6.5.1-1746198480  about 5 minutes ago
+#253272  Remove version: Flywheel.Local version 7.2.0 (Auto)  ...:Remove-Flywheel.Local-7.2.0-1746198279  about 8 minutes ago
+#253274  Remove version: Flywheel.Local version 6.3.0 (Auto)  ...:Remove-Flywheel.Local-6.3.0-1746198422  about 6 minutes ago
+#253273  Remove version: Flywheel.Local version 6.4.3 (Auto)  ...:Remove-Flywheel.Local-6.4.3-1746198355  about 7 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID      TITLE                                      BRANCH                                             CREATED AT
+#95496  New version: Flywheel.Local version 6.6.1  vedantmgoyal9:Flywheel.Local-6.6.1-92DACE5C5BFC08  about 2 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Flywheel.Local-6.6.1-1746198819'
+  已签出新分支 Remove-Flywheel.Local-6.6.1-1746198819
+  已移除软件包 Flywheel.Local 版本 6.6.1
+[Remove-Flywheel.Local-6.6.1-1746198819 7e66c0a2bec] Remove version: Flywheel.Local version 6.6.1
+ 3 files changed, 69 deletions(-)
+ delete mode 100644 manifests/f/Flywheel/Local/6.6.1/Flywheel.Local.installer.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.6.1/Flywheel.Local.locale.en-US.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.6.1/Flywheel.Local.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 721 bytes | 360.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-Flywheel.Local-6.6.1-1746198819' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Flywheel.Local-6.6.1-1746198819
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Flywheel.Local-6.6.1-1746198819 -> Remove-Flywheel.Local-6.6.1-1746198819
+branch 'Remove-Flywheel.Local-6.6.1-1746198819' set up to track 'origin/Remove-Flywheel.Local-6.6.1-1746198819'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/253282
+ 成功移除 Flywheel.Local 版本 6.6.1
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Flywheel.Local-6.6.1-1746198819 (was 7e66c0a2bec).
+工作区清理完成
+
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 7.1.2 "It returns a 404 status code in GitHub Action and has been automatically verified.
+>>
+>> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Local [Flywheel.Local]
+版本
+----------------
+9.2.4
+9.2.3
+9.2.0
+8.1.0
+7.2.1
+7.2.0
+7.1.2
+7.1.0
+6.7.0.20230323.2
+6.6.1
+6.6.0
+6.5.2
+6.5.1
+6.4.3
+6.4.2
+6.4.1
+6.4.0
+6.3.1
+6.3.0
+6.2.0
+6.1.8
+6.1.0
+6.0.0
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Local [Flywheel.Local]
+版本: 7.1.2
+发布者: WPEngine, Inc.
+发布服务器 URL: https://localwp.com
+发布服务器支持 URL: https://localwp.com/help-docs
+绰号： flywheel-local
+描述: Local is a free local development environment designed to simplify the workflow of WordPress developers and designers. Download it for free today!
+主页: https://localwp.com
+许可证: Proprietary
+许可证 URL: https://localwp.com/legal
+隐私 URL: https://localwp.com/legal/privacy-policy
+版权所有: Copyright (c) 2021 Local
+版权 URL: https://localwp.com/legal
+标记：
+  development
+  flywheel
+  sites
+  web
+  wordpress
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://cdn.localwp.com/releases-stable/7.1.2+6410/local-7.1.2-windows.exe
+  安装程序 SHA256： 9fed3c8a8e108795d34d7b0f2c6e2cf0b3b6595d2a9eaaa828ca2d0096a2bf94
+  发布日期: 2023-08-07
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\f\Flywheel\Local\7.1.2\Flywheel.Local.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Flywheel.Local
+PackageVersion: 7.1.2
+Platform:
+- Windows.Desktop
+InstallerType: nullsoft
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+ReleaseDate: 2023-08-07
+Installers:
+- Architecture: x86
+  Scope: user
+  InstallerUrl: https://cdn.localwp.com/releases-stable/7.1.2+6410/local-7.1.2-windows.exe
+  InstallerSha256: 9FED3C8A8E108795D34D7B0F2C6E2CF0B3B6595D2A9EAAA828CA2D0096A2BF94
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+- Architecture: x86
+  Scope: machine
+  InstallerUrl: https://cdn.localwp.com/releases-stable/7.1.2+6410/local-7.1.2-windows.exe
+  InstallerSha256: 9FED3C8A8E108795D34D7B0F2C6E2CF0B3B6595D2A9EAAA828CA2D0096A2BF94
+  InstallerSwitches:
+    Custom: /ALLUSERS
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Local [Flywheel.Local] 版本 7.1.2
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://cdn.localwp.com/releases-stable/7.1.2+6410/local-7.1.2-windows.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 10 of 10 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                BRANCH                                                 CREATED AT
+#253282  Remove version: Flywheel.Local version 6.6.1 (Auto)  ...:Remove-Flywheel.Local-6.6.1-1746198819  less than a minute ago
+#253281  Remove version: Flywheel.Local version 6.0.0 (Auto)  ...:Remove-Flywheel.Local-6.0.0-1746198765  about 1 minute ago
+#253280  Remove version: Flywheel.Local version 6.4.0 (Auto)  ...:Remove-Flywheel.Local-6.4.0-1746198710  about 2 minutes ago
+#253279  Remove version: Flywheel.Local version 6.1.8 (Auto)  ...:Remove-Flywheel.Local-6.1.8-1746198656  about 3 minutes ago
+#253278  Remove version: Flywheel.Local version 6.1.0 (Auto)  ...:Remove-Flywheel.Local-6.1.0-1746198594  about 4 minutes ago
+#253277  Remove version: Flywheel.Local version 6.2.0 (Auto)  ...:Remove-Flywheel.Local-6.2.0-1746198539  about 5 minutes ago
+#253276  Remove version: Flywheel.Local version 6.5.1 (Auto)  ...:Remove-Flywheel.Local-6.5.1-1746198480  about 6 minutes ago
+#253272  Remove version: Flywheel.Local version 7.2.0 (Auto)  ...:Remove-Flywheel.Local-7.2.0-1746198279  about 9 minutes ago
+#253274  Remove version: Flywheel.Local version 6.3.0 (Auto)  ...:Remove-Flywheel.Local-6.3.0-1746198422  about 7 minutes ago
+#253273  Remove version: Flywheel.Local version 6.4.3 (Auto)  ...:Remove-Flywheel.Local-6.4.3-1746198355  about 8 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                      BRANCH                                                                       CREATED AT
+#115635  New version: Flywheel.Local version 7.1.2  vedantmgoyal9:Flywheel.Local-7.1.2-DDE7368A6EF25AF3A11FBD79A9F2710680279250  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Flywheel.Local-7.1.2-1746198898'
+  已签出新分支 Remove-Flywheel.Local-7.1.2-1746198898
+  已移除软件包 Flywheel.Local 版本 7.1.2
+[Remove-Flywheel.Local-7.1.2-1746198898 a3472cb251e] Remove version: Flywheel.Local version 7.1.2
+ 3 files changed, 69 deletions(-)
+ delete mode 100644 manifests/f/Flywheel/Local/7.1.2/Flywheel.Local.installer.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/7.1.2/Flywheel.Local.locale.en-US.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/7.1.2/Flywheel.Local.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 716 bytes | 716.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-Flywheel.Local-7.1.2-1746198898' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Flywheel.Local-7.1.2-1746198898
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Flywheel.Local-7.1.2-1746198898 -> Remove-Flywheel.Local-7.1.2-1746198898
+branch 'Remove-Flywheel.Local-7.1.2-1746198898' set up to track 'origin/Remove-Flywheel.Local-7.1.2-1746198898'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/253283
+ 成功移除 Flywheel.Local 版本 7.1.2
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Flywheel.Local-7.1.2-1746198898 (was a3472cb251e).
+工作区清理完成
+
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.5.2 "It returns a 404 status code in GitHub Action and has been automatically verified.
+>>
+>> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Local [Flywheel.Local]
+版本
+----------------
+9.2.4
+9.2.3
+9.2.0
+8.1.0
+7.2.1
+7.2.0
+7.1.2
+7.1.0
+6.7.0.20230323.2
+6.6.1
+6.6.0
+6.5.2
+6.5.1
+6.4.3
+6.4.2
+6.4.1
+6.4.0
+6.3.1
+6.3.0
+6.2.0
+6.1.8
+6.1.0
+6.0.0
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Local [Flywheel.Local]
+版本: 6.5.2
+发布者: WPEngine, Inc.
+发布服务器 URL: https://localwp.com
+发布服务器支持 URL: https://localwp.com/help-docs
+绰号： flywheel-local
+描述: Local is a free local development environment designed to simplify the workflow of WordPress developers and designers. Download it for free today!
+主页: https://localwp.com
+许可证: Proprietary
+许可证 URL: https://localwp.com/legal
+隐私 URL: https://localwp.com/legal/privacy-policy
+版权所有: Copyright (c) 2021 Local
+版权 URL: https://localwp.com/legal
+标记：
+  development
+  flywheel
+  sites
+  web
+  wordpress
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://cdn.localwp.com/releases-stable/6.5.2+6204/local-6.5.2-windows.exe
+  安装程序 SHA256： b4f6c65f3cbb17f9ca5b52a6105ca049b87b73c0be0f4a48abb3e7c5048ff519
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\f\Flywheel\Local\6.5.2\Flywheel.Local.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Flywheel.Local
+PackageVersion: 6.5.2
+Platform:
+- Windows.Desktop
+MinimumOSVersion: 10.0.0.0
+InstallerType: nullsoft
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  Scope: user
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.5.2+6204/local-6.5.2-windows.exe
+  InstallerSha256: B4F6C65F3CBB17F9CA5B52A6105CA049B87B73C0BE0F4A48ABB3E7C5048FF519
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+- Architecture: x86
+  Scope: machine
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.5.2+6204/local-6.5.2-windows.exe
+  InstallerSha256: B4F6C65F3CBB17F9CA5B52A6105CA049B87B73C0BE0F4A48ABB3E7C5048FF519
+  InstallerSwitches:
+    Custom: /ALLUSERS
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Local [Flywheel.Local] 版本 6.5.2
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://cdn.localwp.com/releases-stable/6.5.2+6204/local-6.5.2-windows.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 11 of 11 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                BRANCH                                                 CREATED AT
+#253283  Remove version: Flywheel.Local version 7.1.2 (Auto)  ...:Remove-Flywheel.Local-7.1.2-1746198898  less than a minute ago
+#253282  Remove version: Flywheel.Local version 6.6.1 (Auto)  ...:Remove-Flywheel.Local-6.6.1-1746198819  about 2 minutes ago
+#253281  Remove version: Flywheel.Local version 6.0.0 (Auto)  ...:Remove-Flywheel.Local-6.0.0-1746198765  about 2 minutes ago
+#253280  Remove version: Flywheel.Local version 6.4.0 (Auto)  ...:Remove-Flywheel.Local-6.4.0-1746198710  about 3 minutes ago
+#253279  Remove version: Flywheel.Local version 6.1.8 (Auto)  ...:Remove-Flywheel.Local-6.1.8-1746198656  about 4 minutes ago
+#253278  Remove version: Flywheel.Local version 6.1.0 (Auto)  ...:Remove-Flywheel.Local-6.1.0-1746198594  about 5 minutes ago
+#253274  Remove version: Flywheel.Local version 6.3.0 (Auto)  ...:Remove-Flywheel.Local-6.3.0-1746198422  about 8 minutes ago
+#253277  Remove version: Flywheel.Local version 6.2.0 (Auto)  ...:Remove-Flywheel.Local-6.2.0-1746198539  about 6 minutes ago
+#253273  Remove version: Flywheel.Local version 6.4.3 (Auto)  ...:Remove-Flywheel.Local-6.4.3-1746198355  about 9 minutes ago
+#253276  Remove version: Flywheel.Local version 6.5.1 (Auto)  ...:Remove-Flywheel.Local-6.5.1-1746198480  about 7 minutes ago
+#253272  Remove version: Flywheel.Local version 7.2.0 (Auto)  ...:Remove-Flywheel.Local-7.2.0-1746198279  about 10 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID      TITLE                                      BRANCH                                             CREATED AT
+#88476  New version: Flywheel.Local version 6.5.2  vedantmgoyal9:Flywheel.Local-6.5.2-FB1169A64005F0  about 2 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Flywheel.Local-6.5.2-1746198965'
+  已签出新分支 Remove-Flywheel.Local-6.5.2-1746198965
+  已移除软件包 Flywheel.Local 版本 6.5.2
+[Remove-Flywheel.Local-6.5.2-1746198965 104791cd9f8] Remove version: Flywheel.Local version 6.5.2
+ 3 files changed, 69 deletions(-)
+ delete mode 100644 manifests/f/Flywheel/Local/6.5.2/Flywheel.Local.installer.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.5.2/Flywheel.Local.locale.en-US.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.5.2/Flywheel.Local.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 718 bytes | 359.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-Flywheel.Local-6.5.2-1746198965' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Flywheel.Local-6.5.2-1746198965
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Flywheel.Local-6.5.2-1746198965 -> Remove-Flywheel.Local-6.5.2-1746198965
+branch 'Remove-Flywheel.Local-6.5.2-1746198965' set up to track 'origin/Remove-Flywheel.Local-6.5.2-1746198965'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/253284
+ 成功移除 Flywheel.Local 版本 6.5.2
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Flywheel.Local-6.5.2-1746198965 (was 104791cd9f8).
+工作区清理完成
+
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.6.0 "It returns a 404 status code in GitHub Action and has been automatically verified.
+>>
+>> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Local [Flywheel.Local]
+版本
+----------------
+9.2.4
+9.2.3
+9.2.0
+8.1.0
+7.2.1
+7.2.0
+7.1.2
+7.1.0
+6.7.0.20230323.2
+6.6.1
+6.6.0
+6.5.2
+6.5.1
+6.4.3
+6.4.2
+6.4.1
+6.4.0
+6.3.1
+6.3.0
+6.2.0
+6.1.8
+6.1.0
+6.0.0
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Local [Flywheel.Local]
+版本: 6.6.0
+发布者: WPEngine, Inc.
+发布服务器 URL: https://localwp.com
+发布服务器支持 URL: https://localwp.com/help-docs
+绰号： flywheel-local
+描述: Local is a free local development environment designed to simplify the workflow of WordPress developers and designers. Download it for free today!
+主页: https://localwp.com
+许可证: Proprietary
+许可证 URL: https://localwp.com/legal
+隐私 URL: https://localwp.com/legal/privacy-policy
+版权所有: Copyright (c) 2021 Local
+版权 URL: https://localwp.com/legal
+标记：
+  development
+  flywheel
+  sites
+  web
+  wordpress
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://cdn.localwp.com/releases-stable/6.6.0+6231/local-6.6.0-windows.exe
+  安装程序 SHA256： cee0cecd7a8cb7d01cdd39862171c210f0af5a79a037ec7ca92841e997318692
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\f\Flywheel\Local\6.6.0\Flywheel.Local.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Flywheel.Local
+PackageVersion: 6.6.0
+Platform:
+- Windows.Desktop
+MinimumOSVersion: 10.0.0.0
+InstallerType: nullsoft
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  Scope: user
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.6.0+6231/local-6.6.0-windows.exe
+  InstallerSha256: CEE0CECD7A8CB7D01CDD39862171C210F0AF5A79A037EC7CA92841E997318692
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+- Architecture: x86
+  Scope: machine
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.6.0+6231/local-6.6.0-windows.exe
+  InstallerSha256: CEE0CECD7A8CB7D01CDD39862171C210F0AF5A79A037EC7CA92841E997318692
+  InstallerSwitches:
+    Custom: /ALLUSERS
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Local [Flywheel.Local] 版本 6.6.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://cdn.localwp.com/releases-stable/6.6.0+6231/local-6.6.0-windows.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 12 of 12 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                BRANCH                                                 CREATED AT
+#253284  Remove version: Flywheel.Local version 6.5.2 (Auto)  ...:Remove-Flywheel.Local-6.5.2-1746198965  less than a minute ago
+#253283  Remove version: Flywheel.Local version 7.1.2 (Auto)  ...:Remove-Flywheel.Local-7.1.2-1746198898  about 1 minute ago
+#253282  Remove version: Flywheel.Local version 6.6.1 (Auto)  ...:Remove-Flywheel.Local-6.6.1-1746198819  about 3 minutes ago
+#253281  Remove version: Flywheel.Local version 6.0.0 (Auto)  ...:Remove-Flywheel.Local-6.0.0-1746198765  about 4 minutes ago
+#253280  Remove version: Flywheel.Local version 6.4.0 (Auto)  ...:Remove-Flywheel.Local-6.4.0-1746198710  about 4 minutes ago
+#253279  Remove version: Flywheel.Local version 6.1.8 (Auto)  ...:Remove-Flywheel.Local-6.1.8-1746198656  about 5 minutes ago
+#253276  Remove version: Flywheel.Local version 6.5.1 (Auto)  ...:Remove-Flywheel.Local-6.5.1-1746198480  about 8 minutes ago
+#253278  Remove version: Flywheel.Local version 6.1.0 (Auto)  ...:Remove-Flywheel.Local-6.1.0-1746198594  about 6 minutes ago
+#253274  Remove version: Flywheel.Local version 6.3.0 (Auto)  ...:Remove-Flywheel.Local-6.3.0-1746198422  about 9 minutes ago
+#253277  Remove version: Flywheel.Local version 6.2.0 (Auto)  ...:Remove-Flywheel.Local-6.2.0-1746198539  about 7 minutes ago
+#253273  Remove version: Flywheel.Local version 6.4.3 (Auto)  ...:Remove-Flywheel.Local-6.4.3-1746198355  about 10 minutes ago
+#253272  Remove version: Flywheel.Local version 7.2.0 (Auto)  ...:Remove-Flywheel.Local-7.2.0-1746198279  about 11 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID      TITLE                                      BRANCH                                             CREATED AT
+#90885  New version: Flywheel.Local version 6.6.0  vedantmgoyal9:Flywheel.Local-6.6.0-055BF545BD134F  about 2 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Flywheel.Local-6.6.0-1746199028'
+  已签出新分支 Remove-Flywheel.Local-6.6.0-1746199028
+  已移除软件包 Flywheel.Local 版本 6.6.0
+[Remove-Flywheel.Local-6.6.0-1746199028 781cfad04b7] Remove version: Flywheel.Local version 6.6.0
+ 3 files changed, 69 deletions(-)
+ delete mode 100644 manifests/f/Flywheel/Local/6.6.0/Flywheel.Local.installer.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.6.0/Flywheel.Local.locale.en-US.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.6.0/Flywheel.Local.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 714 bytes | 357.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-Flywheel.Local-6.6.0-1746199028' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Flywheel.Local-6.6.0-1746199028
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Flywheel.Local-6.6.0-1746199028 -> Remove-Flywheel.Local-6.6.0-1746199028
+branch 'Remove-Flywheel.Local-6.6.0-1746199028' set up to track 'origin/Remove-Flywheel.Local-6.6.0-1746199028'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/253285
+ 成功移除 Flywheel.Local 版本 6.6.0
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Flywheel.Local-6.6.0-1746199028 (was 781cfad04b7).
+工作区清理完成
+
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 7.1.0 "It returns a 404 status code in GitHub Action and has been automatically verified.
+>>
+>> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Local [Flywheel.Local]
+版本
+----------------
+9.2.4
+9.2.3
+9.2.0
+8.1.0
+7.2.1
+7.2.0
+7.1.2
+7.1.0
+6.7.0.20230323.2
+6.6.1
+6.6.0
+6.5.2
+6.5.1
+6.4.3
+6.4.2
+6.4.1
+6.4.0
+6.3.1
+6.3.0
+6.2.0
+6.1.8
+6.1.0
+6.0.0
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Local [Flywheel.Local]
+版本: 7.1.0
+发布者: WPEngine, Inc.
+发布服务器 URL: https://localwp.com
+发布服务器支持 URL: https://localwp.com/help-docs
+绰号： flywheel-local
+描述: Local is a free local development environment designed to simplify the workflow of WordPress developers and designers. Download it for free today!
+主页: https://localwp.com
+许可证: Proprietary
+许可证 URL: https://localwp.com/legal
+隐私 URL: https://localwp.com/legal/privacy-policy
+版权所有: Copyright (c) 2021 Local
+版权 URL: https://localwp.com/legal
+标记：
+  development
+  flywheel
+  sites
+  web
+  wordpress
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://cdn.localwp.com/releases-stable/7.1.0+6396/local-7.1.0-windows.exe
+  安装程序 SHA256： de73009f7bf8df2a72270563372f35e3207e7163fa28c9a5508d4e77a13d989a
+  发布日期: 2023-07-18
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\f\Flywheel\Local\7.1.0\Flywheel.Local.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Flywheel.Local
+PackageVersion: 7.1.0
+Platform:
+- Windows.Desktop
+InstallerType: nullsoft
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+ReleaseDate: 2023-07-18
+Installers:
+- Architecture: x86
+  Scope: user
+  InstallerUrl: https://cdn.localwp.com/releases-stable/7.1.0+6396/local-7.1.0-windows.exe
+  InstallerSha256: DE73009F7BF8DF2A72270563372F35E3207E7163FA28C9A5508D4E77A13D989A
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+- Architecture: x86
+  Scope: machine
+  InstallerUrl: https://cdn.localwp.com/releases-stable/7.1.0+6396/local-7.1.0-windows.exe
+  InstallerSha256: DE73009F7BF8DF2A72270563372F35E3207E7163FA28C9A5508D4E77A13D989A
+  InstallerSwitches:
+    Custom: /ALLUSERS
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Local [Flywheel.Local] 版本 7.1.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://cdn.localwp.com/releases-stable/7.1.0+6396/local-7.1.0-windows.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 13 of 13 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                BRANCH                                                 CREATED AT
+#253285  Remove version: Flywheel.Local version 6.6.0 (Auto)  ...:Remove-Flywheel.Local-6.6.0-1746199028  less than a minute ago
+#253284  Remove version: Flywheel.Local version 6.5.2 (Auto)  ...:Remove-Flywheel.Local-6.5.2-1746198965  about 1 minute ago
+#253283  Remove version: Flywheel.Local version 7.1.2 (Auto)  ...:Remove-Flywheel.Local-7.1.2-1746198898  about 2 minutes ago
+#253282  Remove version: Flywheel.Local version 6.6.1 (Auto)  ...:Remove-Flywheel.Local-6.6.1-1746198819  about 4 minutes ago
+#253281  Remove version: Flywheel.Local version 6.0.0 (Auto)  ...:Remove-Flywheel.Local-6.0.0-1746198765  about 5 minutes ago
+#253278  Remove version: Flywheel.Local version 6.1.0 (Auto)  ...:Remove-Flywheel.Local-6.1.0-1746198594  about 7 minutes ago
+#253280  Remove version: Flywheel.Local version 6.4.0 (Auto)  ...:Remove-Flywheel.Local-6.4.0-1746198710  about 5 minutes ago
+#253277  Remove version: Flywheel.Local version 6.2.0 (Auto)  ...:Remove-Flywheel.Local-6.2.0-1746198539  about 8 minutes ago
+#253279  Remove version: Flywheel.Local version 6.1.8 (Auto)  ...:Remove-Flywheel.Local-6.1.8-1746198656  about 6 minutes ago
+#253276  Remove version: Flywheel.Local version 6.5.1 (Auto)  ...:Remove-Flywheel.Local-6.5.1-1746198480  about 9 minutes ago
+#253274  Remove version: Flywheel.Local version 6.3.0 (Auto)  ...:Remove-Flywheel.Local-6.3.0-1746198422  about 10 minutes ago
+#253273  Remove version: Flywheel.Local version 6.4.3 (Auto)  ...:Remove-Flywheel.Local-6.4.3-1746198355  about 11 minutes ago
+#253272  Remove version: Flywheel.Local version 7.2.0 (Auto)  ...:Remove-Flywheel.Local-7.2.0-1746198279  about 12 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                      BRANCH                                                                       CREATED AT
+#114460  New version: Flywheel.Local version 7.1.0  vedantmgoyal9:Flywheel.Local-7.1.0-B5FF91046DC39D193D721920C09A482128672DE5  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Flywheel.Local-7.1.0-1746199087'
+  已签出新分支 Remove-Flywheel.Local-7.1.0-1746199087
+  已移除软件包 Flywheel.Local 版本 7.1.0
+[Remove-Flywheel.Local-7.1.0-1746199087 965d8eee165] Remove version: Flywheel.Local version 7.1.0
+ 3 files changed, 69 deletions(-)
+ delete mode 100644 manifests/f/Flywheel/Local/7.1.0/Flywheel.Local.installer.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/7.1.0/Flywheel.Local.locale.en-US.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/7.1.0/Flywheel.Local.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 717 bytes | 717.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-Flywheel.Local-7.1.0-1746199087' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Flywheel.Local-7.1.0-1746199087
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Flywheel.Local-7.1.0-1746199087 -> Remove-Flywheel.Local-7.1.0-1746199087
+branch 'Remove-Flywheel.Local-7.1.0-1746199087' set up to track 'origin/Remove-Flywheel.Local-7.1.0-1746199087'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/253286
+ 成功移除 Flywheel.Local 版本 7.1.0
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Flywheel.Local-7.1.0-1746199087 (was 965d8eee165).
+工作区清理完成
+
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.4.1 "It returns a 404 status code in GitHub Action and has been automatically verified.
+>>
+>> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Local [Flywheel.Local]
+版本
+----------------
+9.2.4
+9.2.3
+9.2.0
+8.1.0
+7.2.1
+7.2.0
+7.1.2
+7.1.0
+6.7.0.20230323.2
+6.6.1
+6.6.0
+6.5.2
+6.5.1
+6.4.3
+6.4.2
+6.4.1
+6.4.0
+6.3.1
+6.3.0
+6.2.0
+6.1.8
+6.1.0
+6.0.0
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Local [Flywheel.Local]
+版本: 6.4.1
+发布者: WPEngine, Inc.
+发布服务器 URL: https://localwp.com
+发布服务器支持 URL: https://localwp.com/help-docs
+绰号： flywheel-local
+描述: Local is a free local development environment designed to simplify the workflow of WordPress developers and designers. Download it for free today!
+主页: https://localwp.com
+许可证: Proprietary
+许可证 URL: https://localwp.com/legal
+隐私 URL: https://localwp.com/legal/privacy-policy
+版权所有: Copyright (c) 2021 Local
+版权 URL: https://localwp.com/legal
+标记：
+  development
+  flywheel
+  sites
+  web
+  wordpress
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://cdn.localwp.com/releases-stable/6.4.1+5978/local-6.4.1-windows.exe
+  安装程序 SHA256： 2a4f8edf3fcf7d0bb76b01cd68da170e2c149552c663b7818c4e43290a7e4c91
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\f\Flywheel\Local\6.4.1\Flywheel.Local.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Flywheel.Local
+PackageVersion: 6.4.1
+Platform:
+- Windows.Desktop
+MinimumOSVersion: 10.0.0.0
+InstallerType: nullsoft
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  Scope: user
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.4.1+5978/local-6.4.1-windows.exe
+  InstallerSha256: 2A4F8EDF3FCF7D0BB76B01CD68DA170E2C149552C663B7818C4E43290A7E4C91
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+- Architecture: x86
+  Scope: machine
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.4.1+5978/local-6.4.1-windows.exe
+  InstallerSha256: 2A4F8EDF3FCF7D0BB76B01CD68DA170E2C149552C663B7818C4E43290A7E4C91
+  InstallerSwitches:
+    Custom: /ALLUSERS
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Local [Flywheel.Local] 版本 6.4.1
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://cdn.localwp.com/releases-stable/6.4.1+5978/local-6.4.1-windows.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 14 of 14 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                BRANCH                                                 CREATED AT
+#253286  Remove version: Flywheel.Local version 7.1.0 (Auto)  ...:Remove-Flywheel.Local-7.1.0-1746199087  less than a minute ago
+#253285  Remove version: Flywheel.Local version 6.6.0 (Auto)  ...:Remove-Flywheel.Local-6.6.0-1746199028  about 1 minute ago
+#253284  Remove version: Flywheel.Local version 6.5.2 (Auto)  ...:Remove-Flywheel.Local-6.5.2-1746198965  about 2 minutes ago
+#253283  Remove version: Flywheel.Local version 7.1.2 (Auto)  ...:Remove-Flywheel.Local-7.1.2-1746198898  about 3 minutes ago
+#253282  Remove version: Flywheel.Local version 6.6.1 (Auto)  ...:Remove-Flywheel.Local-6.6.1-1746198819  about 5 minutes ago
+#253281  Remove version: Flywheel.Local version 6.0.0 (Auto)  ...:Remove-Flywheel.Local-6.0.0-1746198765  about 5 minutes ago
+#253278  Remove version: Flywheel.Local version 6.1.0 (Auto)  ...:Remove-Flywheel.Local-6.1.0-1746198594  about 8 minutes ago
+#253280  Remove version: Flywheel.Local version 6.4.0 (Auto)  ...:Remove-Flywheel.Local-6.4.0-1746198710  about 6 minutes ago
+#253277  Remove version: Flywheel.Local version 6.2.0 (Auto)  ...:Remove-Flywheel.Local-6.2.0-1746198539  about 9 minutes ago
+#253279  Remove version: Flywheel.Local version 6.1.8 (Auto)  ...:Remove-Flywheel.Local-6.1.8-1746198656  about 7 minutes ago
+#253276  Remove version: Flywheel.Local version 6.5.1 (Auto)  ...:Remove-Flywheel.Local-6.5.1-1746198480  about 10 minutes ago
+#253274  Remove version: Flywheel.Local version 6.3.0 (Auto)  ...:Remove-Flywheel.Local-6.3.0-1746198422  about 11 minutes ago
+#253273  Remove version: Flywheel.Local version 6.4.3 (Auto)  ...:Remove-Flywheel.Local-6.4.3-1746198355  about 12 minutes ago
+#253272  Remove version: Flywheel.Local version 7.2.0 (Auto)  ...:Remove-Flywheel.Local-7.2.0-1746198279  about 13 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID      TITLE                                      BRANCH                                             CREATED AT
+#63685  New version: Flywheel.Local version 6.4.1  vedantmgoyal9:Flywheel.Local-6.4.1-BCA9521978A626  about 2 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Flywheel.Local-6.4.1-1746199145'
+  已签出新分支 Remove-Flywheel.Local-6.4.1-1746199145
+  已移除软件包 Flywheel.Local 版本 6.4.1
+[Remove-Flywheel.Local-6.4.1-1746199145 27e7f1dc1a8] Remove version: Flywheel.Local version 6.4.1
+ 3 files changed, 69 deletions(-)
+ delete mode 100644 manifests/f/Flywheel/Local/6.4.1/Flywheel.Local.installer.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.4.1/Flywheel.Local.locale.en-US.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.4.1/Flywheel.Local.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 714 bytes | 357.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-Flywheel.Local-6.4.1-1746199145' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Flywheel.Local-6.4.1-1746199145
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Flywheel.Local-6.4.1-1746199145 -> Remove-Flywheel.Local-6.4.1-1746199145
+branch 'Remove-Flywheel.Local-6.4.1-1746199145' set up to track 'origin/Remove-Flywheel.Local-6.4.1-1746199145'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/253287
+ 成功移除 Flywheel.Local 版本 6.4.1
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Flywheel.Local-6.4.1-1746199145 (was 27e7f1dc1a8).
+工作区清理完成
+
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.3.1 "It returns a 404 status code in GitHub Action and has been automatically verified.
+>>
+>> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Local [Flywheel.Local]
+版本
+----------------
+9.2.4
+9.2.3
+9.2.0
+8.1.0
+7.2.1
+7.2.0
+7.1.2
+7.1.0
+6.7.0.20230323.2
+6.6.1
+6.6.0
+6.5.2
+6.5.1
+6.4.3
+6.4.2
+6.4.1
+6.4.0
+6.3.1
+6.3.0
+6.2.0
+6.1.8
+6.1.0
+6.0.0
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Local [Flywheel.Local]
+版本: 6.3.1
+发布者: WPEngine, Inc.
+发布服务器 URL: https://localwp.com
+发布服务器支持 URL: https://localwp.com/help-docs
+绰号： flywheel-local
+描述: Local is a free local development environment designed to simplify the workflow of WordPress developers and designers. Download it for free today!
+主页: https://localwp.com
+许可证: Proprietary
+许可证 URL: https://localwp.com/legal
+隐私 URL: https://localwp.com/legal/privacy-policy
+版权所有: Copyright (c) 2021 Local
+版权 URL: https://localwp.com/legal
+标记：
+  development
+  flywheel
+  sites
+  web
+  wordpress
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://cdn.localwp.com/releases-stable/6.3.1+5826/local-6.3.1-windows.exe
+  安装程序 SHA256： d0b4036ba674171439d5048004ae4d347b39eb09844b451da9ef5bcb1cc29ead
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\f\Flywheel\Local\6.3.1\Flywheel.Local.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Flywheel.Local
+PackageVersion: 6.3.1
+Platform:
+- Windows.Desktop
+MinimumOSVersion: 10.0.0.0
+InstallerType: nullsoft
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  Scope: user
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.3.1+5826/local-6.3.1-windows.exe
+  InstallerSha256: D0B4036BA674171439D5048004AE4D347B39EB09844B451DA9EF5BCB1CC29EAD
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+- Architecture: x86
+  Scope: machine
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.3.1+5826/local-6.3.1-windows.exe
+  InstallerSha256: D0B4036BA674171439D5048004AE4D347B39EB09844B451DA9EF5BCB1CC29EAD
+  InstallerSwitches:
+    Custom: /ALLUSERS
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Local [Flywheel.Local] 版本 6.3.1
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://cdn.localwp.com/releases-stable/6.3.1+5826/local-6.3.1-windows.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 15 of 15 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                BRANCH                                                 CREATED AT
+#253287  Remove version: Flywheel.Local version 6.4.1 (Auto)  ...:Remove-Flywheel.Local-6.4.1-1746199145  less than a minute ago
+#253286  Remove version: Flywheel.Local version 7.1.0 (Auto)  ...:Remove-Flywheel.Local-7.1.0-1746199087  about 1 minute ago
+#253285  Remove version: Flywheel.Local version 6.6.0 (Auto)  ...:Remove-Flywheel.Local-6.6.0-1746199028  about 2 minutes ago
+#253284  Remove version: Flywheel.Local version 6.5.2 (Auto)  ...:Remove-Flywheel.Local-6.5.2-1746198965  about 3 minutes ago
+#253283  Remove version: Flywheel.Local version 7.1.2 (Auto)  ...:Remove-Flywheel.Local-7.1.2-1746198898  about 4 minutes ago
+#253280  Remove version: Flywheel.Local version 6.4.0 (Auto)  ...:Remove-Flywheel.Local-6.4.0-1746198710  about 7 minutes ago
+#253282  Remove version: Flywheel.Local version 6.6.1 (Auto)  ...:Remove-Flywheel.Local-6.6.1-1746198819  about 5 minutes ago
+#253281  Remove version: Flywheel.Local version 6.0.0 (Auto)  ...:Remove-Flywheel.Local-6.0.0-1746198765  about 6 minutes ago
+#253278  Remove version: Flywheel.Local version 6.1.0 (Auto)  ...:Remove-Flywheel.Local-6.1.0-1746198594  about 9 minutes ago
+#253277  Remove version: Flywheel.Local version 6.2.0 (Auto)  ...:Remove-Flywheel.Local-6.2.0-1746198539  about 10 minutes ago
+#253279  Remove version: Flywheel.Local version 6.1.8 (Auto)  ...:Remove-Flywheel.Local-6.1.8-1746198656  about 8 minutes ago
+#253276  Remove version: Flywheel.Local version 6.5.1 (Auto)  ...:Remove-Flywheel.Local-6.5.1-1746198480  about 11 minutes ago
+#253274  Remove version: Flywheel.Local version 6.3.0 (Auto)  ...:Remove-Flywheel.Local-6.3.0-1746198422  about 12 minutes ago
+#253273  Remove version: Flywheel.Local version 6.4.3 (Auto)  ...:Remove-Flywheel.Local-6.4.3-1746198355  about 13 minutes ago
+#253272  Remove version: Flywheel.Local version 7.2.0 (Auto)  ...:Remove-Flywheel.Local-7.2.0-1746198279  about 14 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID      TITLE                                      BRANCH                                             CREATED AT
+#54355  New version: Flywheel.Local version 6.3.1  vedantmgoyal9:Flywheel.Local-6.3.1-AE8A515858A265  about 3 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Flywheel.Local-6.3.1-1746199200'
+  已签出新分支 Remove-Flywheel.Local-6.3.1-1746199200
+  已移除软件包 Flywheel.Local 版本 6.3.1
+[Remove-Flywheel.Local-6.3.1-1746199200 c84f603da88] Remove version: Flywheel.Local version 6.3.1
+ 3 files changed, 69 deletions(-)
+ delete mode 100644 manifests/f/Flywheel/Local/6.3.1/Flywheel.Local.installer.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.3.1/Flywheel.Local.locale.en-US.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.3.1/Flywheel.Local.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 715 bytes | 715.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-Flywheel.Local-6.3.1-1746199200' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Flywheel.Local-6.3.1-1746199200
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Flywheel.Local-6.3.1-1746199200 -> Remove-Flywheel.Local-6.3.1-1746199200
+branch 'Remove-Flywheel.Local-6.3.1-1746199200' set up to track 'origin/Remove-Flywheel.Local-6.3.1-1746199200'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/253288
+ 成功移除 Flywheel.Local 版本 6.3.1
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Flywheel.Local-6.3.1-1746199200 (was c84f603da88).
+工作区清理完成
+
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 8.1.0 "It returns a 404 status code in GitHub Action and has been automatically verified.
+>>
+>> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Local [Flywheel.Local]
+版本
+----------------
+9.2.4
+9.2.3
+9.2.0
+8.1.0
+7.2.1
+7.2.0
+7.1.2
+7.1.0
+6.7.0.20230323.2
+6.6.1
+6.6.0
+6.5.2
+6.5.1
+6.4.3
+6.4.2
+6.4.1
+6.4.0
+6.3.1
+6.3.0
+6.2.0
+6.1.8
+6.1.0
+6.0.0
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Local [Flywheel.Local]
+版本: 8.1.0
+发布者: WPEngine, Inc.
+发布服务器 URL: https://localwp.com
+发布服务器支持 URL: https://localwp.com/help-docs
+绰号： flywheel-local
+描述: Local is a free local development environment designed to simplify the workflow of WordPress developers and designers. Download it for free today!
+主页: https://localwp.com
+许可证: Proprietary
+许可证 URL: https://localwp.com/legal
+隐私 URL: https://localwp.com/legal/privacy-policy
+版权所有: Copyright (c) 2021 Local
+版权 URL: https://localwp.com/legal
+标记：
+  development
+  flywheel
+  sites
+  web
+  wordpress
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://cdn.localwp.com/releases-stable/8.1.0+6514/local-8.1.0-windows.exe
+  安装程序 SHA256： 85ffab8652b141ec2c09defb786ea9c42f8ff0b83f62b39f01224731ee277690
+  发布日期: 2023-11-07
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\f\Flywheel\Local\8.1.0\Flywheel.Local.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Flywheel.Local
+PackageVersion: 8.1.0
+Platform:
+- Windows.Desktop
+InstallerType: nullsoft
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+ReleaseDate: 2023-11-07
+Installers:
+- Architecture: x86
+  Scope: user
+  InstallerUrl: https://cdn.localwp.com/releases-stable/8.1.0+6514/local-8.1.0-windows.exe
+  InstallerSha256: 85FFAB8652B141EC2C09DEFB786EA9C42F8FF0B83F62B39F01224731EE277690
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+- Architecture: x86
+  Scope: machine
+  InstallerUrl: https://cdn.localwp.com/releases-stable/8.1.0+6514/local-8.1.0-windows.exe
+  InstallerSha256: 85FFAB8652B141EC2C09DEFB786EA9C42F8FF0B83F62B39F01224731EE277690
+  InstallerSwitches:
+    Custom: /ALLUSERS
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Local [Flywheel.Local] 版本 8.1.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://cdn.localwp.com/releases-stable/8.1.0+6514/local-8.1.0-windows.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 16 of 16 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                BRANCH                                                 CREATED AT
+#253288  Remove version: Flywheel.Local version 6.3.1 (Auto)  ...:Remove-Flywheel.Local-6.3.1-1746199200  less than a minute ago
+#253287  Remove version: Flywheel.Local version 6.4.1 (Auto)  ...:Remove-Flywheel.Local-6.4.1-1746199145  about 1 minute ago
+#253286  Remove version: Flywheel.Local version 7.1.0 (Auto)  ...:Remove-Flywheel.Local-7.1.0-1746199087  about 2 minutes ago
+#253285  Remove version: Flywheel.Local version 6.6.0 (Auto)  ...:Remove-Flywheel.Local-6.6.0-1746199028  about 3 minutes ago
+#253284  Remove version: Flywheel.Local version 6.5.2 (Auto)  ...:Remove-Flywheel.Local-6.5.2-1746198965  about 4 minutes ago
+#253283  Remove version: Flywheel.Local version 7.1.2 (Auto)  ...:Remove-Flywheel.Local-7.1.2-1746198898  about 5 minutes ago
+#253280  Remove version: Flywheel.Local version 6.4.0 (Auto)  ...:Remove-Flywheel.Local-6.4.0-1746198710  about 8 minutes ago
+#253282  Remove version: Flywheel.Local version 6.6.1 (Auto)  ...:Remove-Flywheel.Local-6.6.1-1746198819  about 6 minutes ago
+#253279  Remove version: Flywheel.Local version 6.1.8 (Auto)  ...:Remove-Flywheel.Local-6.1.8-1746198656  about 9 minutes ago
+#253281  Remove version: Flywheel.Local version 6.0.0 (Auto)  ...:Remove-Flywheel.Local-6.0.0-1746198765  about 7 minutes ago
+#253278  Remove version: Flywheel.Local version 6.1.0 (Auto)  ...:Remove-Flywheel.Local-6.1.0-1746198594  about 10 minutes ago
+#253277  Remove version: Flywheel.Local version 6.2.0 (Auto)  ...:Remove-Flywheel.Local-6.2.0-1746198539  about 11 minutes ago
+#253276  Remove version: Flywheel.Local version 6.5.1 (Auto)  ...:Remove-Flywheel.Local-6.5.1-1746198480  about 12 minutes ago
+#253274  Remove version: Flywheel.Local version 6.3.0 (Auto)  ...:Remove-Flywheel.Local-6.3.0-1746198422  about 13 minutes ago
+#253273  Remove version: Flywheel.Local version 6.4.3 (Auto)  ...:Remove-Flywheel.Local-6.4.3-1746198355  about 14 minutes ago
+#253272  Remove version: Flywheel.Local version 7.2.0 (Auto)  ...:Remove-Flywheel.Local-7.2.0-1746198279  about 15 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                      BRANCH                                                                       CREATED AT
+#125146  New version: Flywheel.Local version 8.1.0  vedantmgoyal9:Flywheel.Local-8.1.0-2AD3FA6371071D85D1FE29C5D9ACB1692BB83254  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Flywheel.Local-8.1.0-1746199257'
+  已签出新分支 Remove-Flywheel.Local-8.1.0-1746199257
+  已移除软件包 Flywheel.Local 版本 8.1.0
+[Remove-Flywheel.Local-8.1.0-1746199257 8db35aded58] Remove version: Flywheel.Local version 8.1.0
+ 3 files changed, 69 deletions(-)
+ delete mode 100644 manifests/f/Flywheel/Local/8.1.0/Flywheel.Local.installer.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/8.1.0/Flywheel.Local.locale.en-US.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/8.1.0/Flywheel.Local.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 715 bytes | 715.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-Flywheel.Local-8.1.0-1746199257' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Flywheel.Local-8.1.0-1746199257
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Flywheel.Local-8.1.0-1746199257 -> Remove-Flywheel.Local-8.1.0-1746199257
+branch 'Remove-Flywheel.Local-8.1.0-1746199257' set up to track 'origin/Remove-Flywheel.Local-8.1.0-1746199257'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/253289
+ 成功移除 Flywheel.Local 版本 8.1.0
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Flywheel.Local-8.1.0-1746199257 (was 8db35aded58).
+工作区清理完成
+
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.7.0.20230323.2 "It returns a 404 status code in GitHub Action and has been automatically verified.
+>>
+>> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Local [Flywheel.Local]
+版本
+----------------
+9.2.4
+9.2.3
+9.2.0
+8.1.0
+7.2.1
+7.2.0
+7.1.2
+7.1.0
+6.7.0.20230323.2
+6.6.1
+6.6.0
+6.5.2
+6.5.1
+6.4.3
+6.4.2
+6.4.1
+6.4.0
+6.3.1
+6.3.0
+6.2.0
+6.1.8
+6.1.0
+6.0.0
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Local [Flywheel.Local]
+版本: 6.7.0.20230323.2
+发布者: WPEngine, Inc.
+发布服务器 URL: https://localwp.com
+发布服务器支持 URL: https://localwp.com/help-docs
+绰号： flywheel-local
+描述: Local is a free local development environment designed to simplify the workflow of WordPress developers and designers. Download it for free today!
+主页: https://localwp.com
+许可证: Proprietary
+许可证 URL: https://localwp.com/legal
+隐私 URL: https://localwp.com/legal/privacy-policy
+版权所有: Copyright (c) 2021 Local
+版权 URL: https://localwp.com/legal
+标记：
+  development
+  flywheel
+  sites
+  web
+  wordpress
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://cdn.localwp.com/releases-stable/6.7.0+6347/local-6.7.0-windows.exe
+  安装程序 SHA256： 5269acff8c831e496fa789a347ca90f80d25a3118b7238661825707b4083845c
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\f\Flywheel\Local\6.7.0.20230323.2\Flywheel.Local.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Flywheel.Local
+PackageVersion: 6.7.0.20230323.2
+Platform:
+- Windows.Desktop
+MinimumOSVersion: 10.0.0.0
+InstallerType: nullsoft
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  Scope: user
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.7.0+6347/local-6.7.0-windows.exe
+  InstallerSha256: 5269ACFF8C831E496FA789A347CA90F80D25A3118B7238661825707B4083845C
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+- Architecture: x86
+  Scope: machine
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.7.0+6347/local-6.7.0-windows.exe
+  InstallerSha256: 5269ACFF8C831E496FA789A347CA90F80D25A3118B7238661825707B4083845C
+  InstallerSwitches:
+    Custom: /ALLUSERS
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Local [Flywheel.Local] 版本 6.7.0.20230323.2
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://cdn.localwp.com/releases-stable/6.7.0+6347/local-6.7.0-windows.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 17 of 17 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                BRANCH                                                 CREATED AT
+#253289  Remove version: Flywheel.Local version 8.1.0 (Auto)  ...:Remove-Flywheel.Local-8.1.0-1746199257  less than a minute ago
+#253288  Remove version: Flywheel.Local version 6.3.1 (Auto)  ...:Remove-Flywheel.Local-6.3.1-1746199200  about 1 minute ago
+#253287  Remove version: Flywheel.Local version 6.4.1 (Auto)  ...:Remove-Flywheel.Local-6.4.1-1746199145  about 2 minutes ago
+#253286  Remove version: Flywheel.Local version 7.1.0 (Auto)  ...:Remove-Flywheel.Local-7.1.0-1746199087  about 3 minutes ago
+#253285  Remove version: Flywheel.Local version 6.6.0 (Auto)  ...:Remove-Flywheel.Local-6.6.0-1746199028  about 4 minutes ago
+#253284  Remove version: Flywheel.Local version 6.5.2 (Auto)  ...:Remove-Flywheel.Local-6.5.2-1746198965  about 5 minutes ago
+#253282  Remove version: Flywheel.Local version 6.6.1 (Auto)  ...:Remove-Flywheel.Local-6.6.1-1746198819  about 7 minutes ago
+#253281  Remove version: Flywheel.Local version 6.0.0 (Auto)  ...:Remove-Flywheel.Local-6.0.0-1746198765  about 8 minutes ago
+#253283  Remove version: Flywheel.Local version 7.1.2 (Auto)  ...:Remove-Flywheel.Local-7.1.2-1746198898  about 6 minutes ago
+#253280  Remove version: Flywheel.Local version 6.4.0 (Auto)  ...:Remove-Flywheel.Local-6.4.0-1746198710  about 9 minutes ago
+#253279  Remove version: Flywheel.Local version 6.1.8 (Auto)  ...:Remove-Flywheel.Local-6.1.8-1746198656  about 10 minutes ago
+#253278  Remove version: Flywheel.Local version 6.1.0 (Auto)  ...:Remove-Flywheel.Local-6.1.0-1746198594  about 11 minutes ago
+#253277  Remove version: Flywheel.Local version 6.2.0 (Auto)  ...:Remove-Flywheel.Local-6.2.0-1746198539  about 12 minutes ago
+#253276  Remove version: Flywheel.Local version 6.5.1 (Auto)  ...:Remove-Flywheel.Local-6.5.1-1746198480  about 13 minutes ago
+#253274  Remove version: Flywheel.Local version 6.3.0 (Auto)  ...:Remove-Flywheel.Local-6.3.0-1746198422  about 14 minutes ago
+#253273  Remove version: Flywheel.Local version 6.4.3 (Auto)  ...:Remove-Flywheel.Local-6.4.3-1746198355  about 15 minutes ago
+#253272  Remove version: Flywheel.Local version 7.2.0 (Auto)  ...:Remove-Flywheel.Local-7.2.0-1746198279  about 16 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                                             BRANCH                                                          CREATED AT
+#100445  Automatic update of Flywheel.Local from 6.7.0 to 6.7.0.202303...  wingetbot:AutomaticUpdate_bd68e6f0-7305-41bf-bdf4-9c001f803044  about 2 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-Flywheel.Local-6.7.0.20230323.2-1746199313'
+  已签出新分支 Remove-Flywheel.Local-6.7.0.20230323.2-1746199313
+  已移除软件包 Flywheel.Local 版本 6.7.0.20230323.2
+[Remove-Flywheel.Local-6.7.0.20230323.2-1746199313 f2f6d8fb31e] Remove version: Flywheel.Local version 6.7.0.20230323.2
+ 3 files changed, 69 deletions(-)
+ delete mode 100644 manifests/f/Flywheel/Local/6.7.0.20230323.2/Flywheel.Local.installer.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.7.0.20230323.2/Flywheel.Local.locale.en-US.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.7.0.20230323.2/Flywheel.Local.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 724 bytes | 724.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-Flywheel.Local-6.7.0.20230323.2-1746199313' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Flywheel.Local-6.7.0.20230323.2-1746199313
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Flywheel.Local-6.7.0.20230323.2-1746199313 -> Remove-Flywheel.Local-6.7.0.20230323.2-1746199313
+branch 'Remove-Flywheel.Local-6.7.0.20230323.2-1746199313' set up to track 'origin/Remove-Flywheel.Local-6.7.0.20230323.2-1746199313'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/253290
+ 成功移除 Flywheel.Local 版本 6.7.0.20230323.2
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-Flywheel.Local-6.7.0.20230323.2-1746199313 (was f2f6d8fb31e).
+工作区清理完成
+
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.4.2 "It returns a 404 status code in GitHub Action and has been automatically verified.
+>>
+>> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Local [Flywheel.Local]
+版本
+----------------
+9.2.4
+9.2.3
+9.2.0
+8.1.0
+7.2.1
+7.2.0
+7.1.2
+7.1.0
+6.7.0.20230323.2
+6.6.1
+6.6.0
+6.5.2
+6.5.1
+6.4.3
+6.4.2
+6.4.1
+6.4.0
+6.3.1
+6.3.0
+6.2.0
+6.1.8
+6.1.0
+6.0.0
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Local [Flywheel.Local]
+版本: 6.4.2
+发布者: WPEngine, Inc.
+发布服务器 URL: https://localwp.com
+发布服务器支持 URL: https://localwp.com/help-docs
+绰号： flywheel-local
+描述: Local is a free local development environment designed to simplify the workflow of WordPress developers and designers. Download it for free today!
+主页: https://localwp.com
+许可证: Proprietary
+许可证 URL: https://localwp.com/legal
+隐私 URL: https://localwp.com/legal/privacy-policy
+版权所有: Copyright (c) 2021 Local
+版权 URL: https://localwp.com/legal
+标记：
+  development
+  flywheel
+  sites
+  web
+  wordpress
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://cdn.localwp.com/releases-stable/6.4.2+6012/local-6.4.2-windows.exe
+  安装程序 SHA256： 5f0f64f704b6fa8d0ea74f1bee6479224e5c4b7b5684828eafb1ab0388248c98
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\f\Flywheel\Local\6.4.2\Flywheel.Local.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: Flywheel.Local
+PackageVersion: 6.4.2
+Platform:
+- Windows.Desktop
+MinimumOSVersion: 10.0.0.0
+InstallerType: nullsoft
+InstallModes:
+- interactive
+- silent
+UpgradeBehavior: install
+Installers:
+- Architecture: x86
+  Scope: user
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.4.2+6012/local-6.4.2-windows.exe
+  InstallerSha256: 5F0F64F704B6FA8D0EA74F1BEE6479224E5C4B7B5684828EAFB1AB0388248C98
+  InstallerSwitches:
+    Custom: /CURRENTUSER
+- Architecture: x86
+  Scope: machine
+  InstallerUrl: https://cdn.localwp.com/releases-stable/6.4.2+6012/local-6.4.2-windows.exe
+  InstallerSha256: 5F0F64F704B6FA8D0EA74F1BEE6479224E5C4B7B5684828EAFB1AB0388248C98
+  InstallerSwitches:
+    Custom: /ALLUSERS
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Local [Flywheel.Local] 版本 6.4.2
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://cdn.localwp.com/releases-stable/6.4.2+6012/local-6.4.2-windows.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 18 of 18 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                          BRANCH                                                        CREATED AT
+#253289  Remove version: Flywheel.Local version 8.1.0 (Auto)            ...:Remove-Flywheel.Local-8.1.0-1746199257         about 1 minute ago
+#253288  Remove version: Flywheel.Local version 6.3.1 (Auto)            ...:Remove-Flywheel.Local-6.3.1-1746199200         about 2 minutes ago
+#253287  Remove version: Flywheel.Local version 6.4.1 (Auto)            ...:Remove-Flywheel.Local-6.4.1-1746199145         about 3 minutes ago
+#253286  Remove version: Flywheel.Local version 7.1.0 (Auto)            ...:Remove-Flywheel.Local-7.1.0-1746199087         about 4 minutes ago
+#253285  Remove version: Flywheel.Local version 6.6.0 (Auto)            ...:Remove-Flywheel.Local-6.6.0-1746199028         about 5 minutes ago
+#253282  Remove version: Flywheel.Local version 6.6.1 (Auto)            ...:Remove-Flywheel.Local-6.6.1-1746198819         about 8 minutes ago
+#253284  Remove version: Flywheel.Local version 6.5.2 (Auto)            ...:Remove-Flywheel.Local-6.5.2-1746198965         about 6 minutes ago
+#253281  Remove version: Flywheel.Local version 6.0.0 (Auto)            ...:Remove-Flywheel.Local-6.0.0-1746198765         about 9 minutes ago
+#253283  Remove version: Flywheel.Local version 7.1.2 (Auto)            ...:Remove-Flywheel.Local-7.1.2-1746198898         about 7 minutes ago
+#253280  Remove version: Flywheel.Local version 6.4.0 (Auto)            ...:Remove-Flywheel.Local-6.4.0-1746198710         about 10 minutes ago
+#253279  Remove version: Flywheel.Local version 6.1.8 (Auto)            ...:Remove-Flywheel.Local-6.1.8-1746198656         about 11 minutes ago
+#253278  Remove version: Flywheel.Local version 6.1.0 (Auto)            ...:Remove-Flywheel.Local-6.1.0-1746198594         about 12 minutes ago
+#253277  Remove version: Flywheel.Local version 6.2.0 (Auto)            ...:Remove-Flywheel.Local-6.2.0-1746198539         about 13 minutes ago
+#253276  Remove version: Flywheel.Local version 6.5.1 (Auto)            ...:Remove-Flywheel.Local-6.5.1-1746198480         about 14 minutes ago
+#253274  Remove version: Flywheel.Local version 6.3.0 (Auto)            ...:Remove-Flywheel.Local-6.3.0-1746198422         about 15 minutes ago
+#253273  Remove version: Flywheel.Local version 6.4.3 (Auto)            ...:Remove-Flywheel.Local-6.4.3-1746198355         about 16 minutes ago
+#253272  Remove version: Flywheel.Local version 7.2.0 (Auto)            ...:Remove-Flywheel.Local-7.2.0-1746198279         about 17 minutes ago
+#253290  Remove version: Flywheel.Local version 6.7.0.20230323.2 (A...  ...:Remove-Flywheel.Local-6.7.0.20230323.2-174...  less than a minute ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID      TITLE                                      BRANCH                                             CREATED AT
+#75452  Update: Flywheel.Local version 6.4.2       vedantmgoyal9:Flywheel.Local-6.4.2-FAF4CB31DA5348  about 2 years ago
+#68122  New version: Flywheel.Local version 6.4.2  vedantmgoyal9:Flywheel.Local-6.4.2-903FB43D5FB728  about 2 years ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+remote: Enumerating objects: 31, done.
+remote: Counting objects: 100% (31/31), done.
+remote: Compressing objects: 100% (18/18), done.
+remote: Total 22 (delta 11), reused 9 (delta 2), pack-reused 0 (from 0)
+Unpacking objects: 100% (22/22), 5.29 KiB | 66.00 KiB/s, done.
+From https://github.com/microsoft/winget-pkgs
+   b8214054796..11f625cf914  master     -> upstream/master
+Successfully rebased and updated refs/heads/master.
+  已拉取上游修改
+Switched to a new branch 'Remove-Flywheel.Local-6.4.2-1746199391'
+  已签出新分支 Remove-Flywheel.Local-6.4.2-1746199391
+  已移除软件包 Flywheel.Local 版本 6.4.2
+[Remove-Flywheel.Local-6.4.2-1746199391 e827ae62b20] Remove version: Flywheel.Local version 6.4.2
+ 3 files changed, 69 deletions(-)
+ delete mode 100644 manifests/f/Flywheel/Local/6.4.2/Flywheel.Local.installer.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.4.2/Flywheel.Local.locale.en-US.yaml
+ delete mode 100644 manifests/f/Flywheel/Local/6.4.2/Flywheel.Local.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 716 bytes | 358.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-Flywheel.Local-6.4.2-1746199391' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-Flywheel.Local-6.4.2-1746199391
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-Flywheel.Local-6.4.2-1746199391 -> Remove-Flywheel.Local-6.4.2-1746199391
+branch 'Remove-Flywheel.Local-6.4.2-1746199391' set up to track 'origin/Remove-Flywheel.Local-6.4.2-1746199391'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/253291
+ 成功移除 Flywheel.Local 版本 6.4.2
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-Flywheel.Local-6.4.2-1746199391 (was e827ae62b20).
+工作区清理完成

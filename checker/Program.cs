@@ -1,3 +1,9 @@
+using System;
+using System.IO;
+using System.Linq;
+using System.Net.Http;
+using System.Threading.Tasks;
+using System.Collections.Generic;
 using YamlDotNet.RepresentationModel;
 
 namespace checker
@@ -100,7 +106,8 @@ namespace checker
                                     {
                                         Console.WriteLine($"\n[Error] (安装程序返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})");
                                         Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath).Replace(".installer.yaml", "")} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
-                                        if (failureLevel != "complete") {
+                                        if (failureLevel != "complete")
+                                        {
                                             return false;
                                         }
                                         else
@@ -146,8 +153,8 @@ namespace checker
                                 }
                                 else if (response.StatusCode == System.Net.HttpStatusCode.RequestTimeout)
                                 {
-                                    // 抛出 TaskCanceledException 异常，并说明返回了 408，然后让下面的 catch 处理
-                                    throw new TaskCanceledException("Url 返回了状态码 408 (Request Timeout - 请求超时)");
+                                    // 抛出 TimeoutException 异常，并说明返回了 408，然后让下面的 catch 处理
+                                    throw new TimeoutException("Url 返回了状态码 408 (Request Timeout - 请求超时)");
                                 }
                                 else if (response.StatusCode == System.Net.HttpStatusCode.MethodNotAllowed)
                                 {
@@ -190,13 +197,44 @@ namespace checker
                         }
                         catch (HttpRequestException e)
                         {
-                            Console.WriteLine($"\n[Warning] 无法访问 {filePath} 中的 {url} : {e.Message}");
-                            if (failureLevel == "warning")
+                            bool flag = false;
+                            if (e.Message.Contains("Resource temporarily unavailable"))
+                            {
+                                Console.Write("-");
+#if DEBUG
+                                Console.WriteLine($"\n[Debug] 访问 {filePath} 中的 {url} 时发生错误: {e.Message} (资源暂时不可用)");
+#else
+                                _ = e; // 非 Debug 模式下忽略 e 的定义以避免 CS0168 警告
+#endif
+                            }
+                            else
+                            {
+                                Console.WriteLine($"\n[Warning] 无法访问 {filePath} 中的 {url} : {e.Message} - {e.InnerException?.Message ?? "没有内部异常"}");
+                                flag = true;
+                            }
+                            
+                            if (failureLevel == "warning" && flag)
                             {
                                 return false;
                             }
                         }
                         catch (TaskCanceledException e)
+                        {
+                            Console.Write("-");
+#if DEBUG
+                            if (e.InnerException is TimeoutException)
+                            {
+                                Console.WriteLine($"\n[Debug] 访问 {filePath} 中的 {url} 时超时: {e.Message}");
+                            }
+                            else
+                            {
+                                Console.WriteLine($"\n[Debug] 访问 {filePath} 中的 {url} 时任务取消: {e.Message} ({e.InnerException?.Message ?? "没有内部异常"})");
+                            }
+#else
+                            _ = e; // 非 Debug 模式下忽略 e 的定义以避免 CS0168 警告
+#endif
+                        }
+                        catch (TimeoutException e)
                         {
                             Console.Write("-");
 #if DEBUG
@@ -210,7 +248,8 @@ namespace checker
                             if (failureLevel == "warning" || filePath.Contains("installer.yaml"))
                             {
                                 Console.WriteLine($"\n[Error] {filePath} 中的 {url} 无效: {e.Message}");
-                                if (failureLevel != "complete") {
+                                if (failureLevel != "complete")
+                                {
                                     return false;
                                 }
                                 else
@@ -226,7 +265,8 @@ namespace checker
                         catch (Exception e)
                         {
                             Console.WriteLine($"\n[Error] {filePath} 中的 {url} 发生错误: {e.Message}");
-                            if (failureLevel != "complete") {
+                            if (failureLevel != "complete")
+                            {
                                 return false;
                             }
                             else
@@ -239,7 +279,8 @@ namespace checker
                 catch (Exception e)
                 {
                     Console.WriteLine($"\n[Error] 处理文件 {filePath} 时发生错误: {e.Message}");
-                    if (failureLevel != "complete") {
+                    if (failureLevel != "complete")
+                    {
                         return false;
                     }
                     else
@@ -333,12 +374,15 @@ namespace checker
                 "https://github.com/paintdotnet/release/", "https://cdn.kde.org/ci-builds/education/kiten/master/windows/", // 更新时移除
                 "https://cdn.krisp.ai", "https://www.huaweicloud.com/", "https://mirrors.kodi.tv", "https://scache.vzw.com", "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", "https://www.magicdesktop.com/get/kiosk?src=winget", "https://dl.makeblock.com/", "https://download.voicecloud.cn/", "https://dl.jisupdftoword.com/", "https://www.123pan.com/", "jisupdf.com", "jisupdfeditor.com", // 假404
                 "https://www.deezer.com/", ".mil", "https://download.wondershare.com/cbs_down/", "https://catsxp.oss-cn-hongkong.aliyuncs.com/", // 无法验证
-                "https://downloads.mysql.com/", "https://swcdn.apple.com/content/downloads/", "sourceforge.net", "https://static.centbrowser.cn/", "https://cdn1.waterfox.net/waterfox/releases/", "https://downloads.tableau.com/public/", "https://sp.thsi.cn/staticS3/mobileweb-upload-static-server.file/app_6/downloadcenter/THS_insoft", "https://files02.tchspt.com/down/", "https://cdn-dl.yinxiang.com/", "https://download.mono-project.com/archive/", // 假403
+                "https://downloads.mysql.com/", "https://swcdn.apple.com/content/downloads/", "sourceforge.net", "https://static.centbrowser.cn/", "https://cdn1.waterfox.net/waterfox/releases/", "https://downloads.tableau.com/public/", "https://sp.thsi.cn/staticS3/mobileweb-upload-static-server.file/app_6/downloadcenter/THS_insoft", "https://files02.tchspt.com/down/", "https://cdn-dl.yinxiang.com/", "https://download.mono-project.com/archive/", "https://cdn-resource.aunbox.cn/", // 假403
                 "https://issuepcdn.baidupcs.com/", "https://lf-luna-release.qishui.com/obj/luna-release/", "https://down.360safe.com/cse/", // 超时
                 "https://www.argyllcms.com/", // 服务器拒绝冲泡咖啡
                 "https://www.elcomsoft.com/", "https://pbank.bankcomm.cn/personbank/download/SecEditCFCAforBoCom.exe", // SSL错误
-                "https://download.eset.com/com/eset/tools/installers/av_remover/latest/avremover_arm64_enu.exe", "http://www.heaventools.com/files/11hFgnI0s/FlexHex_editor_setup.exe", "https://www.z-download.de/down/zcron.zip", "https://ota-downloads.nvidia.com/ota/GeForceNOW-release_E2BBA5.exe", // WIP
                 "https://aurorabuilder.com/downloads/Aurora%20Setup.zip", // 假400
+                "https://download.eset.com/com/eset/tools/installers/av_remover/latest/avremover_arm64_enu.exe", "https://cdn.localwp.com/releases-stable", "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE", "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-ALL.EXE", "https://github.com/emacs-eask/cli/releases/download/0.11.2/eask_0.11.2_win-x64.zip", "https://github.com/emacs-eask/cli/releases/download/0.11.2/eask_0.11.2_win-arm64.zip", // WIP
+                "http://www.sminstall.com/simsetup.exe", "http://www.heaventools.com/files/11hFgnI0s/FlexHex_editor_setup.exe", // 讨论中
+                "https://github.com/Chill-Astro/PyCalc-SE/releases/download/Latest/PyCalc-SE-Setup.exe", // WIP - https://github.com/microsoft/winget-pkgs/pull/252669
+                "https://github.com/Chill-Astro/PyCalc/releases/download/Latest/PyCalc-Setup.exe", // WIP - https://github.com/microsoft/winget-pkgs/pull/253643
             ];
             return excludedDomains.Any(domain => url.Contains(domain));
         }

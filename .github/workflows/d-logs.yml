@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: 清理分支
-        if: github.event.pull_request.merged == true
+        if: ${{ github.event.pull_request.merged == true }}
         run: |
           # 获取拉取请求的标签
           PR_LABELS=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
@@ -33,3 +33,4 @@ jobs:
           else
             echo "未找到 auto 标签，这可能不是主人的自动化的拉取请求: #${{ github.event.pull_request.number }} (${{ github.event.pull_request.head.ref }})"
           fi
+        continue-on-error: true
