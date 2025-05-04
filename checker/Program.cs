@@ -86,7 +86,7 @@ namespace checker
 
                             if ((int)response.StatusCode >= 400 && (int)response.StatusCode < 500)
                             {
-                                if (((response.StatusCode == System.Net.HttpStatusCode.NotFound) || (response.StatusCode == System.Net.HttpStatusCode.Gone)) && filePath.Contains("installer.yaml"))
+                                if ((response.StatusCode == System.Net.HttpStatusCode.NotFound) || (response.StatusCode == System.Net.HttpStatusCode.Gone))
                                 {
                                     string message;
                                     if (response.StatusCode == System.Net.HttpStatusCode.NotFound)
@@ -102,25 +102,36 @@ namespace checker
                                         message = "Unknown - 未知";
                                     }
 
-                                    if (installerType.Any(ext => url.EndsWith(ext, StringComparison.OrdinalIgnoreCase)))
+                                    if (filePath.Contains("installer.yaml"))
                                     {
-                                        Console.WriteLine($"\n[Error] (安装程序返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})");
-                                        Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath).Replace(".installer.yaml", "")} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
-                                        if (failureLevel != "complete")
+                                        if (installerType.Any(ext => url.EndsWith(ext, StringComparison.OrdinalIgnoreCase)))
                                         {
-                                            return false;
+                                            Console.WriteLine($"\n[Error] (安装程序返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})");
+                                            Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath).Replace(".installer.yaml", "")} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
+                                            if (failureLevel != "complete")
+                                            {
+                                                return false;
+                                            }
+                                            else
+                                            {
+                                                failed = true;
+                                            }
                                         }
                                         else
                                         {
-                                            failed = true;
+                                            Console.WriteLine($"\n[Warning] (安装程序? 返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})");
+                                            if (failureLevel == "warning")
+                                            {
+                                                Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath).Replace(".installer.yaml", "")} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
+                                                return false;
+                                            }
                                         }
                                     }
                                     else
                                     {
-                                        Console.WriteLine($"\n[Warning] (安装程序? 返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})");
+                                        Console.WriteLine($"\n[Warning] (一般链接返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})");
                                         if (failureLevel == "warning")
                                         {
-                                            Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath).Replace(".installer.yaml", "")} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
                                             return false;
                                         }
                                     }
@@ -197,7 +208,6 @@ namespace checker
                         }
                         catch (HttpRequestException e)
                         {
-                            bool flag = false;
                             if (e.Message.Contains("Resource temporarily unavailable"))
                             {
                                 Console.Write("-");
@@ -207,15 +217,50 @@ namespace checker
                                 _ = e; // 非 Debug 模式下忽略 e 的定义以避免 CS0168 警告
 #endif
                             }
+                            else if (e.Message.Contains("Name or service not known"))
+                            {
+                                // 视作 404 Not Found 按错误处理
+                                if (filePath.Contains("installer.yaml"))
+                                {
+                                    if (installerType.Any(ext => url.EndsWith(ext, StringComparison.OrdinalIgnoreCase)))
+                                    {
+                                        Console.WriteLine($"\n[Error] (安装程序 Name or service not known) {filePath} 中的 {url} 域名或服务器未知 ({e.Message})");
+                                        Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath).Replace(".installer.yaml", "")} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
+                                        if (failureLevel != "complete")
+                                        {
+                                            return false;
+                                        }
+                                        else
+                                        {
+                                            failed = true;
+                                        }
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine($"\n[Warning] (安装程序? Name or service not known) {filePath} 中的 {url} 域名或服务器未知 ({e.Message})");
+                                        if (failureLevel == "warning")
+                                        {
+                                            Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath).Replace(".installer.yaml", "")} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
+                                            return false;
+                                        }
+                                    }
+                                }
+                                else
+                                {
+                                    Console.WriteLine($"\n[Warning] (一般链接 Name or service not known) {filePath} 中的 {url} 域名或服务器未知 ({e.Message})");
+                                    if (failureLevel == "warning")
+                                    {
+                                        return false;
+                                    }
+                                }
+                            }
                             else
                             {
                                 Console.WriteLine($"\n[Warning] 无法访问 {filePath} 中的 {url} : {e.Message} - {e.InnerException?.Message ?? "没有内部异常"}");
-                                flag = true;
-                            }
-                            
-                            if (failureLevel == "warning" && flag)
-                            {
-                                return false;
+                                if (failureLevel == "warning")
+                                {
+                                    return false;
+                                }
                             }
                         }
                         catch (TaskCanceledException e)
