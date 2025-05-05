@@ -52,7 +52,7 @@ namespace checker
             }
         }
 
-        internal static readonly string[] installerType = [".exe", ".zip", ".msi", ".msix", ".appx", "&download"];
+        internal static readonly string[] installerType = [".exe", ".zip", ".msi", ".msix", ".appx", "download"];
         // &download 为 sourceforge 和类似网站的下载链接
 
         static async Task<bool> CheckUrlsInYamlFiles(string folderPath, string failureLevel)
@@ -203,6 +203,29 @@ namespace checker
                             else
                             // 除了上面的 400 - 500
                             {
+                                // 如果这个 URL 是 HTTP 而不是 HTTPS 的
+                                if (url.StartsWith("http://", StringComparison.OrdinalIgnoreCase))
+                                {
+                                    // 尝试使用 HTTPS 访问
+                                    string httpsUrl = url.Replace("http://", "https://", StringComparison.OrdinalIgnoreCase);
+                                    try
+                                    {
+                                        HttpResponseMessage httpsResponse = await client.SendAsync(new HttpRequestMessage(HttpMethod.Head, httpsUrl));
+                                        // 如果可以访问 (<400)
+                                        if ((int)httpsResponse.StatusCode < 400)
+                                        {
+                                            Console.WriteLine($"\n[Warning] {filePath} 中的 {url} 不安全 (HTTP)，请使用安全 URL {httpsUrl} (HTTPS) 替代。");
+                                            if (failureLevel == "warning")
+                                            {
+                                                return false;
+                                            }
+                                        }
+                                    }
+                                    catch
+                                    {
+                                        // 忽略异常
+                                    }
+                                }
                                 Console.Write("*");
                             }
                         }
