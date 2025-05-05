@@ -1,0 +1,30 @@
+~~ Start logging ~~
+2025-05-05 23:56:11.114 FUN 唯美的广西
+2025-05-05 23:56:11.117 INFO Found the following version folder: ['23.5.1040']
+2025-05-05 23:56:11.340 INFO Processing version folder: 23.5.1040
+2025-05-05 23:56:11.341 INFO   Create and checkout to a new branch: NewVersion-CINCSoftware.Workstation-23.5.1040-1746460571
+2025-05-05 23:56:21.830 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\CINCSoftware\Workstation\23.5.1040\CINCSoftware.Workstation.installer.yaml
+2025-05-05 23:56:21.833 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-05-05 23:56:21.835 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-05-05 23:56:21.836 INFO     Cleaned up CINCSoftware.Workstation.installer.yaml
+2025-05-05 23:56:21.838 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\CINCSoftware\Workstation\23.5.1040\CINCSoftware.Workstation.installer.yaml
+2025-05-05 23:56:22.964 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\CINCSoftware\Workstation\23.5.1040\CINCSoftware.Workstation.locale.en-US.yaml
+2025-05-05 23:56:22.997 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-05-05 23:56:22.100 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-05-05 23:56:22.101 INFO     Cleaned up CINCSoftware.Workstation.locale.en-US.yaml
+2025-05-05 23:56:22.104 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\CINCSoftware\Workstation\23.5.1040\CINCSoftware.Workstation.locale.en-US.yaml
+2025-05-05 23:56:22.252 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\CINCSoftware\Workstation\23.5.1040\CINCSoftware.Workstation.yaml
+2025-05-05 23:56:22.254 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-05-05 23:56:22.256 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-05-05 23:56:22.257 INFO     Cleaned up CINCSoftware.Workstation.yaml
+2025-05-05 23:56:22.262 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\CINCSoftware\Workstation\23.5.1040\CINCSoftware.Workstation.yaml
+2025-05-05 23:56:22.418 INFO   New manifests in D:\...\winget-pkgs\manifests\c\CINCSoftware\Workstation\23.5.1040 for CINCSoftware.Workstation (23.5.1040)
+2025-05-05 23:59:10.188 INFO     清单验证成功。
+2025-05-05 23:59:10.202 INFO   Staging and Committing Changes to Git
+2025-05-06 00:00:28.390 INFO     Commit message: New version: CINCSoftware.Workstation version 23.5.1040 (Auto)
+2025-05-06 00:00:28.404 INFO   Pushing changes to remote (origin) repository
+2025-05-06 00:00:34.201 INFO     Successfully pushed to remote (origin): NewVersion-CINCSoftware.Workstation-23.5.1040-1746460571
+2025-05-06 00:00:36.268 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/253811
+2025-05-06 00:00:36.307 INFO All manifests have been modified and pushed through.
+2025-05-06 00:00:42.912 INFO Workspace clean-up completed.
+~~ End of logging ~~
