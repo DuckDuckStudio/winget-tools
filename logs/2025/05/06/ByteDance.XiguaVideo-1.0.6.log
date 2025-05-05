@@ -1,0 +1,39 @@
+~~ Start logging ~~
+2025-05-06 04:27:08.613 FUN Just do it!
+2025-05-06 04:27:08.617 INFO Found the following version folder: ['1.0.4', '1.0.6', '1.0.7', '1.0.9', '1.1.1']
+2025-05-06 04:27:08.826 INFO Skip version 1.0.4, because it's not in the list of versions to be modified.
+2025-05-06 04:27:08.828 INFO Processing version folder: 1.0.6
+2025-05-06 04:27:08.830 INFO   Create and checkout to a new branch: NewVersion-ByteDance.XiguaVideo-1.0.6-1746476828
+2025-05-06 04:27:16.444 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\ByteDance\XiguaVideo\1.0.6\ByteDance.XiguaVideo.installer.yaml
+2025-05-06 04:27:16.449 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-05-06 04:27:16.450 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-05-06 04:27:16.451 INFO     Cleaned up ByteDance.XiguaVideo.installer.yaml
+2025-05-06 04:27:16.453 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\ByteDance\XiguaVideo\1.0.6\ByteDance.XiguaVideo.installer.yaml
+2025-05-06 04:27:16.711 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\ByteDance\XiguaVideo\1.0.6\ByteDance.XiguaVideo.locale.en-US.yaml
+2025-05-06 04:27:16.713 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-05-06 04:27:16.715 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-05-06 04:27:16.716 INFO     Cleaned up ByteDance.XiguaVideo.locale.en-US.yaml
+2025-05-06 04:27:16.719 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\ByteDance\XiguaVideo\1.0.6\ByteDance.XiguaVideo.locale.en-US.yaml
+2025-05-06 04:27:16.865 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\ByteDance\XiguaVideo\1.0.6\ByteDance.XiguaVideo.locale.zh-CN.yaml
+2025-05-06 04:27:16.867 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-05-06 04:27:16.868 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-05-06 04:27:16.869 INFO     Cleaned up ByteDance.XiguaVideo.locale.zh-CN.yaml
+2025-05-06 04:27:16.873 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\ByteDance\XiguaVideo\1.0.6\ByteDance.XiguaVideo.locale.zh-CN.yaml
+2025-05-06 04:27:17.238 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\ByteDance\XiguaVideo\1.0.6\ByteDance.XiguaVideo.yaml
+2025-05-06 04:27:17.279 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-05-06 04:27:17.292 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-05-06 04:27:17.303 INFO     Cleaned up ByteDance.XiguaVideo.yaml
+2025-05-06 04:27:17.337 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\ByteDance\XiguaVideo\1.0.6\ByteDance.XiguaVideo.yaml
+2025-05-06 04:27:17.226 INFO   New manifests in D:\...\winget-pkgs\manifests\b\ByteDance\XiguaVideo\1.0.6 for ByteDance.XiguaVideo (1.0.6)
+2025-05-06 04:28:12.781 INFO     清单验证成功。
+2025-05-06 04:28:12.791 INFO   Staging and Committing Changes to Git
+2025-05-06 04:28:29.937 INFO     Commit message: New version: ByteDance.XiguaVideo version 1.0.6 (Auto)
+2025-05-06 04:28:29.938 INFO   Pushing changes to remote (origin) repository
+2025-05-06 04:28:35.930 INFO     Successfully pushed to remote (origin): NewVersion-ByteDance.XiguaVideo-1.0.6-1746476828
+2025-05-06 04:28:37.621 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/253962
+2025-05-06 04:28:37.625 INFO Skip version 1.0.7, because it's not in the list of versions to be modified.
+2025-05-06 04:28:37.627 INFO Skip version 1.0.9, because it's not in the list of versions to be modified.
+2025-05-06 04:28:37.630 INFO Skip version 1.1.1, because it's not in the list of versions to be modified.
+2025-05-06 04:28:37.632 INFO All manifests have been modified and pushed through.
+2025-05-06 04:28:43.224 INFO Workspace clean-up completed.
+~~ End of logging ~~
