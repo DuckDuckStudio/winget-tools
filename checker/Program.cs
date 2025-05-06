@@ -447,10 +447,10 @@ namespace checker
                 "https://www.argyllcms.com/", // 服务器拒绝冲泡咖啡
                 "https://www.elcomsoft.com/", "https://pbank.bankcomm.cn/personbank/download/SecEditCFCAforBoCom.exe", // SSL错误
                 "https://aurorabuilder.com/downloads/Aurora%20Setup.zip", // 假400
-                "https://download.eset.com/com/eset/tools/installers/av_remover/latest/avremover_arm64_enu.exe", "https://cdn.localwp.com/releases-stable", "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE", "https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-ALL.EXE", "https://github.com/emacs-eask/cli/releases/download/0.11.2/eask_0.11.2_win-x64.zip", "https://github.com/emacs-eask/cli/releases/download/0.11.2/eask_0.11.2_win-arm64.zip", // WIP
-                "http://www.sminstall.com/simsetup.exe", "http://www.heaventools.com/files/11hFgnI0s/FlexHex_editor_setup.exe", // 讨论中
+                "http://www.heaventools.com/files/11hFgnI0s/FlexHex_editor_setup.exe", // 讨论中 - https://github.com/microsoft/winget-pkgs/pull/251580
+                "https://cdn.localwp.com/releases-stable", // WIP - Flywheel.Local
+                "https://download.eset.com/com/eset/tools/installers/av_remover/latest/avremover_arm64_enu.exe", // WIP - https://github.com/microsoft/winget-pkgs/pull/250906
                 "https://github.com/Chill-Astro/PyCalc-SE/releases/download/Latest/PyCalc-SE-Setup.exe", // WIP - https://github.com/microsoft/winget-pkgs/pull/252669
-                "https://github.com/Chill-Astro/PyCalc/releases/download/Latest/PyCalc-Setup.exe", // WIP - https://github.com/microsoft/winget-pkgs/pull/253643
             ];
             return excludedDomains.Any(domain => url.Contains(domain));
         }
