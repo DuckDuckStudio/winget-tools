@@ -29,6 +29,13 @@ namespace checker
             }
 
             string failureLevel;
+            // ================================
+            //           失败等级说明
+            // error: (默认) 在检查到错误时使工作流失败。只检查 InstallerUrl 和 ReturnResponseUrl。忽略在非安装程序清单中检查到的 403 Forbidden 警告。
+            // warning: 在检查到 “警告” 级别的错误时使工作流失败。检查所有可能的 URL。
+            // no-fail: (在工作流文件中) 使工作流不会失败。以 error 等级检查 URL。
+            // complete: 运行完整检查，检查完所有可能的 URL 后依据是否有错误决定工作流是否失败。只有警告不会使工作流失败。
+            // ================================
             if (args.Length == 2)
             {
                 failureLevel = args[1];
@@ -138,7 +145,7 @@ namespace checker
                                 }
                                 else if (response.StatusCode == System.Net.HttpStatusCode.Forbidden)
                                 {
-                                    if (filePath.Contains("installer.yaml"))
+                                    if (filePath.Contains("installer.yaml") || failureLevel != "error")
                                     {
                                         Console.WriteLine($"\n[Warning] {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (Forbidden - 已禁止)");
                                         if (failureLevel == "warning")
@@ -399,6 +406,7 @@ namespace checker
                             // 否则，始终检查 InstallerUrl 和 ReturnResponseUrl
                             flag = must_check_manifest_keys.Contains(keyNode.Value);
                         }
+
                         // #if DEBUG
                         // Console.WriteLine($"遍历到 {keyNode.Value} 键，值 {entry.Value}，标记为 {flag}...");
                         // #endif
