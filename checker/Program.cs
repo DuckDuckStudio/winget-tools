@@ -452,7 +452,7 @@ namespace checker
                 "https://download.eset.com/com/eset/tools/installers/av_remover/latest/avremover_arm64_enu.exe", // WIP - https://github.com/microsoft/winget-pkgs/pull/250906
                 "https://github.com/Chill-Astro/PyCalc-SE/releases/download/Latest/PyCalc-SE-Setup.exe", // WIP - https://github.com/microsoft/winget-pkgs/pull/252669
             ];
-            return excludedDomains.Any(domain => url.Contains(domain));
+            return excludedDomains.Any(url.Contains);
         }
     }
 }
