@@ -168,6 +168,8 @@ namespace checker
 #if DEBUG
                                     Console.WriteLine($"\n[Debug] {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (Too many requests - 请求过多)");
 #endif
+                                    // 等待 1 秒钟以缓解请求过多的问题
+                                    await Task.Delay(1000);
                                 }
                                 else if (response.StatusCode == System.Net.HttpStatusCode.RequestTimeout)
                                 {
