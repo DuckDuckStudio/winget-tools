@@ -1,0 +1,33 @@
+~~ Start logging ~~
+2025-05-06 15:37:42.517 FUN 提问: 罗浮六御中谁最幸福? 答案: 符玄。因为她姓符。
+2025-05-06 15:37:42.518 INFO Found the following version folder: ['2.2.0.0']
+2025-05-06 15:37:42.633 INFO Processing version folder: 2.2.0.0
+2025-05-06 15:37:42.635 INFO   Create and checkout to a new branch: NewVersion-denglihong2007.CRSim-2.2.0.0-1746517062
+2025-05-06 15:37:49.991 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\denglihong2007\CRSim\2.2.0.0\denglihong2007.CRSim.installer.yaml
+2025-05-06 15:37:49.992 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-06 15:37:49.993 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-06 15:37:49.993 INFO     Cleaned up denglihong2007.CRSim.installer.yaml
+2025-05-06 15:37:49.995 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\denglihong2007\CRSim\2.2.0.0\denglihong2007.CRSim.installer.yaml
+2025-05-06 15:37:50.201 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\denglihong2007\CRSim\2.2.0.0\denglihong2007.CRSim.locale.zh-CN.yaml
+2025-05-06 15:37:50.203 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-06 15:37:50.204 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-06 15:37:50.205 INFO     Cleaned up denglihong2007.CRSim.locale.zh-CN.yaml
+2025-05-06 15:37:50.207 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\denglihong2007\CRSim\2.2.0.0\denglihong2007.CRSim.locale.zh-CN.yaml
+2025-05-06 15:37:50.318 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\denglihong2007\CRSim\2.2.0.0\denglihong2007.CRSim.yaml
+2025-05-06 15:37:50.319 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-06 15:37:50.320 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-06 15:37:50.321 INFO     Cleaned up denglihong2007.CRSim.yaml
+2025-05-06 15:37:50.323 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\denglihong2007\CRSim\2.2.0.0\denglihong2007.CRSim.yaml
+2025-05-06 15:37:50.445 INFO   New manifests in D:\...\winget-pkgs\manifests\d\denglihong2007\CRSim\2.2.0.0 for denglihong2007.CRSim (2.2.0.0)
+2025-05-06 15:56:40.525 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-06 15:56:40.539 INFO       - 程序包
+2025-05-06 15:56:40.548 INFO           Microsoft.DotNet.DesktopRuntime.9
+2025-05-06 15:56:40.554 INFO     清单验证成功。
+2025-05-06 15:56:40.634 INFO   Staging and Committing Changes to Git
+2025-05-06 15:56:49.832 INFO     Commit message: New version: denglihong2007.CRSim version 2.2.0.0 (Auto)
+2025-05-06 15:56:49.833 INFO   Pushing changes to remote (origin) repository
+2025-05-06 15:56:54.920 INFO     Successfully pushed to remote (origin): NewVersion-denglihong2007.CRSim-2.2.0.0-1746517062
+2025-05-06 15:56:56.431 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/254394
+2025-05-06 15:56:56.435 INFO All manifests have been modified and pushed through.
+2025-05-06 15:57:01.701 INFO Workspace clean-up completed.
+~~ End of logging ~~
