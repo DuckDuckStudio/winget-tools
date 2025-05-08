@@ -1,0 +1,30 @@
+~~ Start logging ~~
+2025-05-08 15:14:41.991 FUN :)
+2025-05-08 15:14:41.992 INFO Found the following version folder: ['1.1.4']
+2025-05-08 15:14:42.118 INFO Processing version folder: 1.1.4
+2025-05-08 15:14:42.120 INFO   Create and checkout to a new branch: NewVersion-Bonnefon.glogg-1.1.4-1746688482
+2025-05-08 15:14:54.227 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Bonnefon\glogg\1.1.4\Bonnefon.glogg.installer.yaml
+2025-05-08 15:14:54.230 INFO     Replace ManifestVersion: 1.2.0 -> 1.10.0
+2025-05-08 15:14:54.231 INFO     Replace schema references: 1.2.0.schema.json -> 1.10.0.schema.json
+2025-05-08 15:14:54.232 INFO     Cleaned up Bonnefon.glogg.installer.yaml
+2025-05-08 15:14:54.233 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Bonnefon\glogg\1.1.4\Bonnefon.glogg.installer.yaml
+2025-05-08 15:14:54.450 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Bonnefon\glogg\1.1.4\Bonnefon.glogg.locale.en-US.yaml
+2025-05-08 15:14:54.454 INFO     Replace ManifestVersion: 1.2.0 -> 1.10.0
+2025-05-08 15:14:54.456 INFO     Replace schema references: 1.2.0.schema.json -> 1.10.0.schema.json
+2025-05-08 15:14:54.456 INFO     Cleaned up Bonnefon.glogg.locale.en-US.yaml
+2025-05-08 15:14:54.458 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Bonnefon\glogg\1.1.4\Bonnefon.glogg.locale.en-US.yaml
+2025-05-08 15:14:54.573 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Bonnefon\glogg\1.1.4\Bonnefon.glogg.yaml
+2025-05-08 15:14:54.575 INFO     Replace ManifestVersion: 1.2.0 -> 1.10.0
+2025-05-08 15:14:54.576 INFO     Replace schema references: 1.2.0.schema.json -> 1.10.0.schema.json
+2025-05-08 15:14:54.577 INFO     Cleaned up Bonnefon.glogg.yaml
+2025-05-08 15:14:54.579 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Bonnefon\glogg\1.1.4\Bonnefon.glogg.yaml
+2025-05-08 15:14:54.702 INFO   New manifests in D:\...\winget-pkgs\manifests\b\Bonnefon\glogg\1.1.4 for Bonnefon.glogg (1.1.4)
+2025-05-08 15:34:12.336 INFO     清单验证成功。
+2025-05-08 15:34:12.344 INFO   Staging and Committing Changes to Git
+2025-05-08 15:34:21.714 INFO     Commit message: New version: Bonnefon.glogg version 1.1.4 (Auto)
+2025-05-08 15:34:21.715 INFO   Pushing changes to remote (origin) repository
+2025-05-08 15:34:26.448 INFO     Successfully pushed to remote (origin): NewVersion-Bonnefon.glogg-1.1.4-1746688482
+2025-05-08 15:34:28.290 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/254909
+2025-05-08 15:34:28.295 INFO All manifests have been modified and pushed through.
+2025-05-08 15:34:32.945 INFO Workspace clean-up completed.
+~~ End of logging ~~
