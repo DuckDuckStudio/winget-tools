@@ -1,0 +1,36 @@
+~~ Start logging ~~
+2025-05-08 11:28:03.522 FUN 这回应该肯定一定能修好
+2025-05-08 11:28:03.524 INFO Found the following version folder: ['2.2.2', '2.2.3']
+2025-05-08 11:28:03.641 INFO Skip version 2.2.2, because it's not in the list of versions to be modified.
+2025-05-08 11:28:03.642 INFO Processing version folder: 2.2.3
+2025-05-08 11:28:03.643 INFO   Create and checkout to a new branch: NewVersion-josephburnett.jd-2.2.3-1746674883
+2025-05-08 11:28:09.881 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.2.3\josephburnett.jd.installer.yaml
+2025-05-08 11:28:09.882 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-08 11:28:09.883 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-08 11:28:09.883 INFO     Cleaned up josephburnett.jd.installer.yaml
+2025-05-08 11:28:09.885 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.2.3\josephburnett.jd.installer.yaml
+2025-05-08 11:28:10.452 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.2.3\josephburnett.jd.locale.en-US.yaml
+2025-05-08 11:28:10.467 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-08 11:28:10.487 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-08 11:28:10.501 INFO     Cleaned up josephburnett.jd.locale.en-US.yaml
+2025-05-08 11:28:10.519 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.2.3\josephburnett.jd.locale.en-US.yaml
+2025-05-08 11:28:10.169 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.2.3\josephburnett.jd.locale.zh-CN.yaml
+2025-05-08 11:28:10.171 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-08 11:28:10.172 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-08 11:28:10.172 INFO     Cleaned up josephburnett.jd.locale.zh-CN.yaml
+2025-05-08 11:28:10.176 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.2.3\josephburnett.jd.locale.zh-CN.yaml
+2025-05-08 11:28:10.310 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.2.3\josephburnett.jd.yaml
+2025-05-08 11:28:10.312 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-08 11:28:10.313 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-08 11:28:10.314 INFO     Cleaned up josephburnett.jd.yaml
+2025-05-08 11:28:10.316 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.2.3\josephburnett.jd.yaml
+2025-05-08 11:28:10.439 INFO   New manifests in D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.2.3 for josephburnett.jd (2.2.3)
+2025-05-08 11:30:59.232 INFO     清单验证成功。
+2025-05-08 11:30:59.241 INFO   Staging and Committing Changes to Git
+2025-05-08 11:31:13.747 INFO     Commit message: New version: josephburnett.jd version 2.2.3 (Auto)
+2025-05-08 11:31:13.748 INFO   Pushing changes to remote (origin) repository
+2025-05-08 11:31:18.415 INFO     Successfully pushed to remote (origin): NewVersion-josephburnett.jd-2.2.3-1746674883
+2025-05-08 11:31:20.145 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/254878
+2025-05-08 11:31:20.147 INFO All manifests have been modified and pushed through.
+2025-05-08 11:31:24.232 INFO Workspace clean-up completed.
+~~ End of logging ~~
