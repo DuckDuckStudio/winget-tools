@@ -1,0 +1,60 @@
+~~ Start logging ~~
+2025-05-08 15:42:12.229 FUN 哈？
+2025-05-08 15:42:12.233 INFO Found the following version folder: ['1.20.0', '1.21.0', '1.22.0', '1.23.0', '1.24.0', '1.25.0', '1.26.0', '1.28.0', '1.29.0', '1.30.0', '1.31.0', '1.32.0', '1.33.5', '1.34.0', '1.35.0', '1.36.0', '1.37.0', '1.38.0', '1.38.5', '1.39.1', '1.39.2']
+2025-05-08 15:42:12.321 INFO Skip version 1.20.0, because it's not in the list of versions to be modified.
+2025-05-08 15:42:12.322 INFO Processing version folder: 1.21.0
+2025-05-08 15:42:12.324 INFO   Create and checkout to a new branch: NewVersion-Baidu.TeraBox-1.21.0-1746690132
+2025-05-08 15:42:19.268 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Baidu\TeraBox\1.21.0\Baidu.TeraBox.installer.yaml
+2025-05-08 15:42:19.279 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-05-08 15:42:19.280 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-05-08 15:42:19.281 INFO     Cleaned up Baidu.TeraBox.installer.yaml
+2025-05-08 15:42:19.282 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Baidu\TeraBox\1.21.0\Baidu.TeraBox.installer.yaml
+2025-05-08 15:42:19.486 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Baidu\TeraBox\1.21.0\Baidu.TeraBox.locale.en-US.yaml
+2025-05-08 15:42:19.490 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-05-08 15:42:19.491 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-05-08 15:42:19.492 INFO     Cleaned up Baidu.TeraBox.locale.en-US.yaml
+2025-05-08 15:42:19.494 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Baidu\TeraBox\1.21.0\Baidu.TeraBox.locale.en-US.yaml
+2025-05-08 15:42:19.616 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Baidu\TeraBox\1.21.0\Baidu.TeraBox.locale.zh-CN.yaml
+2025-05-08 15:42:19.618 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-05-08 15:42:19.619 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-05-08 15:42:19.620 INFO     Cleaned up Baidu.TeraBox.locale.zh-CN.yaml
+2025-05-08 15:42:19.623 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Baidu\TeraBox\1.21.0\Baidu.TeraBox.locale.zh-CN.yaml
+2025-05-08 15:42:19.756 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Baidu\TeraBox\1.21.0\Baidu.TeraBox.yaml
+2025-05-08 15:42:19.758 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-05-08 15:42:19.760 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-05-08 15:42:19.761 INFO     Cleaned up Baidu.TeraBox.yaml
+2025-05-08 15:42:19.763 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Baidu\TeraBox\1.21.0\Baidu.TeraBox.yaml
+2025-05-08 15:42:19.892 INFO   New manifests in D:\...\winget-pkgs\manifests\b\Baidu\TeraBox\1.21.0 for Baidu.TeraBox (1.21.0)
+2025-05-08 15:44:18.365 WARN InstallerUrl Validation Warning
+2025-05-08 15:44:18.365 WARN {
+2025-05-08 15:44:18.365 WARN   "error_code": 31211,
+2025-05-08 15:44:18.366 WARN   "error_msg": "access denied"
+2025-05-08 15:44:18.366 WARN }
+2025-05-08 15:46:35.528 INFO     清单验证成功。
+2025-05-08 15:46:35.543 INFO   Staging and Committing Changes to Git
+2025-05-08 15:47:00.849 INFO     Commit message: New version: Baidu.TeraBox version 1.21.0 (Auto)
+2025-05-08 15:47:00.851 INFO   Pushing changes to remote (origin) repository
+2025-05-08 15:47:06.163 INFO     Successfully pushed to remote (origin): NewVersion-Baidu.TeraBox-1.21.0-1746690132
+2025-05-08 15:47:07.949 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/254910
+2025-05-08 15:47:07.953 INFO Skip version 1.22.0, because it's not in the list of versions to be modified.
+2025-05-08 15:47:07.956 INFO Skip version 1.23.0, because it's not in the list of versions to be modified.
+2025-05-08 15:47:07.958 INFO Skip version 1.24.0, because it's not in the list of versions to be modified.
+2025-05-08 15:47:07.960 INFO Skip version 1.25.0, because it's not in the list of versions to be modified.
+2025-05-08 15:47:07.962 INFO Skip version 1.26.0, because it's not in the list of versions to be modified.
+2025-05-08 15:47:07.964 INFO Skip version 1.28.0, because it's not in the list of versions to be modified.
+2025-05-08 15:47:07.966 INFO Skip version 1.29.0, because it's not in the list of versions to be modified.
+2025-05-08 15:47:07.967 INFO Skip version 1.30.0, because it's not in the list of versions to be modified.
+2025-05-08 15:47:07.969 INFO Skip version 1.31.0, because it's not in the list of versions to be modified.
+2025-05-08 15:47:07.971 INFO Skip version 1.32.0, because it's not in the list of versions to be modified.
+2025-05-08 15:47:07.973 INFO Skip version 1.33.5, because it's not in the list of versions to be modified.
+2025-05-08 15:47:07.974 INFO Skip version 1.34.0, because it's not in the list of versions to be modified.
+2025-05-08 15:47:07.976 INFO Skip version 1.35.0, because it's not in the list of versions to be modified.
+2025-05-08 15:47:07.978 INFO Skip version 1.36.0, because it's not in the list of versions to be modified.
+2025-05-08 15:47:07.979 INFO Skip version 1.37.0, because it's not in the list of versions to be modified.
+2025-05-08 15:47:07.981 INFO Skip version 1.38.0, because it's not in the list of versions to be modified.
+2025-05-08 15:47:07.982 INFO Skip version 1.38.5, because it's not in the list of versions to be modified.
+2025-05-08 15:47:07.983 INFO Skip version 1.39.1, because it's not in the list of versions to be modified.
+2025-05-08 15:47:07.985 INFO Skip version 1.39.2, because it's not in the list of versions to be modified.
+2025-05-08 15:47:07.986 INFO All manifests have been modified and pushed through.
+2025-05-08 15:47:12.375 INFO Workspace clean-up completed.
+~~ End of logging ~~
