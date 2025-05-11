@@ -1,0 +1,630 @@
+~~ Start logging ~~
+2025-05-11 18:27:31.531 FUN 入口函数 🤔，能吃吗？
+2025-05-11 18:27:31.535 INFO Found the following version folder: ['1.0.1', '1.0.10', '1.0.11', '1.0.2', '1.0.3', '1.0.4', '1.0.5', '1.0.6', '1.0.7', '1.0.8', '1.0.9', '1.1.0', '1.1.1', '1.1.10', '1.1.11', '1.1.12', '1.1.13', '1.1.2', '1.1.3', '1.1.4', '1.1.6', '1.1.7', '1.1.8', '1.1.9']
+2025-05-11 18:27:31.629 INFO Processing version folder: 1.0.1
+2025-05-11 18:27:31.630 INFO   Create and checkout to a new branch: Modify-DuckStudio.Sundry-1.0.1-1746959251
+2025-05-11 18:27:40.800 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.1\DuckStudio.Sundry.installer.yaml
+2025-05-11 18:27:40.811 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:27:40.812 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:27:40.813 INFO     Add MinimumVersion to PackageDependency DuckStudio.GitHubLabelsManager.
+2025-05-11 18:27:40.816 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.1\DuckStudio.Sundry.installer.yaml
+2025-05-11 18:27:40.818 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.1\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 18:27:40.819 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:27:40.821 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:27:40.823 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.1\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 18:27:40.825 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.1\DuckStudio.Sundry.yaml
+2025-05-11 18:27:40.827 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:27:40.828 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:27:40.830 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.1\DuckStudio.Sundry.yaml
+2025-05-11 18:29:49.953 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-11 18:29:49.105 INFO       - 程序包
+2025-05-11 18:29:49.106 INFO           DuckStudio.GitHubLabelsManager [>= 1.7]
+2025-05-11 18:29:49.107 INFO           Git.Git
+2025-05-11 18:29:49.108 INFO           GitHub.cli
+2025-05-11 18:29:49.108 INFO     清单验证成功。
+2025-05-11 18:29:49.179 INFO   Staging and Committing Changes to Git
+2025-05-11 18:29:54.733 INFO     Commit message: Modify: DuckStudio.Sundry version 1.0.1 (Auto)
+2025-05-11 18:29:54.735 INFO   Pushing changes to remote (origin) repository
+2025-05-11 18:29:59.737 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.Sundry-1.0.1-1746959251
+2025-05-11 18:30:01.208 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/255563
+2025-05-11 18:30:01.221 INFO Processing version folder: 1.0.10
+2025-05-11 18:30:01.223 INFO   Create and checkout to a new branch: Modify-DuckStudio.Sundry-1.0.10-1746959401
+2025-05-11 18:30:10.505 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.10\DuckStudio.Sundry.installer.yaml
+2025-05-11 18:30:10.507 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:30:10.508 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:30:10.508 INFO     Add MinimumVersion to PackageDependency DuckStudio.GitHubLabelsManager.
+2025-05-11 18:30:10.510 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.10\DuckStudio.Sundry.installer.yaml
+2025-05-11 18:30:10.511 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.10\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 18:30:10.522 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:30:10.524 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:30:10.525 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.10\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 18:30:10.526 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.10\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 18:30:10.528 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:30:10.529 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:30:10.531 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.10\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 18:30:10.532 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.10\DuckStudio.Sundry.yaml
+2025-05-11 18:30:10.534 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:30:10.535 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:30:10.536 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.10\DuckStudio.Sundry.yaml
+2025-05-11 18:31:27.125 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-11 18:31:27.127 INFO       - 程序包
+2025-05-11 18:31:27.128 INFO           DuckStudio.GitHubLabelsManager [>= 1.7]
+2025-05-11 18:31:27.129 INFO           Git.Git
+2025-05-11 18:31:27.130 INFO           GitHub.cli
+2025-05-11 18:31:27.131 INFO     清单验证成功。
+2025-05-11 18:31:27.138 INFO   Staging and Committing Changes to Git
+2025-05-11 18:31:32.418 INFO     Commit message: Modify: DuckStudio.Sundry version 1.0.10 (Auto)
+2025-05-11 18:31:32.435 INFO   Pushing changes to remote (origin) repository
+2025-05-11 18:31:37.933 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.Sundry-1.0.10-1746959401
+2025-05-11 18:31:38.654 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/255564
+2025-05-11 18:31:38.657 INFO Processing version folder: 1.0.11
+2025-05-11 18:31:38.659 INFO   Create and checkout to a new branch: Modify-DuckStudio.Sundry-1.0.11-1746959498
+2025-05-11 18:31:51.527 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.11\DuckStudio.Sundry.installer.yaml
+2025-05-11 18:31:51.529 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:31:51.530 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:31:51.531 INFO     Add MinimumVersion to PackageDependency DuckStudio.GitHubLabelsManager.
+2025-05-11 18:31:51.533 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.11\DuckStudio.Sundry.installer.yaml
+2025-05-11 18:31:51.535 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.11\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 18:31:51.546 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:31:51.547 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:31:51.548 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.11\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 18:31:51.549 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.11\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 18:31:51.551 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:31:51.552 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:31:51.553 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.11\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 18:31:51.555 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.11\DuckStudio.Sundry.yaml
+2025-05-11 18:31:51.556 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:31:51.557 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:31:51.558 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.11\DuckStudio.Sundry.yaml
+2025-05-11 18:32:51.899 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-11 18:32:51.900 INFO       - 程序包
+2025-05-11 18:32:51.902 INFO           DuckStudio.GitHubLabelsManager [>= 1.7]
+2025-05-11 18:32:51.903 INFO           Git.Git
+2025-05-11 18:32:51.904 INFO           GitHub.cli
+2025-05-11 18:32:51.905 INFO     清单验证成功。
+2025-05-11 18:32:51.913 INFO   Staging and Committing Changes to Git
+2025-05-11 18:32:57.218 INFO     Commit message: Modify: DuckStudio.Sundry version 1.0.11 (Auto)
+2025-05-11 18:32:57.219 INFO   Pushing changes to remote (origin) repository
+2025-05-11 18:33:02.507 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.Sundry-1.0.11-1746959498
+2025-05-11 18:33:03.909 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/255565
+2025-05-11 18:33:03.913 INFO Processing version folder: 1.0.2
+2025-05-11 18:33:03.915 INFO   Create and checkout to a new branch: Modify-DuckStudio.Sundry-1.0.2-1746959583
+2025-05-11 18:33:13.951 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.2\DuckStudio.Sundry.installer.yaml
+2025-05-11 18:33:13.952 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:33:13.953 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:33:13.954 INFO     Add MinimumVersion to PackageDependency DuckStudio.GitHubLabelsManager.
+2025-05-11 18:33:13.956 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.2\DuckStudio.Sundry.installer.yaml
+2025-05-11 18:33:13.957 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.2\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 18:33:13.958 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:33:13.959 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:33:13.961 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.2\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 18:33:13.961 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.2\DuckStudio.Sundry.yaml
+2025-05-11 18:33:13.963 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:33:13.963 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:33:13.965 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.2\DuckStudio.Sundry.yaml
+2025-05-11 18:34:19.525 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-11 18:34:19.526 INFO       - 程序包
+2025-05-11 18:34:19.528 INFO           DuckStudio.GitHubLabelsManager [>= 1.7]
+2025-05-11 18:34:19.529 INFO           Git.Git
+2025-05-11 18:34:19.529 INFO           GitHub.cli
+2025-05-11 18:34:19.530 INFO     清单验证成功。
+2025-05-11 18:34:19.536 INFO   Staging and Committing Changes to Git
+2025-05-11 18:34:24.579 INFO     Commit message: Modify: DuckStudio.Sundry version 1.0.2 (Auto)
+2025-05-11 18:34:24.580 INFO   Pushing changes to remote (origin) repository
+2025-05-11 18:34:30.142 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.Sundry-1.0.2-1746959583
+2025-05-11 18:34:31.491 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/255566
+2025-05-11 18:34:31.495 INFO Processing version folder: 1.0.3
+2025-05-11 18:34:31.497 INFO   Create and checkout to a new branch: Modify-DuckStudio.Sundry-1.0.3-1746959671
+2025-05-11 18:34:41.100 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.3\DuckStudio.Sundry.installer.yaml
+2025-05-11 18:34:41.101 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:34:41.101 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:34:41.102 INFO     Add MinimumVersion to PackageDependency DuckStudio.GitHubLabelsManager.
+2025-05-11 18:34:41.103 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.3\DuckStudio.Sundry.installer.yaml
+2025-05-11 18:34:41.104 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.3\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 18:34:41.106 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:34:41.107 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:34:41.109 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.3\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 18:34:41.110 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.3\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 18:34:41.112 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:34:41.113 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:34:41.114 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.3\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 18:34:41.115 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.3\DuckStudio.Sundry.yaml
+2025-05-11 18:34:41.117 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:34:41.117 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:34:41.119 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.3\DuckStudio.Sundry.yaml
+2025-05-11 18:39:32.964 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-11 18:39:32.966 INFO       - 程序包
+2025-05-11 18:39:32.967 INFO           DuckStudio.GitHubLabelsManager [>= 1.7]
+2025-05-11 18:39:32.968 INFO           Git.Git
+2025-05-11 18:39:32.969 INFO           GitHub.cli
+2025-05-11 18:39:32.969 INFO     清单验证成功。
+2025-05-11 18:39:32.975 INFO   Staging and Committing Changes to Git
+2025-05-11 18:39:38.331 INFO     Commit message: Modify: DuckStudio.Sundry version 1.0.3 (Auto)
+2025-05-11 18:39:38.341 INFO   Pushing changes to remote (origin) repository
+2025-05-11 18:39:48.852 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.Sundry-1.0.3-1746959671
+2025-05-11 18:39:50.862 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/255567
+2025-05-11 18:39:50.864 INFO Processing version folder: 1.0.4
+2025-05-11 18:39:50.865 INFO   Create and checkout to a new branch: Modify-DuckStudio.Sundry-1.0.4-1746959990
+2025-05-11 18:40:00.513 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.4\DuckStudio.Sundry.installer.yaml
+2025-05-11 18:40:00.515 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:40:00.516 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:40:00.517 INFO     Add MinimumVersion to PackageDependency DuckStudio.GitHubLabelsManager.
+2025-05-11 18:40:00.518 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.4\DuckStudio.Sundry.installer.yaml
+2025-05-11 18:40:00.519 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.4\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 18:40:00.521 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:40:00.523 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:40:00.524 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.4\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 18:40:00.526 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.4\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 18:40:00.528 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:40:00.528 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:40:00.530 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.4\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 18:40:00.531 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.4\DuckStudio.Sundry.yaml
+2025-05-11 18:40:00.533 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:40:00.533 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:40:00.535 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.4\DuckStudio.Sundry.yaml
+2025-05-11 18:53:59.436 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-11 18:53:59.437 INFO       - 程序包
+2025-05-11 18:53:59.438 INFO           DuckStudio.GitHubLabelsManager [>= 1.7]
+2025-05-11 18:53:59.439 INFO           Git.Git
+2025-05-11 18:53:59.440 INFO           GitHub.cli
+2025-05-11 18:53:59.441 INFO     清单验证成功。
+2025-05-11 18:53:59.447 INFO   Staging and Committing Changes to Git
+2025-05-11 18:54:08.513 INFO     Commit message: Modify: DuckStudio.Sundry version 1.0.4 (Auto)
+2025-05-11 18:54:08.514 INFO   Pushing changes to remote (origin) repository
+2025-05-11 18:54:15.272 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.Sundry-1.0.4-1746959990
+2025-05-11 18:54:16.664 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/255570
+2025-05-11 18:54:16.668 INFO Processing version folder: 1.0.5
+2025-05-11 18:54:16.671 INFO   Create and checkout to a new branch: Modify-DuckStudio.Sundry-1.0.5-1746960856
+2025-05-11 18:54:33.419 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.5\DuckStudio.Sundry.installer.yaml
+2025-05-11 18:54:33.422 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:54:33.423 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:54:33.424 INFO     Add MinimumVersion to PackageDependency DuckStudio.GitHubLabelsManager.
+2025-05-11 18:54:33.426 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.5\DuckStudio.Sundry.installer.yaml
+2025-05-11 18:54:33.427 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.5\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 18:54:33.429 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:54:33.429 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:54:33.431 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.5\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 18:54:33.432 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.5\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 18:54:33.434 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:54:33.435 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:54:33.436 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.5\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 18:54:33.437 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.5\DuckStudio.Sundry.yaml
+2025-05-11 18:54:33.438 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:54:33.439 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:54:33.441 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.5\DuckStudio.Sundry.yaml
+2025-05-11 18:55:38.233 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-11 18:55:38.234 INFO       - 程序包
+2025-05-11 18:55:38.235 INFO           DuckStudio.GitHubLabelsManager [>= 1.7]
+2025-05-11 18:55:38.236 INFO           Git.Git
+2025-05-11 18:55:38.237 INFO           GitHub.cli
+2025-05-11 18:55:38.238 INFO     清单验证成功。
+2025-05-11 18:55:38.243 INFO   Staging and Committing Changes to Git
+2025-05-11 18:55:43.822 INFO     Commit message: Modify: DuckStudio.Sundry version 1.0.5 (Auto)
+2025-05-11 18:55:43.823 INFO   Pushing changes to remote (origin) repository
+2025-05-11 18:55:48.935 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.Sundry-1.0.5-1746960856
+2025-05-11 18:55:50.376 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/255571
+2025-05-11 18:55:50.379 INFO Processing version folder: 1.0.6
+2025-05-11 18:55:50.381 INFO   Create and checkout to a new branch: Modify-DuckStudio.Sundry-1.0.6-1746960950
+2025-05-11 18:56:03.422 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.6\DuckStudio.Sundry.installer.yaml
+2025-05-11 18:56:03.425 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:56:03.426 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:56:03.427 INFO     Add MinimumVersion to PackageDependency DuckStudio.GitHubLabelsManager.
+2025-05-11 18:56:03.429 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.6\DuckStudio.Sundry.installer.yaml
+2025-05-11 18:56:03.430 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.6\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 18:56:03.433 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:56:03.434 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:56:03.435 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.6\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 18:56:03.437 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.6\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 18:56:03.438 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:56:03.439 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:56:03.442 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.6\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 18:56:03.443 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.6\DuckStudio.Sundry.yaml
+2025-05-11 18:56:03.444 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:56:03.445 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:56:03.447 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.6\DuckStudio.Sundry.yaml
+2025-05-11 18:57:53.206 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-11 18:57:53.208 INFO       - 程序包
+2025-05-11 18:57:53.210 INFO           DuckStudio.GitHubLabelsManager [>= 1.7]
+2025-05-11 18:57:53.212 INFO           Git.Git
+2025-05-11 18:57:53.214 INFO           GitHub.cli
+2025-05-11 18:57:53.215 INFO     清单验证成功。
+2025-05-11 18:57:53.220 INFO   Staging and Committing Changes to Git
+2025-05-11 18:58:00.706 INFO     Commit message: Modify: DuckStudio.Sundry version 1.0.6 (Auto)
+2025-05-11 18:58:00.747 INFO   Pushing changes to remote (origin) repository
+2025-05-11 18:58:06.245 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.Sundry-1.0.6-1746960950
+2025-05-11 18:58:07.705 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/255572
+2025-05-11 18:58:07.709 INFO Processing version folder: 1.0.7
+2025-05-11 18:58:07.711 INFO   Create and checkout to a new branch: Modify-DuckStudio.Sundry-1.0.7-1746961087
+2025-05-11 18:58:17.279 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.7\DuckStudio.Sundry.installer.yaml
+2025-05-11 18:58:17.282 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:58:17.284 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:58:17.284 INFO     Add MinimumVersion to PackageDependency DuckStudio.GitHubLabelsManager.
+2025-05-11 18:58:17.286 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.7\DuckStudio.Sundry.installer.yaml
+2025-05-11 18:58:17.287 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.7\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 18:58:17.289 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:58:17.290 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:58:17.292 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.7\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 18:58:17.292 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.7\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 18:58:17.294 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:58:17.295 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:58:17.297 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.7\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 18:58:17.299 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.7\DuckStudio.Sundry.yaml
+2025-05-11 18:58:17.301 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 18:58:17.302 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 18:58:17.304 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.7\DuckStudio.Sundry.yaml
+2025-05-11 18:59:46.923 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-11 18:59:46.924 INFO       - 程序包
+2025-05-11 18:59:46.926 INFO           DuckStudio.GitHubLabelsManager [>= 1.7]
+2025-05-11 18:59:46.927 INFO           Git.Git
+2025-05-11 18:59:46.928 INFO           GitHub.cli
+2025-05-11 18:59:46.928 INFO     清单验证成功。
+2025-05-11 18:59:46.932 INFO   Staging and Committing Changes to Git
+2025-05-11 18:59:52.295 INFO     Commit message: Modify: DuckStudio.Sundry version 1.0.7 (Auto)
+2025-05-11 18:59:52.297 INFO   Pushing changes to remote (origin) repository
+2025-05-11 18:59:57.318 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.Sundry-1.0.7-1746961087
+2025-05-11 18:59:58.824 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/255573
+2025-05-11 18:59:58.866 INFO Processing version folder: 1.0.8
+2025-05-11 18:59:58.900 INFO   Create and checkout to a new branch: Modify-DuckStudio.Sundry-1.0.8-1746961198
+2025-05-11 19:00:11.399 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.8\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:00:11.401 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 19:00:11.402 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 19:00:11.404 INFO     Add MinimumVersion to PackageDependency DuckStudio.GitHubLabelsManager.
+2025-05-11 19:00:11.406 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.8\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:00:11.407 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.8\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:00:11.409 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 19:00:11.410 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 19:00:11.412 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.8\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:00:11.413 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.8\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:00:11.414 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 19:00:11.415 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 19:00:11.417 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.8\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:00:11.418 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.8\DuckStudio.Sundry.yaml
+2025-05-11 19:00:11.420 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 19:00:11.421 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 19:00:11.423 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.8\DuckStudio.Sundry.yaml
+2025-05-11 19:00:55.753 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-11 19:00:55.199 INFO       - 程序包
+2025-05-11 19:00:55.209 INFO           DuckStudio.GitHubLabelsManager [>= 1.7]
+2025-05-11 19:00:55.218 INFO           Git.Git
+2025-05-11 19:00:55.228 INFO           GitHub.cli
+2025-05-11 19:00:55.237 INFO     清单验证成功。
+2025-05-11 19:00:55.125 INFO   Staging and Committing Changes to Git
+2025-05-11 19:01:00.107 INFO     Commit message: Modify: DuckStudio.Sundry version 1.0.8 (Auto)
+2025-05-11 19:01:00.108 INFO   Pushing changes to remote (origin) repository
+2025-05-11 19:01:08.309 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.Sundry-1.0.8-1746961198
+2025-05-11 19:01:09.647 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/255574
+2025-05-11 19:01:09.650 INFO Processing version folder: 1.0.9
+2025-05-11 19:01:09.651 INFO   Create and checkout to a new branch: Modify-DuckStudio.Sundry-1.0.9-1746961269
+2025-05-11 19:01:19.248 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.9\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:01:19.250 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 19:01:19.251 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 19:01:19.251 INFO     Add MinimumVersion to PackageDependency DuckStudio.GitHubLabelsManager.
+2025-05-11 19:01:19.253 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.9\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:01:19.254 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.9\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:01:19.256 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 19:01:19.257 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 19:01:19.258 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.9\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:01:19.259 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.9\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:01:19.262 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 19:01:19.263 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 19:01:19.264 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.9\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:01:19.265 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.9\DuckStudio.Sundry.yaml
+2025-05-11 19:01:19.267 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 19:01:19.267 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 19:01:19.269 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.9\DuckStudio.Sundry.yaml
+2025-05-11 19:02:13.177 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-11 19:02:13.178 INFO       - 程序包
+2025-05-11 19:02:13.179 INFO           DuckStudio.GitHubLabelsManager [>= 1.7]
+2025-05-11 19:02:13.180 INFO           Git.Git
+2025-05-11 19:02:13.181 INFO           GitHub.cli
+2025-05-11 19:02:13.182 INFO     清单验证成功。
+2025-05-11 19:02:13.195 INFO   Staging and Committing Changes to Git
+2025-05-11 19:02:18.352 INFO     Commit message: Modify: DuckStudio.Sundry version 1.0.9 (Auto)
+2025-05-11 19:02:18.355 INFO   Pushing changes to remote (origin) repository
+2025-05-11 19:02:25.512 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.Sundry-1.0.9-1746961269
+2025-05-11 19:02:26.979 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/255575
+2025-05-11 19:02:26.980 INFO Processing version folder: 1.1.0
+2025-05-11 19:02:26.981 INFO   Create and checkout to a new branch: Modify-DuckStudio.Sundry-1.1.0-1746961346
+2025-05-11 19:02:41.941 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.0\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:02:41.943 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 19:02:41.944 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 19:02:41.945 INFO     Add MinimumVersion to PackageDependency DuckStudio.GitHubLabelsManager.
+2025-05-11 19:02:41.947 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.0\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:02:41.949 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.0\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:02:41.952 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 19:02:41.954 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 19:02:41.957 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.0\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:02:41.958 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.0\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:02:41.960 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 19:02:41.961 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 19:02:41.963 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.0\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:02:41.964 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.0\DuckStudio.Sundry.yaml
+2025-05-11 19:02:41.967 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 19:02:41.969 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 19:02:41.971 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.0\DuckStudio.Sundry.yaml
+2025-05-11 19:03:18.932 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-11 19:03:18.934 INFO       - 程序包
+2025-05-11 19:03:18.952 INFO           DuckStudio.GitHubLabelsManager [>= 1.7]
+2025-05-11 19:03:18.953 INFO           Git.Git
+2025-05-11 19:03:18.954 INFO           GitHub.cli
+2025-05-11 19:03:18.955 INFO     清单验证成功。
+2025-05-11 19:03:19.903 INFO   Staging and Committing Changes to Git
+2025-05-11 19:03:24.959 INFO     Commit message: Modify: DuckStudio.Sundry version 1.1.0 (Auto)
+2025-05-11 19:03:24.960 INFO   Pushing changes to remote (origin) repository
+2025-05-11 19:03:30.432 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.Sundry-1.1.0-1746961346
+2025-05-11 19:03:31.904 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/255576
+2025-05-11 19:03:31.907 INFO Processing version folder: 1.1.1
+2025-05-11 19:03:31.909 INFO   Create and checkout to a new branch: Modify-DuckStudio.Sundry-1.1.1-1746961411
+2025-05-11 19:03:45.975 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.1\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:03:45.977 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 19:03:45.979 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 19:03:45.980 INFO     Add MinimumVersion to PackageDependency DuckStudio.GitHubLabelsManager.
+2025-05-11 19:03:45.983 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.1\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:03:45.984 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.1\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:03:45.995 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 19:03:45.997 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 19:03:45.999 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.1\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:03:46.148 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.1\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:03:46.333 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 19:03:46.462 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 19:03:46.688 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.1\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:03:46.827 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.1\DuckStudio.Sundry.yaml
+2025-05-11 19:03:46.102 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-11 19:03:46.117 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-11 19:03:46.139 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.1\DuckStudio.Sundry.yaml
+2025-05-11 19:04:13.285 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-11 19:04:13.286 INFO       - 程序包
+2025-05-11 19:04:13.287 INFO           DuckStudio.GitHubLabelsManager [>= 1.7]
+2025-05-11 19:04:13.288 INFO           Git.Git
+2025-05-11 19:04:13.289 INFO           GitHub.cli
+2025-05-11 19:04:13.290 INFO     清单验证成功。
+2025-05-11 19:04:13.301 INFO   Staging and Committing Changes to Git
+2025-05-11 19:04:18.145 INFO     Commit message: Modify: DuckStudio.Sundry version 1.1.1 (Auto)
+2025-05-11 19:04:18.146 INFO   Pushing changes to remote (origin) repository
+2025-05-11 19:04:23.176 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.Sundry-1.1.1-1746961411
+2025-05-11 19:04:24.559 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/255577
+2025-05-11 19:04:24.563 INFO Processing version folder: 1.1.10
+2025-05-11 19:04:24.564 INFO   Create and checkout to a new branch: Modify-DuckStudio.Sundry-1.1.10-1746961464
+2025-05-11 19:04:33.769 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.10\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:04:33.770 INFO     Add MinimumVersion to PackageDependency DuckStudio.GitHubLabelsManager.
+2025-05-11 19:04:33.772 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.10\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:04:33.774 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.10\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:04:33.776 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.10\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:04:33.778 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.10\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:04:33.780 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.10\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:04:33.781 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.10\DuckStudio.Sundry.yaml
+2025-05-11 19:04:33.783 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.10\DuckStudio.Sundry.yaml
+2025-05-11 19:06:10.856 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-11 19:06:10.857 INFO       - 程序包
+2025-05-11 19:06:10.859 INFO           DuckStudio.GitHubLabelsManager [>= 1.7]
+2025-05-11 19:06:10.861 INFO           Git.Git
+2025-05-11 19:06:10.862 INFO           GitHub.cli
+2025-05-11 19:06:10.863 INFO     清单验证成功。
+2025-05-11 19:06:10.869 INFO   Staging and Committing Changes to Git
+2025-05-11 19:06:15.939 INFO     Commit message: Modify: DuckStudio.Sundry version 1.1.10 (Auto)
+2025-05-11 19:06:15.940 INFO   Pushing changes to remote (origin) repository
+2025-05-11 19:06:20.934 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.Sundry-1.1.10-1746961464
+2025-05-11 19:06:22.467 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/255578
+2025-05-11 19:06:22.470 INFO Processing version folder: 1.1.11
+2025-05-11 19:06:22.473 INFO   Create and checkout to a new branch: Modify-DuckStudio.Sundry-1.1.11-1746961582
+2025-05-11 19:06:35.731 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.11\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:06:35.733 INFO     Add MinimumVersion to PackageDependency DuckStudio.GitHubLabelsManager.
+2025-05-11 19:06:35.735 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.11\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:06:35.736 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.11\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:06:35.739 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.11\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:06:35.741 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.11\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:06:35.744 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.11\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:06:35.745 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.11\DuckStudio.Sundry.yaml
+2025-05-11 19:06:35.748 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.11\DuckStudio.Sundry.yaml
+2025-05-11 19:06:55.808 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-11 19:06:55.809 INFO       - 程序包
+2025-05-11 19:06:55.810 INFO           DuckStudio.GitHubLabelsManager [>= 1.7]
+2025-05-11 19:06:55.811 INFO           Git.Git
+2025-05-11 19:06:55.812 INFO           GitHub.cli
+2025-05-11 19:06:55.813 INFO     清单验证成功。
+2025-05-11 19:06:55.961 INFO   Staging and Committing Changes to Git
+2025-05-11 19:07:01.694 INFO     Commit message: Modify: DuckStudio.Sundry version 1.1.11 (Auto)
+2025-05-11 19:07:01.696 INFO   Pushing changes to remote (origin) repository
+2025-05-11 19:07:06.613 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.Sundry-1.1.11-1746961582
+2025-05-11 19:07:08.189 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/255579
+2025-05-11 19:07:08.193 INFO Processing version folder: 1.1.12
+2025-05-11 19:07:08.194 INFO   Create and checkout to a new branch: Modify-DuckStudio.Sundry-1.1.12-1746961628
+2025-05-11 19:07:21.880 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.12\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:07:21.883 INFO     Add MinimumVersion to PackageDependency DuckStudio.GitHubLabelsManager.
+2025-05-11 19:07:21.885 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.12\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:07:21.887 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.12\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:07:21.891 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.12\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:07:21.892 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.12\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:07:21.895 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.12\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:07:21.897 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.12\DuckStudio.Sundry.yaml
+2025-05-11 19:07:21.900 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.12\DuckStudio.Sundry.yaml
+2025-05-11 19:07:38.322 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-11 19:07:38.323 INFO       - 程序包
+2025-05-11 19:07:38.324 INFO           DuckStudio.GitHubLabelsManager [>= 1.7]
+2025-05-11 19:07:38.325 INFO           Git.Git
+2025-05-11 19:07:38.325 INFO           GitHub.cli
+2025-05-11 19:07:38.326 INFO     清单验证成功。
+2025-05-11 19:07:38.331 INFO   Staging and Committing Changes to Git
+2025-05-11 19:07:49.256 INFO     Commit message: Modify: DuckStudio.Sundry version 1.1.12 (Auto)
+2025-05-11 19:07:49.392 INFO   Pushing changes to remote (origin) repository
+2025-05-11 19:07:55.685 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.Sundry-1.1.12-1746961628
+2025-05-11 19:07:57.206 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/255580
+2025-05-11 19:07:57.209 INFO Processing version folder: 1.1.13
+2025-05-11 19:07:57.211 INFO   Create and checkout to a new branch: Modify-DuckStudio.Sundry-1.1.13-1746961677
+2025-05-11 19:08:06.425 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.13\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:08:06.426 INFO     Add MinimumVersion to PackageDependency DuckStudio.GitHubLabelsManager.
+2025-05-11 19:08:06.427 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.13\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:08:06.428 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.13\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:08:06.430 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.13\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:08:06.431 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.13\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:08:06.434 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.13\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:08:06.436 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.13\DuckStudio.Sundry.yaml
+2025-05-11 19:08:06.438 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.13\DuckStudio.Sundry.yaml
+2025-05-11 19:08:18.492 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-11 19:08:18.493 INFO       - 程序包
+2025-05-11 19:08:18.494 INFO           DuckStudio.GitHubLabelsManager [>= 1.7]
+2025-05-11 19:08:18.495 INFO           Git.Git
+2025-05-11 19:08:18.496 INFO           GitHub.cli
+2025-05-11 19:08:18.497 INFO     清单验证成功。
+2025-05-11 19:08:18.555 INFO   Staging and Committing Changes to Git
+2025-05-11 19:08:25.600 INFO     Commit message: Modify: DuckStudio.Sundry version 1.1.13 (Auto)
+2025-05-11 19:08:25.602 INFO   Pushing changes to remote (origin) repository
+2025-05-11 19:08:30.762 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.Sundry-1.1.13-1746961677
+2025-05-11 19:08:32.192 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/255582
+2025-05-11 19:08:32.194 INFO Processing version folder: 1.1.2
+2025-05-11 19:08:32.196 INFO   Create and checkout to a new branch: Modify-DuckStudio.Sundry-1.1.2-1746961712
+2025-05-11 19:08:41.907 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.2\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:08:41.910 INFO     Add MinimumVersion to PackageDependency DuckStudio.GitHubLabelsManager.
+2025-05-11 19:08:41.912 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.2\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:08:41.914 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.2\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:08:41.917 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.2\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:08:41.918 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.2\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:08:41.920 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.2\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:08:41.921 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.2\DuckStudio.Sundry.yaml
+2025-05-11 19:08:41.923 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.2\DuckStudio.Sundry.yaml
+2025-05-11 19:09:22.625 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-11 19:09:22.627 INFO       - 程序包
+2025-05-11 19:09:22.628 INFO           DuckStudio.GitHubLabelsManager [>= 1.7]
+2025-05-11 19:09:22.630 INFO           Git.Git
+2025-05-11 19:09:22.631 INFO           GitHub.cli
+2025-05-11 19:09:22.632 INFO     清单验证成功。
+2025-05-11 19:09:22.634 INFO   Staging and Committing Changes to Git
+2025-05-11 19:09:27.716 INFO     Commit message: Modify: DuckStudio.Sundry version 1.1.2 (Auto)
+2025-05-11 19:09:27.718 INFO   Pushing changes to remote (origin) repository
+2025-05-11 19:09:38.356 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.Sundry-1.1.2-1746961712
+2025-05-11 19:09:39.972 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/255583
+2025-05-11 19:09:39.976 INFO Processing version folder: 1.1.3
+2025-05-11 19:09:39.977 INFO   Create and checkout to a new branch: Modify-DuckStudio.Sundry-1.1.3-1746961779
+2025-05-11 19:09:49.512 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.3\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:09:49.514 INFO     Add MinimumVersion to PackageDependency DuckStudio.GitHubLabelsManager.
+2025-05-11 19:09:49.516 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.3\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:09:49.517 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.3\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:09:49.520 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.3\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:09:49.521 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.3\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:09:49.523 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.3\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:09:49.525 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.3\DuckStudio.Sundry.yaml
+2025-05-11 19:09:49.527 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.3\DuckStudio.Sundry.yaml
+2025-05-11 19:10:25.241 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-11 19:10:25.251 INFO       - 程序包
+2025-05-11 19:10:25.260 INFO           DuckStudio.GitHubLabelsManager [>= 1.7]
+2025-05-11 19:10:25.270 INFO           Git.Git
+2025-05-11 19:10:25.279 INFO           GitHub.cli
+2025-05-11 19:10:25.288 INFO     清单验证成功。
+2025-05-11 19:10:25.860 INFO   Staging and Committing Changes to Git
+2025-05-11 19:10:31.185 INFO     Commit message: Modify: DuckStudio.Sundry version 1.1.3 (Auto)
+2025-05-11 19:10:31.186 INFO   Pushing changes to remote (origin) repository
+2025-05-11 19:10:37.641 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.Sundry-1.1.3-1746961779
+2025-05-11 19:10:39.122 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/255584
+2025-05-11 19:10:39.126 INFO Processing version folder: 1.1.4
+2025-05-11 19:10:39.128 INFO   Create and checkout to a new branch: Modify-DuckStudio.Sundry-1.1.4-1746961839
+2025-05-11 19:10:48.355 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.4\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:10:48.357 INFO     Add MinimumVersion to PackageDependency DuckStudio.GitHubLabelsManager.
+2025-05-11 19:10:48.359 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.4\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:10:48.361 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.4\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:10:48.363 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.4\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:10:48.365 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.4\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:10:48.367 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.4\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:10:48.369 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.4\DuckStudio.Sundry.yaml
+2025-05-11 19:10:48.371 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.4\DuckStudio.Sundry.yaml
+2025-05-11 19:11:13.920 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-11 19:11:13.921 INFO       - 程序包
+2025-05-11 19:11:13.922 INFO           DuckStudio.GitHubLabelsManager [>= 1.7]
+2025-05-11 19:11:13.923 INFO           Git.Git
+2025-05-11 19:11:13.923 INFO           GitHub.cli
+2025-05-11 19:11:13.924 INFO     清单验证成功。
+2025-05-11 19:11:14.578 INFO   Staging and Committing Changes to Git
+2025-05-11 19:11:21.363 INFO     Commit message: Modify: DuckStudio.Sundry version 1.1.4 (Auto)
+2025-05-11 19:11:21.364 INFO   Pushing changes to remote (origin) repository
+2025-05-11 19:11:25.995 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.Sundry-1.1.4-1746961839
+2025-05-11 19:11:28.277 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/255585
+2025-05-11 19:11:28.281 INFO Processing version folder: 1.1.6
+2025-05-11 19:11:28.282 INFO   Create and checkout to a new branch: Modify-DuckStudio.Sundry-1.1.6-1746961888
+2025-05-11 19:11:38.456 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.6\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:11:38.467 INFO     Add MinimumVersion to PackageDependency DuckStudio.GitHubLabelsManager.
+2025-05-11 19:11:38.468 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.6\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:11:38.470 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.6\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:11:38.472 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.6\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:11:38.474 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.6\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:11:38.477 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.6\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:11:38.478 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.6\DuckStudio.Sundry.yaml
+2025-05-11 19:11:38.481 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.6\DuckStudio.Sundry.yaml
+2025-05-11 19:12:30.827 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-11 19:12:30.828 INFO       - 程序包
+2025-05-11 19:12:30.829 INFO           DuckStudio.GitHubLabelsManager [>= 1.7]
+2025-05-11 19:12:30.830 INFO           Git.Git
+2025-05-11 19:12:30.831 INFO           GitHub.cli
+2025-05-11 19:12:30.832 INFO     清单验证成功。
+2025-05-11 19:12:30.843 INFO   Staging and Committing Changes to Git
+2025-05-11 19:12:35.960 INFO     Commit message: Modify: DuckStudio.Sundry version 1.1.6 (Auto)
+2025-05-11 19:12:35.961 INFO   Pushing changes to remote (origin) repository
+2025-05-11 19:12:43.706 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.Sundry-1.1.6-1746961888
+2025-05-11 19:12:45.148 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/255586
+2025-05-11 19:12:45.152 INFO Processing version folder: 1.1.7
+2025-05-11 19:12:45.155 INFO   Create and checkout to a new branch: Modify-DuckStudio.Sundry-1.1.7-1746961965
+2025-05-11 19:12:54.581 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.7\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:12:54.583 INFO     Add MinimumVersion to PackageDependency DuckStudio.GitHubLabelsManager.
+2025-05-11 19:12:54.585 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.7\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:12:54.587 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.7\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:12:54.589 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.7\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:12:54.590 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.7\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:12:54.593 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.7\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:12:54.594 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.7\DuckStudio.Sundry.yaml
+2025-05-11 19:12:54.597 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.7\DuckStudio.Sundry.yaml
+2025-05-11 19:13:23.556 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-11 19:13:23.557 INFO       - 程序包
+2025-05-11 19:13:23.559 INFO           DuckStudio.GitHubLabelsManager [>= 1.7]
+2025-05-11 19:13:23.560 INFO           Git.Git
+2025-05-11 19:13:23.561 INFO           GitHub.cli
+2025-05-11 19:13:23.563 INFO     清单验证成功。
+2025-05-11 19:13:23.569 INFO   Staging and Committing Changes to Git
+2025-05-11 19:13:32.114 INFO     Commit message: Modify: DuckStudio.Sundry version 1.1.7 (Auto)
+2025-05-11 19:13:32.131 INFO   Pushing changes to remote (origin) repository
+2025-05-11 19:13:42.980 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.Sundry-1.1.7-1746961965
+2025-05-11 19:13:44.635 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/255587
+2025-05-11 19:13:44.637 INFO Processing version folder: 1.1.8
+2025-05-11 19:13:44.638 INFO   Create and checkout to a new branch: Modify-DuckStudio.Sundry-1.1.8-1746962024
+2025-05-11 19:13:54.120 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.8\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:13:54.122 INFO     Add MinimumVersion to PackageDependency DuckStudio.GitHubLabelsManager.
+2025-05-11 19:13:54.123 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.8\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:13:54.124 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.8\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:13:54.127 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.8\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:13:54.128 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.8\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:13:54.130 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.8\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:13:54.131 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.8\DuckStudio.Sundry.yaml
+2025-05-11 19:13:54.133 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.8\DuckStudio.Sundry.yaml
+2025-05-11 19:14:22.251 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-11 19:14:22.252 INFO       - 程序包
+2025-05-11 19:14:22.254 INFO           DuckStudio.GitHubLabelsManager [>= 1.7]
+2025-05-11 19:14:22.255 INFO           Git.Git
+2025-05-11 19:14:22.256 INFO           GitHub.cli
+2025-05-11 19:14:22.257 INFO     清单验证成功。
+2025-05-11 19:14:22.267 INFO   Staging and Committing Changes to Git
+2025-05-11 19:14:31.924 INFO     Commit message: Modify: DuckStudio.Sundry version 1.1.8 (Auto)
+2025-05-11 19:14:31.925 INFO   Pushing changes to remote (origin) repository
+2025-05-11 19:14:38.445 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.Sundry-1.1.8-1746962024
+2025-05-11 19:14:39.458 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/255588
+2025-05-11 19:14:39.461 INFO Processing version folder: 1.1.9
+2025-05-11 19:14:39.462 INFO   Create and checkout to a new branch: Modify-DuckStudio.Sundry-1.1.9-1746962079
+2025-05-11 19:14:49.300 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.9\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:14:49.302 INFO     Add MinimumVersion to PackageDependency DuckStudio.GitHubLabelsManager.
+2025-05-11 19:14:49.303 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.9\DuckStudio.Sundry.installer.yaml
+2025-05-11 19:14:49.304 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.9\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:14:49.307 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.9\DuckStudio.Sundry.locale.en-US.yaml
+2025-05-11 19:14:49.308 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.9\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:14:49.310 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.9\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-05-11 19:14:49.311 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.9\DuckStudio.Sundry.yaml
+2025-05-11 19:14:49.312 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.1.9\DuckStudio.Sundry.yaml
+2025-05-11 19:15:13.387 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-11 19:15:13.401 INFO       - 程序包
+2025-05-11 19:15:13.415 INFO           DuckStudio.GitHubLabelsManager [>= 1.7]
+2025-05-11 19:15:13.422 INFO           Git.Git
+2025-05-11 19:15:13.429 INFO           GitHub.cli
+2025-05-11 19:15:13.435 INFO     清单验证成功。
+2025-05-11 19:15:13.554 INFO   Staging and Committing Changes to Git
+2025-05-11 19:15:20.146 INFO     Commit message: Modify: DuckStudio.Sundry version 1.1.9 (Auto)
+2025-05-11 19:15:20.195 INFO   Pushing changes to remote (origin) repository
+2025-05-11 19:15:25.927 INFO     Successfully pushed to remote (origin): Modify-DuckStudio.Sundry-1.1.9-1746962079
+2025-05-11 19:15:27.429 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/255589
+2025-05-11 19:15:27.432 INFO All manifests have been modified and pushed through.
+2025-05-11 19:15:34.567 INFO Workspace clean-up completed.
+~~ End of logging ~~
