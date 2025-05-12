@@ -21,6 +21,9 @@ on:
         required: true
         default: true
 
+permissions:
+  contents: read
+
 jobs:
   komac-update:
     runs-on: ubuntu-latest
