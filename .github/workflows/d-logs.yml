@@ -15,6 +15,7 @@ jobs:
 
     steps:
       - name: 检出仓库
+        if: ${{ github.event.pull_request.merged == true }}
         uses: actions/checkout@v4
 
       - name: 清理分支
