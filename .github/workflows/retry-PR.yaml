@@ -20,5 +20,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.WINGET_PKGS_TOKEN }}
         run: |-
-          gh pr close ${{ inputs.PR }} --repo microsoft/winget-pkgs
-          gh pr reopen ${{ inputs.PR }} --repo microsoft/winget-pkgs
+          gh pr close "${{ inputs.PR }}" --repo microsoft/winget-pkgs
+          gh pr reopen "${{ inputs.PR }}" --repo microsoft/winget-pkgs
