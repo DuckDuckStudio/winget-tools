@@ -1,0 +1,31 @@
+~~ Start logging ~~
+2025-05-12 21:23:47.821 FUN 转生成为雷电将军，然后天下无敌
+2025-05-12 21:23:47.823 INFO Found the following version folder: ['1.0.0', '1.0.1', '1.0.3', '1.0.4', 'Nightly']
+2025-05-12 21:23:47.968 INFO Skip version 1.0.0, because it's not in the list of versions to be modified.
+2025-05-12 21:23:47.969 INFO Skip version 1.0.1, because it's not in the list of versions to be modified.
+2025-05-12 21:23:47.970 INFO Skip version 1.0.3, because it's not in the list of versions to be modified.
+2025-05-12 21:23:47.971 INFO Processing version folder: 1.0.4
+2025-05-12 21:23:47.972 INFO   Create and checkout to a new branch: NewVersion-DuckStudio.GitHubView-1.0.4-1747056227
+2025-05-12 21:23:53.433 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.4\DuckStudio.GitHubView.installer.yaml
+2025-05-12 21:23:53.435 INFO     Cleaned up DuckStudio.GitHubView.installer.yaml
+2025-05-12 21:23:53.437 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.4\DuckStudio.GitHubView.installer.yaml
+2025-05-12 21:23:53.617 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.4\DuckStudio.GitHubView.locale.zh-CN.yaml
+2025-05-12 21:23:53.620 INFO     Cleaned up DuckStudio.GitHubView.locale.zh-CN.yaml
+2025-05-12 21:23:53.622 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.4\DuckStudio.GitHubView.locale.zh-CN.yaml
+2025-05-12 21:23:53.743 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.4\DuckStudio.GitHubView.yaml
+2025-05-12 21:23:53.745 INFO     Cleaned up DuckStudio.GitHubView.yaml
+2025-05-12 21:23:53.747 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.4\DuckStudio.GitHubView.yaml
+2025-05-12 21:23:53.862 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.4 for DuckStudio.GitHubView (1.0.4)
+2025-05-12 21:27:22.932 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-12 21:27:22.934 INFO       - 程序包
+2025-05-12 21:27:22.935 INFO           Microsoft.DotNet.Runtime.9
+2025-05-12 21:27:22.935 INFO     清单验证成功。
+2025-05-12 21:27:22.943 INFO   Staging and Committing Changes to Git
+2025-05-12 21:27:35.447 INFO     Commit message: New version: DuckStudio.GitHubView version 1.0.4 (Auto)
+2025-05-12 21:27:35.458 INFO   Pushing changes to remote (origin) repository
+2025-05-12 21:27:43.685 INFO     Successfully pushed to remote (origin): NewVersion-DuckStudio.GitHubView-1.0.4-1747056227
+2025-05-12 21:27:47.125 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/255769
+2025-05-12 21:27:47.128 INFO Skip version Nightly, because it's not in the list of versions to be modified.
+2025-05-12 21:27:47.129 INFO All manifests have been modified and pushed through.
+2025-05-12 21:27:52.491 INFO Workspace clean-up completed.
+~~ End of logging ~~
