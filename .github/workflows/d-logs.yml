@@ -20,9 +20,11 @@ jobs:
 
       - name: 清理分支
         if: ${{ github.event.pull_request.merged == true }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # 获取拉取请求的标签
-          PR_LABELS=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          PR_LABELS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
           "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/labels")
           
           # 检查标签中是否包含 'auto'
