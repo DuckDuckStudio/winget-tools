@@ -30,6 +30,9 @@ on:
           - Release
           - Debug
 
+permissions:
+  contents: read
+
 jobs:
   Check-installers:
     runs-on: ubuntu-latest
