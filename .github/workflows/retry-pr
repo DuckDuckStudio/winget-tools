@@ -1,0 +1,25 @@
+name: Retry PR
+
+on:
+  workflow_dispatch:
+    inputs:
+      PR:
+        description: 需要重试的拉取请求
+        required: true
+
+jobs:
+  Retry:
+    runs-on: ubuntu-latest
+    steps:
+      name: 签出仓库
+      uses: actions/checkout@v4
+      with:
+        repo: microsoft/winget-pkgs
+
+      name: 重试拉取请求
+      shell: bash
+      env:
+        GITHUB_TOKEN: ${{ secrets.WINGET-PKGS }}
+      run: |-
+        gh pr close ${{ inputs.PR }}
+        gh pr reopen ${{ inputs.PR }}
