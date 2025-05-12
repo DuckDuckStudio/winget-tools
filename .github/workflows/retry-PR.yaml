@@ -1,0 +1,24 @@
+name: 重开拉取请求来重新尝试验证管道
+
+on:
+  workflow_dispatch:
+    inputs:
+      PR:
+        description: 需要重试的拉取请求
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  Retry:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 重试拉取请求
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.WINGET_PKGS_TOKEN }}
+        run: |-
+          gh pr close ${{ inputs.PR }} --repo microsoft/winget-pkgs
+          gh pr reopen ${{ inputs.PR }} --repo microsoft/winget-pkgs
