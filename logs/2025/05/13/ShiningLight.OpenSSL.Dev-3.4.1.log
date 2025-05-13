@@ -1,0 +1,36 @@
+~~ Start logging ~~
+2025-05-13 00:24:33.235 FUN (*≧︶≦))(￣▽￣* )ゞ
+2025-05-13 00:24:33.237 INFO Found the following version folder: ['3.4.1', '3.5.0']
+2025-05-13 00:24:33.366 INFO Processing version folder: 3.4.1
+2025-05-13 00:24:33.367 INFO   Create and checkout to a new branch: NewVersion-ShiningLight.OpenSSL.Dev-3.4.1-1747067073
+2025-05-13 00:24:44.875 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\s\ShiningLight\OpenSSL\Dev\3.4.1\ShiningLight.OpenSSL.Dev.installer.yaml
+2025-05-13 00:24:44.879 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-13 00:24:44.881 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-13 00:24:44.883 INFO     Cleaned up ShiningLight.OpenSSL.Dev.installer.yaml
+2025-05-13 00:24:44.888 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\s\ShiningLight\OpenSSL\Dev\3.4.1\ShiningLight.OpenSSL.Dev.installer.yaml
+2025-05-13 00:24:45.161 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\s\ShiningLight\OpenSSL\Dev\3.4.1\ShiningLight.OpenSSL.Dev.locale.en-US.yaml
+2025-05-13 00:24:45.166 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-13 00:24:45.167 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-13 00:24:45.168 INFO     Cleaned up ShiningLight.OpenSSL.Dev.locale.en-US.yaml
+2025-05-13 00:24:45.172 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\s\ShiningLight\OpenSSL\Dev\3.4.1\ShiningLight.OpenSSL.Dev.locale.en-US.yaml
+2025-05-13 00:24:45.311 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\s\ShiningLight\OpenSSL\Dev\3.4.1\ShiningLight.OpenSSL.Dev.yaml
+2025-05-13 00:24:45.313 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-13 00:24:45.316 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-13 00:24:45.319 INFO     Cleaned up ShiningLight.OpenSSL.Dev.yaml
+2025-05-13 00:24:45.324 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\s\ShiningLight\OpenSSL\Dev\3.4.1\ShiningLight.OpenSSL.Dev.yaml
+2025-05-13 00:24:45.463 INFO   New manifests in D:\...\winget-pkgs\manifests\s\ShiningLight\OpenSSL\Dev\3.4.1 for ShiningLight.OpenSSL.Dev (3.4.1)
+2025-05-13 00:32:19.932 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-13 00:32:19.933 INFO       - 程序包
+2025-05-13 00:32:19.934 INFO           Microsoft.VCRedist.2015+.x86
+2025-05-13 00:32:19.935 INFO           Microsoft.VCRedist.2015+.x64
+2025-05-13 00:32:19.936 INFO           Microsoft.VCRedist.2015+.arm64
+2025-05-13 00:32:19.937 INFO     清单验证成功。
+2025-05-13 00:32:19.945 INFO   Staging and Committing Changes to Git
+2025-05-13 00:32:32.782 INFO     Commit message: New version: ShiningLight.OpenSSL.Dev version 3.4.1 (Auto)
+2025-05-13 00:32:32.783 INFO   Pushing changes to remote (origin) repository
+2025-05-13 00:32:38.449 INFO     Successfully pushed to remote (origin): NewVersion-ShiningLight.OpenSSL.Dev-3.4.1-1747067073
+2025-05-13 00:32:40.211 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/255802
+2025-05-13 00:32:40.215 INFO Skip version 3.5.0, because it's not in the list of versions to be modified.
+2025-05-13 00:32:40.217 INFO All manifests have been modified and pushed through.
+2025-05-13 00:32:46.473 INFO Workspace clean-up completed.
+~~ End of logging ~~
