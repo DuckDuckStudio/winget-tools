@@ -5,7 +5,17 @@ on:
     inputs:
       PR:
         description: 需要重试的拉取请求
+        required: false
+        default: auto
+      mode:
+        type: choice
+        description: 生成模式
         required: true
+        default: Release
+        options:
+          - Release
+          - Debug
+  schedule: [{ cron: '0 */3 * * *' }]
 
 permissions:
   contents: read
@@ -15,10 +25,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 重试拉取请求
-        shell: bash
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 9.x
+
+      - name: 关闭并重开需要重试的拉取请求
         env:
+          # GITHUB_LOGIN 为工作流所在仓库所有者
+          GITHUB_LOGIN: ${{ github.actor }}
           GITHUB_TOKEN: ${{ secrets.RETRY_TOKEN }}
+        shell: bash
         run: |-
-          gh pr close "${{ inputs.PR }}" --repo microsoft/winget-pkgs
-          gh pr reopen "${{ inputs.PR }}" --repo microsoft/winget-pkgs
+          # 如果 inputs.PR 不是 auto，则在其前面添加 'specify '
+          if [[ "${{ inputs.PR }}" != "auto" ]]; then
+            export PR="specify ${{ inputs.PR }}"
+          else
+            export PR="auto"
+          fi
+
+          dotnet run --project "Retryer/Retryer.csproj" --configuration ${{ inputs.mode }} -- $PR
