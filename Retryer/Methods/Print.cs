@@ -63,7 +63,7 @@ namespace Retryer.Methods
 #if DEBUG
             if (NeedsColor())
             {
-                Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                Console.ForegroundColor = ConsoleColor.Magenta;
             }
             Console.WriteLine($"[Debug] {message}");
             if (NeedsColor())
