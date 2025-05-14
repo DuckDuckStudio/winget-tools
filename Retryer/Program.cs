@@ -15,6 +15,7 @@ namespace Retryer
         private static bool canceled; // Canceled vs Cancelled ? - https://learn.microsoft.com/zh-cn/dotnet/fundamentals/code-analysis/quality-rules/ca1805
         private static readonly ConsoleCancelEventHandler cancelHandler = static (sender, e) =>
         {
+            Print.PrintWarning("收到取消请求，将在本 PR 处理完成后取消后续运行");
             e.Cancel = true;
             canceled = true;
         };
@@ -132,7 +133,7 @@ env:
                 int result = await RetryPullRequests(PullRequestsID, token);
                 if (result == 2)
                 {
-                    Print.PrintWarning("操作被取消");
+                    Print.PrintError("操作被取消");
                 }
                 else if (result != 0)
                 {
