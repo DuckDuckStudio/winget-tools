@@ -57,9 +57,9 @@ namespace Retryer
             if (string.IsNullOrWhiteSpace(token))
             {
                 Print.PrintError("未指定 GitHub Token，请设置环境变量 GITHUB_TOKEN。");
-                Print.PrintHint("在 GitHub Action 中使用时，请在工作流中添加您的 Token。");
-                Print.PrintHint("env:");
-                Print.PrintHint("  GITHUB_TOKEN: ${{ secrets.RETRY_TOKEN }}");
+                Print.PrintHint(@"在 GitHub Action 中使用时，请在工作流中添加您的 Token。
+env:
+    GITHUB_TOKEN: ${{ secrets.RETRY_TOKEN }}");
                 return 1;
             }
 

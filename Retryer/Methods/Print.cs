@@ -6,14 +6,7 @@ namespace Retryer.Methods
     {
         private static bool NeedsColor()
         {
-            if (!string.IsNullOrWhiteSpace(Environment.GetEnvironmentVariable("NEEDS_COLOR")))
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return !string.IsNullOrWhiteSpace(Environment.GetEnvironmentVariable("NEEDS_COLOR"));
         }
 
         // 正常输出直接
@@ -25,7 +18,11 @@ namespace Retryer.Methods
             {
                 Console.ForegroundColor = ConsoleColor.Gray;
             }
-            Console.WriteLine($"[INFO] {message}");
+            // 循环每个行，为每个行添加前缀
+            foreach (string line in message.Split('\n'))
+            {
+                Console.WriteLine($"[INFO] {line}");
+            }
             if (NeedsColor())
             {
                 Console.ResetColor();
@@ -38,7 +35,11 @@ namespace Retryer.Methods
             {
                 Console.ForegroundColor = ConsoleColor.Yellow;
             }
-            Console.WriteLine($"[WARNING] {message}");
+            // 循环每个行，为每个行添加前缀
+            foreach (string line in message.Split('\n'))
+            {
+                Console.WriteLine($"[WARNING] {line}");
+            }
             if (NeedsColor())
             {
                 Console.ResetColor();
@@ -52,7 +53,11 @@ namespace Retryer.Methods
                 Console.ForegroundColor = ConsoleColor.Red;
             }
             Environment.ExitCode = 1;
-            Console.WriteLine($"[ERROR] {message}");
+            // 循环每个行，为每个行添加前缀
+            foreach (string line in message.Split('\n'))
+            {
+                Console.WriteLine($"[ERROR] {line}");
+            }
             if (NeedsColor())
             {
                 Console.ResetColor();
@@ -66,7 +71,11 @@ namespace Retryer.Methods
             {
                 Console.ForegroundColor = ConsoleColor.Magenta;
             }
-            Console.WriteLine($"[Debug] {message}");
+            // 循环每个行，为每个行添加前缀
+            foreach (string line in message.Split('\n'))
+            {
+                Console.WriteLine($"[Debug] {line}");
+            }
             if (NeedsColor())
             {
                 Console.ResetColor();
@@ -78,9 +87,13 @@ namespace Retryer.Methods
         {
             if (NeedsColor())
             {
-                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
             }
-            Console.WriteLine($"[Hint] {message}");
+            // 循环每个行，为每个行添加前缀
+            foreach (string line in message.Split('\n'))
+            {
+                Console.WriteLine($"[Hint] {line}");
+            }
             if (NeedsColor())
             {
                 Console.ResetColor();
