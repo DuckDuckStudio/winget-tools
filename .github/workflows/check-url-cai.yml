@@ -5,27 +5,27 @@ on:
     inputs:
       fail_level:
         type: choice
-        description: "失败等级"
+        description: 失败等级
         required: true
-        default: "error"
+        default: error
         options:
           - error
           - warning
           - no-fail
           - complete
       fork:
-        description: "检查的 fork 仓库的所有者"
+        description: 检查的 fork 仓库的所有者
         required: true
-        default: "microsoft"
+        default: microsoft
       branch:
-        description: "检查的分支"
+        description: 检查的分支
         required: true
-        default: "master"
+        default: master
       mode:
         type: choice
-        description: "生成模式"
+        description: 生成模式
         required: true
-        default: "Release"
+        default: Release
         options:
           - Release
           - Debug
@@ -47,13 +47,13 @@ jobs:
       - name: 设置 .NET
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '9.x'
+          dotnet-version: 9.x
 
       - name: 克隆 winget-pkgs fork
         run: |
           # 克隆对应的 fork 和对应的分支
-          git clone "https://github.com/${{ github.event.inputs.fork }}/winget-pkgs" "winget-pkgs" -b ${{ github.event.inputs.branch }} --depth 1
+          git clone "https://github.com/${{ inputs.fork }}/winget-pkgs" "winget-pkgs" -b ${{ inputs.branch }} --depth 1
 
       - name: 执行检查
-        run: dotnet run --project "checker/checker.csproj" --configuration ${{ github.event.inputs.mode }} -- ${{ matrix.subdirectory }} ${{ github.event.inputs.fail_level }}
-        continue-on-error: ${{ github.event.inputs.fail_level == 'no-fail' }}
+        run: dotnet run --project "checker/checker.csproj" --configuration ${{ inputs.mode }} -- ${{ matrix.subdirectory }} ${{ inputs.fail_level }}
+        continue-on-error: ${{ inputs.fail_level == 'no-fail' }}
