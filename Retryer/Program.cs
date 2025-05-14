@@ -118,7 +118,6 @@ namespace Retryer
             {
                 // 这可能是个好消息？
                 Print.PrintWarning("未获取到需要重试的拉取请求 ID。");
-                return 0;
             }
             else
             {
@@ -132,9 +131,9 @@ namespace Retryer
                 {
                     Console.WriteLine("处理完毕 🎉");
                 }
-
-                return result;
             }
+
+            return Environment.ExitCode;
         }
 
         // 定义一个方法，用于查找该用户在 microsoft/winget-pkgs 中的所有 打开的 拉取请求，并返回查找到的所有拉取请求的 ID

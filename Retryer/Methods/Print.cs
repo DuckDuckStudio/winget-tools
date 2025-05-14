@@ -51,6 +51,7 @@ namespace Retryer.Methods
             {
                 Console.ForegroundColor = ConsoleColor.Red;
             }
+            Environment.ExitCode = 1;
             Console.WriteLine($"[ERROR] {message}");
             if (NeedsColor())
             {
