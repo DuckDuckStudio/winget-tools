@@ -12,12 +12,19 @@ namespace Retryer
 {
     internal class Program
     {
+        private static bool canceled; // Canceled vs Cancelled ? - https://learn.microsoft.com/zh-cn/dotnet/fundamentals/code-analysis/quality-rules/ca1805
+        private static readonly ConsoleCancelEventHandler cancelHandler = static (sender, e) =>
+        {
+            e.Cancel = true;
+            canceled = true;
+        };
+
         // 使用
         // retryer [模式] [需要重试的拉取请求(空格分隔)]
         // 模式: auto(默认)、specify
         // 需要重试的拉取请求(空格分隔): 仅在模式为 specify 才需指定，可使用拉取请求完整 URL 或拉取请求 ID。
 
-        static async Task<int> Main(string[] args)
+        private static async Task<int> Main(string[] args)
         {
             Print.PrintDebug($"获取到的参数: {string.Join(", ", args)} ({args.Length}个)");
 
@@ -123,7 +130,11 @@ env:
             {
                 // 重试这些拉取请求
                 int result = await RetryPullRequests(PullRequestsID, token);
-                if (result != 0)
+                if (result == 2)
+                {
+                    Print.PrintWarning("操作被取消");
+                }
+                else if (result != 0)
                 {
                     Print.PrintError("处理过程中出现了错误，参阅日志了解详情。");
                 }
@@ -131,6 +142,7 @@ env:
                 {
                     Console.WriteLine("处理完毕 🎉");
                 }
+                Console.CancelKeyPress -= cancelHandler; // 移除事件处理程序
             }
 
             return Environment.ExitCode;
@@ -139,7 +151,7 @@ env:
         // 定义一个方法，用于查找该用户在 microsoft/winget-pkgs 中的所有 打开的 拉取请求，并返回查找到的所有拉取请求的 ID
         // 接受 username 和 token 作为参数
         // 返回一个字符串数组，包含所有拉取请求的 ID
-        static async Task<List<string>> FindPullRequests(string username, string token)
+        private static async Task<List<string>> FindPullRequests(string username, string token)
         {
             Print.PrintInfo("正在查找可能需要重试的拉取请求...");
 
@@ -217,8 +229,10 @@ env:
         // 接受拉取请求 ID 列表和 token 作为参数
         // 返回一个 整型 ，表示重试的结果
         // 0 表示成功，1 表示失败
-        static async Task<int> RetryPullRequests(List<string> pullRequests, string token)
+        private static async Task<int> RetryPullRequests(List<string> pullRequests, string token)
         {
+            // 捕获 Ctrl + C 信号
+            Console.CancelKeyPress += cancelHandler;
             using HttpClient client = new();
             client.DefaultRequestHeaders.Add("Authorization", $"Bearer {token}");
             client.DefaultRequestHeaders.Add("Accept", "application/vnd.github+json");
@@ -227,6 +241,12 @@ env:
             {
                 try
                 {
+                    // 如果操作被取消，跳过后续处理
+                    if (canceled == true)
+                    {
+                        break;
+                    }
+
                     // https://docs.github.com/zh/rest/pulls/pulls?apiVersion=2022-11-28#update-a-pull-request
                     string url = $"https://api.github.com/repos/microsoft/winget-pkgs/pulls/{pullRequestId}";
                     StringContent content;
@@ -269,6 +289,12 @@ env:
                     return 1;
                 }
             }
+
+            if (canceled)
+            {
+                return 2; // 操作取消
+            }
+
             return 0;
         }
 
@@ -276,7 +302,7 @@ env:
         // 接受 3 个参数：拉取请求，模式和 token
         // 返回一个布尔值，表示拉取请求是否有效且真的需要重试
         // 对于指定的拉取请求 ID，仅验证拉取请求 ID 是否有效
-        static async Task<int> ValidatePullRequest(string pullRequest, string mode, string token)
+        private static async Task<int> ValidatePullRequest(string pullRequest, string mode, string token)
         {
             pullRequest = pullRequest
                         .Replace("#", "")
