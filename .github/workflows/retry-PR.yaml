@@ -15,10 +15,14 @@ on:
         options:
           - Release
           - Debug
-  schedule: [{ cron: '0 */3 * * *' }]
+  schedule:
+    # 建议间隔 ~ 3 小时 (+) 左右运行一次，因为 IEDS 一般会在 Azure 管道运行约 3 小时后超时
+    - cron: 0 2 * * * # 10:00 CST
+    - cron: 0 5 * * * # 13:00 CST
 
 permissions:
   contents: read
+  issues: write
 
 jobs:
   Retry:
@@ -47,4 +51,31 @@ jobs:
             export PR="specify ${{ inputs.PR }}"
           fi
 
-          dotnet run --project "Retryer/Retryer.csproj" --configuration ${{ inputs.mode }} -- $PR
+          dotnet run --project "Retryer/Retryer.csproj" --configuration ${{ inputs.mode }} -- $PR || EXIT_CODE=$?
+          echo "EXIT_CODE=${EXIT_CODE:-0}" >> $GITHUB_ENV
+
+      # 测试用
+      - name: 报告失败
+        if: ${{ env.EXIT_CODE != 0 }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |-
+          # 在工作流仓库中报告本次运行的日志 URL 以及运行中是否出现警告/错误
+          gh issue create \
+            --title "[Auto] Retryer 运行失败" \
+            --body "CC @DuckDuckStudio\n本次运行的日志: $GITHUB_RUN_URL" \
+            --label "auto,DEV-需要注意,github_actions,bug"
+
+      # 测试用
+      - name: 报告成功
+        if: ${{ env.EXIT_CODE == 0 }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |-
+          # 在工作流仓库中报告本次运行的日志 URL 以及运行中是否出现警告/错误
+          gh issue create \
+            --title "[Auto] Retryer 运行成功" \
+            --body "CC @DuckDuckStudio\n本次运行的日志: $GITHUB_RUN_URL" \
+            --label "auto,DEV-需要注意,github_actions"

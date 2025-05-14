@@ -1,7 +1,8 @@
 name: winget-pkgs 清理分支和同步修改
 
 on:
-  schedule: [{ cron: '0 */3 * * *' }]
+  schedule:
+    - cron: 0 */5 * * * # 每 5 小时运行一次
   workflow_dispatch:
 
 permissions:
