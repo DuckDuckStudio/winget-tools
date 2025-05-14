@@ -318,8 +318,17 @@ namespace Retryer
                             // 定义一个数组，存放需要重试的标签
                             string[] retryLabels = [
                                 "Internal-Error", "Internal-Error-Dynamic-Scan", "Internal-Error-Static-Scan",
+                                // 未知内部错误、动态扫描错误、静态扫描错误
                                 // 其他内部错误可能需要进一步调查，不应草率重试。
                             ];
+
+                            // 定义一个数组，存放不能重试的标签
+                            string[] noRetryLabels = [
+                                "Needs-Author-Feedback", "Needs-Review", "Needs-Manual-Merge",
+                                // 需要作者反馈、需要软件包维护者审查、没你啥事了它们合并了就行
+                                // 这些标签表示拉取请求需要进一步调查或需要作者反馈，不应重试。
+                            ];
+
                             // 获取拉取请求的标签
                             JsonNode? labels = jsonNode["labels"];
                             if (labels != null)
@@ -332,11 +341,16 @@ namespace Retryer
                                     {
                                         Print.PrintDebug($"拉取请求 {pullRequestId} 需要重试，因为它带有标签: {labelName}");
                                         needsRetry = true;
+                                    }
+                                    else if (noRetryLabels.Contains(labelName))
+                                    {
+                                        Print.PrintDebug($"拉取请求 {pullRequestId} 不应该重试，因为它带有标签: {labelName}");
+                                        needsRetry = false;
                                         break;
                                     }
                                     else
                                     {
-                                        Print.PrintDebug($"拉取请求 {pullRequestId} 不需要重试，标签: {labelName}");
+                                        Print.PrintDebug($"标签 {labelName} 不代表拉取请求 {pullRequestId} 需要重试");
                                     }
                                 }
 
