@@ -40,11 +40,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.RETRY_TOKEN }}
         shell: bash
         run: |-
-          # 如果 inputs.PR 不是 auto，则在其前面添加 'specify '
-          if [[ "${{ inputs.PR }}" != "auto" ]]; then
-            export PR="specify ${{ inputs.PR }}"
-          else
+          # 如果 inputs.PR 未指定或为空，则使用 auto 模式
+          if [[ -z "${{ inputs.PR }}" || "${{ inputs.PR }}" == "auto" ]]; then
             export PR="auto"
+          else
+            export PR="specify ${{ inputs.PR }}"
           fi
 
           dotnet run --project "Retryer/Retryer.csproj" --configuration ${{ inputs.mode }} -- $PR
