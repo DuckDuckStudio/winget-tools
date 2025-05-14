@@ -141,6 +141,8 @@ namespace Retryer
         // 返回一个字符串数组，包含所有拉取请求的 ID
         static async Task<List<string>> FindPullRequests(string username, string token)
         {
+            Print.PrintInfo("正在查找可能需要重试的拉取请求...");
+
             using HttpClient client = new();
             client.DefaultRequestHeaders.Add("Authorization", $"Bearer {token}");
             client.DefaultRequestHeaders.Add("Accept", "application/vnd.github+json");
