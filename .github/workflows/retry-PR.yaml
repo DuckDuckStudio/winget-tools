@@ -71,7 +71,8 @@ jobs:
           # 在工作流仓库中报告本次运行的日志 URL 以及运行中是否出现警告/错误
           gh issue create \
             --title "[Auto] Retryer 运行失败" \
-            --body "CC @DuckDuckStudio\n本次运行的日志: $GITHUB_RUN_URL" \
+            --body "CC @DuckDuckStudio
+            本次运行的日志: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
             --label "auto,DEV-需要注意,github_actions,bug"
 
       # 测试用
@@ -84,5 +85,6 @@ jobs:
           # 在工作流仓库中报告本次运行的日志 URL 以及运行中是否出现警告/错误
           gh issue create \
             --title "[Auto] Retryer 运行成功" \
-            --body "CC @DuckDuckStudio\n本次运行的日志: $GITHUB_RUN_URL" \
+            --body "CC @DuckDuckStudio
+            本次运行的日志: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
             --label "auto,DEV-需要注意,github_actions"
