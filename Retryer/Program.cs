@@ -353,6 +353,8 @@ env:
                             string[] noRetryLabels = [
                                 "Needs-Author-Feedback", "Needs-Review", "Needs-Manual-Merge",
                                 // 需要作者反馈、需要软件包维护者审查、没你啥事了它们合并了就行
+                                "Validation-Retry",
+                                // 此拉取请求已经经过太多的重试了
                                 // 这些标签表示拉取请求需要进一步调查或需要作者反馈，不应重试。
                             ];
 
