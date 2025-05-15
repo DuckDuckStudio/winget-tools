@@ -40,7 +40,7 @@ jobs:
       - name: 关闭并重开需要重试的拉取请求
         env:
           # GITHUB_LOGIN 为工作流所在仓库所有者
-          GITHUB_LOGIN: ${{ github.actor }}
+          GITHUB_LOGIN: ${{ github.repository_owner }}
           GITHUB_TOKEN: ${{ secrets.RETRY_TOKEN }}
         shell: bash
         run: |-
