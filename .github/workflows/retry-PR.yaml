@@ -29,15 +29,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: 验证触发者
+        # 如果是手动触发，则需要验证触发者是否为 DuckDuckStudio
+        if: ${{ github.event_name == 'workflow_dispatch' && github.actor != 'DuckDuckStudio' }}
+        shell: bash
+        run: |-
+          echo "[WARNING] 手动触发者不是 DuckDuckStudio，此工作流自动失败"
+          echo "EXIT_CODE=1" >> $GITHUB_ENV
+
       - name: 检出代码
+        if: ${{ github.event_name == 'schedule' || github.actor == 'DuckDuckStudio' }}
         uses: actions/checkout@v4
 
       - name: 设置 .NET
+        if: ${{ github.event_name == 'schedule' || github.actor == 'DuckDuckStudio' }}
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 9.x
 
       - name: 关闭并重开需要重试的拉取请求
+        if: ${{ github.event_name == 'schedule' || github.actor == 'DuckDuckStudio' }}
         env:
           # GITHUB_LOGIN 为工作流所在仓库所有者
           GITHUB_LOGIN: ${{ github.repository_owner }}
