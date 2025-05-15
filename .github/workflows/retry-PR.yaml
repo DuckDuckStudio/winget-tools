@@ -51,7 +51,14 @@ jobs:
             export PR="specify ${{ inputs.PR }}"
           fi
 
-          dotnet run --project "Retryer/Retryer.csproj" --configuration ${{ inputs.mode }} -- $PR || EXIT_CODE=$?
+          # 如果生成模式为空，则指定为 Release
+          if [[ -z "${{ inputs.mode }}" ]]; then
+            export MODE="Release"
+          else
+            export MODE="${{ inputs.mode }}"
+          fi
+
+          dotnet run --project "Retryer/Retryer.csproj" --configuration $MODE -- $PR || EXIT_CODE=$?
           echo "EXIT_CODE=${EXIT_CODE:-0}" >> $GITHUB_ENV
 
       # 测试用
