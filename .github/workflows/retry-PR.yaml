@@ -84,7 +84,9 @@ jobs:
             --title "[Auto] Retryer 运行失败" \
             --body "CC @DuckDuckStudio
             本次运行的日志: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
-            --label "auto,DEV-需要注意,github_actions,bug"
+            --label "auto,DEV-需要注意,github_actions,bug" \
+            --repo "${{ github.repository }}" \
+            --assignee "${{ github.actor }}"
 
       # 测试用
       - name: 报告成功
@@ -98,4 +100,5 @@ jobs:
             --title "[Auto] Retryer 运行成功" \
             --body "CC @DuckDuckStudio
             本次运行的日志: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            --repo "${{ github.repository }}" \
             --label "auto,DEV-需要注意,github_actions"
