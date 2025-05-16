@@ -460,7 +460,6 @@ namespace checker
                 "http://www.heaventools.com/files/11hFgnI0s/FlexHex_editor_setup.exe", // 讨论中 - https://github.com/microsoft/winget-pkgs/pull/251580
                 "https://cdn.localwp.com/releases-stable", // WIP - Flywheel.Local
                 "https://download.eset.com/com/eset/tools/installers/av_remover/latest/avremover_arm64_enu.exe", // WIP - https://github.com/microsoft/winget-pkgs/pull/250906
-                "https://github.com/Chill-Astro/PyCalc-SE/releases/download/Latest/PyCalc-SE-Setup.exe", // WIP - https://github.com/microsoft/winget-pkgs/pull/252669
             ];
             return excludedDomains.Any(url.Contains);
         }
