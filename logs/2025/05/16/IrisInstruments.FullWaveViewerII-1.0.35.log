@@ -1,0 +1,30 @@
+~~ Start logging ~~
+2025-05-16 17:30:07.548 FUN 玩__玩的。
+2025-05-16 17:30:07.550 INFO Found the following version folder: ['1.0.35']
+2025-05-16 17:30:07.765 INFO Processing version folder: 1.0.35
+2025-05-16 17:30:07.766 INFO   Create and checkout to a new branch: NewVersion-IrisInstruments.FullWaveViewerII-1.0.35-1747387807
+2025-05-16 17:30:15.676 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\i\IrisInstruments\FullWaveViewerII\1.0.35\IrisInstruments.FullWaveViewerII.installer.yaml
+2025-05-16 17:30:15.678 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-05-16 17:30:15.713 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-05-16 17:30:15.715 INFO     Cleaned up IrisInstruments.FullWaveViewerII.installer.yaml
+2025-05-16 17:30:15.717 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\i\IrisInstruments\FullWaveViewerII\1.0.35\IrisInstruments.FullWaveViewerII.installer.yaml
+2025-05-16 17:30:16.345 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\i\IrisInstruments\FullWaveViewerII\1.0.35\IrisInstruments.FullWaveViewerII.locale.en-US.yaml
+2025-05-16 17:30:16.716 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-05-16 17:30:16.733 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-05-16 17:30:16.746 INFO     Cleaned up IrisInstruments.FullWaveViewerII.locale.en-US.yaml
+2025-05-16 17:30:16.773 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\i\IrisInstruments\FullWaveViewerII\1.0.35\IrisInstruments.FullWaveViewerII.locale.en-US.yaml
+2025-05-16 17:30:16.226 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\i\IrisInstruments\FullWaveViewerII\1.0.35\IrisInstruments.FullWaveViewerII.yaml
+2025-05-16 17:30:16.228 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-05-16 17:30:16.230 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-05-16 17:30:16.231 INFO     Cleaned up IrisInstruments.FullWaveViewerII.yaml
+2025-05-16 17:30:16.234 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\i\IrisInstruments\FullWaveViewerII\1.0.35\IrisInstruments.FullWaveViewerII.yaml
+2025-05-16 17:30:16.396 INFO   New manifests in D:\...\winget-pkgs\manifests\i\IrisInstruments\FullWaveViewerII\1.0.35 for IrisInstruments.FullWaveViewerII (1.0.35)
+2025-05-16 17:38:59.787 INFO     清单验证成功。
+2025-05-16 17:38:59.798 INFO   Staging and Committing Changes to Git
+2025-05-16 17:39:14.648 INFO     Commit message: New version: IrisInstruments.FullWaveViewerII version 1.0.35 (Auto)
+2025-05-16 17:39:14.649 INFO   Pushing changes to remote (origin) repository
+2025-05-16 17:39:19.928 INFO     Successfully pushed to remote (origin): NewVersion-IrisInstruments.FullWaveViewerII-1.0.35-1747387807
+2025-05-16 17:39:22.514 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/257084
+2025-05-16 17:39:22.557 INFO All manifests have been modified and pushed through.
+2025-05-16 17:39:27.211 INFO Workspace clean-up completed.
+~~ End of logging ~~
