@@ -458,7 +458,6 @@ namespace checker
                 "https://www.elcomsoft.com/", "https://pbank.bankcomm.cn/personbank/download/SecEditCFCAforBoCom.exe", // SSL错误
                 "https://aurorabuilder.com/downloads/Aurora%20Setup.zip", // 假400
                 "http://www.heaventools.com/files/11hFgnI0s/FlexHex_editor_setup.exe", // 讨论中 - https://github.com/microsoft/winget-pkgs/pull/251580
-                "https://cdn.localwp.com/releases-stable", // WIP - Flywheel.Local
                 "https://download.eset.com/com/eset/tools/installers/av_remover/latest/avremover_arm64_enu.exe", // WIP - https://github.com/microsoft/winget-pkgs/pull/250906
             ];
             return excludedDomains.Any(url.Contains);
