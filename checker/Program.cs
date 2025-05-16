@@ -457,8 +457,6 @@ namespace checker
                 "https://www.argyllcms.com/", // 服务器拒绝冲泡咖啡
                 "https://www.elcomsoft.com/", "https://pbank.bankcomm.cn/personbank/download/SecEditCFCAforBoCom.exe", // SSL错误
                 "https://aurorabuilder.com/downloads/Aurora%20Setup.zip", // 假400
-                "http://www.heaventools.com/files/11hFgnI0s/FlexHex_editor_setup.exe", // 讨论中 - https://github.com/microsoft/winget-pkgs/pull/251580
-                "https://cdn.localwp.com/releases-stable", // WIP - Flywheel.Local
             ];
             return excludedDomains.Any(url.Contains);
         }
