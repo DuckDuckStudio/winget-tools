@@ -536,3 +536,6 @@ launchSettings.json
 # Test files
 test/
 test.*
+
+# Copyright
+Copyright/
