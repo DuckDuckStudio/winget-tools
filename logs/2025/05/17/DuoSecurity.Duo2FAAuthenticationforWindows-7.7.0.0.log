@@ -1,0 +1,33 @@
+~~ Start logging ~~
+2025-05-17 20:31:10.451 FUN O v O
+2025-05-17 20:31:10.452 INFO Found the following version folder: ['4.2.0.1263', '5.0.0.312', '7.7.0.0', 'MSI']
+2025-05-17 20:31:10.586 INFO Skip version 4.2.0.1263, because it's not in the list of versions to be modified.
+2025-05-17 20:31:10.587 INFO Skip version 5.0.0.312, because it's not in the list of versions to be modified.
+2025-05-17 20:31:10.588 INFO Processing version folder: 7.7.0.0
+2025-05-17 20:31:10.588 INFO   Create and checkout to a new branch: NewVersion-DuoSecurity.Duo2FAAuthenticationforWindows-7.7.0.0-1747485070
+2025-05-17 20:31:16.522 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuoSecurity\Duo2FAAuthenticationforWindows\7.7.0.0\DuoSecurity.Duo2FAAuthenticationforWindows.installer.yaml
+2025-05-17 20:31:16.523 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-17 20:31:16.524 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-17 20:31:16.525 INFO     Cleaned up DuoSecurity.Duo2FAAuthenticationforWindows.installer.yaml
+2025-05-17 20:31:16.528 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuoSecurity\Duo2FAAuthenticationforWindows\7.7.0.0\DuoSecurity.Duo2FAAuthenticationforWindows.installer.yaml
+2025-05-17 20:31:16.699 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuoSecurity\Duo2FAAuthenticationforWindows\7.7.0.0\DuoSecurity.Duo2FAAuthenticationforWindows.locale.en-US.yaml
+2025-05-17 20:31:16.702 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-17 20:31:16.703 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-17 20:31:16.703 INFO     Cleaned up DuoSecurity.Duo2FAAuthenticationforWindows.locale.en-US.yaml
+2025-05-17 20:31:16.705 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuoSecurity\Duo2FAAuthenticationforWindows\7.7.0.0\DuoSecurity.Duo2FAAuthenticationforWindows.locale.en-US.yaml
+2025-05-17 20:31:16.818 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuoSecurity\Duo2FAAuthenticationforWindows\7.7.0.0\DuoSecurity.Duo2FAAuthenticationforWindows.yaml
+2025-05-17 20:31:16.820 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-17 20:31:16.821 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-17 20:31:16.822 INFO     Cleaned up DuoSecurity.Duo2FAAuthenticationforWindows.yaml
+2025-05-17 20:31:16.825 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuoSecurity\Duo2FAAuthenticationforWindows\7.7.0.0\DuoSecurity.Duo2FAAuthenticationforWindows.yaml
+2025-05-17 20:31:16.946 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuoSecurity\Duo2FAAuthenticationforWindows\7.7.0.0 for DuoSecurity.Duo2FAAuthenticationforWindows (7.7.0.0)
+2025-05-17 20:31:37.836 INFO     清单验证成功。
+2025-05-17 20:31:37.927 INFO   Staging and Committing Changes to Git
+2025-05-17 20:31:44.781 INFO     Commit message: New version: DuoSecurity.Duo2FAAuthenticationforWindows version 7.7.0.0 (Auto)
+2025-05-17 20:31:44.782 INFO   Pushing changes to remote (origin) repository
+2025-05-17 20:31:48.847 INFO     Successfully pushed to remote (origin): NewVersion-DuoSecurity.Duo2FAAuthenticationforWindows-7.7.0.0-1747485070
+2025-05-17 20:31:50.284 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/257412
+2025-05-17 20:31:50.287 INFO Skip version MSI, because it's not in the list of versions to be modified.
+2025-05-17 20:31:50.289 INFO All manifests have been modified and pushed through.
+2025-05-17 20:31:55.886 INFO Workspace clean-up completed.
+~~ End of logging ~~
