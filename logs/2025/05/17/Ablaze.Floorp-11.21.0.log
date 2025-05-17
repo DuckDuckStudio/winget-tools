@@ -1,0 +1,97 @@
+~~ Start logging ~~
+2025-05-17 10:23:49.631 FUN O v O
+2025-05-17 10:23:49.646 INFO Found the following version folder: ['10.14.0', '10.15.0', '10.16.0', '11.0.0', '11.1.0', '11.1.1', '11.1.2', '11.10.0', '11.10.1', '11.10.2', '11.10.3', '11.10.4', '11.10.5', '11.11.0', '11.11.1', '11.11.2', '11.12.1', '11.12.2', '11.13.0', '11.13.1', '11.13.2', '11.13.3', '11.14.0', '11.14.1', '11.15.0', '11.16.0', '11.17.1', '11.17.3', '11.17.4', '11.17.5', '11.17.6', '11.17.7', '11.17.8', '11.18.0', '11.18.1', '11.19.0', '11.19.1', '11.20.0', '11.21.0', '11.22.0', '11.23.0', '11.23.1', '11.24.0', '11.25.0', '11.26.0', '11.26.1', '11.3.0', '11.3.1', '11.3.2', '11.3.3', '11.4.0', '11.4.1', '11.5.0', '11.5.1', '11.6.0', '11.6.1', '11.7.0', '11.7.1', '11.8.0', '11.8.1', '11.8.2', '11.9.0', 'Daylight']
+2025-05-17 10:23:49.845 INFO Skip version 10.14.0, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.846 INFO Skip version 10.15.0, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.847 INFO Skip version 10.16.0, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.848 INFO Skip version 11.0.0, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.848 INFO Skip version 11.1.0, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.849 INFO Skip version 11.1.1, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.850 INFO Skip version 11.1.2, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.851 INFO Skip version 11.10.0, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.853 INFO Skip version 11.10.1, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.854 INFO Skip version 11.10.2, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.856 INFO Skip version 11.10.3, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.857 INFO Skip version 11.10.4, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.859 INFO Skip version 11.10.5, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.860 INFO Skip version 11.11.0, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.861 INFO Skip version 11.11.1, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.862 INFO Skip version 11.11.2, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.863 INFO Skip version 11.12.1, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.864 INFO Skip version 11.12.2, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.865 INFO Skip version 11.13.0, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.867 INFO Skip version 11.13.1, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.868 INFO Skip version 11.13.2, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.871 INFO Skip version 11.13.3, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.900 INFO Skip version 11.14.0, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.902 INFO Skip version 11.14.1, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.909 INFO Skip version 11.15.0, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.912 INFO Skip version 11.16.0, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.919 INFO Skip version 11.17.1, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.923 INFO Skip version 11.17.3, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.925 INFO Skip version 11.17.4, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.929 INFO Skip version 11.17.5, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.931 INFO Skip version 11.17.6, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.934 INFO Skip version 11.17.7, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.938 INFO Skip version 11.17.8, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.939 INFO Skip version 11.18.0, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.941 INFO Skip version 11.18.1, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.943 INFO Skip version 11.19.0, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.944 INFO Skip version 11.19.1, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.945 INFO Skip version 11.20.0, because it's not in the list of versions to be modified.
+2025-05-17 10:23:49.946 INFO Processing version folder: 11.21.0
+2025-05-17 10:23:49.947 INFO   Create and checkout to a new branch: NewVersion-Ablaze.Floorp-11.21.0-1747448629
+2025-05-17 10:23:57.941 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Ablaze\Floorp\11.21.0\Ablaze.Floorp.installer.yaml
+2025-05-17 10:23:57.959 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-05-17 10:23:57.970 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-05-17 10:23:57.979 INFO     Cleaned up Ablaze.Floorp.installer.yaml
+2025-05-17 10:23:57.994 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Ablaze\Floorp\11.21.0\Ablaze.Floorp.installer.yaml
+2025-05-17 10:23:57.480 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Ablaze\Floorp\11.21.0\Ablaze.Floorp.locale.en-US.yaml
+2025-05-17 10:23:57.481 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-05-17 10:23:57.483 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-05-17 10:23:57.484 INFO     Cleaned up Ablaze.Floorp.locale.en-US.yaml
+2025-05-17 10:23:57.488 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Ablaze\Floorp\11.21.0\Ablaze.Floorp.locale.en-US.yaml
+2025-05-17 10:23:57.700 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Ablaze\Floorp\11.21.0\Ablaze.Floorp.locale.ja-JP.yaml
+2025-05-17 10:23:57.703 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-05-17 10:23:57.705 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-05-17 10:23:57.706 INFO     Cleaned up Ablaze.Floorp.locale.ja-JP.yaml
+2025-05-17 10:23:57.710 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Ablaze\Floorp\11.21.0\Ablaze.Floorp.locale.ja-JP.yaml
+2025-05-17 10:23:57.895 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Ablaze\Floorp\11.21.0\Ablaze.Floorp.yaml
+2025-05-17 10:23:57.896 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-05-17 10:23:57.898 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-05-17 10:23:57.899 INFO     Cleaned up Ablaze.Floorp.yaml
+2025-05-17 10:23:57.901 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Ablaze\Floorp\11.21.0\Ablaze.Floorp.yaml
+2025-05-17 10:23:58.684 INFO   New manifests in D:\...\winget-pkgs\manifests\a\Ablaze\Floorp\11.21.0 for Ablaze.Floorp (11.21.0)
+2025-05-17 10:29:36.148 INFO     清单验证成功。
+2025-05-17 10:29:36.161 INFO   Staging and Committing Changes to Git
+2025-05-17 10:29:47.140 INFO     Commit message: New version: Ablaze.Floorp version 11.21.0 (Auto)
+2025-05-17 10:29:47.157 INFO   Pushing changes to remote (origin) repository
+2025-05-17 10:29:54.976 INFO     Successfully pushed to remote (origin): NewVersion-Ablaze.Floorp-11.21.0-1747448629
+2025-05-17 10:29:56.690 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/257332
+2025-05-17 10:29:56.693 INFO Skip version 11.22.0, because it's not in the list of versions to be modified.
+2025-05-17 10:29:56.695 INFO Skip version 11.23.0, because it's not in the list of versions to be modified.
+2025-05-17 10:29:56.696 INFO Skip version 11.23.1, because it's not in the list of versions to be modified.
+2025-05-17 10:29:56.698 INFO Skip version 11.24.0, because it's not in the list of versions to be modified.
+2025-05-17 10:29:56.700 INFO Skip version 11.25.0, because it's not in the list of versions to be modified.
+2025-05-17 10:29:56.702 INFO Skip version 11.26.0, because it's not in the list of versions to be modified.
+2025-05-17 10:29:56.704 INFO Skip version 11.26.1, because it's not in the list of versions to be modified.
+2025-05-17 10:29:56.705 INFO Skip version 11.3.0, because it's not in the list of versions to be modified.
+2025-05-17 10:29:56.707 INFO Skip version 11.3.1, because it's not in the list of versions to be modified.
+2025-05-17 10:29:56.709 INFO Skip version 11.3.2, because it's not in the list of versions to be modified.
+2025-05-17 10:29:56.710 INFO Skip version 11.3.3, because it's not in the list of versions to be modified.
+2025-05-17 10:29:56.712 INFO Skip version 11.4.0, because it's not in the list of versions to be modified.
+2025-05-17 10:29:56.714 INFO Skip version 11.4.1, because it's not in the list of versions to be modified.
+2025-05-17 10:29:56.716 INFO Skip version 11.5.0, because it's not in the list of versions to be modified.
+2025-05-17 10:29:56.718 INFO Skip version 11.5.1, because it's not in the list of versions to be modified.
+2025-05-17 10:29:56.719 INFO Skip version 11.6.0, because it's not in the list of versions to be modified.
+2025-05-17 10:29:56.721 INFO Skip version 11.6.1, because it's not in the list of versions to be modified.
+2025-05-17 10:29:56.723 INFO Skip version 11.7.0, because it's not in the list of versions to be modified.
+2025-05-17 10:29:56.725 INFO Skip version 11.7.1, because it's not in the list of versions to be modified.
+2025-05-17 10:29:56.727 INFO Skip version 11.8.0, because it's not in the list of versions to be modified.
+2025-05-17 10:29:56.729 INFO Skip version 11.8.1, because it's not in the list of versions to be modified.
+2025-05-17 10:29:56.732 INFO Skip version 11.8.2, because it's not in the list of versions to be modified.
+2025-05-17 10:29:56.733 INFO Skip version 11.9.0, because it's not in the list of versions to be modified.
+2025-05-17 10:29:56.735 INFO Skip version Daylight, because it's not in the list of versions to be modified.
+2025-05-17 10:29:56.737 INFO All manifests have been modified and pushed through.
+2025-05-17 10:30:03.974 INFO Workspace clean-up completed.
+~~ End of logging ~~
