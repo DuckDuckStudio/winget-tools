@@ -1,0 +1,31 @@
+~~ Start logging ~~
+2025-05-17 16:00:49.375 FUN (≧∇≦)
+2025-05-17 16:00:49.376 INFO Found the following version folder: ['4.7.0', '5.8.1']
+2025-05-17 16:00:49.461 INFO Skip version 4.7.0, because it's not in the list of versions to be modified.
+2025-05-17 16:00:49.462 INFO Processing version folder: 5.8.1
+2025-05-17 16:00:49.463 INFO   Create and checkout to a new branch: NewVersion-AirExplorer.AirExplorer-5.8.1-1747468849
+2025-05-17 16:00:55.907 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\AirExplorer\AirExplorer\5.8.1\AirExplorer.AirExplorer.installer.yaml
+2025-05-17 16:00:55.908 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-17 16:00:55.909 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-17 16:00:55.910 INFO     Cleaned up AirExplorer.AirExplorer.installer.yaml
+2025-05-17 16:00:55.911 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\AirExplorer\AirExplorer\5.8.1\AirExplorer.AirExplorer.installer.yaml
+2025-05-17 16:00:56.812 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\AirExplorer\AirExplorer\5.8.1\AirExplorer.AirExplorer.locale.en-US.yaml
+2025-05-17 16:00:56.848 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-17 16:00:56.858 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-17 16:00:56.864 INFO     Cleaned up AirExplorer.AirExplorer.locale.en-US.yaml
+2025-05-17 16:00:56.878 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\AirExplorer\AirExplorer\5.8.1\AirExplorer.AirExplorer.locale.en-US.yaml
+2025-05-17 16:00:56.198 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\AirExplorer\AirExplorer\5.8.1\AirExplorer.AirExplorer.yaml
+2025-05-17 16:00:56.200 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-17 16:00:56.201 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-17 16:00:56.201 INFO     Cleaned up AirExplorer.AirExplorer.yaml
+2025-05-17 16:00:56.204 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\AirExplorer\AirExplorer\5.8.1\AirExplorer.AirExplorer.yaml
+2025-05-17 16:00:56.347 INFO   New manifests in D:\...\winget-pkgs\manifests\a\AirExplorer\AirExplorer\5.8.1 for AirExplorer.AirExplorer (5.8.1)
+2025-05-17 16:09:18.709 INFO     清单验证成功。
+2025-05-17 16:09:18.718 INFO   Staging and Committing Changes to Git
+2025-05-17 16:09:26.717 INFO     Commit message: New version: AirExplorer.AirExplorer version 5.8.1 (Auto)
+2025-05-17 16:09:26.719 INFO   Pushing changes to remote (origin) repository
+2025-05-17 16:09:33.391 INFO     Successfully pushed to remote (origin): NewVersion-AirExplorer.AirExplorer-5.8.1-1747468849
+2025-05-17 16:09:34.979 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/257373
+2025-05-17 16:09:34.981 INFO All manifests have been modified and pushed through.
+2025-05-17 16:09:39.719 INFO Workspace clean-up completed.
+~~ End of logging ~~
