@@ -1,0 +1,28 @@
+~~ Start logging ~~
+2025-05-17 09:52:19.282 FUN (·v·)
+2025-05-17 09:52:19.308 INFO Found the following version folder: ['5.1.3', 'CN']
+2025-05-17 09:52:19.157 INFO Processing version folder: 5.1.3
+2025-05-17 09:52:19.158 INFO   Create and checkout to a new branch: NewVersion-7S2P.Effie-5.1.3-1747446739
+2025-05-17 09:52:28.512 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\7\7S2P\Effie\5.1.3\7S2P.Effie.installer.yaml
+2025-05-17 09:52:28.536 INFO     Cleaned up 7S2P.Effie.installer.yaml
+2025-05-17 09:52:28.567 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\7\7S2P\Effie\5.1.3\7S2P.Effie.installer.yaml
+2025-05-17 09:52:28.307 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\7\7S2P\Effie\5.1.3\7S2P.Effie.locale.en-US.yaml
+2025-05-17 09:52:28.310 INFO     Cleaned up 7S2P.Effie.locale.en-US.yaml
+2025-05-17 09:52:28.316 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\7\7S2P\Effie\5.1.3\7S2P.Effie.locale.en-US.yaml
+2025-05-17 09:52:28.488 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\7\7S2P\Effie\5.1.3\7S2P.Effie.locale.zh-CN.yaml
+2025-05-17 09:52:28.523 INFO     Cleaned up 7S2P.Effie.locale.zh-CN.yaml
+2025-05-17 09:52:28.526 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\7\7S2P\Effie\5.1.3\7S2P.Effie.locale.zh-CN.yaml
+2025-05-17 09:52:28.684 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\7\7S2P\Effie\5.1.3\7S2P.Effie.yaml
+2025-05-17 09:52:28.687 INFO     Cleaned up 7S2P.Effie.yaml
+2025-05-17 09:52:28.690 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\7\7S2P\Effie\5.1.3\7S2P.Effie.yaml
+2025-05-17 09:52:28.912 INFO   New manifests in D:\...\winget-pkgs\manifests\7\7S2P\Effie\5.1.3 for 7S2P.Effie (5.1.3)
+2025-05-17 09:55:21.947 INFO     清单验证成功。
+2025-05-17 09:55:21.959 INFO   Staging and Committing Changes to Git
+2025-05-17 09:55:32.371 INFO     Commit message: New version: 7S2P.Effie version 5.1.3 (Auto)
+2025-05-17 09:55:32.372 INFO   Pushing changes to remote (origin) repository
+2025-05-17 09:55:38.177 INFO     Successfully pushed to remote (origin): NewVersion-7S2P.Effie-5.1.3-1747446739
+2025-05-17 09:55:39.716 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/257328
+2025-05-17 09:55:39.719 INFO Skip version CN, because it's not in the list of versions to be modified.
+2025-05-17 09:55:39.721 INFO All manifests have been modified and pushed through.
+2025-05-17 09:55:50.398 INFO Workspace clean-up completed.
+~~ End of logging ~~
