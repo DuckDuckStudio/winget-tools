@@ -318,6 +318,7 @@ env:
                 client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3");
                 // 获取拉取请求的状态
                 string url = $"https://api.github.com/repos/microsoft/winget-pkgs/pulls/{pullRequestId}";
+                Print.PrintDebug($"请求 {url}");
                 HttpResponseMessage response = await client.GetAsync(url);
                 if (response.IsSuccessStatusCode)
                 {
@@ -330,9 +331,17 @@ env:
                     }
                     // 获取拉取请求的状态
                     string? state = jsonNode["state"]?.ToString() ?? "";
+                    // 获取是否为草稿
+                    bool draft = jsonNode["draft"]?.ToString() == "true";
                     if (state == "open")
                     {
                         Print.PrintDebug($"拉取请求 {pullRequestId} 是打开的。");
+                        if (draft)
+                        {
+                            Print.PrintDebug($"拉取请求 {pullRequestId} 是草稿，跳过。");
+                            return 0;
+                        }
+                        
                         if (mode == "specify")
                         {
                             // 如果是手动指定的拉取请求，则直接返回拉取请求 ID
