@@ -1,0 +1,38 @@
+~~ Start logging ~~
+2025-05-18 14:44:07.973 FUN 妈呀
+2025-05-18 14:44:07.974 INFO Found the following version folder: ['10.1.19041.1', '10.1.22000.1', '10.1.22621.1', '10.1.26100.2454']
+2025-05-18 14:44:08.109 INFO Skip version 10.1.19041.1, because it's not in the list of versions to be modified.
+2025-05-18 14:44:08.110 INFO Skip version 10.1.22000.1, because it's not in the list of versions to be modified.
+2025-05-18 14:44:08.111 INFO Skip version 10.1.22621.1, because it's not in the list of versions to be modified.
+2025-05-18 14:44:08.111 INFO Processing version folder: 10.1.26100.2454
+2025-05-18 14:44:08.112 INFO   Create and checkout to a new branch: NewVersion-Microsoft.WindowsADK-10.1.26100.2454-1747550648
+2025-05-18 14:44:13.685 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsADK\10.1.26100.2454\Microsoft.WindowsADK.installer.yaml
+2025-05-18 14:44:13.687 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-18 14:44:13.688 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-18 14:44:13.689 INFO     Cleaned up Microsoft.WindowsADK.installer.yaml
+2025-05-18 14:44:13.691 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsADK\10.1.26100.2454\Microsoft.WindowsADK.installer.yaml
+2025-05-18 14:44:13.891 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsADK\10.1.26100.2454\Microsoft.WindowsADK.locale.en-US.yaml
+2025-05-18 14:44:13.895 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-18 14:44:13.897 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-18 14:44:13.898 INFO     Cleaned up Microsoft.WindowsADK.locale.en-US.yaml
+2025-05-18 14:44:13.901 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsADK\10.1.26100.2454\Microsoft.WindowsADK.locale.en-US.yaml
+2025-05-18 14:44:14.268 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsADK\10.1.26100.2454\Microsoft.WindowsADK.locale.zh-CN.yaml
+2025-05-18 14:44:14.288 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-18 14:44:14.298 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-18 14:44:14.309 INFO     Cleaned up Microsoft.WindowsADK.locale.zh-CN.yaml
+2025-05-18 14:44:14.329 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsADK\10.1.26100.2454\Microsoft.WindowsADK.locale.zh-CN.yaml
+2025-05-18 14:44:14.148 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsADK\10.1.26100.2454\Microsoft.WindowsADK.yaml
+2025-05-18 14:44:14.150 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-18 14:44:14.151 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-18 14:44:14.152 INFO     Cleaned up Microsoft.WindowsADK.yaml
+2025-05-18 14:44:14.154 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsADK\10.1.26100.2454\Microsoft.WindowsADK.yaml
+2025-05-18 14:44:14.277 INFO   New manifests in D:\...\winget-pkgs\manifests\m\Microsoft\WindowsADK\10.1.26100.2454 for Microsoft.WindowsADK (10.1.26100.2454)
+2025-05-18 14:48:00.676 INFO     清单验证成功。
+2025-05-18 14:48:00.691 INFO   Staging and Committing Changes to Git
+2025-05-18 14:48:15.771 INFO     Commit message: New version: Microsoft.WindowsADK version 10.1.26100.2454 (Auto)
+2025-05-18 14:48:15.772 INFO   Pushing changes to remote (origin) repository
+2025-05-18 14:48:21.794 INFO     Successfully pushed to remote (origin): NewVersion-Microsoft.WindowsADK-10.1.26100.2454-1747550648
+2025-05-18 14:48:22.705 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/257773
+2025-05-18 14:48:22.709 INFO All manifests have been modified and pushed through.
+2025-05-18 14:48:26.986 INFO Workspace clean-up completed.
+~~ End of logging ~~
