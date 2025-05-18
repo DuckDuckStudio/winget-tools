@@ -1,0 +1,35 @@
+~~ Start logging ~~
+2025-05-18 09:37:40.116 FUN 妈呀
+2025-05-18 09:37:40.118 INFO Found the following version folder: ['0.8.0', '0.9.0']
+2025-05-18 09:37:40.303 INFO Processing version folder: 0.8.0
+2025-05-18 09:37:40.304 INFO   Create and checkout to a new branch: NewVersion-avborup.kitty-0.8.0-1747532260
+2025-05-18 09:37:48.926 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\avborup\kitty\0.8.0\avborup.kitty.installer.yaml
+2025-05-18 09:37:48.927 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-05-18 09:37:48.928 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-05-18 09:37:48.929 INFO     Cleaned up avborup.kitty.installer.yaml
+2025-05-18 09:37:48.931 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\avborup\kitty\0.8.0\avborup.kitty.installer.yaml
+2025-05-18 09:37:49.183 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\avborup\kitty\0.8.0\avborup.kitty.locale.en-US.yaml
+2025-05-18 09:37:49.185 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-05-18 09:37:49.186 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-05-18 09:37:49.186 INFO     Cleaned up avborup.kitty.locale.en-US.yaml
+2025-05-18 09:37:49.189 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\avborup\kitty\0.8.0\avborup.kitty.locale.en-US.yaml
+2025-05-18 09:37:49.327 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\avborup\kitty\0.8.0\avborup.kitty.yaml
+2025-05-18 09:37:49.329 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-05-18 09:37:49.331 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-05-18 09:37:49.332 INFO     Cleaned up avborup.kitty.yaml
+2025-05-18 09:37:49.336 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\avborup\kitty\0.8.0\avborup.kitty.yaml
+2025-05-18 09:37:49.484 INFO   New manifests in D:\...\winget-pkgs\manifests\a\avborup\kitty\0.8.0 for avborup.kitty (0.8.0)
+2025-05-18 09:49:26.491 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-18 09:49:26.492 INFO       - 程序包
+2025-05-18 09:49:26.493 INFO           Microsoft.VCRedist.2015+.x86
+2025-05-18 09:49:26.494 INFO           Microsoft.VCRedist.2015+.x64
+2025-05-18 09:49:26.495 INFO     清单验证成功。
+2025-05-18 09:49:26.504 INFO   Staging and Committing Changes to Git
+2025-05-18 09:49:44.342 INFO     Commit message: New version: avborup.kitty version 0.8.0 (Auto)
+2025-05-18 09:49:44.344 INFO   Pushing changes to remote (origin) repository
+2025-05-18 09:49:49.886 INFO     Successfully pushed to remote (origin): NewVersion-avborup.kitty-0.8.0-1747532260
+2025-05-18 09:49:51.348 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/257735
+2025-05-18 09:49:51.353 INFO Skip version 0.9.0, because it's not in the list of versions to be modified.
+2025-05-18 09:49:51.355 INFO All manifests have been modified and pushed through.
+2025-05-18 09:49:56.980 INFO Workspace clean-up completed.
+~~ End of logging ~~
