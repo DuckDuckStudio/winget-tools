@@ -1,0 +1,36 @@
+~~ Start logging ~~
+2025-05-19 14:43:14.270 FUN 入口函数 🤔，能吃吗？
+2025-05-19 14:43:14.272 INFO Found the following version folder: ['5.1.7', '5.2']
+2025-05-19 14:43:14.383 INFO Skip version 5.1.7, because it's not in the list of versions to be modified.
+2025-05-19 14:43:14.384 INFO Processing version folder: 5.2
+2025-05-19 14:43:14.386 INFO   Create and checkout to a new branch: NewVersion-Brosix.Brosix-5.2-1747636994
+2025-05-19 14:43:20.969 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Brosix\Brosix\5.2\Brosix.Brosix.installer.yaml
+2025-05-19 14:43:20.970 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-19 14:43:20.971 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-19 14:43:20.971 INFO     Cleaned up Brosix.Brosix.installer.yaml
+2025-05-19 14:43:20.973 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Brosix\Brosix\5.2\Brosix.Brosix.installer.yaml
+2025-05-19 14:43:21.163 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Brosix\Brosix\5.2\Brosix.Brosix.locale.en-US.yaml
+2025-05-19 14:43:21.167 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-19 14:43:21.168 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-19 14:43:21.169 INFO     Cleaned up Brosix.Brosix.locale.en-US.yaml
+2025-05-19 14:43:21.172 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Brosix\Brosix\5.2\Brosix.Brosix.locale.en-US.yaml
+2025-05-19 14:43:21.295 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Brosix\Brosix\5.2\Brosix.Brosix.locale.zh-CN.yaml
+2025-05-19 14:43:21.296 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-19 14:43:21.297 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-19 14:43:21.298 INFO     Cleaned up Brosix.Brosix.locale.zh-CN.yaml
+2025-05-19 14:43:21.302 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Brosix\Brosix\5.2\Brosix.Brosix.locale.zh-CN.yaml
+2025-05-19 14:43:21.451 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Brosix\Brosix\5.2\Brosix.Brosix.yaml
+2025-05-19 14:43:21.452 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-19 14:43:21.454 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-19 14:43:21.455 INFO     Cleaned up Brosix.Brosix.yaml
+2025-05-19 14:43:21.457 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Brosix\Brosix\5.2\Brosix.Brosix.yaml
+2025-05-19 14:43:21.664 INFO   New manifests in D:\...\winget-pkgs\manifests\b\Brosix\Brosix\5.2 for Brosix.Brosix (5.2)
+2025-05-19 14:44:30.202 INFO     清单验证成功。
+2025-05-19 14:44:30.212 INFO   Staging and Committing Changes to Git
+2025-05-19 14:44:35.802 INFO     Commit message: New version: Brosix.Brosix version 5.2 (Auto)
+2025-05-19 14:44:35.803 INFO   Pushing changes to remote (origin) repository
+2025-05-19 14:44:45.158 INFO     Successfully pushed to remote (origin): NewVersion-Brosix.Brosix-5.2-1747636994
+2025-05-19 14:44:47.989 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/258057
+2025-05-19 14:44:47.992 INFO All manifests have been modified and pushed through.
+2025-05-19 14:44:54.409 INFO Workspace clean-up completed.
+~~ End of logging ~~
