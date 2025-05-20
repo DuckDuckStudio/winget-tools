@@ -1,0 +1,30 @@
+~~ Start logging ~~
+2025-05-20 16:55:54.138 FUN 唉乌蒙吃。
+2025-05-20 16:55:54.140 INFO Found the following version folder: ['4.0']
+2025-05-20 16:55:54.283 INFO Processing version folder: 4.0
+2025-05-20 16:55:54.284 INFO   Create and checkout to a new branch: NewVersion-Atari800Win.PLus-4.0-1747731354
+2025-05-20 16:56:02.385 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Atari800Win\PLus\4.0\Atari800Win.PLus.installer.yaml
+2025-05-20 16:56:02.420 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-05-20 16:56:02.437 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-05-20 16:56:02.452 INFO     Cleaned up Atari800Win.PLus.installer.yaml
+2025-05-20 16:56:02.493 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Atari800Win\PLus\4.0\Atari800Win.PLus.installer.yaml
+2025-05-20 16:56:02.313 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Atari800Win\PLus\4.0\Atari800Win.PLus.locale.en-US.yaml
+2025-05-20 16:56:02.352 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-05-20 16:56:02.355 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-05-20 16:56:02.356 INFO     Cleaned up Atari800Win.PLus.locale.en-US.yaml
+2025-05-20 16:56:02.359 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Atari800Win\PLus\4.0\Atari800Win.PLus.locale.en-US.yaml
+2025-05-20 16:56:02.493 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Atari800Win\PLus\4.0\Atari800Win.PLus.yaml
+2025-05-20 16:56:02.496 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-05-20 16:56:02.497 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-05-20 16:56:02.498 INFO     Cleaned up Atari800Win.PLus.yaml
+2025-05-20 16:56:02.501 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Atari800Win\PLus\4.0\Atari800Win.PLus.yaml
+2025-05-20 16:56:02.654 INFO   New manifests in D:\...\winget-pkgs\manifests\a\Atari800Win\PLus\4.0 for Atari800Win.PLus (4.0)
+2025-05-20 16:57:26.257 INFO     清单验证成功。
+2025-05-20 16:57:26.269 INFO   Staging and Committing Changes to Git
+2025-05-20 16:57:32.721 INFO     Commit message: New version: Atari800Win.PLus version 4.0 (Auto)
+2025-05-20 16:57:32.723 INFO   Pushing changes to remote (origin) repository
+2025-05-20 16:57:38.342 INFO     Successfully pushed to remote (origin): NewVersion-Atari800Win.PLus-4.0-1747731354
+2025-05-20 16:57:40.199 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/258349
+2025-05-20 16:57:40.202 INFO All manifests have been modified and pushed through.
+2025-05-20 16:57:45.952 INFO Workspace clean-up completed.
+~~ End of logging ~~
