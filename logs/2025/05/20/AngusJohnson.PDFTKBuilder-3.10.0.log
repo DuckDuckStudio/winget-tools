@@ -1,0 +1,30 @@
+~~ Start logging ~~
+2025-05-20 13:13:05.229 FUN Oi！
+2025-05-20 13:13:05.230 INFO Found the following version folder: ['3.10.0']
+2025-05-20 13:13:05.315 INFO Processing version folder: 3.10.0
+2025-05-20 13:13:05.315 INFO   Create and checkout to a new branch: NewVersion-AngusJohnson.PDFTKBuilder-3.10.0-1747717985
+2025-05-20 13:13:11.715 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\AngusJohnson\PDFTKBuilder\3.10.0\AngusJohnson.PDFTKBuilder.installer.yaml
+2025-05-20 13:13:11.717 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-20 13:13:11.719 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-20 13:13:11.719 INFO     Cleaned up AngusJohnson.PDFTKBuilder.installer.yaml
+2025-05-20 13:13:11.720 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\AngusJohnson\PDFTKBuilder\3.10.0\AngusJohnson.PDFTKBuilder.installer.yaml
+2025-05-20 13:13:11.873 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\AngusJohnson\PDFTKBuilder\3.10.0\AngusJohnson.PDFTKBuilder.locale.en-US.yaml
+2025-05-20 13:13:11.876 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-20 13:13:11.877 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-20 13:13:11.877 INFO     Cleaned up AngusJohnson.PDFTKBuilder.locale.en-US.yaml
+2025-05-20 13:13:11.880 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\AngusJohnson\PDFTKBuilder\3.10.0\AngusJohnson.PDFTKBuilder.locale.en-US.yaml
+2025-05-20 13:13:11.979 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\AngusJohnson\PDFTKBuilder\3.10.0\AngusJohnson.PDFTKBuilder.yaml
+2025-05-20 13:13:11.981 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-05-20 13:13:11.982 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-05-20 13:13:11.983 INFO     Cleaned up AngusJohnson.PDFTKBuilder.yaml
+2025-05-20 13:13:11.984 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\AngusJohnson\PDFTKBuilder\3.10.0\AngusJohnson.PDFTKBuilder.yaml
+2025-05-20 13:13:12.929 INFO   New manifests in D:\...\winget-pkgs\manifests\a\AngusJohnson\PDFTKBuilder\3.10.0 for AngusJohnson.PDFTKBuilder (3.10.0)
+2025-05-20 13:29:11.797 INFO     清单验证成功。
+2025-05-20 13:29:11.805 INFO   Staging and Committing Changes to Git
+2025-05-20 13:29:20.349 INFO     Commit message: New version: AngusJohnson.PDFTKBuilder version 3.10.0 (Auto)
+2025-05-20 13:29:20.350 INFO   Pushing changes to remote (origin) repository
+2025-05-20 13:29:25.988 INFO     Successfully pushed to remote (origin): NewVersion-AngusJohnson.PDFTKBuilder-3.10.0-1747717985
+2025-05-20 13:29:26.677 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/258322
+2025-05-20 13:29:26.688 INFO All manifests have been modified and pushed through.
+2025-05-20 13:29:32.509 INFO Workspace clean-up completed.
+~~ End of logging ~~
