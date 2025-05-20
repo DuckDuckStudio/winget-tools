@@ -1,0 +1,30 @@
+~~ Start logging ~~
+2025-05-20 16:50:50.223 FUN :)
+2025-05-20 16:50:50.225 INFO Found the following version folder: ['2.0']
+2025-05-20 16:50:50.425 INFO Processing version folder: 2.0
+2025-05-20 16:50:50.427 INFO   Create and checkout to a new branch: NewVersion-AppWork.JDownloader-2.0-1747731050
+2025-05-20 16:50:57.526 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\AppWork\JDownloader\2.0\AppWork.JDownloader.installer.yaml
+2025-05-20 16:50:57.528 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-05-20 16:50:57.529 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-05-20 16:50:57.530 INFO     Cleaned up AppWork.JDownloader.installer.yaml
+2025-05-20 16:50:57.533 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\AppWork\JDownloader\2.0\AppWork.JDownloader.installer.yaml
+2025-05-20 16:50:57.791 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\AppWork\JDownloader\2.0\AppWork.JDownloader.locale.en-US.yaml
+2025-05-20 16:50:57.824 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-05-20 16:50:57.829 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-05-20 16:50:57.829 INFO     Cleaned up AppWork.JDownloader.locale.en-US.yaml
+2025-05-20 16:50:57.833 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\AppWork\JDownloader\2.0\AppWork.JDownloader.locale.en-US.yaml
+2025-05-20 16:50:57.978 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\AppWork\JDownloader\2.0\AppWork.JDownloader.yaml
+2025-05-20 16:50:57.980 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-05-20 16:50:57.981 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-05-20 16:50:57.982 INFO     Cleaned up AppWork.JDownloader.yaml
+2025-05-20 16:50:57.986 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\AppWork\JDownloader\2.0\AppWork.JDownloader.yaml
+2025-05-20 16:50:58.141 INFO   New manifests in D:\...\winget-pkgs\manifests\a\AppWork\JDownloader\2.0 for AppWork.JDownloader (2.0)
+2025-05-20 16:52:13.645 INFO     清单验证成功。
+2025-05-20 16:52:13.659 INFO   Staging and Committing Changes to Git
+2025-05-20 16:52:25.235 INFO     Commit message: New version: AppWork.JDownloader version 2.0 (Auto)
+2025-05-20 16:52:25.236 INFO   Pushing changes to remote (origin) repository
+2025-05-20 16:52:31.257 INFO     Successfully pushed to remote (origin): NewVersion-AppWork.JDownloader-2.0-1747731050
+2025-05-20 16:52:32.918 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/258347
+2025-05-20 16:52:32.921 INFO All manifests have been modified and pushed through.
+2025-05-20 16:52:38.900 INFO Workspace clean-up completed.
+~~ End of logging ~~
