@@ -1,0 +1,30 @@
+~~ Start logging ~~
+2025-05-21 16:09:27.839 FUN 凡是宣称“无抵押、无资质要求、低利率、放款快”的网贷广告，要求提供验证码或先交会员费、保证金、解冻费或者转账刷流水的，都是诈骗！
+2025-05-21 16:09:27.841 INFO Found the following version folder: ['3.5.1']
+2025-05-21 16:09:27.964 INFO Processing version folder: 3.5.1
+2025-05-21 16:09:27.965 INFO   Create and checkout to a new branch: NewVersion-Airytec.SwitchOff-3.5.1-1747814967
+2025-05-21 16:09:34.961 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Airytec\SwitchOff\3.5.1\Airytec.SwitchOff.installer.yaml
+2025-05-21 16:09:34.963 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-05-21 16:09:34.964 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-05-21 16:09:34.965 INFO     Cleaned up Airytec.SwitchOff.installer.yaml
+2025-05-21 16:09:34.968 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Airytec\SwitchOff\3.5.1\Airytec.SwitchOff.installer.yaml
+2025-05-21 16:09:35.174 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Airytec\SwitchOff\3.5.1\Airytec.SwitchOff.locale.en-US.yaml
+2025-05-21 16:09:35.177 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-05-21 16:09:35.178 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-05-21 16:09:35.179 INFO     Cleaned up Airytec.SwitchOff.locale.en-US.yaml
+2025-05-21 16:09:35.181 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Airytec\SwitchOff\3.5.1\Airytec.SwitchOff.locale.en-US.yaml
+2025-05-21 16:09:35.317 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Airytec\SwitchOff\3.5.1\Airytec.SwitchOff.yaml
+2025-05-21 16:09:35.319 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-05-21 16:09:35.320 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-05-21 16:09:35.321 INFO     Cleaned up Airytec.SwitchOff.yaml
+2025-05-21 16:09:35.323 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Airytec\SwitchOff\3.5.1\Airytec.SwitchOff.yaml
+2025-05-21 16:09:35.452 INFO   New manifests in D:\...\winget-pkgs\manifests\a\Airytec\SwitchOff\3.5.1 for Airytec.SwitchOff (3.5.1)
+2025-05-21 16:10:55.864 INFO     清单验证成功。
+2025-05-21 16:10:55.874 INFO   Staging and Committing Changes to Git
+2025-05-21 16:11:17.473 INFO     Commit message: New version: Airytec.SwitchOff version 3.5.1 (Auto)
+2025-05-21 16:11:17.474 INFO   Pushing changes to remote (origin) repository
+2025-05-21 16:11:21.952 INFO     Successfully pushed to remote (origin): NewVersion-Airytec.SwitchOff-3.5.1-1747814967
+2025-05-21 16:11:23.926 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/258815
+2025-05-21 16:11:23.929 INFO All manifests have been modified and pushed through.
+2025-05-21 16:11:28.819 INFO Workspace clean-up completed.
+~~ End of logging ~~
