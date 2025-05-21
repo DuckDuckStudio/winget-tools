@@ -1,0 +1,30 @@
+~~ Start logging ~~
+2025-05-21 16:16:13.463 FUN 凡是宣称“无抵押、无资质要求、低利率、放款快”的网贷广告，要求提供验证码或先交会员费、保证金、解冻费或者转账刷流水的，都是诈骗！
+2025-05-21 16:16:13.465 INFO Found the following version folder: ['1.0.0']
+2025-05-21 16:16:13.563 INFO Processing version folder: 1.0.0
+2025-05-21 16:16:13.564 INFO   Create and checkout to a new branch: NewVersion-AxisCommunicationsAB.AXISVideoCaptureDriver-1.0.0-1747815373
+2025-05-21 16:16:19.562 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\AxisCommunicationsAB\AXISVideoCaptureDriver\1.0.0\AxisCommunicationsAB.AXISVideoCaptureDriver.installer.yaml
+2025-05-21 16:16:19.565 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-05-21 16:16:19.566 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-05-21 16:16:19.566 INFO     Cleaned up AxisCommunicationsAB.AXISVideoCaptureDriver.installer.yaml
+2025-05-21 16:16:19.569 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\AxisCommunicationsAB\AXISVideoCaptureDriver\1.0.0\AxisCommunicationsAB.AXISVideoCaptureDriver.installer.yaml
+2025-05-21 16:16:19.747 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\AxisCommunicationsAB\AXISVideoCaptureDriver\1.0.0\AxisCommunicationsAB.AXISVideoCaptureDriver.locale.en-US.yaml
+2025-05-21 16:16:19.753 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-05-21 16:16:19.754 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-05-21 16:16:19.754 INFO     Cleaned up AxisCommunicationsAB.AXISVideoCaptureDriver.locale.en-US.yaml
+2025-05-21 16:16:19.757 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\AxisCommunicationsAB\AXISVideoCaptureDriver\1.0.0\AxisCommunicationsAB.AXISVideoCaptureDriver.locale.en-US.yaml
+2025-05-21 16:16:19.884 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\AxisCommunicationsAB\AXISVideoCaptureDriver\1.0.0\AxisCommunicationsAB.AXISVideoCaptureDriver.yaml
+2025-05-21 16:16:19.886 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-05-21 16:16:19.887 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-05-21 16:16:19.888 INFO     Cleaned up AxisCommunicationsAB.AXISVideoCaptureDriver.yaml
+2025-05-21 16:16:19.890 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\AxisCommunicationsAB\AXISVideoCaptureDriver\1.0.0\AxisCommunicationsAB.AXISVideoCaptureDriver.yaml
+2025-05-21 16:16:20.302 INFO   New manifests in D:\...\winget-pkgs\manifests\a\AxisCommunicationsAB\AXISVideoCaptureDriver\1.0.0 for AxisCommunicationsAB.AXISVideoCaptureDriver (1.0.0)
+2025-05-21 16:17:51.530 INFO     清单验证成功。
+2025-05-21 16:17:51.542 INFO   Staging and Committing Changes to Git
+2025-05-21 16:17:57.865 INFO     Commit message: New version: AxisCommunicationsAB.AXISVideoCaptureDriver version 1.0.0 (Auto)
+2025-05-21 16:17:57.866 INFO   Pushing changes to remote (origin) repository
+2025-05-21 16:18:02.959 INFO     Successfully pushed to remote (origin): NewVersion-AxisCommunicationsAB.AXISVideoCaptureDriver-1.0.0-1747815373
+2025-05-21 16:18:04.602 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/258819
+2025-05-21 16:18:04.604 INFO All manifests have been modified and pushed through.
+2025-05-21 16:18:09.947 INFO Workspace clean-up completed.
+~~ End of logging ~~
