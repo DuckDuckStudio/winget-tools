@@ -1,0 +1,40 @@
+~~ Start logging ~~
+2025-05-21 13:07:24.786 FUN 凡是要求垫付资金做任务的兼职刷单，都是诈骗！
+2025-05-21 13:07:24.814 INFO Found the following version folder: ['0.0.12', '0.0.14', '0.0.15', '0.0.16', '0.0.17', '0.0.18', '0.0.19', '0.0.20']
+2025-05-21 13:07:24.209 INFO Skip version 0.0.12, because it's not in the list of versions to be modified.
+2025-05-21 13:07:24.210 INFO Skip version 0.0.14, because it's not in the list of versions to be modified.
+2025-05-21 13:07:24.211 INFO Skip version 0.0.15, because it's not in the list of versions to be modified.
+2025-05-21 13:07:24.222 INFO Processing version folder: 0.0.16
+2025-05-21 13:07:24.224 INFO   Create and checkout to a new branch: NewVersion-EmptyFlow.ArdorQuery-0.0.16-1747804044
+2025-05-21 13:07:34.409 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\e\EmptyFlow\ArdorQuery\0.0.16\EmptyFlow.ArdorQuery.installer.yaml
+2025-05-21 13:07:34.421 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-05-21 13:07:34.422 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-05-21 13:07:34.423 INFO     Cleaned up EmptyFlow.ArdorQuery.installer.yaml
+2025-05-21 13:07:34.426 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\e\EmptyFlow\ArdorQuery\0.0.16\EmptyFlow.ArdorQuery.installer.yaml
+2025-05-21 13:07:34.604 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\e\EmptyFlow\ArdorQuery\0.0.16\EmptyFlow.ArdorQuery.locale.en-US.yaml
+2025-05-21 13:07:34.609 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-05-21 13:07:34.610 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-05-21 13:07:34.611 INFO     Cleaned up EmptyFlow.ArdorQuery.locale.en-US.yaml
+2025-05-21 13:07:34.614 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\e\EmptyFlow\ArdorQuery\0.0.16\EmptyFlow.ArdorQuery.locale.en-US.yaml
+2025-05-21 13:07:34.744 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\e\EmptyFlow\ArdorQuery\0.0.16\EmptyFlow.ArdorQuery.yaml
+2025-05-21 13:07:34.746 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-05-21 13:07:34.748 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-05-21 13:07:34.749 INFO     Cleaned up EmptyFlow.ArdorQuery.yaml
+2025-05-21 13:07:34.752 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\e\EmptyFlow\ArdorQuery\0.0.16\EmptyFlow.ArdorQuery.yaml
+2025-05-21 13:07:34.884 INFO   New manifests in D:\...\winget-pkgs\manifests\e\EmptyFlow\ArdorQuery\0.0.16 for EmptyFlow.ArdorQuery (0.0.16)
+2025-05-21 13:10:25.763 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-05-21 13:10:25.764 INFO       - 程序包
+2025-05-21 13:10:25.766 INFO           Microsoft.VCRedist.2015+.x64
+2025-05-21 13:10:25.767 INFO     清单验证成功。
+2025-05-21 13:10:25.776 INFO   Staging and Committing Changes to Git
+2025-05-21 13:10:34.918 INFO     Commit message: New version: EmptyFlow.ArdorQuery version 0.0.16 (Auto)
+2025-05-21 13:10:34.919 INFO   Pushing changes to remote (origin) repository
+2025-05-21 13:10:43.203 INFO     Successfully pushed to remote (origin): NewVersion-EmptyFlow.ArdorQuery-0.0.16-1747804044
+2025-05-21 13:10:45.153 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/258771
+2025-05-21 13:10:45.157 INFO Skip version 0.0.17, because it's not in the list of versions to be modified.
+2025-05-21 13:10:45.158 INFO Skip version 0.0.18, because it's not in the list of versions to be modified.
+2025-05-21 13:10:45.159 INFO Skip version 0.0.19, because it's not in the list of versions to be modified.
+2025-05-21 13:10:45.162 INFO Skip version 0.0.20, because it's not in the list of versions to be modified.
+2025-05-21 13:10:45.164 INFO All manifests have been modified and pushed through.
+2025-05-21 13:10:51.673 INFO Workspace clean-up completed.
+~~ End of logging ~~
