@@ -1,0 +1,126 @@
+~~ Start logging ~~
+2025-05-21 16:38:33.613 FUN https://www.bilibili.com/video/BV1zP4y1G7RR/
+2025-05-21 16:38:33.625 INFO Found the following version folder: ['6.11', '6.21', '6.22', '6.23', '6.24', '6.25', '6.26', '6.27', '6.28', '6.29', '6.30', '6.31', '6.32', '6.33', '6.34', '6.35', '6.36', '6.37', '6.38', '6.39', '6.40', '6.41', '6.42', '6.43', '6.44', '6.45', '6.46', '6.47', '6.48', '6.49', '6.50', '6.51', '6.52', '6.53', '6.54', '6.55', '6.56', '6.57', '6.58', '6.59', '6.60', '6.61', '6.62', '6.63', '6.64', '6.65', '6.66', '6.67', '6.68', '6.69', '6.70', '6.71', '6.72', '6.73', '6.74', '6.75', '6.76', '6.77', '6.78', '6.79', '6.80', '6.81', '6.82', '6.83', '7.001', '7.01', '7.02', '7.03', '7.05', '7.06', '7.07', '7.08', '7.09', '7.10', '7.11', '7.12', '7.13', '7.14', '7.15', '7.16', '7.17', '7.18', '7.19', '7.20', '7.21', '7.22', '7.23', '7.24', '7.25', '7.26', '7.27', '7.28', '7.29', '7.30', '7.33', '7.34', '7.35', '7.36', '7.37', '7.38', '7.39']
+2025-05-21 16:38:33.722 INFO Skip version 6.11, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.723 INFO Skip version 6.21, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.724 INFO Skip version 6.22, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.725 INFO Skip version 6.23, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.726 INFO Skip version 6.24, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.727 INFO Skip version 6.25, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.728 INFO Skip version 6.26, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.730 INFO Skip version 6.27, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.731 INFO Skip version 6.28, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.732 INFO Skip version 6.29, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.732 INFO Skip version 6.30, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.733 INFO Skip version 6.31, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.734 INFO Skip version 6.32, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.735 INFO Skip version 6.33, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.736 INFO Skip version 6.34, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.736 INFO Skip version 6.35, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.737 INFO Skip version 6.36, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.738 INFO Skip version 6.37, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.739 INFO Skip version 6.38, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.739 INFO Skip version 6.39, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.740 INFO Skip version 6.40, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.741 INFO Skip version 6.41, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.742 INFO Skip version 6.42, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.742 INFO Skip version 6.43, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.743 INFO Skip version 6.44, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.745 INFO Skip version 6.45, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.746 INFO Skip version 6.46, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.747 INFO Skip version 6.47, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.748 INFO Skip version 6.48, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.749 INFO Skip version 6.49, because it's not in the list of versions to be modified.
+2025-05-21 16:38:33.750 INFO Processing version folder: 6.50
+2025-05-21 16:38:33.750 INFO   Create and checkout to a new branch: Modify-S-Cockos.REAPER-6.50-1747816713
+2025-05-21 16:38:57.396 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Cockos\REAPER\6.50\Cockos.REAPER.installer.yaml
+2025-05-21 16:38:57.407 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-05-21 16:38:57.408 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-05-21 16:38:57.410 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Cockos\REAPER\6.50\Cockos.REAPER.installer.yaml
+2025-05-21 16:38:57.591 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Cockos\REAPER\6.50\Cockos.REAPER.locale.en-US.yaml
+2025-05-21 16:38:57.603 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-05-21 16:38:57.604 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-05-21 16:38:57.607 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Cockos\REAPER\6.50\Cockos.REAPER.locale.en-US.yaml
+2025-05-21 16:38:57.747 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Cockos\REAPER\6.50\Cockos.REAPER.yaml
+2025-05-21 16:38:57.749 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-05-21 16:38:57.750 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-05-21 16:38:57.752 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Cockos\REAPER\6.50\Cockos.REAPER.yaml
+2025-05-21 16:39:39.669 INFO     清单验证成功。
+2025-05-21 16:39:40.223 INFO   Staging and Committing Changes to Git
+2025-05-21 16:39:54.624 INFO     Commit message: Modify: Cockos.REAPER version 6.50 (Auto)
+2025-05-21 16:39:54.625 INFO   Pushing changes to remote (origin) repository
+2025-05-21 16:39:59.955 INFO     Successfully pushed to remote (origin): Modify-S-Cockos.REAPER-6.50-1747816713
+2025-05-21 16:40:01.760 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/258827
+2025-05-21 16:40:01.763 INFO Skip version 6.51, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.764 INFO Skip version 6.52, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.765 INFO Skip version 6.53, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.766 INFO Skip version 6.54, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.767 INFO Skip version 6.55, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.768 INFO Skip version 6.56, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.770 INFO Skip version 6.57, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.771 INFO Skip version 6.58, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.772 INFO Skip version 6.59, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.773 INFO Skip version 6.60, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.775 INFO Skip version 6.61, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.775 INFO Skip version 6.62, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.776 INFO Skip version 6.63, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.777 INFO Skip version 6.64, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.778 INFO Skip version 6.65, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.779 INFO Skip version 6.66, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.780 INFO Skip version 6.67, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.781 INFO Skip version 6.68, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.782 INFO Skip version 6.69, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.782 INFO Skip version 6.70, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.783 INFO Skip version 6.71, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.784 INFO Skip version 6.72, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.785 INFO Skip version 6.73, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.786 INFO Skip version 6.74, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.787 INFO Skip version 6.75, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.789 INFO Skip version 6.76, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.790 INFO Skip version 6.77, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.791 INFO Skip version 6.78, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.792 INFO Skip version 6.79, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.792 INFO Skip version 6.80, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.793 INFO Skip version 6.81, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.794 INFO Skip version 6.82, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.795 INFO Skip version 6.83, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.795 INFO Skip version 7.001, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.796 INFO Skip version 7.01, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.797 INFO Skip version 7.02, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.797 INFO Skip version 7.03, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.798 INFO Skip version 7.05, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.799 INFO Skip version 7.06, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.799 INFO Skip version 7.07, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.800 INFO Skip version 7.08, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.801 INFO Skip version 7.09, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.803 INFO Skip version 7.10, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.804 INFO Skip version 7.11, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.805 INFO Skip version 7.12, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.806 INFO Skip version 7.13, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.807 INFO Skip version 7.14, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.808 INFO Skip version 7.15, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.808 INFO Skip version 7.16, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.809 INFO Skip version 7.17, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.810 INFO Skip version 7.18, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.810 INFO Skip version 7.19, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.811 INFO Skip version 7.20, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.812 INFO Skip version 7.21, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.813 INFO Skip version 7.22, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.813 INFO Skip version 7.23, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.814 INFO Skip version 7.24, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.815 INFO Skip version 7.25, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.816 INFO Skip version 7.26, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.817 INFO Skip version 7.27, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.817 INFO Skip version 7.28, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.819 INFO Skip version 7.29, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.821 INFO Skip version 7.30, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.822 INFO Skip version 7.33, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.823 INFO Skip version 7.34, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.824 INFO Skip version 7.35, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.825 INFO Skip version 7.36, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.825 INFO Skip version 7.37, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.826 INFO Skip version 7.38, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.827 INFO Skip version 7.39, because it's not in the list of versions to be modified.
+2025-05-21 16:40:01.827 INFO All manifests have been modified and pushed through.
+2025-05-21 16:40:09.567 INFO Workspace clean-up completed.
+~~ End of logging ~~
