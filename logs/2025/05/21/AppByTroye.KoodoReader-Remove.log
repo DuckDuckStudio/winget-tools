@@ -1,0 +1,523 @@
+PowerShell 7.5.1
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove AppByTroye.KoodoReader 1.9.4
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Koodo Reader [AppByTroye.KoodoReader]
+版本
+-----
+1.9.8
+1.9.7
+1.9.6
+1.9.5
+1.9.4
+1.7.4
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Koodo Reader [AppByTroye.KoodoReader]
+版本: 1.9.4
+发布者: App by Troye
+发布服务器 URL: https://www.koodoreader.com/zh
+发布服务器支持 URL: https://www.koodoreader.com/zh/support
+作者: Troye
+绰号： koodoreader
+描述: Koodo Reader 是一个开源的电子书阅读器,支持多达 15 种主流电子书格式,内置笔记、高亮、翻译功能,助力高效书籍阅读和学习。
+主页: https://www.koodoreader.com/zh
+许可证: AGPL-3.0
+许可证 URL: https://github.com/koodo-reader/koodo-reader/blob/HEAD/LICENSE
+隐私 URL: https://www.koodoreader.com/zh/privacy
+版权所有: © 2024 App by Troye. All rights reserved.
+版权 URL: https://www.koodoreader.com/zh/term
+发行说明:
+  注意
+  - 此版本为开发版,不建议长期使用,如果您希望下载稳定版,请访问 Koodo Reader.
+  新功能
+  - 大幅提升 PDF 文件和 TXT 文件的打开速度
+  - 大幅提升 TXT 文件的导入速度
+  -(移动版)优化仿真翻页动画流畅度
+  -(移动版)新增自动清理缓存功能,当缓存大于 100MB 时,App 会在启动时自动清理
+  -(移动版)优化手机横屏下的 UI
+  -(移动版)新增同步时隐藏进度条的功能,请前往设置-同步选项开启
+  -(移动版)查词和翻译之后菜单会自动隐藏
+  -(移动版)新增删除账号功能,同时登录选项和会员中心合并
+  -(移动版)自定义文字颜色和背景颜色支持手动输入 HEX 数值
+  -(移动版)阅读页面支持直接跳转到阅读选项,请点击顶部的设置按钮
+  -(移动版)新增 123 云盘作为移动版下载镜像,请点击升级弹窗的使用浏览器按钮前往下载
+  修复
+  - 修复 PDF 文件选择文字时容易误选一大段文字的问题
+  - 修复 PDF 文件高亮文字时容易把整页都高亮的问题
+  - 修复漫画类电子书目录排序问题
+  - 修复注释和超链接无法跳转的问题
+  - 修复 PDF 文件翻页时的卡顿问题
+  - 修复 PDF 文件阅读进度记录不准的问题
+  - 修复无法同步大体积图书到 OneDrive 的问题
+  - 修复部分多看电子书的文字被遮挡的问题
+  - 修复部分 EPUB 电子书封面缺失的问题
+  - 修复部分字体设置不生效的问题
+  - 修复 AI 总结功能在某些情况下的报错
+  -(移动版)修复正在朗读时,点击听书按钮会重读本页的问题
+  -(移动版)修复批量导入图书时,导入过程中断的问题
+  -(移动版)修复部分手机上图书列表超出手机范围的问题
+  -(移动版)修复 PDF 文件选择文字之后的菜单位置问题
+  -(移动版)修复 App 使用一段时间之后,会占用大量存储空间的问题(由于三方依赖的日志记录导致)
+  镜像
+  - 自托管镜像
+发行说明 URL: https://github.com/koodo-reader/koodo-reader/releases/tag/v1.9.4
+文档:
+  帮助文档: https://www.koodoreader.com/zh/document
+标记：
+  epub
+  pdf
+  电子书
+  电子书阅读器
+  阅读器
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://dl.koodoreader.com/v1.9.4/Koodo-Reader-1.9.4.exe
+  安装程序 SHA256： 670fcf5a1b187684e4349d77506df93779a5c86fbcf268de6c21c2352a42f854
+  发布日期: 2025-04-20
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\a\AppByTroye\KoodoReader\1.9.4\AppByTroye.KoodoReader.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: AppByTroye.KoodoReader
+PackageVersion: 1.9.4
+InstallerType: nullsoft
+InstallerSwitches:
+  Upgrade: --updated
+FileExtensions:
+- azw
+- azw3
+- cb7
+- cbr
+- cbt
+- cbz
+- epub
+- fb2
+- mobi
+- pdf
+ProductCode: 233610fa-2bda-5a09-a37b-75e0bafa7920
+ReleaseDate: 2025-04-20
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://dl.koodoreader.com/v1.9.4/Koodo-Reader-1.9.4.exe
+  InstallerSha256: 670FCF5A1B187684E4349D77506DF93779A5C86FBCF268DE6C21C2352A42F854
+  InstallerSwitches:
+    Custom: /currentuser
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://dl.koodoreader.com/v1.9.4/Koodo-Reader-1.9.4.exe
+  InstallerSha256: 670FCF5A1B187684E4349D77506DF93779A5C86FBCF268DE6C21C2352A42F854
+  InstallerSwitches:
+    Custom: /allusers
+ManifestType: installer
+ManifestVersion: 1.10.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Koodo Reader [AppByTroye.KoodoReader] 版本 1.9.4
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://dl.koodoreader.com/v1.9.4/Koodo-Reader-1.9.4.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+no pull requests match your search in microsoft/winget-pkgs
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                          BRANCH                                         CREATED AT
+#249817  New version: AppByTroye.KoodoReader versio...  SpecterShell:AppByTroye.KoodoReader-1.9.4-...  about 1 month ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-AppByTroye.KoodoReader-1.9.4-1747816094'
+  已签出新分支 Remove-AppByTroye.KoodoReader-1.9.4-1747816094
+  已移除软件包 AppByTroye.KoodoReader 版本 1.9.4
+[Remove-AppByTroye.KoodoReader-1.9.4-1747816094 b20e3698364] Remove version: AppByTroye.KoodoReader version 1.9.4
+ 4 files changed, 169 deletions(-)
+ delete mode 100644 manifests/a/AppByTroye/KoodoReader/1.9.4/AppByTroye.KoodoReader.installer.yaml
+ delete mode 100644 manifests/a/AppByTroye/KoodoReader/1.9.4/AppByTroye.KoodoReader.locale.en-US.yaml
+ delete mode 100644 manifests/a/AppByTroye/KoodoReader/1.9.4/AppByTroye.KoodoReader.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/AppByTroye/KoodoReader/1.9.4/AppByTroye.KoodoReader.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (48/48), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 728 bytes | 364.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-AppByTroye.KoodoReader-1.9.4-1747816094' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-AppByTroye.KoodoReader-1.9.4-1747816094
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-AppByTroye.KoodoReader-1.9.4-1747816094 -> Remove-AppByTroye.KoodoReader-1.9.4-1747816094
+branch 'Remove-AppByTroye.KoodoReader-1.9.4-1747816094' set up to track 'origin/Remove-AppByTroye.KoodoReader-1.9.4-1747816094'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/258822
+ 成功移除 AppByTroye.KoodoReader 版本 1.9.4
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-AppByTroye.KoodoReader-1.9.4-1747816094 (was b20e3698364).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove AppByTroye.KoodoReader 1.9.5
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Koodo Reader [AppByTroye.KoodoReader]
+版本
+-----
+1.9.8
+1.9.7
+1.9.6
+1.9.5
+1.9.4
+1.7.4
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Koodo Reader [AppByTroye.KoodoReader]
+版本: 1.9.5
+发布者: App by Troye
+发布服务器 URL: https://www.koodoreader.com/zh
+发布服务器支持 URL: https://www.koodoreader.com/zh/support
+作者: Troye
+绰号： koodoreader
+描述: Koodo Reader 是一个开源的电子书阅读器,支持多达 15 种主流电子书格式,内置笔记、高亮、翻译功能,助力高效书籍阅读和学习。
+主页: https://www.koodoreader.com/zh
+许可证: AGPL-3.0
+许可证 URL: https://github.com/koodo-reader/koodo-reader/blob/HEAD/LICENSE
+隐私 URL: https://www.koodoreader.com/zh/privacy
+版权所有: © 2024 App by Troye. All rights reserved.
+版权 URL: https://www.koodoreader.com/zh/term
+发行说明:
+  注意
+  - 此版本为开发版,不建议长期使用,如果您希望下载稳定版,请访问 Koodo Reader.
+  新功能
+  - 现在 iOS 用户可以通过 TestFlight 安装 Koodo Reader
+  - 对 macOS 安装包进行签名,现在您只需在设置-隐私和安全性中,点击仍然打开即可,无需输入终端命令
+  -(移动版)优化仿真翻页动画的手势滑动范围
+  -(移动版)移除了不必要的权限申请
+  -(移动版)适配全面屏手势
+  -(移动版)复制和分享选择的文字之后,菜单会自动隐藏
+  修复
+  - 修复第二次点击同一个搜索结果,搜索结果在文中不高亮的问题
+  - 修复部分图书中图片后面的文字的样式问题
+  - 修复底部进度栏的阅读进度不随翻页更新的问题
+  - 修复悬停 PDF 中高亮时,鼠标的样式问题
+  - 修复首次打开大体积 TXT 文件,耗时较长的问题
+  -(移动版)修复异常退出登录问题
+  -(移动版)修复 PDF 在单页和双页模式下无法通过滑动控制平滑翻页的问题
+  -(移动版)修复书架、我的喜爱,最近阅读,最近添加,我的回收的图书排序问题
+  -(移动版)修复退出阅读之后,图书阅读进度不更新的问题
+  -(移动版)修复下拉菜单偶尔点击无反应的问题
+  -(移动版)修复从阅读选项返回阅读页面之后,页面一片空白的问题
+  -(移动版)修复 iOS 版状态栏背景色问题
+  -(移动版)修复 iOS 版打开部分图书,卡在首页无法操作的问题
+  -(移动版)修复 iOS 版 PDF 文件在单页和双页模式下的排版问题
+  -(移动版)修复 iOS 版 PDF 文件选择文字之后的菜单位置问题
+  -(移动版)修复 iOS 版 PDF 文件选择文字容易误选一大段文字的问题
+  -(移动版)修复 iOS 版开启翻页动画之后的导航问题
+  -(移动版)修复 iOS 版页脚页数异常问题
+  镜像
+  - 自托管镜像
+发行说明 URL: https://github.com/koodo-reader/koodo-reader/releases/tag/v1.9.5
+文档:
+  帮助文档: https://www.koodoreader.com/zh/document
+标记：
+  epub
+  pdf
+  电子书
+  电子书阅读器
+  阅读器
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://dl.koodoreader.com/v1.9.5/Koodo-Reader-1.9.5.exe
+  安装程序 SHA256： b7e189e9be974c22f8d13a3021d4f543431c3bebcbc95a0fb825eb101dd6c6a2
+  发布日期: 2025-04-28
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\a\AppByTroye\KoodoReader\1.9.5\AppByTroye.KoodoReader.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: AppByTroye.KoodoReader
+PackageVersion: 1.9.5
+InstallerType: nullsoft
+InstallerSwitches:
+  Upgrade: --updated
+FileExtensions:
+- azw
+- azw3
+- cb7
+- cbr
+- cbt
+- cbz
+- epub
+- fb2
+- mobi
+- pdf
+ProductCode: 233610fa-2bda-5a09-a37b-75e0bafa7920
+ReleaseDate: 2025-04-28
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://dl.koodoreader.com/v1.9.5/Koodo-Reader-1.9.5.exe
+  InstallerSha256: B7E189E9BE974C22F8D13A3021D4F543431C3BEBCBC95A0FB825EB101DD6C6A2
+  InstallerSwitches:
+    Custom: /currentuser
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://dl.koodoreader.com/v1.9.5/Koodo-Reader-1.9.5.exe
+  InstallerSha256: B7E189E9BE974C22F8D13A3021D4F543431C3BEBCBC95A0FB825EB101DD6C6A2
+  InstallerSwitches:
+    Custom: /allusers
+ManifestType: installer
+ManifestVersion: 1.10.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Koodo Reader [AppByTroye.KoodoReader] 版本 1.9.5
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://dl.koodoreader.com/v1.9.5/Koodo-Reader-1.9.5.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                        BRANCH                                      CREATED AT
+#258822  Remove version: AppByTroye.KoodoReader v...  ...:Remove-AppByTroye.KoodoR...  less than a minute ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                          BRANCH                                         CREATED AT
+#251569  New version: AppByTroye.KoodoReader versio...  SpecterShell:AppByTroye.KoodoReader-1.9.5-...  about 23 days ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-AppByTroye.KoodoReader-1.9.5-1747816183'
+  已签出新分支 Remove-AppByTroye.KoodoReader-1.9.5-1747816183
+  已移除软件包 AppByTroye.KoodoReader 版本 1.9.5
+[Remove-AppByTroye.KoodoReader-1.9.5-1747816183 cc62ba62e6b] Remove version: AppByTroye.KoodoReader version 1.9.5
+ 4 files changed, 164 deletions(-)
+ delete mode 100644 manifests/a/AppByTroye/KoodoReader/1.9.5/AppByTroye.KoodoReader.installer.yaml
+ delete mode 100644 manifests/a/AppByTroye/KoodoReader/1.9.5/AppByTroye.KoodoReader.locale.en-US.yaml
+ delete mode 100644 manifests/a/AppByTroye/KoodoReader/1.9.5/AppByTroye.KoodoReader.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/AppByTroye/KoodoReader/1.9.5/AppByTroye.KoodoReader.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (48/48), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 726 bytes | 121.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-AppByTroye.KoodoReader-1.9.5-1747816183' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-AppByTroye.KoodoReader-1.9.5-1747816183
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-AppByTroye.KoodoReader-1.9.5-1747816183 -> Remove-AppByTroye.KoodoReader-1.9.5-1747816183
+branch 'Remove-AppByTroye.KoodoReader-1.9.5-1747816183' set up to track 'origin/Remove-AppByTroye.KoodoReader-1.9.5-1747816183'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/258823
+ 成功移除 AppByTroye.KoodoReader 版本 1.9.5
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-AppByTroye.KoodoReader-1.9.5-1747816183 (was cc62ba62e6b).
+工作区清理完成
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove AppByTroye.KoodoReader 1.9.6
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Koodo Reader [AppByTroye.KoodoReader]
+版本
+-----
+1.9.8
+1.9.7
+1.9.6
+1.9.5
+1.9.4
+1.7.4
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Koodo Reader [AppByTroye.KoodoReader]
+版本: 1.9.6
+发布者: App by Troye
+发布服务器 URL: https://www.koodoreader.com/zh
+发布服务器支持 URL: https://www.koodoreader.com/zh/support
+作者: Troye
+绰号： koodoreader
+描述: Koodo Reader 是一个开源的电子书阅读器,支持多达 15 种主流电子书格式,内置笔记、高亮、翻译功能,助力高效书籍阅读和学习。
+主页: https://www.koodoreader.com/zh
+许可证: AGPL-3.0
+许可证 URL: https://github.com/koodo-reader/koodo-reader/blob/HEAD/LICENSE
+隐私 URL: https://www.koodoreader.com/zh/privacy
+版权所有: © 2024 App by Troye. All rights reserved.
+版权 URL: https://www.koodoreader.com/zh/term
+发行说明:
+  注意
+  - 此版本为开发版,不建议长期使用,如果您希望下载稳定版,请访问 Koodo Reader.
+  新功能
+  - 新增 AI 问书功能,您可以就当前正在阅读的章节和 AI 对话,让 AI 生成总结,生成大纲等
+  - 新增 AI 助手功能,您可以就阅读和学习方面的话题和 AI 对话,让 AI 推荐图书,解释某个不懂的概念等
+  - 现在支持固定右侧阅读选项面板,图书宽度会自适应变化,不会遮挡图书
+  -(移动版)首次同步之前增加连接测试
+  -(移动版)支持点击图书中的超链接和邮箱进行跳转
+  -(移动版)新增查词后自动发音功能,请前往设置-阅读选项开启
+  -(移动版)优化图书打开速度,减少加载动画的时间
+  修复
+  - 修复无法删除笔记和高亮的问题
+  - 修复黑色阅读背景下高亮文字不清晰的问题
+  -(移动版)修复桌面版开启以引用的方式导入图书后,手机版容易报图书不存在的问题
+  -(移动版)修复部分手机上添加笔记输入框太高的问题
+  -(移动版)修复 PDF 文件在单页和双页模式下上下不居中的问题
+  -(移动版)修复点击图书中的链接之后的报错
+  -(移动版)修复手机始终常亮,不主动锁屏的问题
+  -(移动版)修复文字颜色和背景色设为同一个颜色之后的 UI 问题
+  -(移动版)修复 PDF 文件在单页和双页模式下无法双指缩放页面的问题
+  -(移动版)修复 PDF 文件双指缩放之后,文字模糊的问题
+  -(移动版)修复切换网络环境之后,无法导入和打开图书问题
+  -(移动版)修复当导入字体名称包含特殊字符时,在阅读页面不生效的问题
+  -(移动版)修复内网穿透的 WebDAV 和 infiniCloud 等厂家的 WebDAV 无法使用的问题
+  -(移动版)修复阅读进度始终到不了 100%的问题
+  镜像
+  - 自托管镜像
+发行说明 URL: https://github.com/koodo-reader/koodo-reader/releases/tag/v1.9.6
+文档:
+  帮助文档: https://www.koodoreader.com/zh/document
+标记：
+  epub
+  pdf
+  电子书
+  电子书阅读器
+  阅读器
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://dl.koodoreader.com/v1.9.6/Koodo-Reader-1.9.6.exe
+  安装程序 SHA256： b92dfc9acf3998ecb617240a106c5d452fa5312d5c9620a07ed339aaaae90a7c
+  发布日期: 2025-05-05
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\a\AppByTroye\KoodoReader\1.9.6\AppByTroye.KoodoReader.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: AppByTroye.KoodoReader
+PackageVersion: 1.9.6
+InstallerType: nullsoft
+InstallerSwitches:
+  Upgrade: --updated
+FileExtensions:
+- azw
+- azw3
+- cb7
+- cbr
+- cbt
+- cbz
+- epub
+- fb2
+- mobi
+- pdf
+ProductCode: 233610fa-2bda-5a09-a37b-75e0bafa7920
+ReleaseDate: 2025-05-05
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://dl.koodoreader.com/v1.9.6/Koodo-Reader-1.9.6.exe
+  InstallerSha256: B92DFC9ACF3998ECB617240A106C5D452FA5312D5C9620A07ED339AAAAE90A7C
+  InstallerSwitches:
+    Custom: /currentuser
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://dl.koodoreader.com/v1.9.6/Koodo-Reader-1.9.6.exe
+  InstallerSha256: B92DFC9ACF3998ECB617240A106C5D452FA5312D5C9620A07ED339AAAAE90A7C
+  InstallerSwitches:
+    Custom: /allusers
+ManifestType: installer
+ManifestVersion: 1.10.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Koodo Reader [AppByTroye.KoodoReader] 版本 1.9.6
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://dl.koodoreader.com/v1.9.6/Koodo-Reader-1.9.6.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                        BRANCH                                      CREATED AT
+#258823  Remove version: AppByTroye.KoodoReader v...  ...:Remove-AppByTroye.KoodoR...  less than a minute ago
+#258822  Remove version: AppByTroye.KoodoReader v...  ...:Remove-AppByTroye.KoodoR...  about 2 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                          BRANCH                                         CREATED AT
+#253741  New version: AppByTroye.KoodoReader versio...  SpecterShell:AppByTroye.KoodoReader-1.9.6-...  about 16 days ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-AppByTroye.KoodoReader-1.9.6-1747816288'
+  已签出新分支 Remove-AppByTroye.KoodoReader-1.9.6-1747816288
+  已移除软件包 AppByTroye.KoodoReader 版本 1.9.6
+[Remove-AppByTroye.KoodoReader-1.9.6-1747816288 c0770871859] Remove version: AppByTroye.KoodoReader version 1.9.6
+ 4 files changed, 158 deletions(-)
+ delete mode 100644 manifests/a/AppByTroye/KoodoReader/1.9.6/AppByTroye.KoodoReader.installer.yaml
+ delete mode 100644 manifests/a/AppByTroye/KoodoReader/1.9.6/AppByTroye.KoodoReader.locale.en-US.yaml
+ delete mode 100644 manifests/a/AppByTroye/KoodoReader/1.9.6/AppByTroye.KoodoReader.locale.zh-CN.yaml
+ delete mode 100644 manifests/a/AppByTroye/KoodoReader/1.9.6/AppByTroye.KoodoReader.yaml
+  已提交修改
+Enumerating objects: 56, done.
+Counting objects: 100% (48/48), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 727 bytes | 363.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-AppByTroye.KoodoReader-1.9.6-1747816288' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-AppByTroye.KoodoReader-1.9.6-1747816288
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-AppByTroye.KoodoReader-1.9.6-1747816288 -> Remove-AppByTroye.KoodoReader-1.9.6-1747816288
+branch 'Remove-AppByTroye.KoodoReader-1.9.6-1747816288' set up to track 'origin/Remove-AppByTroye.KoodoReader-1.9.6-1747816288'.
+  已推送修改
+  成功创建拉取请求：https://github.com/microsoft/winget-pkgs/pull/258824
+ 成功移除 AppByTroye.KoodoReader 版本 1.9.6
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-AppByTroye.KoodoReader-1.9.6-1747816288 (was c0770871859).
+工作区清理完成
