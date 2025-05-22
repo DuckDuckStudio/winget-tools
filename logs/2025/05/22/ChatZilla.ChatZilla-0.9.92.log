@@ -1,0 +1,26 @@
+~~ Start logging ~~
+2025-05-22 21:13:17.439 FUN 入口函数 🤔，能吃吗？
+2025-05-22 21:13:17.441 INFO Found the following version folder: ['0.9.92']
+2025-05-22 21:13:17.566 INFO Processing version folder: 0.9.92
+2025-05-22 21:13:17.568 INFO   Create and checkout to a new branch: Modify-S-ChatZilla.ChatZilla-0.9.92-1747919597
+2025-05-22 21:13:26.924 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\ChatZilla\ChatZilla\0.9.92\ChatZilla.ChatZilla.installer.yaml
+2025-05-22 21:13:26.935 INFO     Replace ManifestVersion: 1.1.0 -> 1.10.0
+2025-05-22 21:13:26.937 INFO     Replace schema references: 1.1.0.schema.json -> 1.10.0.schema.json
+2025-05-22 21:13:26.939 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\ChatZilla\ChatZilla\0.9.92\ChatZilla.ChatZilla.installer.yaml
+2025-05-22 21:13:27.173 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\ChatZilla\ChatZilla\0.9.92\ChatZilla.ChatZilla.locale.en-US.yaml
+2025-05-22 21:13:27.177 INFO     Replace ManifestVersion: 1.1.0 -> 1.10.0
+2025-05-22 21:13:27.178 INFO     Replace schema references: 1.1.0.schema.json -> 1.10.0.schema.json
+2025-05-22 21:13:27.182 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\ChatZilla\ChatZilla\0.9.92\ChatZilla.ChatZilla.locale.en-US.yaml
+2025-05-22 21:13:27.341 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\ChatZilla\ChatZilla\0.9.92\ChatZilla.ChatZilla.yaml
+2025-05-22 21:13:27.343 INFO     Replace ManifestVersion: 1.1.0 -> 1.10.0
+2025-05-22 21:13:27.345 INFO     Replace schema references: 1.1.0.schema.json -> 1.10.0.schema.json
+2025-05-22 21:13:27.351 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\ChatZilla\ChatZilla\0.9.92\ChatZilla.ChatZilla.yaml
+2025-05-22 21:14:28.615 INFO     清单验证成功。
+2025-05-22 21:14:29.273 INFO   Staging and Committing Changes to Git
+2025-05-22 21:14:39.167 INFO     Commit message: Modify: ChatZilla.ChatZilla version 0.9.92 (Auto)
+2025-05-22 21:14:39.169 INFO   Pushing changes to remote (origin) repository
+2025-05-22 21:14:46.667 INFO     Successfully pushed to remote (origin): Modify-S-ChatZilla.ChatZilla-0.9.92-1747919597
+2025-05-22 21:14:48.273 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/259148
+2025-05-22 21:14:48.275 INFO All manifests have been modified and pushed through.
+2025-05-22 21:14:56.309 INFO Workspace clean-up completed.
+~~ End of logging ~~
