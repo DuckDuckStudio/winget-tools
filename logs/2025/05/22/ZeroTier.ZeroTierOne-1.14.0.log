@@ -1,0 +1,41 @@
+~~ Start logging ~~
+2025-05-22 21:11:20.438 FUN 你怎么睡得着的！你这个阶段你睡得着觉！
+2025-05-22 21:11:20.447 INFO Found the following version folder: ['1.10.0', '1.10.1', '1.10.2', '1.10.3', '1.10.4', '1.10.5', '1.10.6', '1.12.0', '1.12.1', '1.12.2', '1.14.0', '1.14.2', '1.6.5', '1.8.1', '1.8.2', '1.8.3', '1.8.4', '1.8.7', '1.8.8', '1.8.9']
+2025-05-22 21:11:20.630 INFO Skip version 1.10.0, because it's not in the list of versions to be modified.
+2025-05-22 21:11:20.631 INFO Skip version 1.10.1, because it's not in the list of versions to be modified.
+2025-05-22 21:11:20.633 INFO Skip version 1.10.2, because it's not in the list of versions to be modified.
+2025-05-22 21:11:20.634 INFO Skip version 1.10.3, because it's not in the list of versions to be modified.
+2025-05-22 21:11:20.635 INFO Skip version 1.10.4, because it's not in the list of versions to be modified.
+2025-05-22 21:11:20.636 INFO Skip version 1.10.5, because it's not in the list of versions to be modified.
+2025-05-22 21:11:20.637 INFO Skip version 1.10.6, because it's not in the list of versions to be modified.
+2025-05-22 21:11:20.638 INFO Skip version 1.12.0, because it's not in the list of versions to be modified.
+2025-05-22 21:11:20.638 INFO Skip version 1.12.1, because it's not in the list of versions to be modified.
+2025-05-22 21:11:20.639 INFO Skip version 1.12.2, because it's not in the list of versions to be modified.
+2025-05-22 21:11:20.640 INFO Processing version folder: 1.14.0
+2025-05-22 21:11:20.641 INFO   Create and checkout to a new branch: Modify-S-ZeroTier.ZeroTierOne-1.14.0-1747919480
+2025-05-22 21:11:32.286 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\z\ZeroTier\ZeroTierOne\1.14.0\ZeroTier.ZeroTierOne.installer.yaml
+2025-05-22 21:11:32.290 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\z\ZeroTier\ZeroTierOne\1.14.0\ZeroTier.ZeroTierOne.installer.yaml
+2025-05-22 21:11:32.588 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\z\ZeroTier\ZeroTierOne\1.14.0\ZeroTier.ZeroTierOne.locale.en-US.yaml
+2025-05-22 21:11:32.598 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\z\ZeroTier\ZeroTierOne\1.14.0\ZeroTier.ZeroTierOne.locale.en-US.yaml
+2025-05-22 21:11:32.783 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\z\ZeroTier\ZeroTierOne\1.14.0\ZeroTier.ZeroTierOne.locale.zh-CN.yaml
+2025-05-22 21:11:32.787 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\z\ZeroTier\ZeroTierOne\1.14.0\ZeroTier.ZeroTierOne.locale.zh-CN.yaml
+2025-05-22 21:11:32.991 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\z\ZeroTier\ZeroTierOne\1.14.0\ZeroTier.ZeroTierOne.yaml
+2025-05-22 21:11:32.996 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\z\ZeroTier\ZeroTierOne\1.14.0\ZeroTier.ZeroTierOne.yaml
+2025-05-22 21:11:50.433 INFO     清单验证成功。
+2025-05-22 21:11:50.469 INFO   Staging and Committing Changes to Git
+2025-05-22 21:12:05.299 INFO     Commit message: Modify: ZeroTier.ZeroTierOne version 1.14.0 (Auto)
+2025-05-22 21:12:05.301 INFO   Pushing changes to remote (origin) repository
+2025-05-22 21:12:12.821 INFO     Successfully pushed to remote (origin): Modify-S-ZeroTier.ZeroTierOne-1.14.0-1747919480
+2025-05-22 21:12:14.643 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/259147
+2025-05-22 21:12:14.646 INFO Skip version 1.14.2, because it's not in the list of versions to be modified.
+2025-05-22 21:12:14.648 INFO Skip version 1.6.5, because it's not in the list of versions to be modified.
+2025-05-22 21:12:14.649 INFO Skip version 1.8.1, because it's not in the list of versions to be modified.
+2025-05-22 21:12:14.650 INFO Skip version 1.8.2, because it's not in the list of versions to be modified.
+2025-05-22 21:12:14.651 INFO Skip version 1.8.3, because it's not in the list of versions to be modified.
+2025-05-22 21:12:14.653 INFO Skip version 1.8.4, because it's not in the list of versions to be modified.
+2025-05-22 21:12:14.656 INFO Skip version 1.8.7, because it's not in the list of versions to be modified.
+2025-05-22 21:12:14.657 INFO Skip version 1.8.8, because it's not in the list of versions to be modified.
+2025-05-22 21:12:14.659 INFO Skip version 1.8.9, because it's not in the list of versions to be modified.
+2025-05-22 21:12:14.661 INFO All manifests have been modified and pushed through.
+2025-05-22 21:12:23.332 INFO Workspace clean-up completed.
+~~ End of logging ~~
