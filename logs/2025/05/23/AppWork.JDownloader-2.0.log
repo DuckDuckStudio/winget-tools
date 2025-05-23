@@ -1,0 +1,26 @@
+~~ Start logging ~~
+2025-05-23 12:53:03.227 FUN 人性是什么？能量产吗？效率多少？
+2025-05-23 12:53:03.229 INFO Found the following version folder: ['2.0']
+2025-05-23 12:53:03.333 INFO Processing version folder: 2.0
+2025-05-23 12:53:03.334 INFO   Create and checkout to a new branch: Modify-S-AppWork.JDownloader-2.0-1747975983
+2025-05-23 12:53:19.495 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\AppWork\JDownloader\2.0\AppWork.JDownloader.installer.yaml
+2025-05-23 12:53:19.499 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-05-23 12:53:19.500 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-05-23 12:53:19.501 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\AppWork\JDownloader\2.0\AppWork.JDownloader.installer.yaml
+2025-05-23 12:53:19.676 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\AppWork\JDownloader\2.0\AppWork.JDownloader.locale.en-US.yaml
+2025-05-23 12:53:19.682 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-05-23 12:53:19.683 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-05-23 12:53:19.686 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\AppWork\JDownloader\2.0\AppWork.JDownloader.locale.en-US.yaml
+2025-05-23 12:53:19.798 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\AppWork\JDownloader\2.0\AppWork.JDownloader.yaml
+2025-05-23 12:53:19.800 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-05-23 12:53:19.801 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-05-23 12:53:19.803 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\AppWork\JDownloader\2.0\AppWork.JDownloader.yaml
+2025-05-23 12:54:11.165 INFO     清单验证成功。
+2025-05-23 12:54:11.175 INFO   Staging and Committing Changes to Git
+2025-05-23 12:54:16.801 INFO     Commit message: Modify: AppWork.JDownloader version 2.0 (Auto)
+2025-05-23 12:54:16.812 INFO   Pushing changes to remote (origin) repository
+2025-05-23 12:54:22.289 INFO     Successfully pushed to remote (origin): Modify-S-AppWork.JDownloader-2.0-1747975983
+2025-05-23 12:54:23.707 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/259331
+2025-05-23 12:54:23.719 INFO All manifests have been modified and pushed through.
+2025-05-23 12:54:27.865 INFO Workspace clean-up completed.
+~~ End of logging ~~
