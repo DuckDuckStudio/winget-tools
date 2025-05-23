@@ -245,8 +245,7 @@ namespace checker
                                 Console.Write("-");
 #if DEBUG
                                 Console.WriteLine($"\n[Debug] 访问 {filePath} 中的 {url} 时发生错误: {e.Message} (资源暂时不可用)");
-#else
-                                _ = e; // 非 Debug 模式下忽略 e 的定义以避免 CS0168 警告
+                                // 定义的 e 无论如何都会在判断时使用，故无需丢弃
 #endif
                             }
                             else if (e.Message.Contains("Name or service not known"))
@@ -285,6 +284,14 @@ namespace checker
                                         return false;
                                     }
                                 }
+                            }
+                            else if (e.Message.Contains("The SSL connection could not be established, see inner exception."))
+                            {
+                                Console.Write("-");
+#if DEBUG
+                                Console.WriteLine($"\n[Debug] 无法访问 {filePath} 中的 {url} : {e.Message} - {e.InnerException?.Message ?? "没有内部异常"} (SSL 连接无法建立)");
+                                // 定义的 e 无论如何都会在判断时使用，故无需丢弃
+#endif
                             }
                             else
                             {
