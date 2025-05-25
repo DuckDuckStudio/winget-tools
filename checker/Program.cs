@@ -224,6 +224,7 @@ namespace checker
                                         if ((int)httpsResponse.StatusCode < 400)
                                         {
                                             Console.WriteLine($"\n[Warning] {filePath} 中的 {url} 不安全 (HTTP)，请使用安全 URL {httpsUrl} (HTTPS) 替代。");
+                                            Console.WriteLine($"[Hint] Sundry 命令: sundry modify {Path.GetFileName(filePath).Replace(".installer.yaml", "")} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
                                             if (failureLevel == "warning")
                                             {
                                                 return false;
