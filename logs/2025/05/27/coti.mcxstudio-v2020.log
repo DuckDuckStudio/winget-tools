@@ -1,0 +1,29 @@
+~~ Start logging ~~
+2025-05-27 14:46:58.883 FUN https://www.bilibili.com/video/BV1zP4y1G7RR/
+2025-05-27 14:46:58.886 INFO Found the following version folder: ['v2020', 'v2023', 'v2024.2', 'v2025']
+2025-05-27 14:46:58.888 INFO Processing version folder: v2020
+2025-05-27 14:46:58.889 INFO   Create and checkout to a new branch: Modify-S-coti.mcxstudio-v2020-1748328418
+2025-05-27 14:47:14.579 INFO   Processing of manifest: D:/Duckhome/projects/MSVS/Source/Repos/winget-pkgs\manifests\c\coti\mcxstudio\v2020\coti.mcxstudio.installer.yaml
+2025-05-27 14:47:14.590 INFO     Replace ManifestVersion: 1.1.0 -> 1.10.0
+2025-05-27 14:47:14.591 INFO     Replace schema references: 1.1.0.schema.json -> 1.10.0.schema.json
+2025-05-27 14:47:14.593 INFO     The manifest file has been saved as: D:/Duckhome/projects/MSVS/Source/Repos/winget-pkgs\manifests\c\coti\mcxstudio\v2020\coti.mcxstudio.installer.yaml
+2025-05-27 14:47:14.818 INFO   Processing of manifest: D:/Duckhome/projects/MSVS/Source/Repos/winget-pkgs\manifests\c\coti\mcxstudio\v2020\coti.mcxstudio.locale.en-US.yaml
+2025-05-27 14:47:14.821 INFO     Replace ManifestVersion: 1.1.0 -> 1.10.0
+2025-05-27 14:47:14.822 INFO     Replace schema references: 1.1.0.schema.json -> 1.10.0.schema.json
+2025-05-27 14:47:14.824 INFO     The manifest file has been saved as: D:/Duckhome/projects/MSVS/Source/Repos/winget-pkgs\manifests\c\coti\mcxstudio\v2020\coti.mcxstudio.locale.en-US.yaml
+2025-05-27 14:47:14.950 INFO   Processing of manifest: D:/Duckhome/projects/MSVS/Source/Repos/winget-pkgs\manifests\c\coti\mcxstudio\v2020\coti.mcxstudio.yaml
+2025-05-27 14:47:14.951 INFO     Replace ManifestVersion: 1.1.0 -> 1.10.0
+2025-05-27 14:47:14.952 INFO     Replace schema references: 1.1.0.schema.json -> 1.10.0.schema.json
+2025-05-27 14:47:14.956 INFO     The manifest file has been saved as: D:/Duckhome/projects/MSVS/Source/Repos/winget-pkgs\manifests\c\coti\mcxstudio\v2020\coti.mcxstudio.yaml
+2025-05-27 14:48:41.518 INFO     清单验证成功。
+2025-05-27 14:48:41.528 INFO   Staging and Committing Changes to Git
+2025-05-27 14:48:49.984 INFO     Commit message: Modify: coti.mcxstudio version v2020 (Auto)
+2025-05-27 14:48:49.996 INFO   Pushing changes to remote (origin) repository
+2025-05-27 14:48:54.435 INFO     Successfully pushed to remote (origin): Modify-S-coti.mcxstudio-v2020-1748328418
+2025-05-27 14:48:56.387 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/260103
+2025-05-27 14:48:56.389 INFO Skip version v2023, because it's not in the list of versions to be modified.
+2025-05-27 14:48:56.390 INFO Skip version v2024.2, because it's not in the list of versions to be modified.
+2025-05-27 14:48:56.392 INFO Skip version v2025, because it's not in the list of versions to be modified.
+2025-05-27 14:48:56.393 INFO All manifests have been modified and pushed through.
+2025-05-27 14:49:04.252 INFO Workspace clean-up completed.
+~~ End of logging ~~
