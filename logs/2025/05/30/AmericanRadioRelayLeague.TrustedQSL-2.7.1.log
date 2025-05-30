@@ -1,0 +1,33 @@
+~~ Start logging ~~
+2025-05-30 09:56:20.136 FUN 这...这不对吧？
+2025-05-30 09:56:20.138 INFO Found the following version folder: ['2.6.5', '2.7', '2.7.1', '2.7.2', '2.7.3', '2.7.4', '2.7.5', '2.8']
+2025-05-30 09:56:20.138 INFO Skip version 2.6.5, because it's not in the list of versions to be modified.
+2025-05-30 09:56:20.139 INFO Skip version 2.7, because it's not in the list of versions to be modified.
+2025-05-30 09:56:20.140 INFO Processing version folder: 2.7.1
+2025-05-30 09:56:20.140 INFO   Create and checkout to a new branch: Modify-S-AmericanRadioRelayLeague.TrustedQSL-2.7.1-1748570180
+2025-05-30 09:56:36.865 INFO   Processing of manifest: D:/Duckhome/projects/MSVS/Source/Repos/winget-pkgs\manifests\a\AmericanRadioRelayLeague\TrustedQSL\2.7.1\AmericanRadioRelayLeague.TrustedQSL.installer.yaml
+2025-05-30 09:56:36.867 INFO     Replace ManifestVersion: 1.5.0 -> 1.10.0
+2025-05-30 09:56:36.868 INFO     Replace schema references: 1.5.0.schema.json -> 1.10.0.schema.json
+2025-05-30 09:56:36.870 INFO     The manifest file has been saved as: D:/Duckhome/projects/MSVS/Source/Repos/winget-pkgs\manifests\a\AmericanRadioRelayLeague\TrustedQSL\2.7.1\AmericanRadioRelayLeague.TrustedQSL.installer.yaml
+2025-05-30 09:56:37.484 INFO   Processing of manifest: D:/Duckhome/projects/MSVS/Source/Repos/winget-pkgs\manifests\a\AmericanRadioRelayLeague\TrustedQSL\2.7.1\AmericanRadioRelayLeague.TrustedQSL.locale.en-US.yaml
+2025-05-30 09:56:37.527 INFO     Replace ManifestVersion: 1.5.0 -> 1.10.0
+2025-05-30 09:56:37.534 INFO     Replace schema references: 1.5.0.schema.json -> 1.10.0.schema.json
+2025-05-30 09:56:37.548 INFO     The manifest file has been saved as: D:/Duckhome/projects/MSVS/Source/Repos/winget-pkgs\manifests\a\AmericanRadioRelayLeague\TrustedQSL\2.7.1\AmericanRadioRelayLeague.TrustedQSL.locale.en-US.yaml
+2025-05-30 09:56:37.164 INFO   Processing of manifest: D:/Duckhome/projects/MSVS/Source/Repos/winget-pkgs\manifests\a\AmericanRadioRelayLeague\TrustedQSL\2.7.1\AmericanRadioRelayLeague.TrustedQSL.yaml
+2025-05-30 09:56:37.166 INFO     Replace ManifestVersion: 1.5.0 -> 1.10.0
+2025-05-30 09:56:37.167 INFO     Replace schema references: 1.5.0.schema.json -> 1.10.0.schema.json
+2025-05-30 09:56:37.169 INFO     The manifest file has been saved as: D:/Duckhome/projects/MSVS/Source/Repos/winget-pkgs\manifests\a\AmericanRadioRelayLeague\TrustedQSL\2.7.1\AmericanRadioRelayLeague.TrustedQSL.yaml
+2025-05-30 09:57:18.629 INFO     清单验证成功。
+2025-05-30 09:57:18.644 INFO   Staging and Committing Changes to Git
+2025-05-30 09:57:28.686 INFO     Commit message: Modify: AmericanRadioRelayLeague.TrustedQSL version 2.7.1 (Auto)
+2025-05-30 09:57:28.687 INFO   Pushing changes to remote (origin) repository
+2025-05-30 09:57:32.664 INFO     Successfully pushed to remote (origin): Modify-S-AmericanRadioRelayLeague.TrustedQSL-2.7.1-1748570180
+2025-05-30 09:57:34.341 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/261729
+2025-05-30 09:57:34.342 INFO Skip version 2.7.2, because it's not in the list of versions to be modified.
+2025-05-30 09:57:34.343 INFO Skip version 2.7.3, because it's not in the list of versions to be modified.
+2025-05-30 09:57:34.345 INFO Skip version 2.7.4, because it's not in the list of versions to be modified.
+2025-05-30 09:57:34.346 INFO Skip version 2.7.5, because it's not in the list of versions to be modified.
+2025-05-30 09:57:34.347 INFO Skip version 2.8, because it's not in the list of versions to be modified.
+2025-05-30 09:57:34.348 INFO All manifests have been modified and pushed through.
+2025-05-30 09:57:39.360 INFO Workspace clean-up completed.
+~~ End of logging ~~
