@@ -1,0 +1,35 @@
+~~ Start logging ~~
+2025-06-01 11:59:06.505 FUN 进不去！怎么想都进不去吧！
+2025-06-01 11:59:06.506 INFO Trying to use komac to generate new manifests...
+2025-06-01 11:59:12.282 INFO The manifest was successfully generated.
+2025-06-01 11:59:12.286 INFO Found the following version folder: ['2.19.3', '2.23.0', '2.26.1', '2.27.0', '2.29.0', '2.30.0', '2.31.0']
+2025-06-01 11:59:12.287 INFO Skip version 2.19.3, because it's not in the list of versions to be modified.
+2025-06-01 11:59:12.287 INFO Skip version 2.23.0, because it's not in the list of versions to be modified.
+2025-06-01 11:59:12.288 INFO Skip version 2.26.1, because it's not in the list of versions to be modified.
+2025-06-01 11:59:12.289 INFO Skip version 2.27.0, because it's not in the list of versions to be modified.
+2025-06-01 11:59:12.289 INFO Skip version 2.29.0, because it's not in the list of versions to be modified.
+2025-06-01 11:59:12.290 INFO Skip version 2.30.0, because it's not in the list of versions to be modified.
+2025-06-01 11:59:12.290 INFO Processing version folder: 2.31.0
+2025-06-01 11:59:12.291 INFO   Create and checkout to a new branch: New-Version-AlexanderPro.SmartSystemMenu-2.31.0-1748750352
+2025-06-01 11:59:38.640 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\AlexanderPro\SmartSystemMenu\2.31.0\AlexanderPro.SmartSystemMenu.installer.yaml
+2025-06-01 11:59:38.642 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-01 11:59:38.643 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-01 11:59:38.645 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\AlexanderPro\SmartSystemMenu\2.31.0\AlexanderPro.SmartSystemMenu.installer.yaml
+2025-06-01 11:59:38.826 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\AlexanderPro\SmartSystemMenu\2.31.0\AlexanderPro.SmartSystemMenu.locale.en-US.yaml
+2025-06-01 11:59:38.829 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-01 11:59:38.830 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-01 11:59:38.833 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\AlexanderPro\SmartSystemMenu\2.31.0\AlexanderPro.SmartSystemMenu.locale.en-US.yaml
+2025-06-01 11:59:38.953 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\AlexanderPro\SmartSystemMenu\2.31.0\AlexanderPro.SmartSystemMenu.yaml
+2025-06-01 11:59:38.955 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-01 11:59:38.956 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-01 11:59:38.959 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\AlexanderPro\SmartSystemMenu\2.31.0\AlexanderPro.SmartSystemMenu.yaml
+2025-06-01 11:59:39.916 INFO   New manifests in D:\...\winget-pkgs\manifests\a\AlexanderPro\SmartSystemMenu\2.31.0 for AlexanderPro.SmartSystemMenu (2.31.0)
+2025-06-01 12:06:36.884 INFO     清单验证成功。
+2025-06-01 12:06:36.893 INFO   Staging and Committing Changes to Git
+2025-06-01 12:06:41.272 INFO     Commit message: New version: AlexanderPro.SmartSystemMenu version 2.31.0 (Auto)
+2025-06-01 12:06:41.273 INFO   Pushing changes to remote (origin) repository
+2025-06-01 12:06:45.163 INFO     Successfully pushed to remote (origin): New-Version-AlexanderPro.SmartSystemMenu-2.31.0-1748750352
+2025-06-01 12:06:46.945 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/262180
+2025-06-01 12:06:46.946 INFO All manifests have been modified and pushed through.
+2025-06-01 12:06:51.372 INFO Workspace clean-up completed.
+~~ End of logging ~~
