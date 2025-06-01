@@ -1,6 +1,6 @@
 ~~ Start logging ~~
 2025-06-01 11:59:06.505 FUN 进不去！怎么想都进不去吧！
-2025-06-01 11:59:06.506 INFO Trying to use komac to generate new manifests...
+2025-06-01 11:59:06.506 INFO Trying to generate new manifests...
 2025-06-01 11:59:12.282 INFO The manifest was successfully generated.
 2025-06-01 11:59:12.286 INFO Found the following version folder: ['2.19.3', '2.23.0', '2.26.1', '2.27.0', '2.29.0', '2.30.0', '2.31.0']
 2025-06-01 11:59:12.287 INFO Skip version 2.19.3, because it's not in the list of versions to be modified.
