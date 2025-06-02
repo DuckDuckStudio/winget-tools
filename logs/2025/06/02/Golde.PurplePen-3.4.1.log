@@ -1,0 +1,26 @@
+~~ Start logging ~~
+2025-06-02 14:40:19.355 FUN 人性是什么？能量产吗？效率多少？
+2025-06-02 14:40:19.358 INFO Found the following version folder: ['3.4.1']
+2025-06-02 14:40:19.359 INFO Processing version folder: 3.4.1
+2025-06-02 14:40:19.360 INFO   Create and checkout to a new branch: Modify-S-Golde.PurplePen-3.4.1-1748846419
+2025-06-02 14:40:31.979 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\Golde\PurplePen\3.4.1\Golde.PurplePen.installer.yaml
+2025-06-02 14:40:31.109 INFO     Replace ManifestVersion: 1.2.0 -> 1.10.0
+2025-06-02 14:40:31.110 INFO     Replace schema references: 1.2.0.schema.json -> 1.10.0.schema.json
+2025-06-02 14:40:31.112 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\Golde\PurplePen\3.4.1\Golde.PurplePen.installer.yaml
+2025-06-02 14:40:31.373 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\Golde\PurplePen\3.4.1\Golde.PurplePen.locale.en-US.yaml
+2025-06-02 14:40:31.375 INFO     Replace ManifestVersion: 1.2.0 -> 1.10.0
+2025-06-02 14:40:31.376 INFO     Replace schema references: 1.2.0.schema.json -> 1.10.0.schema.json
+2025-06-02 14:40:31.380 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\Golde\PurplePen\3.4.1\Golde.PurplePen.locale.en-US.yaml
+2025-06-02 14:40:31.532 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\Golde\PurplePen\3.4.1\Golde.PurplePen.yaml
+2025-06-02 14:40:31.534 INFO     Replace ManifestVersion: 1.2.0 -> 1.10.0
+2025-06-02 14:40:31.535 INFO     Replace schema references: 1.2.0.schema.json -> 1.10.0.schema.json
+2025-06-02 14:40:31.537 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\Golde\PurplePen\3.4.1\Golde.PurplePen.yaml
+2025-06-02 14:42:27.927 INFO     清单验证成功。
+2025-06-02 14:42:27.978 INFO   Staging and Committing Changes to Git
+2025-06-02 14:42:35.169 INFO     Commit message: Modify: Golde.PurplePen version 3.4.1 (Auto)
+2025-06-02 14:42:35.170 INFO   Pushing changes to remote (origin) repository
+2025-06-02 14:42:38.720 INFO     Successfully pushed to remote (origin): Modify-S-Golde.PurplePen-3.4.1-1748846419
+2025-06-02 14:42:40.664 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/262320
+2025-06-02 14:42:40.669 INFO All manifests have been modified and pushed through.
+2025-06-02 14:42:47.187 INFO Workspace clean-up completed.
+~~ End of logging ~~
