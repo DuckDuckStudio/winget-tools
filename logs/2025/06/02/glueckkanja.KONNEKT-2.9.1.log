@@ -1,0 +1,29 @@
+~~ Start logging ~~
+2025-06-02 14:45:05.720 FUN TRACK LOST
+2025-06-02 14:45:05.722 INFO Found the following version folder: ['2.10.0', '2.10.2', '2.11.0', '2.9.1']
+2025-06-02 14:45:05.723 INFO Skip version 2.10.0, because it's not in the list of versions to be modified.
+2025-06-02 14:45:05.724 INFO Skip version 2.10.2, because it's not in the list of versions to be modified.
+2025-06-02 14:45:05.725 INFO Skip version 2.11.0, because it's not in the list of versions to be modified.
+2025-06-02 14:45:05.726 INFO Processing version folder: 2.9.1
+2025-06-02 14:45:05.727 INFO   Create and checkout to a new branch: Modify-S-glueckkanja.KONNEKT-2.9.1-1748846705
+2025-06-02 14:45:16.190 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\glueckkanja\KONNEKT\2.9.1\glueckkanja.KONNEKT.installer.yaml
+2025-06-02 14:45:16.191 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-06-02 14:45:16.191 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-06-02 14:45:16.203 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\glueckkanja\KONNEKT\2.9.1\glueckkanja.KONNEKT.installer.yaml
+2025-06-02 14:45:16.380 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\glueckkanja\KONNEKT\2.9.1\glueckkanja.KONNEKT.locale.en-US.yaml
+2025-06-02 14:45:16.383 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-06-02 14:45:16.386 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-06-02 14:45:16.388 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\glueckkanja\KONNEKT\2.9.1\glueckkanja.KONNEKT.locale.en-US.yaml
+2025-06-02 14:45:16.506 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\glueckkanja\KONNEKT\2.9.1\glueckkanja.KONNEKT.yaml
+2025-06-02 14:45:16.508 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-06-02 14:45:16.508 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-06-02 14:45:16.510 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\glueckkanja\KONNEKT\2.9.1\glueckkanja.KONNEKT.yaml
+2025-06-02 14:51:02.978 INFO     清单验证成功。
+2025-06-02 14:51:02.988 INFO   Staging and Committing Changes to Git
+2025-06-02 14:51:08.990 INFO     Commit message: Modify: glueckkanja.KONNEKT version 2.9.1 (Auto)
+2025-06-02 14:51:08.991 INFO   Pushing changes to remote (origin) repository
+2025-06-02 14:51:14.577 INFO     Successfully pushed to remote (origin): Modify-S-glueckkanja.KONNEKT-2.9.1-1748846705
+2025-06-02 14:51:16.474 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/262321
+2025-06-02 14:51:16.476 INFO All manifests have been modified and pushed through.
+2025-06-02 14:51:22.143 INFO Workspace clean-up completed.
+~~ End of logging ~~
