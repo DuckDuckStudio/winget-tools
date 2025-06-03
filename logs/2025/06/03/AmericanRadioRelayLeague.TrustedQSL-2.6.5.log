@@ -1,0 +1,33 @@
+~~ Start logging ~~
+2025-06-03 08:45:52.773 FUN (≧∇≦)
+2025-06-03 08:45:52.775 INFO Found the following version folder: ['2.6.5', '2.7', '2.7.1', '2.7.2', '2.7.3', '2.7.4', '2.7.5', '2.8']
+2025-06-03 08:45:52.776 INFO Processing version folder: 2.6.5
+2025-06-03 08:45:52.777 INFO   Create and checkout to a new branch: Modify-S-AmericanRadioRelayLeague.TrustedQSL-2.6.5-1748911552
+2025-06-03 08:46:06.789 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\AmericanRadioRelayLeague\TrustedQSL\2.6.5\AmericanRadioRelayLeague.TrustedQSL.installer.yaml
+2025-06-03 08:46:06.791 INFO     Replace ManifestVersion: 1.5.0 -> 1.10.0
+2025-06-03 08:46:06.792 INFO     Replace schema references: 1.5.0.schema.json -> 1.10.0.schema.json
+2025-06-03 08:46:06.793 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\AmericanRadioRelayLeague\TrustedQSL\2.6.5\AmericanRadioRelayLeague.TrustedQSL.installer.yaml
+2025-06-03 08:46:07.550 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\AmericanRadioRelayLeague\TrustedQSL\2.6.5\AmericanRadioRelayLeague.TrustedQSL.locale.en-US.yaml
+2025-06-03 08:46:07.609 INFO     Replace ManifestVersion: 1.5.0 -> 1.10.0
+2025-06-03 08:46:07.619 INFO     Replace schema references: 1.5.0.schema.json -> 1.10.0.schema.json
+2025-06-03 08:46:07.644 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\AmericanRadioRelayLeague\TrustedQSL\2.6.5\AmericanRadioRelayLeague.TrustedQSL.locale.en-US.yaml
+2025-06-03 08:46:07.233 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\AmericanRadioRelayLeague\TrustedQSL\2.6.5\AmericanRadioRelayLeague.TrustedQSL.yaml
+2025-06-03 08:46:07.236 INFO     Replace ManifestVersion: 1.5.0 -> 1.10.0
+2025-06-03 08:46:07.238 INFO     Replace schema references: 1.5.0.schema.json -> 1.10.0.schema.json
+2025-06-03 08:46:07.240 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\AmericanRadioRelayLeague\TrustedQSL\2.6.5\AmericanRadioRelayLeague.TrustedQSL.yaml
+2025-06-03 08:47:41.969 INFO     清单验证成功。
+2025-06-03 08:47:42.266 INFO   Staging and Committing Changes to Git
+2025-06-03 08:48:01.401 INFO     Commit message: Modify: AmericanRadioRelayLeague.TrustedQSL version 2.6.5 (Auto)
+2025-06-03 08:48:01.403 INFO   Pushing changes to remote (origin) repository
+2025-06-03 08:48:08.167 INFO     Successfully pushed to remote (origin): Modify-S-AmericanRadioRelayLeague.TrustedQSL-2.6.5-1748911552
+2025-06-03 08:48:10.239 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/262661
+2025-06-03 08:48:10.241 INFO Skip version 2.7, because it's not in the list of versions to be modified.
+2025-06-03 08:48:10.242 INFO Skip version 2.7.1, because it's not in the list of versions to be modified.
+2025-06-03 08:48:10.243 INFO Skip version 2.7.2, because it's not in the list of versions to be modified.
+2025-06-03 08:48:10.245 INFO Skip version 2.7.3, because it's not in the list of versions to be modified.
+2025-06-03 08:48:10.246 INFO Skip version 2.7.4, because it's not in the list of versions to be modified.
+2025-06-03 08:48:10.247 INFO Skip version 2.7.5, because it's not in the list of versions to be modified.
+2025-06-03 08:48:10.248 INFO Skip version 2.8, because it's not in the list of versions to be modified.
+2025-06-03 08:48:10.249 INFO All manifests have been modified and pushed through.
+2025-06-03 08:48:20.779 INFO Workspace clean-up completed.
+~~ End of logging ~~
