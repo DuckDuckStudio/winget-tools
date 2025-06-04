@@ -47,8 +47,8 @@
 2025-06-04 21:55:30.222 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
 2025-06-04 21:55:30.224 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
 2025-06-04 21:55:30.226 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\ppy\osu\2025.424.0\ppy.osu.yaml
-2025-06-04 22:00:00.864 INFO     清单验证成功，但出现警告。
-2025-06-04 22:00:00.865 INFO     Manifest Warning: Silent and SilentWithProgress switches are not specified for InstallerType exe. Please make sure the installer can run unattended.
+2025-06-04 22:00:00.864 WARNING     清单验证成功，但出现警告。
+2025-06-04 22:00:00.865 WARNING     Manifest Warning: Silent and SilentWithProgress switches are not specified for InstallerType exe. Please make sure the installer can run unattended.
 2025-06-04 22:00:00.866 INFO     
 2025-06-04 22:00:18.519 INFO Manifest Error Fixed.
 2025-06-04 22:00:18.536 INFO   Staging and Committing Changes to Git
