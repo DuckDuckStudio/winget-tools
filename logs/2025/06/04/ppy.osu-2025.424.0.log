@@ -1,0 +1,62 @@
+~~ Start logging ~~
+2025-06-04 21:54:38.849 FUN 我喜欢你。
+2025-06-04 21:54:38.860 INFO Found the following version folder: ['2024.1009.1', '2024.1115.1', '2024.1115.2', '2024.1115.3', '2024.1208.0', '2024.1219.2', '2024.1224.1', '2024.412.1', '2024.521.2', '2024.625.0', '2024.625.2', '2024.906.2', '2025.101.0', '2025.118.2', '2025.118.3', '2025.220.0', '2025.221.0', '2025.225.0', '2025.306.0', '2025.310.0', '2025.321.0', '2025.418.0', '2025.418.1', '2025.420.0', '2025.424.0', 'stable']
+2025-06-04 21:54:38.861 INFO Skip version 2024.1009.1, because it's not in the list of versions to be modified.
+2025-06-04 21:54:38.862 INFO Skip version 2024.1115.1, because it's not in the list of versions to be modified.
+2025-06-04 21:54:38.863 INFO Skip version 2024.1115.2, because it's not in the list of versions to be modified.
+2025-06-04 21:54:38.864 INFO Skip version 2024.1115.3, because it's not in the list of versions to be modified.
+2025-06-04 21:54:38.865 INFO Skip version 2024.1208.0, because it's not in the list of versions to be modified.
+2025-06-04 21:54:38.866 INFO Skip version 2024.1219.2, because it's not in the list of versions to be modified.
+2025-06-04 21:54:38.866 INFO Skip version 2024.1224.1, because it's not in the list of versions to be modified.
+2025-06-04 21:54:38.867 INFO Skip version 2024.412.1, because it's not in the list of versions to be modified.
+2025-06-04 21:54:38.868 INFO Skip version 2024.521.2, because it's not in the list of versions to be modified.
+2025-06-04 21:54:38.869 INFO Skip version 2024.625.0, because it's not in the list of versions to be modified.
+2025-06-04 21:54:38.870 INFO Skip version 2024.625.2, because it's not in the list of versions to be modified.
+2025-06-04 21:54:38.871 INFO Skip version 2024.906.2, because it's not in the list of versions to be modified.
+2025-06-04 21:54:38.872 INFO Skip version 2025.101.0, because it's not in the list of versions to be modified.
+2025-06-04 21:54:38.873 INFO Skip version 2025.118.2, because it's not in the list of versions to be modified.
+2025-06-04 21:54:38.873 INFO Skip version 2025.118.3, because it's not in the list of versions to be modified.
+2025-06-04 21:54:38.874 INFO Skip version 2025.220.0, because it's not in the list of versions to be modified.
+2025-06-04 21:54:38.875 INFO Skip version 2025.221.0, because it's not in the list of versions to be modified.
+2025-06-04 21:54:38.876 INFO Skip version 2025.225.0, because it's not in the list of versions to be modified.
+2025-06-04 21:54:38.876 INFO Skip version 2025.306.0, because it's not in the list of versions to be modified.
+2025-06-04 21:54:38.877 INFO Skip version 2025.310.0, because it's not in the list of versions to be modified.
+2025-06-04 21:54:38.878 INFO Skip version 2025.321.0, because it's not in the list of versions to be modified.
+2025-06-04 21:54:38.879 INFO Skip version 2025.418.0, because it's not in the list of versions to be modified.
+2025-06-04 21:54:38.879 INFO Skip version 2025.418.1, because it's not in the list of versions to be modified.
+2025-06-04 21:54:38.880 INFO Skip version 2025.420.0, because it's not in the list of versions to be modified.
+2025-06-04 21:54:38.881 INFO Processing version folder: 2025.424.0
+2025-06-04 21:54:38.881 INFO   Create and checkout to a new branch: Modify-S-ppy.osu-2025.424.0-1749045278
+2025-06-04 21:55:29.569 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\ppy\osu\2025.424.0\ppy.osu.installer.yaml
+2025-06-04 21:55:29.582 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-04 21:55:29.583 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-04 21:55:29.585 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\ppy\osu\2025.424.0\ppy.osu.installer.yaml
+2025-06-04 21:55:29.805 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\ppy\osu\2025.424.0\ppy.osu.locale.en-US.yaml
+2025-06-04 21:55:29.810 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-04 21:55:29.813 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-04 21:55:29.816 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\ppy\osu\2025.424.0\ppy.osu.locale.en-US.yaml
+2025-06-04 21:55:29.939 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\ppy\osu\2025.424.0\ppy.osu.locale.ja-JP.yaml
+2025-06-04 21:55:29.941 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-04 21:55:29.942 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-04 21:55:29.945 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\ppy\osu\2025.424.0\ppy.osu.locale.ja-JP.yaml
+2025-06-04 21:55:30.719 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\ppy\osu\2025.424.0\ppy.osu.locale.zh-CN.yaml
+2025-06-04 21:55:30.742 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-04 21:55:30.754 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-04 21:55:30.778 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\ppy\osu\2025.424.0\ppy.osu.locale.zh-CN.yaml
+2025-06-04 21:55:30.221 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\ppy\osu\2025.424.0\ppy.osu.yaml
+2025-06-04 21:55:30.222 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-04 21:55:30.224 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-04 21:55:30.226 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\ppy\osu\2025.424.0\ppy.osu.yaml
+2025-06-04 22:00:00.864 INFO     清单验证成功，但出现警告。
+2025-06-04 22:00:00.865 INFO     Manifest Warning: Silent and SilentWithProgress switches are not specified for InstallerType exe. Please make sure the installer can run unattended.
+2025-06-04 22:00:00.866 INFO     
+2025-06-04 22:00:18.519 INFO Manifest Error Fixed.
+2025-06-04 22:00:18.536 INFO   Staging and Committing Changes to Git
+2025-06-04 22:00:44.231 INFO     Commit message: Modify: ppy.osu version 2025.424.0 (Auto)
+2025-06-04 22:00:44.232 INFO   Pushing changes to remote (origin) repository
+2025-06-04 22:00:52.321 INFO     Successfully pushed to remote (origin): Modify-S-ppy.osu-2025.424.0-1749045278
+2025-06-04 22:00:54.258 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/263004
+2025-06-04 22:00:54.261 INFO Skip version stable, because it's not in the list of versions to be modified.
+2025-06-04 22:00:54.262 INFO All manifests have been modified and pushed through.
+2025-06-04 22:00:59.246 INFO Workspace clean-up completed.
+~~ End of logging ~~
