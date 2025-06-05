@@ -1,0 +1,99 @@
+~~ Start logging ~~
+2025-06-05 17:34:29.336 FUN https://www.bilibili.com/video/BV1Jm411U7rm/
+2025-06-05 17:34:29.346 INFO Found the following version folder: ['1.0.0-a.28', '1.0.0-a.29', '1.0.0-a.30', '1.0.0-a.31', '1.0.0-a.32', '1.0.0-a.33', '1.0.0-a.34', '1.0.0-a.35', '1.0.0-a.37', '1.0.0-a.39', '1.0.1-a', '1.0.1-a.1', '1.0.1-a.10', '1.0.1-a.11', '1.0.1-a.12', '1.0.1-a.13', '1.0.1-a.14', '1.0.1-a.15', '1.0.1-a.16', '1.0.1-a.17', '1.0.1-a.18', '1.0.1-a.19', '1.0.1-a.2', '1.0.1-a.20', '1.0.1-a.21', '1.0.1-a.22', '1.0.1-a.3', '1.0.1-a.4', '1.0.1-a.5', '1.0.1-a.6', '1.0.1-a.7', '1.0.1-a.8', '1.0.1-a.9', '1.0.2-b.0', '1.0.2-b.1', '1.0.2-b.2', '1.0.2-b.3', '1.0.2-b.4', '1.0.2-b.5', '1.10.1b', '1.10.2b', '1.10.3b', '1.10b', '1.11.1b', '1.11.2b', '1.11.3b', '1.11.4b', '1.11.5b', '1.11b', '1.12.10b', '1.12.1b', '1.12.2b', '1.12.3b', '1.12.4b', '1.12.5b', '1.12.6b', '1.12.7b', '1.12.8b', '1.12.9b', '1.12b', '1.6b', '1.7.1b', '1.7.2b', '1.7.3b', '1.7.4b', '1.7.5b', '1.7.6b', '1.7b', '1.8.1b', '1.8.2b', '1.8b', '1.9.1b', '1.9b', 'Twilight']
+2025-06-05 17:34:29.347 INFO Skip version 1.0.0-a.28, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.348 INFO Skip version 1.0.0-a.29, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.349 INFO Skip version 1.0.0-a.30, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.350 INFO Skip version 1.0.0-a.31, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.350 INFO Skip version 1.0.0-a.32, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.351 INFO Skip version 1.0.0-a.33, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.351 INFO Skip version 1.0.0-a.34, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.352 INFO Skip version 1.0.0-a.35, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.352 INFO Skip version 1.0.0-a.37, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.353 INFO Skip version 1.0.0-a.39, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.353 INFO Skip version 1.0.1-a, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.354 INFO Skip version 1.0.1-a.1, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.354 INFO Skip version 1.0.1-a.10, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.355 INFO Skip version 1.0.1-a.11, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.355 INFO Skip version 1.0.1-a.12, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.356 INFO Skip version 1.0.1-a.13, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.356 INFO Skip version 1.0.1-a.14, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.357 INFO Skip version 1.0.1-a.15, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.358 INFO Skip version 1.0.1-a.16, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.359 INFO Skip version 1.0.1-a.17, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.360 INFO Skip version 1.0.1-a.18, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.361 INFO Skip version 1.0.1-a.19, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.362 INFO Skip version 1.0.1-a.2, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.363 INFO Skip version 1.0.1-a.20, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.364 INFO Skip version 1.0.1-a.21, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.365 INFO Skip version 1.0.1-a.22, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.365 INFO Skip version 1.0.1-a.3, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.366 INFO Skip version 1.0.1-a.4, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.367 INFO Skip version 1.0.1-a.5, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.368 INFO Skip version 1.0.1-a.6, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.368 INFO Skip version 1.0.1-a.7, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.369 INFO Skip version 1.0.1-a.8, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.369 INFO Skip version 1.0.1-a.9, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.370 INFO Skip version 1.0.2-b.0, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.370 INFO Skip version 1.0.2-b.1, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.371 INFO Skip version 1.0.2-b.2, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.371 INFO Skip version 1.0.2-b.3, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.372 INFO Skip version 1.0.2-b.4, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.372 INFO Skip version 1.0.2-b.5, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.373 INFO Skip version 1.10.1b, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.373 INFO Skip version 1.10.2b, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.374 INFO Skip version 1.10.3b, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.375 INFO Skip version 1.10b, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.375 INFO Skip version 1.11.1b, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.375 INFO Skip version 1.11.2b, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.376 INFO Skip version 1.11.3b, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.377 INFO Skip version 1.11.4b, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.377 INFO Skip version 1.11.5b, because it's not in the list of versions to be modified.
+2025-06-05 17:34:29.378 INFO Processing version folder: 1.11b
+2025-06-05 17:34:29.379 INFO   Create and checkout to a new branch: Modify-S-Zen-Team.Zen-Browser-1.11b-1749116069
+2025-06-05 17:34:38.303 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\z\Zen-Team\Zen-Browser\1.11b\Zen-Team.Zen-Browser.installer.yaml
+2025-06-05 17:34:38.321 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-05 17:34:38.328 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-05 17:34:38.337 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\z\Zen-Team\Zen-Browser\1.11b\Zen-Team.Zen-Browser.installer.yaml
+2025-06-05 17:34:38.197 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\z\Zen-Team\Zen-Browser\1.11b\Zen-Team.Zen-Browser.locale.en-US.yaml
+2025-06-05 17:34:38.201 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-05 17:34:38.202 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-05 17:34:38.203 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\z\Zen-Team\Zen-Browser\1.11b\Zen-Team.Zen-Browser.locale.en-US.yaml
+2025-06-05 17:34:38.305 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\z\Zen-Team\Zen-Browser\1.11b\Zen-Team.Zen-Browser.yaml
+2025-06-05 17:34:38.307 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-05 17:34:38.307 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-05 17:34:38.309 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\z\Zen-Team\Zen-Browser\1.11b\Zen-Team.Zen-Browser.yaml
+2025-06-05 17:37:55.847 INFO     清单验证成功。
+2025-06-05 17:37:55.855 INFO   Staging and Committing Changes to Git
+2025-06-05 17:38:13.271 INFO     Commit message: Modify: Zen-Team.Zen-Browser version 1.11b (Auto)
+2025-06-05 17:38:13.272 INFO   Pushing changes to remote (origin) repository
+2025-06-05 17:38:16.877 INFO     Successfully pushed to remote (origin): Modify-S-Zen-Team.Zen-Browser-1.11b-1749116069
+2025-06-05 17:38:19.286 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/263312
+2025-06-05 17:38:19.298 INFO Skip version 1.12.10b, because it's not in the list of versions to be modified.
+2025-06-05 17:38:19.299 INFO Skip version 1.12.1b, because it's not in the list of versions to be modified.
+2025-06-05 17:38:19.300 INFO Skip version 1.12.2b, because it's not in the list of versions to be modified.
+2025-06-05 17:38:19.300 INFO Skip version 1.12.3b, because it's not in the list of versions to be modified.
+2025-06-05 17:38:19.301 INFO Skip version 1.12.4b, because it's not in the list of versions to be modified.
+2025-06-05 17:38:19.302 INFO Skip version 1.12.5b, because it's not in the list of versions to be modified.
+2025-06-05 17:38:19.303 INFO Skip version 1.12.6b, because it's not in the list of versions to be modified.
+2025-06-05 17:38:19.304 INFO Skip version 1.12.7b, because it's not in the list of versions to be modified.
+2025-06-05 17:38:19.305 INFO Skip version 1.12.8b, because it's not in the list of versions to be modified.
+2025-06-05 17:38:19.306 INFO Skip version 1.12.9b, because it's not in the list of versions to be modified.
+2025-06-05 17:38:19.307 INFO Skip version 1.12b, because it's not in the list of versions to be modified.
+2025-06-05 17:38:19.308 INFO Skip version 1.6b, because it's not in the list of versions to be modified.
+2025-06-05 17:38:19.309 INFO Skip version 1.7.1b, because it's not in the list of versions to be modified.
+2025-06-05 17:38:19.310 INFO Skip version 1.7.2b, because it's not in the list of versions to be modified.
+2025-06-05 17:38:19.311 INFO Skip version 1.7.3b, because it's not in the list of versions to be modified.
+2025-06-05 17:38:19.312 INFO Skip version 1.7.4b, because it's not in the list of versions to be modified.
+2025-06-05 17:38:19.313 INFO Skip version 1.7.5b, because it's not in the list of versions to be modified.
+2025-06-05 17:38:19.314 INFO Skip version 1.7.6b, because it's not in the list of versions to be modified.
+2025-06-05 17:38:19.315 INFO Skip version 1.7b, because it's not in the list of versions to be modified.
+2025-06-05 17:38:19.315 INFO Skip version 1.8.1b, because it's not in the list of versions to be modified.
+2025-06-05 17:38:19.316 INFO Skip version 1.8.2b, because it's not in the list of versions to be modified.
+2025-06-05 17:38:19.317 INFO Skip version 1.8b, because it's not in the list of versions to be modified.
+2025-06-05 17:38:19.318 INFO Skip version 1.9.1b, because it's not in the list of versions to be modified.
+2025-06-05 17:38:19.320 INFO Skip version 1.9b, because it's not in the list of versions to be modified.
+2025-06-05 17:38:19.321 INFO Skip version Twilight, because it's not in the list of versions to be modified.
+2025-06-05 17:38:19.322 INFO All manifests have been modified and pushed through.
+2025-06-05 17:38:23.877 INFO Workspace clean-up completed.
+~~ End of logging ~~
