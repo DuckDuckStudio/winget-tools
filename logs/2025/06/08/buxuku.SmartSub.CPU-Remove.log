@@ -1,0 +1,477 @@
+PowerShell 7.5.1
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> & D:\...\winget-tools\logs\2025\06\08\移除脚本\buxuku.SmartSub.CPU.ps1
+访问 https://github.com/DuckDuckStudio/winget-tools/actions/runs/15515920424/job/43682778877#step:5:72 查看检查日志。
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Video Subtitle Master [buxuku.SmartSub.CPU]
+版本
+-----
+2.4.0
+2.3.7
+2.3.5
+2.3.4
+2.3.3
+2.2.0
+2.1.0
+2.0.3
+2.0.2
+2.0.1
+1.8.0
+1.6.0
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Video Subtitle Master [buxuku.SmartSub.CPU]
+版本: 2.3.5
+发布者: buxuku
+发布服务器 URL: https://blog.linxiaodong.com/
+发布服务器支持 URL: https://github.com/buxuku/SmartSub/issues
+作者: 林晓东
+描述:
+  批量为视频生成字幕,并可将字幕翻译成其它语言。这是在之前的一个开源项目 VideoSubtitleGenerator 的基础上,制作成的一个客户端工具,以方便更多朋友们的使用。
+  它保留了之前 VideoSubtitleGenerator 这个命令行工具的全部特性,并新增了以下功能:
+  - 图形用户界面,操作更加便捷
+  - 源语言字幕文件和目标语言字幕文件放在视频同目录下,方便播放时任意挂载字幕文件
+  - 批量处理视频/音频/字幕文件
+  - 支持视频/音频生成字幕
+  - 支持对生成的字幕,或者导入的字幕进行翻译
+  - 支持多种翻译服务:
+    - 火山引擎翻译
+    - 百度翻译
+    - DeepLX 翻译(批量翻译容易存在被限流的情况)
+    - 本地模型 Ollama 翻译
+    - 支持 OpenAI 风格 API 翻译,如 deepseek, azure 等
+  - 自定义字幕文件名,方便兼容不同的播放器挂载字幕识别
+  - 自定义翻译后的字幕文件内容,支持纯翻译结果或原字幕+翻译结果
+  - 项目集成 whisper.cpp,对 Apple Silicon 进行了优化,有较快的生成速度
+  - 项目集成了 fluent-ffmpeg,无须单独安装 ffmpeg
+  - 支持运行本地安装的 whisper 命令
+  - 支持选择模型下载源(国内镜像源或官方源)
+  - 支持自定义并发任务数量
+主页: https://github.com/buxuku/SmartSub
+许可证: MIT
+许可证 URL: https://github.com/buxuku/SmartSub/blob/HEAD/LICENSE
+版权所有: Copyright (c) 2024 Lin Xiaodong
+发行说明 URL: https://github.com/buxuku/SmartSub/releases/tag/v2.3.5
+标记：
+  字幕
+  视频
+  翻译
+  音频
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://github.com/buxuku/SmartSub/releases/download/v2.3.5/SmartSub_Windows_2.3.4_x64_no-cuda_generic.exe
+  安装程序 SHA256： 2e9035b157586750c5058ac55399957546c48b04ea3d24610ec9d3beb5512e72
+  发布日期: 2025-05-15
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\buxuku\SmartSub\CPU\2.3.5\buxuku.SmartSub.CPU.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: buxuku.SmartSub.CPU
+PackageVersion: 2.3.5
+InstallerType: nullsoft
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ProductCode: 31347239-13ac-5ed1-97a4-da01e9165cf8
+ReleaseDate: 2025-05-15
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://github.com/buxuku/SmartSub/releases/download/v2.3.5/SmartSub_Windows_2.3.4_x64_no-cuda_generic.exe
+  InstallerSha256: 2E9035B157586750C5058AC55399957546C48B04EA3D24610EC9D3BEB5512E72
+  InstallerSwitches:
+    Custom: /currentuser
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://github.com/buxuku/SmartSub/releases/download/v2.3.5/SmartSub_Windows_2.3.4_x64_no-cuda_generic.exe
+  InstallerSha256: 2E9035B157586750C5058AC55399957546C48B04EA3D24610EC9D3BEB5512E72
+  InstallerSwitches:
+    Custom: /allusers
+ManifestType: installer
+ManifestVersion: 1.10.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Video Subtitle Master [buxuku.SmartSub.CPU] 版本 2.3.5
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://github.com/buxuku/SmartSub/releases/download/v2.3.5/SmartSub_Windows_2.3.4_x64_no-cuda_generic.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+no pull requests match your search in microsoft/winget-pkgs
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                          BRANCH                                         CREATED AT
+#256994  New version: buxuku.SmartSub.CPU version 2...  SpecterShell:buxuku.SmartSub.CPU-2.3.5-116...  about 23 days ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+remote: Enumerating objects: 129, done.
+remote: Counting objects: 100% (66/66), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 129 (delta 61), reused 61 (delta 59), pack-reused 63 (from 1)
+Receiving objects: 100% (129/129), 33.91 KiB | 63.00 KiB/s, done.
+Resolving deltas: 100% (68/68), completed with 35 local objects.
+From https://github.com/microsoft/winget-pkgs
+   3411259a5b0..efd7f4ef74d  master     -> upstream/master
+From https://github.com/DuckDuckStudio/winget-pkgs
+   c591bd5b550..5d22873f21d  master     -> origin/master
+Successfully rebased and updated refs/heads/master.
+  已拉取上游修改
+Switched to a new branch 'Remove-buxuku.SmartSub.CPU-2.3.5-1749369535'
+  已签出新分支 Remove-buxuku.SmartSub.CPU-2.3.5-1749369535
+  已移除软件包 buxuku.SmartSub.CPU 版本 2.3.5
+[Remove-buxuku.SmartSub.CPU-2.3.5-1749369535 822a149ba16] Remove version: buxuku.SmartSub.CPU version 2.3.5 (Auto)
+ 4 files changed, 126 deletions(-)
+ delete mode 100644 manifests/b/buxuku/SmartSub/CPU/2.3.5/buxuku.SmartSub.CPU.installer.yaml
+ delete mode 100644 manifests/b/buxuku/SmartSub/CPU/2.3.5/buxuku.SmartSub.CPU.locale.en-US.yaml
+ delete mode 100644 manifests/b/buxuku/SmartSub/CPU/2.3.5/buxuku.SmartSub.CPU.locale.zh-CN.yaml
+ delete mode 100644 manifests/b/buxuku/SmartSub/CPU/2.3.5/buxuku.SmartSub.CPU.yaml
+  已提交修改
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 796 bytes | 398.00 KiB/s, done.
+Total 7 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-buxuku.SmartSub.CPU-2.3.5-1749369535' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-buxuku.SmartSub.CPU-2.3.5-1749369535
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-buxuku.SmartSub.CPU-2.3.5-1749369535 -> Remove-buxuku.SmartSub.CPU-2.3.5-1749369535
+branch 'Remove-buxuku.SmartSub.CPU-2.3.5-1749369535' set up to track 'origin/Remove-buxuku.SmartSub.CPU-2.3.5-1749369535'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/263893
+ 成功移除 buxuku.SmartSub.CPU 版本 2.3.5
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 9 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-buxuku.SmartSub.CPU-2.3.5-1749369535 (was 822a149ba16).
+工作区清理完成
+
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Video Subtitle Master [buxuku.SmartSub.CPU]
+版本
+-----
+2.4.0
+2.3.7
+2.3.5
+2.3.4
+2.3.3
+2.2.0
+2.1.0
+2.0.3
+2.0.2
+2.0.1
+1.8.0
+1.6.0
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Video Subtitle Master [buxuku.SmartSub.CPU]
+版本: 2.3.3
+发布者: buxuku
+发布服务器 URL: https://blog.linxiaodong.com/
+发布服务器支持 URL: https://github.com/buxuku/SmartSub/issues
+作者: 林晓东
+描述:
+  批量为视频生成字幕,并可将字幕翻译成其它语言。这是在之前的一个开源项目 VideoSubtitleGenerator 的基础上,制作成的一个客户端工具,以方便更多朋友们的使用。
+  它保留了之前 VideoSubtitleGenerator 这个命令行工具的全部特性,并新增了以下功能:
+  - 图形用户界面,操作更加便捷
+  - 源语言字幕文件和目标语言字幕文件放在视频同目录下,方便播放时任意挂载字幕文件
+  - 批量处理视频/音频/字幕文件
+  - 支持视频/音频生成字幕
+  - 支持对生成的字幕,或者导入的字幕进行翻译
+  - 支持多种翻译服务:
+    - 火山引擎翻译
+    - 百度翻译
+    - DeepLX 翻译(批量翻译容易存在被限流的情况)
+    - 本地模型 Ollama 翻译
+    - 支持 OpenAI 风格 API 翻译,如 deepseek, azure 等
+  - 自定义字幕文件名,方便兼容不同的播放器挂载字幕识别
+  - 自定义翻译后的字幕文件内容,支持纯翻译结果或原字幕+翻译结果
+  - 项目集成 whisper.cpp,对 Apple Silicon 进行了优化,有较快的生成速度
+  - 项目集成了 fluent-ffmpeg,无须单独安装 ffmpeg
+  - 支持运行本地安装的 whisper 命令
+  - 支持选择模型下载源(国内镜像源或官方源)
+  - 支持自定义并发任务数量
+主页: https://github.com/buxuku/SmartSub
+许可证: MIT
+许可证 URL: https://github.com/buxuku/SmartSub/blob/HEAD/LICENSE
+版权所有: Copyright (c) 2024 Lin Xiaodong
+发行说明 URL: https://github.com/buxuku/SmartSub/releases/tag/v2.3.3
+标记：
+  字幕
+  视频
+  翻译
+  音频
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://github.com/buxuku/SmartSub/releases/download/v2.3.3/Smart.Sub_Windows_2.3.0_x64_no-cuda_generic.exe
+  安装程序 SHA256： 008a8cadf4e3674df00913d5d923884410495c8f505bc50fe7268eaab7373b90
+  发布日期: 2025-05-15
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\buxuku\SmartSub\CPU\2.3.3\buxuku.SmartSub.CPU.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: buxuku.SmartSub.CPU
+PackageVersion: 2.3.3
+InstallerType: nullsoft
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ProductCode: 31347239-13ac-5ed1-97a4-da01e9165cf8
+ReleaseDate: 2025-05-15
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://github.com/buxuku/SmartSub/releases/download/v2.3.3/Smart.Sub_Windows_2.3.0_x64_no-cuda_generic.exe
+  InstallerSha256: 008A8CADF4E3674DF00913D5D923884410495C8F505BC50FE7268EAAB7373B90
+  InstallerSwitches:
+    Custom: /currentuser
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://github.com/buxuku/SmartSub/releases/download/v2.3.3/Smart.Sub_Windows_2.3.0_x64_no-cuda_generic.exe
+  InstallerSha256: 008A8CADF4E3674DF00913D5D923884410495C8F505BC50FE7268EAAB7373B90
+  InstallerSwitches:
+    Custom: /allusers
+ManifestType: installer
+ManifestVersion: 1.10.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Video Subtitle Master [buxuku.SmartSub.CPU] 版本 2.3.3
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://github.com/buxuku/SmartSub/releases/download/v2.3.3/Smart.Sub_Windows_2.3.0_x64_no-cuda_generic.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                        BRANCH                                      CREATED AT
+#263893  Remove version: buxuku.SmartSub.CPU vers...  DuckDuckStudio:Remove-buxuku.SmartSub.C...  less than a minute ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                          BRANCH                                         CREATED AT
+#256872  New version: buxuku.SmartSub.CPU version 2...  SpecterShell:buxuku.SmartSub.CPU-2.3.3-134...  about 23 days ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 9 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-buxuku.SmartSub.CPU-2.3.3-1749369579'
+  已签出新分支 Remove-buxuku.SmartSub.CPU-2.3.3-1749369579
+  已移除软件包 buxuku.SmartSub.CPU 版本 2.3.3
+[Remove-buxuku.SmartSub.CPU-2.3.3-1749369579 fe184b6be8c] Remove version: buxuku.SmartSub.CPU version 2.3.3 (Auto)
+ 4 files changed, 126 deletions(-)
+ delete mode 100644 manifests/b/buxuku/SmartSub/CPU/2.3.3/buxuku.SmartSub.CPU.installer.yaml
+ delete mode 100644 manifests/b/buxuku/SmartSub/CPU/2.3.3/buxuku.SmartSub.CPU.locale.en-US.yaml
+ delete mode 100644 manifests/b/buxuku/SmartSub/CPU/2.3.3/buxuku.SmartSub.CPU.locale.zh-CN.yaml
+ delete mode 100644 manifests/b/buxuku/SmartSub/CPU/2.3.3/buxuku.SmartSub.CPU.yaml
+  已提交修改
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 793 bytes | 264.00 KiB/s, done.
+Total 7 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-buxuku.SmartSub.CPU-2.3.3-1749369579' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-buxuku.SmartSub.CPU-2.3.3-1749369579
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-buxuku.SmartSub.CPU-2.3.3-1749369579 -> Remove-buxuku.SmartSub.CPU-2.3.3-1749369579
+branch 'Remove-buxuku.SmartSub.CPU-2.3.3-1749369579' set up to track 'origin/Remove-buxuku.SmartSub.CPU-2.3.3-1749369579'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/263894
+ 成功移除 buxuku.SmartSub.CPU 版本 2.3.3
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 9 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-buxuku.SmartSub.CPU-2.3.3-1749369579 (was fe184b6be8c).
+工作区清理完成
+
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 Video Subtitle Master [buxuku.SmartSub.CPU]
+版本
+-----
+2.4.0
+2.3.7
+2.3.5
+2.3.4
+2.3.3
+2.2.0
+2.1.0
+2.0.3
+2.0.2
+2.0.1
+1.8.0
+1.6.0
+======= 此软件包版本在 winget 上的信息 =======
+已找到 Video Subtitle Master [buxuku.SmartSub.CPU]
+版本: 2.3.4
+发布者: buxuku
+发布服务器 URL: https://blog.linxiaodong.com/
+发布服务器支持 URL: https://github.com/buxuku/SmartSub/issues
+作者: 林晓东
+描述:
+  批量为视频生成字幕,并可将字幕翻译成其它语言。这是在之前的一个开源项目 VideoSubtitleGenerator 的基础上,制作成的一个客户端工具,以方便更多朋友们的使用。
+  它保留了之前 VideoSubtitleGenerator 这个命令行工具的全部特性,并新增了以下功能:
+  - 图形用户界面,操作更加便捷
+  - 源语言字幕文件和目标语言字幕文件放在视频同目录下,方便播放时任意挂载字幕文件
+  - 批量处理视频/音频/字幕文件
+  - 支持视频/音频生成字幕
+  - 支持对生成的字幕,或者导入的字幕进行翻译
+  - 支持多种翻译服务:
+    - 火山引擎翻译
+    - 百度翻译
+    - DeepLX 翻译(批量翻译容易存在被限流的情况)
+    - 本地模型 Ollama 翻译
+    - 支持 OpenAI 风格 API 翻译,如 deepseek, azure 等
+  - 自定义字幕文件名,方便兼容不同的播放器挂载字幕识别
+  - 自定义翻译后的字幕文件内容,支持纯翻译结果或原字幕+翻译结果
+  - 项目集成 whisper.cpp,对 Apple Silicon 进行了优化,有较快的生成速度
+  - 项目集成了 fluent-ffmpeg,无须单独安装 ffmpeg
+  - 支持运行本地安装的 whisper 命令
+  - 支持选择模型下载源(国内镜像源或官方源)
+  - 支持自定义并发任务数量
+主页: https://github.com/buxuku/SmartSub
+许可证: MIT
+许可证 URL: https://github.com/buxuku/SmartSub/blob/HEAD/LICENSE
+版权所有: Copyright (c) 2024 Lin Xiaodong
+发行说明 URL: https://github.com/buxuku/SmartSub/releases/tag/v2.3.4
+标记：
+  字幕
+  视频
+  翻译
+  音频
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://github.com/buxuku/SmartSub/releases/download/v2.3.4/Smart.Sub_Windows_2.3.4_x64_no-cuda_generic.exe
+  安装程序 SHA256： a62fbf772cadbac774fe04c0ba15506a52451509ec0f68bf49625ddf33a1fb27
+  发布日期: 2025-05-15
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\buxuku\SmartSub\CPU\2.3.4\buxuku.SmartSub.CPU.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: buxuku.SmartSub.CPU
+PackageVersion: 2.3.4
+InstallerType: nullsoft
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ProductCode: 31347239-13ac-5ed1-97a4-da01e9165cf8
+ReleaseDate: 2025-05-15
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://github.com/buxuku/SmartSub/releases/download/v2.3.4/Smart.Sub_Windows_2.3.4_x64_no-cuda_generic.exe
+  InstallerSha256: A62FBF772CADBAC774FE04C0BA15506A52451509EC0F68BF49625DDF33A1FB27
+  InstallerSwitches:
+    Custom: /currentuser
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://github.com/buxuku/SmartSub/releases/download/v2.3.4/Smart.Sub_Windows_2.3.4_x64_no-cuda_generic.exe
+  InstallerSha256: A62FBF772CADBAC774FE04C0BA15506A52451509EC0F68BF49625DDF33A1FB27
+  InstallerSwitches:
+    Custom: /allusers
+ManifestType: installer
+ManifestVersion: 1.10.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 Video Subtitle Master [buxuku.SmartSub.CPU] 版本 2.3.4
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://github.com/buxuku/SmartSub/releases/download/v2.3.4/Smart.Sub_Windows_2.3.4_x64_no-cuda_generic.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                        BRANCH                                      CREATED AT
+#263894  Remove version: buxuku.SmartSub.CPU vers...  DuckDuckStudio:Remove-buxuku.SmartSub.C...  less than a minute ago
+#263893  Remove version: buxuku.SmartSub.CPU vers...  DuckDuckStudio:Remove-buxuku.SmartSub.C...  about 1 minute ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                          BRANCH                                         CREATED AT
+#256891  New version: buxuku.SmartSub.CPU version 2...  SpecterShell:buxuku.SmartSub.CPU-2.3.4-207...  about 23 days ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 9 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-buxuku.SmartSub.CPU-2.3.4-1749369623'
+  已签出新分支 Remove-buxuku.SmartSub.CPU-2.3.4-1749369623
+  已移除软件包 buxuku.SmartSub.CPU 版本 2.3.4
+[Remove-buxuku.SmartSub.CPU-2.3.4-1749369623 f3b3be35a0b] Remove version: buxuku.SmartSub.CPU version 2.3.4 (Auto)
+ 4 files changed, 126 deletions(-)
+ delete mode 100644 manifests/b/buxuku/SmartSub/CPU/2.3.4/buxuku.SmartSub.CPU.installer.yaml
+ delete mode 100644 manifests/b/buxuku/SmartSub/CPU/2.3.4/buxuku.SmartSub.CPU.locale.en-US.yaml
+ delete mode 100644 manifests/b/buxuku/SmartSub/CPU/2.3.4/buxuku.SmartSub.CPU.locale.zh-CN.yaml
+ delete mode 100644 manifests/b/buxuku/SmartSub/CPU/2.3.4/buxuku.SmartSub.CPU.yaml
+  已提交修改
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 796 bytes | 398.00 KiB/s, done.
+Total 7 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-buxuku.SmartSub.CPU-2.3.4-1749369623' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-buxuku.SmartSub.CPU-2.3.4-1749369623
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-buxuku.SmartSub.CPU-2.3.4-1749369623 -> Remove-buxuku.SmartSub.CPU-2.3.4-1749369623
+branch 'Remove-buxuku.SmartSub.CPU-2.3.4-1749369623' set up to track 'origin/Remove-buxuku.SmartSub.CPU-2.3.4-1749369623'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/263895
+ 成功移除 buxuku.SmartSub.CPU 版本 2.3.4
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 9 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-buxuku.SmartSub.CPU-2.3.4-1749369623 (was f3b3be35a0b).
+工作区清理完成
