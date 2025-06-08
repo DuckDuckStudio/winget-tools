@@ -465,6 +465,7 @@ namespace checker
                 "https://www.argyllcms.com/", // 服务器拒绝冲泡咖啡
                 "https://aurorabuilder.com/downloads/Aurora%20Setup.zip", // 假400
                 "http://installer.jdownloader.org/JD2SilentSetup_x64.exe", "http://installer.jdownloader.org/JD2SilentSetup_x86.exe", // WIP - https://github.com/microsoft/winget-pkgs/pull/258347
+                "http://qmmp.ylsoftware.com/files/windows", // 临时忽略 - 在多个 PR 中 WIP
             ];
             return excludedDomains.Any(url.Contains);
         }
