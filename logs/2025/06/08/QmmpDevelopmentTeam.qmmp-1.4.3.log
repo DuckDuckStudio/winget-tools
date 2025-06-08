@@ -1,0 +1,70 @@
+~~ Start logging ~~
+2025-06-08 11:36:07.227 FUN 这回应该肯定一定能修好
+2025-06-08 11:36:07.240 INFO Found the following version folder: ['1.2.3', '1.2.4', '1.2.5', '1.2.6', '1.3.0', '1.3.1', '1.3.2', '1.3.3', '1.3.4', '1.3.5', '1.3.6', '1.3.7', '1.4.0', '1.4.1', '1.4.2', '1.4.3', '1.4.4', '1.4.5', '1.4.6', '1.5.0', '1.5.1', '1.5.2', '1.5.3', '1.5.4', '1.6.0', '1.6.1', '1.6.2', '1.6.3', '1.6.4', '1.6.5', '2.0.0', '2.0.1', '2.0.3', '2.0.4', '2.1.0', '2.1.1', '2.1.2', '2.1.3', '2.1.4', '2.1.5', '2.1.6', '2.1.7', '2.2.2', '2.2.5']
+2025-06-08 11:36:07.241 INFO Skip version 1.2.3, because it's not in the list of versions to be modified.
+2025-06-08 11:36:07.242 INFO Skip version 1.2.4, because it's not in the list of versions to be modified.
+2025-06-08 11:36:07.243 INFO Skip version 1.2.5, because it's not in the list of versions to be modified.
+2025-06-08 11:36:07.244 INFO Skip version 1.2.6, because it's not in the list of versions to be modified.
+2025-06-08 11:36:07.245 INFO Skip version 1.3.0, because it's not in the list of versions to be modified.
+2025-06-08 11:36:07.246 INFO Skip version 1.3.1, because it's not in the list of versions to be modified.
+2025-06-08 11:36:07.247 INFO Skip version 1.3.2, because it's not in the list of versions to be modified.
+2025-06-08 11:36:07.248 INFO Skip version 1.3.3, because it's not in the list of versions to be modified.
+2025-06-08 11:36:07.248 INFO Skip version 1.3.4, because it's not in the list of versions to be modified.
+2025-06-08 11:36:07.249 INFO Skip version 1.3.5, because it's not in the list of versions to be modified.
+2025-06-08 11:36:07.250 INFO Skip version 1.3.6, because it's not in the list of versions to be modified.
+2025-06-08 11:36:07.251 INFO Skip version 1.3.7, because it's not in the list of versions to be modified.
+2025-06-08 11:36:07.251 INFO Skip version 1.4.0, because it's not in the list of versions to be modified.
+2025-06-08 11:36:07.252 INFO Skip version 1.4.1, because it's not in the list of versions to be modified.
+2025-06-08 11:36:07.253 INFO Skip version 1.4.2, because it's not in the list of versions to be modified.
+2025-06-08 11:36:07.254 INFO Processing version folder: 1.4.3
+2025-06-08 11:36:07.255 INFO   Create and checkout to a new branch: Modify-S-QmmpDevelopmentTeam.qmmp-1.4.3-1749353767
+2025-06-08 11:36:27.991 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\q\QmmpDevelopmentTeam\qmmp\1.4.3\QmmpDevelopmentTeam.qmmp.installer.yaml
+2025-06-08 11:36:27.993 INFO     检测到 D:\...\winget-pkgs\manifests\q\QmmpDevelopmentTeam\qmmp\1.4.3\QmmpDevelopmentTeam.qmmp.installer.yaml 中含有不安全的 URL (HTTP)，自动替换为安全的 URL (HTTPS)
+2025-06-08 11:36:27.994 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-08 11:36:27.996 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-08 11:36:27.998 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\q\QmmpDevelopmentTeam\qmmp\1.4.3\QmmpDevelopmentTeam.qmmp.installer.yaml
+2025-06-08 11:36:28.205 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\q\QmmpDevelopmentTeam\qmmp\1.4.3\QmmpDevelopmentTeam.qmmp.locale.en-US.yaml
+2025-06-08 11:36:28.208 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-08 11:36:28.209 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-08 11:36:28.212 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\q\QmmpDevelopmentTeam\qmmp\1.4.3\QmmpDevelopmentTeam.qmmp.locale.en-US.yaml
+2025-06-08 11:36:28.344 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\q\QmmpDevelopmentTeam\qmmp\1.4.3\QmmpDevelopmentTeam.qmmp.yaml
+2025-06-08 11:36:28.347 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-08 11:36:28.348 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-08 11:36:28.350 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\q\QmmpDevelopmentTeam\qmmp\1.4.3\QmmpDevelopmentTeam.qmmp.yaml
+2025-06-08 11:38:06.214 INFO     清单验证成功。
+2025-06-08 11:38:06.229 INFO   Staging and Committing Changes to Git
+2025-06-08 11:38:36.754 INFO     Commit message: Modify: QmmpDevelopmentTeam.qmmp version 1.4.3 (Auto)
+2025-06-08 11:38:36.756 INFO   Pushing changes to remote (origin) repository
+2025-06-08 11:38:40.501 INFO     Successfully pushed to remote (origin): Modify-S-QmmpDevelopmentTeam.qmmp-1.4.3-1749353767
+2025-06-08 11:38:42.160 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/263870
+2025-06-08 11:38:42.161 INFO Skip version 1.4.4, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.162 INFO Skip version 1.4.5, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.163 INFO Skip version 1.4.6, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.164 INFO Skip version 1.5.0, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.165 INFO Skip version 1.5.1, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.165 INFO Skip version 1.5.2, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.166 INFO Skip version 1.5.3, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.167 INFO Skip version 1.5.4, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.167 INFO Skip version 1.6.0, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.169 INFO Skip version 1.6.1, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.170 INFO Skip version 1.6.2, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.171 INFO Skip version 1.6.3, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.171 INFO Skip version 1.6.4, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.172 INFO Skip version 1.6.5, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.173 INFO Skip version 2.0.0, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.173 INFO Skip version 2.0.1, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.174 INFO Skip version 2.0.3, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.175 INFO Skip version 2.0.4, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.175 INFO Skip version 2.1.0, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.176 INFO Skip version 2.1.1, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.177 INFO Skip version 2.1.2, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.177 INFO Skip version 2.1.3, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.178 INFO Skip version 2.1.4, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.178 INFO Skip version 2.1.5, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.179 INFO Skip version 2.1.6, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.180 INFO Skip version 2.1.7, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.180 INFO Skip version 2.2.2, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.181 INFO Skip version 2.2.5, because it's not in the list of versions to be modified.
+2025-06-08 11:38:42.182 INFO All manifests have been modified and pushed through.
+2025-06-08 11:38:46.332 INFO Workspace clean-up completed.
+~~ End of logging ~~
