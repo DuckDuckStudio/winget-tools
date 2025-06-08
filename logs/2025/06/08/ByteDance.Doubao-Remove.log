@@ -1,0 +1,4051 @@
+# D:\...\winget-tools\logs\2025\06\08\test.ps1
+Write-Output "访问 https://github.com/DuckDuckStudio/winget-tools/actions/runs/15512521692/job/43675185342#step:5:16 查看检查日志。"
+sundry remove ByteDance.Doubao 1.3.3
+sundry remove ByteDance.Doubao 1.4.3
+sundry remove ByteDance.Doubao 1.5.0
+sundry remove ByteDance.Doubao 1.6.2
+sundry remove ByteDance.Doubao 1.7.1
+sundry remove ByteDance.Doubao 1.7.2
+sundry remove ByteDance.Doubao 1.8.1
+sundry remove ByteDance.Doubao 1.8.3
+sundry remove ByteDance.Doubao 1.9.2
+sundry remove ByteDance.Doubao 1.9.3
+sundry remove ByteDance.Doubao 1.9.7
+sundry remove ByteDance.Doubao 1.11.0
+sundry remove ByteDance.Doubao 1.11.2
+sundry remove ByteDance.Doubao 1.12.0
+sundry remove ByteDance.Doubao 1.12.4
+sundry remove ByteDance.Doubao 1.13.2
+
+PowerShell 7.5.1
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> & D:\...\winget-tools\logs\2025\06\08\test.ps1
+访问 https://github.com/.../winget-tools/actions/runs/15512521692/job/43675185342#step:5:16 查看检查日志。
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 豆包 [ByteDance.Doubao]
+版本
+-------
+1.58.6
+1.57.8
+1.57.7
+1.56.6
+1.55.5
+1.54.10
+1.54.7
+1.53.7
+1.52.8
+1.51.10
+1.50.10
+1.49.10
+1.49.8
+1.49.7
+1.49.6
+1.48.7
+1.48.6
+1.48.4
+1.47.4
+1.47.3
+1.47.2
+1.46.7
+1.46.6
+1.46.5
+1.45.5
+1.45.4
+1.45.3
+1.42.6
+1.42.5
+1.42.4
+1.42.3
+1.41.6
+1.41.5
+1.41.4
+1.40.4
+1.40.3
+1.40.2
+1.39.8
+1.39.7
+1.39.3
+1.38.4
+1.38.3
+1.37.6
+1.37.4
+1.37.3
+1.36.6
+1.36.5
+1.36.4
+1.35.6
+1.35.4
+1.35.3
+1.35.2
+1.33.9
+1.33.8
+1.33.6
+1.33.5
+1.32.13
+1.32.12
+1.32.11
+1.30.13
+1.30.10
+1.30.9
+1.30.6
+1.30.5
+1.30.3
+1.28.15
+1.28.13
+1.28.11
+1.28.10
+1.28.8
+1.28.7
+1.28.3
+1.27.7
+1.27.6
+1.27.5
+1.25.8
+1.25.7
+1.25.6
+1.25.5
+1.25.3
+1.23.6
+1.23.5
+1.23.4
+1.22.7
+1.22.6
+1.21.3
+1.21.2
+1.21.1
+1.20.2
+1.19.7
+1.19.6
+1.19.5
+1.19.2
+1.17.4
+1.17.2
+1.17.1
+1.16.2
+1.16.1
+1.15.6
+1.15.5
+1.15.3
+1.14.4
+1.14.2
+1.13.4
+1.13.3
+1.13.2
+1.12.4
+1.12.0
+1.11.2
+1.11.0
+1.9.7
+1.9.3
+1.9.2
+1.8.3
+1.8.1
+1.7.2
+1.7.1
+1.6.5
+1.6.4
+1.6.3
+1.6.2
+1.5.0
+1.4.3
+1.4.1
+1.3.3
+======= 此软件包版本在 winget 上的信息 =======
+已找到 豆包 [ByteDance.Doubao]
+版本: 1.3.3
+发布者: Beijing Chuntian Zhiyun Technology Co., Ltd.
+发布服务器 URL: https://www.doubao.com/
+作者: 北京春田知韵科技有限公司
+描述: 豆包是你的 AI 聊天智能对话问答助手,写作文案翻译情感陪伴编程全能工具。豆包为你答疑解惑,提供灵感,辅助创作,也可以和你畅聊任何你感兴趣的话题。
+主页: https://www.doubao.com/
+许可证: 免费软件
+许可证 URL: https://www.doubao.com/legal/terms
+隐私 URL: https://www.doubao.com/legal/privacy
+版权所有: 版权所有 2024 The 豆包 Authors。保留所有权利。
+发行说明: 1.3.3 版本发布
+标记：
+  ai
+  ai对话
+  ai聊天
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.3.3/Doubao_installer_1.3.3.exe
+  安装程序 SHA256： abef760fb209501af5a8489f2304c84b719d6d08d9f266ea08b16bd511750a27
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\ByteDance\Doubao\1.3.3\ByteDance.Doubao.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.1 $debug=NVS1.CRLF.7-4-2.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: ByteDance.Doubao
+PackageVersion: 1.3.3
+InstallerType: exe
+Scope: user
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: --command=quiet_install
+  SilentWithProgress: --command=quiet_install
+  InstallLocation: --target_dir="<INSTALLPATH>"
+  Log: --log_dir="<LOGPATH>"
+UpgradeBehavior: install
+Installers:
+- Architecture: x64
+  InstallerUrl: https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.3.3/Doubao_installer_1.3.3.exe
+  InstallerSha256: ABEF760FB209501AF5A8489F2304C84B719D6D08D9F266EA08B16BD511750A27
+  ProductCode: Doubao
+ManifestType: installer
+ManifestVersion: 1.6.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 豆包 [ByteDance.Doubao] 版本 1.3.3
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.3.3/Doubao_installer_1.3.3.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+no pull requests match your search in microsoft/winget-pkgs
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                        BRANCH                                         CREATED AT
+#150921  New package: ByteDance.Doubao version 1.3.3  SpecterShell:ByteDance.Doubao-1.3.3-0C890CD4   about 1 year ago
+#151171  New version: ByteDance.Doubao version 1.4.1  SpecterShell:ByteDance.Doubao-1.4.1-138409919  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-ByteDance.Doubao-1.3.3-1749340120'
+  已签出新分支 Remove-ByteDance.Doubao-1.3.3-1749340120
+  已移除软件包 ByteDance.Doubao 版本 1.3.3
+[Remove-ByteDance.Doubao-1.3.3-1749340120 9ea9c05ce12] Remove version: ByteDance.Doubao version 1.3.3 (Auto)
+ 4 files changed, 93 deletions(-)
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.3.3/ByteDance.Doubao.installer.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.3.3/ByteDance.Doubao.locale.en-US.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.3.3/ByteDance.Doubao.locale.zh-CN.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.3.3/ByteDance.Doubao.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 745 bytes | 372.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-ByteDance.Doubao-1.3.3-1749340120' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-ByteDance.Doubao-1.3.3-1749340120
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-ByteDance.Doubao-1.3.3-1749340120 -> Remove-ByteDance.Doubao-1.3.3-1749340120
+branch 'Remove-ByteDance.Doubao-1.3.3-1749340120' set up to track 'origin/Remove-ByteDance.Doubao-1.3.3-1749340120'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/263846
+ 成功移除 ByteDance.Doubao 版本 1.3.3
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-ByteDance.Doubao-1.3.3-1749340120 (was 9ea9c05ce12).
+工作区清理完成
+
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 豆包 [ByteDance.Doubao]
+版本
+-------
+1.58.6
+1.57.8
+1.57.7
+1.56.6
+1.55.5
+1.54.10
+1.54.7
+1.53.7
+1.52.8
+1.51.10
+1.50.10
+1.49.10
+1.49.8
+1.49.7
+1.49.6
+1.48.7
+1.48.6
+1.48.4
+1.47.4
+1.47.3
+1.47.2
+1.46.7
+1.46.6
+1.46.5
+1.45.5
+1.45.4
+1.45.3
+1.42.6
+1.42.5
+1.42.4
+1.42.3
+1.41.6
+1.41.5
+1.41.4
+1.40.4
+1.40.3
+1.40.2
+1.39.8
+1.39.7
+1.39.3
+1.38.4
+1.38.3
+1.37.6
+1.37.4
+1.37.3
+1.36.6
+1.36.5
+1.36.4
+1.35.6
+1.35.4
+1.35.3
+1.35.2
+1.33.9
+1.33.8
+1.33.6
+1.33.5
+1.32.13
+1.32.12
+1.32.11
+1.30.13
+1.30.10
+1.30.9
+1.30.6
+1.30.5
+1.30.3
+1.28.15
+1.28.13
+1.28.11
+1.28.10
+1.28.8
+1.28.7
+1.28.3
+1.27.7
+1.27.6
+1.27.5
+1.25.8
+1.25.7
+1.25.6
+1.25.5
+1.25.3
+1.23.6
+1.23.5
+1.23.4
+1.22.7
+1.22.6
+1.21.3
+1.21.2
+1.21.1
+1.20.2
+1.19.7
+1.19.6
+1.19.5
+1.19.2
+1.17.4
+1.17.2
+1.17.1
+1.16.2
+1.16.1
+1.15.6
+1.15.5
+1.15.3
+1.14.4
+1.14.2
+1.13.4
+1.13.3
+1.13.2
+1.12.4
+1.12.0
+1.11.2
+1.11.0
+1.9.7
+1.9.3
+1.9.2
+1.8.3
+1.8.1
+1.7.2
+1.7.1
+1.6.5
+1.6.4
+1.6.3
+1.6.2
+1.5.0
+1.4.3
+1.4.1
+1.3.3
+======= 此软件包版本在 winget 上的信息 =======
+已找到 豆包 [ByteDance.Doubao]
+版本: 1.4.3
+发布者: Beijing Chuntian Zhiyun Technology Co., Ltd.
+发布服务器 URL: https://www.doubao.com/
+作者: 北京春田知韵科技有限公司
+描述: 豆包是你的 AI 聊天智能对话问答助手,写作文案翻译情感陪伴编程全能工具。豆包为你答疑解惑,提供灵感,辅助创作,也可以和你畅聊任何你感兴趣的话题。
+主页: https://www.doubao.com/
+许可证: 免费软件
+许可证 URL: https://www.doubao.com/legal/terms
+隐私 URL: https://www.doubao.com/legal/privacy
+版权所有: 版权所有 2024 The 豆包 Authors。保留所有权利。
+发行说明: 1.4 版本发布
+标记：
+  ai
+  ai对话
+  ai聊天
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.4.3/Doubao_installer_1.4.3.exe
+  安装程序 SHA256： d228cd3feb39abec4393665b51a2f260917b8f93ae66d9587de0b9ca845409f9
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\ByteDance\Doubao\1.4.3\ByteDance.Doubao.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.1 Dumplings Mod $debug=QUSU.CRLF.7-4-2.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: ByteDance.Doubao
+PackageVersion: 1.4.3
+InstallerType: exe
+Scope: user
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: --command=quiet_install
+  SilentWithProgress: --command=quiet_install
+  InstallLocation: --target_dir="<INSTALLPATH>"
+  Log: --log_dir="<LOGPATH>"
+UpgradeBehavior: install
+Installers:
+- Architecture: x64
+  InstallerUrl: https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.4.3/Doubao_installer_1.4.3.exe
+  InstallerSha256: D228CD3FEB39ABEC4393665B51A2F260917B8F93AE66D9587DE0B9CA845409F9
+  ProductCode: Doubao
+ManifestType: installer
+ManifestVersion: 1.6.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 豆包 [ByteDance.Doubao] 版本 1.4.3
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.4.3/Doubao_installer_1.4.3.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                                  BRANCH                                                   CREATED AT
+#263846  Remove version: ByteDance.Doubao version 1.3.3 (Auto)  ...:Remove-ByteDance.Doubao-1.3.3-1749340120  less than a minute ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                        BRANCH                                          CREATED AT
+#153038  New version: ByteDance.Doubao version 1.5.0  SpecterShell:ByteDance.Doubao-1.5.0-1712479810  about 1 year ago
+#151463  New version: ByteDance.Doubao version 1.4.3  SpecterShell:ByteDance.Doubao-1.4.3-402194912   about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-ByteDance.Doubao-1.4.3-1749340199'
+  已签出新分支 Remove-ByteDance.Doubao-1.4.3-1749340199
+  已移除软件包 ByteDance.Doubao 版本 1.4.3
+[Remove-ByteDance.Doubao-1.4.3-1749340199 8c5659a3bcc] Remove version: ByteDance.Doubao version 1.4.3 (Auto)
+ 4 files changed, 93 deletions(-)
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.4.3/ByteDance.Doubao.installer.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.4.3/ByteDance.Doubao.locale.en-US.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.4.3/ByteDance.Doubao.locale.zh-CN.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.4.3/ByteDance.Doubao.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 748 bytes | 249.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-ByteDance.Doubao-1.4.3-1749340199' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-ByteDance.Doubao-1.4.3-1749340199
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-ByteDance.Doubao-1.4.3-1749340199 -> Remove-ByteDance.Doubao-1.4.3-1749340199
+branch 'Remove-ByteDance.Doubao-1.4.3-1749340199' set up to track 'origin/Remove-ByteDance.Doubao-1.4.3-1749340199'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/263847
+ 成功移除 ByteDance.Doubao 版本 1.4.3
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-ByteDance.Doubao-1.4.3-1749340199 (was 8c5659a3bcc).
+工作区清理完成
+
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 豆包 [ByteDance.Doubao]
+版本
+-------
+1.58.6
+1.57.8
+1.57.7
+1.56.6
+1.55.5
+1.54.10
+1.54.7
+1.53.7
+1.52.8
+1.51.10
+1.50.10
+1.49.10
+1.49.8
+1.49.7
+1.49.6
+1.48.7
+1.48.6
+1.48.4
+1.47.4
+1.47.3
+1.47.2
+1.46.7
+1.46.6
+1.46.5
+1.45.5
+1.45.4
+1.45.3
+1.42.6
+1.42.5
+1.42.4
+1.42.3
+1.41.6
+1.41.5
+1.41.4
+1.40.4
+1.40.3
+1.40.2
+1.39.8
+1.39.7
+1.39.3
+1.38.4
+1.38.3
+1.37.6
+1.37.4
+1.37.3
+1.36.6
+1.36.5
+1.36.4
+1.35.6
+1.35.4
+1.35.3
+1.35.2
+1.33.9
+1.33.8
+1.33.6
+1.33.5
+1.32.13
+1.32.12
+1.32.11
+1.30.13
+1.30.10
+1.30.9
+1.30.6
+1.30.5
+1.30.3
+1.28.15
+1.28.13
+1.28.11
+1.28.10
+1.28.8
+1.28.7
+1.28.3
+1.27.7
+1.27.6
+1.27.5
+1.25.8
+1.25.7
+1.25.6
+1.25.5
+1.25.3
+1.23.6
+1.23.5
+1.23.4
+1.22.7
+1.22.6
+1.21.3
+1.21.2
+1.21.1
+1.20.2
+1.19.7
+1.19.6
+1.19.5
+1.19.2
+1.17.4
+1.17.2
+1.17.1
+1.16.2
+1.16.1
+1.15.6
+1.15.5
+1.15.3
+1.14.4
+1.14.2
+1.13.4
+1.13.3
+1.13.2
+1.12.4
+1.12.0
+1.11.2
+1.11.0
+1.9.7
+1.9.3
+1.9.2
+1.8.3
+1.8.1
+1.7.2
+1.7.1
+1.6.5
+1.6.4
+1.6.3
+1.6.2
+1.5.0
+1.4.3
+1.4.1
+1.3.3
+======= 此软件包版本在 winget 上的信息 =======
+已找到 豆包 [ByteDance.Doubao]
+版本: 1.5.0
+发布者: Beijing Chuntian Zhiyun Technology Co., Ltd.
+发布服务器 URL: https://www.doubao.com/
+作者: 北京春田知韵科技有限公司
+描述: 豆包是你的 AI 聊天智能对话问答助手,写作文案翻译情感陪伴编程全能工具。豆包为你答疑解惑,提供灵感,辅助创作,也可以和你畅聊任何你感兴趣的话题。
+主页: https://www.doubao.com/
+许可证: 免费软件
+许可证 URL: https://www.doubao.com/legal/terms
+隐私 URL: https://www.doubao.com/legal/privacy
+版权所有: 版权所有 2024 The 豆包 Authors。保留所有权利。
+发行说明: 1.5 版本发布
+标记：
+  ai
+  ai对话
+  ai聊天
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.5.0/Doubao_installer_1.5.0.exe
+  安装程序 SHA256： 8921f3f258c5258967c8914f815f98a404cb3b0c5e90534fa18ec4e7dd328e53
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\ByteDance\Doubao\1.5.0\ByteDance.Doubao.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.1 Dumplings Mod $debug=QUSU.CRLF.7-4-2.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: ByteDance.Doubao
+PackageVersion: 1.5.0
+InstallerType: exe
+Scope: user
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: --command=quiet_install
+  SilentWithProgress: --command=quiet_install
+  InstallLocation: --target_dir="<INSTALLPATH>"
+  Log: --log_dir="<LOGPATH>"
+UpgradeBehavior: install
+Installers:
+- Architecture: x64
+  InstallerUrl: https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.5.0/Doubao_installer_1.5.0.exe
+  InstallerSha256: 8921F3F258C5258967C8914F815F98A404CB3B0C5E90534FA18EC4E7DD328E53
+  ProductCode: Doubao
+ManifestType: installer
+ManifestVersion: 1.6.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 豆包 [ByteDance.Doubao] 版本 1.5.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.5.0/Doubao_installer_1.5.0.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                  BRANCH                                                   CREATED AT
+#263847  Remove version: ByteDance.Doubao version 1.4.3 (Auto)  ...:Remove-ByteDance.Doubao-1.4.3-1749340199  less than a minute ago
+#263846  Remove version: ByteDance.Doubao version 1.3.3 (Auto)  ...:Remove-ByteDance.Doubao-1.3.3-1749340120  about 1 minute ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                        BRANCH                                          CREATED AT
+#153038  New version: ByteDance.Doubao version 1.5.0  SpecterShell:ByteDance.Doubao-1.5.0-1712479810  about 1 year ago
+#153314  New version: ByteDance.Doubao version 1.5.1  SpecterShell:ByteDance.Doubao-1.5.1-363000149   about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-ByteDance.Doubao-1.5.0-1749340245'
+  已签出新分支 Remove-ByteDance.Doubao-1.5.0-1749340245
+  已移除软件包 ByteDance.Doubao 版本 1.5.0
+[Remove-ByteDance.Doubao-1.5.0-1749340245 25271c2675a] Remove version: ByteDance.Doubao version 1.5.0 (Auto)
+ 4 files changed, 93 deletions(-)
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.5.0/ByteDance.Doubao.installer.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.5.0/ByteDance.Doubao.locale.en-US.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.5.0/ByteDance.Doubao.locale.zh-CN.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.5.0/ByteDance.Doubao.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 744 bytes | 372.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-ByteDance.Doubao-1.5.0-1749340245' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-ByteDance.Doubao-1.5.0-1749340245
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-ByteDance.Doubao-1.5.0-1749340245 -> Remove-ByteDance.Doubao-1.5.0-1749340245
+branch 'Remove-ByteDance.Doubao-1.5.0-1749340245' set up to track 'origin/Remove-ByteDance.Doubao-1.5.0-1749340245'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/263848
+ 成功移除 ByteDance.Doubao 版本 1.5.0
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-ByteDance.Doubao-1.5.0-1749340245 (was 25271c2675a).
+工作区清理完成
+
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 豆包 [ByteDance.Doubao]
+版本
+-------
+1.58.6
+1.57.8
+1.57.7
+1.56.6
+1.55.5
+1.54.10
+1.54.7
+1.53.7
+1.52.8
+1.51.10
+1.50.10
+1.49.10
+1.49.8
+1.49.7
+1.49.6
+1.48.7
+1.48.6
+1.48.4
+1.47.4
+1.47.3
+1.47.2
+1.46.7
+1.46.6
+1.46.5
+1.45.5
+1.45.4
+1.45.3
+1.42.6
+1.42.5
+1.42.4
+1.42.3
+1.41.6
+1.41.5
+1.41.4
+1.40.4
+1.40.3
+1.40.2
+1.39.8
+1.39.7
+1.39.3
+1.38.4
+1.38.3
+1.37.6
+1.37.4
+1.37.3
+1.36.6
+1.36.5
+1.36.4
+1.35.6
+1.35.4
+1.35.3
+1.35.2
+1.33.9
+1.33.8
+1.33.6
+1.33.5
+1.32.13
+1.32.12
+1.32.11
+1.30.13
+1.30.10
+1.30.9
+1.30.6
+1.30.5
+1.30.3
+1.28.15
+1.28.13
+1.28.11
+1.28.10
+1.28.8
+1.28.7
+1.28.3
+1.27.7
+1.27.6
+1.27.5
+1.25.8
+1.25.7
+1.25.6
+1.25.5
+1.25.3
+1.23.6
+1.23.5
+1.23.4
+1.22.7
+1.22.6
+1.21.3
+1.21.2
+1.21.1
+1.20.2
+1.19.7
+1.19.6
+1.19.5
+1.19.2
+1.17.4
+1.17.2
+1.17.1
+1.16.2
+1.16.1
+1.15.6
+1.15.5
+1.15.3
+1.14.4
+1.14.2
+1.13.4
+1.13.3
+1.13.2
+1.12.4
+1.12.0
+1.11.2
+1.11.0
+1.9.7
+1.9.3
+1.9.2
+1.8.3
+1.8.1
+1.7.2
+1.7.1
+1.6.5
+1.6.4
+1.6.3
+1.6.2
+1.5.0
+1.4.3
+1.4.1
+1.3.3
+======= 此软件包版本在 winget 上的信息 =======
+已找到 豆包 [ByteDance.Doubao]
+版本: 1.6.2
+发布者: Beijing Chuntian Zhiyun Technology Co., Ltd.
+发布服务器 URL: https://www.doubao.com/
+作者: 北京春田知韵科技有限公司
+描述: 豆包是你的 AI 聊天智能对话问答助手,写作文案翻译情感陪伴编程全能工具。豆包为你答疑解惑,提供灵感,辅助创作,也可以和你畅聊任何你感兴趣的话题。
+主页: https://www.doubao.com/
+许可证: 免费软件
+许可证 URL: https://www.doubao.com/legal/terms
+隐私 URL: https://www.doubao.com/legal/privacy
+版权所有: 版权所有 2024 The 豆包 Authors。保留所有权利。
+发行说明: 1.6 版本发布
+标记：
+  ai
+  ai对话
+  ai聊天
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.6.2/Doubao_installer_1.6.2.exe
+  安装程序 SHA256： ea1c441f13ccdb56093224745048264a67a22d09e59196474e47935d2048f0df
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\ByteDance\Doubao\1.6.2\ByteDance.Doubao.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.1 Dumplings Mod $debug=QUSU.CRLF.7-4-2.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: ByteDance.Doubao
+PackageVersion: 1.6.2
+InstallerType: exe
+Scope: user
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: --command=quiet_install
+  SilentWithProgress: --command=quiet_install
+  InstallLocation: --target_dir="<INSTALLPATH>"
+  Log: --log_dir="<LOGPATH>"
+UpgradeBehavior: install
+Installers:
+- Architecture: x64
+  InstallerUrl: https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.6.2/Doubao_installer_1.6.2.exe
+  InstallerSha256: EA1C441F13CCDB56093224745048264A67A22D09E59196474E47935D2048F0DF
+  ProductCode: Doubao
+ManifestType: installer
+ManifestVersion: 1.6.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 豆包 [ByteDance.Doubao] 版本 1.6.2
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.6.2/Doubao_installer_1.6.2.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 3 of 3 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                  BRANCH                                                   CREATED AT
+#263848  Remove version: ByteDance.Doubao version 1.5.0 (Auto)  ...:Remove-ByteDance.Doubao-1.5.0-1749340245  less than a minute ago
+#263847  Remove version: ByteDance.Doubao version 1.4.3 (Auto)  ...:Remove-ByteDance.Doubao-1.4.3-1749340199  about 1 minute ago
+#263846  Remove version: ByteDance.Doubao version 1.3.3 (Auto)  ...:Remove-ByteDance.Doubao-1.3.3-1749340120  about 2 minutes ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                        BRANCH                                         CREATED AT
+#154306  New version: ByteDance.Doubao version 1.6.2  SpecterShell:ByteDance.Doubao-1.6.2-839099048  about 1 year ago
+#154470  New version: ByteDance.Doubao version 1.6.3  SpecterShell:ByteDance.Doubao-1.6.3-891558787  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-ByteDance.Doubao-1.6.2-1749340288'
+  已签出新分支 Remove-ByteDance.Doubao-1.6.2-1749340288
+  已移除软件包 ByteDance.Doubao 版本 1.6.2
+[Remove-ByteDance.Doubao-1.6.2-1749340288 209c675c1ea] Remove version: ByteDance.Doubao version 1.6.2 (Auto)
+ 4 files changed, 93 deletions(-)
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.6.2/ByteDance.Doubao.installer.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.6.2/ByteDance.Doubao.locale.en-US.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.6.2/ByteDance.Doubao.locale.zh-CN.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.6.2/ByteDance.Doubao.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 745 bytes | 372.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-ByteDance.Doubao-1.6.2-1749340288' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-ByteDance.Doubao-1.6.2-1749340288
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-ByteDance.Doubao-1.6.2-1749340288 -> Remove-ByteDance.Doubao-1.6.2-1749340288
+branch 'Remove-ByteDance.Doubao-1.6.2-1749340288' set up to track 'origin/Remove-ByteDance.Doubao-1.6.2-1749340288'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/263849
+ 成功移除 ByteDance.Doubao 版本 1.6.2
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-ByteDance.Doubao-1.6.2-1749340288 (was 209c675c1ea).
+工作区清理完成
+
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 豆包 [ByteDance.Doubao]
+版本
+-------
+1.58.6
+1.57.8
+1.57.7
+1.56.6
+1.55.5
+1.54.10
+1.54.7
+1.53.7
+1.52.8
+1.51.10
+1.50.10
+1.49.10
+1.49.8
+1.49.7
+1.49.6
+1.48.7
+1.48.6
+1.48.4
+1.47.4
+1.47.3
+1.47.2
+1.46.7
+1.46.6
+1.46.5
+1.45.5
+1.45.4
+1.45.3
+1.42.6
+1.42.5
+1.42.4
+1.42.3
+1.41.6
+1.41.5
+1.41.4
+1.40.4
+1.40.3
+1.40.2
+1.39.8
+1.39.7
+1.39.3
+1.38.4
+1.38.3
+1.37.6
+1.37.4
+1.37.3
+1.36.6
+1.36.5
+1.36.4
+1.35.6
+1.35.4
+1.35.3
+1.35.2
+1.33.9
+1.33.8
+1.33.6
+1.33.5
+1.32.13
+1.32.12
+1.32.11
+1.30.13
+1.30.10
+1.30.9
+1.30.6
+1.30.5
+1.30.3
+1.28.15
+1.28.13
+1.28.11
+1.28.10
+1.28.8
+1.28.7
+1.28.3
+1.27.7
+1.27.6
+1.27.5
+1.25.8
+1.25.7
+1.25.6
+1.25.5
+1.25.3
+1.23.6
+1.23.5
+1.23.4
+1.22.7
+1.22.6
+1.21.3
+1.21.2
+1.21.1
+1.20.2
+1.19.7
+1.19.6
+1.19.5
+1.19.2
+1.17.4
+1.17.2
+1.17.1
+1.16.2
+1.16.1
+1.15.6
+1.15.5
+1.15.3
+1.14.4
+1.14.2
+1.13.4
+1.13.3
+1.13.2
+1.12.4
+1.12.0
+1.11.2
+1.11.0
+1.9.7
+1.9.3
+1.9.2
+1.8.3
+1.8.1
+1.7.2
+1.7.1
+1.6.5
+1.6.4
+1.6.3
+1.6.2
+1.5.0
+1.4.3
+1.4.1
+1.3.3
+======= 此软件包版本在 winget 上的信息 =======
+已找到 豆包 [ByteDance.Doubao]
+版本: 1.7.1
+发布者: Beijing Chuntian Zhiyun Technology Co., Ltd.
+发布服务器 URL: https://www.doubao.com/
+作者: 北京春田知韵科技有限公司
+描述: 豆包是你的 AI 聊天智能对话问答助手,写作文案翻译情感陪伴编程全能工具。豆包为你答疑解惑,提供灵感,辅助创作,也可以和你畅聊任何你感兴趣的话题。
+主页: https://www.doubao.com/
+许可证: 免费软件
+许可证 URL: https://www.doubao.com/legal/terms
+隐私 URL: https://www.doubao.com/legal/privacy
+版权所有: 版权所有 2024 The 豆包 Authors。保留所有权利。
+发行说明: 1.7 版本发布
+标记：
+  ai
+  ai对话
+  ai聊天
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.7.1/Doubao_installer_1.7.1.exe
+  安装程序 SHA256： 57f1f37ef5a425e81b575942f16b35884082b4c71447c055288d4fe8d474fcf0
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\ByteDance\Doubao\1.7.1\ByteDance.Doubao.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.1 Dumplings Mod $debug=QUSU.CRLF.7-4-2.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: ByteDance.Doubao
+PackageVersion: 1.7.1
+InstallerType: exe
+Scope: user
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: --command=quiet_install
+  SilentWithProgress: --command=quiet_install
+  InstallLocation: --target_dir="<INSTALLPATH>"
+  Log: --log_dir="<LOGPATH>"
+UpgradeBehavior: install
+Installers:
+- Architecture: x64
+  InstallerUrl: https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.7.1/Doubao_installer_1.7.1.exe
+  InstallerSha256: 57F1F37EF5A425E81B575942F16B35884082B4C71447C055288D4FE8D474FCF0
+  ProductCode: Doubao
+ManifestType: installer
+ManifestVersion: 1.6.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 豆包 [ByteDance.Doubao] 版本 1.7.1
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.7.1/Doubao_installer_1.7.1.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 4 of 4 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                  BRANCH                                                   CREATED AT
+#263849  Remove version: ByteDance.Doubao version 1.6.2 (Auto)  ...:Remove-ByteDance.Doubao-1.6.2-1749340288  less than a minute ago
+#263848  Remove version: ByteDance.Doubao version 1.5.0 (Auto)  ...:Remove-ByteDance.Doubao-1.5.0-1749340245  about 1 minute ago
+#263847  Remove version: ByteDance.Doubao version 1.4.3 (Auto)  ...:Remove-ByteDance.Doubao-1.4.3-1749340199  about 1 minute ago
+#263846  Remove version: ByteDance.Doubao version 1.3.3 (Auto)  ...:Remove-ByteDance.Doubao-1.3.3-1749340120  about 3 minutes ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                        BRANCH                                         CREATED AT
+#155009  New version: ByteDance.Doubao version 1.7.1  SpecterShell:ByteDance.Doubao-1.7.1-212331481  about 1 year ago
+#155383  New version: ByteDance.Doubao version 1.7.2  SpecterShell:ByteDance.Doubao-1.7.2-225828697  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+remote: Enumerating objects: 13, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 13 (delta 0), reused 0 (delta 0), pack-reused 9 (from 1)
+Unpacking objects: 100% (13/13), 12.26 KiB | 172.00 KiB/s, done.
+From https://github.com/microsoft/winget-pkgs
+   4b7038628dd..5147e9268c6  master     -> upstream/master
+Successfully rebased and updated refs/heads/master.
+  已拉取上游修改
+Switched to a new branch 'Remove-ByteDance.Doubao-1.7.1-1749340336'
+  已签出新分支 Remove-ByteDance.Doubao-1.7.1-1749340336
+  已移除软件包 ByteDance.Doubao 版本 1.7.1
+[Remove-ByteDance.Doubao-1.7.1-1749340336 29fd481b870] Remove version: ByteDance.Doubao version 1.7.1 (Auto)
+ 4 files changed, 93 deletions(-)
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.7.1/ByteDance.Doubao.installer.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.7.1/ByteDance.Doubao.locale.en-US.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.7.1/ByteDance.Doubao.locale.zh-CN.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.7.1/ByteDance.Doubao.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 744 bytes | 744.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-ByteDance.Doubao-1.7.1-1749340336' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-ByteDance.Doubao-1.7.1-1749340336
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-ByteDance.Doubao-1.7.1-1749340336 -> Remove-ByteDance.Doubao-1.7.1-1749340336
+branch 'Remove-ByteDance.Doubao-1.7.1-1749340336' set up to track 'origin/Remove-ByteDance.Doubao-1.7.1-1749340336'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/263850
+ 成功移除 ByteDance.Doubao 版本 1.7.1
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-ByteDance.Doubao-1.7.1-1749340336 (was 29fd481b870).
+工作区清理完成
+
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 豆包 [ByteDance.Doubao]
+版本
+-------
+1.58.6
+1.57.8
+1.57.7
+1.56.6
+1.55.5
+1.54.10
+1.54.7
+1.53.7
+1.52.8
+1.51.10
+1.50.10
+1.49.10
+1.49.8
+1.49.7
+1.49.6
+1.48.7
+1.48.6
+1.48.4
+1.47.4
+1.47.3
+1.47.2
+1.46.7
+1.46.6
+1.46.5
+1.45.5
+1.45.4
+1.45.3
+1.42.6
+1.42.5
+1.42.4
+1.42.3
+1.41.6
+1.41.5
+1.41.4
+1.40.4
+1.40.3
+1.40.2
+1.39.8
+1.39.7
+1.39.3
+1.38.4
+1.38.3
+1.37.6
+1.37.4
+1.37.3
+1.36.6
+1.36.5
+1.36.4
+1.35.6
+1.35.4
+1.35.3
+1.35.2
+1.33.9
+1.33.8
+1.33.6
+1.33.5
+1.32.13
+1.32.12
+1.32.11
+1.30.13
+1.30.10
+1.30.9
+1.30.6
+1.30.5
+1.30.3
+1.28.15
+1.28.13
+1.28.11
+1.28.10
+1.28.8
+1.28.7
+1.28.3
+1.27.7
+1.27.6
+1.27.5
+1.25.8
+1.25.7
+1.25.6
+1.25.5
+1.25.3
+1.23.6
+1.23.5
+1.23.4
+1.22.7
+1.22.6
+1.21.3
+1.21.2
+1.21.1
+1.20.2
+1.19.7
+1.19.6
+1.19.5
+1.19.2
+1.17.4
+1.17.2
+1.17.1
+1.16.2
+1.16.1
+1.15.6
+1.15.5
+1.15.3
+1.14.4
+1.14.2
+1.13.4
+1.13.3
+1.13.2
+1.12.4
+1.12.0
+1.11.2
+1.11.0
+1.9.7
+1.9.3
+1.9.2
+1.8.3
+1.8.1
+1.7.2
+1.7.1
+1.6.5
+1.6.4
+1.6.3
+1.6.2
+1.5.0
+1.4.3
+1.4.1
+1.3.3
+======= 此软件包版本在 winget 上的信息 =======
+已找到 豆包 [ByteDance.Doubao]
+版本: 1.7.2
+发布者: Beijing Chuntian Zhiyun Technology Co., Ltd.
+发布服务器 URL: https://www.doubao.com/
+作者: 北京春田知韵科技有限公司
+描述: 豆包是你的 AI 聊天智能对话问答助手,写作文案翻译情感陪伴编程全能工具。豆包为你答疑解惑,提供灵感,辅助创作,也可以和你畅聊任何你感兴趣的话题。
+主页: https://www.doubao.com/
+许可证: 免费软件
+许可证 URL: https://www.doubao.com/legal/terms
+隐私 URL: https://www.doubao.com/legal/privacy
+版权所有: 版权所有 2024 The 豆包 Authors。保留所有权利。
+发行说明: 1.7 版本发布
+标记：
+  ai
+  ai对话
+  ai聊天
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.7.2/Doubao_installer_1.7.2.exe
+  安装程序 SHA256： 0bedf28b19e85d3c235486668c3e7abf822993fa16d6578d23a21096479a47b2
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\ByteDance\Doubao\1.7.2\ByteDance.Doubao.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.1 Dumplings Mod $debug=QUSU.CRLF.7-4-2.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: ByteDance.Doubao
+PackageVersion: 1.7.2
+InstallerType: exe
+Scope: user
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: --command=quiet_install
+  SilentWithProgress: --command=quiet_install
+  InstallLocation: --target_dir="<INSTALLPATH>"
+  Log: --log_dir="<LOGPATH>"
+UpgradeBehavior: install
+Installers:
+- Architecture: x64
+  InstallerUrl: https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.7.2/Doubao_installer_1.7.2.exe
+  InstallerSha256: 0BEDF28B19E85D3C235486668C3E7ABF822993FA16D6578D23A21096479A47B2
+  ProductCode: Doubao
+ManifestType: installer
+ManifestVersion: 1.6.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 豆包 [ByteDance.Doubao] 版本 1.7.2
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.7.2/Doubao_installer_1.7.2.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 5 of 5 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                  BRANCH                                                   CREATED AT
+#263850  Remove version: ByteDance.Doubao version 1.7.1 (Auto)  ...:Remove-ByteDance.Doubao-1.7.1-1749340336  less than a minute ago
+#263849  Remove version: ByteDance.Doubao version 1.6.2 (Auto)  ...:Remove-ByteDance.Doubao-1.6.2-1749340288  about 1 minute ago
+#263848  Remove version: ByteDance.Doubao version 1.5.0 (Auto)  ...:Remove-ByteDance.Doubao-1.5.0-1749340245  about 1 minute ago
+#263847  Remove version: ByteDance.Doubao version 1.4.3 (Auto)  ...:Remove-ByteDance.Doubao-1.4.3-1749340199  about 2 minutes ago
+#263846  Remove version: ByteDance.Doubao version 1.3.3 (Auto)  ...:Remove-ByteDance.Doubao-1.3.3-1749340120  about 3 minutes ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                        BRANCH                                         CREATED AT
+#155383  New version: ByteDance.Doubao version 1.7.2  SpecterShell:ByteDance.Doubao-1.7.2-225828697  about 1 year ago
+#155890  New version: ByteDance.Doubao version 1.8.1  SpecterShell:ByteDance.Doubao-1.8.1-971304141  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 6 (delta 3), reused 2 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (6/6), 1.21 KiB | 31.00 KiB/s, done.
+From https://github.com/microsoft/winget-pkgs
+   5147e9268c6..fdd09b668e0  master     -> upstream/master
+Successfully rebased and updated refs/heads/master.
+  已拉取上游修改
+Switched to a new branch 'Remove-ByteDance.Doubao-1.7.2-1749340386'
+  已签出新分支 Remove-ByteDance.Doubao-1.7.2-1749340386
+  已移除软件包 ByteDance.Doubao 版本 1.7.2
+[Remove-ByteDance.Doubao-1.7.2-1749340386 061f485d380] Remove version: ByteDance.Doubao version 1.7.2 (Auto)
+ 4 files changed, 93 deletions(-)
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.7.2/ByteDance.Doubao.installer.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.7.2/ByteDance.Doubao.locale.en-US.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.7.2/ByteDance.Doubao.locale.zh-CN.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.7.2/ByteDance.Doubao.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 744 bytes | 744.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-ByteDance.Doubao-1.7.2-1749340386' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-ByteDance.Doubao-1.7.2-1749340386
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-ByteDance.Doubao-1.7.2-1749340386 -> Remove-ByteDance.Doubao-1.7.2-1749340386
+branch 'Remove-ByteDance.Doubao-1.7.2-1749340386' set up to track 'origin/Remove-ByteDance.Doubao-1.7.2-1749340386'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/263851
+ 成功移除 ByteDance.Doubao 版本 1.7.2
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-ByteDance.Doubao-1.7.2-1749340386 (was 061f485d380).
+工作区清理完成
+
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 豆包 [ByteDance.Doubao]
+版本
+-------
+1.58.6
+1.57.8
+1.57.7
+1.56.6
+1.55.5
+1.54.10
+1.54.7
+1.53.7
+1.52.8
+1.51.10
+1.50.10
+1.49.10
+1.49.8
+1.49.7
+1.49.6
+1.48.7
+1.48.6
+1.48.4
+1.47.4
+1.47.3
+1.47.2
+1.46.7
+1.46.6
+1.46.5
+1.45.5
+1.45.4
+1.45.3
+1.42.6
+1.42.5
+1.42.4
+1.42.3
+1.41.6
+1.41.5
+1.41.4
+1.40.4
+1.40.3
+1.40.2
+1.39.8
+1.39.7
+1.39.3
+1.38.4
+1.38.3
+1.37.6
+1.37.4
+1.37.3
+1.36.6
+1.36.5
+1.36.4
+1.35.6
+1.35.4
+1.35.3
+1.35.2
+1.33.9
+1.33.8
+1.33.6
+1.33.5
+1.32.13
+1.32.12
+1.32.11
+1.30.13
+1.30.10
+1.30.9
+1.30.6
+1.30.5
+1.30.3
+1.28.15
+1.28.13
+1.28.11
+1.28.10
+1.28.8
+1.28.7
+1.28.3
+1.27.7
+1.27.6
+1.27.5
+1.25.8
+1.25.7
+1.25.6
+1.25.5
+1.25.3
+1.23.6
+1.23.5
+1.23.4
+1.22.7
+1.22.6
+1.21.3
+1.21.2
+1.21.1
+1.20.2
+1.19.7
+1.19.6
+1.19.5
+1.19.2
+1.17.4
+1.17.2
+1.17.1
+1.16.2
+1.16.1
+1.15.6
+1.15.5
+1.15.3
+1.14.4
+1.14.2
+1.13.4
+1.13.3
+1.13.2
+1.12.4
+1.12.0
+1.11.2
+1.11.0
+1.9.7
+1.9.3
+1.9.2
+1.8.3
+1.8.1
+1.7.2
+1.7.1
+1.6.5
+1.6.4
+1.6.3
+1.6.2
+1.5.0
+1.4.3
+1.4.1
+1.3.3
+======= 此软件包版本在 winget 上的信息 =======
+已找到 豆包 [ByteDance.Doubao]
+版本: 1.8.1
+发布者: Beijing Chuntian Zhiyun Technology Co., Ltd.
+发布服务器 URL: https://www.doubao.com/
+作者: 北京春田知韵科技有限公司
+描述: 豆包是你的 AI 聊天智能对话问答助手,写作文案翻译情感陪伴编程全能工具。豆包为你答疑解惑,提供灵感,辅助创作,也可以和你畅聊任何你感兴趣的话题。
+主页: https://www.doubao.com/
+许可证: 免费软件
+许可证 URL: https://www.doubao.com/legal/terms
+隐私 URL: https://www.doubao.com/legal/privacy
+版权所有: 版权所有 2024 The 豆包 Authors。保留所有权利。
+发行说明: 1.8 版本发布
+标记：
+  ai
+  ai对话
+  ai聊天
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.8.1/Doubao_installer_1.8.1.exe
+  安装程序 SHA256： 33758814d54306cba55f23f65bac76f0ed4c77ca86d787298f13e6772b90543a
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\ByteDance\Doubao\1.8.1\ByteDance.Doubao.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.1 Dumplings Mod $debug=QUSU.CRLF.7-4-2.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: ByteDance.Doubao
+PackageVersion: 1.8.1
+InstallerType: exe
+Scope: user
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: --command=quiet_install
+  SilentWithProgress: --command=quiet_install
+  InstallLocation: --target_dir="<INSTALLPATH>"
+  Log: --log_dir="<LOGPATH>"
+UpgradeBehavior: install
+Installers:
+- Architecture: x64
+  InstallerUrl: https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.8.1/Doubao_installer_1.8.1.exe
+  InstallerSha256: 33758814D54306CBA55F23F65BAC76F0ED4C77CA86D787298F13E6772B90543A
+  ProductCode: Doubao
+ManifestType: installer
+ManifestVersion: 1.6.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 豆包 [ByteDance.Doubao] 版本 1.8.1
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.8.1/Doubao_installer_1.8.1.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 6 of 6 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                  BRANCH                                                   CREATED AT
+#263851  Remove version: ByteDance.Doubao version 1.7.2 (Auto)  ...:Remove-ByteDance.Doubao-1.7.2-1749340386  less than a minute ago
+#263850  Remove version: ByteDance.Doubao version 1.7.1 (Auto)  ...:Remove-ByteDance.Doubao-1.7.1-1749340336  about 1 minute ago
+#263849  Remove version: ByteDance.Doubao version 1.6.2 (Auto)  ...:Remove-ByteDance.Doubao-1.6.2-1749340288  about 1 minute ago
+#263848  Remove version: ByteDance.Doubao version 1.5.0 (Auto)  ...:Remove-ByteDance.Doubao-1.5.0-1749340245  about 2 minutes ago
+#263847  Remove version: ByteDance.Doubao version 1.4.3 (Auto)  ...:Remove-ByteDance.Doubao-1.4.3-1749340199  about 3 minutes ago
+#263846  Remove version: ByteDance.Doubao version 1.3.3 (Auto)  ...:Remove-ByteDance.Doubao-1.3.3-1749340120  about 4 minutes ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                        BRANCH                                         CREATED AT
+#155890  New version: ByteDance.Doubao version 1.8.1  SpecterShell:ByteDance.Doubao-1.8.1-971304141  about 1 year ago
+#156459  New version: ByteDance.Doubao version 1.8.3  SpecterShell:ByteDance.Doubao-1.8.3-431348044  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-ByteDance.Doubao-1.8.1-1749340430'
+  已签出新分支 Remove-ByteDance.Doubao-1.8.1-1749340430
+  已移除软件包 ByteDance.Doubao 版本 1.8.1
+[Remove-ByteDance.Doubao-1.8.1-1749340430 67a20a97d05] Remove version: ByteDance.Doubao version 1.8.1 (Auto)
+ 4 files changed, 93 deletions(-)
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.8.1/ByteDance.Doubao.installer.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.8.1/ByteDance.Doubao.locale.en-US.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.8.1/ByteDance.Doubao.locale.zh-CN.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.8.1/ByteDance.Doubao.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 743 bytes | 743.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-ByteDance.Doubao-1.8.1-1749340430' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-ByteDance.Doubao-1.8.1-1749340430
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-ByteDance.Doubao-1.8.1-1749340430 -> Remove-ByteDance.Doubao-1.8.1-1749340430
+branch 'Remove-ByteDance.Doubao-1.8.1-1749340430' set up to track 'origin/Remove-ByteDance.Doubao-1.8.1-1749340430'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/263852
+ 成功移除 ByteDance.Doubao 版本 1.8.1
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-ByteDance.Doubao-1.8.1-1749340430 (was 67a20a97d05).
+工作区清理完成
+
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 豆包 [ByteDance.Doubao]
+版本
+-------
+1.58.6
+1.57.8
+1.57.7
+1.56.6
+1.55.5
+1.54.10
+1.54.7
+1.53.7
+1.52.8
+1.51.10
+1.50.10
+1.49.10
+1.49.8
+1.49.7
+1.49.6
+1.48.7
+1.48.6
+1.48.4
+1.47.4
+1.47.3
+1.47.2
+1.46.7
+1.46.6
+1.46.5
+1.45.5
+1.45.4
+1.45.3
+1.42.6
+1.42.5
+1.42.4
+1.42.3
+1.41.6
+1.41.5
+1.41.4
+1.40.4
+1.40.3
+1.40.2
+1.39.8
+1.39.7
+1.39.3
+1.38.4
+1.38.3
+1.37.6
+1.37.4
+1.37.3
+1.36.6
+1.36.5
+1.36.4
+1.35.6
+1.35.4
+1.35.3
+1.35.2
+1.33.9
+1.33.8
+1.33.6
+1.33.5
+1.32.13
+1.32.12
+1.32.11
+1.30.13
+1.30.10
+1.30.9
+1.30.6
+1.30.5
+1.30.3
+1.28.15
+1.28.13
+1.28.11
+1.28.10
+1.28.8
+1.28.7
+1.28.3
+1.27.7
+1.27.6
+1.27.5
+1.25.8
+1.25.7
+1.25.6
+1.25.5
+1.25.3
+1.23.6
+1.23.5
+1.23.4
+1.22.7
+1.22.6
+1.21.3
+1.21.2
+1.21.1
+1.20.2
+1.19.7
+1.19.6
+1.19.5
+1.19.2
+1.17.4
+1.17.2
+1.17.1
+1.16.2
+1.16.1
+1.15.6
+1.15.5
+1.15.3
+1.14.4
+1.14.2
+1.13.4
+1.13.3
+1.13.2
+1.12.4
+1.12.0
+1.11.2
+1.11.0
+1.9.7
+1.9.3
+1.9.2
+1.8.3
+1.8.1
+1.7.2
+1.7.1
+1.6.5
+1.6.4
+1.6.3
+1.6.2
+1.5.0
+1.4.3
+1.4.1
+1.3.3
+======= 此软件包版本在 winget 上的信息 =======
+已找到 豆包 [ByteDance.Doubao]
+版本: 1.8.3
+发布者: Beijing Chuntian Zhiyun Technology Co., Ltd.
+发布服务器 URL: https://www.doubao.com/
+作者: 北京春田知韵科技有限公司
+描述: 豆包是你的 AI 聊天智能对话问答助手,写作文案翻译情感陪伴编程全能工具。豆包为你答疑解惑,提供灵感,辅助创作,也可以和你畅聊任何你感兴趣的话题。
+主页: https://www.doubao.com/
+许可证: 免费软件
+许可证 URL: https://www.doubao.com/legal/terms
+隐私 URL: https://www.doubao.com/legal/privacy
+版权所有: 版权所有 2024 The 豆包 Authors。保留所有权利。
+发行说明: 1.8 版本发布
+标记：
+  ai
+  ai对话
+  ai聊天
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.8.3/Doubao_installer_1.8.3.exe
+  安装程序 SHA256： 85cfaaba2b54a722e45ada75d5e1baf9f05aa40d32088f9b8bf1f9cade09d1fa
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\ByteDance\Doubao\1.8.3\ByteDance.Doubao.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.1 Dumplings Mod $debug=QUSU.CRLF.7-4-2.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: ByteDance.Doubao
+PackageVersion: 1.8.3
+InstallerType: exe
+Scope: user
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: --command=quiet_install
+  SilentWithProgress: --command=quiet_install
+  InstallLocation: --target_dir="<INSTALLPATH>"
+  Log: --log_dir="<LOGPATH>"
+UpgradeBehavior: install
+Installers:
+- Architecture: x64
+  InstallerUrl: https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.8.3/Doubao_installer_1.8.3.exe
+  InstallerSha256: 85CFAABA2B54A722E45ADA75D5E1BAF9F05AA40D32088F9B8BF1F9CADE09D1FA
+  ProductCode: Doubao
+ManifestType: installer
+ManifestVersion: 1.6.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 豆包 [ByteDance.Doubao] 版本 1.8.3
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.8.3/Doubao_installer_1.8.3.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 7 of 7 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                  BRANCH                                                   CREATED AT
+#263852  Remove version: ByteDance.Doubao version 1.8.1 (Auto)  ...:Remove-ByteDance.Doubao-1.8.1-1749340430  less than a minute ago
+#263851  Remove version: ByteDance.Doubao version 1.7.2 (Auto)  ...:Remove-ByteDance.Doubao-1.7.2-1749340386  about 1 minute ago
+#263850  Remove version: ByteDance.Doubao version 1.7.1 (Auto)  ...:Remove-ByteDance.Doubao-1.7.1-1749340336  about 1 minute ago
+#263849  Remove version: ByteDance.Doubao version 1.6.2 (Auto)  ...:Remove-ByteDance.Doubao-1.6.2-1749340288  about 2 minutes ago
+#263848  Remove version: ByteDance.Doubao version 1.5.0 (Auto)  ...:Remove-ByteDance.Doubao-1.5.0-1749340245  about 3 minutes ago
+#263847  Remove version: ByteDance.Doubao version 1.4.3 (Auto)  ...:Remove-ByteDance.Doubao-1.4.3-1749340199  about 4 minutes ago
+#263846  Remove version: ByteDance.Doubao version 1.3.3 (Auto)  ...:Remove-ByteDance.Doubao-1.3.3-1749340120  about 5 minutes ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                        BRANCH                                          CREATED AT
+#157001  New version: ByteDance.Doubao version 1.9.2  SpecterShell:ByteDance.Doubao-1.9.2-1073208593  about 1 year ago
+#156459  New version: ByteDance.Doubao version 1.8.3  SpecterShell:ByteDance.Doubao-1.8.3-431348044   about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-ByteDance.Doubao-1.8.3-1749340474'
+  已签出新分支 Remove-ByteDance.Doubao-1.8.3-1749340474
+  已移除软件包 ByteDance.Doubao 版本 1.8.3
+[Remove-ByteDance.Doubao-1.8.3-1749340474 974cffcb6fb] Remove version: ByteDance.Doubao version 1.8.3 (Auto)
+ 4 files changed, 93 deletions(-)
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.8.3/ByteDance.Doubao.installer.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.8.3/ByteDance.Doubao.locale.en-US.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.8.3/ByteDance.Doubao.locale.zh-CN.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.8.3/ByteDance.Doubao.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 742 bytes | 742.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-ByteDance.Doubao-1.8.3-1749340474' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-ByteDance.Doubao-1.8.3-1749340474
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-ByteDance.Doubao-1.8.3-1749340474 -> Remove-ByteDance.Doubao-1.8.3-1749340474
+branch 'Remove-ByteDance.Doubao-1.8.3-1749340474' set up to track 'origin/Remove-ByteDance.Doubao-1.8.3-1749340474'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/263853
+ 成功移除 ByteDance.Doubao 版本 1.8.3
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-ByteDance.Doubao-1.8.3-1749340474 (was 974cffcb6fb).
+工作区清理完成
+
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 豆包 [ByteDance.Doubao]
+版本
+-------
+1.58.6
+1.57.8
+1.57.7
+1.56.6
+1.55.5
+1.54.10
+1.54.7
+1.53.7
+1.52.8
+1.51.10
+1.50.10
+1.49.10
+1.49.8
+1.49.7
+1.49.6
+1.48.7
+1.48.6
+1.48.4
+1.47.4
+1.47.3
+1.47.2
+1.46.7
+1.46.6
+1.46.5
+1.45.5
+1.45.4
+1.45.3
+1.42.6
+1.42.5
+1.42.4
+1.42.3
+1.41.6
+1.41.5
+1.41.4
+1.40.4
+1.40.3
+1.40.2
+1.39.8
+1.39.7
+1.39.3
+1.38.4
+1.38.3
+1.37.6
+1.37.4
+1.37.3
+1.36.6
+1.36.5
+1.36.4
+1.35.6
+1.35.4
+1.35.3
+1.35.2
+1.33.9
+1.33.8
+1.33.6
+1.33.5
+1.32.13
+1.32.12
+1.32.11
+1.30.13
+1.30.10
+1.30.9
+1.30.6
+1.30.5
+1.30.3
+1.28.15
+1.28.13
+1.28.11
+1.28.10
+1.28.8
+1.28.7
+1.28.3
+1.27.7
+1.27.6
+1.27.5
+1.25.8
+1.25.7
+1.25.6
+1.25.5
+1.25.3
+1.23.6
+1.23.5
+1.23.4
+1.22.7
+1.22.6
+1.21.3
+1.21.2
+1.21.1
+1.20.2
+1.19.7
+1.19.6
+1.19.5
+1.19.2
+1.17.4
+1.17.2
+1.17.1
+1.16.2
+1.16.1
+1.15.6
+1.15.5
+1.15.3
+1.14.4
+1.14.2
+1.13.4
+1.13.3
+1.13.2
+1.12.4
+1.12.0
+1.11.2
+1.11.0
+1.9.7
+1.9.3
+1.9.2
+1.8.3
+1.8.1
+1.7.2
+1.7.1
+1.6.5
+1.6.4
+1.6.3
+1.6.2
+1.5.0
+1.4.3
+1.4.1
+1.3.3
+======= 此软件包版本在 winget 上的信息 =======
+已找到 豆包 [ByteDance.Doubao]
+版本: 1.9.2
+发布者: Beijing Chuntian Zhiyun Technology Co., Ltd.
+发布服务器 URL: https://www.doubao.com/
+作者: 北京春田知韵科技有限公司
+描述: 豆包是你的 AI 聊天智能对话问答助手,写作文案翻译情感陪伴编程全能工具。豆包为你答疑解惑,提供灵感,辅助创作,也可以和你畅聊任何你感兴趣的话题。
+主页: https://www.doubao.com/
+许可证: 免费软件
+许可证 URL: https://www.doubao.com/legal/terms
+隐私 URL: https://www.doubao.com/legal/privacy
+版权所有: 版权所有 2024 The 豆包 Authors。保留所有权利。
+发行说明: 1.9 版本发布
+标记：
+  ai
+  ai对话
+  ai聊天
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.9.2/Doubao_installer_1.9.2.exe
+  安装程序 SHA256： 9e34e4ad1f96af16c3cd70a41479bf262f45aa7b829d51d10c6ad6ebcac6bdb7
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\ByteDance\Doubao\1.9.2\ByteDance.Doubao.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.1 Dumplings Mod $debug=QUSU.CRLF.7-4-2.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: ByteDance.Doubao
+PackageVersion: 1.9.2
+InstallerType: exe
+Scope: user
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: --command=quiet_install
+  SilentWithProgress: --command=quiet_install
+  InstallLocation: --target_dir="<INSTALLPATH>"
+  Log: --log_dir="<LOGPATH>"
+UpgradeBehavior: install
+Installers:
+- Architecture: x64
+  InstallerUrl: https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.9.2/Doubao_installer_1.9.2.exe
+  InstallerSha256: 9E34E4AD1F96AF16C3CD70A41479BF262F45AA7B829D51D10C6AD6EBCAC6BDB7
+  ProductCode: Doubao
+ManifestType: installer
+ManifestVersion: 1.6.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 豆包 [ByteDance.Doubao] 版本 1.9.2
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.9.2/Doubao_installer_1.9.2.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 8 of 8 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                  BRANCH                                                   CREATED AT
+#263853  Remove version: ByteDance.Doubao version 1.8.3 (Auto)  ...:Remove-ByteDance.Doubao-1.8.3-1749340474  less than a minute ago
+#263852  Remove version: ByteDance.Doubao version 1.8.1 (Auto)  ...:Remove-ByteDance.Doubao-1.8.1-1749340430  about 1 minute ago
+#263851  Remove version: ByteDance.Doubao version 1.7.2 (Auto)  ...:Remove-ByteDance.Doubao-1.7.2-1749340386  about 1 minute ago
+#263850  Remove version: ByteDance.Doubao version 1.7.1 (Auto)  ...:Remove-ByteDance.Doubao-1.7.1-1749340336  about 2 minutes ago
+#263849  Remove version: ByteDance.Doubao version 1.6.2 (Auto)  ...:Remove-ByteDance.Doubao-1.6.2-1749340288  about 3 minutes ago
+#263848  Remove version: ByteDance.Doubao version 1.5.0 (Auto)  ...:Remove-ByteDance.Doubao-1.5.0-1749340245  about 4 minutes ago
+#263847  Remove version: ByteDance.Doubao version 1.4.3 (Auto)  ...:Remove-ByteDance.Doubao-1.4.3-1749340199  about 4 minutes ago
+#263846  Remove version: ByteDance.Doubao version 1.3.3 (Auto)  ...:Remove-ByteDance.Doubao-1.3.3-1749340120  about 6 minutes ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                        BRANCH                                          CREATED AT
+#157001  New version: ByteDance.Doubao version 1.9.2  SpecterShell:ByteDance.Doubao-1.9.2-1073208593  about 1 year ago
+#157359  New version: ByteDance.Doubao version 1.9.3  SpecterShell:ByteDance.Doubao-1.9.3-1872776602  about 12 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-ByteDance.Doubao-1.9.2-1749340518'
+  已签出新分支 Remove-ByteDance.Doubao-1.9.2-1749340518
+  已移除软件包 ByteDance.Doubao 版本 1.9.2
+[Remove-ByteDance.Doubao-1.9.2-1749340518 c8e53b8895f] Remove version: ByteDance.Doubao version 1.9.2 (Auto)
+ 4 files changed, 93 deletions(-)
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.9.2/ByteDance.Doubao.installer.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.9.2/ByteDance.Doubao.locale.en-US.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.9.2/ByteDance.Doubao.locale.zh-CN.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.9.2/ByteDance.Doubao.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 743 bytes | 371.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-ByteDance.Doubao-1.9.2-1749340518' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-ByteDance.Doubao-1.9.2-1749340518
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-ByteDance.Doubao-1.9.2-1749340518 -> Remove-ByteDance.Doubao-1.9.2-1749340518
+branch 'Remove-ByteDance.Doubao-1.9.2-1749340518' set up to track 'origin/Remove-ByteDance.Doubao-1.9.2-1749340518'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/263854
+ 成功移除 ByteDance.Doubao 版本 1.9.2
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-ByteDance.Doubao-1.9.2-1749340518 (was c8e53b8895f).
+工作区清理完成
+
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 豆包 [ByteDance.Doubao]
+版本
+-------
+1.58.6
+1.57.8
+1.57.7
+1.56.6
+1.55.5
+1.54.10
+1.54.7
+1.53.7
+1.52.8
+1.51.10
+1.50.10
+1.49.10
+1.49.8
+1.49.7
+1.49.6
+1.48.7
+1.48.6
+1.48.4
+1.47.4
+1.47.3
+1.47.2
+1.46.7
+1.46.6
+1.46.5
+1.45.5
+1.45.4
+1.45.3
+1.42.6
+1.42.5
+1.42.4
+1.42.3
+1.41.6
+1.41.5
+1.41.4
+1.40.4
+1.40.3
+1.40.2
+1.39.8
+1.39.7
+1.39.3
+1.38.4
+1.38.3
+1.37.6
+1.37.4
+1.37.3
+1.36.6
+1.36.5
+1.36.4
+1.35.6
+1.35.4
+1.35.3
+1.35.2
+1.33.9
+1.33.8
+1.33.6
+1.33.5
+1.32.13
+1.32.12
+1.32.11
+1.30.13
+1.30.10
+1.30.9
+1.30.6
+1.30.5
+1.30.3
+1.28.15
+1.28.13
+1.28.11
+1.28.10
+1.28.8
+1.28.7
+1.28.3
+1.27.7
+1.27.6
+1.27.5
+1.25.8
+1.25.7
+1.25.6
+1.25.5
+1.25.3
+1.23.6
+1.23.5
+1.23.4
+1.22.7
+1.22.6
+1.21.3
+1.21.2
+1.21.1
+1.20.2
+1.19.7
+1.19.6
+1.19.5
+1.19.2
+1.17.4
+1.17.2
+1.17.1
+1.16.2
+1.16.1
+1.15.6
+1.15.5
+1.15.3
+1.14.4
+1.14.2
+1.13.4
+1.13.3
+1.13.2
+1.12.4
+1.12.0
+1.11.2
+1.11.0
+1.9.7
+1.9.3
+1.9.2
+1.8.3
+1.8.1
+1.7.2
+1.7.1
+1.6.5
+1.6.4
+1.6.3
+1.6.2
+1.5.0
+1.4.3
+1.4.1
+1.3.3
+======= 此软件包版本在 winget 上的信息 =======
+已找到 豆包 [ByteDance.Doubao]
+版本: 1.9.3
+发布者: Beijing Chuntian Zhiyun Technology Co., Ltd.
+发布服务器 URL: https://www.doubao.com/
+作者: 北京春田知韵科技有限公司
+描述: 豆包是你的 AI 聊天智能对话问答助手,写作文案翻译情感陪伴编程全能工具。豆包为你答疑解惑,提供灵感,辅助创作,也可以和你畅聊任何你感兴趣的话题。
+主页: https://www.doubao.com/
+许可证: 免费软件
+许可证 URL: https://www.doubao.com/legal/terms
+隐私 URL: https://www.doubao.com/legal/privacy
+版权所有: 版权所有 2024 The 豆包 Authors。保留所有权利。
+发行说明: 1.9 版本发布
+标记：
+  ai
+  ai对话
+  ai聊天
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.9.3/Doubao_installer_1.9.3.exe
+  安装程序 SHA256： 1ef1a554e10b2e467562e9e166a00efea09da6ae8804b58f1050eaca97854aa0
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\ByteDance\Doubao\1.9.3\ByteDance.Doubao.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.1 Dumplings Mod $debug=QUSU.CRLF.7-4-2.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: ByteDance.Doubao
+PackageVersion: 1.9.3
+InstallerType: exe
+Scope: user
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: --command=quiet_install
+  SilentWithProgress: --command=quiet_install
+  InstallLocation: --target_dir="<INSTALLPATH>"
+  Log: --log_dir="<LOGPATH>"
+UpgradeBehavior: install
+Installers:
+- Architecture: x64
+  InstallerUrl: https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.9.3/Doubao_installer_1.9.3.exe
+  InstallerSha256: 1EF1A554E10B2E467562E9E166A00EFEA09DA6AE8804B58F1050EACA97854AA0
+  ProductCode: Doubao
+ManifestType: installer
+ManifestVersion: 1.6.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 豆包 [ByteDance.Doubao] 版本 1.9.3
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.9.3/Doubao_installer_1.9.3.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 9 of 9 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                  BRANCH                                                   CREATED AT
+#263854  Remove version: ByteDance.Doubao version 1.9.2 (Auto)  ...:Remove-ByteDance.Doubao-1.9.2-1749340518  less than a minute ago
+#263853  Remove version: ByteDance.Doubao version 1.8.3 (Auto)  ...:Remove-ByteDance.Doubao-1.8.3-1749340474  about 1 minute ago
+#263852  Remove version: ByteDance.Doubao version 1.8.1 (Auto)  ...:Remove-ByteDance.Doubao-1.8.1-1749340430  about 1 minute ago
+#263851  Remove version: ByteDance.Doubao version 1.7.2 (Auto)  ...:Remove-ByteDance.Doubao-1.7.2-1749340386  about 2 minutes ago
+#263850  Remove version: ByteDance.Doubao version 1.7.1 (Auto)  ...:Remove-ByteDance.Doubao-1.7.1-1749340336  about 3 minutes ago
+#263849  Remove version: ByteDance.Doubao version 1.6.2 (Auto)  ...:Remove-ByteDance.Doubao-1.6.2-1749340288  about 4 minutes ago
+#263848  Remove version: ByteDance.Doubao version 1.5.0 (Auto)  ...:Remove-ByteDance.Doubao-1.5.0-1749340245  about 4 minutes ago
+#263847  Remove version: ByteDance.Doubao version 1.4.3 (Auto)  ...:Remove-ByteDance.Doubao-1.4.3-1749340199  about 5 minutes ago
+#263846  Remove version: ByteDance.Doubao version 1.3.3 (Auto)  ...:Remove-ByteDance.Doubao-1.3.3-1749340120  about 6 minutes ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                        BRANCH                                          CREATED AT
+#157359  New version: ByteDance.Doubao version 1.9.3  SpecterShell:ByteDance.Doubao-1.9.3-1872776602  about 12 months ago
+#157799  New version: ByteDance.Doubao version 1.9.7  SpecterShell:ByteDance.Doubao-1.9.7-1397327214  about 11 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-ByteDance.Doubao-1.9.3-1749340562'
+  已签出新分支 Remove-ByteDance.Doubao-1.9.3-1749340562
+  已移除软件包 ByteDance.Doubao 版本 1.9.3
+[Remove-ByteDance.Doubao-1.9.3-1749340562 e9e4c7c3db7] Remove version: ByteDance.Doubao version 1.9.3 (Auto)
+ 4 files changed, 93 deletions(-)
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.9.3/ByteDance.Doubao.installer.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.9.3/ByteDance.Doubao.locale.en-US.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.9.3/ByteDance.Doubao.locale.zh-CN.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.9.3/ByteDance.Doubao.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 746 bytes | 746.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-ByteDance.Doubao-1.9.3-1749340562' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-ByteDance.Doubao-1.9.3-1749340562
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-ByteDance.Doubao-1.9.3-1749340562 -> Remove-ByteDance.Doubao-1.9.3-1749340562
+branch 'Remove-ByteDance.Doubao-1.9.3-1749340562' set up to track 'origin/Remove-ByteDance.Doubao-1.9.3-1749340562'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/263855
+ 成功移除 ByteDance.Doubao 版本 1.9.3
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-ByteDance.Doubao-1.9.3-1749340562 (was e9e4c7c3db7).
+工作区清理完成
+
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 豆包 [ByteDance.Doubao]
+版本
+-------
+1.58.6
+1.57.8
+1.57.7
+1.56.6
+1.55.5
+1.54.10
+1.54.7
+1.53.7
+1.52.8
+1.51.10
+1.50.10
+1.49.10
+1.49.8
+1.49.7
+1.49.6
+1.48.7
+1.48.6
+1.48.4
+1.47.4
+1.47.3
+1.47.2
+1.46.7
+1.46.6
+1.46.5
+1.45.5
+1.45.4
+1.45.3
+1.42.6
+1.42.5
+1.42.4
+1.42.3
+1.41.6
+1.41.5
+1.41.4
+1.40.4
+1.40.3
+1.40.2
+1.39.8
+1.39.7
+1.39.3
+1.38.4
+1.38.3
+1.37.6
+1.37.4
+1.37.3
+1.36.6
+1.36.5
+1.36.4
+1.35.6
+1.35.4
+1.35.3
+1.35.2
+1.33.9
+1.33.8
+1.33.6
+1.33.5
+1.32.13
+1.32.12
+1.32.11
+1.30.13
+1.30.10
+1.30.9
+1.30.6
+1.30.5
+1.30.3
+1.28.15
+1.28.13
+1.28.11
+1.28.10
+1.28.8
+1.28.7
+1.28.3
+1.27.7
+1.27.6
+1.27.5
+1.25.8
+1.25.7
+1.25.6
+1.25.5
+1.25.3
+1.23.6
+1.23.5
+1.23.4
+1.22.7
+1.22.6
+1.21.3
+1.21.2
+1.21.1
+1.20.2
+1.19.7
+1.19.6
+1.19.5
+1.19.2
+1.17.4
+1.17.2
+1.17.1
+1.16.2
+1.16.1
+1.15.6
+1.15.5
+1.15.3
+1.14.4
+1.14.2
+1.13.4
+1.13.3
+1.13.2
+1.12.4
+1.12.0
+1.11.2
+1.11.0
+1.9.7
+1.9.3
+1.9.2
+1.8.3
+1.8.1
+1.7.2
+1.7.1
+1.6.5
+1.6.4
+1.6.3
+1.6.2
+1.5.0
+1.4.3
+1.4.1
+1.3.3
+======= 此软件包版本在 winget 上的信息 =======
+已找到 豆包 [ByteDance.Doubao]
+版本: 1.9.7
+发布者: Beijing Chuntian Zhiyun Technology Co., Ltd.
+发布服务器 URL: https://www.doubao.com/
+作者: 北京春田知韵科技有限公司
+描述: 豆包是你的 AI 聊天智能对话问答助手,写作文案翻译情感陪伴编程全能工具。豆包为你答疑解惑,提供灵感,辅助创作,也可以和你畅聊任何你感兴趣的话题。
+主页: https://www.doubao.com/
+许可证: 免费软件
+许可证 URL: https://www.doubao.com/legal/terms
+隐私 URL: https://www.doubao.com/legal/privacy
+版权所有: 版权所有 2024 The 豆包 Authors。保留所有权利。
+发行说明: 1.9 版本发布
+标记：
+  ai
+  ai对话
+  ai聊天
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.9.7/Doubao_installer_1.9.7.exe
+  安装程序 SHA256： 33362405bb91bef7016e686312e554f04dc4222c43dc4a65ae5ad27d16d52735
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\ByteDance\Doubao\1.9.7\ByteDance.Doubao.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.1 Dumplings Mod $debug=QUSU.CRLF.7-4-2.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: ByteDance.Doubao
+PackageVersion: 1.9.7
+InstallerType: exe
+Scope: user
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: --command=quiet_install
+  SilentWithProgress: --command=quiet_install
+  InstallLocation: --target_dir="<INSTALLPATH>"
+  Log: --log_dir="<LOGPATH>"
+UpgradeBehavior: install
+Installers:
+- Architecture: x64
+  InstallerUrl: https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.9.7/Doubao_installer_1.9.7.exe
+  InstallerSha256: 33362405BB91BEF7016E686312E554F04DC4222C43DC4A65AE5AD27D16D52735
+  ProductCode: Doubao
+ManifestType: installer
+ManifestVersion: 1.6.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 豆包 [ByteDance.Doubao] 版本 1.9.7
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.9.7/Doubao_installer_1.9.7.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 10 of 10 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                  BRANCH                                                   CREATED AT
+#263855  Remove version: ByteDance.Doubao version 1.9.3 (Auto)  ...:Remove-ByteDance.Doubao-1.9.3-1749340562  less than a minute ago
+#263854  Remove version: ByteDance.Doubao version 1.9.2 (Auto)  ...:Remove-ByteDance.Doubao-1.9.2-1749340518  about 1 minute ago
+#263853  Remove version: ByteDance.Doubao version 1.8.3 (Auto)  ...:Remove-ByteDance.Doubao-1.8.3-1749340474  about 1 minute ago
+#263852  Remove version: ByteDance.Doubao version 1.8.1 (Auto)  ...:Remove-ByteDance.Doubao-1.8.1-1749340430  about 2 minutes ago
+#263851  Remove version: ByteDance.Doubao version 1.7.2 (Auto)  ...:Remove-ByteDance.Doubao-1.7.2-1749340386  about 3 minutes ago
+#263850  Remove version: ByteDance.Doubao version 1.7.1 (Auto)  ...:Remove-ByteDance.Doubao-1.7.1-1749340336  about 4 minutes ago
+#263849  Remove version: ByteDance.Doubao version 1.6.2 (Auto)  ...:Remove-ByteDance.Doubao-1.6.2-1749340288  about 4 minutes ago
+#263848  Remove version: ByteDance.Doubao version 1.5.0 (Auto)  ...:Remove-ByteDance.Doubao-1.5.0-1749340245  about 5 minutes ago
+#263847  Remove version: ByteDance.Doubao version 1.4.3 (Auto)  ...:Remove-ByteDance.Doubao-1.4.3-1749340199  about 6 minutes ago
+#263846  Remove version: ByteDance.Doubao version 1.3.3 (Auto)  ...:Remove-ByteDance.Doubao-1.3.3-1749340120  about 7 minutes ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                         BRANCH                                          CREATED AT
+#157799  New version: ByteDance.Doubao version 1.9.7   SpecterShell:ByteDance.Doubao-1.9.7-1397327214  about 11 months ago
+#157846  New version: ByteDance.Doubao version 1.10.1  SpecterShell:ByteDance.Doubao-1.10.1-675871378  about 11 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-ByteDance.Doubao-1.9.7-1749340604'
+  已签出新分支 Remove-ByteDance.Doubao-1.9.7-1749340604
+  已移除软件包 ByteDance.Doubao 版本 1.9.7
+[Remove-ByteDance.Doubao-1.9.7-1749340604 ac863ff7944] Remove version: ByteDance.Doubao version 1.9.7 (Auto)
+ 4 files changed, 93 deletions(-)
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.9.7/ByteDance.Doubao.installer.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.9.7/ByteDance.Doubao.locale.en-US.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.9.7/ByteDance.Doubao.locale.zh-CN.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.9.7/ByteDance.Doubao.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 739 bytes | 369.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-ByteDance.Doubao-1.9.7-1749340604' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-ByteDance.Doubao-1.9.7-1749340604
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-ByteDance.Doubao-1.9.7-1749340604 -> Remove-ByteDance.Doubao-1.9.7-1749340604
+branch 'Remove-ByteDance.Doubao-1.9.7-1749340604' set up to track 'origin/Remove-ByteDance.Doubao-1.9.7-1749340604'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/263856
+ 成功移除 ByteDance.Doubao 版本 1.9.7
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-ByteDance.Doubao-1.9.7-1749340604 (was ac863ff7944).
+工作区清理完成
+
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 豆包 [ByteDance.Doubao]
+版本
+-------
+1.58.6
+1.57.8
+1.57.7
+1.56.6
+1.55.5
+1.54.10
+1.54.7
+1.53.7
+1.52.8
+1.51.10
+1.50.10
+1.49.10
+1.49.8
+1.49.7
+1.49.6
+1.48.7
+1.48.6
+1.48.4
+1.47.4
+1.47.3
+1.47.2
+1.46.7
+1.46.6
+1.46.5
+1.45.5
+1.45.4
+1.45.3
+1.42.6
+1.42.5
+1.42.4
+1.42.3
+1.41.6
+1.41.5
+1.41.4
+1.40.4
+1.40.3
+1.40.2
+1.39.8
+1.39.7
+1.39.3
+1.38.4
+1.38.3
+1.37.6
+1.37.4
+1.37.3
+1.36.6
+1.36.5
+1.36.4
+1.35.6
+1.35.4
+1.35.3
+1.35.2
+1.33.9
+1.33.8
+1.33.6
+1.33.5
+1.32.13
+1.32.12
+1.32.11
+1.30.13
+1.30.10
+1.30.9
+1.30.6
+1.30.5
+1.30.3
+1.28.15
+1.28.13
+1.28.11
+1.28.10
+1.28.8
+1.28.7
+1.28.3
+1.27.7
+1.27.6
+1.27.5
+1.25.8
+1.25.7
+1.25.6
+1.25.5
+1.25.3
+1.23.6
+1.23.5
+1.23.4
+1.22.7
+1.22.6
+1.21.3
+1.21.2
+1.21.1
+1.20.2
+1.19.7
+1.19.6
+1.19.5
+1.19.2
+1.17.4
+1.17.2
+1.17.1
+1.16.2
+1.16.1
+1.15.6
+1.15.5
+1.15.3
+1.14.4
+1.14.2
+1.13.4
+1.13.3
+1.13.2
+1.12.4
+1.12.0
+1.11.2
+1.11.0
+1.9.7
+1.9.3
+1.9.2
+1.8.3
+1.8.1
+1.7.2
+1.7.1
+1.6.5
+1.6.4
+1.6.3
+1.6.2
+1.5.0
+1.4.3
+1.4.1
+1.3.3
+======= 此软件包版本在 winget 上的信息 =======
+已找到 豆包 [ByteDance.Doubao]
+版本: 1.11.0
+发布者: Beijing Chuntian Zhiyun Technology Co., Ltd.
+发布服务器 URL: https://www.doubao.com/
+作者: 北京春田知韵科技有限公司
+描述: 豆包是你的 AI 聊天智能对话问答助手,写作文案翻译情感陪伴编程全能工具。豆包为你答疑解惑,提供灵感,辅助创作,也可以和你畅聊任何你感兴趣的话题。
+主页: https://www.doubao.com/
+许可证: 免费软件
+许可证 URL: https://www.doubao.com/legal/terms
+隐私 URL: https://www.doubao.com/legal/privacy
+版权所有: 版权所有 2024 The 豆包 Authors。保留所有权利。
+发行说明: 修复了一些问题
+标记：
+  ai
+  ai对话
+  ai聊天
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.11.0/Doubao_installer_1.11.0.exe
+  安装程序 SHA256： 1106374a2328ea6a8c3fe4f5add6935e7d38d3b90b4d51c40767bde25287810e
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\ByteDance\Doubao\1.11.0\ByteDance.Doubao.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.1 Dumplings Mod $debug=QUSU.CRLF.7-4-2.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: ByteDance.Doubao
+PackageVersion: 1.11.0
+InstallerType: exe
+Scope: user
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: --command=quiet_install
+  SilentWithProgress: --command=quiet_install
+  InstallLocation: --target_dir="<INSTALLPATH>"
+  Log: --log_dir="<LOGPATH>"
+UpgradeBehavior: install
+Installers:
+- Architecture: x64
+  InstallerUrl: https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.11.0/Doubao_installer_1.11.0.exe
+  InstallerSha256: 1106374A2328EA6A8C3FE4F5ADD6935E7D38D3B90B4D51C40767BDE25287810E
+  ProductCode: Doubao
+ManifestType: installer
+ManifestVersion: 1.6.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 豆包 [ByteDance.Doubao] 版本 1.11.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.11.0/Doubao_installer_1.11.0.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 11 of 11 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                  BRANCH                                                   CREATED AT
+#263856  Remove version: ByteDance.Doubao version 1.9.7 (Auto)  ...:Remove-ByteDance.Doubao-1.9.7-1749340604  less than a minute ago
+#263855  Remove version: ByteDance.Doubao version 1.9.3 (Auto)  ...:Remove-ByteDance.Doubao-1.9.3-1749340562  about 1 minute ago
+#263854  Remove version: ByteDance.Doubao version 1.9.2 (Auto)  ...:Remove-ByteDance.Doubao-1.9.2-1749340518  about 1 minute ago
+#263853  Remove version: ByteDance.Doubao version 1.8.3 (Auto)  ...:Remove-ByteDance.Doubao-1.8.3-1749340474  about 2 minutes ago
+#263852  Remove version: ByteDance.Doubao version 1.8.1 (Auto)  ...:Remove-ByteDance.Doubao-1.8.1-1749340430  about 3 minutes ago
+#263851  Remove version: ByteDance.Doubao version 1.7.2 (Auto)  ...:Remove-ByteDance.Doubao-1.7.2-1749340386  about 3 minutes ago
+#263850  Remove version: ByteDance.Doubao version 1.7.1 (Auto)  ...:Remove-ByteDance.Doubao-1.7.1-1749340336  about 4 minutes ago
+#263849  Remove version: ByteDance.Doubao version 1.6.2 (Auto)  ...:Remove-ByteDance.Doubao-1.6.2-1749340288  about 5 minutes ago
+#263848  Remove version: ByteDance.Doubao version 1.5.0 (Auto)  ...:Remove-ByteDance.Doubao-1.5.0-1749340245  about 6 minutes ago
+#263847  Remove version: ByteDance.Doubao version 1.4.3 (Auto)  ...:Remove-ByteDance.Doubao-1.4.3-1749340199  about 7 minutes ago
+#263846  Remove version: ByteDance.Doubao version 1.3.3 (Auto)  ...:Remove-ByteDance.Doubao-1.3.3-1749340120  about 8 minutes ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                         BRANCH                                          CREATED AT
+#159139  New version: ByteDance.Doubao version 1.11.0  SpecterShell:ByteDance.Doubao-1.11.0-400688661  about 11 months ago
+#159556  New version: ByteDance.Doubao version 1.11.1  SpecterShell:ByteDance.Doubao-1.11.1-413100796  about 11 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-ByteDance.Doubao-1.11.0-1749340657'
+  已签出新分支 Remove-ByteDance.Doubao-1.11.0-1749340657
+  已移除软件包 ByteDance.Doubao 版本 1.11.0
+[Remove-ByteDance.Doubao-1.11.0-1749340657 01138ca2507] Remove version: ByteDance.Doubao version 1.11.0 (Auto)
+ 4 files changed, 93 deletions(-)
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.11.0/ByteDance.Doubao.installer.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.11.0/ByteDance.Doubao.locale.en-US.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.11.0/ByteDance.Doubao.locale.zh-CN.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.11.0/ByteDance.Doubao.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 743 bytes | 743.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-ByteDance.Doubao-1.11.0-1749340657' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-ByteDance.Doubao-1.11.0-1749340657
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-ByteDance.Doubao-1.11.0-1749340657 -> Remove-ByteDance.Doubao-1.11.0-1749340657
+branch 'Remove-ByteDance.Doubao-1.11.0-1749340657' set up to track 'origin/Remove-ByteDance.Doubao-1.11.0-1749340657'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/263858
+ 成功移除 ByteDance.Doubao 版本 1.11.0
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-ByteDance.Doubao-1.11.0-1749340657 (was 01138ca2507).
+工作区清理完成
+
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 豆包 [ByteDance.Doubao]
+版本
+-------
+1.58.6
+1.57.8
+1.57.7
+1.56.6
+1.55.5
+1.54.10
+1.54.7
+1.53.7
+1.52.8
+1.51.10
+1.50.10
+1.49.10
+1.49.8
+1.49.7
+1.49.6
+1.48.7
+1.48.6
+1.48.4
+1.47.4
+1.47.3
+1.47.2
+1.46.7
+1.46.6
+1.46.5
+1.45.5
+1.45.4
+1.45.3
+1.42.6
+1.42.5
+1.42.4
+1.42.3
+1.41.6
+1.41.5
+1.41.4
+1.40.4
+1.40.3
+1.40.2
+1.39.8
+1.39.7
+1.39.3
+1.38.4
+1.38.3
+1.37.6
+1.37.4
+1.37.3
+1.36.6
+1.36.5
+1.36.4
+1.35.6
+1.35.4
+1.35.3
+1.35.2
+1.33.9
+1.33.8
+1.33.6
+1.33.5
+1.32.13
+1.32.12
+1.32.11
+1.30.13
+1.30.10
+1.30.9
+1.30.6
+1.30.5
+1.30.3
+1.28.15
+1.28.13
+1.28.11
+1.28.10
+1.28.8
+1.28.7
+1.28.3
+1.27.7
+1.27.6
+1.27.5
+1.25.8
+1.25.7
+1.25.6
+1.25.5
+1.25.3
+1.23.6
+1.23.5
+1.23.4
+1.22.7
+1.22.6
+1.21.3
+1.21.2
+1.21.1
+1.20.2
+1.19.7
+1.19.6
+1.19.5
+1.19.2
+1.17.4
+1.17.2
+1.17.1
+1.16.2
+1.16.1
+1.15.6
+1.15.5
+1.15.3
+1.14.4
+1.14.2
+1.13.4
+1.13.3
+1.13.2
+1.12.4
+1.12.0
+1.11.2
+1.11.0
+1.9.7
+1.9.3
+1.9.2
+1.8.3
+1.8.1
+1.7.2
+1.7.1
+1.6.5
+1.6.4
+1.6.3
+1.6.2
+1.5.0
+1.4.3
+1.4.1
+1.3.3
+======= 此软件包版本在 winget 上的信息 =======
+已找到 豆包 [ByteDance.Doubao]
+版本: 1.11.2
+发布者: Beijing Chuntian Zhiyun Technology Co., Ltd.
+发布服务器 URL: https://www.doubao.com/
+作者: 北京春田知韵科技有限公司
+描述: 豆包是你的 AI 聊天智能对话问答助手,写作文案翻译情感陪伴编程全能工具。豆包为你答疑解惑,提供灵感,辅助创作,也可以和你畅聊任何你感兴趣的话题。
+主页: https://www.doubao.com/
+许可证: 免费软件
+许可证 URL: https://www.doubao.com/legal/terms
+隐私 URL: https://www.doubao.com/legal/privacy
+版权所有: 版权所有 2024 The 豆包 Authors。保留所有权利。
+发行说明: 修复了一些问题
+标记：
+  ai
+  ai对话
+  ai聊天
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.11.2/Doubao_installer_1.11.2.exe
+  安装程序 SHA256： 3684095f855349e81d24e4426b6439e5c601ee28b209cf9321fcd8442ec44445
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\ByteDance\Doubao\1.11.2\ByteDance.Doubao.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.1 Dumplings Mod $debug=QUSU.CRLF.7-4-2.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: ByteDance.Doubao
+PackageVersion: 1.11.2
+InstallerType: exe
+Scope: user
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: --command=quiet_install
+  SilentWithProgress: --command=quiet_install
+  InstallLocation: --target_dir="<INSTALLPATH>"
+  Log: --log_dir="<LOGPATH>"
+UpgradeBehavior: install
+Installers:
+- Architecture: x64
+  InstallerUrl: https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.11.2/Doubao_installer_1.11.2.exe
+  InstallerSha256: 3684095F855349E81D24E4426B6439E5C601EE28B209CF9321FCD8442EC44445
+  ProductCode: Doubao
+ManifestType: installer
+ManifestVersion: 1.6.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 豆包 [ByteDance.Doubao] 版本 1.11.2
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.11.2/Doubao_installer_1.11.2.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 12 of 12 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                   BRANCH                                                    CREATED AT
+#263858  Remove version: ByteDance.Doubao version 1.11.0 (Auto)  ...:Remove-ByteDance.Doubao-1.11.0-1749340657  less than a minute ago
+#263856  Remove version: ByteDance.Doubao version 1.9.7 (Auto)   ...:Remove-ByteDance.Doubao-1.9.7-1749340604   about 1 minute ago
+#263855  Remove version: ByteDance.Doubao version 1.9.3 (Auto)   ...:Remove-ByteDance.Doubao-1.9.3-1749340562   about 1 minute ago
+#263854  Remove version: ByteDance.Doubao version 1.9.2 (Auto)   ...:Remove-ByteDance.Doubao-1.9.2-1749340518   about 2 minutes ago
+#263853  Remove version: ByteDance.Doubao version 1.8.3 (Auto)   ...:Remove-ByteDance.Doubao-1.8.3-1749340474   about 3 minutes ago
+#263852  Remove version: ByteDance.Doubao version 1.8.1 (Auto)   ...:Remove-ByteDance.Doubao-1.8.1-1749340430   about 4 minutes ago
+#263851  Remove version: ByteDance.Doubao version 1.7.2 (Auto)   ...:Remove-ByteDance.Doubao-1.7.2-1749340386   about 4 minutes ago
+#263850  Remove version: ByteDance.Doubao version 1.7.1 (Auto)   ...:Remove-ByteDance.Doubao-1.7.1-1749340336   about 5 minutes ago
+#263849  Remove version: ByteDance.Doubao version 1.6.2 (Auto)   ...:Remove-ByteDance.Doubao-1.6.2-1749340288   about 6 minutes ago
+#263846  Remove version: ByteDance.Doubao version 1.3.3 (Auto)   ...:Remove-ByteDance.Doubao-1.3.3-1749340120   about 9 minutes ago
+#263848  Remove version: ByteDance.Doubao version 1.5.0 (Auto)   ...:Remove-ByteDance.Doubao-1.5.0-1749340245   about 7 minutes ago
+#263847  Remove version: ByteDance.Doubao version 1.4.3 (Auto)   ...:Remove-ByteDance.Doubao-1.4.3-1749340199   about 7 minutes ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                         BRANCH                                           CREATED AT
+#160059  New version: ByteDance.Doubao version 1.11.2  SpecterShell:ByteDance.Doubao-1.11.2-1536676660  about 11 months ago
+#160888  New version: ByteDance.Doubao version 1.12.0  SpecterShell:ByteDance.Doubao-1.12.0-1373920145  about 11 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-ByteDance.Doubao-1.11.2-1749340700'
+  已签出新分支 Remove-ByteDance.Doubao-1.11.2-1749340700
+  已移除软件包 ByteDance.Doubao 版本 1.11.2
+[Remove-ByteDance.Doubao-1.11.2-1749340700 ca6882eae4a] Remove version: ByteDance.Doubao version 1.11.2 (Auto)
+ 4 files changed, 93 deletions(-)
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.11.2/ByteDance.Doubao.installer.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.11.2/ByteDance.Doubao.locale.en-US.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.11.2/ByteDance.Doubao.locale.zh-CN.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.11.2/ByteDance.Doubao.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 742 bytes | 742.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-ByteDance.Doubao-1.11.2-1749340700' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-ByteDance.Doubao-1.11.2-1749340700
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-ByteDance.Doubao-1.11.2-1749340700 -> Remove-ByteDance.Doubao-1.11.2-1749340700
+branch 'Remove-ByteDance.Doubao-1.11.2-1749340700' set up to track 'origin/Remove-ByteDance.Doubao-1.11.2-1749340700'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/263859
+ 成功移除 ByteDance.Doubao 版本 1.11.2
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-ByteDance.Doubao-1.11.2-1749340700 (was ca6882eae4a).
+工作区清理完成
+
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 豆包 [ByteDance.Doubao]
+版本
+-------
+1.58.6
+1.57.8
+1.57.7
+1.56.6
+1.55.5
+1.54.10
+1.54.7
+1.53.7
+1.52.8
+1.51.10
+1.50.10
+1.49.10
+1.49.8
+1.49.7
+1.49.6
+1.48.7
+1.48.6
+1.48.4
+1.47.4
+1.47.3
+1.47.2
+1.46.7
+1.46.6
+1.46.5
+1.45.5
+1.45.4
+1.45.3
+1.42.6
+1.42.5
+1.42.4
+1.42.3
+1.41.6
+1.41.5
+1.41.4
+1.40.4
+1.40.3
+1.40.2
+1.39.8
+1.39.7
+1.39.3
+1.38.4
+1.38.3
+1.37.6
+1.37.4
+1.37.3
+1.36.6
+1.36.5
+1.36.4
+1.35.6
+1.35.4
+1.35.3
+1.35.2
+1.33.9
+1.33.8
+1.33.6
+1.33.5
+1.32.13
+1.32.12
+1.32.11
+1.30.13
+1.30.10
+1.30.9
+1.30.6
+1.30.5
+1.30.3
+1.28.15
+1.28.13
+1.28.11
+1.28.10
+1.28.8
+1.28.7
+1.28.3
+1.27.7
+1.27.6
+1.27.5
+1.25.8
+1.25.7
+1.25.6
+1.25.5
+1.25.3
+1.23.6
+1.23.5
+1.23.4
+1.22.7
+1.22.6
+1.21.3
+1.21.2
+1.21.1
+1.20.2
+1.19.7
+1.19.6
+1.19.5
+1.19.2
+1.17.4
+1.17.2
+1.17.1
+1.16.2
+1.16.1
+1.15.6
+1.15.5
+1.15.3
+1.14.4
+1.14.2
+1.13.4
+1.13.3
+1.13.2
+1.12.4
+1.12.0
+1.11.2
+1.11.0
+1.9.7
+1.9.3
+1.9.2
+1.8.3
+1.8.1
+1.7.2
+1.7.1
+1.6.5
+1.6.4
+1.6.3
+1.6.2
+1.5.0
+1.4.3
+1.4.1
+1.3.3
+======= 此软件包版本在 winget 上的信息 =======
+已找到 豆包 [ByteDance.Doubao]
+版本: 1.12.0
+发布者: Beijing Chuntian Zhiyun Technology Co., Ltd.
+发布服务器 URL: https://www.doubao.com/
+作者: 北京春田知韵科技有限公司
+描述: 豆包是你的 AI 聊天智能对话问答助手,写作文案翻译情感陪伴编程全能工具。豆包为你答疑解惑,提供灵感,辅助创作,也可以和你畅聊任何你感兴趣的话题。
+主页: https://www.doubao.com/
+许可证: 免费软件
+许可证 URL: https://www.doubao.com/legal/terms
+隐私 URL: https://www.doubao.com/legal/privacy
+版权所有: 版权所有 2024 The 豆包 Authors。保留所有权利。
+发行说明:
+  增加了 AI 视图功能,在你浏览网页的过程中,根据不同网页可以一键切换成 AI 视图。
+  「AI 总结」可以让你快速了解网页的内容,「AI 看视频(目前支持 B 站)」可以让你看到视频的时间线节点和视频内容总结。
+标记：
+  ai
+  ai对话
+  ai聊天
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.12.0/Doubao_installer_1.12.0.exe
+  安装程序 SHA256： fda4abb9d8b8e27afb68fc0ef88b44a39896035a0607366e4e90ad95c2360e09
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\ByteDance\Doubao\1.12.0\ByteDance.Doubao.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.1 Dumplings Mod $debug=QUSU.CRLF.7-4-3.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: ByteDance.Doubao
+PackageVersion: 1.12.0
+InstallerType: exe
+Scope: user
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: --command=quiet_install
+  SilentWithProgress: --command=quiet_install
+  InstallLocation: --target_dir="<INSTALLPATH>"
+  Log: --log_dir="<LOGPATH>"
+UpgradeBehavior: install
+Installers:
+- Architecture: x64
+  InstallerUrl: https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.12.0/Doubao_installer_1.12.0.exe
+  InstallerSha256: FDA4ABB9D8B8E27AFB68FC0EF88B44A39896035A0607366E4E90AD95C2360E09
+  ProductCode: Doubao
+ManifestType: installer
+ManifestVersion: 1.6.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 豆包 [ByteDance.Doubao] 版本 1.12.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.12.0/Doubao_installer_1.12.0.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 13 of 13 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                   BRANCH                                                    CREATED AT
+#263859  Remove version: ByteDance.Doubao version 1.11.2 (Auto)  ...:Remove-ByteDance.Doubao-1.11.2-1749340700  less than a minute ago
+#263858  Remove version: ByteDance.Doubao version 1.11.0 (Auto)  ...:Remove-ByteDance.Doubao-1.11.0-1749340657  about 1 minute ago
+#263856  Remove version: ByteDance.Doubao version 1.9.7 (Auto)   ...:Remove-ByteDance.Doubao-1.9.7-1749340604   about 1 minute ago
+#263855  Remove version: ByteDance.Doubao version 1.9.3 (Auto)   ...:Remove-ByteDance.Doubao-1.9.3-1749340562   about 2 minutes ago
+#263854  Remove version: ByteDance.Doubao version 1.9.2 (Auto)   ...:Remove-ByteDance.Doubao-1.9.2-1749340518   about 3 minutes ago
+#263853  Remove version: ByteDance.Doubao version 1.8.3 (Auto)   ...:Remove-ByteDance.Doubao-1.8.3-1749340474   about 4 minutes ago
+#263852  Remove version: ByteDance.Doubao version 1.8.1 (Auto)   ...:Remove-ByteDance.Doubao-1.8.1-1749340430   about 4 minutes ago
+#263851  Remove version: ByteDance.Doubao version 1.7.2 (Auto)   ...:Remove-ByteDance.Doubao-1.7.2-1749340386   about 5 minutes ago
+#263847  Remove version: ByteDance.Doubao version 1.4.3 (Auto)   ...:Remove-ByteDance.Doubao-1.4.3-1749340199   about 8 minutes ago
+#263850  Remove version: ByteDance.Doubao version 1.7.1 (Auto)   ...:Remove-ByteDance.Doubao-1.7.1-1749340336   about 6 minutes ago
+#263849  Remove version: ByteDance.Doubao version 1.6.2 (Auto)   ...:Remove-ByteDance.Doubao-1.6.2-1749340288   about 7 minutes ago
+#263846  Remove version: ByteDance.Doubao version 1.3.3 (Auto)   ...:Remove-ByteDance.Doubao-1.3.3-1749340120   about 9 minutes ago
+#263848  Remove version: ByteDance.Doubao version 1.5.0 (Auto)   ...:Remove-ByteDance.Doubao-1.5.0-1749340245   about 7 minutes ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                         BRANCH                                           CREATED AT
+#160888  New version: ByteDance.Doubao version 1.12.0  SpecterShell:ByteDance.Doubao-1.12.0-1373920145  about 11 months ago
+#161275  New version: ByteDance.Doubao version 1.12.4  SpecterShell:ByteDance.Doubao-1.12.4-1993629041  about 11 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-ByteDance.Doubao-1.12.0-1749340742'
+  已签出新分支 Remove-ByteDance.Doubao-1.12.0-1749340742
+  已移除软件包 ByteDance.Doubao 版本 1.12.0
+[Remove-ByteDance.Doubao-1.12.0-1749340742 aac8e84915e] Remove version: ByteDance.Doubao version 1.12.0 (Auto)
+ 4 files changed, 95 deletions(-)
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.12.0/ByteDance.Doubao.installer.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.12.0/ByteDance.Doubao.locale.en-US.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.12.0/ByteDance.Doubao.locale.zh-CN.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.12.0/ByteDance.Doubao.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 744 bytes | 744.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-ByteDance.Doubao-1.12.0-1749340742' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-ByteDance.Doubao-1.12.0-1749340742
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-ByteDance.Doubao-1.12.0-1749340742 -> Remove-ByteDance.Doubao-1.12.0-1749340742
+branch 'Remove-ByteDance.Doubao-1.12.0-1749340742' set up to track 'origin/Remove-ByteDance.Doubao-1.12.0-1749340742'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/263860
+ 成功移除 ByteDance.Doubao 版本 1.12.0
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-ByteDance.Doubao-1.12.0-1749340742 (was aac8e84915e).
+工作区清理完成
+
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 豆包 [ByteDance.Doubao]
+版本
+-------
+1.58.6
+1.57.8
+1.57.7
+1.56.6
+1.55.5
+1.54.10
+1.54.7
+1.53.7
+1.52.8
+1.51.10
+1.50.10
+1.49.10
+1.49.8
+1.49.7
+1.49.6
+1.48.7
+1.48.6
+1.48.4
+1.47.4
+1.47.3
+1.47.2
+1.46.7
+1.46.6
+1.46.5
+1.45.5
+1.45.4
+1.45.3
+1.42.6
+1.42.5
+1.42.4
+1.42.3
+1.41.6
+1.41.5
+1.41.4
+1.40.4
+1.40.3
+1.40.2
+1.39.8
+1.39.7
+1.39.3
+1.38.4
+1.38.3
+1.37.6
+1.37.4
+1.37.3
+1.36.6
+1.36.5
+1.36.4
+1.35.6
+1.35.4
+1.35.3
+1.35.2
+1.33.9
+1.33.8
+1.33.6
+1.33.5
+1.32.13
+1.32.12
+1.32.11
+1.30.13
+1.30.10
+1.30.9
+1.30.6
+1.30.5
+1.30.3
+1.28.15
+1.28.13
+1.28.11
+1.28.10
+1.28.8
+1.28.7
+1.28.3
+1.27.7
+1.27.6
+1.27.5
+1.25.8
+1.25.7
+1.25.6
+1.25.5
+1.25.3
+1.23.6
+1.23.5
+1.23.4
+1.22.7
+1.22.6
+1.21.3
+1.21.2
+1.21.1
+1.20.2
+1.19.7
+1.19.6
+1.19.5
+1.19.2
+1.17.4
+1.17.2
+1.17.1
+1.16.2
+1.16.1
+1.15.6
+1.15.5
+1.15.3
+1.14.4
+1.14.2
+1.13.4
+1.13.3
+1.13.2
+1.12.4
+1.12.0
+1.11.2
+1.11.0
+1.9.7
+1.9.3
+1.9.2
+1.8.3
+1.8.1
+1.7.2
+1.7.1
+1.6.5
+1.6.4
+1.6.3
+1.6.2
+1.5.0
+1.4.3
+1.4.1
+1.3.3
+======= 此软件包版本在 winget 上的信息 =======
+已找到 豆包 [ByteDance.Doubao]
+版本: 1.12.4
+发布者: Beijing Chuntian Zhiyun Technology Co., Ltd.
+发布服务器 URL: https://www.doubao.com/
+作者: 北京春田知韵科技有限公司
+描述: 豆包是你的 AI 聊天智能对话问答助手,写作文案翻译情感陪伴编程全能工具。豆包为你答疑解惑,提供灵感,辅助创作,也可以和你畅聊任何你感兴趣的话题。
+主页: https://www.doubao.com/
+许可证: 免费软件
+许可证 URL: https://www.doubao.com/legal/terms
+隐私 URL: https://www.doubao.com/legal/privacy
+版权所有: 版权所有 2024 The 豆包 Authors。保留所有权利。
+发行说明:
+  增加了 AI 视图功能,在你浏览网页的过程中,根据不同网页可以一键切换成 AI 视图。
+  「AI 总结」可以让你快速了解网页的内容,「AI 看视频(目前支持 B 站)」可以让你看到视频的时间线节点和视频内容总结。
+标记：
+  ai
+  ai对话
+  ai聊天
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.12.4/Doubao_installer_1.12.4.exe
+  安装程序 SHA256： 44729dab048d70b64621f2397af120d4c89ad489efb68e9651c7f89b90561d1b
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\ByteDance\Doubao\1.12.4\ByteDance.Doubao.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.1 Dumplings Mod $debug=QUSU.CRLF.7-4-3.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: ByteDance.Doubao
+PackageVersion: 1.12.4
+InstallerType: exe
+Scope: user
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: --command=quiet_install
+  SilentWithProgress: --command=quiet_install
+  InstallLocation: --target_dir="<INSTALLPATH>"
+  Log: --log_dir="<LOGPATH>"
+UpgradeBehavior: install
+Installers:
+- Architecture: x64
+  InstallerUrl: https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.12.4/Doubao_installer_1.12.4.exe
+  InstallerSha256: 44729DAB048D70B64621F2397AF120D4C89AD489EFB68E9651C7F89B90561D1B
+  ProductCode: Doubao
+ManifestType: installer
+ManifestVersion: 1.6.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 豆包 [ByteDance.Doubao] 版本 1.12.4
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.12.4/Doubao_installer_1.12.4.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 14 of 14 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                   BRANCH                                                    CREATED AT
+#263860  Remove version: ByteDance.Doubao version 1.12.0 (Auto)  ...:Remove-ByteDance.Doubao-1.12.0-1749340742  less than a minute ago
+#263859  Remove version: ByteDance.Doubao version 1.11.2 (Auto)  ...:Remove-ByteDance.Doubao-1.11.2-1749340700  about 1 minute ago
+#263858  Remove version: ByteDance.Doubao version 1.11.0 (Auto)  ...:Remove-ByteDance.Doubao-1.11.0-1749340657  about 1 minute ago
+#263856  Remove version: ByteDance.Doubao version 1.9.7 (Auto)   ...:Remove-ByteDance.Doubao-1.9.7-1749340604   about 2 minutes ago
+#263855  Remove version: ByteDance.Doubao version 1.9.3 (Auto)   ...:Remove-ByteDance.Doubao-1.9.3-1749340562   about 3 minutes ago
+#263854  Remove version: ByteDance.Doubao version 1.9.2 (Auto)   ...:Remove-ByteDance.Doubao-1.9.2-1749340518   about 4 minutes ago
+#263853  Remove version: ByteDance.Doubao version 1.8.3 (Auto)   ...:Remove-ByteDance.Doubao-1.8.3-1749340474   about 4 minutes ago
+#263852  Remove version: ByteDance.Doubao version 1.8.1 (Auto)   ...:Remove-ByteDance.Doubao-1.8.1-1749340430   about 5 minutes ago
+#263848  Remove version: ByteDance.Doubao version 1.5.0 (Auto)   ...:Remove-ByteDance.Doubao-1.5.0-1749340245   about 8 minutes ago
+#263851  Remove version: ByteDance.Doubao version 1.7.2 (Auto)   ...:Remove-ByteDance.Doubao-1.7.2-1749340386   about 6 minutes ago
+#263847  Remove version: ByteDance.Doubao version 1.4.3 (Auto)   ...:Remove-ByteDance.Doubao-1.4.3-1749340199   about 9 minutes ago
+#263850  Remove version: ByteDance.Doubao version 1.7.1 (Auto)   ...:Remove-ByteDance.Doubao-1.7.1-1749340336   about 7 minutes ago
+#263846  Remove version: ByteDance.Doubao version 1.3.3 (Auto)   ...:Remove-ByteDance.Doubao-1.3.3-1749340120   about 10 minutes ago
+#263849  Remove version: ByteDance.Doubao version 1.6.2 (Auto)   ...:Remove-ByteDance.Doubao-1.6.2-1749340288   about 7 minutes ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                         BRANCH                                           CREATED AT
+#161275  New version: ByteDance.Doubao version 1.12.4  SpecterShell:ByteDance.Doubao-1.12.4-1993629041  about 11 months ago
+#161941  New version: ByteDance.Doubao version 1.13.2  SpecterShell:ByteDance.Doubao-1.13.2-459903637   about 11 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-ByteDance.Doubao-1.12.4-1749340783'
+  已签出新分支 Remove-ByteDance.Doubao-1.12.4-1749340783
+  已移除软件包 ByteDance.Doubao 版本 1.12.4
+[Remove-ByteDance.Doubao-1.12.4-1749340783 430e83e70e7] Remove version: ByteDance.Doubao version 1.12.4 (Auto)
+ 4 files changed, 95 deletions(-)
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.12.4/ByteDance.Doubao.installer.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.12.4/ByteDance.Doubao.locale.en-US.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.12.4/ByteDance.Doubao.locale.zh-CN.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.12.4/ByteDance.Doubao.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 746 bytes | 373.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-ByteDance.Doubao-1.12.4-1749340783' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-ByteDance.Doubao-1.12.4-1749340783
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-ByteDance.Doubao-1.12.4-1749340783 -> Remove-ByteDance.Doubao-1.12.4-1749340783
+branch 'Remove-ByteDance.Doubao-1.12.4-1749340783' set up to track 'origin/Remove-ByteDance.Doubao-1.12.4-1749340783'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/263861
+ 成功移除 ByteDance.Doubao 版本 1.12.4
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-ByteDance.Doubao-1.12.4-1749340783 (was 430e83e70e7).
+工作区清理完成
+
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 豆包 [ByteDance.Doubao]
+版本
+-------
+1.58.6
+1.57.8
+1.57.7
+1.56.6
+1.55.5
+1.54.10
+1.54.7
+1.53.7
+1.52.8
+1.51.10
+1.50.10
+1.49.10
+1.49.8
+1.49.7
+1.49.6
+1.48.7
+1.48.6
+1.48.4
+1.47.4
+1.47.3
+1.47.2
+1.46.7
+1.46.6
+1.46.5
+1.45.5
+1.45.4
+1.45.3
+1.42.6
+1.42.5
+1.42.4
+1.42.3
+1.41.6
+1.41.5
+1.41.4
+1.40.4
+1.40.3
+1.40.2
+1.39.8
+1.39.7
+1.39.3
+1.38.4
+1.38.3
+1.37.6
+1.37.4
+1.37.3
+1.36.6
+1.36.5
+1.36.4
+1.35.6
+1.35.4
+1.35.3
+1.35.2
+1.33.9
+1.33.8
+1.33.6
+1.33.5
+1.32.13
+1.32.12
+1.32.11
+1.30.13
+1.30.10
+1.30.9
+1.30.6
+1.30.5
+1.30.3
+1.28.15
+1.28.13
+1.28.11
+1.28.10
+1.28.8
+1.28.7
+1.28.3
+1.27.7
+1.27.6
+1.27.5
+1.25.8
+1.25.7
+1.25.6
+1.25.5
+1.25.3
+1.23.6
+1.23.5
+1.23.4
+1.22.7
+1.22.6
+1.21.3
+1.21.2
+1.21.1
+1.20.2
+1.19.7
+1.19.6
+1.19.5
+1.19.2
+1.17.4
+1.17.2
+1.17.1
+1.16.2
+1.16.1
+1.15.6
+1.15.5
+1.15.3
+1.14.4
+1.14.2
+1.13.4
+1.13.3
+1.13.2
+1.12.4
+1.12.0
+1.11.2
+1.11.0
+1.9.7
+1.9.3
+1.9.2
+1.8.3
+1.8.1
+1.7.2
+1.7.1
+1.6.5
+1.6.4
+1.6.3
+1.6.2
+1.5.0
+1.4.3
+1.4.1
+1.3.3
+======= 此软件包版本在 winget 上的信息 =======
+已找到 豆包 [ByteDance.Doubao]
+版本: 1.13.2
+发布者: Beijing Chuntian Zhiyun Technology Co., Ltd.
+发布服务器 URL: https://www.doubao.com/
+作者: 北京春田知韵科技有限公司
+描述: 豆包是你的 AI 聊天智能对话问答助手,写作文案翻译情感陪伴编程全能工具。豆包为你答疑解惑,提供灵感,辅助创作,也可以和你畅聊任何你感兴趣的话题。
+主页: https://www.doubao.com/
+许可证: 免费软件
+许可证 URL: https://www.doubao.com/legal/terms
+隐私 URL: https://www.doubao.com/legal/privacy
+版权所有: 版权所有 2024 The 豆包 Authors。保留所有权利。
+发行说明: 增加了输入网址补全功能,在使用「问问豆包和 AI 搜索」时,输入网址将会自动补全:历史访问记录、书签以及一些常用流行网站的网址。
+标记：
+  ai
+  ai对话
+  ai聊天
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.13.2/Doubao_installer_1.13.2.exe
+  安装程序 SHA256： 280c4176e964a5224c30e6a1153ec09feb2f427791676d15a535510c448deb2e
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\b\ByteDance\Doubao\1.13.2\ByteDance.Doubao.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.1 Dumplings Mod $debug=QUSU.CRLF.7-4-3.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: ByteDance.Doubao
+PackageVersion: 1.13.2
+InstallerType: exe
+Scope: user
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: --command=quiet_install
+  SilentWithProgress: --command=quiet_install
+  InstallLocation: --target_dir="<INSTALLPATH>"
+  Log: --log_dir="<LOGPATH>"
+UpgradeBehavior: install
+Installers:
+- Architecture: x64
+  InstallerUrl: https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.13.2/Doubao_installer_1.13.2.exe
+  InstallerSha256: 280C4176E964A5224C30E6A1153EC09FEB2F427791676D15A535510C448DEB2E
+  ProductCode: Doubao
+ManifestType: installer
+ManifestVersion: 1.6.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 豆包 [ByteDance.Doubao] 版本 1.13.2
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://lf-aha.feishucdn.com/obj/ee-appcenter/samantha/doubao/1.13.2/Doubao_installer_1.13.2.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 15 of 15 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                   BRANCH                                                    CREATED AT
+#263861  Remove version: ByteDance.Doubao version 1.12.4 (Auto)  ...:Remove-ByteDance.Doubao-1.12.4-1749340783  less than a minute ago
+#263860  Remove version: ByteDance.Doubao version 1.12.0 (Auto)  ...:Remove-ByteDance.Doubao-1.12.0-1749340742  about 1 minute ago
+#263859  Remove version: ByteDance.Doubao version 1.11.2 (Auto)  ...:Remove-ByteDance.Doubao-1.11.2-1749340700  about 1 minute ago
+#263858  Remove version: ByteDance.Doubao version 1.11.0 (Auto)  ...:Remove-ByteDance.Doubao-1.11.0-1749340657  about 2 minutes ago
+#263856  Remove version: ByteDance.Doubao version 1.9.7 (Auto)   ...:Remove-ByteDance.Doubao-1.9.7-1749340604   about 3 minutes ago
+#263855  Remove version: ByteDance.Doubao version 1.9.3 (Auto)   ...:Remove-ByteDance.Doubao-1.9.3-1749340562   about 4 minutes ago
+#263854  Remove version: ByteDance.Doubao version 1.9.2 (Auto)   ...:Remove-ByteDance.Doubao-1.9.2-1749340518   about 4 minutes ago
+#263853  Remove version: ByteDance.Doubao version 1.8.3 (Auto)   ...:Remove-ByteDance.Doubao-1.8.3-1749340474   about 5 minutes ago
+#263852  Remove version: ByteDance.Doubao version 1.8.1 (Auto)   ...:Remove-ByteDance.Doubao-1.8.1-1749340430   about 6 minutes ago
+#263848  Remove version: ByteDance.Doubao version 1.5.0 (Auto)   ...:Remove-ByteDance.Doubao-1.5.0-1749340245   about 9 minutes ago
+#263851  Remove version: ByteDance.Doubao version 1.7.2 (Auto)   ...:Remove-ByteDance.Doubao-1.7.2-1749340386   about 6 minutes ago
+#263847  Remove version: ByteDance.Doubao version 1.4.3 (Auto)   ...:Remove-ByteDance.Doubao-1.4.3-1749340199   about 10 minutes ago
+#263850  Remove version: ByteDance.Doubao version 1.7.1 (Auto)   ...:Remove-ByteDance.Doubao-1.7.1-1749340336   about 7 minutes ago
+#263846  Remove version: ByteDance.Doubao version 1.3.3 (Auto)   ...:Remove-ByteDance.Doubao-1.3.3-1749340120   about 11 minutes ago
+#263849  Remove version: ByteDance.Doubao version 1.6.2 (Auto)   ...:Remove-ByteDance.Doubao-1.6.2-1749340288   about 8 minutes ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                         BRANCH                                           CREATED AT
+#161941  New version: ByteDance.Doubao version 1.13.2  SpecterShell:ByteDance.Doubao-1.13.2-459903637   about 11 months ago
+#162069  New version: ByteDance.Doubao version 1.13.3  SpecterShell:ByteDance.Doubao-1.13.3-2145719478  about 11 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-ByteDance.Doubao-1.13.2-1749340826'
+  已签出新分支 Remove-ByteDance.Doubao-1.13.2-1749340826
+  已移除软件包 ByteDance.Doubao 版本 1.13.2
+[Remove-ByteDance.Doubao-1.13.2-1749340826 a343593ec92] Remove version: ByteDance.Doubao version 1.13.2 (Auto)
+ 4 files changed, 93 deletions(-)
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.13.2/ByteDance.Doubao.installer.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.13.2/ByteDance.Doubao.locale.en-US.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.13.2/ByteDance.Doubao.locale.zh-CN.yaml
+ delete mode 100644 manifests/b/ByteDance/Doubao/1.13.2/ByteDance.Doubao.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 743 bytes | 743.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-ByteDance.Doubao-1.13.2-1749340826' on GitHub by visiting:
+remote:      https://github.com/.../winget-pkgs/pull/new/Remove-ByteDance.Doubao-1.13.2-1749340826
+remote:
+To https://github.com/.../winget-pkgs.git
+ * [new branch]              Remove-ByteDance.Doubao-1.13.2-1749340826 -> Remove-ByteDance.Doubao-1.13.2-1749340826
+branch 'Remove-ByteDance.Doubao-1.13.2-1749340826' set up to track 'origin/Remove-ByteDance.Doubao-1.13.2-1749340826'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/263862
+ 成功移除 ByteDance.Doubao 版本 1.13.2
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-ByteDance.Doubao-1.13.2-1749340826 (was a343593ec92).
+工作区清理完成
