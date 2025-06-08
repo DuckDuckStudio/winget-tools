@@ -537,5 +537,8 @@ launchSettings.json
 test/
 test.*
 
+# Locale
+移除脚本/
+
 # Copyright
 Copyright/
