@@ -1,0 +1,28 @@
+~~ Start logging ~~
+2025-06-08 16:06:06.380 FUN https://www.bilibili.com/video/BV1BokqYmEyr
+2025-06-08 16:06:06.403 INFO Found the following version folder: ['1.0.0', '2.4.2261']
+2025-06-08 16:06:06.416 INFO Processing version folder: 1.0.0
+2025-06-08 16:06:06.427 INFO   Create and checkout to a new branch: Modify-S-CapricornConsultingGmbH.Vigoon-1.0.0-1749369966
+2025-06-08 16:06:20.926 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\CapricornConsultingGmbH\Vigoon\1.0.0\CapricornConsultingGmbH.Vigoon.installer.yaml
+2025-06-08 16:06:20.929 INFO     检测到 D:\...\winget-pkgs\manifests\c\CapricornConsultingGmbH\Vigoon\1.0.0\CapricornConsultingGmbH.Vigoon.installer.yaml 中含有不安全的 URL (HTTP)，自动替换为安全的 URL (HTTPS)
+2025-06-08 16:06:20.930 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-08 16:06:20.933 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-08 16:06:20.935 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\CapricornConsultingGmbH\Vigoon\1.0.0\CapricornConsultingGmbH.Vigoon.installer.yaml
+2025-06-08 16:06:21.250 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\CapricornConsultingGmbH\Vigoon\1.0.0\CapricornConsultingGmbH.Vigoon.locale.en-US.yaml
+2025-06-08 16:06:21.288 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-08 16:06:21.291 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-08 16:06:21.293 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\CapricornConsultingGmbH\Vigoon\1.0.0\CapricornConsultingGmbH.Vigoon.locale.en-US.yaml
+2025-06-08 16:06:21.485 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\CapricornConsultingGmbH\Vigoon\1.0.0\CapricornConsultingGmbH.Vigoon.yaml
+2025-06-08 16:06:21.487 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-08 16:06:21.488 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-08 16:06:21.490 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\CapricornConsultingGmbH\Vigoon\1.0.0\CapricornConsultingGmbH.Vigoon.yaml
+2025-06-08 16:06:32.470 INFO     清单验证成功。
+2025-06-08 16:06:32.485 INFO   Staging and Committing Changes to Git
+2025-06-08 16:06:51.466 INFO     Commit message: Modify: CapricornConsultingGmbH.Vigoon version 1.0.0 (Auto)
+2025-06-08 16:06:51.472 INFO   Pushing changes to remote (origin) repository
+2025-06-08 16:06:56.613 INFO     Successfully pushed to remote (origin): Modify-S-CapricornConsultingGmbH.Vigoon-1.0.0-1749369966
+2025-06-08 16:06:58.347 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/263896
+2025-06-08 16:06:58.348 INFO Skip version 2.4.2261, because it's not in the list of versions to be modified.
+2025-06-08 16:06:58.350 INFO All manifests have been modified and pushed through.
+2025-06-08 16:07:04.669 INFO Workspace clean-up completed.
+~~ End of logging ~~
