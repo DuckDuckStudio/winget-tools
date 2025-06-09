@@ -7,7 +7,7 @@ on:
         type: choice
         description: 失败等级
         required: true
-        default: error
+        default: complete
         options:
           - error
           - warning
