@@ -1,0 +1,30 @@
+~~ Start logging ~~
+2025-06-09 10:48:51.377 FUN Wakayama-Airport
+2025-06-09 10:48:51.381 INFO Found the following version folder: ['33.2.3.1511.1201']
+2025-06-09 10:48:51.382 INFO Processing version folder: 33.2.3.1511.1201
+2025-06-09 10:48:51.384 INFO   Create and checkout to a new branch: Modify-S-LGElectronics.SmartShare-33.2.3.1511.1201-1749437331
+2025-06-09 10:49:23.249 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\l\LGElectronics\SmartShare\33.2.3.1511.1201\LGElectronics.SmartShare.installer.yaml
+2025-06-09 10:49:23.257 INFO     检测到 D:\...\winget-pkgs\manifests\l\LGElectronics\SmartShare\33.2.3.1511.1201\LGElectronics.SmartShare.installer.yaml 中含有不安全的 URL (HTTP)，自动替换为安全的 URL (HTTPS)
+2025-06-09 10:49:23.260 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-06-09 10:49:23.263 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-06-09 10:49:23.267 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\l\LGElectronics\SmartShare\33.2.3.1511.1201\LGElectronics.SmartShare.installer.yaml
+2025-06-09 10:49:23.782 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\l\LGElectronics\SmartShare\33.2.3.1511.1201\LGElectronics.SmartShare.locale.en-US.yaml
+2025-06-09 10:49:23.789 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-06-09 10:49:23.791 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-06-09 10:49:23.796 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\l\LGElectronics\SmartShare\33.2.3.1511.1201\LGElectronics.SmartShare.locale.en-US.yaml
+2025-06-09 10:49:24.356 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\l\LGElectronics\SmartShare\33.2.3.1511.1201\LGElectronics.SmartShare.yaml
+2025-06-09 10:49:24.387 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-06-09 10:49:24.405 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-06-09 10:49:24.440 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\l\LGElectronics\SmartShare\33.2.3.1511.1201\LGElectronics.SmartShare.yaml
+2025-06-09 10:51:19.591 WARNING     清单验证成功，但出现警告。
+2025-06-09 10:51:19.594 WARNING     Manifest Warning: Silent and SilentWithProgress switches are not specified for InstallerType exe. Please make sure the installer can run unattended.
+2025-06-09 10:51:19.596 INFO     
+2025-06-09 10:51:35.815 INFO Manifest Error Fixed.
+2025-06-09 10:51:35.840 INFO   Staging and Committing Changes to Git
+2025-06-09 10:51:54.595 INFO     Commit message: Modify: LGElectronics.SmartShare version 33.2.3.1511.1201 (Auto)
+2025-06-09 10:51:54.601 INFO   Pushing changes to remote (origin) repository
+2025-06-09 10:52:03.234 INFO     Successfully pushed to remote (origin): Modify-S-LGElectronics.SmartShare-33.2.3.1511.1201-1749437331
+2025-06-09 10:52:05.214 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/263998
+2025-06-09 10:52:05.227 INFO All manifests have been modified and pushed through.
+2025-06-09 10:52:27.363 INFO Workspace clean-up completed.
+~~ End of logging ~~
