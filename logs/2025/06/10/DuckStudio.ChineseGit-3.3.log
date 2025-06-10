@@ -1,0 +1,42 @@
+~~ Start logging ~~
+2025-06-10 13:19:09.265 FUN 你怎么睡得着的！你这个阶段你睡得着觉！
+2025-06-10 13:19:09.546 INFO Found the following version folder: ['2.10.0', '2.2', '2.3', '2.4', '2.5', '2.6', '2.7', '2.8', '2.9', '3.0', '3.1', '3.2', '3.3']
+2025-06-10 13:19:09.617 INFO Skip version 2.10.0, because it's not in the list of versions to be modified.
+2025-06-10 13:19:09.744 INFO Skip version 2.2, because it's not in the list of versions to be modified.
+2025-06-10 13:19:09.818 INFO Skip version 2.3, because it's not in the list of versions to be modified.
+2025-06-10 13:19:09.188 INFO Skip version 2.4, because it's not in the list of versions to be modified.
+2025-06-10 13:19:09.196 INFO Skip version 2.5, because it's not in the list of versions to be modified.
+2025-06-10 13:19:09.202 INFO Skip version 2.6, because it's not in the list of versions to be modified.
+2025-06-10 13:19:09.207 INFO Skip version 2.7, because it's not in the list of versions to be modified.
+2025-06-10 13:19:09.212 INFO Skip version 2.8, because it's not in the list of versions to be modified.
+2025-06-10 13:19:09.217 INFO Skip version 2.9, because it's not in the list of versions to be modified.
+2025-06-10 13:19:09.225 INFO Skip version 3.0, because it's not in the list of versions to be modified.
+2025-06-10 13:19:09.234 INFO Skip version 3.1, because it's not in the list of versions to be modified.
+2025-06-10 13:19:09.241 INFO Skip version 3.2, because it's not in the list of versions to be modified.
+2025-06-10 13:19:09.247 INFO Processing version folder: 3.3
+2025-06-10 13:19:09.252 INFO   Create and checkout to a new branch: New-Version-DuckStudio.ChineseGit-3.3-1749532749
+2025-06-10 13:19:17.653 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\ChineseGit\3.3\DuckStudio.ChineseGit.installer.yaml
+2025-06-10 13:19:17.654 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-10 13:19:17.655 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-10 13:19:17.656 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\ChineseGit\3.3\DuckStudio.ChineseGit.installer.yaml
+2025-06-10 13:19:17.806 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\ChineseGit\3.3\DuckStudio.ChineseGit.locale.zh-CN.yaml
+2025-06-10 13:19:17.808 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-10 13:19:17.809 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-10 13:19:17.811 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\ChineseGit\3.3\DuckStudio.ChineseGit.locale.zh-CN.yaml
+2025-06-10 13:19:17.914 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\ChineseGit\3.3\DuckStudio.ChineseGit.yaml
+2025-06-10 13:19:17.916 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-10 13:19:17.917 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-10 13:19:17.919 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\ChineseGit\3.3\DuckStudio.ChineseGit.yaml
+2025-06-10 13:19:18.301 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\ChineseGit\3.3 for DuckStudio.ChineseGit (3.3)
+2025-06-10 13:19:27.404 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-06-10 13:19:27.405 INFO       - 程序包
+2025-06-10 13:19:27.406 INFO           Git.Git
+2025-06-10 13:19:27.407 INFO     清单验证成功。
+2025-06-10 13:19:27.417 INFO   Staging and Committing Changes to Git
+2025-06-10 13:19:32.182 INFO     Commit message: New version: DuckStudio.ChineseGit version 3.3 (Auto)
+2025-06-10 13:19:32.183 INFO   Pushing changes to remote (origin) repository
+2025-06-10 13:19:36.325 INFO     Successfully pushed to remote (origin): New-Version-DuckStudio.ChineseGit-3.3-1749532749
+2025-06-10 13:19:37.893 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/264397
+2025-06-10 13:19:37.894 INFO All manifests have been modified and pushed through.
+2025-06-10 13:19:42.291 INFO Workspace clean-up completed.
+~~ End of logging ~~
