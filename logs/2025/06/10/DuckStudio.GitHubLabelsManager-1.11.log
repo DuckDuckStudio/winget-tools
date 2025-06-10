@@ -1,0 +1,39 @@
+~~ Start logging ~~
+2025-06-10 10:54:04.618 FUN 凡是自称公检法人员，以涉嫌相关违法犯罪为由，要求你将资金打入“安全账户”的，都是诈骗！
+2025-06-10 10:54:04.620 INFO Found the following version folder: ['1.10', '1.11', '1.5', '1.6', '1.7', '1.8', '1.9', 'v1.1', 'v1.2', 'v1.3', 'v1.4']
+2025-06-10 10:54:04.620 INFO Skip version 1.10, because it's not in the list of versions to be modified.
+2025-06-10 10:54:04.621 INFO Processing version folder: 1.11
+2025-06-10 10:54:04.622 INFO   Create and checkout to a new branch: New-Version-DuckStudio.GitHubLabelsManager-1.11-1749524044
+2025-06-10 10:54:19.314 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.11\DuckStudio.GitHubLabelsManager.installer.yaml
+2025-06-10 10:54:19.316 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.11\DuckStudio.GitHubLabelsManager.installer.yaml
+2025-06-10 10:54:19.483 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.11\DuckStudio.GitHubLabelsManager.locale.en-US.yaml
+2025-06-10 10:54:19.485 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.11\DuckStudio.GitHubLabelsManager.locale.en-US.yaml
+2025-06-10 10:54:19.603 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.11\DuckStudio.GitHubLabelsManager.locale.zh-CN.yaml
+2025-06-10 10:54:19.605 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.11\DuckStudio.GitHubLabelsManager.locale.zh-CN.yaml
+2025-06-10 10:54:19.722 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.11\DuckStudio.GitHubLabelsManager.yaml
+2025-06-10 10:54:19.723 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.11\DuckStudio.GitHubLabelsManager.yaml
+2025-06-10 10:54:19.845 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.11 for DuckStudio.GitHubLabelsManager (1.11)
+2025-06-10 10:54:26.711 WARNING     清单验证成功，但出现警告。
+2025-06-10 10:54:26.713 WARNING     Manifest Warning: The schema header URL does not match the expected pattern. Value: # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.11.0.schema.json Line: 2, Column: 25 File: DuckStudio.GitHubLabelsManager.installer.yaml
+2025-06-10 10:54:26.714 WARNING     Manifest Warning: The schema header URL does not match the expected pattern. Value: # yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.11.0.schema.json Line: 2, Column: 25 File: DuckStudio.GitHubLabelsManager.locale.en-US.yaml
+2025-06-10 10:54:26.715 WARNING     Manifest Warning: The schema header URL does not match the expected pattern. Value: # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.11.0.schema.json Line: 2, Column: 25 File: DuckStudio.GitHubLabelsManager.locale.zh-CN.yaml
+2025-06-10 10:54:26.715 WARNING     Manifest Warning: The schema header URL does not match the expected pattern. Value: # yaml-language-server: $schema=https://aka.ms/winget-manifest.version.1.11.0.schema.json Line: 2, Column: 25 File: DuckStudio.GitHubLabelsManager.yaml
+2025-06-10 10:54:26.716 INFO     
+2025-06-10 10:55:57.611 INFO Manifest Error Fixed.
+2025-06-10 10:55:57.614 INFO   Staging and Committing Changes to Git
+2025-06-10 10:56:13.775 INFO     Commit message: New version: DuckStudio.GitHubLabelsManager version 1.11 (Auto)
+2025-06-10 10:56:13.776 INFO   Pushing changes to remote (origin) repository
+2025-06-10 10:56:17.390 INFO     Successfully pushed to remote (origin): New-Version-DuckStudio.GitHubLabelsManager-1.11-1749524044
+2025-06-10 10:56:19.307 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/264309
+2025-06-10 10:56:19.308 INFO Skip version 1.5, because it's not in the list of versions to be modified.
+2025-06-10 10:56:19.309 INFO Skip version 1.6, because it's not in the list of versions to be modified.
+2025-06-10 10:56:19.310 INFO Skip version 1.7, because it's not in the list of versions to be modified.
+2025-06-10 10:56:19.311 INFO Skip version 1.8, because it's not in the list of versions to be modified.
+2025-06-10 10:56:19.312 INFO Skip version 1.9, because it's not in the list of versions to be modified.
+2025-06-10 10:56:19.312 INFO Skip version v1.1, because it's not in the list of versions to be modified.
+2025-06-10 10:56:19.313 INFO Skip version v1.2, because it's not in the list of versions to be modified.
+2025-06-10 10:56:19.314 INFO Skip version v1.3, because it's not in the list of versions to be modified.
+2025-06-10 10:56:19.314 INFO Skip version v1.4, because it's not in the list of versions to be modified.
+2025-06-10 10:56:19.315 INFO All manifests have been modified and pushed through.
+2025-06-10 11:06:15.157 INFO Workspace clean-up completed.
+~~ End of logging ~~
