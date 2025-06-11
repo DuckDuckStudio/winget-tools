@@ -60,7 +60,7 @@ namespace checker
             }
         }
 
-        internal static readonly string[] installerType = [".exe", ".zip", ".msi", ".msix", ".appx", "download"];
+        internal static readonly string[] installerType = [".exe", ".zip", ".msi", ".msix", ".appx", "download", ".msixbundle"];
         // &download 为 sourceforge 和类似网站的下载链接
 
         static async Task<bool> CheckUrlsInYamlFilesParallel(string folderPath, string failureLevel)
