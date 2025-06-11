@@ -71,7 +71,7 @@ namespace checker
 
             bool failed = false; // 在失败模式 complete 下的标记
             var fileTasks = new List<Task>();
-            var semaphore = new SemaphoreSlim(2); // 控制最大并发数
+            var semaphore = new SemaphoreSlim(8); // 控制最大并发数
 
             foreach (string filePath in Directory.EnumerateFiles(folderPath, "*.yaml", SearchOption.AllDirectories))
             {
