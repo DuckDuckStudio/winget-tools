@@ -109,11 +109,7 @@ namespace checker
 
             await Task.WhenAll(fileTasks);
 
-            if (failureLevel == "complete" && failed)
-            {
-                return false;
-            }
-            return true;
+            return !failed;
         }
 
         static async Task<bool> CheckUrlAsync(HttpClient client, string filePath, string url, string failureLevel)
