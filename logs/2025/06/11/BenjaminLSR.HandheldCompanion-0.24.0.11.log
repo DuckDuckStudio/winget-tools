@@ -1,0 +1,33 @@
+~~ Start logging ~~
+2025-06-11 21:29:01.279 FUN 唉乌蒙吃。
+2025-06-11 21:29:01.282 INFO Found the following version folder: ['0.18.0.6', '0.21.2.4', '0.22.0.3', '0.22.0.5', '0.22.1.18', '0.22.2.8', '0.23.3.0', '0.24.0.11']
+2025-06-11 21:29:01.284 INFO Skip version 0.18.0.6, because it's not in the list of versions to be modified.
+2025-06-11 21:29:01.285 INFO Skip version 0.21.2.4, because it's not in the list of versions to be modified.
+2025-06-11 21:29:01.286 INFO Skip version 0.22.0.3, because it's not in the list of versions to be modified.
+2025-06-11 21:29:01.287 INFO Skip version 0.22.0.5, because it's not in the list of versions to be modified.
+2025-06-11 21:29:01.288 INFO Skip version 0.22.1.18, because it's not in the list of versions to be modified.
+2025-06-11 21:29:01.289 INFO Skip version 0.22.2.8, because it's not in the list of versions to be modified.
+2025-06-11 21:29:01.290 INFO Skip version 0.23.3.0, because it's not in the list of versions to be modified.
+2025-06-11 21:29:01.291 INFO Processing version folder: 0.24.0.11
+2025-06-11 21:29:01.292 INFO   Create and checkout to a new branch: Modify-S-BenjaminLSR.HandheldCompanion-0.24.0.11-1749648541
+2025-06-11 21:29:21.978 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\BenjaminLSR\HandheldCompanion\0.24.0.11\BenjaminLSR.HandheldCompanion.installer.yaml
+2025-06-11 21:29:21.979 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-11 21:29:21.980 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-11 21:29:21.982 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\BenjaminLSR\HandheldCompanion\0.24.0.11\BenjaminLSR.HandheldCompanion.installer.yaml
+2025-06-11 21:29:22.231 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\BenjaminLSR\HandheldCompanion\0.24.0.11\BenjaminLSR.HandheldCompanion.locale.en-US.yaml
+2025-06-11 21:29:22.264 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-11 21:29:22.269 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-11 21:29:22.271 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\BenjaminLSR\HandheldCompanion\0.24.0.11\BenjaminLSR.HandheldCompanion.locale.en-US.yaml
+2025-06-11 21:29:22.445 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\BenjaminLSR\HandheldCompanion\0.24.0.11\BenjaminLSR.HandheldCompanion.yaml
+2025-06-11 21:29:22.447 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-11 21:29:22.449 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-11 21:29:22.451 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\BenjaminLSR\HandheldCompanion\0.24.0.11\BenjaminLSR.HandheldCompanion.yaml
+2025-06-11 21:32:08.563 INFO     清单验证成功。
+2025-06-11 21:32:08.575 INFO   Staging and Committing Changes to Git
+2025-06-11 21:32:26.436 INFO     Commit message: Modify: BenjaminLSR.HandheldCompanion version 0.24.0.11 (Auto)
+2025-06-11 21:32:26.437 INFO   Pushing changes to remote (origin) repository
+2025-06-11 21:32:31.603 INFO     Successfully pushed to remote (origin): Modify-S-BenjaminLSR.HandheldCompanion-0.24.0.11-1749648541
+2025-06-11 21:32:33.624 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/265147
+2025-06-11 21:32:33.626 INFO All manifests have been modified and pushed through.
+2025-06-11 21:32:39.791 INFO Workspace clean-up completed.
+~~ End of logging ~~
