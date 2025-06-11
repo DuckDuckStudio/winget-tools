@@ -113,7 +113,7 @@ namespace checker
             {
                 return false;
             }
-            return !failed;
+            return true;
         }
 
         static async Task<bool> CheckUrlAsync(HttpClient client, string filePath, string url, string failureLevel)
@@ -143,10 +143,7 @@ namespace checker
                             {
                                 Console.WriteLine($"\n[Error] (安装程序返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})");
                                 Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath).Replace(".installer.yaml", "")} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
-                                if (failureLevel != "complete")
-                                {
-                                    return false;
-                                }
+                                return false;
                             }
                             else
                             {
@@ -282,10 +279,7 @@ namespace checker
                         {
                             Console.WriteLine($"\n[Error] (安装程序 Name or service not known) {filePath} 中的 {url} 域名或服务器未知 ({e.Message})");
                             Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath).Replace(".installer.yaml", "")} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
-                            if (failureLevel != "complete")
-                            {
-                                return false;
-                            }
+                            return false;
                         }
                         else
                         {
@@ -353,10 +347,7 @@ namespace checker
                 if (failureLevel == "warning" || filePath.Contains("installer.yaml"))
                 {
                     Console.WriteLine($"\n[Error] {filePath} 中的 {url} 无效: {e.Message}");
-                    if (failureLevel != "complete")
-                    {
-                        return false;
-                    }
+                    return false;
                 }
                 else
                 {
@@ -366,10 +357,7 @@ namespace checker
             catch (Exception e)
             {
                 Console.WriteLine($"\n[Error] {filePath} 中的 {url} 发生错误: {e.Message}");
-                if (failureLevel != "complete")
-                {
-                    return false;
-                }
+                return false;
             }
             return true;
         }
