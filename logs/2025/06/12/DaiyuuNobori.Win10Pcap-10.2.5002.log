@@ -1,0 +1,27 @@
+~~ Start logging ~~
+2025-06-12 09:59:50.972 FUN https://www.bilibili.com/video/BV1vN4y1H7wL/?t=14.7
+2025-06-12 09:59:50.973 INFO Found the following version folder: ['10.2.5002']
+2025-06-12 09:59:50.974 INFO Processing version folder: 10.2.5002
+2025-06-12 09:59:50.976 INFO   Create and checkout to a new branch: Modify-S-DaiyuuNobori.Win10Pcap-10.2.5002-1749693590
+2025-06-12 10:00:07.720 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DaiyuuNobori\Win10Pcap\10.2.5002\DaiyuuNobori.Win10Pcap.installer.yaml
+2025-06-12 10:00:07.731 INFO     检测到 D:\...\winget-pkgs\manifests\d\DaiyuuNobori\Win10Pcap\10.2.5002\DaiyuuNobori.Win10Pcap.installer.yaml 中含有不安全的 URL (HTTP)，自动替换为安全的 URL (HTTPS)
+2025-06-12 10:00:07.733 INFO     Replace ManifestVersion: 1.1.0 -> 1.10.0
+2025-06-12 10:00:07.734 INFO     Replace schema references: 1.1.0.schema.json -> 1.10.0.schema.json
+2025-06-12 10:00:07.735 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DaiyuuNobori\Win10Pcap\10.2.5002\DaiyuuNobori.Win10Pcap.installer.yaml
+2025-06-12 10:00:07.937 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DaiyuuNobori\Win10Pcap\10.2.5002\DaiyuuNobori.Win10Pcap.locale.en-US.yaml
+2025-06-12 10:00:07.941 INFO     Replace ManifestVersion: 1.1.0 -> 1.10.0
+2025-06-12 10:00:07.942 INFO     Replace schema references: 1.1.0.schema.json -> 1.10.0.schema.json
+2025-06-12 10:00:07.944 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DaiyuuNobori\Win10Pcap\10.2.5002\DaiyuuNobori.Win10Pcap.locale.en-US.yaml
+2025-06-12 10:00:08.566 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DaiyuuNobori\Win10Pcap\10.2.5002\DaiyuuNobori.Win10Pcap.yaml
+2025-06-12 10:00:08.586 INFO     Replace ManifestVersion: 1.1.0 -> 1.10.0
+2025-06-12 10:00:08.597 INFO     Replace schema references: 1.1.0.schema.json -> 1.10.0.schema.json
+2025-06-12 10:00:08.616 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DaiyuuNobori\Win10Pcap\10.2.5002\DaiyuuNobori.Win10Pcap.yaml
+2025-06-12 10:00:50.971 INFO     清单验证成功。
+2025-06-12 10:00:50.980 INFO   Staging and Committing Changes to Git
+2025-06-12 10:00:56.856 INFO     Commit message: Modify: DaiyuuNobori.Win10Pcap version 10.2.5002 (Auto)
+2025-06-12 10:00:56.857 INFO   Pushing changes to remote (origin) repository
+2025-06-12 10:01:02.199 INFO     Successfully pushed to remote (origin): Modify-S-DaiyuuNobori.Win10Pcap-10.2.5002-1749693590
+2025-06-12 10:01:03.955 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/265339
+2025-06-12 10:01:03.956 INFO All manifests have been modified and pushed through.
+2025-06-12 10:01:09.992 INFO Workspace clean-up completed.
+~~ End of logging ~~
