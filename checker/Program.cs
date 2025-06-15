@@ -441,7 +441,6 @@ namespace checker
                 "https://issuepcdn.baidupcs.com/", "https://lf-luna-release.qishui.com/obj/luna-release/", "https://down.360safe.com/cse/", // 超时
                 "https://www.argyllcms.com/", // 服务器拒绝冲泡咖啡
                 "https://aurorabuilder.com/downloads/Aurora%20Setup.zip", // 假400
-                "http://installer.jdownloader.org/JD2SilentSetup_x64.exe", "http://installer.jdownloader.org/JD2SilentSetup_x86.exe", // WIP - https://github.com/microsoft/winget-pkgs/pull/258347
             ];
             return excludedDomains.Any(url.Contains);
         }
