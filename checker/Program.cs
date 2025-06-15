@@ -44,13 +44,29 @@ namespace checker
             else
             {
 #if DEBUG
-                Console.WriteLine($"[Debug] 检查目录 {args[0]} | 失败级别 {args[1]}");
                 Console.WriteLine("[Debug] 失败级别获取失败，使用默认 error");
 #endif
                 failureLevel = "error";
             }
 
-            if (await CheckUrlsInYamlFilesParallel(folderPath, failureLevel))
+            // 最大并发数
+            int maxConcurrency = 8;
+            if (args.Length == 3)
+            {
+                if (!int.TryParse(args[2], out maxConcurrency))
+                {
+                    Console.WriteLine("[Warning] 指定的最大并发数无效，默认为 8。");
+                    maxConcurrency = 8;
+                }
+            }
+            else
+            {
+#if DEBUG
+                Console.WriteLine("[Debug] 最大并发数未定义，默认为 8");
+#endif
+            }
+
+            if (await CheckUrlsInYamlFilesParallel(folderPath, failureLevel, maxConcurrency))
             {
                 Console.WriteLine("\n所有检查的链接正常");
             }
@@ -63,7 +79,7 @@ namespace checker
         internal static readonly string[] installerType = [".exe", ".zip", ".msi", ".msix", ".appx", "download", ".msixbundle"];
         // &download 为 sourceforge 和类似网站的下载链接
 
-        static async Task<bool> CheckUrlsInYamlFilesParallel(string folderPath, string failureLevel)
+        private static async Task<bool> CheckUrlsInYamlFilesParallel(string folderPath, string failureLevel, int maxConcurrency)
         {
             using HttpClient client = new();
             client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3");
@@ -71,7 +87,7 @@ namespace checker
 
             bool failed = false; // 在失败模式 complete 下的标记
             var fileTasks = new List<Task>();
-            var semaphore = new SemaphoreSlim(8); // 控制最大并发数
+            var semaphore = new SemaphoreSlim(maxConcurrency); // 控制最大并发数
 
             foreach (string filePath in Directory.EnumerateFiles(folderPath, "*.yaml", SearchOption.AllDirectories))
             {
