@@ -21,6 +21,11 @@ on:
         description: 检查的分支
         required: true
         default: master
+      max_concurrency:
+        description: 最大并发数
+        required: false
+        # 有默认 8
+        default: "8"
       mode:
         type: choice
         description: 生成模式
@@ -58,5 +63,5 @@ jobs:
           git clone "https://github.com/${{ inputs.fork }}/winget-pkgs" "winget-pkgs" -b ${{ inputs.branch }} --depth 1
 
       - name: 执行检查
-        run: dotnet run --project "checker/checker.csproj" --configuration ${{ inputs.mode }} -- ${{ matrix.subdirectory }} ${{ inputs.fail_level }}
+        run: dotnet run --project "checker/checker.csproj" --configuration ${{ inputs.mode }} -- ${{ matrix.subdirectory }} ${{ inputs.fail_level }} ${{ inputs.max_concurrency }}
         continue-on-error: ${{ inputs.fail_level == 'no-fail' }}
