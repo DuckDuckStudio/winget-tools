@@ -1,0 +1,49 @@
+~~ Start logging ~~
+2025-06-17 22:42:37.282 FUN 算了懒得写了
+2025-06-17 22:42:37.371 INFO Found the following version folder: ['1.8.24.0', '1.8.25.0', '1.8.26.0', '1.8.27.0', '1.9.0.0', '1.9.1.0', '1.9.10.0', '1.9.10.1', '1.9.11.0', '1.9.11.2', '1.9.11.3', '1.9.11.4', '1.9.11.6', '1.9.11.7', '1.9.11.8', '1.9.2.0', '1.9.3.0', '1.9.4.0', '1.9.5.0', '1.9.6.0', '1.9.7.0', '1.9.8.0', '1.9.9.0', '2.0.0.0', '2.0.0.1', '2.0.0.2', '2.0.0.3', '2.0.0.6', '2.0.0.7', '2.1.0.0']
+2025-06-17 22:42:37.372 INFO Skip version 1.8.24.0, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.374 INFO Skip version 1.8.25.0, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.374 INFO Skip version 1.8.26.0, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.375 INFO Skip version 1.8.27.0, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.376 INFO Skip version 1.9.0.0, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.378 INFO Skip version 1.9.1.0, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.379 INFO Skip version 1.9.10.0, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.379 INFO Skip version 1.9.10.1, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.380 INFO Skip version 1.9.11.0, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.381 INFO Skip version 1.9.11.2, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.381 INFO Skip version 1.9.11.3, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.382 INFO Skip version 1.9.11.4, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.382 INFO Skip version 1.9.11.6, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.383 INFO Skip version 1.9.11.7, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.383 INFO Skip version 1.9.11.8, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.384 INFO Skip version 1.9.2.0, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.384 INFO Skip version 1.9.3.0, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.385 INFO Skip version 1.9.4.0, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.385 INFO Skip version 1.9.5.0, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.386 INFO Skip version 1.9.6.0, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.386 INFO Skip version 1.9.7.0, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.387 INFO Skip version 1.9.8.0, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.387 INFO Skip version 1.9.9.0, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.388 INFO Skip version 2.0.0.0, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.388 INFO Skip version 2.0.0.1, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.389 INFO Skip version 2.0.0.2, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.389 INFO Skip version 2.0.0.3, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.389 INFO Skip version 2.0.0.6, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.390 INFO Skip version 2.0.0.7, because it's not in the list of versions to be modified.
+2025-06-17 22:42:37.390 INFO Processing version folder: 2.1.0.0
+2025-06-17 22:42:37.391 INFO   Create and checkout to a new branch: Modify-S-PixPin.PixPin.Beta-2.1.0.0-1750171357
+2025-06-17 22:42:46.763 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\PixPin\PixPin\Beta\2.1.0.0\PixPin.PixPin.Beta.installer.yaml
+2025-06-17 22:42:46.775 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\PixPin\PixPin\Beta\2.1.0.0\PixPin.PixPin.Beta.installer.yaml
+2025-06-17 22:42:46.950 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\PixPin\PixPin\Beta\2.1.0.0\PixPin.PixPin.Beta.locale.zh-CN.yaml
+2025-06-17 22:42:46.954 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\PixPin\PixPin\Beta\2.1.0.0\PixPin.PixPin.Beta.locale.zh-CN.yaml
+2025-06-17 22:42:47.581 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\PixPin\PixPin\Beta\2.1.0.0\PixPin.PixPin.Beta.yaml
+2025-06-17 22:42:47.608 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\PixPin\PixPin\Beta\2.1.0.0\PixPin.PixPin.Beta.yaml
+2025-06-17 22:44:45.598 INFO     清单验证成功。
+2025-06-17 22:44:45.608 INFO   Staging and Committing Changes to Git
+2025-06-17 22:45:00.161 INFO     Commit message: Modify: PixPin.PixPin.Beta version 2.1.0.0 (Auto)
+2025-06-17 22:45:00.162 INFO   Pushing changes to remote (origin) repository
+2025-06-17 22:45:05.906 INFO     Successfully pushed to remote (origin): Modify-S-PixPin.PixPin.Beta-2.1.0.0-1750171357
+2025-06-17 22:45:08.541 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/266584
+2025-06-17 22:45:08.653 INFO All manifests have been modified and pushed through.
+2025-06-17 22:45:12.766 INFO Workspace clean-up completed.
+~~ End of logging ~~
