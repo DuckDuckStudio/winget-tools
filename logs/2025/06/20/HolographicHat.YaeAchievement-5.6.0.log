@@ -1,0 +1,27 @@
+~~ Start logging ~~
+2025-06-20 19:11:18.519 FUN 🧨哎咦耶咦耶咦耶啊↗️哦↘️，哎咦耶咦耶咦耶啊↗️哦↗️，我恭喜💪🏻你发财‍，我恭喜👍🏻你精彩！最好的请过来🤲，不好的请走开🙏🏻，oh礼多人不怪🎊，我祝☝🏻满天下的女孩🌸，嫁一个好男孩💕，俩小口👫永远在一块🦅，我祝，满天下的小孩👧🏻，聪明✍🏻胜过秀才💯，智商👉🏻充满你👊🏻脑袋🎓，我祝🀄，尊敬🙌🏻的姑奶奶👵🏻，三十六圈🌪️的比赛🚀，气不喘💦面容不改🔥，我祝👌🏻，三叔公👴🏻的买卖🤝，生意💪🏻扬名四海👏🏻，财运亨通💵住豪宅🏡，大摇🕺大摆💃，乐天替你消灾🙇🏻‍♂️，恭喜～发财🤝，要喊得📢够豪迈👍🏻恭↘！️喜！发↗️！财↗️！！！
+2025-06-20 19:11:18.522 INFO Found the following version folder: ['5.6.0']
+2025-06-20 19:11:18.523 INFO Processing version folder: 5.6.0
+2025-06-20 19:11:18.524 INFO   Create and checkout to a new branch: New-Version-HolographicHat.YaeAchievement-5.6.0-1750417878
+2025-06-20 19:11:28.926 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\HolographicHat\YaeAchievement\5.6.0\HolographicHat.YaeAchievement.installer.yaml
+2025-06-20 19:11:28.927 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-20 19:11:28.928 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-20 19:11:28.929 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\h\HolographicHat\YaeAchievement\5.6.0\HolographicHat.YaeAchievement.installer.yaml
+2025-06-20 19:11:29.202 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\HolographicHat\YaeAchievement\5.6.0\HolographicHat.YaeAchievement.locale.zh-CN.yaml
+2025-06-20 19:11:29.206 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-20 19:11:29.207 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-20 19:11:29.209 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\h\HolographicHat\YaeAchievement\5.6.0\HolographicHat.YaeAchievement.locale.zh-CN.yaml
+2025-06-20 19:11:29.355 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\HolographicHat\YaeAchievement\5.6.0\HolographicHat.YaeAchievement.yaml
+2025-06-20 19:11:29.356 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-20 19:11:29.358 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-20 19:11:29.360 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\h\HolographicHat\YaeAchievement\5.6.0\HolographicHat.YaeAchievement.yaml
+2025-06-20 19:11:29.524 INFO   New manifests in D:\...\winget-pkgs\manifests\h\HolographicHat\YaeAchievement\5.6.0 for HolographicHat.YaeAchievement (5.6.0)
+2025-06-20 19:23:58.899 INFO     清单验证成功。
+2025-06-20 19:23:58.913 INFO   Staging and Committing Changes to Git
+2025-06-20 19:24:15.143 INFO     Commit message: New version: HolographicHat.YaeAchievement version 5.6.0 (Auto)
+2025-06-20 19:24:15.144 INFO   Pushing changes to remote (origin) repository
+2025-06-20 19:24:20.215 INFO     Successfully pushed to remote (origin): New-Version-HolographicHat.YaeAchievement-5.6.0-1750417878
+2025-06-20 19:24:21.731 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/267294
+2025-06-20 19:24:21.733 INFO All manifests have been modified and pushed through.
+2025-06-20 19:24:27.635 INFO Workspace clean-up completed.
+~~ End of logging ~~
