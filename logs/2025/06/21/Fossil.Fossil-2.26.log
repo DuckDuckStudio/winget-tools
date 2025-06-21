@@ -1,0 +1,26 @@
+~~ Start logging ~~
+2025-06-21 09:08:59.444 FUN 梭哈是一种智慧
+2025-06-21 09:08:59.451 INFO Found the following version folder: ['.validation', '2.21', '2.22', '2.23', '2.24', '2.25', '2.26']
+2025-06-21 09:08:59.452 INFO Skip version .validation, because it's not in the list of versions to be modified.
+2025-06-21 09:08:59.453 INFO Skip version 2.21, because it's not in the list of versions to be modified.
+2025-06-21 09:08:59.453 INFO Skip version 2.22, because it's not in the list of versions to be modified.
+2025-06-21 09:08:59.454 INFO Skip version 2.23, because it's not in the list of versions to be modified.
+2025-06-21 09:08:59.454 INFO Skip version 2.24, because it's not in the list of versions to be modified.
+2025-06-21 09:08:59.455 INFO Skip version 2.25, because it's not in the list of versions to be modified.
+2025-06-21 09:08:59.455 INFO Processing version folder: 2.26
+2025-06-21 09:08:59.456 INFO   Create and checkout to a new branch: Modify-S-Fossil.Fossil-2.26-1750468139
+2025-06-21 09:09:08.829 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\Fossil\Fossil\2.26\Fossil.Fossil.installer.yaml
+2025-06-21 09:09:08.831 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\f\Fossil\Fossil\2.26\Fossil.Fossil.installer.yaml
+2025-06-21 09:09:09.246 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\Fossil\Fossil\2.26\Fossil.Fossil.locale.en-US.yaml
+2025-06-21 09:09:09.319 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\f\Fossil\Fossil\2.26\Fossil.Fossil.locale.en-US.yaml
+2025-06-21 09:09:09.171 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\Fossil\Fossil\2.26\Fossil.Fossil.yaml
+2025-06-21 09:09:09.175 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\f\Fossil\Fossil\2.26\Fossil.Fossil.yaml
+2025-06-21 09:10:32.380 INFO     清单验证成功。
+2025-06-21 09:10:32.390 INFO   Staging and Committing Changes to Git
+2025-06-21 09:10:47.607 INFO     Commit message: Modify: Fossil.Fossil version 2.26 (Auto)
+2025-06-21 09:10:47.608 INFO   Pushing changes to remote (origin) repository
+2025-06-21 09:10:52.457 INFO     Successfully pushed to remote (origin): Modify-S-Fossil.Fossil-2.26-1750468139
+2025-06-21 09:10:53.757 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/267396
+2025-06-21 09:10:53.759 INFO All manifests have been modified and pushed through.
+2025-06-21 09:10:58.766 INFO Workspace clean-up completed.
+~~ End of logging ~~
