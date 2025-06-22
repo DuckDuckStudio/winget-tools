@@ -457,6 +457,7 @@ namespace checker
                 "https://issuepcdn.baidupcs.com/", "https://lf-luna-release.qishui.com/obj/luna-release/", "https://down.360safe.com/cse/", // 超时
                 "https://www.argyllcms.com/", // 服务器拒绝冲泡咖啡
                 "https://aurorabuilder.com/downloads/Aurora%20Setup.zip", // 假400
+                "https://www.argyllcms.com/", // 服务器冲不动
             ];
             return excludedDomains.Any(url.Contains);
         }
