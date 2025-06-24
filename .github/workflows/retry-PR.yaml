@@ -11,10 +11,10 @@ on:
         type: choice
         description: 生成模式
         required: true
-        default: Release
+        default: Debug
         options:
-          - Release
           - Debug
+          - Release
   schedule:
     # 建议间隔 ~ 3 小时 (+) 左右运行一次，因为 IEDS 一般会在 Azure 管道运行约 3 小时后超时
     - cron: 30 0/3 * * *
