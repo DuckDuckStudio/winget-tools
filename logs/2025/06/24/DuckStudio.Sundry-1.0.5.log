@@ -1,0 +1,55 @@
+~~ Start logging ~~
+2025-06-24 07:58:19.971 FUN TRACK LOST
+2025-06-24 07:58:20.150 INFO Found the following version folder: ['1.0.1', '1.0.10', '1.0.11', '1.0.2', '1.0.3', '1.0.4', '1.0.5', '1.0.6', '1.0.7', '1.0.8', '1.0.9', '1.1.0', '1.1.1', '1.1.10', '1.1.11', '1.1.12', '1.1.13', '1.1.14', '1.1.2', '1.1.3', '1.1.4', '1.1.6', '1.1.7', '1.1.8', '1.1.9', '1.2.0', '1.2.1', '1.2.2', '1.2.3']
+2025-06-24 07:58:20.289 INFO Skip version 1.0.1, because it's not in the list of versions to be modified.
+2025-06-24 07:58:20.418 INFO Skip version 1.0.10, because it's not in the list of versions to be modified.
+2025-06-24 07:58:20.565 INFO Skip version 1.0.11, because it's not in the list of versions to be modified.
+2025-06-24 07:58:20.676 INFO Skip version 1.0.2, because it's not in the list of versions to be modified.
+2025-06-24 07:58:20.795 INFO Skip version 1.0.3, because it's not in the list of versions to be modified.
+2025-06-24 07:58:20.907 INFO Skip version 1.0.4, because it's not in the list of versions to be modified.
+2025-06-24 07:58:20.111 INFO Processing version folder: 1.0.5
+2025-06-24 07:58:20.123 INFO   Create and checkout to a new branch: Modify-S-DuckStudio.Sundry-1.0.5-1750723100
+2025-06-24 07:58:31.680 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.5\DuckStudio.Sundry.installer.yaml
+2025-06-24 07:58:31.683 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.5\DuckStudio.Sundry.installer.yaml
+2025-06-24 07:58:31.897 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.5\DuckStudio.Sundry.locale.en-US.yaml
+2025-06-24 07:58:31.900 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.5\DuckStudio.Sundry.locale.en-US.yaml
+2025-06-24 07:58:32.362 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.5\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-06-24 07:58:32.392 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.5\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-06-24 07:58:32.197 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.5\DuckStudio.Sundry.yaml
+2025-06-24 07:58:32.200 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.0.5\DuckStudio.Sundry.yaml
+2025-06-24 07:59:18.682 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-06-24 07:59:18.684 INFO       - 程序包
+2025-06-24 07:59:18.685 INFO           DuckStudio.GitHubLabelsManager [>= 1.7]
+2025-06-24 07:59:18.687 INFO           Git.Git
+2025-06-24 07:59:18.689 INFO           GitHub.cli
+2025-06-24 07:59:18.690 INFO     清单验证成功。
+2025-06-24 07:59:18.701 INFO   Staging and Committing Changes to Git
+2025-06-24 07:59:25.523 INFO     Commit message: Modify: DuckStudio.Sundry version 1.0.5 (Auto)
+2025-06-24 07:59:25.525 INFO   Pushing changes to remote (origin) repository
+2025-06-24 07:59:29.847 INFO     Successfully pushed to remote (origin): Modify-S-DuckStudio.Sundry-1.0.5-1750723100
+2025-06-24 07:59:31.673 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/267783
+2025-06-24 07:59:31.674 INFO Skip version 1.0.6, because it's not in the list of versions to be modified.
+2025-06-24 07:59:31.675 INFO Skip version 1.0.7, because it's not in the list of versions to be modified.
+2025-06-24 07:59:31.676 INFO Skip version 1.0.8, because it's not in the list of versions to be modified.
+2025-06-24 07:59:31.677 INFO Skip version 1.0.9, because it's not in the list of versions to be modified.
+2025-06-24 07:59:31.678 INFO Skip version 1.1.0, because it's not in the list of versions to be modified.
+2025-06-24 07:59:31.679 INFO Skip version 1.1.1, because it's not in the list of versions to be modified.
+2025-06-24 07:59:31.679 INFO Skip version 1.1.10, because it's not in the list of versions to be modified.
+2025-06-24 07:59:31.681 INFO Skip version 1.1.11, because it's not in the list of versions to be modified.
+2025-06-24 07:59:31.682 INFO Skip version 1.1.12, because it's not in the list of versions to be modified.
+2025-06-24 07:59:31.683 INFO Skip version 1.1.13, because it's not in the list of versions to be modified.
+2025-06-24 07:59:31.684 INFO Skip version 1.1.14, because it's not in the list of versions to be modified.
+2025-06-24 07:59:31.685 INFO Skip version 1.1.2, because it's not in the list of versions to be modified.
+2025-06-24 07:59:31.686 INFO Skip version 1.1.3, because it's not in the list of versions to be modified.
+2025-06-24 07:59:31.687 INFO Skip version 1.1.4, because it's not in the list of versions to be modified.
+2025-06-24 07:59:31.688 INFO Skip version 1.1.6, because it's not in the list of versions to be modified.
+2025-06-24 07:59:31.689 INFO Skip version 1.1.7, because it's not in the list of versions to be modified.
+2025-06-24 07:59:31.690 INFO Skip version 1.1.8, because it's not in the list of versions to be modified.
+2025-06-24 07:59:31.691 INFO Skip version 1.1.9, because it's not in the list of versions to be modified.
+2025-06-24 07:59:31.693 INFO Skip version 1.2.0, because it's not in the list of versions to be modified.
+2025-06-24 07:59:31.694 INFO Skip version 1.2.1, because it's not in the list of versions to be modified.
+2025-06-24 07:59:31.695 INFO Skip version 1.2.2, because it's not in the list of versions to be modified.
+2025-06-24 07:59:31.696 INFO Skip version 1.2.3, because it's not in the list of versions to be modified.
+2025-06-24 07:59:31.697 INFO All manifests have been modified and pushed through.
+2025-06-24 07:59:36.926 INFO Workspace clean-up completed.
+~~ End of logging ~~
