@@ -1,0 +1,30 @@
+~~ Start logging ~~
+2025-06-25 14:50:00.309 FUN 凡是宣称“内幕消息、专家指导、稳赚不赔、高额回报”的投资理财，都是诈骗！
+2025-06-25 14:50:00.313 INFO Found the following version folder: ['1.6.3']
+2025-06-25 14:50:00.314 INFO Processing version folder: 1.6.3
+2025-06-25 14:50:00.315 INFO   Create and checkout to a new branch: New-Version-nilaoda.BBDown-1.6.3-1750834200
+2025-06-25 14:50:29.694 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\n\nilaoda\BBDown\1.6.3\nilaoda.BBDown.installer.yaml
+2025-06-25 14:50:29.696 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-25 14:50:29.697 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-25 14:50:29.699 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\n\nilaoda\BBDown\1.6.3\nilaoda.BBDown.installer.yaml
+2025-06-25 14:50:29.843 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\n\nilaoda\BBDown\1.6.3\nilaoda.BBDown.locale.zh-CN.yaml
+2025-06-25 14:50:29.846 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-25 14:50:29.848 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-25 14:50:29.849 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\n\nilaoda\BBDown\1.6.3\nilaoda.BBDown.locale.zh-CN.yaml
+2025-06-25 14:50:29.933 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\n\nilaoda\BBDown\1.6.3\nilaoda.BBDown.yaml
+2025-06-25 14:50:29.934 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-25 14:50:29.935 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-25 14:50:29.937 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\n\nilaoda\BBDown\1.6.3\nilaoda.BBDown.yaml
+2025-06-25 14:50:30.471 INFO   New manifests in D:\...\winget-pkgs\manifests\n\nilaoda\BBDown\1.6.3 for nilaoda.BBDown (1.6.3)
+2025-06-25 14:50:57.326 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-06-25 14:50:57.328 INFO       - 程序包
+2025-06-25 14:50:57.329 INFO           Gyan.FFmpeg
+2025-06-25 14:50:57.330 INFO     清单验证成功。
+2025-06-25 14:50:57.338 INFO   Staging and Committing Changes to Git
+2025-06-25 14:51:12.775 INFO     Commit message: New version: nilaoda.BBDown version 1.6.3 (Auto)
+2025-06-25 14:51:12.776 INFO   Pushing changes to remote (origin) repository
+2025-06-25 14:51:24.447 INFO     Successfully pushed to remote (origin): New-Version-nilaoda.BBDown-1.6.3-1750834200
+2025-06-25 14:51:25.833 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/268369
+2025-06-25 14:51:25.834 INFO All manifests have been modified and pushed through.
+2025-06-25 14:51:31.827 INFO Workspace clean-up completed.
+~~ End of logging ~~
