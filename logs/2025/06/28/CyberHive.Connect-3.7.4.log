@@ -1,0 +1,36 @@
+~~ Start logging ~~
+2025-06-28 08:35:37.317 FUN 知其燃，而不知其所以燃
+2025-06-28 08:35:37.325 INFO Found the following version folder: ['3.5.1', '3.6.0', '3.7.0', '3.7.1', '3.7.2', '3.7.3', '3.7.4']
+2025-06-28 08:35:37.325 INFO Skip version 3.5.1, because it's not in the list of versions to be modified.
+2025-06-28 08:35:37.326 INFO Skip version 3.6.0, because it's not in the list of versions to be modified.
+2025-06-28 08:35:37.327 INFO Skip version 3.7.0, because it's not in the list of versions to be modified.
+2025-06-28 08:35:37.327 INFO Skip version 3.7.1, because it's not in the list of versions to be modified.
+2025-06-28 08:35:37.328 INFO Skip version 3.7.2, because it's not in the list of versions to be modified.
+2025-06-28 08:35:37.329 INFO Skip version 3.7.3, because it's not in the list of versions to be modified.
+2025-06-28 08:35:37.330 INFO Processing version folder: 3.7.4
+2025-06-28 08:35:37.331 INFO   Create and checkout to a new branch: Modify-S-CyberHive.Connect-3.7.4-1751070937
+2025-06-28 08:35:54.255 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\CyberHive\Connect\3.7.4\CyberHive.Connect.installer.yaml
+2025-06-28 08:35:54.266 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-28 08:35:54.268 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-28 08:35:54.270 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\CyberHive\Connect\3.7.4\CyberHive.Connect.installer.yaml
+2025-06-28 08:35:54.454 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\CyberHive\Connect\3.7.4\CyberHive.Connect.locale.en-US.yaml
+2025-06-28 08:35:54.458 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-28 08:35:54.461 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-28 08:35:54.464 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\CyberHive\Connect\3.7.4\CyberHive.Connect.locale.en-US.yaml
+2025-06-28 08:35:54.587 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\CyberHive\Connect\3.7.4\CyberHive.Connect.locale.zh-CN.yaml
+2025-06-28 08:35:54.589 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-28 08:35:54.590 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-28 08:35:54.592 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\CyberHive\Connect\3.7.4\CyberHive.Connect.locale.zh-CN.yaml
+2025-06-28 08:35:54.707 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\CyberHive\Connect\3.7.4\CyberHive.Connect.yaml
+2025-06-28 08:35:54.709 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-06-28 08:35:54.710 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-06-28 08:35:54.712 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\CyberHive\Connect\3.7.4\CyberHive.Connect.yaml
+2025-06-28 08:37:18.734 INFO     清单验证成功。
+2025-06-28 08:37:18.741 INFO   Staging and Committing Changes to Git
+2025-06-28 08:37:33.931 INFO     Commit message: Modify: CyberHive.Connect version 3.7.4 (Auto)
+2025-06-28 08:37:33.932 INFO   Pushing changes to remote (origin) repository
+2025-06-28 08:37:38.611 INFO     Successfully pushed to remote (origin): Modify-S-CyberHive.Connect-3.7.4-1751070937
+2025-06-28 08:37:40.299 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/269425
+2025-06-28 08:37:40.310 INFO All manifests have been modified and pushed through.
+2025-06-28 08:37:45.225 INFO Workspace clean-up completed.
+~~ End of logging ~~
