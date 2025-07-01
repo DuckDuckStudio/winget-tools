@@ -1,0 +1,24 @@
+~~ Start logging ~~
+2025-07-01 13:06:55.609 FUN 凡是宣称“内幕消息、专家指导、稳赚不赔、高额回报”的投资理财，都是诈骗！
+2025-07-01 13:06:55.611 INFO Found the following version folder: ['2025.1.3.8']
+2025-07-01 13:06:55.612 INFO Processing version folder: 2025.1.3.8
+2025-07-01 13:06:55.612 INFO   Create and checkout to a new branch: New-Version-Intel.OneAPI.BaseToolkit-2025.1.3.8-1751346415
+2025-07-01 13:07:04.831 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\i\Intel\OneAPI\BaseToolkit\2025.1.3.8\Intel.OneAPI.BaseToolkit.installer.yaml
+2025-07-01 13:07:04.833 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\i\Intel\OneAPI\BaseToolkit\2025.1.3.8\Intel.OneAPI.BaseToolkit.installer.yaml
+2025-07-01 13:07:04.983 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\i\Intel\OneAPI\BaseToolkit\2025.1.3.8\Intel.OneAPI.BaseToolkit.locale.en-US.yaml
+2025-07-01 13:07:04.986 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\i\Intel\OneAPI\BaseToolkit\2025.1.3.8\Intel.OneAPI.BaseToolkit.locale.en-US.yaml
+2025-07-01 13:07:05.101 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\i\Intel\OneAPI\BaseToolkit\2025.1.3.8\Intel.OneAPI.BaseToolkit.yaml
+2025-07-01 13:07:05.103 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\i\Intel\OneAPI\BaseToolkit\2025.1.3.8\Intel.OneAPI.BaseToolkit.yaml
+2025-07-01 13:07:05.234 INFO   New manifests in D:\...\winget-pkgs\manifests\i\Intel\OneAPI\BaseToolkit\2025.1.3.8 for Intel.OneAPI.BaseToolkit (2025.1.3.8)
+2025-07-01 13:08:50.743 WARNING     清单验证成功，但出现警告。
+2025-07-01 13:08:50.744 WARNING     Manifest Warning: Silent and SilentWithProgress switches are not specified for InstallerType exe. Please make sure the installer can run unattended.
+2025-07-01 13:08:50.745 INFO     
+2025-07-01 13:08:53.127 INFO Manifest Error Fixed.
+2025-07-01 13:08:53.128 INFO   Staging and Committing Changes to Git
+2025-07-01 13:08:58.330 INFO     Commit message: New version: Intel.OneAPI.BaseToolkit version 2025.1.3.8 (Auto)
+2025-07-01 13:08:58.331 INFO   Pushing changes to remote (origin) repository
+2025-07-01 13:09:02.212 INFO     Successfully pushed to remote (origin): New-Version-Intel.OneAPI.BaseToolkit-2025.1.3.8-1751346415
+2025-07-01 13:09:04.325 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/270138
+2025-07-01 13:09:04.327 INFO All manifests have been modified and pushed through.
+2025-07-01 13:09:08.984 INFO Workspace clean-up completed.
+~~ End of logging ~~
