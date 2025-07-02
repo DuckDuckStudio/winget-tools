@@ -1,0 +1,25 @@
+~~ Start logging ~~
+2025-07-03 06:00:16.930 FUN (·v·)
+2025-07-03 06:00:16.934 INFO Found the following version folder: ['8.30.00', '8.33.00']
+2025-07-03 06:00:16.935 INFO Skip version 8.30.00, because it's not in the list of versions to be modified.
+2025-07-03 06:00:16.936 INFO Processing version folder: 8.33.00
+2025-07-03 06:00:16.936 INFO   Create and checkout to a new branch: New-Version-CMU.CLAN-8.33.00-1751493616
+2025-07-03 06:00:32.890 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\CMU\CLAN\8.33.00\CMU.CLAN.installer.yaml
+2025-07-03 06:00:32.893 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\CMU\CLAN\8.33.00\CMU.CLAN.installer.yaml
+2025-07-03 06:00:33.610 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\CMU\CLAN\8.33.00\CMU.CLAN.locale.en-US.yaml
+2025-07-03 06:00:33.631 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\CMU\CLAN\8.33.00\CMU.CLAN.locale.en-US.yaml
+2025-07-03 06:00:33.178 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\CMU\CLAN\8.33.00\CMU.CLAN.yaml
+2025-07-03 06:00:33.180 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\CMU\CLAN\8.33.00\CMU.CLAN.yaml
+2025-07-03 06:00:33.303 INFO   New manifests in D:\...\winget-pkgs\manifests\c\CMU\CLAN\8.33.00 for CMU.CLAN (8.33.00)
+2025-07-03 06:14:49.230 WARNING     清单验证成功，但出现警告。
+2025-07-03 06:14:49.232 WARNING     Manifest Warning: Unknown field. [Moniker]
+2025-07-03 06:14:49.233 INFO     
+2025-07-03 06:14:56.389 INFO Manifest Error Fixed.
+2025-07-03 06:14:56.513 INFO   Staging and Committing Changes to Git
+2025-07-03 06:15:06.873 INFO     Commit message: New version: CMU.CLAN version 8.33.00 (Auto)
+2025-07-03 06:15:06.926 INFO   Pushing changes to remote (origin) repository
+2025-07-03 06:15:12.644 INFO     Successfully pushed to remote (origin): New-Version-CMU.CLAN-8.33.00-1751493616
+2025-07-03 06:15:14.738 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/270819
+2025-07-03 06:15:14.739 INFO All manifests have been modified and pushed through.
+2025-07-03 06:15:19.219 INFO Workspace clean-up completed.
+~~ End of logging ~~
