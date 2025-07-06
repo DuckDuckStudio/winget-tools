@@ -1,0 +1,44 @@
+~~ Start logging ~~
+2025-07-06 16:11:26.291 FUN 人性是什么？能量产吗？效率多少？
+2025-07-06 16:11:26.300 INFO Found the following version folder: ['20230331', '20230425', '20231031', '20231231', '20240131', '20240321', '20240430', '20240520', '20240618', '20240730', '20241128', '20250318']
+2025-07-06 16:11:26.301 INFO Skip version 20230331, because it's not in the list of versions to be modified.
+2025-07-06 16:11:26.302 INFO Skip version 20230425, because it's not in the list of versions to be modified.
+2025-07-06 16:11:26.303 INFO Skip version 20231031, because it's not in the list of versions to be modified.
+2025-07-06 16:11:26.313 INFO Skip version 20231231, because it's not in the list of versions to be modified.
+2025-07-06 16:11:26.314 INFO Skip version 20240131, because it's not in the list of versions to be modified.
+2025-07-06 16:11:26.315 INFO Skip version 20240321, because it's not in the list of versions to be modified.
+2025-07-06 16:11:26.316 INFO Skip version 20240430, because it's not in the list of versions to be modified.
+2025-07-06 16:11:26.317 INFO Skip version 20240520, because it's not in the list of versions to be modified.
+2025-07-06 16:11:26.318 INFO Skip version 20240618, because it's not in the list of versions to be modified.
+2025-07-06 16:11:26.319 INFO Processing version folder: 20240730
+2025-07-06 16:11:26.319 INFO   Create and checkout to a new branch: Modify-S-Dio.PureCodec-20240730-1751789486
+2025-07-06 16:11:35.347 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\Dio\PureCodec\20240730\Dio.PureCodec.installer.yaml
+2025-07-06 16:11:35.350 INFO     检测到 D:\...\winget-pkgs\manifests\d\Dio\PureCodec\20240730\Dio.PureCodec.installer.yaml 中含有不安全的 URL (HTTP)，自动替换为安全的 URL (HTTPS)
+2025-07-06 16:11:35.351 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-07-06 16:11:35.352 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-07-06 16:11:35.353 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\Dio\PureCodec\20240730\Dio.PureCodec.installer.yaml
+2025-07-06 16:11:35.504 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\Dio\PureCodec\20240730\Dio.PureCodec.locale.en-US.yaml
+2025-07-06 16:11:35.506 INFO     检测到 D:\...\winget-pkgs\manifests\d\Dio\PureCodec\20240730\Dio.PureCodec.locale.en-US.yaml 中含有不安全的 URL (HTTP)，自动替换为安全的 URL (HTTPS)
+2025-07-06 16:11:35.507 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-07-06 16:11:35.509 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-07-06 16:11:35.510 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\Dio\PureCodec\20240730\Dio.PureCodec.locale.en-US.yaml
+2025-07-06 16:11:35.615 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\Dio\PureCodec\20240730\Dio.PureCodec.locale.zh-CN.yaml
+2025-07-06 16:11:35.617 INFO     检测到 D:\...\winget-pkgs\manifests\d\Dio\PureCodec\20240730\Dio.PureCodec.locale.zh-CN.yaml 中含有不安全的 URL (HTTP)，自动替换为安全的 URL (HTTPS)
+2025-07-06 16:11:35.618 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-07-06 16:11:35.619 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-07-06 16:11:35.621 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\Dio\PureCodec\20240730\Dio.PureCodec.locale.zh-CN.yaml
+2025-07-06 16:11:35.738 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\Dio\PureCodec\20240730\Dio.PureCodec.yaml
+2025-07-06 16:11:35.741 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-07-06 16:11:35.742 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-07-06 16:11:35.744 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\Dio\PureCodec\20240730\Dio.PureCodec.yaml
+2025-07-06 16:11:47.512 INFO     清单验证成功。
+2025-07-06 16:11:47.522 INFO   Staging and Committing Changes to Git
+2025-07-06 16:11:52.255 INFO     Commit message: Modify: Dio.PureCodec version 20240730 (Auto)
+2025-07-06 16:11:52.256 INFO   Pushing changes to remote (origin) repository
+2025-07-06 16:11:55.516 INFO     Successfully pushed to remote (origin): Modify-S-Dio.PureCodec-20240730-1751789486
+2025-07-06 16:11:57.449 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/271582
+2025-07-06 16:11:57.451 INFO Skip version 20241128, because it's not in the list of versions to be modified.
+2025-07-06 16:11:57.451 INFO Skip version 20250318, because it's not in the list of versions to be modified.
+2025-07-06 16:11:57.452 INFO All manifests have been modified and pushed through.
+2025-07-06 16:12:02.215 INFO Workspace clean-up completed.
+~~ End of logging ~~
