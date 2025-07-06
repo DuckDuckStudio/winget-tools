@@ -1,0 +1,44 @@
+~~ Start logging ~~
+2025-07-06 16:10:23.814 FUN Oi！
+2025-07-06 16:10:23.824 INFO Found the following version folder: ['20230331', '20230425', '20231031', '20231231', '20240131', '20240321', '20240430', '20240520', '20240618', '20240730', '20241128', '20250318']
+2025-07-06 16:10:23.824 INFO Skip version 20230331, because it's not in the list of versions to be modified.
+2025-07-06 16:10:23.825 INFO Skip version 20230425, because it's not in the list of versions to be modified.
+2025-07-06 16:10:23.826 INFO Skip version 20231031, because it's not in the list of versions to be modified.
+2025-07-06 16:10:23.837 INFO Skip version 20231231, because it's not in the list of versions to be modified.
+2025-07-06 16:10:23.838 INFO Skip version 20240131, because it's not in the list of versions to be modified.
+2025-07-06 16:10:23.839 INFO Skip version 20240321, because it's not in the list of versions to be modified.
+2025-07-06 16:10:23.840 INFO Skip version 20240430, because it's not in the list of versions to be modified.
+2025-07-06 16:10:23.841 INFO Processing version folder: 20240520
+2025-07-06 16:10:23.842 INFO   Create and checkout to a new branch: Modify-S-Dio.PureCodec-20240520-1751789423
+2025-07-06 16:10:33.214 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\Dio\PureCodec\20240520\Dio.PureCodec.installer.yaml
+2025-07-06 16:10:33.226 INFO     检测到 D:\...\winget-pkgs\manifests\d\Dio\PureCodec\20240520\Dio.PureCodec.installer.yaml 中含有不安全的 URL (HTTP)，自动替换为安全的 URL (HTTPS)
+2025-07-06 16:10:33.227 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-07-06 16:10:33.228 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-07-06 16:10:33.229 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\Dio\PureCodec\20240520\Dio.PureCodec.installer.yaml
+2025-07-06 16:10:33.390 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\Dio\PureCodec\20240520\Dio.PureCodec.locale.en-US.yaml
+2025-07-06 16:10:33.392 INFO     检测到 D:\...\winget-pkgs\manifests\d\Dio\PureCodec\20240520\Dio.PureCodec.locale.en-US.yaml 中含有不安全的 URL (HTTP)，自动替换为安全的 URL (HTTPS)
+2025-07-06 16:10:33.393 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-07-06 16:10:33.395 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-07-06 16:10:33.396 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\Dio\PureCodec\20240520\Dio.PureCodec.locale.en-US.yaml
+2025-07-06 16:10:33.498 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\Dio\PureCodec\20240520\Dio.PureCodec.locale.zh-CN.yaml
+2025-07-06 16:10:33.500 INFO     检测到 D:\...\winget-pkgs\manifests\d\Dio\PureCodec\20240520\Dio.PureCodec.locale.zh-CN.yaml 中含有不安全的 URL (HTTP)，自动替换为安全的 URL (HTTPS)
+2025-07-06 16:10:33.502 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-07-06 16:10:33.503 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-07-06 16:10:33.505 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\Dio\PureCodec\20240520\Dio.PureCodec.locale.zh-CN.yaml
+2025-07-06 16:10:33.613 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\Dio\PureCodec\20240520\Dio.PureCodec.yaml
+2025-07-06 16:10:33.615 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-07-06 16:10:33.616 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-07-06 16:10:33.618 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\Dio\PureCodec\20240520\Dio.PureCodec.yaml
+2025-07-06 16:10:46.547 INFO     清单验证成功。
+2025-07-06 16:10:46.556 INFO   Staging and Committing Changes to Git
+2025-07-06 16:10:52.157 INFO     Commit message: Modify: Dio.PureCodec version 20240520 (Auto)
+2025-07-06 16:10:52.170 INFO   Pushing changes to remote (origin) repository
+2025-07-06 16:10:55.595 INFO     Successfully pushed to remote (origin): Modify-S-Dio.PureCodec-20240520-1751789423
+2025-07-06 16:10:57.456 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/271581
+2025-07-06 16:10:57.457 INFO Skip version 20240618, because it's not in the list of versions to be modified.
+2025-07-06 16:10:57.458 INFO Skip version 20240730, because it's not in the list of versions to be modified.
+2025-07-06 16:10:57.459 INFO Skip version 20241128, because it's not in the list of versions to be modified.
+2025-07-06 16:10:57.460 INFO Skip version 20250318, because it's not in the list of versions to be modified.
+2025-07-06 16:10:57.460 INFO All manifests have been modified and pushed through.
+2025-07-06 16:11:02.148 INFO Workspace clean-up completed.
+~~ End of logging ~~
