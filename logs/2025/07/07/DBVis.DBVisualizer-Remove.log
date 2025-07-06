@@ -1,0 +1,564 @@
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove DBVis.DBVisualizer 25.1.4
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 DbVisualizer [DBVis.DBVisualizer]
+版本
+------
+25.2.1
+25.2
+25.1.4
+25.1.3
+25.1.2
+======= 此软件包版本在 winget 上的信息 =======
+已找到 DbVisualizer [DBVis.DBVisualizer]
+版本: 25.1.4
+发布者: DbVis Software AB
+发布服务器 URL: https://www.dbvis.com/
+发布服务器支持 URL: https://www.dbvis.com/support/
+作者: DbVis Software AB
+绰号： dbvis
+描述: DbVisualizer 是用户满意度最高的 SQL 客户端和数据库工具。它能够连接所有主流数据库,并兼容 Windows、macOS 和 Linux 操作系统。
+主页: https://www.dbvis.com/download/
+许可证: 专有软件
+许可证 URL: https://www.dbvis.com/eula/
+隐私 URL: https://www.dbvis.com/privacy/
+版权所有: Copyright 2025.
+版权 URL: https://www.dbvis.com/eula/
+发行说明:
+  Improvements
+  DB Support: ClickHouse
+  Improve the efficiency of the "Max Rows" setting in the Data tab for ClickHouse
+  DB Support: H2
+  Add default schema to the connection tab for H2
+  DB Support: InterSystems IRIS
+  Include the maven artifact in the template driver for IRIS
+  DB Support: Salesforce
+  Add a template driver for Salesforce Data Cloud
+  Table Data Editor
+  Improve performance when editing large data sets
+  Bugs Fixed
+  Connection Setup
+  Possible exception in the connection view
+  DB Support: Exasol
+  Unexpected fingerprint error when connecting to Exasol
+  DB Support: Redshift
+  Materialized views owned by other users aren't listed correctly in Redshift
+  Email Support
+  Can't send test emails in Tool Properties->Mail Server Accounts
+  Explain Plan
+  Exception when opening explain plan settings from explain view
+  Export/Import User Settings
+  "Use SSH Tunnel" in connection settings is not always imported correctly
+  Files
+  Expanded nodes in the Files tab are not always restored when changing view settings
+  Latest used connection is not always preserved when moving files in the Files tab
+  Grid Component
+  Text wrapping doesn't work in the first column of the grid
+  SQL Commander
+  Undo doesn't work when moving text in the editor on Windows
+  When warning the user about uncommitted updates, SQL is displayed in lowercase
+发行说明 URL: https://www.dbvis.com/releasenotes/
+购买 URL： https://www.dbvis.com/buy/
+文档:
+  用户指南: https://www.dbvis.com/docs/ug/
+标记：
+  db2
+  mssql
+  mysql
+  postgres
+  postgresql
+  sql
+  sqlite
+  代码
+  开发
+  数据库
+  编程
+  集成开发环境
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://www.dbvis.com/product_download/dbvis-25.1.4/media/dbvis_windows-x64_25_1_4_jre.exe
+  安装程序 SHA256： ba669511af212626dab5aadd1fc0c2b02d830ee5c5215ee395f2af45bd176e32
+  发布日期: 2025-05-15
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\d\DBVis\DBVisualizer\25.1.4\DBVis.DBVisualizer.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: DBVis.DBVisualizer
+PackageVersion: 25.1.4
+InstallerType: exe
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+InstallerSwitches:
+  Silent: -q -Dinstall4j.suppressUnattendedReboot=true
+  SilentWithProgress: -q -splash "" -Dinstall4j.suppressUnattendedReboot=true
+  InstallLocation: -dir "<INSTALLPATH>"
+  Log: -Dinstall4j.log="<LOGPATH>"
+UpgradeBehavior: install
+FileExtensions:
+- sql
+ProductCode: 8973-4025-0853-7287
+ReleaseDate: 2025-05-15
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://www.dbvis.com/product_download/dbvis-25.1.4/media/dbvis_windows-x64_25_1_4_jre.exe
+  InstallerSha256: BA669511AF212626DAB5AADD1FC0C2B02D830EE5C5215EE395F2AF45BD176E32
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://www.dbvis.com/product_download/dbvis-25.1.4/media/dbvis_windows-x64_25_1_4_jre.exe
+  InstallerSha256: BA669511AF212626DAB5AADD1FC0C2B02D830EE5C5215EE395F2AF45BD176E32
+  ElevationRequirement: elevationRequired
+- Architecture: arm64
+  Scope: user
+  InstallerUrl: https://www.dbvis.com/product_download/dbvis-25.1.4/media/dbvis_windows-arm64_25_1_4_jre.exe
+  InstallerSha256: E910349D1CF0183EF096A6643D5256CFD8B4D1472AE6AFF40BE48B14B42D42A0
+- Architecture: arm64
+  Scope: machine
+  InstallerUrl: https://www.dbvis.com/product_download/dbvis-25.1.4/media/dbvis_windows-arm64_25_1_4_jre.exe
+  InstallerSha256: E910349D1CF0183EF096A6643D5256CFD8B4D1472AE6AFF40BE48B14B42D42A0
+  ElevationRequirement: elevationRequired
+ManifestType: installer
+ManifestVersion: 1.10.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 DbVisualizer [DBVis.DBVisualizer] 版本 25.1.4
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://www.dbvis.com/product_download/dbvis-25.1.4/media/dbvis_windows-x64_25_1_4_jre.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072f19 : unknown error
+使用 winget 验证证实确实存在问题 (2147954457)
+查重...
+======= 打开的 =======
+no pull requests match your search in microsoft/winget-pkgs
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                           BRANCH                                             CREATED AT
+#256812  New version: DBVis.DBVisualizer version 25.1.4  SpecterShell:DBVis.DBVisualizer-25.1.4-1387963074  about 1 month ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 9 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+remote: Enumerating objects: 40, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 40 (delta 12), reused 11 (delta 11), pack-reused 25 (from 1)
+Unpacking objects: 100% (40/40), 18.41 KiB | 29.00 KiB/s, done.
+From https://github.com/microsoft/winget-pkgs
+   eb8d31a98c5..c6154b7c442  master     -> upstream/master
+Successfully rebased and updated refs/heads/master.
+  已拉取上游修改
+Switched to a new branch 'Remove-DBVis.DBVisualizer-25.1.4-1751818294'
+  已签出新分支 Remove-DBVis.DBVisualizer-25.1.4-1751818294
+  已移除软件包 DBVis.DBVisualizer 版本 25.1.4
+[Remove-DBVis.DBVisualizer-25.1.4-1751818294 6c6dba2f2dc] Remove version: DBVis.DBVisualizer version 25.1.4 (Auto)
+ 4 files changed, 147 deletions(-)
+ delete mode 100644 manifests/d/DBVis/DBVisualizer/25.1.4/DBVis.DBVisualizer.installer.yaml
+ delete mode 100644 manifests/d/DBVis/DBVisualizer/25.1.4/DBVis.DBVisualizer.locale.en-US.yaml
+ delete mode 100644 manifests/d/DBVis/DBVisualizer/25.1.4/DBVis.DBVisualizer.locale.zh-CN.yaml
+ delete mode 100644 manifests/d/DBVis/DBVisualizer/25.1.4/DBVis.DBVisualizer.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 731 bytes | 365.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-DBVis.DBVisualizer-25.1.4-1751818294' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-DBVis.DBVisualizer-25.1.4-1751818294
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-DBVis.DBVisualizer-25.1.4-1751818294 -> Remove-DBVis.DBVisualizer-25.1.4-1751818294
+branch 'Remove-DBVis.DBVisualizer-25.1.4-1751818294' set up to track 'origin/Remove-DBVis.DBVisualizer-25.1.4-1751818294'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/271676
+ 成功移除 DBVis.DBVisualizer 版本 25.1.4
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 13 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-DBVis.DBVisualizer-25.1.4-1751818294 (was 6c6dba2f2dc).
+工作区清理完成
+
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove DBVis.DBVisualizer 25.1.3
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 DbVisualizer [DBVis.DBVisualizer]
+版本
+------
+25.2.1
+25.2
+25.1.4
+25.1.3
+25.1.2
+======= 此软件包版本在 winget 上的信息 =======
+已找到 DbVisualizer [DBVis.DBVisualizer]
+版本: 25.1.3
+发布者: DbVis Software AB
+发布服务器 URL: https://www.dbvis.com/
+发布服务器支持 URL: https://www.dbvis.com/support/
+作者: DbVis Software AB
+绰号： dbvis
+描述: DbVisualizer 是用户满意度最高的 SQL 客户端和数据库工具。它能够连接所有主流数据库,并兼容 Windows、macOS 和 Linux 操作系统。
+主页: https://www.dbvis.com/download/
+许可证: 专有软件
+许可证 URL: https://www.dbvis.com/eula/
+隐私 URL: https://www.dbvis.com/privacy/
+版权所有: Copyright 2025.
+版权 URL: https://www.dbvis.com/eula/
+发行说明:
+  Improvements
+  DB Support: SQL Server
+  Add support for user-defined table types in SQL Server
+  DB Support: Snowflake
+  Add basic support for explain plan in Snowflake
+  Bugs Fixed
+  DB Support: ClickHouse
+  Exception when reading certain numeric data types in ClickHouse
+  DB Support: H2
+  Owning table name for triggers in H2 is not displayed correctly
+  DB Support: Oracle
+  Possible exception when generating references graphs for large schemas in Oracle
+  DB Support: Snowflake
+  $$-quoted strings are not always handled correctly in Snowflake
+  Driver Manager
+  Possible exception when editing driver properties
+  Transitive dependencies may be left out when activating driver artifacts in Driver Manager
+  Export/Import User Settings
+  Configured jump servers may be lost after upgrade
+  Files
+  Symlinks are not expanded correctly in the Files tab on macOS
+  Metadata
+  Possible exception during application shutdown
+  Monitor
+  Variables are not expanded correctly in monitor queries that generate a single row
+  Navigator
+  Visual artifacts in the Navigator toolbar
+  OS Support: Linux
+  Possible exception when displaying the main menu on Linux
+  Procedure Editor
+  Possible exception when exporting a procedure to a file
+  SQL Commander
+  Possible exception when working with many editor tabs
+  Result set may be uneditable if the table in the query isn't quoted
+  SQL Editor
+  Tab is not expanded in multi-caret mode
+发行说明 URL: https://www.dbvis.com/releasenotes/
+购买 URL： https://www.dbvis.com/buy/
+文档:
+  用户指南: https://www.dbvis.com/docs/ug/
+标记：
+  db2
+  mssql
+  mysql
+  postgres
+  postgresql
+  sql
+  sqlite
+  代码
+  开发
+  数据库
+  编程
+  集成开发环境
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://www.dbvis.com/product_download/dbvis-25.1.3/media/dbvis_windows-x64_25_1_3_jre.exe
+  安装程序 SHA256： 86812c7cf4088bea5cc6e1ba00db15fc0f034713fbbb0c548440439444d25fa5
+  发布日期: 2025-04-11
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\d\DBVis\DBVisualizer\25.1.3\DBVis.DBVisualizer.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: DBVis.DBVisualizer
+PackageVersion: 25.1.3
+InstallerType: exe
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+InstallerSwitches:
+  Silent: -q -Dinstall4j.suppressUnattendedReboot=true
+  SilentWithProgress: -q -splash "" -Dinstall4j.suppressUnattendedReboot=true
+  InstallLocation: -dir "<INSTALLPATH>"
+  Log: -Dinstall4j.log="<LOGPATH>"
+UpgradeBehavior: install
+FileExtensions:
+- sql
+ProductCode: 8973-4025-0853-7287
+ReleaseDate: 2025-04-11
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://www.dbvis.com/product_download/dbvis-25.1.3/media/dbvis_windows-x64_25_1_3_jre.exe
+  InstallerSha256: 86812C7CF4088BEA5CC6E1BA00DB15FC0F034713FBBB0C548440439444D25FA5
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://www.dbvis.com/product_download/dbvis-25.1.3/media/dbvis_windows-x64_25_1_3_jre.exe
+  InstallerSha256: 86812C7CF4088BEA5CC6E1BA00DB15FC0F034713FBBB0C548440439444D25FA5
+  ElevationRequirement: elevationRequired
+- Architecture: arm64
+  Scope: user
+  InstallerUrl: https://www.dbvis.com/product_download/dbvis-25.1.3/media/dbvis_windows-arm64_25_1_3_jre.exe
+  InstallerSha256: 84B3812447EA80E65916B1497DF6EDA658F6795423227E270793E5575BF924E2
+- Architecture: arm64
+  Scope: machine
+  InstallerUrl: https://www.dbvis.com/product_download/dbvis-25.1.3/media/dbvis_windows-arm64_25_1_3_jre.exe
+  InstallerSha256: 84B3812447EA80E65916B1497DF6EDA658F6795423227E270793E5575BF924E2
+  ElevationRequirement: elevationRequired
+ManifestType: installer
+ManifestVersion: 1.10.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 DbVisualizer [DBVis.DBVisualizer] 版本 25.1.3
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://www.dbvis.com/product_download/dbvis-25.1.3/media/dbvis_windows-x64_25_1_3_jre.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072f19 : unknown error
+使用 winget 验证证实确实存在问题 (2147954457)
+查重...
+======= 打开的 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                                     BRANCH                                                      CREATED AT
+#271676  Remove version: DBVis.DBVisualizer version 25.1.4 (Auto)  DuckDuckStudio:Remove-DBVis.DBVisualizer-25.1.4-1751818294  about 2 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                           BRANCH                                             CREATED AT
+#247562  New version: DBVis.DBVisualizer version 25.1.3  SpecterShell:DBVis.DBVisualizer-25.1.3-1132404716  about 2 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 13 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 1), reused 1 (delta 1), pack-reused 0 (from 0)
+Unpacking objects: 100% (4/4), 2.33 KiB | 62.00 KiB/s, done.
+From https://github.com/microsoft/winget-pkgs
+   c6154b7c442..a35c87dca3e  master     -> upstream/master
+Successfully rebased and updated refs/heads/master.
+  已拉取上游修改
+Switched to a new branch 'Remove-DBVis.DBVisualizer-25.1.3-1751818467'
+  已签出新分支 Remove-DBVis.DBVisualizer-25.1.3-1751818467
+  已移除软件包 DBVis.DBVisualizer 版本 25.1.3
+[Remove-DBVis.DBVisualizer-25.1.3-1751818467 d229555e89d] Remove version: DBVis.DBVisualizer version 25.1.3 (Auto)
+ 4 files changed, 151 deletions(-)
+ delete mode 100644 manifests/d/DBVis/DBVisualizer/25.1.3/DBVis.DBVisualizer.installer.yaml
+ delete mode 100644 manifests/d/DBVis/DBVisualizer/25.1.3/DBVis.DBVisualizer.locale.en-US.yaml
+ delete mode 100644 manifests/d/DBVis/DBVisualizer/25.1.3/DBVis.DBVisualizer.locale.zh-CN.yaml
+ delete mode 100644 manifests/d/DBVis/DBVisualizer/25.1.3/DBVis.DBVisualizer.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 727 bytes | 363.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-DBVis.DBVisualizer-25.1.3-1751818467' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-DBVis.DBVisualizer-25.1.3-1751818467
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-DBVis.DBVisualizer-25.1.3-1751818467 -> Remove-DBVis.DBVisualizer-25.1.3-1751818467
+branch 'Remove-DBVis.DBVisualizer-25.1.3-1751818467' set up to track 'origin/Remove-DBVis.DBVisualizer-25.1.3-1751818467'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/271677
+ 成功移除 DBVis.DBVisualizer 版本 25.1.3
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 14 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-DBVis.DBVisualizer-25.1.3-1751818467 (was d229555e89d).
+工作区清理完成
+
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove DBVis.DBVisualizer 25.1.2
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 DbVisualizer [DBVis.DBVisualizer]
+版本
+------
+25.2.1
+25.2
+25.1.4
+25.1.3
+25.1.2
+======= 此软件包版本在 winget 上的信息 =======
+已找到 DbVisualizer [DBVis.DBVisualizer]
+版本: 25.1.2
+发布者: DbVis Software AB
+发布服务器 URL: https://www.dbvis.com/
+发布服务器支持 URL: https://www.dbvis.com/support/
+作者: DbVis Software AB
+绰号： dbvis
+描述: DbVisualizer 是用户满意度最高的 SQL 客户端和数据库工具。它能够连接所有主流数据库,并兼容 Windows、macOS 和 Linux 操作系统。
+主页: https://www.dbvis.com/download/
+许可证: 专有软件
+许可证 URL: https://www.dbvis.com/eula/
+隐私 URL: https://www.dbvis.com/privacy/
+版权所有: Copyright 2025.
+版权 URL: https://www.dbvis.com/eula/
+发行说明:
+  Bugs Fixed
+  Query Builder
+  Exception when removing a table in Query Builder
+  Table Data Editor
+  Unsaved edits are lost without warning if the table is reloaded
+发行说明 URL: https://www.dbvis.com/releasenotes/
+购买 URL： https://www.dbvis.com/buy/
+文档:
+  用户指南: https://www.dbvis.com/docs/ug/
+标记：
+  db2
+  mssql
+  mysql
+  postgres
+  postgresql
+  sql
+  sqlite
+  代码
+  开发
+  数据库
+  编程
+  集成开发环境
+安装：
+  安装程序类型： exe
+  安装程序 URL： https://www.dbvis.com/product_download/dbvis-25.1.2/media/dbvis_windows-x64_25_1_2_jre.exe
+  安装程序 SHA256： f0c776133e73afe41e909b018aa5ba34c55540d99d405cb77d20ce4ebc5e9b6b
+  发布日期: 2025-03-25
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\d\DBVis\DBVisualizer\25.1.2\DBVis.DBVisualizer.installer.yaml
+
+# Automatically updated by the winget bot at 2025/Mar/27
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: DBVis.DBVisualizer
+PackageVersion: 25.1.2
+InstallerType: exe
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+InstallerSwitches:
+  Silent: -q -Dinstall4j.suppressUnattendedReboot=true
+  SilentWithProgress: -q -splash "" -Dinstall4j.suppressUnattendedReboot=true
+  InstallLocation: -dir "<INSTALLPATH>"
+  Log: -Dinstall4j.log="<LOGPATH>"
+UpgradeBehavior: install
+FileExtensions:
+- sql
+ProductCode: 8973-4025-0853-7287
+ReleaseDate: 2025-03-25
+Installers:
+- Architecture: x64
+  Scope: user
+  InstallerUrl: https://www.dbvis.com/product_download/dbvis-25.1.2/media/dbvis_windows-x64_25_1_2_jre.exe
+  InstallerSha256: F0C776133E73AFE41E909B018AA5BA34C55540D99D405CB77D20CE4EBC5E9B6B
+- Architecture: x64
+  Scope: machine
+  InstallerUrl: https://www.dbvis.com/product_download/dbvis-25.1.2/media/dbvis_windows-x64_25_1_2_jre.exe
+  InstallerSha256: F0C776133E73AFE41E909B018AA5BA34C55540D99D405CB77D20CE4EBC5E9B6B
+  ElevationRequirement: elevationRequired
+- Architecture: arm64
+  Scope: user
+  InstallerUrl: https://www.dbvis.com/product_download/dbvis-25.1.2/media/dbvis_windows-arm64_25_1_2_jre.exe
+  InstallerSha256: 8F2AD48D05506742F0FC24B65413AE3DDF00A84376F32EB8BB9647FD16A5EB7D
+- Architecture: arm64
+  Scope: machine
+  InstallerUrl: https://www.dbvis.com/product_download/dbvis-25.1.2/media/dbvis_windows-arm64_25_1_2_jre.exe
+  InstallerSha256: 8F2AD48D05506742F0FC24B65413AE3DDF00A84376F32EB8BB9647FD16A5EB7D
+  ElevationRequirement: elevationRequired
+ManifestType: installer
+ManifestVersion: 1.10.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 DbVisualizer [DBVis.DBVisualizer] 版本 25.1.2
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+正在下载 https://www.dbvis.com/product_download/dbvis-25.1.2/media/dbvis_windows-x64_25_1_2_jre.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072f19 : unknown error
+使用 winget 验证证实确实存在问题 (2147954457)
+查重...
+======= 打开的 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                                     BRANCH                                                      CREATED AT
+#271677  Remove version: DBVis.DBVisualizer version 25.1.3 (Auto)  DuckDuckStudio:Remove-DBVis.DBVisualizer-25.1.3-1751818467  about 2 minutes ago
+#271676  Remove version: DBVis.DBVisualizer version 25.1.4 (Auto)  DuckDuckStudio:Remove-DBVis.DBVisualizer-25.1.4-1751818294  about 5 minutes ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                           BRANCH                                                          CREATED AT
+#243053  Automatic update of DBVis.DBVisualizer 25.1.2   wingetbot:AutomaticUpdate_b9d1d8ad-b8dd-4c57-8453-19f85bbf35c5  about 3 months ago
+#242433  New version: DBVis.DBVisualizer version 25.1.2  SpecterShell:DBVis.DBVisualizer-25.1.2-917309202                about 3 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is ahead of 'origin/master' by 14 commits.
+  (use "git push" to publish your local commits)
+  已签出到 master 分支
+Current branch master is up to date.
+  已拉取上游修改
+Switched to a new branch 'Remove-DBVis.DBVisualizer-25.1.2-1751818626'
+  已签出新分支 Remove-DBVis.DBVisualizer-25.1.2-1751818626
+  已移除软件包 DBVis.DBVisualizer 版本 25.1.2
+[Remove-DBVis.DBVisualizer-25.1.2-1751818626 5e5ceeca92d] Remove version: DBVis.DBVisualizer version 25.1.2 (Auto)
+ 4 files changed, 120 deletions(-)
+ delete mode 100644 manifests/d/DBVis/DBVisualizer/25.1.2/DBVis.DBVisualizer.installer.yaml
+ delete mode 100644 manifests/d/DBVis/DBVisualizer/25.1.2/DBVis.DBVisualizer.locale.en-US.yaml
+ delete mode 100644 manifests/d/DBVis/DBVisualizer/25.1.2/DBVis.DBVisualizer.locale.zh-CN.yaml
+ delete mode 100644 manifests/d/DBVis/DBVisualizer/25.1.2/DBVis.DBVisualizer.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 726 bytes | 363.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-DBVis.DBVisualizer-25.1.2-1751818626' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-DBVis.DBVisualizer-25.1.2-1751818626
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-DBVis.DBVisualizer-25.1.2-1751818626 -> Remove-DBVis.DBVisualizer-25.1.2-1751818626
+branch 'Remove-DBVis.DBVisualizer-25.1.2-1751818626' set up to track 'origin/Remove-DBVis.DBVisualizer-25.1.2-1751818626'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/271678
+ 成功移除 DBVis.DBVisualizer 版本 25.1.2
+开始清理工作区
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 14 commits.
+  (use "git push" to publish your local commits)
+Deleted branch Remove-DBVis.DBVisualizer-25.1.2-1751818626 (was 5e5ceeca92d).
+工作区清理完成
