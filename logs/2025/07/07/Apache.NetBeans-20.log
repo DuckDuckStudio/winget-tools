@@ -1,0 +1,33 @@
+~~ Start logging ~~
+2025-07-07 12:26:10.145 FUN ↑↓↑ ↓↑↓ ↑↓↑↓↑↓↑!
+2025-07-07 12:26:10.150 INFO Found the following version folder: ['17', '19', '20', '21', '25']
+2025-07-07 12:26:10.151 INFO Skip version 17, because it's not in the list of versions to be modified.
+2025-07-07 12:26:10.151 INFO Skip version 19, because it's not in the list of versions to be modified.
+2025-07-07 12:26:10.152 INFO Processing version folder: 20
+2025-07-07 12:26:10.152 INFO   Create and checkout to a new branch: Modify-S-Apache.NetBeans-20-1751862370
+2025-07-07 12:26:26.304 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Apache\NetBeans\20\Apache.NetBeans.installer.yaml
+2025-07-07 12:26:26.316 INFO     Replace ManifestVersion: 1.5.0 -> 1.10.0
+2025-07-07 12:26:26.317 INFO     Replace schema references: 1.5.0.schema.json -> 1.10.0.schema.json
+2025-07-07 12:26:26.318 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Apache\NetBeans\20\Apache.NetBeans.installer.yaml
+2025-07-07 12:26:26.468 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Apache\NetBeans\20\Apache.NetBeans.locale.en-US.yaml
+2025-07-07 12:26:26.471 INFO     Replace ManifestVersion: 1.5.0 -> 1.10.0
+2025-07-07 12:26:26.472 INFO     Replace schema references: 1.5.0.schema.json -> 1.10.0.schema.json
+2025-07-07 12:26:26.474 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Apache\NetBeans\20\Apache.NetBeans.locale.en-US.yaml
+2025-07-07 12:26:26.575 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Apache\NetBeans\20\Apache.NetBeans.yaml
+2025-07-07 12:26:26.577 INFO     Replace ManifestVersion: 1.5.0 -> 1.10.0
+2025-07-07 12:26:26.578 INFO     Replace schema references: 1.5.0.schema.json -> 1.10.0.schema.json
+2025-07-07 12:26:26.580 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Apache\NetBeans\20\Apache.NetBeans.yaml
+2025-07-07 12:41:01.548 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-07-07 12:41:01.550 INFO       - 程序包
+2025-07-07 12:41:01.552 INFO           BellSoft.LibericaJDK.11
+2025-07-07 12:41:01.554 INFO     清单验证成功。
+2025-07-07 12:41:01.567 INFO   Staging and Committing Changes to Git
+2025-07-07 12:41:19.444 INFO     Commit message: Modify: Apache.NetBeans version 20 (Auto)
+2025-07-07 12:41:19.446 INFO   Pushing changes to remote (origin) repository
+2025-07-07 12:41:27.251 INFO     Successfully pushed to remote (origin): Modify-S-Apache.NetBeans-20-1751862370
+2025-07-07 12:41:29.424 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/271753
+2025-07-07 12:41:29.426 INFO Skip version 21, because it's not in the list of versions to be modified.
+2025-07-07 12:41:29.428 INFO Skip version 25, because it's not in the list of versions to be modified.
+2025-07-07 12:41:29.430 INFO All manifests have been modified and pushed through.
+2025-07-07 12:41:53.334 INFO Workspace clean-up completed.
+~~ End of logging ~~
