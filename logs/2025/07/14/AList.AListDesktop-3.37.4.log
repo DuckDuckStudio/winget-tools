@@ -1,0 +1,40 @@
+~~ Start logging ~~
+2025-07-14 16:49:52.720 FUN 玩__玩的。
+2025-07-14 16:49:52.999 INFO Found the following version folder: ['3.37.4', '3.38.0', '3.39.1', '3.39.4', '3.40.0', '3.41.0', '3.42.0', '3.43.0', '3.44.0', '3.45.0', '3.45.1']
+2025-07-14 16:49:52.101 INFO Processing version folder: 3.37.4
+2025-07-14 16:49:52.103 INFO   Create and checkout to a new branch: Modify-S-AList.AListDesktop-3.37.4-1752482992
+2025-07-14 16:50:55.965 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\AList\AListDesktop\3.37.4\AList.AListDesktop.installer.yaml
+2025-07-14 16:50:55.968 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-07-14 16:50:56.486 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-07-14 16:50:56.794 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\AList\AListDesktop\3.37.4\AList.AListDesktop.installer.yaml
+2025-07-14 16:50:56.275 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\AList\AListDesktop\3.37.4\AList.AListDesktop.locale.en-US.yaml
+2025-07-14 16:50:56.312 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-07-14 16:50:56.314 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-07-14 16:50:56.316 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\AList\AListDesktop\3.37.4\AList.AListDesktop.locale.en-US.yaml
+2025-07-14 16:50:56.467 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\AList\AListDesktop\3.37.4\AList.AListDesktop.locale.zh-CN.yaml
+2025-07-14 16:50:56.503 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-07-14 16:50:56.505 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-07-14 16:50:56.507 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\AList\AListDesktop\3.37.4\AList.AListDesktop.locale.zh-CN.yaml
+2025-07-14 16:50:56.660 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\AList\AListDesktop\3.37.4\AList.AListDesktop.yaml
+2025-07-14 16:50:56.663 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-07-14 16:50:56.664 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-07-14 16:50:56.667 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\AList\AListDesktop\3.37.4\AList.AListDesktop.yaml
+2025-07-14 16:52:08.462 INFO     清单验证成功。
+2025-07-14 16:52:08.473 INFO   Staging and Committing Changes to Git
+2025-07-14 16:52:18.944 INFO     Commit message: Modify: AList.AListDesktop version 3.37.4 (Auto)
+2025-07-14 16:52:18.946 INFO   Pushing changes to remote (origin) repository
+2025-07-14 16:52:24.970 INFO     Successfully pushed to remote (origin): Modify-S-AList.AListDesktop-3.37.4-1752482992
+2025-07-14 16:52:27.254 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/274082
+2025-07-14 16:52:27.256 INFO Skip version 3.38.0, because it's not in the list of versions to be modified.
+2025-07-14 16:52:27.257 INFO Skip version 3.39.1, because it's not in the list of versions to be modified.
+2025-07-14 16:52:27.258 INFO Skip version 3.39.4, because it's not in the list of versions to be modified.
+2025-07-14 16:52:27.259 INFO Skip version 3.40.0, because it's not in the list of versions to be modified.
+2025-07-14 16:52:27.259 INFO Skip version 3.41.0, because it's not in the list of versions to be modified.
+2025-07-14 16:52:27.260 INFO Skip version 3.42.0, because it's not in the list of versions to be modified.
+2025-07-14 16:52:27.261 INFO Skip version 3.43.0, because it's not in the list of versions to be modified.
+2025-07-14 16:52:27.262 INFO Skip version 3.44.0, because it's not in the list of versions to be modified.
+2025-07-14 16:52:27.263 INFO Skip version 3.45.0, because it's not in the list of versions to be modified.
+2025-07-14 16:52:27.263 INFO Skip version 3.45.1, because it's not in the list of versions to be modified.
+2025-07-14 16:52:27.264 INFO All manifests have been modified and pushed through.
+2025-07-14 16:52:33.856 INFO Workspace clean-up completed.
+~~ End of logging ~~
