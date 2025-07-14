@@ -466,6 +466,7 @@ namespace checker
                 "https://www.argyllcms.com/", // 服务器拒绝冲泡咖啡
                 "https://aurorabuilder.com/downloads/Aurora%20Setup.zip", // 假400
                 "https://softpedia-secure-download.com/dl/8742021e52b6c4d3799cf12fa6dddc89/686a99d4/100021113/software/network/HostsMan_4.8.106_installer.zip", // 过于复杂 - https://github.com/microsoft/winget-pkgs/pull/271669#issue-3206719827
+                "https://github.com/AlistGo", // 备受争议的发布者
             ];
             return excludedDomains.Any(url.Contains);
         }
