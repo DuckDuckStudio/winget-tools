@@ -320,6 +320,14 @@ namespace checker
                     // 定义的 e 无论如何都会在判断时使用，故无需丢弃
 #endif
                 }
+                else if (e.Message.Contains("An error occurred while sending the request."))
+                {
+                    Console.Write("-");
+#if DEBUG
+                    Console.WriteLine($"\n[Debug] 无法访问 {filePath} 中的 {url} : {e.Message} - {e.InnerException?.Message ?? "没有内部异常"} (发送请求时发生错误)");
+                    // 定义的 e 无论如何都会在判断时使用，故无需丢弃
+#endif
+                }
                 else
                 {
                     Console.WriteLine($"\n[Warning] 无法访问 {filePath} 中的 {url} : {e.Message} - {e.InnerException?.Message ?? "没有内部异常"}");
