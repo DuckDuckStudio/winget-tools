@@ -1,0 +1,45 @@
+~~ Start logging ~~
+2025-07-16 20:58:15.820 FUN 师傅，你是做什么工作的？
+2025-07-16 20:58:15.322 INFO Found the following version folder: ['2024.06.24.2036', '2024.06.30.1356', '2024.07.02.1330', '2024.07.03.0000', '2024.07.25.2030', '2024.08.01.0000', '2024.09.08.2000', '2024.09.26.2000', '2024.10.01.0630', '2024.11.27.2000', '2025.01.02.2300', '2025.02.03.2358', '2025.02.09.1314', '2025.02.14.1314', '2025.02.20.1150', '2025.03.17.1640', '2025.07.16.2048']
+2025-07-16 20:58:15.335 INFO Skip version 2024.06.24.2036, because it's not in the list of versions to be modified.
+2025-07-16 20:58:15.693 INFO Skip version 2024.06.30.1356, because it's not in the list of versions to be modified.
+2025-07-16 20:58:15.709 INFO Skip version 2024.07.02.1330, because it's not in the list of versions to be modified.
+2025-07-16 20:58:15.719 INFO Skip version 2024.07.03.0000, because it's not in the list of versions to be modified.
+2025-07-16 20:58:15.728 INFO Skip version 2024.07.25.2030, because it's not in the list of versions to be modified.
+2025-07-16 20:58:15.737 INFO Skip version 2024.08.01.0000, because it's not in the list of versions to be modified.
+2025-07-16 20:58:15.748 INFO Skip version 2024.09.08.2000, because it's not in the list of versions to be modified.
+2025-07-16 20:58:15.782 INFO Skip version 2024.09.26.2000, because it's not in the list of versions to be modified.
+2025-07-16 20:58:15.793 INFO Skip version 2024.10.01.0630, because it's not in the list of versions to be modified.
+2025-07-16 20:58:15.802 INFO Skip version 2024.11.27.2000, because it's not in the list of versions to be modified.
+2025-07-16 20:58:15.813 INFO Skip version 2025.01.02.2300, because it's not in the list of versions to be modified.
+2025-07-16 20:58:15.824 INFO Skip version 2025.02.03.2358, because it's not in the list of versions to be modified.
+2025-07-16 20:58:15.836 INFO Skip version 2025.02.09.1314, because it's not in the list of versions to be modified.
+2025-07-16 20:58:15.846 INFO Skip version 2025.02.14.1314, because it's not in the list of versions to be modified.
+2025-07-16 20:58:15.855 INFO Skip version 2025.02.20.1150, because it's not in the list of versions to be modified.
+2025-07-16 20:58:15.864 INFO Skip version 2025.03.17.1640, because it's not in the list of versions to be modified.
+2025-07-16 20:58:15.872 INFO Processing version folder: 2025.07.16.2048
+2025-07-16 20:58:15.881 INFO   Create and checkout to a new branch: New-Version-DuckStudio.FufuDevTools-2025.07.16.2048-1752670695
+2025-07-16 20:58:39.607 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.07.16.2048\DuckStudio.FufuDevTools.installer.yaml
+2025-07-16 20:58:39.610 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.07.16.2048\DuckStudio.FufuDevTools.installer.yaml
+2025-07-16 20:58:39.820 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.07.16.2048\DuckStudio.FufuDevTools.locale.en-GB.yaml
+2025-07-16 20:58:39.823 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.07.16.2048\DuckStudio.FufuDevTools.locale.en-GB.yaml
+2025-07-16 20:58:39.970 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.07.16.2048\DuckStudio.FufuDevTools.locale.en-US.yaml
+2025-07-16 20:58:39.973 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.07.16.2048\DuckStudio.FufuDevTools.locale.en-US.yaml
+2025-07-16 20:58:40.125 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.07.16.2048\DuckStudio.FufuDevTools.locale.ja-JP.yaml
+2025-07-16 20:58:40.128 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.07.16.2048\DuckStudio.FufuDevTools.locale.ja-JP.yaml
+2025-07-16 20:58:40.288 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.07.16.2048\DuckStudio.FufuDevTools.locale.zh-CN.yaml
+2025-07-16 20:58:40.291 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.07.16.2048\DuckStudio.FufuDevTools.locale.zh-CN.yaml
+2025-07-16 20:58:40.482 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.07.16.2048\DuckStudio.FufuDevTools.locale.zh-TW.yaml
+2025-07-16 20:58:40.485 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.07.16.2048\DuckStudio.FufuDevTools.locale.zh-TW.yaml
+2025-07-16 20:58:40.760 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.07.16.2048\DuckStudio.FufuDevTools.yaml
+2025-07-16 20:58:40.768 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.07.16.2048\DuckStudio.FufuDevTools.yaml
+2025-07-16 20:58:41.842 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2025.07.16.2048 for DuckStudio.FufuDevTools (2025.07.16.2048)
+2025-07-16 20:58:43.276 INFO     清单验证成功。
+2025-07-16 20:58:43.300 INFO   Staging and Committing Changes to Git
+2025-07-16 20:58:56.443 INFO     Commit message: New version: DuckStudio.FufuDevTools version 2025.07.16.2048 (Auto)
+2025-07-16 20:58:56.577 INFO   Pushing changes to remote (origin) repository
+2025-07-16 20:59:01.726 INFO     Successfully pushed to remote (origin): New-Version-DuckStudio.FufuDevTools-2025.07.16.2048-1752670695
+2025-07-16 20:59:03.563 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/274823
+2025-07-16 20:59:03.565 INFO All manifests have been modified and pushed through.
+2025-07-16 20:59:09.573 INFO Workspace clean-up completed.
+~~ End of logging ~~
