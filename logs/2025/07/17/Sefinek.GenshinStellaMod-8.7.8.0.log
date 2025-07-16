@@ -1,0 +1,33 @@
+~~ Start logging ~~
+2025-07-17 01:09:03.493 FUN ο(=•ω＜=)ρ⌒☆
+2025-07-17 01:09:03.499 INFO Found the following version folder: ['8.7.1.0', '8.7.2.0', '8.7.3.0', '8.7.3.1', '8.7.4.0', '8.7.5.0', '8.7.6.0', '8.7.7.0', '8.7.8.0']
+2025-07-17 01:09:03.500 INFO Skip version 8.7.1.0, because it's not in the list of versions to be modified.
+2025-07-17 01:09:03.501 INFO Skip version 8.7.2.0, because it's not in the list of versions to be modified.
+2025-07-17 01:09:03.501 INFO Skip version 8.7.3.0, because it's not in the list of versions to be modified.
+2025-07-17 01:09:03.502 INFO Skip version 8.7.3.1, because it's not in the list of versions to be modified.
+2025-07-17 01:09:03.503 INFO Skip version 8.7.4.0, because it's not in the list of versions to be modified.
+2025-07-17 01:09:03.504 INFO Skip version 8.7.5.0, because it's not in the list of versions to be modified.
+2025-07-17 01:09:03.505 INFO Skip version 8.7.6.0, because it's not in the list of versions to be modified.
+2025-07-17 01:09:03.506 INFO Skip version 8.7.7.0, because it's not in the list of versions to be modified.
+2025-07-17 01:09:03.507 INFO Processing version folder: 8.7.8.0
+2025-07-17 01:09:03.507 INFO   Create and checkout to a new branch: Modify-S-Sefinek.GenshinStellaMod-8.7.8.0-1752685743
+2025-07-17 01:09:14.529 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\s\Sefinek\GenshinStellaMod\8.7.8.0\Sefinek.GenshinStellaMod.installer.yaml
+2025-07-17 01:09:14.541 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\s\Sefinek\GenshinStellaMod\8.7.8.0\Sefinek.GenshinStellaMod.installer.yaml
+2025-07-17 01:09:14.738 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\s\Sefinek\GenshinStellaMod\8.7.8.0\Sefinek.GenshinStellaMod.locale.en-US.yaml
+2025-07-17 01:09:14.741 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\s\Sefinek\GenshinStellaMod\8.7.8.0\Sefinek.GenshinStellaMod.locale.en-US.yaml
+2025-07-17 01:09:14.854 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\s\Sefinek\GenshinStellaMod\8.7.8.0\Sefinek.GenshinStellaMod.yaml
+2025-07-17 01:09:14.856 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\s\Sefinek\GenshinStellaMod\8.7.8.0\Sefinek.GenshinStellaMod.yaml
+2025-07-17 01:25:00.146 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-07-17 01:25:00.148 INFO       - 程序包
+2025-07-17 01:25:00.148 INFO           Microsoft.DotNet.DesktopRuntime.8
+2025-07-17 01:25:00.149 INFO           Microsoft.EdgeWebView2Runtime
+2025-07-17 01:25:00.151 INFO           Microsoft.VCRedist.2015+.x64
+2025-07-17 01:25:00.152 INFO     清单验证成功。
+2025-07-17 01:25:00.162 INFO   Staging and Committing Changes to Git
+2025-07-17 01:25:09.556 INFO     Commit message: Modify: Sefinek.GenshinStellaMod version 8.7.8.0 (Auto)
+2025-07-17 01:25:09.558 INFO   Pushing changes to remote (origin) repository
+2025-07-17 01:25:14.818 INFO     Successfully pushed to remote (origin): Modify-S-Sefinek.GenshinStellaMod-8.7.8.0-1752685743
+2025-07-17 01:25:17.903 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/274876
+2025-07-17 01:25:17.938 INFO All manifests have been modified and pushed through.
+2025-07-17 01:25:22.934 INFO Workspace clean-up completed.
+~~ End of logging ~~
