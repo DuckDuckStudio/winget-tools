@@ -1,0 +1,25 @@
+~~ Start logging ~~
+2025-07-20 17:27:56.867 FUN 蚂蚂-蚂蚂-蚂蚂-蚂蚂~
+2025-07-20 17:27:56.867 FUN 蚁蚁-蚁蚁-蚁蚁-蚁蚁~
+2025-07-20 17:27:56.870 INFO Found the following version folder: ['24.10.11.0', '24.10.13.0']
+2025-07-20 17:27:56.871 INFO Skip version 24.10.11.0, because it's not in the list of versions to be modified.
+2025-07-20 17:27:56.871 INFO Processing version folder: 24.10.13.0
+2025-07-20 17:27:56.873 INFO   Create and checkout to a new branch: New-Version-Omnissa.WorkspaceONEIntelligentHub-24.10.13.0-1753003676
+2025-07-20 17:28:07.101 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\Omnissa\WorkspaceONEIntelligentHub\24.10.13.0\Omnissa.WorkspaceONEIntelligentHub.installer.yaml
+2025-07-20 17:28:07.103 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\o\Omnissa\WorkspaceONEIntelligentHub\24.10.13.0\Omnissa.WorkspaceONEIntelligentHub.installer.yaml
+2025-07-20 17:28:07.264 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\Omnissa\WorkspaceONEIntelligentHub\24.10.13.0\Omnissa.WorkspaceONEIntelligentHub.locale.en-US.yaml
+2025-07-20 17:28:07.266 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\o\Omnissa\WorkspaceONEIntelligentHub\24.10.13.0\Omnissa.WorkspaceONEIntelligentHub.locale.en-US.yaml
+2025-07-20 17:28:07.380 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\Omnissa\WorkspaceONEIntelligentHub\24.10.13.0\Omnissa.WorkspaceONEIntelligentHub.locale.zh-CN.yaml
+2025-07-20 17:28:07.382 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\o\Omnissa\WorkspaceONEIntelligentHub\24.10.13.0\Omnissa.WorkspaceONEIntelligentHub.locale.zh-CN.yaml
+2025-07-20 17:28:07.482 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\Omnissa\WorkspaceONEIntelligentHub\24.10.13.0\Omnissa.WorkspaceONEIntelligentHub.yaml
+2025-07-20 17:28:07.484 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\o\Omnissa\WorkspaceONEIntelligentHub\24.10.13.0\Omnissa.WorkspaceONEIntelligentHub.yaml
+2025-07-20 17:28:07.601 INFO   New manifests in D:\...\winget-pkgs\manifests\o\Omnissa\WorkspaceONEIntelligentHub\24.10.13.0 for Omnissa.WorkspaceONEIntelligentHub (24.10.13.0)
+2025-07-20 17:37:37.829 INFO     清单验证成功。
+2025-07-20 17:37:37.839 INFO   Staging and Committing Changes to Git
+2025-07-20 17:37:47.168 INFO     Commit message: New version: Omnissa.WorkspaceONEIntelligentHub version 24.10.13.0 (Auto)
+2025-07-20 17:37:47.169 INFO   Pushing changes to remote (origin) repository
+2025-07-20 17:37:51.365 INFO     Successfully pushed to remote (origin): New-Version-Omnissa.WorkspaceONEIntelligentHub-24.10.13.0-1753003676
+2025-07-20 17:37:53.687 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/275938
+2025-07-20 17:37:53.707 INFO All manifests have been modified and pushed through.
+2025-07-20 17:37:58.478 INFO Workspace clean-up completed.
+~~ End of logging ~~
