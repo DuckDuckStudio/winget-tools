@@ -58,6 +58,7 @@ jobs:
       with:
         name: installer
         path: installer.${{ env.file_extension }}
+        retention-days: 1
 
     - name: 设置 Rust
       # 用于后续的 `cargo binstall` 安装
