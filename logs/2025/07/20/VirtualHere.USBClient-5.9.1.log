@@ -1,0 +1,25 @@
+~~ Start logging ~~
+2025-07-20 10:36:42.887 FUN Just do it!
+2025-07-20 10:36:42.921 INFO Found the following version folder: ['5.8.9', '5.9.0', '5.9.1']
+2025-07-20 10:36:42.927 INFO Skip version 5.8.9, because it's not in the list of versions to be modified.
+2025-07-20 10:36:42.932 INFO Skip version 5.9.0, because it's not in the list of versions to be modified.
+2025-07-20 10:36:42.938 INFO Processing version folder: 5.9.1
+2025-07-20 10:36:42.943 INFO   Create and checkout to a new branch: New-Version-VirtualHere.USBClient-5.9.1-1752979002
+2025-07-20 10:36:51.594 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\v\VirtualHere\USBClient\5.9.1\VirtualHere.USBClient.installer.yaml
+2025-07-20 10:36:51.606 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\v\VirtualHere\USBClient\5.9.1\VirtualHere.USBClient.installer.yaml
+2025-07-20 10:36:51.758 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\v\VirtualHere\USBClient\5.9.1\VirtualHere.USBClient.locale.en-US.yaml
+2025-07-20 10:36:51.763 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\v\VirtualHere\USBClient\5.9.1\VirtualHere.USBClient.locale.en-US.yaml
+2025-07-20 10:36:51.867 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\v\VirtualHere\USBClient\5.9.1\VirtualHere.USBClient.locale.zh-CN.yaml
+2025-07-20 10:36:51.870 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\v\VirtualHere\USBClient\5.9.1\VirtualHere.USBClient.locale.zh-CN.yaml
+2025-07-20 10:36:51.974 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\v\VirtualHere\USBClient\5.9.1\VirtualHere.USBClient.yaml
+2025-07-20 10:36:51.976 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\v\VirtualHere\USBClient\5.9.1\VirtualHere.USBClient.yaml
+2025-07-20 10:36:52.982 INFO   New manifests in D:\...\winget-pkgs\manifests\v\VirtualHere\USBClient\5.9.1 for VirtualHere.USBClient (5.9.1)
+2025-07-20 10:38:03.550 INFO     清单验证成功。
+2025-07-20 10:38:03.560 INFO   Staging and Committing Changes to Git
+2025-07-20 10:38:08.683 INFO     Commit message: New version: VirtualHere.USBClient version 5.9.1 (Auto)
+2025-07-20 10:38:08.684 INFO   Pushing changes to remote (origin) repository
+2025-07-20 10:38:12.892 INFO     Successfully pushed to remote (origin): New-Version-VirtualHere.USBClient-5.9.1-1752979002
+2025-07-20 10:38:14.718 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/275838
+2025-07-20 10:38:14.720 INFO All manifests have been modified and pushed through.
+2025-07-20 10:38:20.256 INFO Workspace clean-up completed.
+~~ End of logging ~~
