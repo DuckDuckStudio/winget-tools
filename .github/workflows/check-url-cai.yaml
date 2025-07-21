@@ -5,7 +5,7 @@ on:
     inputs:
       fail_level:
         type: choice
-        description: 失败等级
+        description: 错误等级
         required: true
         default: complete
         options:

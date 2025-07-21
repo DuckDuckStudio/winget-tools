@@ -31,11 +31,11 @@ namespace checker
 
             string failureLevel;
             // ================================
-            //           失败等级说明
-            // error: (默认) 在检查到错误时使工作流失败。只检查 InstallerUrl 和 ReturnResponseUrl。忽略在非安装程序清单中检查到的 403 Forbidden 警告。
-            // warning: 在检查到 “警告” 级别的错误时使工作流失败。检查所有可能的 URL。
+            //           错误等级说明
+            // error: 只检查 InstallerUrl 和 ReturnResponseUrl。忽略在非安装程序清单中检查到的 403 Forbidden 警告。
+            // warning: 检查所有可能的 URL 后依据是否有错误或警告决定工作流是否失败。
             // no-fail: (在工作流文件中) 使工作流不会失败。以 error 等级检查 URL。
-            // complete: 运行完整检查，检查完所有可能的 URL 后依据是否有错误决定工作流是否失败。只有警告不会使工作流失败。
+            // complete: 检查所有可能的 URL 后依据是否有错误决定工作流是否失败。只有警告不会使工作流失败。
             // ================================
             if (args.Length >= 2)
             {
