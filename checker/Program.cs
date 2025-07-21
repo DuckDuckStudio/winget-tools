@@ -175,6 +175,7 @@ namespace checker
             {
                 ["calibre.calibre.portable"] = "有个笨蛋经常使用 GitHub Release 的链接，GitHub Release 的链接只保留最新版本的文件，应改为 https://download.calibre-ebook.com/x.y.z/calibre-portable-installer-x.y.z.exe",
                 ["7S2P.Effie.CN"] = "包发布者经常移除此包的旧版本",
+                ["AppByTroye.KoodoReader"] = "在一段时间后，发布者会删除旧版本",
                 // GeoGebra
                 ["GeoGebra.GraphingCalculator"] = "在一段时间后，发布者会删除多个旧版本",
                 ["GeoGebra.Classic"] = "在一段时间后，发布者会删除多个旧版本",
