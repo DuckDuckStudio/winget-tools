@@ -203,10 +203,10 @@ namespace checker
                             else
                             {
                                 Console.WriteLine($"\n[Warning] (安装程序? 返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})");
+                                Console.WriteLine($"[Hint] Sundry 命令: sundry remove {GetPackageIdentifier(filePath)} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
                                 GetFrequentlyFailingPackageHint(filePath);
                                 if (failureLevel == "warning")
                                 {
-                                    Console.WriteLine($"[Hint] Sundry 命令: sundry remove {GetPackageIdentifier(filePath)} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
                                     return false;
                                 }
                             }
@@ -214,7 +214,7 @@ namespace checker
                         else
                         {
                             Console.WriteLine($"\n[Warning] (一般链接返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})");
-                            Console.WriteLine($"[Hint] Sundry 命令: sundry modify {GetPackageIdentifier(filePath)} {Path.GetFileName(Path.GetDirectoryName(filePath))} \"[Warning] (一般链接返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})\"");
+                            Console.WriteLine($"[Hint] Sundry 命令: sundry modify {GetPackageIdentifier(filePath)} {Path.GetFileName(Path.GetDirectoryName(filePath))} \"(一般链接返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})\"");
                             if (failureLevel == "warning")
                             {
                                 return false;
