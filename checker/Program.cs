@@ -86,44 +86,56 @@ namespace checker
             client.Timeout = TimeSpan.FromSeconds(15);
 
             bool failed = false; // 在失败模式 complete 下的标记
-            var fileTasks = new List<Task>();
-            var semaphore = new SemaphoreSlim(maxConcurrency); // 控制最大并发数
+            var allUrls = new List<(string filePath, string url)>();
 
+            Console.WriteLine("[INFO] 正在查找 URL...");
+
+            // 先收集所有 URL
             foreach (string filePath in Directory.EnumerateFiles(folderPath, "*.yaml", SearchOption.AllDirectories))
             {
-                await semaphore.WaitAsync();
-                fileTasks.Add(Task.Run(async () =>
+                try
                 {
-                    try
-                    {
-                        YamlStream yaml = [];
-                        using StreamReader reader = new(filePath);
-                        yaml.Load(reader);
+                    YamlStream yaml = [];
+                    using StreamReader reader = new(filePath);
+                    yaml.Load(reader);
 
-                        YamlMappingNode rootNode = (YamlMappingNode)yaml.Documents[0].RootNode;
-                        HashSet<string> urls = FindUrls(rootNode, failureLevel);
+                    YamlMappingNode rootNode = (YamlMappingNode)yaml.Documents[0].RootNode;
+                    HashSet<string> urls = FindUrls(rootNode, failureLevel);
 
-                        var urlTasks = urls.Select(url => CheckUrlAsync(client, filePath, url, failureLevel)).ToArray();
-                        var results = await Task.WhenAll(urlTasks);
-
-                        if (results.Any(r => r == false))
-                        {
-                            failed = true;
-                        }
-                    }
-                    catch (Exception e)
+                    foreach (var url in urls)
                     {
-                        Console.WriteLine($"\n[Error] 处理文件 {filePath} 时发生错误: {e.Message}");
-                        failed = true;
+                        allUrls.Add((filePath, url));
                     }
-                    finally
-                    {
-                        semaphore.Release();
-                    }
-                }));
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine($"\n[Error] 处理文件 {filePath} 时发生错误: {e.Message}");
+                    failed = true;
+                }
             }
 
-            await Task.WhenAll(fileTasks);
+            Console.WriteLine("[INFO] 查找 URL 完毕");
+
+            // 再并发检查所有 URL
+            var semaphore = new SemaphoreSlim(maxConcurrency); // 控制最大并发数
+            var urlTasks = allUrls.Select(async tuple =>
+            {
+                await semaphore.WaitAsync();
+                try
+                {
+                    bool result = await CheckUrlAsync(client, tuple.filePath, tuple.url, failureLevel);
+                    if (!result)
+                    {
+                        failed = true;
+                    }
+                }
+                finally
+                {
+                    semaphore.Release();
+                }
+            }).ToArray();
+
+            await Task.WhenAll(urlTasks);
 
             return !failed;
         }
