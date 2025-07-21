@@ -32,10 +32,10 @@ namespace checker
             string failureLevel;
             // ================================
             //           错误等级说明
-            // error: 只检查 InstallerUrl 和 ReturnResponseUrl。忽略在非安装程序清单中检查到的 403 Forbidden 警告。
-            // warning: 检查所有可能的 URL 后依据是否有错误或警告决定工作流是否失败。
-            // no-fail: (在工作流文件中) 使工作流不会失败。以 error 等级检查 URL。
-            // complete: 检查所有可能的 URL 后依据是否有错误决定工作流是否失败。只有警告不会使工作流失败。
+            // 错误: 只检查 InstallerUrl 和 ReturnResponseUrl。忽略在非安装程序清单中检查到的 403 Forbidden 警告。
+            // 详细: 检查所有可能的 URL 后依据是否有错误或警告决定工作流是否失败。
+            // 不失败: (在工作流文件中) 使工作流不会失败。以 默认 等级检查 URL。
+            // 默认: 检查所有可能的 URL 后依据是否有错误决定工作流是否失败。只有警告不会使工作流失败。
             // ================================
             if (args.Length >= 2)
             {
@@ -44,9 +44,9 @@ namespace checker
             else
             {
 #if DEBUG
-                Console.WriteLine("[Debug] 失败级别获取失败，使用默认 error");
+                Console.WriteLine("[Debug] 失败级别获取失败，使用 默认 错误等级");
 #endif
-                failureLevel = "error";
+                failureLevel = "默认";
             }
 
             // 最大并发数
@@ -85,12 +85,13 @@ namespace checker
             client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3");
             client.Timeout = TimeSpan.FromSeconds(15);
 
-            bool failed = false; // 在失败模式 complete 下的标记
+            bool failed = false; // 在失败模式 默认 下的标记
             var allUrls = new List<(string filePath, string url)>();
 
             Console.WriteLine("[INFO] 正在查找 URL...");
 
             // 先收集所有 URL
+            HashSet<string> urlSet = [];
             foreach (string filePath in Directory.EnumerateFiles(folderPath, "*.yaml", SearchOption.AllDirectories))
             {
                 try
@@ -102,9 +103,13 @@ namespace checker
                     YamlMappingNode rootNode = (YamlMappingNode)yaml.Documents[0].RootNode;
                     HashSet<string> urls = FindUrls(rootNode, failureLevel);
 
-                    foreach (var url in urls)
+                    foreach (string url in urls)
                     {
-                        allUrls.Add((filePath, url));
+                        // 只添加未出现过的 url
+                        if (urlSet.Add(url) || failureLevel == "详细")
+                        {
+                            allUrls.Add((filePath, url));
+                        }
                     }
                 }
                 catch (Exception e)
@@ -217,7 +222,7 @@ namespace checker
                                 Console.WriteLine($"\n[Warning] (安装程序? 返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})");
                                 Console.WriteLine($"[Hint] Sundry 命令: sundry remove {GetPackageIdentifier(filePath)} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
                                 GetFrequentlyFailingPackageHint(filePath);
-                                if (failureLevel == "warning")
+                                if (failureLevel == "详细")
                                 {
                                     return false;
                                 }
@@ -227,7 +232,7 @@ namespace checker
                         {
                             Console.WriteLine($"\n[Warning] (一般链接返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})");
                             Console.WriteLine($"[Hint] Sundry 命令: sundry modify {GetPackageIdentifier(filePath)} {Path.GetFileName(Path.GetDirectoryName(filePath))} \"(一般链接返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})\"");
-                            if (failureLevel == "warning")
+                            if (failureLevel == "详细")
                             {
                                 return false;
                             }
@@ -235,12 +240,12 @@ namespace checker
                     }
                     else if (response.StatusCode == System.Net.HttpStatusCode.Forbidden)
                     {
-                        if (filePath.Contains("installer.yaml") || failureLevel != "error")
+                        if (filePath.Contains("installer.yaml") || failureLevel != "错误")
                         {
                             Console.WriteLine($"\n[Warning] {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (Forbidden - 已禁止)");
                             Console.WriteLine($"[Hint] Sundry 命令: sundry remove {GetPackageIdentifier(filePath)} {Path.GetFileName(Path.GetDirectoryName(filePath))} \"It returns a 403 status code in GitHub Action.\"");
                             GetFrequentlyFailingPackageHint(filePath);
-                            if (failureLevel == "warning")
+                            if (failureLevel == "详细")
                             {
                                 return false;
                             }
@@ -287,7 +292,7 @@ namespace checker
                     {
                         Console.WriteLine($"\n[Warning] {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (≥400 - 客户端错误)");
                         GetFrequentlyFailingPackageHint(filePath);
-                        if (failureLevel == "warning")
+                        if (failureLevel == "详细")
                         {
                             Console.WriteLine($"[Hint] Sundry 命令: sundry remove {GetPackageIdentifier(filePath)} {Path.GetFileName(Path.GetDirectoryName(filePath))} \"It returns a {(int)response.StatusCode} (≥ 400) status code in GitHub Action.\"");
                             return false;
@@ -317,7 +322,7 @@ namespace checker
                             {
                                 Console.WriteLine($"\n[Warning] {filePath} 中的 {url} 不安全 (HTTP)，请使用安全 URL {httpsUrl} (HTTPS) 替代。");
                                 Console.WriteLine($"[Hint] Sundry 命令: sundry modify {GetPackageIdentifier(filePath)} {Path.GetFileName(Path.GetDirectoryName(filePath))} \"{filePath} 中的 {url} 不安全 (HTTP)，请使用安全 URL {httpsUrl} (HTTPS) 替代。\"");
-                                if (failureLevel == "warning")
+                                if (failureLevel == "详细")
                                 {
                                     return false;
                                 }
@@ -355,7 +360,7 @@ namespace checker
                         else
                         {
                             Console.WriteLine($"\n[Warning] (安装程序? Name or service not known) {filePath} 中的 {url} 域名或服务器未知 ({e.Message})");
-                            if (failureLevel == "warning")
+                            if (failureLevel == "详细")
                             {
                                 Console.WriteLine($"[Hint] Sundry 命令: sundry remove {GetPackageIdentifier(filePath)} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
                                 return false;
@@ -365,7 +370,7 @@ namespace checker
                     else
                     {
                         Console.WriteLine($"\n[Warning] (一般链接 Name or service not known) {filePath} 中的 {url} 域名或服务器未知 ({e.Message})");
-                        if (failureLevel == "warning")
+                        if (failureLevel == "详细")
                         {
                             return false;
                         }
@@ -390,7 +395,7 @@ namespace checker
                 else
                 {
                     Console.WriteLine($"\n[Warning] 无法访问 {filePath} 中的 {url} : {e.Message} - {e.InnerException?.Message ?? "没有内部异常"}");
-                    if (failureLevel == "warning")
+                    if (failureLevel == "详细")
                     {
                         return false;
                     }
@@ -423,7 +428,7 @@ namespace checker
             }
             catch (UriFormatException e)
             {
-                if (failureLevel == "warning" || filePath.Contains("installer.yaml"))
+                if (failureLevel == "详细" || filePath.Contains("installer.yaml"))
                 {
                     Console.WriteLine($"\n[Error] {filePath} 中的 {url} 无效: {e.Message}");
                     return false;
@@ -466,9 +471,9 @@ namespace checker
                         bool flag;
 
                         // 根据 failureLevel 判断需要检查的集合
-                        if (failureLevel == "warning")
+                        if (failureLevel == "详细")
                         {
-                            // 如果是 warning，检查所有 URL
+                            // 如果是 详细，检查所有 URL
                             flag = all_manifest_keys.Contains(keyNode.Value);
                         }
                         else
