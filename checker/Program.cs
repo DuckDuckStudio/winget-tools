@@ -128,6 +128,48 @@ namespace checker
             return !failed;
         }
 
+        static string GetPackageIdentifier(string filePath)
+        {
+            // 传入路径，先获取文件名
+            string fileName = Path.GetFileNameWithoutExtension(filePath);
+            // 此时，有这三种可能
+            // xxx.xxx
+            // xxx.xxx.installer
+            // xxx.xxx.locale.<区域>
+
+            // 判断文件名是否包含 .installer/.locale，然后获取最后一个 .installer/.locale 前的内容
+            if (fileName.Contains(".installer"))
+            {
+                return fileName[..fileName.LastIndexOf(".installer")];
+            }
+            else if (fileName.Contains(".locale"))
+            {
+                return fileName[..fileName.LastIndexOf(".locale")];
+            }
+            else
+            {
+                return fileName;
+            }
+        }
+
+        static void GetFrequentlyFailingPackageHint(string filePath)
+        {
+            Dictionary<string, string> FrequentlyFailingPackages = new()
+            {
+                ["calibre.calibre.portable"] = "有个笨蛋经常使用 GitHub Release 的链接，GitHub Release 的链接只保留最新版本的文件，应改为 https://download.calibre-ebook.com/x.y.z/calibre-portable-installer-x.y.z.exe",
+                ["7S2P.Effie.CN"] = "包发布者经常移除此包的旧版本",
+                // GeoGebra
+                ["GeoGebra.GraphingCalculator"] = "在一段时间后，发布者会删除多个旧版本",
+                ["GeoGebra.Classic"] = "在一段时间后，发布者会删除多个旧版本",
+                ["GeoGebra.Geometry"] = "在一段时间后，发布者会删除多个旧版本",
+                // ========
+            };
+            if (FrequentlyFailingPackages.TryGetValue(GetPackageIdentifier(filePath), out string? hint))
+            {
+                Console.WriteLine($"这是常失败软件包: {hint}");
+            }
+        }
+
         static async Task<bool> CheckUrlAsync(HttpClient client, string filePath, string url, string failureLevel)
         {
             try
@@ -154,15 +196,17 @@ namespace checker
                             if (installerType.Any(ext => url.EndsWith(ext, StringComparison.OrdinalIgnoreCase)))
                             {
                                 Console.WriteLine($"\n[Error] (安装程序返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})");
-                                Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath).Replace(".installer.yaml", "")} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
+                                Console.WriteLine($"[Hint] Sundry 命令: sundry remove {GetPackageIdentifier(filePath)} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
+                                GetFrequentlyFailingPackageHint(filePath);
                                 return false;
                             }
                             else
                             {
                                 Console.WriteLine($"\n[Warning] (安装程序? 返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})");
+                                GetFrequentlyFailingPackageHint(filePath);
                                 if (failureLevel == "warning")
                                 {
-                                    Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath).Replace(".installer.yaml", "")} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
+                                    Console.WriteLine($"[Hint] Sundry 命令: sundry remove {GetPackageIdentifier(filePath)} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
                                     return false;
                                 }
                             }
@@ -170,6 +214,7 @@ namespace checker
                         else
                         {
                             Console.WriteLine($"\n[Warning] (一般链接返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})");
+                            Console.WriteLine($"[Hint] Sundry 命令: sundry modify {GetPackageIdentifier(filePath)} {Path.GetFileName(Path.GetDirectoryName(filePath))} \"[Warning] (一般链接返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})\"");
                             if (failureLevel == "warning")
                             {
                                 return false;
@@ -181,7 +226,8 @@ namespace checker
                         if (filePath.Contains("installer.yaml") || failureLevel != "error")
                         {
                             Console.WriteLine($"\n[Warning] {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (Forbidden - 已禁止)");
-                            Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath).Replace(".installer.yaml", "")} {Path.GetFileName(Path.GetDirectoryName(filePath))} \"It returns a 403 status code in GitHub Action.\"");
+                            Console.WriteLine($"[Hint] Sundry 命令: sundry remove {GetPackageIdentifier(filePath)} {Path.GetFileName(Path.GetDirectoryName(filePath))} \"It returns a 403 status code in GitHub Action.\"");
+                            GetFrequentlyFailingPackageHint(filePath);
                             if (failureLevel == "warning")
                             {
                                 return false;
@@ -228,9 +274,10 @@ namespace checker
                     else
                     {
                         Console.WriteLine($"\n[Warning] {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (≥400 - 客户端错误)");
+                        GetFrequentlyFailingPackageHint(filePath);
                         if (failureLevel == "warning")
                         {
-                            Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath).Replace(".installer.yaml", "")} {Path.GetFileName(Path.GetDirectoryName(filePath))} \"It returns a {(int)response.StatusCode} (≥ 400) status code in GitHub Action.\"");
+                            Console.WriteLine($"[Hint] Sundry 命令: sundry remove {GetPackageIdentifier(filePath)} {Path.GetFileName(Path.GetDirectoryName(filePath))} \"It returns a {(int)response.StatusCode} (≥ 400) status code in GitHub Action.\"");
                             return false;
                         }
                     }
@@ -257,7 +304,7 @@ namespace checker
                             if ((int)httpsResponse.StatusCode < 400)
                             {
                                 Console.WriteLine($"\n[Warning] {filePath} 中的 {url} 不安全 (HTTP)，请使用安全 URL {httpsUrl} (HTTPS) 替代。");
-                                Console.WriteLine($"[Hint] Sundry 命令: sundry modify {Path.GetFileName(filePath).Replace(".installer.yaml", "")} {Path.GetFileName(Path.GetDirectoryName(filePath))} \"{filePath} 中的 {url} 不安全 (HTTP)，请使用安全 URL {httpsUrl} (HTTPS) 替代。\"");
+                                Console.WriteLine($"[Hint] Sundry 命令: sundry modify {GetPackageIdentifier(filePath)} {Path.GetFileName(Path.GetDirectoryName(filePath))} \"{filePath} 中的 {url} 不安全 (HTTP)，请使用安全 URL {httpsUrl} (HTTPS) 替代。\"");
                                 if (failureLevel == "warning")
                                 {
                                     return false;
@@ -290,7 +337,7 @@ namespace checker
                         if (installerType.Any(ext => url.EndsWith(ext, StringComparison.OrdinalIgnoreCase)))
                         {
                             Console.WriteLine($"\n[Error] (安装程序 Name or service not known) {filePath} 中的 {url} 域名或服务器未知 ({e.Message})");
-                            Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath).Replace(".installer.yaml", "")} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
+                            Console.WriteLine($"[Hint] Sundry 命令: sundry remove {GetPackageIdentifier(filePath)} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
                             return false;
                         }
                         else
@@ -298,7 +345,7 @@ namespace checker
                             Console.WriteLine($"\n[Warning] (安装程序? Name or service not known) {filePath} 中的 {url} 域名或服务器未知 ({e.Message})");
                             if (failureLevel == "warning")
                             {
-                                Console.WriteLine($"[Hint] Sundry 命令: sundry remove {Path.GetFileName(filePath).Replace(".installer.yaml", "")} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
+                                Console.WriteLine($"[Hint] Sundry 命令: sundry remove {GetPackageIdentifier(filePath)} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
                                 return false;
                             }
                         }
