@@ -1,0 +1,33 @@
+~~ Start logging ~~
+2025-07-21 06:32:48.265 FUN |･ω･｀)
+2025-07-21 06:32:48.273 INFO Found the following version folder: ['1.1.1', '1.2.1', '1.3.1', '1.4.0', '1.4.1', '1.4.2', '1.4.3', '1.4.4']
+2025-07-21 06:32:48.274 INFO Skip version 1.1.1, because it's not in the list of versions to be modified.
+2025-07-21 06:32:48.275 INFO Skip version 1.2.1, because it's not in the list of versions to be modified.
+2025-07-21 06:32:48.276 INFO Skip version 1.3.1, because it's not in the list of versions to be modified.
+2025-07-21 06:32:48.277 INFO Skip version 1.4.0, because it's not in the list of versions to be modified.
+2025-07-21 06:32:48.288 INFO Skip version 1.4.1, because it's not in the list of versions to be modified.
+2025-07-21 06:32:48.289 INFO Skip version 1.4.2, because it's not in the list of versions to be modified.
+2025-07-21 06:32:48.291 INFO Skip version 1.4.3, because it's not in the list of versions to be modified.
+2025-07-21 06:32:48.292 INFO Processing version folder: 1.4.4
+2025-07-21 06:32:48.292 INFO   Create and checkout to a new branch: Modify-S-3TSoftwareLabs.Robo3T-1.4.4-1753050768
+2025-07-21 06:33:00.695 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\3\3TSoftwareLabs\Robo3T\1.4.4\3TSoftwareLabs.Robo3T.installer.yaml
+2025-07-21 06:33:00.699 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-07-21 06:33:00.700 INFO     Replace ManifestVersion: 1.5.0 -> 1.10.0
+2025-07-21 06:33:00.702 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\3\3TSoftwareLabs\Robo3T\1.4.4\3TSoftwareLabs.Robo3T.installer.yaml
+2025-07-21 06:33:00.902 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\3\3TSoftwareLabs\Robo3T\1.4.4\3TSoftwareLabs.Robo3T.locale.en-US.yaml
+2025-07-21 06:33:00.905 INFO     检测到 D:\...\winget-pkgs\manifests\3\3TSoftwareLabs\Robo3T\1.4.4\3TSoftwareLabs.Robo3T.locale.en-US.yaml 中含有不安全的 URL (HTTP)，自动替换为安全的 URL (HTTPS)
+2025-07-21 06:33:00.906 INFO     Replace ManifestVersion: 1.5.0 -> 1.10.0
+2025-07-21 06:33:00.909 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\3\3TSoftwareLabs\Robo3T\1.4.4\3TSoftwareLabs.Robo3T.locale.en-US.yaml
+2025-07-21 06:33:01.533 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\3\3TSoftwareLabs\Robo3T\1.4.4\3TSoftwareLabs.Robo3T.yaml
+2025-07-21 06:33:01.554 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-07-21 06:33:01.567 INFO     Replace ManifestVersion: 1.5.0 -> 1.10.0
+2025-07-21 06:33:01.592 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\3\3TSoftwareLabs\Robo3T\1.4.4\3TSoftwareLabs.Robo3T.yaml
+2025-07-21 06:34:57.614 INFO     清单验证成功。
+2025-07-21 06:34:57.624 INFO   Staging and Committing Changes to Git
+2025-07-21 06:35:03.718 INFO     Commit message: Modify: 3TSoftwareLabs.Robo3T version 1.4.4 (Auto)
+2025-07-21 06:35:03.719 INFO   Pushing changes to remote (origin) repository
+2025-07-21 06:35:08.727 INFO     Successfully pushed to remote (origin): Modify-S-3TSoftwareLabs.Robo3T-1.4.4-1753050768
+2025-07-21 06:35:10.114 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/275982
+2025-07-21 06:35:10.116 INFO All manifests have been modified and pushed through.
+2025-07-21 06:35:16.976 INFO Workspace clean-up completed.
+~~ End of logging ~~
