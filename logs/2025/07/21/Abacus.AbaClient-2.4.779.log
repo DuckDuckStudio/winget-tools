@@ -1,0 +1,30 @@
+~~ Start logging ~~
+2025-07-21 21:01:04.460 FUN 音游真的毁了这一代青少年！天天不吃不喝就盯着屏幕敲敲敲！还经常听一些奇怪的噪音音乐！最近电玩城还有那个什么舞萌，全是一些十多二十岁的小孩子，盯着那个东西跟发疯似了的敲！一大堆人抢着玩，害得我一小时才能轮到一把！
+2025-07-21 21:01:04.468 INFO Found the following version folder: ['2.1.600', '2.3.730', '2.4.779', '3.2.996', '3.3.1039']
+2025-07-21 21:01:04.470 INFO Skip version 2.1.600, because it's not in the list of versions to be modified.
+2025-07-21 21:01:04.471 INFO Skip version 2.3.730, because it's not in the list of versions to be modified.
+2025-07-21 21:01:04.473 INFO Processing version folder: 2.4.779
+2025-07-21 21:01:04.475 INFO   Create and checkout to a new branch: Modify-S-Abacus.AbaClient-2.4.779-1753102864
+2025-07-21 21:01:26.813 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Abacus\AbaClient\2.4.779\Abacus.AbaClient.installer.yaml
+2025-07-21 21:01:26.849 INFO     Replace ManifestVersion: 1.1.0 -> 1.10.0
+2025-07-21 21:01:26.851 INFO     Replace schema references: 1.1.0.schema.json -> 1.10.0.schema.json
+2025-07-21 21:01:26.853 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Abacus\AbaClient\2.4.779\Abacus.AbaClient.installer.yaml
+2025-07-21 21:01:27.785 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Abacus\AbaClient\2.4.779\Abacus.AbaClient.locale.en-US.yaml
+2025-07-21 21:01:27.116 INFO     Replace ManifestVersion: 1.1.0 -> 1.10.0
+2025-07-21 21:01:27.117 INFO     Replace schema references: 1.1.0.schema.json -> 1.10.0.schema.json
+2025-07-21 21:01:27.120 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Abacus\AbaClient\2.4.779\Abacus.AbaClient.locale.en-US.yaml
+2025-07-21 21:01:27.264 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Abacus\AbaClient\2.4.779\Abacus.AbaClient.yaml
+2025-07-21 21:01:27.267 INFO     Replace ManifestVersion: 1.1.0 -> 1.10.0
+2025-07-21 21:01:27.269 INFO     Replace schema references: 1.1.0.schema.json -> 1.10.0.schema.json
+2025-07-21 21:01:27.271 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Abacus\AbaClient\2.4.779\Abacus.AbaClient.yaml
+2025-07-21 21:03:29.298 INFO     清单验证成功。
+2025-07-21 21:03:29.310 INFO   Staging and Committing Changes to Git
+2025-07-21 21:03:36.419 INFO     Commit message: Modify: Abacus.AbaClient version 2.4.779 (Auto)
+2025-07-21 21:03:36.421 INFO   Pushing changes to remote (origin) repository
+2025-07-21 21:03:41.819 INFO     Successfully pushed to remote (origin): Modify-S-Abacus.AbaClient-2.4.779-1753102864
+2025-07-21 21:03:43.949 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/276113
+2025-07-21 21:03:43.953 INFO Skip version 3.2.996, because it's not in the list of versions to be modified.
+2025-07-21 21:03:43.962 INFO Skip version 3.3.1039, because it's not in the list of versions to be modified.
+2025-07-21 21:03:43.964 INFO All manifests have been modified and pushed through.
+2025-07-21 21:03:51.463 INFO Workspace clean-up completed.
+~~ End of logging ~~
