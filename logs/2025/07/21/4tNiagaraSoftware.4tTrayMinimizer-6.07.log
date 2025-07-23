@@ -1,0 +1,27 @@
+~~ Start logging ~~
+2025-07-21 06:28:54.593 FUN 为世界上的所有美好而战！
+2025-07-21 06:28:54.595 INFO Found the following version folder: ['6.07']
+2025-07-21 06:28:54.596 INFO Processing version folder: 6.07
+2025-07-21 06:28:54.597 INFO   Create and checkout to a new branch: Modify-S-4tNiagaraSoftware.4tTrayMinimizer-6.07-1753050534
+2025-07-21 06:29:08.381 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\4\4tNiagaraSoftware\4tTrayMinimizer\6.07\4tNiagaraSoftware.4tTrayMinimizer.installer.yaml
+2025-07-21 06:29:08.393 INFO     Replace ManifestVersion: 1.2.0 -> 1.10.0
+2025-07-21 06:29:08.394 INFO     Replace schema references: 1.2.0.schema.json -> 1.10.0.schema.json
+2025-07-21 06:29:08.396 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\4\4tNiagaraSoftware\4tTrayMinimizer\6.07\4tNiagaraSoftware.4tTrayMinimizer.installer.yaml
+2025-07-21 06:29:08.651 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\4\4tNiagaraSoftware\4tTrayMinimizer\6.07\4tNiagaraSoftware.4tTrayMinimizer.locale.en-US.yaml
+2025-07-21 06:29:08.655 INFO     检测到 D:\...\winget-pkgs\manifests\4\4tNiagaraSoftware\4tTrayMinimizer\6.07\4tNiagaraSoftware.4tTrayMinimizer.locale.en-US.yaml 中含有不安全的 URL (HTTP)，自动替换为安全的 URL (HTTPS)
+2025-07-21 06:29:08.657 INFO     Replace ManifestVersion: 1.2.0 -> 1.10.0
+2025-07-21 06:29:08.660 INFO     Replace schema references: 1.2.0.schema.json -> 1.10.0.schema.json
+2025-07-21 06:29:08.662 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\4\4tNiagaraSoftware\4tTrayMinimizer\6.07\4tNiagaraSoftware.4tTrayMinimizer.locale.en-US.yaml
+2025-07-21 06:29:08.812 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\4\4tNiagaraSoftware\4tTrayMinimizer\6.07\4tNiagaraSoftware.4tTrayMinimizer.yaml
+2025-07-21 06:29:08.815 INFO     Replace ManifestVersion: 1.2.0 -> 1.10.0
+2025-07-21 06:29:08.816 INFO     Replace schema references: 1.2.0.schema.json -> 1.10.0.schema.json
+2025-07-21 06:29:08.824 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\4\4tNiagaraSoftware\4tTrayMinimizer\6.07\4tNiagaraSoftware.4tTrayMinimizer.yaml
+2025-07-21 06:29:59.275 INFO     清单验证成功。
+2025-07-21 06:29:59.291 INFO   Staging and Committing Changes to Git
+2025-07-21 06:30:05.869 INFO     Commit message: Modify: 4tNiagaraSoftware.4tTrayMinimizer version 6.07 (Auto)
+2025-07-21 06:30:05.870 INFO   Pushing changes to remote (origin) repository
+2025-07-21 06:30:10.784 INFO     Successfully pushed to remote (origin): Modify-S-4tNiagaraSoftware.4tTrayMinimizer-6.07-1753050534
+2025-07-21 06:30:12.997 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/275981
+2025-07-21 06:30:12.998 INFO All manifests have been modified and pushed through.
+2025-07-21 06:30:18.377 INFO Workspace clean-up completed.
+~~ End of logging ~~
