@@ -1,0 +1,23 @@
+~~ Start logging ~~
+2025-08-01 18:51:35.178 FUN 【\(•-•\)(/•-•)/\(•-•\)\(•-•\)(/•-•)/\(•-•\)(/•-•)/(/•-•)/\(•-•\)(/•-•)/\(•-•\)\(•-•\)(/•-•)/\(•-•\)(/•-•)/(/•-•)/】https://www.bilibili.com/video/BV1pW411f7Px/?p=2
+2025-08-01 18:51:35.203 INFO Found the following version folder: ['17.01.3309.000']
+2025-08-01 18:51:35.213 INFO Processing version folder: 17.01.3309.000
+2025-08-01 18:51:35.224 INFO   Create and checkout to a new branch: New-Version-Microsoft.SaRAcmd-17.01.3309.000-1754045495
+2025-08-01 18:52:05.807 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\Microsoft\SaRAcmd\17.01.3309.000\Microsoft.SaRACmd.installer.yaml
+2025-08-01 18:52:05.810 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\Microsoft\SaRAcmd\17.01.3309.000\Microsoft.SaRACmd.installer.yaml
+2025-08-01 18:52:06.164 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\Microsoft\SaRAcmd\17.01.3309.000\Microsoft.SaRACmd.locale.en-US.yaml
+2025-08-01 18:52:06.169 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\Microsoft\SaRAcmd\17.01.3309.000\Microsoft.SaRACmd.locale.en-US.yaml
+2025-08-01 18:52:06.381 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\Microsoft\SaRAcmd\17.01.3309.000\Microsoft.SaRACmd.locale.zh-CN.yaml
+2025-08-01 18:52:06.386 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\Microsoft\SaRAcmd\17.01.3309.000\Microsoft.SaRACmd.locale.zh-CN.yaml
+2025-08-01 18:52:06.534 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\Microsoft\SaRAcmd\17.01.3309.000\Microsoft.SaRACmd.yaml
+2025-08-01 18:52:06.538 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\Microsoft\SaRAcmd\17.01.3309.000\Microsoft.SaRACmd.yaml
+2025-08-01 18:52:06.690 INFO   New manifests in D:\...\winget-pkgs\manifests\m\Microsoft\SaRAcmd\17.01.3309.000 for Microsoft.SaRAcmd (17.01.3309.000)
+2025-08-01 18:52:29.305 INFO     清单验证成功。
+2025-08-01 18:52:29.318 INFO   Staging and Committing Changes to Git
+2025-08-01 18:53:31.348 INFO     Commit message: New version: Microsoft.SaRAcmd version 17.01.3309.000 (Auto)
+2025-08-01 18:53:31.350 INFO   Pushing changes to remote (origin) repository
+2025-08-01 18:53:37.808 INFO     Successfully pushed to remote (origin): New-Version-Microsoft.SaRAcmd-17.01.3309.000-1754045495
+2025-08-01 18:53:40.134 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/279734
+2025-08-01 18:53:40.173 INFO All manifests have been modified and pushed through.
+2025-08-01 18:53:46.238 INFO Workspace clean-up completed.
+~~ End of logging ~~
