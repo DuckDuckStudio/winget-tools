@@ -1,0 +1,28 @@
+~~ Start logging ~~
+2025-08-04 21:37:12.476 FUN 不可发送单个标点符号
+2025-08-04 21:37:12.478 INFO Found the following version folder: ['1.1.09.04']
+2025-08-04 21:37:12.479 INFO Processing version folder: 1.1.09.04
+2025-08-04 21:37:12.480 INFO   Create and checkout to a new branch: Modify-S-hakjav.KeyPrank-1.1.09.04-1754314632
+2025-08-04 21:37:23.229 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\hakjav\KeyPrank\1.1.09.04\hakjav.KeyPrank.installer.yaml
+2025-08-04 21:37:23.231 INFO     检测到 D:\...\winget-pkgs\manifests\h\hakjav\KeyPrank\1.1.09.04\hakjav.KeyPrank.installer.yaml 中含有不安全的 URL (HTTP)，自动替换为安全的 URL (HTTPS)
+2025-08-04 21:37:23.232 INFO     Replace ManifestVersion: 1.2.0 -> 1.10.0
+2025-08-04 21:37:23.233 INFO     Replace schema references: 1.2.0.schema.json -> 1.10.0.schema.json
+2025-08-04 21:37:23.234 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\h\hakjav\KeyPrank\1.1.09.04\hakjav.KeyPrank.installer.yaml
+2025-08-04 21:37:30.906 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\hakjav\KeyPrank\1.1.09.04\hakjav.KeyPrank.locale.en-US.yaml
+2025-08-04 21:37:30.918 INFO     检测到 D:\...\winget-pkgs\manifests\h\hakjav\KeyPrank\1.1.09.04\hakjav.KeyPrank.locale.en-US.yaml 中含有不安全的 URL (HTTP)，自动替换为安全的 URL (HTTPS)
+2025-08-04 21:37:30.924 INFO     Replace ManifestVersion: 1.2.0 -> 1.10.0
+2025-08-04 21:37:30.931 INFO     Replace schema references: 1.2.0.schema.json -> 1.10.0.schema.json
+2025-08-04 21:37:30.946 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\h\hakjav\KeyPrank\1.1.09.04\hakjav.KeyPrank.locale.en-US.yaml
+2025-08-04 21:37:38.101 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\hakjav\KeyPrank\1.1.09.04\hakjav.KeyPrank.yaml
+2025-08-04 21:37:38.152 INFO     Replace ManifestVersion: 1.2.0 -> 1.10.0
+2025-08-04 21:37:38.160 INFO     Replace schema references: 1.2.0.schema.json -> 1.10.0.schema.json
+2025-08-04 21:37:38.167 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\h\hakjav\KeyPrank\1.1.09.04\hakjav.KeyPrank.yaml
+2025-08-04 21:38:00.124 INFO     清单验证成功。
+2025-08-04 21:38:00.220 INFO   Staging and Committing Changes to Git
+2025-08-04 21:38:07.955 INFO     Commit message: Modify: hakjav.KeyPrank version 1.1.09.04 (Auto)
+2025-08-04 21:38:07.957 INFO   Pushing changes to remote (origin) repository
+2025-08-04 21:38:13.460 INFO     Successfully pushed to remote (origin): Modify-S-hakjav.KeyPrank-1.1.09.04-1754314632
+2025-08-04 21:38:15.521 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/280582
+2025-08-04 21:38:15.524 INFO All manifests have been modified and pushed through.
+2025-08-04 21:38:22.536 INFO Workspace clean-up completed.
+~~ End of logging ~~
