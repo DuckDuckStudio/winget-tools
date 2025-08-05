@@ -1,0 +1,28 @@
+~~ Start logging ~~
+2025-08-05 22:49:04.521 FUN 用户只需要等更新就行了，而开发者要考虑的就多了。
+2025-08-05 22:49:04.521 INFO Trying to generate new manifests for HolographicHat.YaeAchievement 5.7.1 with urls ['https://github.com/HolographicHat/Yae/releases/download/5.7.1/YaeAchievement.exe', '--release-notes-url', 'https://github.com/HolographicHat/Yae/releases/tag/5.7.1']...
+2025-08-05 22:49:40.916 INFO The manifest was successfully generated.
+2025-08-05 22:49:40.919 INFO Found the following version folder: ['5.6.0', '5.7.1']
+2025-08-05 22:49:40.920 INFO Skip version 5.6.0, because it's not in the list of versions to be modified.
+2025-08-05 22:49:40.921 INFO Processing version folder: 5.7.1
+2025-08-05 22:49:40.922 INFO   Create and checkout to a new branch: New-Version-HolographicHat.YaeAchievement-5.7.1-1754405380
+2025-08-05 22:49:51.699 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\HolographicHat\YaeAchievement\5.7.1\HolographicHat.YaeAchievement.installer.yaml
+2025-08-05 22:49:51.701 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\h\HolographicHat\YaeAchievement\5.7.1\HolographicHat.YaeAchievement.installer.yaml
+2025-08-05 22:49:51.850 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\HolographicHat\YaeAchievement\5.7.1\HolographicHat.YaeAchievement.locale.en-US.yaml
+2025-08-05 22:49:51.853 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\h\HolographicHat\YaeAchievement\5.7.1\HolographicHat.YaeAchievement.locale.en-US.yaml
+2025-08-05 22:49:51.950 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\HolographicHat\YaeAchievement\5.7.1\HolographicHat.YaeAchievement.locale.ja-JP.yaml
+2025-08-05 22:49:51.953 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\h\HolographicHat\YaeAchievement\5.7.1\HolographicHat.YaeAchievement.locale.ja-JP.yaml
+2025-08-05 22:49:52.530 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\HolographicHat\YaeAchievement\5.7.1\HolographicHat.YaeAchievement.locale.zh-CN.yaml
+2025-08-05 22:49:52.556 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\h\HolographicHat\YaeAchievement\5.7.1\HolographicHat.YaeAchievement.locale.zh-CN.yaml
+2025-08-05 22:49:52.171 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\HolographicHat\YaeAchievement\5.7.1\HolographicHat.YaeAchievement.yaml
+2025-08-05 22:49:52.174 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\h\HolographicHat\YaeAchievement\5.7.1\HolographicHat.YaeAchievement.yaml
+2025-08-05 22:49:52.313 INFO   New manifests in D:\...\winget-pkgs\manifests\h\HolographicHat\YaeAchievement\5.7.1 for HolographicHat.YaeAchievement (5.7.1)
+2025-08-05 22:51:54.931 INFO     清单验证成功。
+2025-08-05 22:51:54.941 INFO   Staging and Committing Changes to Git
+2025-08-05 22:52:00.177 INFO     Commit message: New version: HolographicHat.YaeAchievement version 5.7.1 (Auto)
+2025-08-05 22:52:00.178 INFO   Pushing changes to remote (origin) repository
+2025-08-05 22:52:05.394 INFO     Successfully pushed to remote (origin): New-Version-HolographicHat.YaeAchievement-5.7.1-1754405380
+2025-08-05 22:52:07.438 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/281093
+2025-08-05 22:52:07.439 INFO All manifests have been modified and pushed through.
+2025-08-05 22:52:11.936 INFO Workspace clean-up completed.
+~~ End of logging ~~
