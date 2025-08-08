@@ -1,0 +1,35 @@
+~~ Start logging ~~
+2025-08-08 21:37:24.877 FUN 你说到底为什么~~都是我的错~~
+2025-08-08 21:37:24.894 INFO Found the following version folder: ['1.10', '1.11', '1.12', '1.13', '1.5', '1.6', '1.7', '1.8', '1.9', 'v1.1', 'v1.2', 'v1.3', 'v1.4']
+2025-08-08 21:37:24.896 INFO Skip version 1.10, because it's not in the list of versions to be modified.
+2025-08-08 21:37:24.897 INFO Skip version 1.11, because it's not in the list of versions to be modified.
+2025-08-08 21:37:24.899 INFO Skip version 1.12, because it's not in the list of versions to be modified.
+2025-08-08 21:37:24.900 INFO Processing version folder: 1.13
+2025-08-08 21:37:24.901 INFO   Create and checkout to a new branch: New-Version-DuckStudio.GitHubLabelsManager-1.13-1754660244
+2025-08-08 21:37:37.384 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.13\DuckStudio.GitHubLabelsManager.installer.yaml
+2025-08-08 21:37:37.387 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.13\DuckStudio.GitHubLabelsManager.installer.yaml
+2025-08-08 21:37:37.588 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.13\DuckStudio.GitHubLabelsManager.locale.en-US.yaml
+2025-08-08 21:37:37.594 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.13\DuckStudio.GitHubLabelsManager.locale.en-US.yaml
+2025-08-08 21:37:37.725 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.13\DuckStudio.GitHubLabelsManager.locale.zh-CN.yaml
+2025-08-08 21:37:37.728 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.13\DuckStudio.GitHubLabelsManager.locale.zh-CN.yaml
+2025-08-08 21:37:37.865 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.13\DuckStudio.GitHubLabelsManager.yaml
+2025-08-08 21:37:37.867 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.13\DuckStudio.GitHubLabelsManager.yaml
+2025-08-08 21:37:38.903 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubLabelsManager\1.13 for DuckStudio.GitHubLabelsManager (1.13)
+2025-08-08 21:37:56.882 INFO     清单验证成功。
+2025-08-08 21:37:56.893 INFO   Staging and Committing Changes to Git
+2025-08-08 21:38:15.808 INFO     Commit message: New version: DuckStudio.GitHubLabelsManager version 1.13 (Auto)
+2025-08-08 21:38:15.934 INFO   Pushing changes to remote (origin) repository
+2025-08-08 21:38:21.835 INFO     Successfully pushed to remote (origin): New-Version-DuckStudio.GitHubLabelsManager-1.13-1754660244
+2025-08-08 21:38:24.670 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/282178
+2025-08-08 21:38:24.734 INFO Skip version 1.5, because it's not in the list of versions to be modified.
+2025-08-08 21:38:24.757 INFO Skip version 1.6, because it's not in the list of versions to be modified.
+2025-08-08 21:38:24.781 INFO Skip version 1.7, because it's not in the list of versions to be modified.
+2025-08-08 21:38:24.814 INFO Skip version 1.8, because it's not in the list of versions to be modified.
+2025-08-08 21:38:24.830 INFO Skip version 1.9, because it's not in the list of versions to be modified.
+2025-08-08 21:38:24.848 INFO Skip version v1.1, because it's not in the list of versions to be modified.
+2025-08-08 21:38:24.865 INFO Skip version v1.2, because it's not in the list of versions to be modified.
+2025-08-08 21:38:24.880 INFO Skip version v1.3, because it's not in the list of versions to be modified.
+2025-08-08 21:38:24.896 INFO Skip version v1.4, because it's not in the list of versions to be modified.
+2025-08-08 21:38:24.913 INFO All manifests have been modified and pushed through.
+2025-08-08 21:38:30.195 INFO Workspace clean-up completed.
+~~ End of logging ~~
