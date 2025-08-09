@@ -539,6 +539,7 @@ test.*
 
 # Locale
 移除脚本/
+Scripts/
 
 # Copyright
 Copyright/

@@ -1,0 +1,3321 @@
+(.venv) [Powered by 虚空终端] PS D:\...\winget-tools> python Scripts/CheckAndRemove.py 5E.5EClient
+INFO 正在检查 powershell sundry ...
+版本: locale
+安装在: D:\...\Sundry-Locale\src
+INFO 正在检查 git ...
+git version 2.50.1.windows.1
+INFO 正在检查 gh ...
+gh version 2.76.1 (2025-07-23)
+https://github.com/cli/cli/releases/tag/v2.76.1
+INFO 正在检查 winget ...
+v1.11.430
+✓ 依赖验证成功
+✓ 找到 5E.5EClient 版本:
+8.2.1, 8.1.1, 8.1.0, 7.1.48, 7.1.45, 7.1.44, 7.1.43, 7.1.41, 7.1.40, 7.1.38, 7.1.37, 7.1.36, 7.1.35, 7.1.32, 7.1.31, 7.1.27, 7.1.26, 7.1.24, 7.1.22, 7.1.19, 7.1.18, 7.1.17, 7.1.15, 7.1.14, 7.1.13, 7.1.12, 7.1.11, 7.1.10, 7.1.9
+
+INFO 正在检查 5E.5EClient 8.2.1 ...
+已找到 5EClient [5E.5EClient] 版本 8.2.1
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-8.2.1.exe
+  ██████████████████████████████   161 MB /  161 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\5EClient_8.2.1_Machine_X64_nullsoft_zh-CN.exe
+✓ 验证 5E.5EClient 8.2.1 通过！
+INFO 正在检查 5E.5EClient 8.1.1 ...
+已找到 5EClient [5E.5EClient] 版本 8.1.1
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-8.1.1.exe
+  ██████████████████████████████   190 MB /  190 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\5EClient_8.1.1_Machine_X64_nullsoft_zh-CN.exe
+✓ 验证 5E.5EClient 8.1.1 通过！
+INFO 正在检查 5E.5EClient 8.1.0 ...
+已找到 5EClient [5E.5EClient] 版本 8.1.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-8.1.0.exe
+  ██████████████████████████████   191 MB /  191 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\5EClient_8.1.0_Machine_X64_nullsoft_zh-CN.exe
+✓ 验证 5E.5EClient 8.1.0 通过！
+INFO 正在检查 5E.5EClient 7.1.48 ...
+已找到 5EClient [5E.5EClient] 版本 7.1.48
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.48.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+✕ 5E.5EClient 7.1.48 下载失败！将移除此版本...
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 5EClient [5E.5EClient]
+版本
+------
+8.2.1
+8.1.1
+8.1.0
+7.1.48
+7.1.45
+7.1.44
+7.1.43
+7.1.41
+7.1.40
+7.1.38
+7.1.37
+7.1.36
+7.1.35
+7.1.32
+7.1.31
+7.1.27
+7.1.26
+7.1.24
+7.1.22
+7.1.19
+7.1.18
+7.1.17
+7.1.15
+7.1.14
+7.1.13
+7.1.12
+7.1.11
+7.1.10
+7.1.9
+======= 此软件包版本在 winget 上的信息 =======
+已找到 5EClient [5E.5EClient]
+版本: 7.1.48
+发布者: 杭州赛凡科技有限公司
+作者: 杭州赛凡科技有限公司
+描述: 5E 对战平台是由 5EPlay 开发的一款 CS: GO 对战软件,拥有超过千万注册活跃玩家,是 CS: GO 玩家的首选平台。平台采用自主研发的最新反作弊技术和游戏内举报投票功能,全面保护玩家的游戏体验。同时,平台提供 128tick 竞赛级服务器,能够给玩家带来丝滑的游戏体验。此外,平台还提供专业全面的游戏数据分析,帮助玩家全面回顾整场对局,并给出专业的分析结果。
+许可证: 专有软件
+版权所有: ©2011-2024 杭州赛凡科技有限公司
+标记：
+  csgo
+  游戏
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://oss-arena.5eplay.com/client/5EClient-7.1.48.exe
+  安装程序 SHA256： a3711c2ceaaa1454572722e6f3d4d415d15142895742321582e1b7c9653f64ed
+  发布日期: 2024-12-30
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\5\5E\5EClient\7.1.48\5E.5EClient.installer.yaml
+
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: 5E.5EClient
+PackageVersion: 7.1.48
+InstallerType: nullsoft
+Scope: machine
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ProductCode: b8243c8b-3ace-5d95-b4f0-bc984c2373da
+ReleaseDate: 2024-12-30
+Installers:
+- Architecture: x64
+  InstallerUrl: https://oss-arena.5eplay.com/client/5EClient-7.1.48.exe
+  InstallerSha256: A3711C2CEAAA1454572722E6F3D4D415D15142895742321582E1B7C9653F64ED
+ManifestType: installer
+ManifestVersion: 1.9.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 5EClient [5E.5EClient] 版本 7.1.48
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.48.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+no pull requests match your search in microsoft/winget-pkgs
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                    BRANCH                                     CREATED AT
+#227970  New version: 5E.5EClient version 8.1.0   SpecterShell:5E.5EClient-8.1.0-724180916   about 5 months ago
+#204416  New version: 5E.5EClient version 7.1.48  SpecterShell:5E.5EClient-7.1.48-415778378  about 7 months ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+remote: Enumerating objects: 2286, done.
+remote: Counting objects: 100% (1314/1314), done.
+remote: Compressing objects: 100% (129/129), done.
+remote: Total 2286 (delta 1285), reused 1185 (delta 1185), pack-reused 972 (from 3)
+Receiving objects: 100% (2286/2286), 668.30 KiB | 563.00 KiB/s, done.
+Resolving deltas: 100% (1650/1650), completed with 467 local objects.
+From https://github.com/microsoft/winget-pkgs
+   8a0ef2d5c87..55e28164e02  master     -> upstream/master
+  已获取上游修改
+From https://github.com/DuckDuckStudio/winget-pkgs
+   8a0ef2d5c87..71d524d7502  master     -> origin/master
+  已获取远程修改
+Successfully rebased and updated refs/heads/master.
+  已变基上游修改
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Bypassed rule violations for refs/heads/master:
+remote:
+remote: - Changes must be made through a pull request.
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+   71d524d7502..55e28164e02  master -> master
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-5E.5EClient-7.1.48-1754699276'
+  已签出新分支 Remove-5E.5EClient-7.1.48-1754699276
+  已移除软件包 5E.5EClient 版本 7.1.48
+[Remove-5E.5EClient-7.1.48-1754699276 68aae7be64f] Remove version: 5E.5EClient version 7.1.48 (Auto)
+ 4 files changed, 64 deletions(-)
+ delete mode 100644 manifests/5/5E/5EClient/7.1.48/5E.5EClient.installer.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.48/5E.5EClient.locale.en-US.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.48/5E.5EClient.locale.zh-CN.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.48/5E.5EClient.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 753 bytes | 251.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'Remove-5E.5EClient-7.1.48-1754699276' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-5E.5EClient-7.1.48-1754699276
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-5E.5EClient-7.1.48-1754699276 -> Remove-5E.5EClient-7.1.48-1754699276
+branch 'Remove-5E.5EClient-7.1.48-1754699276' set up to track 'origin/Remove-5E.5EClient-7.1.48-1754699276'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/282362
+ 成功移除 5E.5EClient 版本 7.1.48
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-5E.5EClient-7.1.48-1754699276 (was 68aae7be64f).
+工作区清理完成
+INFO 正在检查 5E.5EClient 7.1.45 ...
+已找到 5EClient [5E.5EClient] 版本 7.1.45
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.45.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+✕ 5E.5EClient 7.1.45 下载失败！将移除此版本...
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 5EClient [5E.5EClient]
+版本
+------
+8.2.1
+8.1.1
+8.1.0
+7.1.48
+7.1.45
+7.1.44
+7.1.43
+7.1.41
+7.1.40
+7.1.38
+7.1.37
+7.1.36
+7.1.35
+7.1.32
+7.1.31
+7.1.27
+7.1.26
+7.1.24
+7.1.22
+7.1.19
+7.1.18
+7.1.17
+7.1.15
+7.1.14
+7.1.13
+7.1.12
+7.1.11
+7.1.10
+7.1.9
+======= 此软件包版本在 winget 上的信息 =======
+已找到 5EClient [5E.5EClient]
+版本: 7.1.45
+发布者: 杭州赛凡科技有限公司
+作者: 杭州赛凡科技有限公司
+描述: 5E 对战平台是由 5EPlay 开发的一款 CS: GO 对战软件,拥有超过千万注册活跃玩家,是 CS: GO 玩家的首选平台。平台采用自主研发的最新反作弊技术和游戏内举报投票功能,全面保护玩家的游戏体验。同时,平台提供 128tick 竞赛级服务器,能够给玩家带来丝滑的游戏体验。此外,平台还提供专业全面的游戏数据分析,帮助玩家全面回顾整场对局,并给出专业的分析结果。
+许可证: 专有软件
+版权所有: ©2011-2024 杭州赛凡科技有限公司
+标记：
+  csgo
+  游戏
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://oss-arena.5eplay.com/client/5EClient-7.1.45.exe
+  安装程序 SHA256： 49cadcf99602bf9fc24e22a24b3ef5a32c0c0a80d55e6821991fec0fe64c8ec3
+  发布日期: 2024-08-01
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\5\5E\5EClient\7.1.45\5E.5EClient.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.1 Dumplings Mod $debug=QUSU.CRLF.7-4-4.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: 5E.5EClient
+PackageVersion: 7.1.45
+InstallerType: nullsoft
+Scope: machine
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ReleaseDate: 2024-08-01
+Installers:
+- Architecture: x64
+  InstallerUrl: https://oss-arena.5eplay.com/client/5EClient-7.1.45.exe
+  InstallerSha256: 49CADCF99602BF9FC24E22A24B3EF5A32C0C0A80D55E6821991FEC0FE64C8EC3
+  ProductCode: b8243c8b-3ace-5d95-b4f0-bc984c2373da
+ManifestType: installer
+ManifestVersion: 1.6.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 5EClient [5E.5EClient] 版本 7.1.45
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.45.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                        BRANCH                                      CREATED AT
+#282362  Remove version: 5E.5EClient version 7.1....  DuckDuckStudio:Remove-5E.5EClient-7.1.4...  less than a minute ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                    BRANCH                                      CREATED AT
+#165729  New version: 5E.5EClient version 7.1.45  SpecterShell:5E.5EClient-7.1.45-11584021    about 1 year ago
+#166591  New version: 5E.5EClient version 7.1.46  SpecterShell:5E.5EClient-7.1.46-1755578724  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+remote: Enumerating objects: 19, done.
+remote: Counting objects: 100% (19/19), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 10 (delta 9), reused 7 (delta 6), pack-reused 0 (from 0)
+Unpacking objects: 100% (10/10), 1.63 KiB | 8.00 KiB/s, done.
+From https://github.com/microsoft/winget-pkgs
+   55e28164e02..b5c4619535b  master     -> upstream/master
+  已获取上游修改
+  已获取远程修改
+Successfully rebased and updated refs/heads/master.
+  已变基上游修改
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Bypassed rule violations for refs/heads/master:
+remote:
+remote: - Changes must be made through a pull request.
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+   55e28164e02..b5c4619535b  master -> master
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-5E.5EClient-7.1.45-1754699394'
+  已签出新分支 Remove-5E.5EClient-7.1.45-1754699394
+  已移除软件包 5E.5EClient 版本 7.1.45
+[Remove-5E.5EClient-7.1.45-1754699394 75e923e8c32] Remove version: 5E.5EClient version 7.1.45 (Auto)
+ 4 files changed, 88 deletions(-)
+ delete mode 100644 manifests/5/5E/5EClient/7.1.45/5E.5EClient.installer.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.45/5E.5EClient.locale.en-US.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.45/5E.5EClient.locale.zh-CN.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.45/5E.5EClient.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 752 bytes | 250.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'Remove-5E.5EClient-7.1.45-1754699394' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-5E.5EClient-7.1.45-1754699394
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-5E.5EClient-7.1.45-1754699394 -> Remove-5E.5EClient-7.1.45-1754699394
+branch 'Remove-5E.5EClient-7.1.45-1754699394' set up to track 'origin/Remove-5E.5EClient-7.1.45-1754699394'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/282363
+ 成功移除 5E.5EClient 版本 7.1.45
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-5E.5EClient-7.1.45-1754699394 (was 75e923e8c32).
+工作区清理完成
+INFO 正在检查 5E.5EClient 7.1.44 ...
+已找到 5EClient [5E.5EClient] 版本 7.1.44
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.44.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+✕ 5E.5EClient 7.1.44 下载失败！将移除此版本...
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 5EClient [5E.5EClient]
+版本
+------
+8.2.1
+8.1.1
+8.1.0
+7.1.48
+7.1.45
+7.1.44
+7.1.43
+7.1.41
+7.1.40
+7.1.38
+7.1.37
+7.1.36
+7.1.35
+7.1.32
+7.1.31
+7.1.27
+7.1.26
+7.1.24
+7.1.22
+7.1.19
+7.1.18
+7.1.17
+7.1.15
+7.1.14
+7.1.13
+7.1.12
+7.1.11
+7.1.10
+7.1.9
+======= 此软件包版本在 winget 上的信息 =======
+已找到 5EClient [5E.5EClient]
+版本: 7.1.44
+发布者: 杭州赛凡科技有限公司
+作者: 杭州赛凡科技有限公司
+描述: 5E 对战平台是由 5EPlay 开发的一款 CS: GO 对战软件,拥有超过千万注册活跃玩家,是 CS: GO 玩家的首选平台。平台采用自主研发的最新反作弊技术和游戏内举报投票功能,全面保护玩家的游戏体验。同时,平台提供 128tick 竞赛级服务器,能够给玩家带来丝滑的游戏体验。此外,平台还提供专业全面的游戏数据分析,帮助玩家全面回顾整场对局,并给出专业的分析结果。
+许可证: 专有软件
+版权所有: ©2011-2024 杭州赛凡科技有限公司
+发行说明:
+  更新前瞻
+  2024 年 S4 新赛季
+  感谢各位玩家对 5E 平台 2024 年 S3 赛季的支持,随着时间的推移,酣畅淋漓的 S3 赛季落下帷幕。全面升级的 2024 年 S4 赛季:荣誉之战,已正式开启!
+  玩法规则:
+  ● 玩家被分为 CT(特遣队) 和 T(幽灵) 两个阵营。
+  ● CT 阵营目标:在限定时间内阻止 T 阵营在指定区域进行爆破。
+  ● T 阵营目标:在限定时间内成功爆破指定区域,或在限定时间内歼灭所有 CT 阵营成员。
+  ● 游戏中存在独特的等级与技能机制,越战真的会越勇!
+
+  特殊规则:
+  ● 隐身与显形
+  ● T 阵营根据运动速度的不同,会有不同程度的显形程度,当达到完全静止时会完全隐身,无任何显形。
+  ● 武器限制
+  ● CT 阵营则可以使用各种枪械和装备
+  ● T 阵营只能使用近战武器,不能使用枪械
+  在这场刺激对决中挑战极限,体验全新玩法带来的乐趣吧!
+
+  优化升级
+  限时模式
+  全新娱乐玩法——【幽灵行动】火爆来袭!
+  故事背景:
+  一个名为“幽灵”的组织通过研究量子隐形材料装备,成功研制出新型“隐形战甲”;利用战甲,他们在老对头“特遣队”的地盘上大肆破坏。
+  正焦头烂额的特遣队却在一次机缘巧合下截获了一份秘密文件,提前得知了幽灵组织代号为“幽灵行动”的破坏计划。
+  幽灵组织本次能否如愿全身而退,而特遣队又能否瓮中捉鳖、一雪前耻呢?
+
+  优化升级
+  全民联赛
+  S4 赛季吸收了玩家反馈进行优化,让更多玩家能够参与其中。全民联赛模式天梯分只增不减,失败不扣分。
+  玩家可以通过单排或组排的方式自行组队参赛,每轮连胜 3 场即可解锁本周冠军徽章。
+
+  分组规则:
+  目前比赛共分为 巅峰组(2400 分及以上) 、精英组(1800-2399 分) 、新星组(1200-1799 分)、入门组(0-1199 分)共 4 个级别,根据玩家 CS 全新版本最高赛季天梯分或本赛季天梯分而且取其高来确定当前分组,分组不可跨越。
+  赛事体系:
+  全民联赛阶段:每周赢取可佩戴的周冠军徽章
+  最强公会战:公会积分榜排行前 16 公会进行最强公会赛争夺,冠亚季军公会,全员获得永久可佩戴专属徽章
+  全民杯:巅峰组战队积分榜排行前 8 战队进入全民杯,进行更高水准的竞技对抗
+  装扮奖励:
+  参赛获胜还可解锁各种装扮奖励:头像框、房间卡片、房间背景等你来赢
+  S4 新赛季定级赛优化
+  在 S4 新赛季的定级赛中,系统将根据个人表现动态调整评分机制。即使比赛结果不理想,玩家也可能因出色的发挥而避免扣分,甚至获得额外加分。希望这种灵活的评分方式能激励玩家在每场定级赛中全力以赴,并更准确客观地反映出真实实力。
+  跑图训练优化
+  【本地训练】
+  7 张现服役地图预瞄训练均已上线 5E 本地训练,玩家可通过点击 PLAY→自定义→本地训练进行体验
+  【跑图训练】
+  更新大量顶级赛事职业战队道具
+  新图 Threa、Mills 现已上线,新增大量基础投掷物道具,诚邀各位玩家前来体验,学习并熟练掌握这些新道具。
+
+  福利回馈
+  夏日狂欢派对
+  夏日狂欢派对火热上线!7 月 16 日-9 月 3 日,完成活动任务可收集浪花,消耗浪花有机会抽取精美饰品。
+  2024 S4 赛季通行证
+  超群绝伦,无出其右,2024 S4 赛季通行证震撼来袭!开通「荣誉之战」S4 赛季通行证,无需升级即可领取通行证大礼包,包含通行证专属盲盒、专属主题装扮等好礼,更有游戏内专属 MVP 特效及击杀图标彰显专属身份。赛季通行证分为普通版与高级版 2 个版本。PLUS LV.4 及以上用户获得赛季通行证时将自动升级为高级版。等级不设上限,活跃越高奖励越丰厚!
+标记：
+  csgo
+  游戏
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://oss-arena.5eplay.com/client/5EClient-7.1.44.exe
+  安装程序 SHA256： fd45da1287e82f114a38b3824aafb3ecffcb0bf78b4ec7d67eac8ec09f4fea1f
+  发布日期: 2024-07-22
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\5\5E\5EClient\7.1.44\5E.5EClient.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.1 Dumplings Mod $debug=QUSU.CRLF.7-4-3.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: 5E.5EClient
+PackageVersion: 7.1.44
+InstallerType: nullsoft
+Scope: machine
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ReleaseDate: 2024-07-22
+Installers:
+- Architecture: x64
+  InstallerUrl: https://oss-arena.5eplay.com/client/5EClient-7.1.44.exe
+  InstallerSha256: FD45DA1287E82F114A38B3824AAFB3ECFFCB0BF78B4EC7D67EAC8EC09F4FEA1F
+  ProductCode: b8243c8b-3ace-5d95-b4f0-bc984c2373da
+ManifestType: installer
+ManifestVersion: 1.6.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 5EClient [5E.5EClient] 版本 7.1.44
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.44.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                         BRANCH                                        CREATED AT
+#282363  Remove version: 5E.5EClient version 7.1.4...  DuckDuckStudio:Remove-5E.5EClient-7.1.45-...  about 1 minute ago
+#282362  Remove version: 5E.5EClient version 7.1.4...  DuckDuckStudio:Remove-5E.5EClient-7.1.48-...  about 2 minutes ago
+======= 所有 =======
+
+Showing 3 of 3 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                     BRANCH                                        CREATED AT
+#165511  ReleaseNotes: 5E.5EClient version 7.1.44  SpecterShell:5E.5EClient-7.1.44-ReleaseNotes  about 1 year ago
+#165729  New version: 5E.5EClient version 7.1.45   SpecterShell:5E.5EClient-7.1.45-11584021      about 1 year ago
+#164192  New version: 5E.5EClient version 7.1.44   SpecterShell:5E.5EClient-7.1.44-1904969857    about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-5E.5EClient-7.1.44-1754699496'
+  已签出新分支 Remove-5E.5EClient-7.1.44-1754699496
+  已移除软件包 5E.5EClient 版本 7.1.44
+[Remove-5E.5EClient-7.1.44-1754699496 42aa94cda69] Remove version: 5E.5EClient version 7.1.44 (Auto)
+ 4 files changed, 140 deletions(-)
+ delete mode 100644 manifests/5/5E/5EClient/7.1.44/5E.5EClient.installer.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.44/5E.5EClient.locale.en-US.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.44/5E.5EClient.locale.zh-CN.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.44/5E.5EClient.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 754 bytes | 251.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'Remove-5E.5EClient-7.1.44-1754699496' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-5E.5EClient-7.1.44-1754699496
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-5E.5EClient-7.1.44-1754699496 -> Remove-5E.5EClient-7.1.44-1754699496
+branch 'Remove-5E.5EClient-7.1.44-1754699496' set up to track 'origin/Remove-5E.5EClient-7.1.44-1754699496'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/282364
+ 成功移除 5E.5EClient 版本 7.1.44
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-5E.5EClient-7.1.44-1754699496 (was 42aa94cda69).
+工作区清理完成
+INFO 正在检查 5E.5EClient 7.1.43 ...
+已找到 5EClient [5E.5EClient] 版本 7.1.43
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.43.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+✕ 5E.5EClient 7.1.43 下载失败！将移除此版本...
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 5EClient [5E.5EClient]
+版本
+------
+8.2.1
+8.1.1
+8.1.0
+7.1.48
+7.1.45
+7.1.44
+7.1.43
+7.1.41
+7.1.40
+7.1.38
+7.1.37
+7.1.36
+7.1.35
+7.1.32
+7.1.31
+7.1.27
+7.1.26
+7.1.24
+7.1.22
+7.1.19
+7.1.18
+7.1.17
+7.1.15
+7.1.14
+7.1.13
+7.1.12
+7.1.11
+7.1.10
+7.1.9
+======= 此软件包版本在 winget 上的信息 =======
+已找到 5EClient [5E.5EClient]
+版本: 7.1.43
+发布者: 杭州赛凡科技有限公司
+作者: 杭州赛凡科技有限公司
+描述: 5E 对战平台是由 5EPlay 开发的一款 CS: GO 对战软件,拥有超过千万注册活跃玩家,是 CS: GO 玩家的首选平台。平台采用自主研发的最新反作弊技术和游戏内举报投票功能,全面保护玩家的游戏体验。同时,平台提供 128tick 竞赛级服务器,能够给玩家带来丝滑的游戏体验。此外,平台还提供专业全面的游戏数据分析,帮助玩家全面回顾整场对局,并给出专业的分析结果。
+许可证: 专有软件
+版权所有: ©2011-2024 杭州赛凡科技有限公司
+标记：
+  csgo
+  游戏
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://oss-arena.5eplay.com/client/5EClient-7.1.43.exe
+  安装程序 SHA256： 587e6c90a42a02260e8b36488fb94fa704ab386153f50f4016639390fd33eef6
+  发布日期: 2024-06-14
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\5\5E\5EClient\7.1.43\5E.5EClient.installer.yaml
+
+# Created with YamlCreate.ps1 v2.4.1 Dumplings Mod $debug=QUSU.CRLF.7-4-2.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: 5E.5EClient
+PackageVersion: 7.1.43
+InstallerType: nullsoft
+Scope: machine
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ReleaseDate: 2024-06-14
+Installers:
+- Architecture: x64
+  InstallerUrl: https://oss-arena.5eplay.com/client/5EClient-7.1.43.exe
+  InstallerSha256: 587E6C90A42A02260E8B36488FB94FA704AB386153F50F4016639390FD33EEF6
+  ProductCode: b8243c8b-3ace-5d95-b4f0-bc984c2373da
+ManifestType: installer
+ManifestVersion: 1.6.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 5EClient [5E.5EClient] 版本 7.1.43
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.43.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 3 of 3 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                              BRANCH                                               CREATED AT
+#282364  Remove version: 5E.5EClient version 7.1.44 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.44-1754699496  less than a minute ago
+#282363  Remove version: 5E.5EClient version 7.1.45 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.45-1754699394  about 2 minutes ago
+#282362  Remove version: 5E.5EClient version 7.1.48 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.48-1754699276  about 4 minutes ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                    BRANCH                                      CREATED AT
+#164192  New version: 5E.5EClient version 7.1.44  SpecterShell:5E.5EClient-7.1.44-1904969857  about 1 year ago
+#158286  New version: 5E.5EClient version 7.1.43  SpecterShell:5E.5EClient-7.1.43-1793383715  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-5E.5EClient-7.1.43-1754699607'
+  已签出新分支 Remove-5E.5EClient-7.1.43-1754699607
+  已移除软件包 5E.5EClient 版本 7.1.43
+[Remove-5E.5EClient-7.1.43-1754699607 608b808f502] Remove version: 5E.5EClient version 7.1.43 (Auto)
+ 4 files changed, 88 deletions(-)
+ delete mode 100644 manifests/5/5E/5EClient/7.1.43/5E.5EClient.installer.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.43/5E.5EClient.locale.en-US.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.43/5E.5EClient.locale.zh-CN.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.43/5E.5EClient.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 752 bytes | 188.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'Remove-5E.5EClient-7.1.43-1754699607' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-5E.5EClient-7.1.43-1754699607
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-5E.5EClient-7.1.43-1754699607 -> Remove-5E.5EClient-7.1.43-1754699607
+branch 'Remove-5E.5EClient-7.1.43-1754699607' set up to track 'origin/Remove-5E.5EClient-7.1.43-1754699607'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/282365
+ 成功移除 5E.5EClient 版本 7.1.43
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-5E.5EClient-7.1.43-1754699607 (was 608b808f502).
+工作区清理完成
+INFO 正在检查 5E.5EClient 7.1.41 ...
+已找到 5EClient [5E.5EClient] 版本 7.1.41
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.41.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+✕ 5E.5EClient 7.1.41 下载失败！将移除此版本...
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 5EClient [5E.5EClient]
+版本
+------
+8.2.1
+8.1.1
+8.1.0
+7.1.48
+7.1.45
+7.1.44
+7.1.43
+7.1.41
+7.1.40
+7.1.38
+7.1.37
+7.1.36
+7.1.35
+7.1.32
+7.1.31
+7.1.27
+7.1.26
+7.1.24
+7.1.22
+7.1.19
+7.1.18
+7.1.17
+7.1.15
+7.1.14
+7.1.13
+7.1.12
+7.1.11
+7.1.10
+7.1.9
+======= 此软件包版本在 winget 上的信息 =======
+已找到 5EClient [5E.5EClient]
+版本: 7.1.41
+发布者: 杭州赛凡科技有限公司
+作者: 杭州赛凡科技有限公司
+描述: 5E 对战平台是由 5EPlay 开发的一款 CS: GO 对战软件,拥有超过千万注册活跃玩家,是 CS: GO 玩家的首选平台。平台采用自主研发的最新反作弊技术和游戏内举报投票功能,全面保护玩家的游戏体验。同时,平台提供 128tick 竞赛级服务器,能够给玩家带来丝滑的游戏体验。此外,平台还提供专业全面的游戏数据分析,帮助玩家全面回顾整场对局,并给出专业的分析结果。
+许可证: 专有软件
+版权所有: ©2011-2024 杭州赛凡科技有限公司
+标记：
+  csgo
+  游戏
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://oss-arena.5eplay.com/client/5EClient-7.1.41.exe
+  安装程序 SHA256： 977a2e87a5bb831904c764d74459f33adf6e6890931e549d6187b23f710d3270
+  发布日期: 2024-04-01
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\5\5E\5EClient\7.1.41\5E.5EClient.installer.yaml
+
+# Created with YamlCreate.ps1 v2.3.4 Dumplings Mod $debug=QUSU.CRLF.7-4-1.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: 5E.5EClient
+PackageVersion: 7.1.41
+InstallerType: nullsoft
+Scope: machine
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ReleaseDate: 2024-04-01
+Installers:
+- Architecture: x64
+  InstallerUrl: https://oss-arena.5eplay.com/client/5EClient-7.1.41.exe
+  InstallerSha256: 977A2E87A5BB831904C764D74459F33ADF6E6890931E549D6187B23F710D3270
+  ProductCode: b8243c8b-3ace-5d95-b4f0-bc984c2373da
+ManifestType: installer
+ManifestVersion: 1.6.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 5EClient [5E.5EClient] 版本 7.1.41
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.41.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 4 of 4 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                              BRANCH                                               CREATED AT
+#282365  Remove version: 5E.5EClient version 7.1.43 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.43-1754699607  about 1 minute ago
+#282364  Remove version: 5E.5EClient version 7.1.44 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.44-1754699496  about 3 minutes ago
+#282363  Remove version: 5E.5EClient version 7.1.45 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.45-1754699394  about 4 minutes ago
+#282362  Remove version: 5E.5EClient version 7.1.48 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.48-1754699276  about 6 minutes ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                    BRANCH                                      CREATED AT
+#147292  New version: 5E.5EClient version 7.1.41  SpecterShell:5E.5EClient-7.1.41-437498357   about 1 year ago
+#147460  New version: 5E.5EClient version 7.1.42  SpecterShell:5E.5EClient-7.1.42-1171190799  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-5E.5EClient-7.1.41-1754699749'
+  已签出新分支 Remove-5E.5EClient-7.1.41-1754699749
+  已移除软件包 5E.5EClient 版本 7.1.41
+[Remove-5E.5EClient-7.1.41-1754699749 775350b7233] Remove version: 5E.5EClient version 7.1.41 (Auto)
+ 4 files changed, 88 deletions(-)
+ delete mode 100644 manifests/5/5E/5EClient/7.1.41/5E.5EClient.installer.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.41/5E.5EClient.locale.en-US.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.41/5E.5EClient.locale.zh-CN.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.41/5E.5EClient.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 756 bytes | 252.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'Remove-5E.5EClient-7.1.41-1754699749' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-5E.5EClient-7.1.41-1754699749
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-5E.5EClient-7.1.41-1754699749 -> Remove-5E.5EClient-7.1.41-1754699749
+branch 'Remove-5E.5EClient-7.1.41-1754699749' set up to track 'origin/Remove-5E.5EClient-7.1.41-1754699749'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/282366
+ 成功移除 5E.5EClient 版本 7.1.41
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-5E.5EClient-7.1.41-1754699749 (was 775350b7233).
+工作区清理完成
+INFO 正在检查 5E.5EClient 7.1.40 ...
+已找到 5EClient [5E.5EClient] 版本 7.1.40
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.40.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+✕ 5E.5EClient 7.1.40 下载失败！将移除此版本...
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 5EClient [5E.5EClient]
+版本
+------
+8.2.1
+8.1.1
+8.1.0
+7.1.48
+7.1.45
+7.1.44
+7.1.43
+7.1.41
+7.1.40
+7.1.38
+7.1.37
+7.1.36
+7.1.35
+7.1.32
+7.1.31
+7.1.27
+7.1.26
+7.1.24
+7.1.22
+7.1.19
+7.1.18
+7.1.17
+7.1.15
+7.1.14
+7.1.13
+7.1.12
+7.1.11
+7.1.10
+7.1.9
+======= 此软件包版本在 winget 上的信息 =======
+已找到 5EClient [5E.5EClient]
+版本: 7.1.40
+发布者: 杭州赛凡科技有限公司
+作者: 杭州赛凡科技有限公司
+描述: 5E 对战平台是由 5EPlay 开发的一款 CS: GO 对战软件,拥有超过千万注册活跃玩家,是 CS: GO 玩家的首选平台。平台采用自主研发的最新反作弊技术和游戏内举报投票功能,全面保护玩家的游戏体验。同时,平台提供 128tick 竞赛级服务器,能够给玩家带来丝滑的游戏体验。此外,平台还提供专业全面的游戏数据分析,帮助玩家全面回顾整场对局,并给出专业的分析结果。
+许可证: 专有软件
+版权所有: ©2011-2024 杭州赛凡科技有限公司
+发行说明:
+  优化升级
+  信用分规则优化
+  - 调整原有扣分项中的减分值
+  - 增加队友伤害扣分维度
+  认证系统升级
+  - 优化主播认证流程
+  - 优化主播认证标识
+  5ebox
+  - 新增增强连跳绑键,减少 subtick 延迟带来的连跳粘滞感,让连跳更流畅
+  1V1 模式
+  - 新增实战地图 inferno
+  跑图训练
+  - 修复了 anubis、nuke 部分道具模型卡脚的 bug
+  - 优化了 inferno、ancient 部分道具的名称掷法及辅助投掷时间
+  - 新增长按 R 键视角跟随道具飞行功能
+  - 更新大量顶级赛事职业战队道具:
+  anubis:
+  - 新增 T-出生点 6 颗 VIP 快烟
+  - 黑屋快烟
+  - T-flameZ 黑屋口瞬爆闪
+  - CT-A 点防 rush 套餐等道具
+  ancient:
+  - 新增 CT-快 B 门烟
+  - T-Brollan 黑屋抢点火
+  - CT-中路反清闪
+  - T-多套单人爆弹套餐等大量道具
+  nuke:
+  - 新增 T-Vitality 正门瞬爆闪
+  - T-Heroic 铁板闪
+  - CT-外场防 rush 火
+  - T-双架双烧火等大量道具
+  vertigo:
+  - 新增 T-Heroic 中路夹 B 烟
+  - T-donk 链接自助闪
+  - T-中路跳台火
+  - T-中路辅助瞬爆闪等道具
+标记：
+  csgo
+  游戏
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://oss-arena.5eplay.com/client/5EClient-7.1.40.exe
+  安装程序 SHA256： e5929245d2b2eb6e94b614b1c9da430e85f7e78ba12f65710151e617957300b9
+  发布日期: 2024-03-17
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\5\5E\5EClient\7.1.40\5E.5EClient.installer.yaml
+
+# Created with YamlCreate.ps1 v2.3.4 Dumplings Mod $debug=QUSU.CRLF.7-4-1.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: 5E.5EClient
+PackageVersion: 7.1.40
+InstallerType: nullsoft
+Scope: machine
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ReleaseDate: 2024-03-17
+Installers:
+- Architecture: x64
+  InstallerUrl: https://oss-arena.5eplay.com/client/5EClient-7.1.40.exe
+  InstallerSha256: E5929245D2B2EB6E94B614B1C9DA430E85F7E78BA12F65710151E617957300B9
+  ProductCode: b8243c8b-3ace-5d95-b4f0-bc984c2373da
+ManifestType: installer
+ManifestVersion: 1.6.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 5EClient [5E.5EClient] 版本 7.1.40
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.40.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 5 of 5 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                              BRANCH                                               CREATED AT
+#282366  Remove version: 5E.5EClient version 7.1.41 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.41-1754699749  about 1 minute ago
+#282365  Remove version: 5E.5EClient version 7.1.43 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.43-1754699607  about 3 minutes ago
+#282364  Remove version: 5E.5EClient version 7.1.44 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.44-1754699496  about 5 minutes ago
+#282363  Remove version: 5E.5EClient version 7.1.45 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.45-1754699394  about 6 minutes ago
+#282362  Remove version: 5E.5EClient version 7.1.48 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.48-1754699276  about 8 minutes ago
+======= 所有 =======
+
+Showing 3 of 3 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                     BRANCH                                        CREATED AT
+#147292  New version: 5E.5EClient version 7.1.41   SpecterShell:5E.5EClient-7.1.41-437498357     about 1 year ago
+#145306  ReleaseNotes: 5E.5EClient version 7.1.40  SpecterShell:5E.5EClient-7.1.40-ReleaseNotes  about 1 year ago
+#145049  New version: 5E.5EClient version 7.1.40   SpecterShell:5E.5EClient-7.1.40-222974760     about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 11 (delta 0), reused 0 (delta 0), pack-reused 7 (from 1)
+Unpacking objects: 100% (11/11), 10.19 KiB | 41.00 KiB/s, done.
+From https://github.com/microsoft/winget-pkgs
+   b5c4619535b..3a22f423745  master     -> upstream/master
+  已获取上游修改
+  已获取远程修改
+Successfully rebased and updated refs/heads/master.
+  已变基上游修改
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Bypassed rule violations for refs/heads/master:
+remote:
+remote: - Changes must be made through a pull request.
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+   b5c4619535b..3a22f423745  master -> master
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-5E.5EClient-7.1.40-1754699887'
+  已签出新分支 Remove-5E.5EClient-7.1.40-1754699887
+  已移除软件包 5E.5EClient 版本 7.1.40
+[Remove-5E.5EClient-7.1.40-1754699887 f253efa00fb] Remove version: 5E.5EClient version 7.1.40 (Auto)
+ 4 files changed, 124 deletions(-)
+ delete mode 100644 manifests/5/5E/5EClient/7.1.40/5E.5EClient.installer.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.40/5E.5EClient.locale.en-US.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.40/5E.5EClient.locale.zh-CN.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.40/5E.5EClient.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 757 bytes | 252.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'Remove-5E.5EClient-7.1.40-1754699887' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-5E.5EClient-7.1.40-1754699887
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-5E.5EClient-7.1.40-1754699887 -> Remove-5E.5EClient-7.1.40-1754699887
+branch 'Remove-5E.5EClient-7.1.40-1754699887' set up to track 'origin/Remove-5E.5EClient-7.1.40-1754699887'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/282367
+ 成功移除 5E.5EClient 版本 7.1.40
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-5E.5EClient-7.1.40-1754699887 (was f253efa00fb).
+工作区清理完成
+INFO 正在检查 5E.5EClient 7.1.38 ...
+已找到 5EClient [5E.5EClient] 版本 7.1.38
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.38.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+✕ 5E.5EClient 7.1.38 下载失败！将移除此版本...
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 5EClient [5E.5EClient]
+版本
+------
+8.2.1
+8.1.1
+8.1.0
+7.1.48
+7.1.45
+7.1.44
+7.1.43
+7.1.41
+7.1.40
+7.1.38
+7.1.37
+7.1.36
+7.1.35
+7.1.32
+7.1.31
+7.1.27
+7.1.26
+7.1.24
+7.1.22
+7.1.19
+7.1.18
+7.1.17
+7.1.15
+7.1.14
+7.1.13
+7.1.12
+7.1.11
+7.1.10
+7.1.9
+======= 此软件包版本在 winget 上的信息 =======
+已找到 5EClient [5E.5EClient]
+版本: 7.1.38
+发布者: 杭州赛凡科技有限公司
+作者: 杭州赛凡科技有限公司
+描述: 5E 对战平台是由 5EPlay 开发的一款 CS: GO 对战软件,拥有超过千万注册活跃玩家,是 CS: GO 玩家的首选平台。平台采用自主研发的最新反作弊技术和游戏内举报投票功能,全面保护玩家的游戏体验。同时,平台提供 128tick 竞赛级服务器,能够给玩家带来丝滑的游戏体验。此外,平台还提供专业全面的游戏数据分析,帮助玩家全面回顾整场对局,并给出专业的分析结果。
+许可证: 专有软件
+版权所有: ©2011-2024 杭州赛凡科技有限公司
+发行说明:
+  更新前瞻
+  2024 年 S2 赛季
+  感谢各位玩家对 5E 平台 2024 年 S1 赛季的支持,随着时间的推移,酣畅淋漓的 S1 赛季落下帷幕。全面升级的 2024 年 S2 赛季:渐露锋芒,已正式开启!
+
+  在 2024 S2 赛季,天梯分数规则将迎来改动,匹配机制愈发改善,使高分段玩家分数更具含金量。在优先排位时,可以获得更好的匹配环境、更优质游戏体验。开启全新赛季并参与超多精彩活动,让我们擦亮手中的枪,呼唤队友一同冲刺上分!
+
+  优化升级
+  投票选图全新上线
+  ‒ 优先排位新增「投票选图」玩法,同时保留原「自由选图」模式,玩家可自由选择
+  ‒ 该玩法目前仅针对 2000 分以上的优先排位(勾选扫脸受信玩家)用户开放
+  S2 赛季通行证
+  ‒ S2 赛季通行证「渐露锋芒」已上线,新赛季订阅任意 PLUS 即可获得「渐露锋芒」S2 赛季通行证,5E 平台 PLUS 会员用户继续享受免费升级!
+  赛季重置
+  ‒ 2024 S1 赛季现已结算,赛季排名奖励正陆续发放,具体奖励清单详见《5E 对战平台 2024 S1 赛季结算奖励》
+  ‒ 玩家 2024 S2 赛季的初始天梯分将根据上赛季的最终结算天梯分转化得出。玩家的投诉、举报等用户评价也将重置。
+  游戏内发言规则调整
+  ‒ 游戏中的全局聊天(快捷键 Y)功能将在 3 月 6 日开放。请广大玩家谨慎发言,善意交流,共同维护良好的游戏环境。(支持模式:优先排位/对战匹配/5EPL/1V1 天梯/1v1 约战/十人约战-自定义)
+  界面及交互优化
+  ‒ 赛后战绩面板优化:聚焦对局详情,天梯分的变化展示更加明显、增加快速添加好友功能
+  ‒ 新天梯分图鉴优化:新增多个段位样式区分,冲分更有动力
+  反作弊
+  ‒ 检测系统再度升级,加强多种外挂的定制性检测,让作弊者无所遁形
+  ‒ 检测速度再次提升,提高局内封禁效率
+  ‒ 提高对黑产账号的有效限制,阻挡大量潜在作弊/炸鱼用户破坏游戏环境
+  跑图训练优化
+  ‒ 跑图功能新增指令
+  .cleanup 新增恢复破损物件指令(mirage-vip 窗户、overpass-下水道门等场景)
+  .restart 新增回合刷新指令
+  .bhop 新增连跳开关指令
+  .rb 新增 RunBoost 飞跃练习指令
+  ‒ 新增>> 5E 对战平台 跑图指令列表 <<,更多指令请按~打开控制台查看
+  ‒ 新增反向道具射线及道具 bot 编号显示功能
+  ‒ .spawn 复活点功能优化,现在可以输入 .spawn X 传送至当前队伍 X 号出生点
+  其他优化
+  ‒ 优化天梯分数规则、改善匹配机制、使高分段玩家的分数含金量更高。在优先排位时,可以获得更好的匹配环境、更优质游戏体验
+  ‒ C4 倒计时算法优化,辅助计时更精准更精确
+  ‒ 本地训练:5e_aimhub 地图准星全面更新,更新了 IEM、RMR 赛事期间职业选手最新准星,定位练习新增弹道扩散功能开关按钮,压枪训练新增目标距离及当前武器名称显示,修复了部分训练场地光影及丢帧问题
+
+  福利回馈
+  百万现金狂欢活动升级再临
+  ‒ 3 月 4 日-3 月 31 日,百万红包狂欢活动将再次开启(第三期),完成日常任务必得现金红包,完成周任务可获得最高 2888 元红包,收集 4 把金钥匙可开启 3 月 31 日最终大奖,万元红包等你赢!
+  3 月精彩活动预告
+  ‒ 投票选图活动:3 月 1 日-3 月 15 日,参与优先排位完成任务可获得抽奖机会;游玩投票选图还有额外掉落奖励
+  ‒ 优先狂欢掉落:2 月 26 日-3 月 31 日,优先掉落狂欢活动全新升级,指定时间进行优先排位,可得丰厚掉落奖励
+  ‒ 5E 女神节活动:3 月 7 日-3 月 17 日,参与活动邂逅 5E 女神!做任务得鲜花,女玩家有额外宝箱奖励!收花、送花、多多完赛均有机会冲榜拿大奖
+  ‒ 新版赏金赛 2 期:3 月 15 日-3 月 30 日,碎片奖励提升,商店上架更多好物等你兑换
+  ‒ 冠军之争竞猜:3 月 10 日-3 月 28 日,Major 正赛即将开始,参与相关赛事预测及抽奖活动,赢取预测大奖
+标记：
+  csgo
+  游戏
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://oss-arena.5eplay.com/client/5EClient-7.1.38.exe
+  安装程序 SHA256： e443fe342e0fc60b03d6f23149fbead58d5718f42dd1e04c51e9cf96e3225696
+  发布日期: 2024-02-18
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\5\5E\5EClient\7.1.38\5E.5EClient.installer.yaml
+
+# Created with YamlCreate.ps1 v2.3.1 Dumplings Mod $debug=QUSU.CRLF.7-4-1.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.5.0.schema.json
+
+PackageIdentifier: 5E.5EClient
+PackageVersion: 7.1.38
+InstallerType: nullsoft
+Scope: machine
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ReleaseDate: 2024-02-18
+Installers:
+- Architecture: x64
+  InstallerUrl: https://oss-arena.5eplay.com/client/5EClient-7.1.38.exe
+  InstallerSha256: E443FE342E0FC60B03D6F23149FBEAD58D5718F42DD1E04C51E9CF96E3225696
+  ProductCode: b8243c8b-3ace-5d95-b4f0-bc984c2373da
+ManifestType: installer
+ManifestVersion: 1.5.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 5EClient [5E.5EClient] 版本 7.1.38
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.38.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 6 of 6 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                              BRANCH                                               CREATED AT
+#282367  Remove version: 5E.5EClient version 7.1.40 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.40-1754699887  less than a minute ago
+#282366  Remove version: 5E.5EClient version 7.1.41 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.41-1754699749  about 3 minutes ago
+#282365  Remove version: 5E.5EClient version 7.1.43 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.43-1754699607  about 5 minutes ago
+#282364  Remove version: 5E.5EClient version 7.1.44 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.44-1754699496  about 7 minutes ago
+#282363  Remove version: 5E.5EClient version 7.1.45 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.45-1754699394  about 9 minutes ago
+#282362  Remove version: 5E.5EClient version 7.1.48 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.48-1754699276  about 10 minutes ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                     BRANCH                                        CREATED AT
+#141579  ReleaseNotes: 5E.5EClient version 7.1.38  SpecterShell:5E.5EClient-7.1.38-ReleaseNotes  about 1 year ago
+#140036  New version: 5E.5EClient version 7.1.38   SpecterShell:5E.5EClient-7.1.38-1156086755    about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-5E.5EClient-7.1.38-1754699991'
+  已签出新分支 Remove-5E.5EClient-7.1.38-1754699991
+  已移除软件包 5E.5EClient 版本 7.1.38
+[Remove-5E.5EClient-7.1.38-1754699991 2d6ab8cbd4f] Remove version: 5E.5EClient version 7.1.38 (Auto)
+ 4 files changed, 135 deletions(-)
+ delete mode 100644 manifests/5/5E/5EClient/7.1.38/5E.5EClient.installer.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.38/5E.5EClient.locale.en-US.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.38/5E.5EClient.locale.zh-CN.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.38/5E.5EClient.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 753 bytes | 188.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'Remove-5E.5EClient-7.1.38-1754699991' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-5E.5EClient-7.1.38-1754699991
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-5E.5EClient-7.1.38-1754699991 -> Remove-5E.5EClient-7.1.38-1754699991
+branch 'Remove-5E.5EClient-7.1.38-1754699991' set up to track 'origin/Remove-5E.5EClient-7.1.38-1754699991'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/282368
+ 成功移除 5E.5EClient 版本 7.1.38
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-5E.5EClient-7.1.38-1754699991 (was 2d6ab8cbd4f).
+工作区清理完成
+INFO 正在检查 5E.5EClient 7.1.37 ...
+已找到 5EClient [5E.5EClient] 版本 7.1.37
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.37.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+✕ 5E.5EClient 7.1.37 下载失败！将移除此版本...
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 5EClient [5E.5EClient]
+版本
+------
+8.2.1
+8.1.1
+8.1.0
+7.1.48
+7.1.45
+7.1.44
+7.1.43
+7.1.41
+7.1.40
+7.1.38
+7.1.37
+7.1.36
+7.1.35
+7.1.32
+7.1.31
+7.1.27
+7.1.26
+7.1.24
+7.1.22
+7.1.19
+7.1.18
+7.1.17
+7.1.15
+7.1.14
+7.1.13
+7.1.12
+7.1.11
+7.1.10
+7.1.9
+======= 此软件包版本在 winget 上的信息 =======
+已找到 5EClient [5E.5EClient]
+版本: 7.1.37
+发布者: 杭州赛凡科技有限公司
+作者: 杭州赛凡科技有限公司
+描述: 5E 对战平台是由 5EPlay 开发的一款 CS: GO 对战软件,拥有超过千万注册活跃玩家,是 CS: GO 玩家的首选平台。平台采用自主研发的最新反作弊技术和游戏内举报投票功能,全面保护玩家的游戏体验。同时,平台提供 128tick 竞赛级服务器,能够给玩家带来丝滑的游戏体验。此外,平台还提供专业全面的游戏数据分析,帮助玩家全面回顾整场对局,并给出专业的分析结果。
+许可证: 专有软件
+版权所有: ©2011-2024 杭州赛凡科技有限公司
+发行说明:
+  优化升级
+  1V1
+  新增春节活动主题地图“梦落庭廊”。
+  本地训练
+  “5e_Aimhub”全新迭代,新增六大训练模块整合多项科学练习方法,助你提升身法、枪法,掌握 CS 万法!
+  作弊规则调整
+  七天内优先排位对局匹配的对手因作弊行为被封禁,将只发放优先排位模式下的【补偿卡-优先排位】。
+  七天内开黑队友因作弊行为被封禁,那么七天内所有与之开黑胜利的对局分数将会从当前天梯分扣除。
+  登录注册优化
+  登陆注册流程全新升级,只需填写手机号、密码和验证码,系统将自动分配随机用户名以完成注册。
+  新增 Steam 一键登录、手机验证码登陆两种登陆方式。
+标记：
+  csgo
+  游戏
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://oss-arena.5eplay.com/client/5EClient-7.1.37.exe
+  安装程序 SHA256： c7e42ac4793ee7833da7bb661fdd5158b194caf2b01b30aa378f21d0741dd262
+  发布日期: 2024-01-23
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\5\5E\5EClient\7.1.37\5E.5EClient.installer.yaml
+
+# Created with YamlCreate.ps1 v2.2.12 by Dumplings $debug=QUSU.CRLF.7-2-18.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.5.0.schema.json
+
+PackageIdentifier: 5E.5EClient
+PackageVersion: 7.1.37
+InstallerType: nullsoft
+Scope: machine
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ReleaseDate: 2024-01-23
+Installers:
+- Architecture: x64
+  InstallerUrl: https://oss-arena.5eplay.com/client/5EClient-7.1.37.exe
+  InstallerSha256: C7E42AC4793EE7833DA7BB661FDD5158B194CAF2B01B30AA378F21D0741DD262
+  ProductCode: b8243c8b-3ace-5d95-b4f0-bc984c2373da
+ManifestType: installer
+ManifestVersion: 1.5.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 5EClient [5E.5EClient] 版本 7.1.37
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.37.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 7 of 7 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                              BRANCH                                               CREATED AT
+#282368  Remove version: 5E.5EClient version 7.1.38 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.38-1754699991  about 1 minute ago
+#282367  Remove version: 5E.5EClient version 7.1.40 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.40-1754699887  about 2 minutes ago
+#282366  Remove version: 5E.5EClient version 7.1.41 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.41-1754699749  about 5 minutes ago
+#282365  Remove version: 5E.5EClient version 7.1.43 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.43-1754699607  about 7 minutes ago
+#282363  Remove version: 5E.5EClient version 7.1.45 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.45-1754699394  about 11 minutes ago
+#282362  Remove version: 5E.5EClient version 7.1.48 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.48-1754699276  about 12 minutes ago
+#282364  Remove version: 5E.5EClient version 7.1.44 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.44-1754699496  about 9 minutes ago
+======= 所有 =======
+
+Showing 2 of 2 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                     BRANCH                                        CREATED AT
+#137118  ReleaseNotes: 5E.5EClient version 7.1.37  SpecterShell:5E.5EClient-7.1.37-ReleaseNotes  about 1 year ago
+#135972  New version: 5E.5EClient version 7.1.37   SpecterShell:5E.5EClient-7.1.37-8441b9df7994  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 10 (delta 2), reused 1 (delta 1), pack-reused 3 (from 1)
+Unpacking objects: 100% (10/10), 3.36 KiB | 14.00 KiB/s, done.
+From https://github.com/microsoft/winget-pkgs
+   3a22f423745..7776036b2bf  master     -> upstream/master
+  已获取上游修改
+  已获取远程修改
+Successfully rebased and updated refs/heads/master.
+  已变基上游修改
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Bypassed rule violations for refs/heads/master:
+remote:
+remote: - Changes must be made through a pull request.
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+   3a22f423745..7776036b2bf  master -> master
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-5E.5EClient-7.1.37-1754700105'
+  已签出新分支 Remove-5E.5EClient-7.1.37-1754700105
+  已移除软件包 5E.5EClient 版本 7.1.37
+[Remove-5E.5EClient-7.1.37-1754700105 c7d7ce5d58a] Remove version: 5E.5EClient version 7.1.37 (Auto)
+ 4 files changed, 99 deletions(-)
+ delete mode 100644 manifests/5/5E/5EClient/7.1.37/5E.5EClient.installer.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.37/5E.5EClient.locale.en-US.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.37/5E.5EClient.locale.zh-CN.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.37/5E.5EClient.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 753 bytes | 251.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'Remove-5E.5EClient-7.1.37-1754700105' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-5E.5EClient-7.1.37-1754700105
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-5E.5EClient-7.1.37-1754700105 -> Remove-5E.5EClient-7.1.37-1754700105
+branch 'Remove-5E.5EClient-7.1.37-1754700105' set up to track 'origin/Remove-5E.5EClient-7.1.37-1754700105'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/282369
+ 成功移除 5E.5EClient 版本 7.1.37
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-5E.5EClient-7.1.37-1754700105 (was c7d7ce5d58a).
+工作区清理完成
+INFO 正在检查 5E.5EClient 7.1.36 ...
+已找到 5EClient [5E.5EClient] 版本 7.1.36
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.36.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+✕ 5E.5EClient 7.1.36 下载失败！将移除此版本...
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 5EClient [5E.5EClient]
+版本
+------
+8.2.1
+8.1.1
+8.1.0
+7.1.48
+7.1.45
+7.1.44
+7.1.43
+7.1.41
+7.1.40
+7.1.38
+7.1.37
+7.1.36
+7.1.35
+7.1.32
+7.1.31
+7.1.27
+7.1.26
+7.1.24
+7.1.22
+7.1.19
+7.1.18
+7.1.17
+7.1.15
+7.1.14
+7.1.13
+7.1.12
+7.1.11
+7.1.10
+7.1.9
+======= 此软件包版本在 winget 上的信息 =======
+已找到 5EClient [5E.5EClient]
+版本: 7.1.36
+发布者: 杭州赛凡科技有限公司
+作者: 杭州赛凡科技有限公司
+描述: 5E 对战平台是由 5EPlay 开发的一款 CS: GO 对战软件,拥有超过千万注册活跃玩家,是 CS: GO 玩家的首选平台。平台采用自主研发的最新反作弊技术和游戏内举报投票功能,全面保护玩家的游戏体验。同时,平台提供 128tick 竞赛级服务器,能够给玩家带来丝滑的游戏体验。此外,平台还提供专业全面的游戏数据分析,帮助玩家全面回顾整场对局,并给出专业的分析结果。
+许可证: 专有软件
+版权所有: ©2011-2024 杭州赛凡科技有限公司
+标记：
+  csgo
+  游戏
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://oss-arena.5eplay.com/client/5EClient-7.1.36.exe
+  安装程序 SHA256： 4b9e7ee525583ea3effebcf9683e7aaf4b8a2f12cbe5bf63321ab7a6ad123174
+  发布日期: 2024-01-18
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\5\5E\5EClient\7.1.36\5E.5EClient.installer.yaml
+
+# Created with YamlCreate.ps1 v2.2.12 by Dumplings $debug=QUSU.CRLF.7-2-18.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.5.0.schema.json
+
+PackageIdentifier: 5E.5EClient
+PackageVersion: 7.1.36
+InstallerType: nullsoft
+Scope: machine
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ReleaseDate: 2024-01-18
+Installers:
+- Architecture: x64
+  InstallerUrl: https://oss-arena.5eplay.com/client/5EClient-7.1.36.exe
+  InstallerSha256: 4B9E7EE525583EA3EFFEBCF9683E7AAF4B8A2F12CBE5BF63321AB7A6AD123174
+  ProductCode: b8243c8b-3ace-5d95-b4f0-bc984c2373da
+ManifestType: installer
+ManifestVersion: 1.5.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 5EClient [5E.5EClient] 版本 7.1.36
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.36.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 8 of 8 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                              BRANCH                                               CREATED AT
+#282369  Remove version: 5E.5EClient version 7.1.37 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.37-1754700105  about 1 minute ago
+#282368  Remove version: 5E.5EClient version 7.1.38 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.38-1754699991  about 2 minutes ago
+#282367  Remove version: 5E.5EClient version 7.1.40 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.40-1754699887  about 4 minutes ago
+#282366  Remove version: 5E.5EClient version 7.1.41 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.41-1754699749  about 6 minutes ago
+#282365  Remove version: 5E.5EClient version 7.1.43 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.43-1754699607  about 9 minutes ago
+#282363  Remove version: 5E.5EClient version 7.1.45 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.45-1754699394  about 12 minutes ago
+#282362  Remove version: 5E.5EClient version 7.1.48 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.48-1754699276  about 14 minutes ago
+#282364  Remove version: 5E.5EClient version 7.1.44 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.44-1754699496  about 11 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                    BRANCH                                        CREATED AT
+#135430  New version: 5E.5EClient version 7.1.36  SpecterShell:5E.5EClient-7.1.36-a91741756d54  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-5E.5EClient-7.1.36-1754700208'
+  已签出新分支 Remove-5E.5EClient-7.1.36-1754700208
+  已移除软件包 5E.5EClient 版本 7.1.36
+[Remove-5E.5EClient-7.1.36-1754700208 ccab5a5c758] Remove version: 5E.5EClient version 7.1.36 (Auto)
+ 4 files changed, 88 deletions(-)
+ delete mode 100644 manifests/5/5E/5EClient/7.1.36/5E.5EClient.installer.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.36/5E.5EClient.locale.en-US.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.36/5E.5EClient.locale.zh-CN.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.36/5E.5EClient.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 756 bytes | 126.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'Remove-5E.5EClient-7.1.36-1754700208' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-5E.5EClient-7.1.36-1754700208
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-5E.5EClient-7.1.36-1754700208 -> Remove-5E.5EClient-7.1.36-1754700208
+branch 'Remove-5E.5EClient-7.1.36-1754700208' set up to track 'origin/Remove-5E.5EClient-7.1.36-1754700208'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/282370
+ 成功移除 5E.5EClient 版本 7.1.36
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-5E.5EClient-7.1.36-1754700208 (was ccab5a5c758).
+工作区清理完成
+INFO 正在检查 5E.5EClient 7.1.35 ...
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072f78 : unknown error
+✕ 5E.5EClient 7.1.35 下载失败！将移除此版本...
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 5EClient [5E.5EClient]
+版本
+------
+8.2.1
+8.1.1
+8.1.0
+7.1.48
+7.1.45
+7.1.44
+7.1.43
+7.1.41
+7.1.40
+7.1.38
+7.1.37
+7.1.36
+7.1.35
+7.1.32
+7.1.31
+7.1.27
+7.1.26
+7.1.24
+7.1.22
+7.1.19
+7.1.18
+7.1.17
+7.1.15
+7.1.14
+7.1.13
+7.1.12
+7.1.11
+7.1.10
+7.1.9
+======= 此软件包版本在 winget 上的信息 =======
+已找到 5EClient [5E.5EClient]
+版本: 7.1.35
+发布者: 杭州赛凡科技有限公司
+作者: 杭州赛凡科技有限公司
+描述: 5E 对战平台是由 5EPlay 开发的一款 CS: GO 对战软件,拥有超过千万注册活跃玩家,是 CS: GO 玩家的首选平台。平台采用自主研发的最新反作弊技术和游戏内举报投票功能,全面保护玩家的游戏体验。同时,平台提供 128tick 竞赛级服务器,能够给玩家带来丝滑的游戏体验。此外,平台还提供专业全面的游戏数据分析,帮助玩家全面回顾整场对局,并给出专业的分析结果。
+许可证: 专有软件
+版权所有: ©2011-2024 杭州赛凡科技有限公司
+标记：
+  csgo
+  游戏
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://oss-arena.5eplay.com/client/5EClient-7.1.35.exe
+  安装程序 SHA256： 9a783ae460c2d53e6a0c1c543a48e650b3eaa319c871509308defb8a51487a46
+  发布日期: 2024-01-09
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\5\5E\5EClient\7.1.35\5E.5EClient.installer.yaml
+
+# Created with YamlCreate.ps1 v2.2.12 by Dumplings $debug=QUSU.CRLF.7-2-17.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.5.0.schema.json
+
+PackageIdentifier: 5E.5EClient
+PackageVersion: 7.1.35
+InstallerType: nullsoft
+Scope: machine
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ReleaseDate: 2024-01-09
+Installers:
+- Architecture: x64
+  InstallerUrl: https://oss-arena.5eplay.com/client/5EClient-7.1.35.exe
+  InstallerSha256: 9A783AE460C2D53E6A0C1C543A48E650B3EAA319C871509308DEFB8A51487A46
+  ProductCode: b8243c8b-3ace-5d95-b4f0-bc984c2373da
+ManifestType: installer
+ManifestVersion: 1.5.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 5EClient [5E.5EClient] 版本 7.1.35
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.35.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 9 of 9 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                              BRANCH                                               CREATED AT
+#282370  Remove version: 5E.5EClient version 7.1.36 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.36-1754700208  less than a minute ago
+#282369  Remove version: 5E.5EClient version 7.1.37 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.37-1754700105  about 2 minutes ago
+#282368  Remove version: 5E.5EClient version 7.1.38 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.38-1754699991  about 4 minutes ago
+#282367  Remove version: 5E.5EClient version 7.1.40 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.40-1754699887  about 6 minutes ago
+#282365  Remove version: 5E.5EClient version 7.1.43 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.43-1754699607  about 10 minutes ago
+#282366  Remove version: 5E.5EClient version 7.1.41 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.41-1754699749  about 8 minutes ago
+#282364  Remove version: 5E.5EClient version 7.1.44 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.44-1754699496  about 12 minutes ago
+#282363  Remove version: 5E.5EClient version 7.1.45 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.45-1754699394  about 14 minutes ago
+#282362  Remove version: 5E.5EClient version 7.1.48 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.48-1754699276  about 16 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                    BRANCH                                        CREATED AT
+#133515  New version: 5E.5EClient version 7.1.35  SpecterShell:5E.5EClient-7.1.35-bc1b07d08d40  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-5E.5EClient-7.1.35-1754700309'
+  已签出新分支 Remove-5E.5EClient-7.1.35-1754700309
+  已移除软件包 5E.5EClient 版本 7.1.35
+[Remove-5E.5EClient-7.1.35-1754700309 de7ea4d1bf0] Remove version: 5E.5EClient version 7.1.35 (Auto)
+ 4 files changed, 88 deletions(-)
+ delete mode 100644 manifests/5/5E/5EClient/7.1.35/5E.5EClient.installer.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.35/5E.5EClient.locale.en-US.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.35/5E.5EClient.locale.zh-CN.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.35/5E.5EClient.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 753 bytes | 188.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'Remove-5E.5EClient-7.1.35-1754700309' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-5E.5EClient-7.1.35-1754700309
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-5E.5EClient-7.1.35-1754700309 -> Remove-5E.5EClient-7.1.35-1754700309
+branch 'Remove-5E.5EClient-7.1.35-1754700309' set up to track 'origin/Remove-5E.5EClient-7.1.35-1754700309'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/282371
+ 成功移除 5E.5EClient 版本 7.1.35
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-5E.5EClient-7.1.35-1754700309 (was de7ea4d1bf0).
+工作区清理完成
+INFO 正在检查 5E.5EClient 7.1.32 ...
+已找到 5EClient [5E.5EClient] 版本 7.1.32
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.32.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+✕ 5E.5EClient 7.1.32 下载失败！将移除此版本...
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 5EClient [5E.5EClient]
+版本
+------
+8.2.1
+8.1.1
+8.1.0
+7.1.48
+7.1.45
+7.1.44
+7.1.43
+7.1.41
+7.1.40
+7.1.38
+7.1.37
+7.1.36
+7.1.35
+7.1.32
+7.1.31
+7.1.27
+7.1.26
+7.1.24
+7.1.22
+7.1.19
+7.1.18
+7.1.17
+7.1.15
+7.1.14
+7.1.13
+7.1.12
+7.1.11
+7.1.10
+7.1.9
+======= 此软件包版本在 winget 上的信息 =======
+已找到 5EClient [5E.5EClient]
+版本: 7.1.32
+发布者: 杭州赛凡科技有限公司
+作者: 杭州赛凡科技有限公司
+描述: 5E 对战平台是由 5EPlay 开发的一款 CS: GO 对战软件,拥有超过千万注册活跃玩家,是 CS: GO 玩家的首选平台。平台采用自主研发的最新反作弊技术和游戏内举报投票功能,全面保护玩家的游戏体验。同时,平台提供 128tick 竞赛级服务器,能够给玩家带来丝滑的游戏体验。此外,平台还提供专业全面的游戏数据分析,帮助玩家全面回顾整场对局,并给出专业的分析结果。
+许可证: 专有软件
+版权所有: ©2011-2023 杭州赛凡科技有限公司
+标记：
+  csgo
+  游戏
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://oss-arena.5eplay.com/client/5EClient-7.1.32.exe
+  安装程序 SHA256： 8e87b9f5e2fc9c017a503663f6ddf4b82504837bb8aedc6d39190d0bf6c87495
+  发布日期: 2023-12-06
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\5\5E\5EClient\7.1.32\5E.5EClient.installer.yaml
+
+# Created with YamlCreate.ps1 v2.2.12 $debug=QUSU.CRLF.7-4-0.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.5.0.schema.json
+
+PackageIdentifier: 5E.5EClient
+PackageVersion: 7.1.32
+InstallerType: nullsoft # electron-builder
+Scope: machine
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ReleaseDate: 2023-12-06
+Installers:
+- Architecture: x64
+  InstallerUrl: https://oss-arena.5eplay.com/client/5EClient-7.1.32.exe
+  InstallerSha256: 8E87B9F5E2FC9C017A503663F6DDF4B82504837BB8AEDC6D39190D0BF6C87495
+  ProductCode: b8243c8b-3ace-5d95-b4f0-bc984c2373da
+ManifestType: installer
+ManifestVersion: 1.5.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 5EClient [5E.5EClient] 版本 7.1.32
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.32.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 10 of 10 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                              BRANCH                                               CREATED AT
+#282371  Remove version: 5E.5EClient version 7.1.35 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.35-1754700309  about 1 minute ago
+#282370  Remove version: 5E.5EClient version 7.1.36 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.36-1754700208  about 2 minutes ago
+#282369  Remove version: 5E.5EClient version 7.1.37 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.37-1754700105  about 4 minutes ago
+#282368  Remove version: 5E.5EClient version 7.1.38 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.38-1754699991  about 6 minutes ago
+#282367  Remove version: 5E.5EClient version 7.1.40 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.40-1754699887  about 8 minutes ago
+#282365  Remove version: 5E.5EClient version 7.1.43 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.43-1754699607  about 12 minutes ago
+#282366  Remove version: 5E.5EClient version 7.1.41 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.41-1754699749  about 10 minutes ago
+#282364  Remove version: 5E.5EClient version 7.1.44 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.44-1754699496  about 14 minutes ago
+#282363  Remove version: 5E.5EClient version 7.1.45 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.45-1754699394  about 16 minutes ago
+#282362  Remove version: 5E.5EClient version 7.1.48 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.48-1754699276  about 18 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                    BRANCH                                          CREATED AT
+#129641  New version: 5E.5EClient version 7.1.32  SpecterShell:5E.5EClient-7.1.32-96A690493C4E21  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-5E.5EClient-7.1.32-1754700429'
+  已签出新分支 Remove-5E.5EClient-7.1.32-1754700429
+  已移除软件包 5E.5EClient 版本 7.1.32
+[Remove-5E.5EClient-7.1.32-1754700429 c8bc13564b7] Remove version: 5E.5EClient version 7.1.32 (Auto)
+ 4 files changed, 88 deletions(-)
+ delete mode 100644 manifests/5/5E/5EClient/7.1.32/5E.5EClient.installer.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.32/5E.5EClient.locale.en-US.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.32/5E.5EClient.locale.zh-CN.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.32/5E.5EClient.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 752 bytes | 250.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'Remove-5E.5EClient-7.1.32-1754700429' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-5E.5EClient-7.1.32-1754700429
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-5E.5EClient-7.1.32-1754700429 -> Remove-5E.5EClient-7.1.32-1754700429
+branch 'Remove-5E.5EClient-7.1.32-1754700429' set up to track 'origin/Remove-5E.5EClient-7.1.32-1754700429'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/282372
+ 成功移除 5E.5EClient 版本 7.1.32
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-5E.5EClient-7.1.32-1754700429 (was c8bc13564b7).
+工作区清理完成
+INFO 正在检查 5E.5EClient 7.1.31 ...
+已找到 5EClient [5E.5EClient] 版本 7.1.31
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.31.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+✕ 5E.5EClient 7.1.31 下载失败！将移除此版本...
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 5EClient [5E.5EClient]
+版本
+------
+8.2.1
+8.1.1
+8.1.0
+7.1.48
+7.1.45
+7.1.44
+7.1.43
+7.1.41
+7.1.40
+7.1.38
+7.1.37
+7.1.36
+7.1.35
+7.1.32
+7.1.31
+7.1.27
+7.1.26
+7.1.24
+7.1.22
+7.1.19
+7.1.18
+7.1.17
+7.1.15
+7.1.14
+7.1.13
+7.1.12
+7.1.11
+7.1.10
+7.1.9
+======= 此软件包版本在 winget 上的信息 =======
+已找到 5EClient [5E.5EClient]
+版本: 7.1.31
+发布者: 杭州赛凡科技有限公司
+作者: 杭州赛凡科技有限公司
+描述: 5E 对战平台是由 5EPlay 开发的一款 CS: GO 对战软件,拥有超过千万注册活跃玩家,是 CS: GO 玩家的首选平台。平台采用自主研发的最新反作弊技术和游戏内举报投票功能,全面保护玩家的游戏体验。同时,平台提供 128tick 竞赛级服务器,能够给玩家带来丝滑的游戏体验。此外,平台还提供专业全面的游戏数据分析,帮助玩家全面回顾整场对局,并给出专业的分析结果。
+许可证: 专有软件
+版权所有: ©2011-2023 杭州赛凡科技有限公司
+标记：
+  csgo
+  游戏
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://oss-arena.5eplay.com/client/5EClient-7.1.31.exe
+  安装程序 SHA256： d27fe0e88c6ea73fa8c5d567f4a7826512aeb77bc290b8e94a826db2453da247
+  发布日期: 2023-11-27
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\5\5E\5EClient\7.1.31\5E.5EClient.installer.yaml
+
+# Created with YamlCreate.ps1 v2.2.10 $debug=QUSU.CRLF.7-4-0.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.5.0.schema.json
+
+PackageIdentifier: 5E.5EClient
+PackageVersion: 7.1.31
+InstallerType: nullsoft # electron-builder
+Scope: machine
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ReleaseDate: 2023-11-27
+Installers:
+- Architecture: x64
+  InstallerUrl: https://oss-arena.5eplay.com/client/5EClient-7.1.31.exe
+  InstallerSha256: D27FE0E88C6EA73FA8C5D567F4A7826512AEB77BC290B8E94A826DB2453DA247
+  ProductCode: b8243c8b-3ace-5d95-b4f0-bc984c2373da
+ManifestType: installer
+ManifestVersion: 1.5.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 5EClient [5E.5EClient] 版本 7.1.31
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.31.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 11 of 11 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                              BRANCH                                               CREATED AT
+#282372  Remove version: 5E.5EClient version 7.1.32 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.32-1754700429  about 1 minute ago
+#282371  Remove version: 5E.5EClient version 7.1.35 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.35-1754700309  about 3 minutes ago
+#282370  Remove version: 5E.5EClient version 7.1.36 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.36-1754700208  about 4 minutes ago
+#282369  Remove version: 5E.5EClient version 7.1.37 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.37-1754700105  about 6 minutes ago
+#282367  Remove version: 5E.5EClient version 7.1.40 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.40-1754699887  about 10 minutes ago
+#282368  Remove version: 5E.5EClient version 7.1.38 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.38-1754699991  about 8 minutes ago
+#282366  Remove version: 5E.5EClient version 7.1.41 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.41-1754699749  about 12 minutes ago
+#282365  Remove version: 5E.5EClient version 7.1.43 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.43-1754699607  about 14 minutes ago
+#282364  Remove version: 5E.5EClient version 7.1.44 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.44-1754699496  about 16 minutes ago
+#282363  Remove version: 5E.5EClient version 7.1.45 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.45-1754699394  about 18 minutes ago
+#282362  Remove version: 5E.5EClient version 7.1.48 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.48-1754699276  about 20 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                    BRANCH                                          CREATED AT
+#128512  New version: 5E.5EClient version 7.1.31  SpecterShell:5E.5EClient-7.1.31-12901572DD3A62  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-5E.5EClient-7.1.31-1754700564'
+  已签出新分支 Remove-5E.5EClient-7.1.31-1754700564
+  已移除软件包 5E.5EClient 版本 7.1.31
+[Remove-5E.5EClient-7.1.31-1754700564 79c5b7e45d8] Remove version: 5E.5EClient version 7.1.31 (Auto)
+ 4 files changed, 88 deletions(-)
+ delete mode 100644 manifests/5/5E/5EClient/7.1.31/5E.5EClient.installer.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.31/5E.5EClient.locale.en-US.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.31/5E.5EClient.locale.zh-CN.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.31/5E.5EClient.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 758 bytes | 252.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'Remove-5E.5EClient-7.1.31-1754700564' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-5E.5EClient-7.1.31-1754700564
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-5E.5EClient-7.1.31-1754700564 -> Remove-5E.5EClient-7.1.31-1754700564
+branch 'Remove-5E.5EClient-7.1.31-1754700564' set up to track 'origin/Remove-5E.5EClient-7.1.31-1754700564'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/282373
+ 成功移除 5E.5EClient 版本 7.1.31
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-5E.5EClient-7.1.31-1754700564 (was 79c5b7e45d8).
+工作区清理完成
+INFO 正在检查 5E.5EClient 7.1.27 ...
+已找到 5EClient [5E.5EClient] 版本 7.1.27
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.27.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+✕ 5E.5EClient 7.1.27 下载失败！将移除此版本...
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 5EClient [5E.5EClient]
+版本
+------
+8.2.1
+8.1.1
+8.1.0
+7.1.48
+7.1.45
+7.1.44
+7.1.43
+7.1.41
+7.1.40
+7.1.38
+7.1.37
+7.1.36
+7.1.35
+7.1.32
+7.1.31
+7.1.27
+7.1.26
+7.1.24
+7.1.22
+7.1.19
+7.1.18
+7.1.17
+7.1.15
+7.1.14
+7.1.13
+7.1.12
+7.1.11
+7.1.10
+7.1.9
+======= 此软件包版本在 winget 上的信息 =======
+已找到 5EClient [5E.5EClient]
+版本: 7.1.27
+发布者: 杭州赛凡科技有限公司
+作者: 杭州赛凡科技有限公司
+描述: 5E 对战平台是由 5EPlay 开发的一款 CS: GO 对战软件,拥有超过千万注册活跃玩家,是 CS: GO 玩家的首选平台。平台采用自主研发的最新反作弊技术和游戏内举报投票功能,全面保护玩家的游戏体验。同时,平台提供 128tick 竞赛级服务器,能够给玩家带来丝滑的游戏体验。此外,平台还提供专业全面的游戏数据分析,帮助玩家全面回顾整场对局,并给出专业的分析结果。
+许可证: 专有软件
+版权所有: ©2011-2023 杭州赛凡科技有限公司
+标记：
+  csgo
+  游戏
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://oss-arena.5eplay.com/client/5EClient-7.1.27.exe
+  安装程序 SHA256： c38382bdcae62de961155f2d65719757236e1e28d5e8468d7a0559f2c39fdd6d
+  发布日期: 2023-10-26
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\5\5E\5EClient\7.1.27\5E.5EClient.installer.yaml
+
+# Created with YamlCreate.ps1 v2.2.10 $debug=QUSU.CRLF.7-3-8.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.5.0.schema.json
+
+PackageIdentifier: 5E.5EClient
+PackageVersion: 7.1.27
+InstallerType: nullsoft # electron-builder
+Scope: machine
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ReleaseDate: 2023-10-26
+Installers:
+- Architecture: x64
+  InstallerUrl: https://oss-arena.5eplay.com/client/5EClient-7.1.27.exe
+  InstallerSha256: C38382BDCAE62DE961155F2D65719757236E1E28D5E8468D7A0559F2C39FDD6D
+  ProductCode: b8243c8b-3ace-5d95-b4f0-bc984c2373da
+ManifestType: installer
+ManifestVersion: 1.5.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 5EClient [5E.5EClient] 版本 7.1.27
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.27.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 12 of 12 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                              BRANCH                                               CREATED AT
+#282373  Remove version: 5E.5EClient version 7.1.31 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.31-1754700564  about 1 minute ago
+#282372  Remove version: 5E.5EClient version 7.1.32 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.32-1754700429  about 3 minutes ago
+#282371  Remove version: 5E.5EClient version 7.1.35 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.35-1754700309  about 5 minutes ago
+#282370  Remove version: 5E.5EClient version 7.1.36 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.36-1754700208  about 7 minutes ago
+#282368  Remove version: 5E.5EClient version 7.1.38 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.38-1754699991  about 10 minutes ago
+#282369  Remove version: 5E.5EClient version 7.1.37 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.37-1754700105  about 8 minutes ago
+#282367  Remove version: 5E.5EClient version 7.1.40 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.40-1754699887  about 12 minutes ago
+#282366  Remove version: 5E.5EClient version 7.1.41 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.41-1754699749  about 14 minutes ago
+#282365  Remove version: 5E.5EClient version 7.1.43 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.43-1754699607  about 17 minutes ago
+#282364  Remove version: 5E.5EClient version 7.1.44 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.44-1754699496  about 19 minutes ago
+#282363  Remove version: 5E.5EClient version 7.1.45 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.45-1754699394  about 20 minutes ago
+#282362  Remove version: 5E.5EClient version 7.1.48 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.48-1754699276  about 22 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                    BRANCH                                          CREATED AT
+#123957  New version: 5E.5EClient version 7.1.27  SpecterShell:5E.5EClient-7.1.27-8EDDDD721C4D73  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-5E.5EClient-7.1.27-1754700695'
+  已签出新分支 Remove-5E.5EClient-7.1.27-1754700695
+  已移除软件包 5E.5EClient 版本 7.1.27
+[Remove-5E.5EClient-7.1.27-1754700695 2e249725201] Remove version: 5E.5EClient version 7.1.27 (Auto)
+ 4 files changed, 88 deletions(-)
+ delete mode 100644 manifests/5/5E/5EClient/7.1.27/5E.5EClient.installer.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.27/5E.5EClient.locale.en-US.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.27/5E.5EClient.locale.zh-CN.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.27/5E.5EClient.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 755 bytes | 251.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'Remove-5E.5EClient-7.1.27-1754700695' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-5E.5EClient-7.1.27-1754700695
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-5E.5EClient-7.1.27-1754700695 -> Remove-5E.5EClient-7.1.27-1754700695
+branch 'Remove-5E.5EClient-7.1.27-1754700695' set up to track 'origin/Remove-5E.5EClient-7.1.27-1754700695'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/282379
+ 成功移除 5E.5EClient 版本 7.1.27
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-5E.5EClient-7.1.27-1754700695 (was 2e249725201).
+工作区清理完成
+INFO 正在检查 5E.5EClient 7.1.26 ...
+已找到 5EClient [5E.5EClient] 版本 7.1.26
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.26.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+✕ 5E.5EClient 7.1.26 下载失败！将移除此版本...
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 5EClient [5E.5EClient]
+版本
+------
+8.2.1
+8.1.1
+8.1.0
+7.1.48
+7.1.45
+7.1.44
+7.1.43
+7.1.41
+7.1.40
+7.1.38
+7.1.37
+7.1.36
+7.1.35
+7.1.32
+7.1.31
+7.1.27
+7.1.26
+7.1.24
+7.1.22
+7.1.19
+7.1.18
+7.1.17
+7.1.15
+7.1.14
+7.1.13
+7.1.12
+7.1.11
+7.1.10
+7.1.9
+======= 此软件包版本在 winget 上的信息 =======
+已找到 5EClient [5E.5EClient]
+版本: 7.1.26
+发布者: 杭州赛凡科技有限公司
+发布服务器 URL: https://www.5eplay.com/
+发布服务器支持 URL: https://arena.5eplay.com/help
+作者: 杭州赛凡科技有限公司
+描述: 5E 对战平台是由 5EPlay 开发的一款 CS: GO 对战软件,拥有超过千万注册活跃玩家,是 CS: GO 玩家的首选平台。平台采用自主研发的最新反作弊技术和游戏内举报投票功能,全面保护玩家的游戏体验。同时,平台提供 128tick 竞赛级服务器,能够给玩家带来丝滑的游戏体验。此外,平台还提供专业全面的游戏数据分析,帮助玩家全面回顾整场对局,并给出专业的分析结果。
+主页: https://arena.5eplay.com/download
+许可证: 专有软件
+许可证 URL: https://arena.5eplay.com/page/agreement
+隐私 URL: https://arena.5eplay.com/page/privacy
+版权所有: ©2011-2023 杭州赛凡科技有限公司
+发行说明:
+  更新前瞻
+  10 月 10 日更新
+  【新增模式】
+  - 死斗模式扩容,新增手枪死斗和狙击死斗模式;
+  - 新增本地训练模式,你可以在 Play 菜单的自定义模式中找到;
+  - 新增休闲混战模式,随进随出,加入自由乱战吧!
+
+  【热身优化】
+  热身期间的投掷物预览已经开启,你可以更好地在对局前练习道具了。
+
+  【5E BOX】
+  修复了 5E BOX 键鼠设置中跳投“只跳不投”的问题。
+
+  【反作弊更新】
+  - 兼容性修复,解决了游戏报错、闪退问题。
+  - 修复由于 steam 断线导致服务器失去连接的问题。
+  - 新增两种行为检测,高效检出作弊行为。
+标记：
+  csgo
+  游戏
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://oss-arena.5eplay.com/client/5EClient-7.1.26.exe
+  安装程序 SHA256： e01d0c4f139ab673dc91b24fe0bbe0e40f946b89b48e59ed94fb491f0f861e7d
+  发布日期: 2023-10-09
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\5\5E\5EClient\7.1.26\5E.5EClient.installer.yaml
+
+# Created with YamlCreate.ps1 v2.2.10 $debug=QUSU.CRLF.7-3-8.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.5.0.schema.json
+
+PackageIdentifier: 5E.5EClient
+PackageVersion: 7.1.26
+InstallerType: nullsoft # electron-builder
+Scope: machine
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ReleaseDate: 2023-10-09
+Installers:
+- Architecture: x64
+  InstallerUrl: https://oss-arena.5eplay.com/client/5EClient-7.1.26.exe
+  InstallerSha256: E01D0C4F139AB673DC91B24FE0BBE0E40F946B89B48E59ED94FB491F0F861E7D
+  ProductCode: b8243c8b-3ace-5d95-b4f0-bc984c2373da
+ManifestType: installer
+ManifestVersion: 1.5.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 5EClient [5E.5EClient] 版本 7.1.26
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.26.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 13 of 13 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                              BRANCH                                               CREATED AT
+#282379  Remove version: 5E.5EClient version 7.1.27 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.27-1754700695  about 1 minute ago
+#282373  Remove version: 5E.5EClient version 7.1.31 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.31-1754700564  about 3 minutes ago
+#282372  Remove version: 5E.5EClient version 7.1.32 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.32-1754700429  about 5 minutes ago
+#282371  Remove version: 5E.5EClient version 7.1.35 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.35-1754700309  about 7 minutes ago
+#282370  Remove version: 5E.5EClient version 7.1.36 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.36-1754700208  about 9 minutes ago
+#282368  Remove version: 5E.5EClient version 7.1.38 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.38-1754699991  about 13 minutes ago
+#282369  Remove version: 5E.5EClient version 7.1.37 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.37-1754700105  about 11 minutes ago
+#282367  Remove version: 5E.5EClient version 7.1.40 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.40-1754699887  about 14 minutes ago
+#282366  Remove version: 5E.5EClient version 7.1.41 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.41-1754699749  about 17 minutes ago
+#282365  Remove version: 5E.5EClient version 7.1.43 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.43-1754699607  about 19 minutes ago
+#282364  Remove version: 5E.5EClient version 7.1.44 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.44-1754699496  about 21 minutes ago
+#282363  Remove version: 5E.5EClient version 7.1.45 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.45-1754699394  about 23 minutes ago
+#282362  Remove version: 5E.5EClient version 7.1.48 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.48-1754699276  about 24 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                    BRANCH                                          CREATED AT
+#122342  New version: 5E.5EClient version 7.1.26  SpecterShell:5E.5EClient-7.1.26-493835FB8EF76F  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-5E.5EClient-7.1.26-1754700826'
+  已签出新分支 Remove-5E.5EClient-7.1.26-1754700826
+  已移除软件包 5E.5EClient 版本 7.1.26
+[Remove-5E.5EClient-7.1.26-1754700826 f81bd583df1] Remove version: 5E.5EClient version 7.1.26 (Auto)
+ 4 files changed, 105 deletions(-)
+ delete mode 100644 manifests/5/5E/5EClient/7.1.26/5E.5EClient.installer.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.26/5E.5EClient.locale.en-US.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.26/5E.5EClient.locale.zh-CN.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.26/5E.5EClient.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 757 bytes | 189.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'Remove-5E.5EClient-7.1.26-1754700826' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-5E.5EClient-7.1.26-1754700826
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-5E.5EClient-7.1.26-1754700826 -> Remove-5E.5EClient-7.1.26-1754700826
+branch 'Remove-5E.5EClient-7.1.26-1754700826' set up to track 'origin/Remove-5E.5EClient-7.1.26-1754700826'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/282380
+ 成功移除 5E.5EClient 版本 7.1.26
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-5E.5EClient-7.1.26-1754700826 (was f81bd583df1).
+工作区清理完成
+INFO 正在检查 5E.5EClient 7.1.24 ...
+已找到 5EClient [5E.5EClient] 版本 7.1.24
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.24.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+✕ 5E.5EClient 7.1.24 下载失败！将移除此版本...
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 5EClient [5E.5EClient]
+版本
+------
+8.2.1
+8.1.1
+8.1.0
+7.1.48
+7.1.45
+7.1.44
+7.1.43
+7.1.41
+7.1.40
+7.1.38
+7.1.37
+7.1.36
+7.1.35
+7.1.32
+7.1.31
+7.1.27
+7.1.26
+7.1.24
+7.1.22
+7.1.19
+7.1.18
+7.1.17
+7.1.15
+7.1.14
+7.1.13
+7.1.12
+7.1.11
+7.1.10
+7.1.9
+======= 此软件包版本在 winget 上的信息 =======
+已找到 5EClient [5E.5EClient]
+版本: 7.1.24
+发布者: 杭州赛凡科技有限公司
+发布服务器 URL: https://www.5eplay.com/
+发布服务器支持 URL: https://arena.5eplay.com/help
+作者: 杭州赛凡科技有限公司
+描述: 5E 对战平台是由 5EPlay 开发的一款 CS: GO 对战软件,拥有超过千万注册活跃玩家,是 CS: GO 玩家的首选平台。平台采用自主研发的最新反作弊技术和游戏内举报投票功能,全面保护玩家的游戏体验。同时,平台提供 128tick 竞赛级服务器,能够给玩家带来丝滑的游戏体验。此外,平台还提供专业全面的游戏数据分析,帮助玩家全面回顾整场对局,并给出专业的分析结果。
+主页: https://arena.5eplay.com/download
+许可证: 专有软件
+许可证 URL: https://arena.5eplay.com/page/agreement
+隐私 URL: https://arena.5eplay.com/page/privacy
+版权所有: ©2011-2023 杭州赛凡科技有限公司
+标记：
+  csgo
+  游戏
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://oss-arena.5eplay.com/client/5EClient-7.1.24.exe
+  安装程序 SHA256： a6bb2db99257bef204c3acb3f94b5a67c12dd7a737771b61d6946e724ca39b91
+  发布日期: 2023-10-02
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\5\5E\5EClient\7.1.24\5E.5EClient.installer.yaml
+
+# Created with YamlCreate.ps1 v2.2.10 $debug=QUSU.CRLF.7-3-7.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.5.0.schema.json
+
+PackageIdentifier: 5E.5EClient
+PackageVersion: 7.1.24
+InstallerType: nullsoft # electron-builder
+Scope: machine
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ReleaseDate: 2023-10-02
+Installers:
+- Architecture: x64
+  InstallerUrl: https://oss-arena.5eplay.com/client/5EClient-7.1.24.exe
+  InstallerSha256: A6BB2DB99257BEF204C3ACB3F94B5A67C12DD7A737771B61D6946E724CA39B91
+  ProductCode: b8243c8b-3ace-5d95-b4f0-bc984c2373da
+ManifestType: installer
+ManifestVersion: 1.5.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 5EClient [5E.5EClient] 版本 7.1.24
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.24.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 13 of 13 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                              BRANCH                                               CREATED AT
+#282380  Remove version: 5E.5EClient version 7.1.26 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.26-1754700826  about 1 minute ago
+#282379  Remove version: 5E.5EClient version 7.1.27 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.27-1754700695  about 3 minutes ago
+#282373  Remove version: 5E.5EClient version 7.1.31 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.31-1754700564  about 5 minutes ago
+#282372  Remove version: 5E.5EClient version 7.1.32 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.32-1754700429  about 7 minutes ago
+#282370  Remove version: 5E.5EClient version 7.1.36 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.36-1754700208  about 11 minutes ago
+#282369  Remove version: 5E.5EClient version 7.1.37 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.37-1754700105  about 13 minutes ago
+#282371  Remove version: 5E.5EClient version 7.1.35 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.35-1754700309  about 9 minutes ago
+#282368  Remove version: 5E.5EClient version 7.1.38 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.38-1754699991  about 15 minutes ago
+#282367  Remove version: 5E.5EClient version 7.1.40 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.40-1754699887  about 16 minutes ago
+#282366  Remove version: 5E.5EClient version 7.1.41 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.41-1754699749  about 19 minutes ago
+#282365  Remove version: 5E.5EClient version 7.1.43 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.43-1754699607  about 21 minutes ago
+#282364  Remove version: 5E.5EClient version 7.1.44 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.44-1754699496  about 23 minutes ago
+#282363  Remove version: 5E.5EClient version 7.1.45 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.45-1754699394  about 25 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                    BRANCH                                          CREATED AT
+#121714  New version: 5E.5EClient version 7.1.24  SpecterShell:5E.5EClient-7.1.24-B5C6551388A340  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+remote: Enumerating objects: 13, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 13 (delta 3), reused 3 (delta 3), pack-reused 5 (from 1)
+Unpacking objects: 100% (13/13), 9.72 KiB | 58.00 KiB/s, done.
+From https://github.com/microsoft/winget-pkgs
+   7776036b2bf..ea21b0d0f5b  master     -> upstream/master
+  已获取上游修改
+From https://github.com/DuckDuckStudio/winget-pkgs
+   7776036b2bf..b89a142ba5c  master     -> origin/master
+  已获取远程修改
+Successfully rebased and updated refs/heads/master.
+  已变基上游修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 1.20 KiB | 308.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote: Bypassed rule violations for refs/heads/master:
+remote:
+remote: - Changes must be made through a pull request.
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+   b89a142ba5c..ea21b0d0f5b  master -> master
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-5E.5EClient-7.1.24-1754700945'
+  已签出新分支 Remove-5E.5EClient-7.1.24-1754700945
+  已移除软件包 5E.5EClient 版本 7.1.24
+[Remove-5E.5EClient-7.1.24-1754700945 33374ad7296] Remove version: 5E.5EClient version 7.1.24 (Auto)
+ 4 files changed, 88 deletions(-)
+ delete mode 100644 manifests/5/5E/5EClient/7.1.24/5E.5EClient.installer.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.24/5E.5EClient.locale.en-US.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.24/5E.5EClient.locale.zh-CN.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.24/5E.5EClient.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 750 bytes | 187.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'Remove-5E.5EClient-7.1.24-1754700945' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-5E.5EClient-7.1.24-1754700945
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-5E.5EClient-7.1.24-1754700945 -> Remove-5E.5EClient-7.1.24-1754700945
+branch 'Remove-5E.5EClient-7.1.24-1754700945' set up to track 'origin/Remove-5E.5EClient-7.1.24-1754700945'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/282381
+ 成功移除 5E.5EClient 版本 7.1.24
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-5E.5EClient-7.1.24-1754700945 (was 33374ad7296).
+工作区清理完成
+INFO 正在检查 5E.5EClient 7.1.22 ...
+已找到 5EClient [5E.5EClient] 版本 7.1.22
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.22.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+✕ 5E.5EClient 7.1.22 下载失败！将移除此版本...
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 5EClient [5E.5EClient]
+版本
+------
+8.2.1
+8.1.1
+8.1.0
+7.1.48
+7.1.45
+7.1.44
+7.1.43
+7.1.41
+7.1.40
+7.1.38
+7.1.37
+7.1.36
+7.1.35
+7.1.32
+7.1.31
+7.1.27
+7.1.26
+7.1.24
+7.1.22
+7.1.19
+7.1.18
+7.1.17
+7.1.15
+7.1.14
+7.1.13
+7.1.12
+7.1.11
+7.1.10
+7.1.9
+======= 此软件包版本在 winget 上的信息 =======
+已找到 5EClient [5E.5EClient]
+版本: 7.1.22
+发布者: 杭州赛凡科技有限公司
+发布服务器 URL: https://www.5eplay.com/
+发布服务器支持 URL: https://arena.5eplay.com/help
+作者: 杭州赛凡科技有限公司
+描述: 5E 对战平台是由 5EPlay 开发的一款 CS: GO 对战软件,拥有超过千万注册活跃玩家,是 CS: GO 玩家的首选平台。平台采用自主研发的最新反作弊技术和游戏内举报投票功能,全面保护玩家的游戏体验。同时,平台提供 128tick 竞赛级服务器,能够给玩家带来丝滑的游戏体验。此外,平台还提供专业全面的游戏数据分析,帮助玩家全面回顾整场对局,并给出专业的分析结果。
+主页: https://arena.5eplay.com/download
+许可证: 专有软件
+许可证 URL: https://arena.5eplay.com/page/agreement
+隐私 URL: https://arena.5eplay.com/page/privacy
+版权所有: ©2011-2023 杭州赛凡科技有限公司
+标记：
+  csgo
+  游戏
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://oss-arena.5eplay.com/client/5EClient-7.1.22.exe
+  安装程序 SHA256： e0c175234642f4595a7d9ef174e10c4f5a6bcc5aba304eed26885b71153fb11e
+  发布日期: 2023-09-29
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\5\5E\5EClient\7.1.22\5E.5EClient.installer.yaml
+
+# Created with YamlCreate.ps1 v2.2.10 $debug=QUSU.CRLF.7-3-7.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.5.0.schema.json
+
+PackageIdentifier: 5E.5EClient
+PackageVersion: 7.1.22
+InstallerType: nullsoft # electron-builder
+Scope: machine
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ReleaseDate: 2023-09-29
+Installers:
+- Architecture: x64
+  InstallerUrl: https://oss-arena.5eplay.com/client/5EClient-7.1.22.exe
+  InstallerSha256: E0C175234642F4595A7D9EF174E10C4F5A6BCC5ABA304EED26885B71153FB11E
+  ProductCode: b8243c8b-3ace-5d95-b4f0-bc984c2373da
+ManifestType: installer
+ManifestVersion: 1.5.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 5EClient [5E.5EClient] 版本 7.1.22
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.22.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 8 of 8 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                              BRANCH                                               CREATED AT
+#282381  Remove version: 5E.5EClient version 7.1.24 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.24-1754700945  about 1 minute ago
+#282380  Remove version: 5E.5EClient version 7.1.26 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.26-1754700826  about 3 minutes ago
+#282379  Remove version: 5E.5EClient version 7.1.27 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.27-1754700695  about 5 minutes ago
+#282373  Remove version: 5E.5EClient version 7.1.31 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.31-1754700564  about 7 minutes ago
+#282371  Remove version: 5E.5EClient version 7.1.35 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.35-1754700309  about 12 minutes ago
+#282372  Remove version: 5E.5EClient version 7.1.32 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.32-1754700429  about 9 minutes ago
+#282370  Remove version: 5E.5EClient version 7.1.36 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.36-1754700208  about 13 minutes ago
+#282369  Remove version: 5E.5EClient version 7.1.37 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.37-1754700105  about 15 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                    BRANCH                                          CREATED AT
+#121191  New version: 5E.5EClient version 7.1.22  SpecterShell:5E.5EClient-7.1.22-56CD4572BCF5B1  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+remote: Enumerating objects: 36, done.
+remote: Counting objects: 100% (36/36), done.
+remote: Compressing objects: 100% (30/30), done.
+remote: Total 36 (delta 15), reused 7 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (36/36), 8.77 KiB | 20.00 KiB/s, done.
+From https://github.com/microsoft/winget-pkgs
+   ea21b0d0f5b..44aad2d4b8b  master     -> upstream/master
+  已获取上游修改
+  已获取远程修改
+Successfully rebased and updated refs/heads/master.
+  已变基上游修改
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Bypassed rule violations for refs/heads/master:
+remote:
+remote: - Changes must be made through a pull request.
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+   ea21b0d0f5b..44aad2d4b8b  master -> master
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-5E.5EClient-7.1.22-1754701081'
+  已签出新分支 Remove-5E.5EClient-7.1.22-1754701081
+  已移除软件包 5E.5EClient 版本 7.1.22
+[Remove-5E.5EClient-7.1.22-1754701081 d459ad576be] Remove version: 5E.5EClient version 7.1.22 (Auto)
+ 4 files changed, 88 deletions(-)
+ delete mode 100644 manifests/5/5E/5EClient/7.1.22/5E.5EClient.installer.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.22/5E.5EClient.locale.en-US.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.22/5E.5EClient.locale.zh-CN.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.22/5E.5EClient.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 750 bytes | 250.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'Remove-5E.5EClient-7.1.22-1754701081' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-5E.5EClient-7.1.22-1754701081
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-5E.5EClient-7.1.22-1754701081 -> Remove-5E.5EClient-7.1.22-1754701081
+branch 'Remove-5E.5EClient-7.1.22-1754701081' set up to track 'origin/Remove-5E.5EClient-7.1.22-1754701081'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/282382
+ 成功移除 5E.5EClient 版本 7.1.22
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-5E.5EClient-7.1.22-1754701081 (was d459ad576be).
+工作区清理完成
+INFO 正在检查 5E.5EClient 7.1.19 ...
+已找到 5EClient [5E.5EClient] 版本 7.1.19
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.19.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+✕ 5E.5EClient 7.1.19 下载失败！将移除此版本...
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 5EClient [5E.5EClient]
+版本
+------
+8.2.1
+8.1.1
+8.1.0
+7.1.48
+7.1.45
+7.1.44
+7.1.43
+7.1.41
+7.1.40
+7.1.38
+7.1.37
+7.1.36
+7.1.35
+7.1.32
+7.1.31
+7.1.27
+7.1.26
+7.1.24
+7.1.22
+7.1.19
+7.1.18
+7.1.17
+7.1.15
+7.1.14
+7.1.13
+7.1.12
+7.1.11
+7.1.10
+7.1.9
+======= 此软件包版本在 winget 上的信息 =======
+已找到 5EClient [5E.5EClient]
+版本: 7.1.19
+发布者: 杭州赛凡科技有限公司
+发布服务器 URL: https://www.5eplay.com/
+发布服务器支持 URL: https://arena.5eplay.com/help
+作者: 杭州赛凡科技有限公司
+描述: 5E 对战平台是由 5EPlay 开发的一款 CS: GO 对战软件,拥有超过千万注册活跃玩家,是 CS: GO 玩家的首选平台。平台采用自主研发的最新反作弊技术和游戏内举报投票功能,全面保护玩家的游戏体验。同时,平台提供 128tick 竞赛级服务器,能够给玩家带来丝滑的游戏体验。此外,平台还提供专业全面的游戏数据分析,帮助玩家全面回顾整场对局,并给出专业的分析结果。
+主页: https://arena.5eplay.com/download
+许可证: 专有软件
+许可证 URL: https://arena.5eplay.com/page/agreement
+隐私 URL: https://arena.5eplay.com/page/privacy
+版权所有: ©2011-2023 杭州赛凡科技有限公司
+标记：
+  csgo
+  游戏
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://oss-arena.5eplay.com/client/5EClient-7.1.19.exe
+  安装程序 SHA256： 85e17e0e4087b1983a29b4bc7b48044095bdb356d30ffe11f7ca2ab721179193
+  发布日期: 2023-09-08
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\5\5E\5EClient\7.1.19\5E.5EClient.installer.yaml
+
+# Created with YamlCreate.ps1 v2.2.10 $debug=QUSU.CRLF.7-3-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.5.0.schema.json
+
+PackageIdentifier: 5E.5EClient
+PackageVersion: 7.1.19
+InstallerType: nullsoft # electron-builder
+Scope: machine
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ReleaseDate: 2023-09-08
+Installers:
+- Architecture: x64
+  InstallerUrl: https://oss-arena.5eplay.com/client/5EClient-7.1.19.exe
+  InstallerSha256: 85E17E0E4087B1983A29B4BC7B48044095BDB356D30FFE11F7CA2AB721179193
+  ProductCode: b8243c8b-3ace-5d95-b4f0-bc984c2373da
+ManifestType: installer
+ManifestVersion: 1.5.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 5EClient [5E.5EClient] 版本 7.1.19
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.19.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 9 of 9 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                              BRANCH                                               CREATED AT
+#282382  Remove version: 5E.5EClient version 7.1.22 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.22-1754701081  less than a minute ago
+#282381  Remove version: 5E.5EClient version 7.1.24 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.24-1754700945  about 3 minutes ago
+#282380  Remove version: 5E.5EClient version 7.1.26 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.26-1754700826  about 5 minutes ago
+#282379  Remove version: 5E.5EClient version 7.1.27 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.27-1754700695  about 6 minutes ago
+#282373  Remove version: 5E.5EClient version 7.1.31 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.31-1754700564  about 9 minutes ago
+#282371  Remove version: 5E.5EClient version 7.1.35 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.35-1754700309  about 13 minutes ago
+#282372  Remove version: 5E.5EClient version 7.1.32 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.32-1754700429  about 11 minutes ago
+#282370  Remove version: 5E.5EClient version 7.1.36 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.36-1754700208  about 15 minutes ago
+#282369  Remove version: 5E.5EClient version 7.1.37 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.37-1754700105  about 17 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                    BRANCH                                          CREATED AT
+#119230  New version: 5E.5EClient version 7.1.19  SpecterShell:5E.5EClient-7.1.19-9119236263E5FB  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-5E.5EClient-7.1.19-1754701171'
+  已签出新分支 Remove-5E.5EClient-7.1.19-1754701171
+  已移除软件包 5E.5EClient 版本 7.1.19
+[Remove-5E.5EClient-7.1.19-1754701171 519ef2efa5d] Remove version: 5E.5EClient version 7.1.19 (Auto)
+ 4 files changed, 88 deletions(-)
+ delete mode 100644 manifests/5/5E/5EClient/7.1.19/5E.5EClient.installer.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.19/5E.5EClient.locale.en-US.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.19/5E.5EClient.locale.zh-CN.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.19/5E.5EClient.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 750 bytes | 250.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'Remove-5E.5EClient-7.1.19-1754701171' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-5E.5EClient-7.1.19-1754701171
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-5E.5EClient-7.1.19-1754701171 -> Remove-5E.5EClient-7.1.19-1754701171
+branch 'Remove-5E.5EClient-7.1.19-1754701171' set up to track 'origin/Remove-5E.5EClient-7.1.19-1754701171'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/282383
+ 成功移除 5E.5EClient 版本 7.1.19
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-5E.5EClient-7.1.19-1754701171 (was 519ef2efa5d).
+工作区清理完成
+INFO 正在检查 5E.5EClient 7.1.18 ...
+已找到 5EClient [5E.5EClient] 版本 7.1.18
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.18.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+✕ 5E.5EClient 7.1.18 下载失败！将移除此版本...
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 5EClient [5E.5EClient]
+版本
+------
+8.2.1
+8.1.1
+8.1.0
+7.1.48
+7.1.45
+7.1.44
+7.1.43
+7.1.41
+7.1.40
+7.1.38
+7.1.37
+7.1.36
+7.1.35
+7.1.32
+7.1.31
+7.1.27
+7.1.26
+7.1.24
+7.1.22
+7.1.19
+7.1.18
+7.1.17
+7.1.15
+7.1.14
+7.1.13
+7.1.12
+7.1.11
+7.1.10
+7.1.9
+======= 此软件包版本在 winget 上的信息 =======
+已找到 5EClient [5E.5EClient]
+版本: 7.1.18
+发布者: 杭州赛凡科技有限公司
+发布服务器 URL: https://www.5eplay.com/
+发布服务器支持 URL: https://arena.5eplay.com/help
+作者: 杭州赛凡科技有限公司
+描述: 5E 对战平台是由 5EPlay 开发的一款 CS: GO 对战软件,拥有超过千万注册活跃玩家,是 CS: GO 玩家的首选平台。平台采用自主研发的最新反作弊技术和游戏内举报投票功能,全面保护玩家的游戏体验。同时,平台提供 128tick 竞赛级服务器,能够给玩家带来丝滑的游戏体验。此外,平台还提供专业全面的游戏数据分析,帮助玩家全面回顾整场对局,并给出专业的分析结果。
+主页: https://arena.5eplay.com/download
+许可证: 专有软件
+许可证 URL: https://arena.5eplay.com/page/agreement
+隐私 URL: https://arena.5eplay.com/page/privacy
+版权所有: ©2011-2023 杭州赛凡科技有限公司
+标记：
+  csgo
+  游戏
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://oss-arena.5eplay.com/client/5EClient-7.1.18.exe
+  安装程序 SHA256： 0895e385b0f8140c7d7938b3492aae8592f72d53d8e0555df7235901cb2be9fe
+  发布日期: 2023-09-06
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\5\5E\5EClient\7.1.18\5E.5EClient.installer.yaml
+
+# Created with YamlCreate.ps1 v2.2.10 $debug=QUSU.CRLF.7-3-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.5.0.schema.json
+
+PackageIdentifier: 5E.5EClient
+PackageVersion: 7.1.18
+InstallerType: nullsoft # electron-builder
+Scope: machine
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ReleaseDate: 2023-09-06
+Installers:
+- Architecture: x64
+  InstallerUrl: https://oss-arena.5eplay.com/client/5EClient-7.1.18.exe
+  InstallerSha256: 0895E385B0F8140C7D7938B3492AAE8592F72D53D8E0555DF7235901CB2BE9FE
+  ProductCode: b8243c8b-3ace-5d95-b4f0-bc984c2373da
+ManifestType: installer
+ManifestVersion: 1.5.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 5EClient [5E.5EClient] 版本 7.1.18
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.18.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 10 of 10 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                              BRANCH                                               CREATED AT
+#282383  Remove version: 5E.5EClient version 7.1.19 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.19-1754701171  less than a minute ago
+#282382  Remove version: 5E.5EClient version 7.1.22 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.22-1754701081  about 2 minutes ago
+#282381  Remove version: 5E.5EClient version 7.1.24 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.24-1754700945  about 4 minutes ago
+#282380  Remove version: 5E.5EClient version 7.1.26 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.26-1754700826  about 6 minutes ago
+#282379  Remove version: 5E.5EClient version 7.1.27 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.27-1754700695  about 8 minutes ago
+#282373  Remove version: 5E.5EClient version 7.1.31 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.31-1754700564  about 10 minutes ago
+#282371  Remove version: 5E.5EClient version 7.1.35 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.35-1754700309  about 15 minutes ago
+#282372  Remove version: 5E.5EClient version 7.1.32 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.32-1754700429  about 13 minutes ago
+#282370  Remove version: 5E.5EClient version 7.1.36 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.36-1754700208  about 16 minutes ago
+#282369  Remove version: 5E.5EClient version 7.1.37 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.37-1754700105  about 18 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                    BRANCH                                          CREATED AT
+#119052  New version: 5E.5EClient version 7.1.18  SpecterShell:5E.5EClient-7.1.18-1AC0C644C77B55  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-5E.5EClient-7.1.18-1754701260'
+  已签出新分支 Remove-5E.5EClient-7.1.18-1754701260
+  已移除软件包 5E.5EClient 版本 7.1.18
+[Remove-5E.5EClient-7.1.18-1754701260 87117b221a7] Remove version: 5E.5EClient version 7.1.18 (Auto)
+ 4 files changed, 88 deletions(-)
+ delete mode 100644 manifests/5/5E/5EClient/7.1.18/5E.5EClient.installer.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.18/5E.5EClient.locale.en-US.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.18/5E.5EClient.locale.zh-CN.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.18/5E.5EClient.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 752 bytes | 188.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'Remove-5E.5EClient-7.1.18-1754701260' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-5E.5EClient-7.1.18-1754701260
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-5E.5EClient-7.1.18-1754701260 -> Remove-5E.5EClient-7.1.18-1754701260
+branch 'Remove-5E.5EClient-7.1.18-1754701260' set up to track 'origin/Remove-5E.5EClient-7.1.18-1754701260'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/282384
+ 成功移除 5E.5EClient 版本 7.1.18
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-5E.5EClient-7.1.18-1754701260 (was 87117b221a7).
+工作区清理完成
+INFO 正在检查 5E.5EClient 7.1.17 ...
+已找到 5EClient [5E.5EClient] 版本 7.1.17
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.17.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+✕ 5E.5EClient 7.1.17 下载失败！将移除此版本...
+开始预先检查
+======= 此软件包现有的所有版本 =======
+已找到 5EClient [5E.5EClient]
+版本
+------
+8.2.1
+8.1.1
+8.1.0
+7.1.48
+7.1.45
+7.1.44
+7.1.43
+7.1.41
+7.1.40
+7.1.38
+7.1.37
+7.1.36
+7.1.35
+7.1.32
+7.1.31
+7.1.27
+7.1.26
+7.1.24
+7.1.22
+7.1.19
+7.1.18
+7.1.17
+7.1.15
+7.1.14
+7.1.13
+7.1.12
+7.1.11
+7.1.10
+7.1.9
+======= 此软件包版本在 winget 上的信息 =======
+已找到 5EClient [5E.5EClient]
+版本: 7.1.17
+发布者: 杭州赛凡科技有限公司
+发布服务器 URL: https://www.5eplay.com/
+发布服务器支持 URL: https://arena.5eplay.com/help
+作者: 杭州赛凡科技有限公司
+描述: 5E 对战平台是由 5EPlay 开发的一款 CS: GO 对战软件,拥有超过千万注册活跃玩家,是 CS: GO 玩家的首选平台。平台采用自主研发的最新反作弊技术和游戏内举报投票功能,全面保护玩家的游戏体验。同时,平台提供 128tick 竞赛级服务器,能够给玩家带来丝滑的游戏体验。此外,平台还提供专业全面的游戏数据分析,帮助玩家全面回顾整场对局,并给出专业的分析结果。
+主页: https://arena.5eplay.com/download
+许可证: 专有软件
+许可证 URL: https://arena.5eplay.com/page/agreement
+隐私 URL: https://arena.5eplay.com/page/privacy
+版权所有: ©2011-2023 杭州赛凡科技有限公司
+标记：
+  csgo
+  游戏
+安装：
+  安装程序类型： nullsoft
+  安装程序 URL： https://oss-arena.5eplay.com/client/5EClient-7.1.17.exe
+  安装程序 SHA256： 6b0dd8fcd91e890eec407ec736aeeaec4f61d21e1a7f66220bf935621340762c
+  发布日期: 2023-09-04
+  支持脱机分发: true
+✓ 清单文件位于 D:\...\winget-pkgs\manifests\5\5E\5EClient\7.1.17\5E.5EClient.installer.yaml
+
+# Created with YamlCreate.ps1 v2.2.10 $debug=QUSU.CRLF.7-3-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.5.0.schema.json
+
+PackageIdentifier: 5E.5EClient
+PackageVersion: 7.1.17
+InstallerType: nullsoft # electron-builder
+Scope: machine
+InstallerSwitches:
+  Upgrade: --updated
+UpgradeBehavior: install
+ReleaseDate: 2023-09-04
+Installers:
+- Architecture: x64
+  InstallerUrl: https://oss-arena.5eplay.com/client/5EClient-7.1.17.exe
+  InstallerSha256: 6B0DD8FCD91E890EEC407EC736AEEAEC4F61D21E1A7F66220BF935621340762C
+  ProductCode: b8243c8b-3ace-5d95-b4f0-bc984c2373da
+ManifestType: installer
+ManifestVersion: 1.5.0
+
+======= 确认 =======
+您手动访问过每个安装程序链接了吗?
+使用 winget 验证...
+已找到 5EClient [5E.5EClient] 版本 7.1.17
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://oss-arena.5eplay.com/client/5EClient-7.1.17.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : 未找到(404)。
+使用 winget 验证证实确实存在问题 (2149122452)
+查重...
+======= 打开的 =======
+
+Showing 11 of 11 pull requests in microsoft/winget-pkgs that match your search
+
+ID       TITLE                                              BRANCH                                               CREATED AT
+#282384  Remove version: 5E.5EClient version 7.1.18 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.18-1754701260  less than a minute ago
+#282383  Remove version: 5E.5EClient version 7.1.19 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.19-1754701171  about 2 minutes ago
+#282382  Remove version: 5E.5EClient version 7.1.22 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.22-1754701081  about 3 minutes ago
+#282381  Remove version: 5E.5EClient version 7.1.24 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.24-1754700945  about 6 minutes ago
+#282380  Remove version: 5E.5EClient version 7.1.26 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.26-1754700826  about 8 minutes ago
+#282379  Remove version: 5E.5EClient version 7.1.27 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.27-1754700695  about 10 minutes ago
+#282372  Remove version: 5E.5EClient version 7.1.32 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.32-1754700429  about 14 minutes ago
+#282373  Remove version: 5E.5EClient version 7.1.31 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.31-1754700564  about 12 minutes ago
+#282371  Remove version: 5E.5EClient version 7.1.35 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.35-1754700309  about 16 minutes ago
+#282370  Remove version: 5E.5EClient version 7.1.36 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.36-1754700208  about 18 minutes ago
+#282369  Remove version: 5E.5EClient version 7.1.37 (Auto)  DuckDuckStudio:Remove-5E.5EClient-7.1.37-1754700105  about 20 minutes ago
+======= 所有 =======
+
+Showing 1 of 1 pull request in microsoft/winget-pkgs that matches your search
+
+ID       TITLE                                    BRANCH                                          CREATED AT
+#118911  New version: 5E.5EClient version 7.1.17  SpecterShell:5E.5EClient-7.1.17-EB9DD6AF56B9B6  about 1 year ago
+您确定没有重复的拉取请求?
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-5E.5EClient-7.1.17-1754701359'
+  已签出新分支 Remove-5E.5EClient-7.1.17-1754701359
+  已移除软件包 5E.5EClient 版本 7.1.17
+[Remove-5E.5EClient-7.1.17-1754701359 fb7a9af34ed] Remove version: 5E.5EClient version 7.1.17 (Auto)
+ 4 files changed, 88 deletions(-)
+ delete mode 100644 manifests/5/5E/5EClient/7.1.17/5E.5EClient.installer.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.17/5E.5EClient.locale.en-US.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.17/5E.5EClient.locale.zh-CN.yaml
+ delete mode 100644 manifests/5/5E/5EClient/7.1.17/5E.5EClient.yaml
+  已提交修改
+fatal: unable to access 'https://github.com/DuckDuckStudio/winget-pkgs.git/': The requested URL returned error: 502
+Traceback (most recent call last):
+  File "D:\...\Sundry-Locale\src\sundry.py", line 109, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "D:\...\Sundry-Locale\src\sundry.py", line 28, in main
+    return remove.main(args)
+           ~~~~~~~~~~~^^^^^^
+  File "D:\...\Sundry-Locale\src\tools\remove.py", line 324, in main
+    subprocess.run(["git", "push"], check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\...\Python313\Lib\subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['git', 'push']' returned non-zero exit status 128.
+INFO 正在检查 5E.5EClient 7.1.15 ...
+✕ 操作中止
