@@ -1,0 +1,40 @@
+~~ Start logging ~~
+2025-08-10 01:13:00.473 FUN 上抄网抄它啊
+2025-08-10 01:13:00.489 INFO Found the following version folder: ['5.35.0.0', '5.36.0.0', '5.37.0.0', '6.17.0.0', '6.24.0', '6.29.0', '7.0.0.0', '7.1.0.0', '7.18.0', '7.19.0', '7.2.0.0', '7.25.0.0', '7.26.0.0', '7.3.0.0', '8.0.0.0', '8.3.0.0', '8.4.0.0', '8.5.0.0', '8.6.0.0', '8.7.0.0', '8.8.0.0']
+2025-08-10 01:13:00.490 INFO Skip version 5.35.0.0, because it's not in the list of versions to be modified.
+2025-08-10 01:13:00.491 INFO Skip version 5.36.0.0, because it's not in the list of versions to be modified.
+2025-08-10 01:13:00.492 INFO Skip version 5.37.0.0, because it's not in the list of versions to be modified.
+2025-08-10 01:13:00.493 INFO Skip version 6.17.0.0, because it's not in the list of versions to be modified.
+2025-08-10 01:13:00.494 INFO Skip version 6.24.0, because it's not in the list of versions to be modified.
+2025-08-10 01:13:00.495 INFO Skip version 6.29.0, because it's not in the list of versions to be modified.
+2025-08-10 01:13:00.496 INFO Skip version 7.0.0.0, because it's not in the list of versions to be modified.
+2025-08-10 01:13:00.497 INFO Skip version 7.1.0.0, because it's not in the list of versions to be modified.
+2025-08-10 01:13:00.498 INFO Skip version 7.18.0, because it's not in the list of versions to be modified.
+2025-08-10 01:13:00.499 INFO Skip version 7.19.0, because it's not in the list of versions to be modified.
+2025-08-10 01:13:00.499 INFO Skip version 7.2.0.0, because it's not in the list of versions to be modified.
+2025-08-10 01:13:00.500 INFO Skip version 7.25.0.0, because it's not in the list of versions to be modified.
+2025-08-10 01:13:00.501 INFO Skip version 7.26.0.0, because it's not in the list of versions to be modified.
+2025-08-10 01:13:00.502 INFO Skip version 7.3.0.0, because it's not in the list of versions to be modified.
+2025-08-10 01:13:00.503 INFO Skip version 8.0.0.0, because it's not in the list of versions to be modified.
+2025-08-10 01:13:00.504 INFO Skip version 8.3.0.0, because it's not in the list of versions to be modified.
+2025-08-10 01:13:00.504 INFO Skip version 8.4.0.0, because it's not in the list of versions to be modified.
+2025-08-10 01:13:00.505 INFO Skip version 8.5.0.0, because it's not in the list of versions to be modified.
+2025-08-10 01:13:00.506 INFO Skip version 8.6.0.0, because it's not in the list of versions to be modified.
+2025-08-10 01:13:00.508 INFO Skip version 8.7.0.0, because it's not in the list of versions to be modified.
+2025-08-10 01:13:00.508 INFO Processing version folder: 8.8.0.0
+2025-08-10 01:13:00.509 INFO   Create and checkout to a new branch: Modify-S-calibre.calibre.portable-8.8.0.0-1754759580
+2025-08-10 01:13:13.535 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\8.8.0.0\calibre.calibre.portable.installer.yaml
+2025-08-10 01:13:13.538 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\8.8.0.0\calibre.calibre.portable.installer.yaml
+2025-08-10 01:13:16.202 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\8.8.0.0\calibre.calibre.portable.locale.en-US.yaml
+2025-08-10 01:13:16.205 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\8.8.0.0\calibre.calibre.portable.locale.en-US.yaml
+2025-08-10 01:13:18.930 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\8.8.0.0\calibre.calibre.portable.yaml
+2025-08-10 01:13:18.933 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\8.8.0.0\calibre.calibre.portable.yaml
+2025-08-10 01:15:13.333 INFO     清单验证成功。
+2025-08-10 01:15:13.342 INFO   Staging and Committing Changes to Git
+2025-08-10 01:15:18.512 INFO     Commit message: Modify: calibre.calibre.portable version 8.8.0.0 (Auto)
+2025-08-10 01:15:18.513 INFO   Pushing changes to remote (origin) repository
+2025-08-10 01:15:23.142 INFO     Successfully pushed to remote (origin): Modify-S-calibre.calibre.portable-8.8.0.0-1754759580
+2025-08-10 01:15:24.787 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/282503
+2025-08-10 01:15:24.789 INFO All manifests have been modified and pushed through.
+2025-08-10 01:15:29.451 INFO Workspace clean-up completed.
+~~ End of logging ~~
