@@ -1,0 +1,31 @@
+~~ Start logging ~~
+2025-08-11 01:19:19.794 FUN ( ´_ゝ｀)
+2025-08-11 01:19:19.798 INFO Found the following version folder: ['2.4.0', '2.5.1']
+2025-08-11 01:19:19.799 INFO Processing version folder: 2.4.0
+2025-08-11 01:19:19.801 INFO   Create and checkout to a new branch: Modify-S-DanielMcGuireCorporation.SimpleBrowser-2.4.0-1754846359
+2025-08-11 01:19:57.917 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DanielMcGuireCorporation\SimpleBrowser\2.4.0\DanielMcGuireCorporation.SimpleBrowser.installer.yaml
+2025-08-11 01:19:57.921 INFO     Replace ManifestVersion: 1.5.0 -> 1.10.0
+2025-08-11 01:19:57.923 INFO     Replace schema references: 1.5.0.schema.json -> 1.10.0.schema.json
+2025-08-11 01:19:57.927 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DanielMcGuireCorporation\SimpleBrowser\2.4.0\DanielMcGuireCorporation.SimpleBrowser.installer.yaml
+2025-08-11 01:19:58.238 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DanielMcGuireCorporation\SimpleBrowser\2.4.0\DanielMcGuireCorporation.SimpleBrowser.locale.en-US.yaml
+2025-08-11 01:19:58.244 INFO     Replace ManifestVersion: 1.5.0 -> 1.10.0
+2025-08-11 01:19:58.246 INFO     Replace schema references: 1.5.0.schema.json -> 1.10.0.schema.json
+2025-08-11 01:19:58.250 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DanielMcGuireCorporation\SimpleBrowser\2.4.0\DanielMcGuireCorporation.SimpleBrowser.locale.en-US.yaml
+2025-08-11 01:19:58.430 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DanielMcGuireCorporation\SimpleBrowser\2.4.0\DanielMcGuireCorporation.SimpleBrowser.yaml
+2025-08-11 01:19:58.432 INFO     Replace ManifestVersion: 1.5.0 -> 1.10.0
+2025-08-11 01:19:58.434 INFO     Replace schema references: 1.5.0.schema.json -> 1.10.0.schema.json
+2025-08-11 01:19:58.436 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DanielMcGuireCorporation\SimpleBrowser\2.4.0\DanielMcGuireCorporation.SimpleBrowser.yaml
+2025-08-11 01:21:29.742 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-08-11 01:21:29.744 INFO       - 程序包
+2025-08-11 01:21:29.745 INFO           Microsoft.DotNet.DesktopRuntime.8
+2025-08-11 01:21:29.747 INFO           Microsoft.EdgeWebView2Runtime
+2025-08-11 01:21:29.748 INFO     清单验证成功。
+2025-08-11 01:21:29.758 INFO   Staging and Committing Changes to Git
+2025-08-11 01:21:55.597 INFO     Commit message: Modify: DanielMcGuireCorporation.SimpleBrowser version 2.4.0 (Auto)
+2025-08-11 01:21:55.598 INFO   Pushing changes to remote (origin) repository
+2025-08-11 01:22:00.661 INFO     Successfully pushed to remote (origin): Modify-S-DanielMcGuireCorporation.SimpleBrowser-2.4.0-1754846359
+2025-08-11 01:22:02.735 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/282609
+2025-08-11 01:22:02.737 INFO Skip version 2.5.1, because it's not in the list of versions to be modified.
+2025-08-11 01:22:02.739 INFO All manifests have been modified and pushed through.
+2025-08-11 01:22:11.388 INFO Workspace clean-up completed.
+~~ End of logging ~~
