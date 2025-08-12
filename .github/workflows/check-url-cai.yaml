@@ -50,7 +50,7 @@ jobs:
         # subdirectory: ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
     steps:
       - name: 检出代码
-        uses: actions/checkout@v5
+        uses: actions/checkout@v5.0.0
 
       - name: 设置 .NET
         uses: actions/setup-dotnet@v4
