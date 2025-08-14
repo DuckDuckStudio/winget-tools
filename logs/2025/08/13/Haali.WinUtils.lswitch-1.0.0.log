@@ -1,0 +1,27 @@
+~~ Start logging ~~
+2025-08-13 11:38:59.756 FUN 噫！我中了！
+2025-08-13 11:38:59.758 INFO Found the following version folder: ['1.0.0']
+2025-08-13 11:38:59.759 INFO Processing version folder: 1.0.0
+2025-08-13 11:38:59.759 INFO   Create and checkout to a new branch: Modify-S-Haali.WinUtils.lswitch-1.0.0-1755056339
+2025-08-13 11:39:10.183 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\Haali\WinUtils\lswitch\1.0.0\Haali.WinUtils.lswitch.installer.yaml
+2025-08-13 11:39:10.184 INFO     检测到 D:\...\winget-pkgs\manifests\h\Haali\WinUtils\lswitch\1.0.0\Haali.WinUtils.lswitch.installer.yaml 中含有不安全的 URL (HTTP)，自动替换为安全的 URL (HTTPS)
+2025-08-13 11:39:10.194 INFO     Replace schema references: 1.2.0.schema.json -> 1.10.0.schema.json
+2025-08-13 11:39:10.195 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-08-13 11:39:10.196 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\h\Haali\WinUtils\lswitch\1.0.0\Haali.WinUtils.lswitch.installer.yaml
+2025-08-13 11:39:10.357 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\Haali\WinUtils\lswitch\1.0.0\Haali.WinUtils.lswitch.locale.en-US.yaml
+2025-08-13 11:39:10.360 INFO     Replace schema references: 1.2.0.schema.json -> 1.10.0.schema.json
+2025-08-13 11:39:10.361 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-08-13 11:39:10.363 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\h\Haali\WinUtils\lswitch\1.0.0\Haali.WinUtils.lswitch.locale.en-US.yaml
+2025-08-13 11:39:10.466 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\h\Haali\WinUtils\lswitch\1.0.0\Haali.WinUtils.lswitch.yaml
+2025-08-13 11:39:10.467 INFO     Replace schema references: 1.2.0.schema.json -> 1.10.0.schema.json
+2025-08-13 11:39:10.469 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-08-13 11:39:10.471 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\h\Haali\WinUtils\lswitch\1.0.0\Haali.WinUtils.lswitch.yaml
+2025-08-13 11:39:35.887 INFO     清单验证成功。
+2025-08-13 11:39:35.924 INFO   Staging and Committing Changes to Git
+2025-08-13 11:39:46.811 INFO     Commit message: Modify: Haali.WinUtils.lswitch version 1.0.0 (Auto)
+2025-08-13 11:39:46.812 INFO   Pushing changes to remote (origin) repository
+2025-08-13 11:39:52.255 INFO     Successfully pushed to remote (origin): Modify-S-Haali.WinUtils.lswitch-1.0.0-1755056339
+2025-08-13 11:39:54.945 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/283445
+2025-08-13 11:39:54.965 INFO All manifests have been modified and pushed through.
+2025-08-13 11:40:06.939 INFO Workspace clean-up completed.
+~~ End of logging ~~
