@@ -1,0 +1,27 @@
+~~ Start logging ~~
+2025-08-19 14:39:05.939 FUN 前面的区域，以后再来探索吧！
+2025-08-19 14:39:05.939 INFO Trying to generate new manifests for 7S2P.Effie.CN 6.1.19 with urls ['https://download.effie.co/effie/effie_setup_6.1.19.exe']...
+2025-08-19 14:39:27.328 INFO The manifest was successfully generated.
+2025-08-19 14:39:27.333 INFO Found the following version folder: ['2.2.17', '6.1.17', '6.1.19']
+2025-08-19 14:39:27.334 INFO Skip version 2.2.17, because it's not in the list of versions to be modified.
+2025-08-19 14:39:27.335 INFO Skip version 6.1.17, because it's not in the list of versions to be modified.
+2025-08-19 14:39:27.337 INFO Processing version folder: 6.1.19
+2025-08-19 14:39:27.337 INFO   Create and checkout to a new branch: New-Version-7S2P.Effie.CN-6.1.19-1755585567
+2025-08-19 14:39:46.592 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\7\7S2P\Effie\CN\6.1.19\7S2P.Effie.CN.installer.yaml
+2025-08-19 14:39:46.595 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\7\7S2P\Effie\CN\6.1.19\7S2P.Effie.CN.installer.yaml
+2025-08-19 14:39:46.982 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\7\7S2P\Effie\CN\6.1.19\7S2P.Effie.CN.locale.en-US.yaml
+2025-08-19 14:39:46.989 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\7\7S2P\Effie\CN\6.1.19\7S2P.Effie.CN.locale.en-US.yaml
+2025-08-19 14:39:47.220 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\7\7S2P\Effie\CN\6.1.19\7S2P.Effie.CN.locale.zh-CN.yaml
+2025-08-19 14:39:47.223 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\7\7S2P\Effie\CN\6.1.19\7S2P.Effie.CN.locale.zh-CN.yaml
+2025-08-19 14:39:47.549 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\7\7S2P\Effie\CN\6.1.19\7S2P.Effie.CN.yaml
+2025-08-19 14:39:47.553 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\7\7S2P\Effie\CN\6.1.19\7S2P.Effie.CN.yaml
+2025-08-19 14:39:47.776 INFO   New manifests in D:\...\winget-pkgs\manifests\7\7S2P\Effie\CN\6.1.19 for 7S2P.Effie.CN (6.1.19)
+2025-08-19 14:41:16.238 INFO     清单验证成功。
+2025-08-19 14:41:16.249 INFO   Staging and Committing Changes to Git
+2025-08-19 14:41:23.577 INFO     Commit message: New version: 7S2P.Effie.CN version 6.1.19 (Auto)
+2025-08-19 14:41:23.590 INFO   Pushing changes to remote (origin) repository
+2025-08-19 14:41:28.107 INFO     Successfully pushed to remote (origin): New-Version-7S2P.Effie.CN-6.1.19-1755585567
+2025-08-19 14:41:29.989 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/284838
+2025-08-19 14:41:29.990 INFO All manifests have been modified and pushed through.
+2025-08-19 14:41:36.587 INFO Workspace clean-up completed.
+~~ End of logging ~~
