@@ -1,0 +1,32 @@
+~~ Start logging ~~
+2025-08-23 02:29:24.899 FUN 偶遇天赋型选手，拼尽全力无法战胜。
+2025-08-23 02:29:24.906 INFO Found the following version folder: ['1.3.10', '1.3.2', '1.3.3', '1.3.4', '1.3.5', '1.3.6', '1.3.7', '1.3.7.1', '1.3.8', '1.4.0']
+2025-08-23 02:29:24.908 INFO Skip version 1.3.10, because it's not in the list of versions to be modified.
+2025-08-23 02:29:24.908 INFO Skip version 1.3.2, because it's not in the list of versions to be modified.
+2025-08-23 02:29:24.909 INFO Skip version 1.3.3, because it's not in the list of versions to be modified.
+2025-08-23 02:29:24.910 INFO Skip version 1.3.4, because it's not in the list of versions to be modified.
+2025-08-23 02:29:24.911 INFO Skip version 1.3.5, because it's not in the list of versions to be modified.
+2025-08-23 02:29:24.912 INFO Skip version 1.3.6, because it's not in the list of versions to be modified.
+2025-08-23 02:29:24.912 INFO Skip version 1.3.7, because it's not in the list of versions to be modified.
+2025-08-23 02:29:24.913 INFO Skip version 1.3.7.1, because it's not in the list of versions to be modified.
+2025-08-23 02:29:24.913 INFO Skip version 1.3.8, because it's not in the list of versions to be modified.
+2025-08-23 02:29:24.914 INFO Processing version folder: 1.4.0
+2025-08-23 02:29:24.915 INFO   Create and checkout to a new branch: New-Version-DuckStudio.FufuTools-1.4.0-1755887364
+2025-08-23 02:29:42.745 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.4.0\DuckStudio.FufuTools.installer.yaml
+2025-08-23 02:29:42.746 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.4.0\DuckStudio.FufuTools.installer.yaml
+2025-08-23 02:29:42.902 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.4.0\DuckStudio.FufuTools.locale.en-US.yaml
+2025-08-23 02:29:42.904 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.4.0\DuckStudio.FufuTools.locale.en-US.yaml
+2025-08-23 02:29:43.221 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.4.0\DuckStudio.FufuTools.locale.zh-CN.yaml
+2025-08-23 02:29:43.248 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.4.0\DuckStudio.FufuTools.locale.zh-CN.yaml
+2025-08-23 02:29:43.160 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.4.0\DuckStudio.FufuTools.yaml
+2025-08-23 02:29:43.162 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.4.0\DuckStudio.FufuTools.yaml
+2025-08-23 02:29:43.295 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.4.0 for DuckStudio.FufuTools (1.4.0)
+2025-08-23 02:37:56.857 INFO     清单验证成功。
+2025-08-23 02:37:56.867 INFO   Staging and Committing Changes to Git
+2025-08-23 02:38:06.119 INFO     Commit message: New version: DuckStudio.FufuTools version 1.4.0 (Auto)
+2025-08-23 02:38:06.120 INFO   Pushing changes to remote (origin) repository
+2025-08-23 02:38:10.272 INFO     Successfully pushed to remote (origin): New-Version-DuckStudio.FufuTools-1.4.0-1755887364
+2025-08-23 02:38:12.753 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/286391
+2025-08-23 02:38:12.755 INFO All manifests have been modified and pushed through.
+2025-08-23 02:38:18.292 INFO Workspace clean-up completed.
+~~ End of logging ~~
