@@ -1,4 +1,5 @@
 using System;
+using Octokit;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
@@ -169,7 +170,62 @@ namespace checker
             }
         }
 
-        static void GetFrequentlyFailingPackageHint(string filePath)
+        static async Task FailureCheck(string filePath)
+        {
+            // 获取常失败包和原因
+            if (GetFrequentlyFailingPackageHint(filePath))
+            {
+                // 查找重复的 PR
+                await FoundDuplicatePullRequests(GetPackageIdentifier(filePath), Path.GetFileName(Path.GetDirectoryName(filePath)));
+            }
+        }
+
+        static async Task FoundDuplicatePullRequests(string packageID, string? packageVersion)
+        {
+            if (!(string.IsNullOrWhiteSpace(packageID) || string.IsNullOrWhiteSpace(packageVersion)))
+            {
+                // 从环境变量获取 Token
+                var githubToken = Environment.GetEnvironmentVariable("GITHUB_TOKEN");
+                var productHeader = new ProductHeaderValue("DuplicatePRFinder");
+
+                GitHubClient client;
+                if (string.IsNullOrEmpty(githubToken))
+                {
+                    // 无 Token
+                    client = new GitHubClient(productHeader);
+                }
+                else
+                {
+                    client = new GitHubClient(productHeader) { Credentials = new Credentials(githubToken) };
+                }
+
+                var searchRequest = new SearchIssuesRequest($"is:pr is:open repo:microsoft/winget-pkgs {packageID} {packageVersion}");
+
+                try
+                {
+                    var result = await client.Search.SearchIssues(searchRequest);
+
+                    foreach (Issue? pr in result.Items)
+                    {
+                        Console.WriteLine($"[Warning] 可能重复的拉取请求: #{pr.Number} {pr.Title} (by {pr.User}) | 创建于 {pr.CreatedAt:yyyy 年 MM 月 dd 日 HH:mm}");
+                    }
+                }
+                catch (RateLimitExceededException)
+                {
+                    Console.WriteLine("[Warning] 你太快了！已超出 GitHub API 速率限制！");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"[Error] 查找重复的拉取请求时出现错误: {ex.Message}");
+                }
+            }
+            else
+            {
+                Console.WriteLine($"[Error] 查找重复的拉取请求时出现错误: packageID (\"{packageID}\") 或 packageVersion (\"{packageVersion}\") 为 null 或空");
+            }
+        }
+
+        static bool GetFrequentlyFailingPackageHint(string filePath)
         {
             Dictionary<string, string> FrequentlyFailingPackages = new()
             {
@@ -186,6 +242,11 @@ namespace checker
             if (FrequentlyFailingPackages.TryGetValue(GetPackageIdentifier(filePath), out string? hint))
             {
                 Console.WriteLine($"这是常失败软件包: {hint}");
+                return true;
+            }
+            else
+            {
+                return false;
             }
         }
 
@@ -216,14 +277,14 @@ namespace checker
                             {
                                 Console.WriteLine($"\n[Error] (安装程序返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})");
                                 Console.WriteLine($"[Hint] Sundry 命令: sundry remove {GetPackageIdentifier(filePath)} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
-                                GetFrequentlyFailingPackageHint(filePath);
+                                await FailureCheck(filePath);
                                 return false;
                             }
                             else
                             {
                                 Console.WriteLine($"\n[Warning] (安装程序? 返回 {(int)response.StatusCode}) {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})");
                                 Console.WriteLine($"[Hint] Sundry 命令: sundry remove {GetPackageIdentifier(filePath)} {Path.GetFileName(Path.GetDirectoryName(filePath))}");
-                                GetFrequentlyFailingPackageHint(filePath);
+                                await FailureCheck(filePath);
                                 if (failureLevel == "详细")
                                 {
                                     return false;
@@ -246,7 +307,7 @@ namespace checker
                         {
                             Console.WriteLine($"\n[Warning] {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (Forbidden - 已禁止)");
                             Console.WriteLine($"[Hint] Sundry 命令: sundry remove {GetPackageIdentifier(filePath)} {Path.GetFileName(Path.GetDirectoryName(filePath))} \"It returns a 403 status code in GitHub Action.\"");
-                            GetFrequentlyFailingPackageHint(filePath);
+                            await FailureCheck(filePath);
                             if (failureLevel == "详细")
                             {
                                 return false;
@@ -293,7 +354,7 @@ namespace checker
                     else
                     {
                         Console.WriteLine($"\n[Warning] {filePath} 中的 {url} 返回了状态码 {(int)response.StatusCode} (≥400 - 客户端错误)");
-                        GetFrequentlyFailingPackageHint(filePath);
+                        await FailureCheck(filePath);
                         if (failureLevel == "详细")
                         {
                             Console.WriteLine($"[Hint] Sundry 命令: sundry remove {GetPackageIdentifier(filePath)} {Path.GetFileName(Path.GetDirectoryName(filePath))} \"It returns a {(int)response.StatusCode} (≥ 400) status code in GitHub Action.\"");

@@ -35,8 +35,7 @@ on:
           - Release
           - Debug
 
-permissions:
-  contents: read
+permissions: {}
 
 jobs:
   Check-installers:
@@ -63,5 +62,7 @@ jobs:
           git clone "https://github.com/${{ inputs.fork }}/winget-pkgs" "winget-pkgs" -b ${{ inputs.branch }} --depth 1
 
       - name: 执行检查
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: dotnet run --project "checker/checker.csproj" --configuration ${{ inputs.mode }} -- ${{ matrix.subdirectory }} ${{ inputs.fail_level }} ${{ inputs.max_concurrency }}
         continue-on-error: ${{ inputs.fail_level == '不失败' }}
