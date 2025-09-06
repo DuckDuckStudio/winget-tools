@@ -1,0 +1,42 @@
+~~ Start logging ~~
+2025-09-07 03:10:52.848 FUN 蚂蚂-蚂蚂-蚂蚂-蚂蚂~
+2025-09-07 03:10:52.848 FUN 蚁蚁-蚁蚁-蚁蚁-蚁蚁~
+2025-09-07 03:10:52.850 INFO Found the following version folder: ['4.9']
+2025-09-07 03:10:52.851 INFO Processing version folder: 4.9
+2025-09-07 03:10:52.852 INFO   Create and checkout to a new branch: Modify-S-UZ7HO.EasyTerm-4.9-1757185852
+2025-09-07 03:11:04.521 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\u\UZ7HO\EasyTerm\4.9\UZ7HO.EasyTerm.installer.yaml
+2025-09-07 03:11:04.523 INFO     检测到 D:\...\winget-pkgs\manifests\u\UZ7HO\EasyTerm\4.9\UZ7HO.EasyTerm.installer.yaml 中含有不安全的 URL (HTTP)，自动替换为安全的 URL (HTTPS)
+2025-09-07 03:11:04.524 INFO     Replace ManifestVersion: 1.5.0 -> 1.10.0
+2025-09-07 03:11:04.525 INFO     Replace schema references: 1.5.0.schema.json -> 1.10.0.schema.json
+2025-09-07 03:11:04.527 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\u\UZ7HO\EasyTerm\4.9\UZ7HO.EasyTerm.installer.yaml
+2025-09-07 03:11:04.698 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\u\UZ7HO\EasyTerm\4.9\UZ7HO.EasyTerm.locale.en-US.yaml
+2025-09-07 03:11:04.700 INFO     检测到 D:\...\winget-pkgs\manifests\u\UZ7HO\EasyTerm\4.9\UZ7HO.EasyTerm.locale.en-US.yaml 中含有不安全的 URL (HTTP)，自动替换为安全的 URL (HTTPS)
+2025-09-07 03:11:04.702 INFO     Replace ManifestVersion: 1.5.0 -> 1.10.0
+2025-09-07 03:11:04.704 INFO     Replace schema references: 1.5.0.schema.json -> 1.10.0.schema.json
+2025-09-07 03:11:04.706 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\u\UZ7HO\EasyTerm\4.9\UZ7HO.EasyTerm.locale.en-US.yaml
+2025-09-07 03:11:04.812 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\u\UZ7HO\EasyTerm\4.9\UZ7HO.EasyTerm.yaml
+2025-09-07 03:11:04.814 INFO     Replace ManifestVersion: 1.5.0 -> 1.10.0
+2025-09-07 03:11:04.816 INFO     Replace schema references: 1.5.0.schema.json -> 1.10.0.schema.json
+2025-09-07 03:11:04.818 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\u\UZ7HO\EasyTerm\4.9\UZ7HO.EasyTerm.yaml
+2025-09-07 03:12:00.139 INFO     清单验证成功。
+2025-09-07 03:12:00.152 INFO   Staging and Committing Changes to Git
+2025-09-07 03:12:06.525 INFO     Commit message: Modify: UZ7HO.EasyTerm version 4.9 (Auto)
+2025-09-07 03:12:06.526 INFO   Pushing changes to remote (origin) repository
+fatal: unable to access 'https://github.com/DuckDuckStudio/winget-pkgs.git/': The requested URL returned error: 502
+Traceback (most recent call last):
+  File "D:\...\Sundry-Locale\src\sundry.py", line 141, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "D:\...\Sundry-Locale\src\sundry.py", line 45, in main
+    return modify.main(args)
+           ~~~~~~~~~~~^^^^^^
+  File "D:\...\Sundry-Locale\src\tools\modify.py", line 136, in main
+    if 修改版本(版本文件夹) == 1:
+       ~~~~~~~~^^^^^^^^^^^^
+  File "D:\...\Sundry-Locale\src\tools\modify.py", line 375, in 修改版本
+    subprocess.run(["git", "push", "origin", 新分支], check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\...\Python313\Lib\subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['git', 'push', 'origin', 'Modify-S-UZ7HO.EasyTerm-4.9-1757185852']' returned non-zero exit status 128.
