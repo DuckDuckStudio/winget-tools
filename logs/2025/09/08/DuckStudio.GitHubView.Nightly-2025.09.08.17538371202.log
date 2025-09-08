@@ -1,0 +1,37 @@
+~~ Start logging ~~
+2025-09-08 11:14:06.102 FUN 不要，不要，同时打太多键会死的，应付不过来了，求求你慢点，呜哦哦，要头昏眼花了哦齁哦哦哦哦哦哦
+2025-09-08 11:14:06.114 INFO Found the following version folder: ['2024.12.25.12494060383', '2025.01.14.12764289055', '2025.01.15.12782147412', '2025.01.19.12849721517', '2025.01.22.12907017964', '2025.01.22.12911106870', '2025.03.07.13718228324', '2025.03.10.13761118669', '2025.04.10.14373190636', '2025.07.16.16318740224', '2025.07.17.16336851664', '2025.09.08.17538371202']
+2025-09-08 11:14:06.116 INFO Skip version 2024.12.25.12494060383, because it's not in the list of versions to be modified.
+2025-09-08 11:14:06.117 INFO Skip version 2025.01.14.12764289055, because it's not in the list of versions to be modified.
+2025-09-08 11:14:06.118 INFO Skip version 2025.01.15.12782147412, because it's not in the list of versions to be modified.
+2025-09-08 11:14:06.119 INFO Skip version 2025.01.19.12849721517, because it's not in the list of versions to be modified.
+2025-09-08 11:14:06.120 INFO Skip version 2025.01.22.12907017964, because it's not in the list of versions to be modified.
+2025-09-08 11:14:06.121 INFO Skip version 2025.01.22.12911106870, because it's not in the list of versions to be modified.
+2025-09-08 11:14:06.122 INFO Skip version 2025.03.07.13718228324, because it's not in the list of versions to be modified.
+2025-09-08 11:14:06.123 INFO Skip version 2025.03.10.13761118669, because it's not in the list of versions to be modified.
+2025-09-08 11:14:06.124 INFO Skip version 2025.04.10.14373190636, because it's not in the list of versions to be modified.
+2025-09-08 11:14:06.125 INFO Skip version 2025.07.16.16318740224, because it's not in the list of versions to be modified.
+2025-09-08 11:14:06.126 INFO Skip version 2025.07.17.16336851664, because it's not in the list of versions to be modified.
+2025-09-08 11:14:06.127 INFO Processing version folder: 2025.09.08.17538371202
+2025-09-08 11:14:06.128 INFO   Create and checkout to a new branch: New-Version-DuckStudio.GitHubView.Nightly-2025.09.08.17538371202-1757301246
+2025-09-08 11:14:17.645 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.09.08.17538371202\DuckStudio.GitHubView.Nightly.installer.yaml
+2025-09-08 11:14:17.649 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.09.08.17538371202\DuckStudio.GitHubView.Nightly.installer.yaml
+2025-09-08 11:14:17.861 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.09.08.17538371202\DuckStudio.GitHubView.Nightly.locale.en-US.yaml
+2025-09-08 11:14:17.867 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.09.08.17538371202\DuckStudio.GitHubView.Nightly.locale.en-US.yaml
+2025-09-08 11:14:18.374 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.09.08.17538371202\DuckStudio.GitHubView.Nightly.locale.zh-CN.yaml
+2025-09-08 11:14:18.413 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.09.08.17538371202\DuckStudio.GitHubView.Nightly.locale.zh-CN.yaml
+2025-09-08 11:14:18.182 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.09.08.17538371202\DuckStudio.GitHubView.Nightly.yaml
+2025-09-08 11:14:18.186 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.09.08.17538371202\DuckStudio.GitHubView.Nightly.yaml
+2025-09-08 11:14:18.347 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.09.08.17538371202 for DuckStudio.GitHubView.Nightly (2025.09.08.17538371202)
+2025-09-08 11:15:09.888 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-09-08 11:15:09.890 INFO       - 程序包
+2025-09-08 11:15:09.891 INFO           Microsoft.DotNet.Runtime.9
+2025-09-08 11:15:09.892 INFO     清单验证成功。
+2025-09-08 11:15:09.901 INFO   Staging and Committing Changes to Git
+2025-09-08 11:15:27.789 INFO     Commit message: New version: DuckStudio.GitHubView.Nightly version 2025.09.08.17538371202 (Auto)
+2025-09-08 11:15:27.790 INFO   Pushing changes to remote (origin) repository
+2025-09-08 11:15:32.585 INFO     Successfully pushed to remote (origin): New-Version-DuckStudio.GitHubView.Nightly-2025.09.08.17538371202-1757301246
+2025-09-08 11:15:35.166 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/291308
+2025-09-08 11:15:35.168 INFO All manifests have been modified and pushed through.
+2025-09-08 11:15:40.487 INFO Workspace clean-up completed.
+~~ End of logging ~~
