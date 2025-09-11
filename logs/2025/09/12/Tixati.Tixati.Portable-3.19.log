@@ -1,0 +1,28 @@
+~~ Start logging ~~
+2025-09-12 03:35:21.254 FUN 杂鱼杂鱼~❤️
+2025-09-12 03:35:21.258 INFO Found the following version folder: ['3.19', '3.24', '3.35-1']
+2025-09-12 03:35:21.259 INFO Processing version folder: 3.19
+2025-09-12 03:35:21.260 INFO   Create and checkout to a new branch: Modify-S-Tixati.Tixati.Portable-3.19-1757619321
+2025-09-12 03:35:33.968 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\Tixati\Tixati\Portable\3.19\Tixati.Tixati.Portable.installer.yaml
+2025-09-12 03:35:33.979 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-09-12 03:35:33.981 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-09-12 03:35:33.983 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\t\Tixati\Tixati\Portable\3.19\Tixati.Tixati.Portable.installer.yaml
+2025-09-12 03:35:35.170 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\Tixati\Tixati\Portable\3.19\Tixati.Tixati.Portable.locale.en-US.yaml
+2025-09-12 03:35:35.172 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-09-12 03:35:35.174 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-09-12 03:35:35.176 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\t\Tixati\Tixati\Portable\3.19\Tixati.Tixati.Portable.locale.en-US.yaml
+2025-09-12 03:35:35.295 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\Tixati\Tixati\Portable\3.19\Tixati.Tixati.Portable.yaml
+2025-09-12 03:35:35.297 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-09-12 03:35:35.299 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-09-12 03:35:35.302 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\t\Tixati\Tixati\Portable\3.19\Tixati.Tixati.Portable.yaml
+2025-09-12 03:37:53.142 INFO     清单验证成功。
+2025-09-12 03:37:53.154 INFO   Staging and Committing Changes to Git
+2025-09-12 03:38:13.533 INFO     Commit message: Modify: Tixati.Tixati.Portable version 3.19 (Auto)
+2025-09-12 03:38:13.535 INFO   Pushing changes to remote (origin) repository
+2025-09-12 03:38:18.341 INFO     Successfully pushed to remote (origin): Modify-S-Tixati.Tixati.Portable-3.19-1757619321
+2025-09-12 03:38:21.474 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/292377
+2025-09-12 03:38:21.476 INFO Skip version 3.24, because it's not in the list of versions to be modified.
+2025-09-12 03:38:21.477 INFO Skip version 3.35-1, because it's not in the list of versions to be modified.
+2025-09-12 03:38:21.478 INFO All manifests have been modified and pushed through.
+2025-09-12 03:38:27.633 INFO Workspace clean-up completed.
+~~ End of logging ~~
