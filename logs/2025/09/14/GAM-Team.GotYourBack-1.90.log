@@ -1,0 +1,24 @@
+~~ Start logging ~~
+2025-09-14 04:50:27.243 FUN 凡是以各种名义发送不明链接，让你输入银行卡号、手机验证码和各种密码的，都是诈骗！
+2025-09-14 04:50:27.249 INFO Found the following version folder: ['1.74', '1.80', '1.81', '1.82', '1.90']
+2025-09-14 04:50:27.250 INFO Skip version 1.74, because it's not in the list of versions to be modified.
+2025-09-14 04:50:27.252 INFO Skip version 1.80, because it's not in the list of versions to be modified.
+2025-09-14 04:50:27.254 INFO Skip version 1.81, because it's not in the list of versions to be modified.
+2025-09-14 04:50:27.256 INFO Skip version 1.82, because it's not in the list of versions to be modified.
+2025-09-14 04:50:27.258 INFO Processing version folder: 1.90
+2025-09-14 04:50:27.259 INFO   Create and checkout to a new branch: Modify-S-GAM-Team.GotYourBack-1.90-1757796627
+2025-09-14 04:50:45.812 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GAM-Team\GotYourBack\1.90\GAM-Team.GotYourBack.installer.yaml
+2025-09-14 04:50:45.816 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\GAM-Team\GotYourBack\1.90\GAM-Team.GotYourBack.installer.yaml
+2025-09-14 04:50:46.103 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GAM-Team\GotYourBack\1.90\GAM-Team.GotYourBack.locale.en-US.yaml
+2025-09-14 04:50:46.108 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\GAM-Team\GotYourBack\1.90\GAM-Team.GotYourBack.locale.en-US.yaml
+2025-09-14 04:50:46.282 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GAM-Team\GotYourBack\1.90\GAM-Team.GotYourBack.yaml
+2025-09-14 04:50:46.288 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\GAM-Team\GotYourBack\1.90\GAM-Team.GotYourBack.yaml
+2025-09-14 05:02:40.371 INFO     清单验证成功。
+2025-09-14 05:02:40.392 INFO   Staging and Committing Changes to Git
+2025-09-14 05:03:02.560 INFO     Commit message: Modify: GAM-Team.GotYourBack version 1.90 (Auto)
+2025-09-14 05:03:02.562 INFO   Pushing changes to remote (origin) repository
+2025-09-14 05:03:07.336 INFO     Successfully pushed to remote (origin): Modify-S-GAM-Team.GotYourBack-1.90-1757796627
+2025-09-14 05:03:10.182 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/292820
+2025-09-14 05:03:10.185 INFO All manifests have been modified and pushed through.
+2025-09-14 05:03:19.363 INFO Workspace clean-up completed.
+~~ End of logging ~~
