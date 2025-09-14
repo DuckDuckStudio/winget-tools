@@ -583,18 +583,18 @@ namespace checker
 
         static bool IsExcluded(string url)
         {
+            /* 常见的错误原因
+             * 假 403: 发布者使用了 Cloudflare
+             */
             HashSet<string> excludedDomains =
             [
-                "https://www.betterbird.eu/", "https://software.sonicwall.com/GlobalVPNClient/GVCSetup32.exe", "https://github.com/coq/platform/releases/", "typora", "https://storage.jd.com/joymeeting-app/app/JoyMeeting.exe", "https://cdn.kde.org/", // 过于复杂
-                "https://github.com/paintdotnet/release/", "https://cdn.kde.org/ci-builds/education/kiten/master/windows/", // 更新时移除
-                "https://cdn.krisp.ai", "https://www.huaweicloud.com/", "https://mirrors.kodi.tv", "https://scache.vzw.com", "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", "https://www.magicdesktop.com/get/kiosk?src=winget", "https://dl.makeblock.com/", "https://download.voicecloud.cn/", "https://dl.jisupdftoword.com/", "123pan.com", "jisupdf.com", "jisupdfeditor.com", // 假404
-                "https://www.deezer.com/", ".mil", "https://download.wondershare.com/cbs_down/", "https://catsxp.oss-cn-hongkong.aliyuncs.com/", // 无法验证
-                "https://downloads.mysql.com/", "https://swcdn.apple.com/content/downloads/", "sourceforge.net", "https://static.centbrowser.cn/", "https://cdn1.waterfox.net/waterfox/releases/", "https://downloads.tableau.com/public/", "https://sp.thsi.cn/staticS3/mobileweb-upload-static-server.file/app_6/downloadcenter/THS_insoft", "https://files02.tchspt.com/down/", "https://cdn-dl.yinxiang.com/", "https://download.mono-project.com/archive/", "https://cdn-resource.aunbox.cn/", "https://www.fischertechnik.de/-/media/fischertechnik/fite/service/downloads/robotics/robo-pro/documents/update-robopro.ashx", "https://azcopyvnext-awgzd8g7aagqhzhe.b02.azurefd.net/releases/", "https://files03.tchspt.com/down/iview466_plugins_setup.exe", // 假403
+                "https://www.betterbird.eu/", "https://github.com/coq/platform/releases/", "typora", "https://cdn.kde.org/", // 过于复杂
+                "https://github.com/paintdotnet/release/", "https://cdn.kde.org/ci-builds/education/kiten/master/windows/", // 更新时移除 - 这也许应该归为常失败包而不是忽略？
+                "https://cdn.krisp.ai", "https://www.huaweicloud.com/", "https://mirrors.kodi.tv", "https://scache.vzw.com", "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", "https://www.magicdesktop.com/get/kiosk?src=winget", "https://download.voicecloud.cn/", "https://dl.jisupdftoword.com/", "123pan.com", "jisupdf.com", "jisupdfeditor.com", // 假404
+                "https://www.deezer.com/", ".mil", "https://download.wondershare.com/cbs_down/", // 无法验证
+                "https://downloads.mysql.com/", "https://swcdn.apple.com/content/downloads/", "sourceforge.net", "https://cdn1.waterfox.net/waterfox/releases/", "https://downloads.tableau.com/public/", "https://sp.thsi.cn/staticS3/mobileweb-upload-static-server.file/app_6/downloadcenter/THS_insoft", "https://files02.tchspt.com/down/", "https://cdn-dl.yinxiang.com/", "https://download.mono-project.com/archive/", "https://cdn-resource.aunbox.cn/", "https://www.fischertechnik.de/-/media/fischertechnik/fite/service/downloads/robotics/robo-pro/documents/update-robopro.ashx", "https://azcopyvnext-awgzd8g7aagqhzhe.b02.azurefd.net/releases/", "https://files03.tchspt.com/down/iview466_plugins_setup.exe", // 假403
+                "https://softpedia-secure-download.com/dl/8742021e52b6c4d3799cf12fa6dddc89/686a99d4/100021113/software/network/HostsMan_4.8.106_installer.zip", // 过于复杂 - https://github.com/microsoft/winget-pkgs/pull/271669#issue-3206719827 和 https://github.com/microsoft/winget-pkgs/issues/292942
                 "https://issuepcdn.baidupcs.com/", "https://lf-luna-release.qishui.com/obj/luna-release/", "https://down.360safe.com/cse/", // 超时
-                "https://www.argyllcms.com/", // 服务器拒绝冲泡咖啡
-                "https://aurorabuilder.com/downloads/Aurora%20Setup.zip", // 假400
-                "https://softpedia-secure-download.com/dl/8742021e52b6c4d3799cf12fa6dddc89/686a99d4/100021113/software/network/HostsMan_4.8.106_installer.zip", // 过于复杂 - https://github.com/microsoft/winget-pkgs/pull/271669#issue-3206719827
-                "https://github.com/AlistGo", // 备受争议的发布者
             ];
             return excludedDomains.Any(url.Contains);
         }
