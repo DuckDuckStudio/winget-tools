@@ -1,0 +1,23 @@
+~~ Start logging ~~
+2025-09-16 03:08:26.683 FUN (･∀･)
+2025-09-16 03:08:26.686 INFO Found the following version folder: ['V3.1.240']
+2025-09-16 03:08:26.688 INFO Processing version folder: V3.1.240
+2025-09-16 03:08:26.689 INFO   Create and checkout to a new branch: Modify-S-GovernmentOfThePRC.SAT.ETB.WithholdingSide-V3.1.240-1757963306
+2025-09-16 03:08:44.712 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GovernmentOfThePRC\SAT\ETB\WithholdingSide\V3.1.240\GovernmentOfThePRC.SAT.ETB.WithholdingSide.installer.yaml
+2025-09-16 03:08:44.716 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\GovernmentOfThePRC\SAT\ETB\WithholdingSide\V3.1.240\GovernmentOfThePRC.SAT.ETB.WithholdingSide.installer.yaml
+2025-09-16 03:08:45.314 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GovernmentOfThePRC\SAT\ETB\WithholdingSide\V3.1.240\GovernmentOfThePRC.SAT.ETB.WithholdingSide.locale.zh-CN.yaml
+2025-09-16 03:08:45.679 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\GovernmentOfThePRC\SAT\ETB\WithholdingSide\V3.1.240\GovernmentOfThePRC.SAT.ETB.WithholdingSide.locale.zh-CN.yaml
+2025-09-16 03:08:45.161 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GovernmentOfThePRC\SAT\ETB\WithholdingSide\V3.1.240\GovernmentOfThePRC.SAT.ETB.WithholdingSide.yaml
+2025-09-16 03:08:45.165 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\GovernmentOfThePRC\SAT\ETB\WithholdingSide\V3.1.240\GovernmentOfThePRC.SAT.ETB.WithholdingSide.yaml
+2025-09-16 03:24:32.844 WARNING     清单验证成功，但出现警告。
+2025-09-16 03:24:32.846 WARNING     Manifest Warning: Silent and SilentWithProgress switches are not specified for InstallerType exe. Please make sure the installer can run unattended.
+2025-09-16 03:24:32.848 INFO     
+2025-09-16 03:24:35.366 INFO Manifest Error Fixed.
+2025-09-16 03:24:35.368 INFO   Staging and Committing Changes to Git
+2025-09-16 03:24:46.315 INFO     Commit message: Modify: GovernmentOfThePRC.SAT.ETB.WithholdingSide version V3.1.240 (Auto)
+2025-09-16 03:24:46.317 INFO   Pushing changes to remote (origin) repository
+2025-09-16 03:24:51.558 INFO     Successfully pushed to remote (origin): Modify-S-GovernmentOfThePRC.SAT.ETB.WithholdingSide-V3.1.240-1757963306
+2025-09-16 03:24:54.644 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/293184
+2025-09-16 03:24:54.647 INFO All manifests have been modified and pushed through.
+2025-09-16 03:25:00.904 INFO Workspace clean-up completed.
+~~ End of logging ~~
