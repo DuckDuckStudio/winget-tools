@@ -1,0 +1,32 @@
+~~ Start logging ~~
+2025-09-16 03:37:58.668 FUN |･ω･｀)
+2025-09-16 03:37:58.672 INFO Found the following version folder: ['3.0.102000.132', '3.0.53000.92', '3.1.200.141']
+2025-09-16 03:37:58.674 INFO Skip version 3.0.102000.132, because it's not in the list of versions to be modified.
+2025-09-16 03:37:58.675 INFO Skip version 3.0.53000.92, because it's not in the list of versions to be modified.
+2025-09-16 03:37:58.676 INFO Processing version folder: 3.1.200.141
+2025-09-16 03:37:58.677 INFO   Create and checkout to a new branch: New-Version-GovernmentOfThePRC.GuangdongProvince.YueZhengYi-3.1.200.141-1757965078
+2025-09-16 03:38:27.635 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GovernmentOfThePRC\GuangdongProvince\YueZhengYi\3.1.200.141\GovernmentOfThePRC.GuangdongProvince.YueZhengYi.installer.yaml
+2025-09-16 03:38:27.638 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-09-16 03:38:27.639 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-09-16 03:38:27.642 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\GovernmentOfThePRC\GuangdongProvince\YueZhengYi\3.1.200.141\GovernmentOfThePRC.GuangdongProvince.YueZhengYi.installer.yaml
+2025-09-16 03:38:27.820 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GovernmentOfThePRC\GuangdongProvince\YueZhengYi\3.1.200.141\GovernmentOfThePRC.GuangdongProvince.YueZhengYi.locale.zh-CN.yaml
+2025-09-16 03:38:27.822 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-09-16 03:38:27.823 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-09-16 03:38:27.826 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\GovernmentOfThePRC\GuangdongProvince\YueZhengYi\3.1.200.141\GovernmentOfThePRC.GuangdongProvince.YueZhengYi.locale.zh-CN.yaml
+2025-09-16 03:38:27.945 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GovernmentOfThePRC\GuangdongProvince\YueZhengYi\3.1.200.141\GovernmentOfThePRC.GuangdongProvince.YueZhengYi.yaml
+2025-09-16 03:38:27.947 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-09-16 03:38:27.949 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-09-16 03:38:27.952 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\GovernmentOfThePRC\GuangdongProvince\YueZhengYi\3.1.200.141\GovernmentOfThePRC.GuangdongProvince.YueZhengYi.yaml
+2025-09-16 03:38:28.928 INFO   New manifests in D:\...\winget-pkgs\manifests\g\GovernmentOfThePRC\GuangdongProvince\YueZhengYi\3.1.200.141 for GovernmentOfThePRC.GuangdongProvince.YueZhengYi (3.1.200.141)
+2025-09-16 03:38:39.608 WARNING     清单验证成功，但出现警告。
+2025-09-16 03:38:39.630 WARNING     Manifest Warning: Silent and SilentWithProgress switches are not specified for InstallerType exe. Please make sure the installer can run unattended.
+2025-09-16 03:38:39.651 INFO     
+2025-09-16 03:38:40.796 INFO Manifest Error Fixed.
+2025-09-16 03:38:40.799 INFO   Staging and Committing Changes to Git
+2025-09-16 03:38:51.997 INFO     Commit message: New version: GovernmentOfThePRC.GuangdongProvince.YueZhengYi version 3.1.200.141 (Auto)
+2025-09-16 03:38:51.999 INFO   Pushing changes to remote (origin) repository
+2025-09-16 03:38:58.111 INFO     Successfully pushed to remote (origin): New-Version-GovernmentOfThePRC.GuangdongProvince.YueZhengYi-3.1.200.141-1757965078
+2025-09-16 03:39:04.513 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/293186
+2025-09-16 03:39:04.516 INFO All manifests have been modified and pushed through.
+2025-09-16 03:39:14.885 INFO Workspace clean-up completed.
+~~ End of logging ~~
