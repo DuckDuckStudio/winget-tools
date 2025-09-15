@@ -1,0 +1,26 @@
+~~ Start logging ~~
+2025-09-15 18:31:40.564 FUN 上抄网抄它啊
+2025-09-15 18:31:40.568 INFO Found the following version folder: ['3.0.0']
+2025-09-15 18:31:40.570 INFO Processing version folder: 3.0.0
+2025-09-15 18:31:40.571 INFO   Create and checkout to a new branch: New-Version-GIMP.Help.3-3.0.0-1757932300
+2025-09-15 18:32:19.581 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GIMP\Help\3\3.0.0\GIMP.Help.3.installer.yaml
+2025-09-15 18:32:19.587 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\GIMP\Help\3\3.0.0\GIMP.Help.3.installer.yaml
+2025-09-15 18:32:19.967 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GIMP\Help\3\3.0.0\GIMP.Help.3.locale.en-US.yaml
+2025-09-15 18:32:19.979 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\GIMP\Help\3\3.0.0\GIMP.Help.3.locale.en-US.yaml
+2025-09-15 18:32:20.429 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GIMP\Help\3\3.0.0\GIMP.Help.3.locale.zh-CN.yaml
+2025-09-15 18:32:20.437 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\GIMP\Help\3\3.0.0\GIMP.Help.3.locale.zh-CN.yaml
+2025-09-15 18:32:20.903 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GIMP\Help\3\3.0.0\GIMP.Help.3.yaml
+2025-09-15 18:32:20.920 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\GIMP\Help\3\3.0.0\GIMP.Help.3.yaml
+2025-09-15 18:32:21.366 INFO   New manifests in D:\...\winget-pkgs\manifests\g\GIMP\Help\3\3.0.0 for GIMP.Help.3 (3.0.0)
+2025-09-15 18:34:57.630 INFO     清单具有以下未验证的依赖项;确保它们有效：
+2025-09-15 18:34:57.632 INFO       - 程序包
+2025-09-15 18:34:57.634 INFO           GIMP.GIMP.3
+2025-09-15 18:34:57.635 INFO     清单验证成功。
+2025-09-15 18:34:57.643 INFO   Staging and Committing Changes to Git
+2025-09-15 18:35:09.340 INFO     Commit message: New version: GIMP.Help.3 version 3.0.0 (Auto)
+2025-09-15 18:35:09.342 INFO   Pushing changes to remote (origin) repository
+2025-09-15 18:35:14.212 INFO     Successfully pushed to remote (origin): New-Version-GIMP.Help.3-3.0.0-1757932300
+2025-09-15 18:35:17.310 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/293078
+2025-09-15 18:35:17.312 INFO All manifests have been modified and pushed through.
+2025-09-15 18:35:28.760 INFO Workspace clean-up completed.
+~~ End of logging ~~
