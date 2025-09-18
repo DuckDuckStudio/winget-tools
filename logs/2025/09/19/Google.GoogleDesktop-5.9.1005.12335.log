@@ -1,0 +1,27 @@
+~~ Start logging ~~
+2025-09-19 01:08:08.801 FUN Wakayama-Airport
+2025-09-19 01:08:08.804 INFO Found the following version folder: ['5.9.1005.12335']
+2025-09-19 01:08:08.805 INFO Processing version folder: 5.9.1005.12335
+2025-09-19 01:08:08.806 INFO   Create and checkout to a new branch: Modify-S-Google.GoogleDesktop-5.9.1005.12335-1758215288
+2025-09-19 01:08:24.987 INFO   Processing of manifest: d:\duckhome\projects\msvs\source\repos\winget-pkgs\manifests\g\Google\GoogleDesktop\5.9.1005.12335\Google.GoogleDesktop.installer.yaml
+2025-09-19 01:08:24.989 INFO     检测到 d:\duckhome\projects\msvs\source\repos\winget-pkgs\manifests\g\Google\GoogleDesktop\5.9.1005.12335\Google.GoogleDesktop.installer.yaml 中含有不安全的 URL (HTTP)，自动替换为安全的 URL (HTTPS)
+2025-09-19 01:08:25.109 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-09-19 01:08:25.235 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-09-19 01:08:25.389 INFO     The manifest file has been saved as: d:\duckhome\projects\msvs\source\repos\winget-pkgs\manifests\g\Google\GoogleDesktop\5.9.1005.12335\Google.GoogleDesktop.installer.yaml
+2025-09-19 01:08:25.176 INFO   Processing of manifest: d:\duckhome\projects\msvs\source\repos\winget-pkgs\manifests\g\Google\GoogleDesktop\5.9.1005.12335\Google.GoogleDesktop.locale.en-US.yaml
+2025-09-19 01:08:25.178 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-09-19 01:08:25.180 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-09-19 01:08:25.182 INFO     The manifest file has been saved as: d:\duckhome\projects\msvs\source\repos\winget-pkgs\manifests\g\Google\GoogleDesktop\5.9.1005.12335\Google.GoogleDesktop.locale.en-US.yaml
+2025-09-19 01:08:25.294 INFO   Processing of manifest: d:\duckhome\projects\msvs\source\repos\winget-pkgs\manifests\g\Google\GoogleDesktop\5.9.1005.12335\Google.GoogleDesktop.yaml
+2025-09-19 01:08:25.297 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
+2025-09-19 01:08:25.298 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
+2025-09-19 01:08:25.301 INFO     The manifest file has been saved as: d:\duckhome\projects\msvs\source\repos\winget-pkgs\manifests\g\Google\GoogleDesktop\5.9.1005.12335\Google.GoogleDesktop.yaml
+2025-09-19 01:09:26.616 INFO     清单验证成功。
+2025-09-19 01:09:26.627 INFO   Staging and Committing Changes to Git
+2025-09-19 01:09:35.569 INFO     Commit message: Modify: Google.GoogleDesktop version 5.9.1005.12335 (Auto)
+2025-09-19 01:09:35.588 INFO   Pushing changes to remote (origin) repository
+2025-09-19 01:09:40.424 INFO     Successfully pushed to remote (origin): Modify-S-Google.GoogleDesktop-5.9.1005.12335-1758215288
+2025-09-19 01:09:43.339 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/294731
+2025-09-19 01:09:43.342 INFO All manifests have been modified and pushed through.
+2025-09-19 01:09:50.994 INFO Workspace clean-up completed.
+~~ End of logging ~~
