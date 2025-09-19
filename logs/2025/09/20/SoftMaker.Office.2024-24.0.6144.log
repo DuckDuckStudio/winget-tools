@@ -1,0 +1,21 @@
+~~ Start logging ~~
+2025-09-20 05:17:20.704 FUN 【一二三四五六七八，二二三四五六七八，三二三四五六七八...】https://www.bilibili.com/video/BV1zP4y1G7RR/
+2025-09-20 05:17:20.711 INFO Found the following version folder: ['24.0.6134', '24.0.6144']
+2025-09-20 05:17:20.714 INFO Skip version 24.0.6134, because it's not in the list of versions to be modified.
+2025-09-20 05:17:20.716 INFO Processing version folder: 24.0.6144
+2025-09-20 05:17:20.719 INFO   Create and checkout to a new branch: Modify-S-SoftMaker.Office.2024-24.0.6144-1758316640
+2025-09-20 05:17:37.460 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\s\SoftMaker\Office\2024\24.0.6144\SoftMaker.Office.2024.installer.yaml
+2025-09-20 05:17:37.464 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\s\SoftMaker\Office\2024\24.0.6144\SoftMaker.Office.2024.installer.yaml
+2025-09-20 05:17:37.693 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\s\SoftMaker\Office\2024\24.0.6144\SoftMaker.Office.2024.locale.en-US.yaml
+2025-09-20 05:17:37.878 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\s\SoftMaker\Office\2024\24.0.6144\SoftMaker.Office.2024.locale.en-US.yaml
+2025-09-20 05:17:38.144 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\s\SoftMaker\Office\2024\24.0.6144\SoftMaker.Office.2024.yaml
+2025-09-20 05:17:38.185 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\s\SoftMaker\Office\2024\24.0.6144\SoftMaker.Office.2024.yaml
+2025-09-20 05:21:04.763 INFO     清单验证成功。
+2025-09-20 05:21:04.781 INFO   Staging and Committing Changes to Git
+2025-09-20 05:21:15.312 INFO     Commit message: Modify: SoftMaker.Office.2024 version 24.0.6144 (Auto)
+2025-09-20 05:21:15.314 INFO   Pushing changes to remote (origin) repository
+2025-09-20 05:21:21.272 INFO     Successfully pushed to remote (origin): Modify-S-SoftMaker.Office.2024-24.0.6144-1758316640
+2025-09-20 05:21:25.153 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/295303
+2025-09-20 05:21:25.156 INFO All manifests have been modified and pushed through.
+2025-09-20 05:21:34.804 INFO Workspace clean-up completed.
+~~ End of logging ~~
