@@ -1,0 +1,28 @@
+~~ Start logging ~~
+2025-09-20 10:45:34.366 FUN Σ(¯□¯||)!!
+2025-09-20 10:45:34.395 INFO Found the following version folder: ['1.14']
+2025-09-20 10:45:34.408 INFO Processing version folder: 1.14
+2025-09-20 10:45:34.420 INFO   Create and checkout to a new branch: Modify-S-UZ7HO.SoundModem-1.14-1758336334
+2025-09-20 10:45:56.820 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\u\UZ7HO\SoundModem\1.14\UZ7HO.SoundModem.installer.yaml
+2025-09-20 10:45:56.872 INFO     检测到 D:\...\winget-pkgs\manifests\u\UZ7HO\SoundModem\1.14\UZ7HO.SoundModem.installer.yaml 中含有不安全的 URL (HTTP)，自动替换为安全的 URL (HTTPS)
+2025-09-20 10:45:56.882 INFO     Replace ManifestVersion: 1.5.0 -> 1.10.0
+2025-09-20 10:45:56.886 INFO     Replace schema references: 1.5.0.schema.json -> 1.10.0.schema.json
+2025-09-20 10:45:56.890 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\u\UZ7HO\SoundModem\1.14\UZ7HO.SoundModem.installer.yaml
+2025-09-20 10:45:57.385 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\u\UZ7HO\SoundModem\1.14\UZ7HO.SoundModem.locale.en-US.yaml
+2025-09-20 10:45:57.388 INFO     检测到 D:\...\winget-pkgs\manifests\u\UZ7HO\SoundModem\1.14\UZ7HO.SoundModem.locale.en-US.yaml 中含有不安全的 URL (HTTP)，自动替换为安全的 URL (HTTPS)
+2025-09-20 10:45:57.394 INFO     Replace ManifestVersion: 1.5.0 -> 1.10.0
+2025-09-20 10:45:57.397 INFO     Replace schema references: 1.5.0.schema.json -> 1.10.0.schema.json
+2025-09-20 10:45:57.400 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\u\UZ7HO\SoundModem\1.14\UZ7HO.SoundModem.locale.en-US.yaml
+2025-09-20 10:45:57.636 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\u\UZ7HO\SoundModem\1.14\UZ7HO.SoundModem.yaml
+2025-09-20 10:45:57.652 INFO     Replace ManifestVersion: 1.5.0 -> 1.10.0
+2025-09-20 10:45:57.655 INFO     Replace schema references: 1.5.0.schema.json -> 1.10.0.schema.json
+2025-09-20 10:45:57.662 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\u\UZ7HO\SoundModem\1.14\UZ7HO.SoundModem.yaml
+2025-09-20 10:49:20.256 INFO     清单验证成功。
+2025-09-20 10:49:20.267 INFO   Staging and Committing Changes to Git
+2025-09-20 10:49:29.970 INFO     Commit message: Modify: UZ7HO.SoundModem version 1.14 (Auto)
+2025-09-20 10:49:29.972 INFO   Pushing changes to remote (origin) repository
+2025-09-20 10:49:36.201 INFO     Successfully pushed to remote (origin): Modify-S-UZ7HO.SoundModem-1.14-1758336334
+2025-09-20 10:49:40.108 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/295383
+2025-09-20 10:49:40.111 INFO All manifests have been modified and pushed through.
+2025-09-20 10:49:57.621 INFO Workspace clean-up completed.
+~~ End of logging ~~
