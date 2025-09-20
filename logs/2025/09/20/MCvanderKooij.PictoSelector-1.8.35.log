@@ -1,0 +1,21 @@
+~~ Start logging ~~
+2025-09-20 09:54:05.839 FUN 蚂蚂-蚂蚂-蚂蚂-蚂蚂~
+2025-09-20 09:54:05.839 FUN 蚁蚁-蚁蚁-蚁蚁-蚁蚁~
+2025-09-20 09:54:05.842 INFO Found the following version folder: ['1.8.35']
+2025-09-20 09:54:05.844 INFO Processing version folder: 1.8.35
+2025-09-20 09:54:05.845 INFO   Create and checkout to a new branch: Modify-S-MCvanderKooij.PictoSelector-1.8.35-1758333245
+2025-09-20 09:54:19.887 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\MCvanderKooij\PictoSelector\1.8.35\MCvanderKooij.PictoSelector.installer.yaml
+2025-09-20 09:54:19.901 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\MCvanderKooij\PictoSelector\1.8.35\MCvanderKooij.PictoSelector.installer.yaml
+2025-09-20 09:54:20.177 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\MCvanderKooij\PictoSelector\1.8.35\MCvanderKooij.PictoSelector.locale.en-US.yaml
+2025-09-20 09:54:20.182 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\MCvanderKooij\PictoSelector\1.8.35\MCvanderKooij.PictoSelector.locale.en-US.yaml
+2025-09-20 09:54:21.269 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\MCvanderKooij\PictoSelector\1.8.35\MCvanderKooij.PictoSelector.yaml
+2025-09-20 09:54:21.291 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\MCvanderKooij\PictoSelector\1.8.35\MCvanderKooij.PictoSelector.yaml
+2025-09-20 09:55:29.603 INFO     清单验证成功。
+2025-09-20 09:55:29.624 INFO   Staging and Committing Changes to Git
+2025-09-20 09:55:59.666 INFO     Commit message: Modify: MCvanderKooij.PictoSelector version 1.8.35 (Auto)
+2025-09-20 09:55:59.668 INFO   Pushing changes to remote (origin) repository
+2025-09-20 09:56:04.393 INFO     Successfully pushed to remote (origin): Modify-S-MCvanderKooij.PictoSelector-1.8.35-1758333245
+2025-09-20 09:56:07.708 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/295365
+2025-09-20 09:56:07.726 INFO All manifests have been modified and pushed through.
+2025-09-20 09:56:16.556 INFO Workspace clean-up completed.
+~~ End of logging ~~
