@@ -1,0 +1,51 @@
+~~ Start logging ~~
+2025-09-23 01:32:33.660 FUN 我喜欢你。
+2025-09-23 01:32:33.669 INFO Found the following version folder: ['2023.9.2', '2024.3.1', '2024.4.0', '2024.4.1', '2024.5.0', '2024.5.1', '2025.1.0', '2025.10.0', '2025.10.1', '2025.11.0', '2025.12.0', '2025.12.1', '2025.13.0', '2025.14.0', '2025.15.0', '2025.15.1', '2025.16.0', '2025.2.0', '2025.3.0', '2025.4.0', '2025.5.0', '2025.5.1', '2025.6.0', '2025.7.0', '2025.8.0', '2025.9.0']
+2025-09-23 01:32:33.671 INFO Skip version 2023.9.2, because it's not in the list of versions to be modified.
+2025-09-23 01:32:33.682 INFO Skip version 2024.3.1, because it's not in the list of versions to be modified.
+2025-09-23 01:32:33.683 INFO Processing version folder: 2024.4.0
+2025-09-23 01:32:33.684 INFO   Create and checkout to a new branch: Modify-S-3TSoftwareLabs.Studio3T-2024.4.0-1758562353
+2025-09-23 01:32:57.196 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\3\3TSoftwareLabs\Studio3T\2024.4.0\3TSoftwareLabs.Studio3T.installer.yaml
+2025-09-23 01:32:57.209 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-09-23 01:32:57.210 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-09-23 01:32:57.212 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\3\3TSoftwareLabs\Studio3T\2024.4.0\3TSoftwareLabs.Studio3T.installer.yaml
+2025-09-23 01:32:57.396 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\3\3TSoftwareLabs\Studio3T\2024.4.0\3TSoftwareLabs.Studio3T.locale.en-US.yaml
+2025-09-23 01:32:57.399 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-09-23 01:32:57.400 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-09-23 01:32:57.403 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\3\3TSoftwareLabs\Studio3T\2024.4.0\3TSoftwareLabs.Studio3T.locale.en-US.yaml
+2025-09-23 01:32:57.519 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\3\3TSoftwareLabs\Studio3T\2024.4.0\3TSoftwareLabs.Studio3T.yaml
+2025-09-23 01:32:57.521 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-09-23 01:32:57.523 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-09-23 01:32:57.525 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\3\3TSoftwareLabs\Studio3T\2024.4.0\3TSoftwareLabs.Studio3T.yaml
+2025-09-23 01:33:39.439 INFO     清单验证成功。
+2025-09-23 01:33:39.458 INFO   Staging and Committing Changes to Git
+2025-09-23 01:33:46.962 INFO     Commit message: Modify: 3TSoftwareLabs.Studio3T version 2024.4.0 (Auto)
+2025-09-23 01:33:46.964 INFO   Pushing changes to remote (origin) repository
+2025-09-23 01:33:51.842 INFO     Successfully pushed to remote (origin): Modify-S-3TSoftwareLabs.Studio3T-2024.4.0-1758562353
+2025-09-23 01:33:54.452 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/296049
+2025-09-23 01:33:54.454 INFO Skip version 2024.4.1, because it's not in the list of versions to be modified.
+2025-09-23 01:33:54.455 INFO Skip version 2024.5.0, because it's not in the list of versions to be modified.
+2025-09-23 01:33:54.457 INFO Skip version 2024.5.1, because it's not in the list of versions to be modified.
+2025-09-23 01:33:54.458 INFO Skip version 2025.1.0, because it's not in the list of versions to be modified.
+2025-09-23 01:33:54.459 INFO Skip version 2025.10.0, because it's not in the list of versions to be modified.
+2025-09-23 01:33:54.460 INFO Skip version 2025.10.1, because it's not in the list of versions to be modified.
+2025-09-23 01:33:54.461 INFO Skip version 2025.11.0, because it's not in the list of versions to be modified.
+2025-09-23 01:33:54.461 INFO Skip version 2025.12.0, because it's not in the list of versions to be modified.
+2025-09-23 01:33:54.462 INFO Skip version 2025.12.1, because it's not in the list of versions to be modified.
+2025-09-23 01:33:54.463 INFO Skip version 2025.13.0, because it's not in the list of versions to be modified.
+2025-09-23 01:33:54.464 INFO Skip version 2025.14.0, because it's not in the list of versions to be modified.
+2025-09-23 01:33:54.466 INFO Skip version 2025.15.0, because it's not in the list of versions to be modified.
+2025-09-23 01:33:54.467 INFO Skip version 2025.15.1, because it's not in the list of versions to be modified.
+2025-09-23 01:33:54.468 INFO Skip version 2025.16.0, because it's not in the list of versions to be modified.
+2025-09-23 01:33:54.469 INFO Skip version 2025.2.0, because it's not in the list of versions to be modified.
+2025-09-23 01:33:54.470 INFO Skip version 2025.3.0, because it's not in the list of versions to be modified.
+2025-09-23 01:33:54.471 INFO Skip version 2025.4.0, because it's not in the list of versions to be modified.
+2025-09-23 01:33:54.472 INFO Skip version 2025.5.0, because it's not in the list of versions to be modified.
+2025-09-23 01:33:54.473 INFO Skip version 2025.5.1, because it's not in the list of versions to be modified.
+2025-09-23 01:33:54.474 INFO Skip version 2025.6.0, because it's not in the list of versions to be modified.
+2025-09-23 01:33:54.475 INFO Skip version 2025.7.0, because it's not in the list of versions to be modified.
+2025-09-23 01:33:54.476 INFO Skip version 2025.8.0, because it's not in the list of versions to be modified.
+2025-09-23 01:33:54.477 INFO Skip version 2025.9.0, because it's not in the list of versions to be modified.
+2025-09-23 01:33:54.478 INFO All manifests have been modified and pushed through.
+2025-09-23 01:34:00.725 INFO Workspace clean-up completed.
+~~ End of logging ~~
