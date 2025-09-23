@@ -1,0 +1,25 @@
+~~ Start logging ~~
+2025-09-23 07:54:18.119 FUN 一勺料汁~
+2025-09-23 07:54:18.120 INFO Trying to generate new manifests for w1hjk.fldigi 4.2.09 with urls ['https://www.w1hkj.org/files/fldigi/fldigi-4.2.09_setup.exe']...
+2025-09-23 07:55:54.441 INFO The manifest was successfully generated.
+2025-09-23 07:55:54.449 INFO Found the following version folder: ['4.2.06', '4.2.07', '4.2.09']
+2025-09-23 07:55:54.452 INFO Skip version 4.2.06, because it's not in the list of versions to be modified.
+2025-09-23 07:55:54.455 INFO Skip version 4.2.07, because it's not in the list of versions to be modified.
+2025-09-23 07:55:54.457 INFO Processing version folder: 4.2.09
+2025-09-23 07:55:54.460 INFO   Create and checkout to a new branch: New-Version-w1hjk.fldigi-4.2.09-1758585354
+2025-09-23 07:56:28.766 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\w\w1hjk\fldigi\4.2.09\w1hjk.fldigi.installer.yaml
+2025-09-23 07:56:28.769 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\w\w1hjk\fldigi\4.2.09\w1hjk.fldigi.installer.yaml
+2025-09-23 07:56:29.126 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\w\w1hjk\fldigi\4.2.09\w1hjk.fldigi.locale.en-US.yaml
+2025-09-23 07:56:29.131 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\w\w1hjk\fldigi\4.2.09\w1hjk.fldigi.locale.en-US.yaml
+2025-09-23 07:56:29.453 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\w\w1hjk\fldigi\4.2.09\w1hjk.fldigi.yaml
+2025-09-23 07:56:29.457 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\w\w1hjk\fldigi\4.2.09\w1hjk.fldigi.yaml
+2025-09-23 07:56:29.727 INFO   New manifests in D:\...\winget-pkgs\manifests\w\w1hjk\fldigi\4.2.09 for w1hjk.fldigi (4.2.09)
+2025-09-23 08:11:10.504 INFO     清单验证成功。
+2025-09-23 08:11:10.698 INFO   Staging and Committing Changes to Git
+2025-09-23 08:11:41.173 INFO     Commit message: New version: w1hjk.fldigi version 4.2.09 (Auto)
+2025-09-23 08:11:41.176 INFO   Pushing changes to remote (origin) repository
+2025-09-23 08:11:51.604 INFO     Successfully pushed to remote (origin): New-Version-w1hjk.fldigi-4.2.09-1758585354
+2025-09-23 08:12:05.766 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/296151
+2025-09-23 08:12:05.767 INFO All manifests have been modified and pushed through.
+2025-09-23 08:12:21.115 INFO Workspace clean-up completed.
+~~ End of logging ~~
