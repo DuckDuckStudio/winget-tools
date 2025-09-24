@@ -1,0 +1,25 @@
+~~ Start logging ~~
+2025-09-25 02:14:09.532 FUN 啾咪
+2025-09-25 02:14:09.535 INFO Found the following version folder: ['5.5.0', '5.6.0', '5.7.0']
+2025-09-25 02:14:09.536 INFO Processing version folder: 5.5.0
+2025-09-25 02:14:09.538 INFO   Create and checkout to a new branch: New-Version-Archi.Archi-5.5.0-1758737649
+2025-09-25 02:14:23.763 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Archi\Archi\5.5.0\Archi.Archi.installer.yaml
+2025-09-25 02:14:23.767 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Archi\Archi\5.5.0\Archi.Archi.installer.yaml
+2025-09-25 02:14:24.417 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Archi\Archi\5.5.0\Archi.Archi.locale.en-US.yaml
+2025-09-25 02:14:24.469 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Archi\Archi\5.5.0\Archi.Archi.locale.en-US.yaml
+2025-09-25 02:14:24.184 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Archi\Archi\5.5.0\Archi.Archi.locale.zh-CN.yaml
+2025-09-25 02:14:24.188 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Archi\Archi\5.5.0\Archi.Archi.locale.zh-CN.yaml
+2025-09-25 02:14:24.320 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Archi\Archi\5.5.0\Archi.Archi.yaml
+2025-09-25 02:14:24.323 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Archi\Archi\5.5.0\Archi.Archi.yaml
+2025-09-25 02:14:24.470 INFO   New manifests in D:\...\winget-pkgs\manifests\a\Archi\Archi\5.5.0 for Archi.Archi (5.5.0)
+2025-09-25 02:14:35.192 INFO     清单验证成功。
+2025-09-25 02:14:35.329 INFO   Staging and Committing Changes to Git
+2025-09-25 02:14:44.128 INFO     Commit message: New version: Archi.Archi version 5.5.0 (Auto)
+2025-09-25 02:14:44.129 INFO   Pushing changes to remote (origin) repository
+2025-09-25 02:14:49.124 INFO     Successfully pushed to remote (origin): New-Version-Archi.Archi-5.5.0-1758737649
+2025-09-25 02:14:52.183 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/296894
+2025-09-25 02:14:52.186 INFO Skip version 5.6.0, because it's not in the list of versions to be modified.
+2025-09-25 02:14:52.189 INFO Skip version 5.7.0, because it's not in the list of versions to be modified.
+2025-09-25 02:14:52.192 INFO All manifests have been modified and pushed through.
+2025-09-25 02:15:00.300 INFO Workspace clean-up completed.
+~~ End of logging ~~
