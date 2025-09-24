@@ -1,0 +1,23 @@
+~~ Start logging ~~
+2025-09-25 01:56:41.871 FUN 噫！我中了！
+2025-09-25 01:56:41.873 INFO Found the following version folder: ['5.6.0', '5.7.0']
+2025-09-25 01:56:41.874 INFO Processing version folder: 5.6.0
+2025-09-25 01:56:41.876 INFO   Create and checkout to a new branch: Modify-S-Archi.Archi-5.6.0-1758736601
+2025-09-25 01:56:55.970 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Archi\Archi\5.6.0\Archi.Archi.installer.yaml
+2025-09-25 01:56:55.974 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Archi\Archi\5.6.0\Archi.Archi.installer.yaml
+2025-09-25 01:56:56.238 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Archi\Archi\5.6.0\Archi.Archi.locale.en-US.yaml
+2025-09-25 01:56:56.245 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Archi\Archi\5.6.0\Archi.Archi.locale.en-US.yaml
+2025-09-25 01:56:56.385 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Archi\Archi\5.6.0\Archi.Archi.locale.zh-CN.yaml
+2025-09-25 01:56:56.389 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Archi\Archi\5.6.0\Archi.Archi.locale.zh-CN.yaml
+2025-09-25 01:56:56.513 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\Archi\Archi\5.6.0\Archi.Archi.yaml
+2025-09-25 01:56:56.516 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\Archi\Archi\5.6.0\Archi.Archi.yaml
+2025-09-25 02:00:19.946 INFO     清单验证成功。
+2025-09-25 02:00:19.959 INFO   Staging and Committing Changes to Git
+2025-09-25 02:00:40.232 INFO     Commit message: Modify: Archi.Archi version 5.6.0 (Auto)
+2025-09-25 02:00:40.235 INFO   Pushing changes to remote (origin) repository
+2025-09-25 02:00:45.339 INFO     Successfully pushed to remote (origin): Modify-S-Archi.Archi-5.6.0-1758736601
+2025-09-25 02:00:48.530 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/296890
+2025-09-25 02:00:48.533 INFO Skip version 5.7.0, because it's not in the list of versions to be modified.
+2025-09-25 02:00:48.536 INFO All manifests have been modified and pushed through.
+2025-09-25 02:00:55.374 INFO Workspace clean-up completed.
+~~ End of logging ~~
