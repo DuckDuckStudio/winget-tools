@@ -1,0 +1,31 @@
+~~ Start logging ~~
+2025-09-25 16:46:15.451 FUN o((>ω< ))o
+2025-09-25 16:46:15.476 INFO Found the following version folder: ['0.15.1', '0.15.2', '0.16.0', '0.16.1', '0.16.2', '0.16.4', '0.17.0', '0.17.1', '0.17.2', '0.17.3', '0.18.0', '0.18.1']
+2025-09-25 16:46:15.479 INFO Skip version 0.15.1, because it's not in the list of versions to be modified.
+2025-09-25 16:46:15.480 INFO Skip version 0.15.2, because it's not in the list of versions to be modified.
+2025-09-25 16:46:15.482 INFO Skip version 0.16.0, because it's not in the list of versions to be modified.
+2025-09-25 16:46:15.485 INFO Skip version 0.16.1, because it's not in the list of versions to be modified.
+2025-09-25 16:46:15.486 INFO Skip version 0.16.2, because it's not in the list of versions to be modified.
+2025-09-25 16:46:15.488 INFO Skip version 0.16.4, because it's not in the list of versions to be modified.
+2025-09-25 16:46:15.489 INFO Skip version 0.17.0, because it's not in the list of versions to be modified.
+2025-09-25 16:46:15.493 INFO Skip version 0.17.1, because it's not in the list of versions to be modified.
+2025-09-25 16:46:15.494 INFO Skip version 0.17.2, because it's not in the list of versions to be modified.
+2025-09-25 16:46:15.496 INFO Skip version 0.17.3, because it's not in the list of versions to be modified.
+2025-09-25 16:46:15.498 INFO Skip version 0.18.0, because it's not in the list of versions to be modified.
+2025-09-25 16:46:15.499 INFO Processing version folder: 0.18.1
+2025-09-25 16:46:15.501 INFO   Create and checkout to a new branch: Modify-S-restic.restic-0.18.1-1758789975
+2025-09-25 16:46:56.229 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\r\restic\restic\0.18.1\restic.restic.installer.yaml
+2025-09-25 16:46:56.233 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\r\restic\restic\0.18.1\restic.restic.installer.yaml
+2025-09-25 16:46:56.426 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\r\restic\restic\0.18.1\restic.restic.locale.en-US.yaml
+2025-09-25 16:46:56.431 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\r\restic\restic\0.18.1\restic.restic.locale.en-US.yaml
+2025-09-25 16:46:56.542 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\r\restic\restic\0.18.1\restic.restic.yaml
+2025-09-25 16:46:56.545 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\r\restic\restic\0.18.1\restic.restic.yaml
+2025-09-25 16:48:10.194 INFO     清单验证成功。
+2025-09-25 16:48:10.205 INFO   Staging and Committing Changes to Git
+2025-09-25 16:48:17.560 INFO     Commit message: Modify: restic.restic version 0.18.1 (Auto)
+2025-09-25 16:48:17.562 INFO   Pushing changes to remote (origin) repository
+2025-09-25 16:48:22.475 INFO     Successfully pushed to remote (origin): Modify-S-restic.restic-0.18.1-1758789975
+2025-09-25 16:48:25.647 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/297200
+2025-09-25 16:48:25.650 INFO All manifests have been modified and pushed through.
+2025-09-25 16:48:33.403 INFO Workspace clean-up completed.
+~~ End of logging ~~
