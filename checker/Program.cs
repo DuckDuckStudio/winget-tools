@@ -92,7 +92,6 @@ namespace checker
             Console.WriteLine("[INFO] 正在查找 URL...");
 
             // 先收集所有 URL
-            HashSet<string> urlSet = [];
             foreach (string filePath in Directory.EnumerateFiles(folderPath, "*.yaml", SearchOption.AllDirectories))
             {
                 try
@@ -106,11 +105,7 @@ namespace checker
 
                     foreach (string url in urls)
                     {
-                        // 只添加未出现过的 url
-                        if (urlSet.Add(url) || failureLevel == "详细")
-                        {
-                            allUrls.Add((filePath, url));
-                        }
+                        allUrls.Add((filePath, url));
                     }
                 }
                 catch (Exception e)
