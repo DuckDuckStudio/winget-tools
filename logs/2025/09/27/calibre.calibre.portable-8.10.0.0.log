@@ -1,0 +1,44 @@
+~~ Start logging ~~
+2025-09-27 10:55:29.679 FUN 那我问你，你头顶怎么尖尖的！
+2025-09-27 10:55:29.706 INFO Found the following version folder: ['5.35.0.0', '5.36.0.0', '5.37.0.0', '6.17.0.0', '6.24.0', '6.29.0', '7.0.0.0', '7.1.0.0', '7.18.0', '7.19.0', '7.2.0.0', '7.25.0.0', '7.26.0.0', '7.3.0.0', '8.0.0.0', '8.10.0.0', '8.11.0.0', '8.11.1.0', '8.3.0.0', '8.4.0.0', '8.5.0.0', '8.6.0.0', '8.7.0.0', '8.8.0.0', '8.9.0.0']
+2025-09-27 10:55:29.708 INFO Skip version 5.35.0.0, because it's not in the list of versions to be modified.
+2025-09-27 10:55:29.709 INFO Skip version 5.36.0.0, because it's not in the list of versions to be modified.
+2025-09-27 10:55:29.710 INFO Skip version 5.37.0.0, because it's not in the list of versions to be modified.
+2025-09-27 10:55:29.712 INFO Skip version 6.17.0.0, because it's not in the list of versions to be modified.
+2025-09-27 10:55:29.713 INFO Skip version 6.24.0, because it's not in the list of versions to be modified.
+2025-09-27 10:55:29.714 INFO Skip version 6.29.0, because it's not in the list of versions to be modified.
+2025-09-27 10:55:29.715 INFO Skip version 7.0.0.0, because it's not in the list of versions to be modified.
+2025-09-27 10:55:29.716 INFO Skip version 7.1.0.0, because it's not in the list of versions to be modified.
+2025-09-27 10:55:29.717 INFO Skip version 7.18.0, because it's not in the list of versions to be modified.
+2025-09-27 10:55:29.718 INFO Skip version 7.19.0, because it's not in the list of versions to be modified.
+2025-09-27 10:55:29.719 INFO Skip version 7.2.0.0, because it's not in the list of versions to be modified.
+2025-09-27 10:55:29.721 INFO Skip version 7.25.0.0, because it's not in the list of versions to be modified.
+2025-09-27 10:55:29.723 INFO Skip version 7.26.0.0, because it's not in the list of versions to be modified.
+2025-09-27 10:55:29.724 INFO Skip version 7.3.0.0, because it's not in the list of versions to be modified.
+2025-09-27 10:55:29.725 INFO Skip version 8.0.0.0, because it's not in the list of versions to be modified.
+2025-09-27 10:55:29.727 INFO Processing version folder: 8.10.0.0
+2025-09-27 10:55:29.728 INFO   Create and checkout to a new branch: Modify-S-calibre.calibre.portable-8.10.0.0-1758941729
+2025-09-27 10:56:07.940 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\8.10.0.0\calibre.calibre.portable.installer.yaml
+2025-09-27 10:56:07.943 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\8.10.0.0\calibre.calibre.portable.installer.yaml
+2025-09-27 10:56:08.123 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\8.10.0.0\calibre.calibre.portable.locale.en-US.yaml
+2025-09-27 10:56:08.127 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\8.10.0.0\calibre.calibre.portable.locale.en-US.yaml
+2025-09-27 10:56:08.235 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\8.10.0.0\calibre.calibre.portable.yaml
+2025-09-27 10:56:08.238 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\calibre\calibre\portable\8.10.0.0\calibre.calibre.portable.yaml
+2025-09-27 10:57:10.396 INFO     清单验证成功。
+2025-09-27 10:57:10.409 INFO   Staging and Committing Changes to Git
+2025-09-27 10:57:24.303 INFO     Commit message: Modify: calibre.calibre.portable version 8.10.0.0 (Auto)
+2025-09-27 10:57:24.304 INFO   Pushing changes to remote (origin) repository
+2025-09-27 10:57:29.164 INFO     Successfully pushed to remote (origin): Modify-S-calibre.calibre.portable-8.10.0.0-1758941729
+2025-09-27 10:57:31.959 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/297990
+2025-09-27 10:57:31.962 INFO Skip version 8.11.0.0, because it's not in the list of versions to be modified.
+2025-09-27 10:57:31.964 INFO Skip version 8.11.1.0, because it's not in the list of versions to be modified.
+2025-09-27 10:57:31.965 INFO Skip version 8.3.0.0, because it's not in the list of versions to be modified.
+2025-09-27 10:57:31.967 INFO Skip version 8.4.0.0, because it's not in the list of versions to be modified.
+2025-09-27 10:57:31.968 INFO Skip version 8.5.0.0, because it's not in the list of versions to be modified.
+2025-09-27 10:57:31.970 INFO Skip version 8.6.0.0, because it's not in the list of versions to be modified.
+2025-09-27 10:57:31.971 INFO Skip version 8.7.0.0, because it's not in the list of versions to be modified.
+2025-09-27 10:57:31.973 INFO Skip version 8.8.0.0, because it's not in the list of versions to be modified.
+2025-09-27 10:57:31.974 INFO Skip version 8.9.0.0, because it's not in the list of versions to be modified.
+2025-09-27 10:57:31.976 INFO All manifests have been modified and pushed through.
+2025-09-27 10:57:39.443 INFO Workspace clean-up completed.
+~~ End of logging ~~
