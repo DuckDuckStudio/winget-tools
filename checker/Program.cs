@@ -362,7 +362,8 @@ namespace checker
                     {
                         Console.Write("-");
                         errorMessage = $"\n[Debug] <ManifestFilePath> 中的 {url} 返回了状态码 {(int)response.StatusCode} (Too many requests - 请求过多)";
-                        checkedUrls.TryAdd(url, errorMessage);
+                        // checkedUrls.TryAdd(url, errorMessage);
+                        // 不应存储 429 的结果，因为这可能在后续缓解。
 #if DEBUG
                         WriteErrorMessage(errorMessage, filePath);
 #endif
