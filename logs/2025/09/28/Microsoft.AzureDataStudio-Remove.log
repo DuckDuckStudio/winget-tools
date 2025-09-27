@@ -1,0 +1,1049 @@
+$ sundry autoremove Microsoft.AzureDataStudio
+✓ 找到 Microsoft.AzureDataStudio 版本:
+1.52.0, 1.51.1, 1.51.0, 1.50.0, 1.49.1, 1.49.0, 1.48.1, 1.48.0, 1.45.1, 1.44.1, 1.43.0, 1.41.2, 1.40.1, 1.38.0, 1.36.1, 1.35.1, 1.32.0, 1.31.1, 1.25.1, 1.24.0, 1.22.0, 1.21.0
+
+
+INFO 正在检查 Microsoft.AzureDataStudio 1.52.0 ...
+使用 winget 验证...
+已找到 Azure Data Studio [Microsoft.AzureDataStudio] 版本 1.52.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.microsoft.com/download/6b2bfeac-9c1b-4182-9a2f-ce86ff8cc371/azuredatastudio-windows-user-setup-1.52.0.exe
+  ██████████████████████████████   141 MB /  141 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\Azure Data Studio_1.52.0_User_X64_inno_zh-CN.exe
+✓ 验证 Microsoft.AzureDataStudio 1.52.0 通过！
+
+INFO 正在检查 Microsoft.AzureDataStudio 1.51.1 ...
+使用 winget 验证...
+已找到 Azure Data Studio [Microsoft.AzureDataStudio] 版本 1.51.1
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.microsoft.com/download/380cb128-f316-418f-b60a-963454e34173/azuredatastudio-windows-user-setup-1.51.1.exe
+  ██████████████████████████████   141 MB /  141 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\Azure Data Studio_1.51.1_User_X64_inno_en-US.exe
+✓ 验证 Microsoft.AzureDataStudio 1.51.1 通过！
+
+INFO 正在检查 Microsoft.AzureDataStudio 1.51.0 ...
+使用 winget 验证...
+已找到 Azure Data Studio [Microsoft.AzureDataStudio] 版本 1.51.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.microsoft.com/download/a/2/2/a222c9c8-e699-4719-81e5-073948c89e28/azuredatastudio-windows-user-setup-1.51.0.exe
+  ██████████████████████████████   141 MB /  141 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\Azure Data Studio_1.51.0_User_X64_inno_en-US.exe
+✓ 验证 Microsoft.AzureDataStudio 1.51.0 通过！
+
+INFO 正在检查 Microsoft.AzureDataStudio 1.50.0 ...
+使用 winget 验证...
+已找到 Azure Data Studio [Microsoft.AzureDataStudio] 版本 1.50.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.microsoft.com/download/4/d/b/4dbf3bbc-418c-42db-ae0d-a52135b7d991/azuredatastudio-windows-user-setup-1.50.0.exe
+  ██████████████████████████████   141 MB /  141 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\Azure Data Studio_1.50.0_User_X64_inno_en-US.exe
+✓ 验证 Microsoft.AzureDataStudio 1.50.0 通过！
+
+INFO 正在检查 Microsoft.AzureDataStudio 1.49.1 ...
+使用 winget 验证...
+已找到 Azure Data Studio [Microsoft.AzureDataStudio] 版本 1.49.1
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.microsoft.com/download/7/8/3/783c2037-8607-43c4-a593-0936e965d38b/azuredatastudio-windows-user-setup-1.49.1.exe
+  ██████████████████████████████   134 MB /  134 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\Azure Data Studio_1.49.1_User_X64_inno_en-US.exe
+✓ 验证 Microsoft.AzureDataStudio 1.49.1 通过！
+
+INFO 正在检查 Microsoft.AzureDataStudio 1.49.0 ...
+使用 winget 验证...
+已找到 Azure Data Studio [Microsoft.AzureDataStudio] 版本 1.49.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.microsoft.com/download/5/9/6/59609041-db64-475c-b82a-2b5795b904b7/azuredatastudio-windows-user-setup-1.49.0.exe
+  ██████████████████████████████   134 MB /  134 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\Azure Data Studio_1.49.0_User_X64_inno_en-US.exe
+✓ 验证 Microsoft.AzureDataStudio 1.49.0 通过！
+
+INFO 正在检查 Microsoft.AzureDataStudio 1.48.1 ...
+使用 winget 验证...
+已找到 Azure Data Studio [Microsoft.AzureDataStudio] 版本 1.48.1
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.microsoft.com/download/d/6/f/d6f2673f-5240-4605-8e7d-5b6c49d188e8/azuredatastudio-windows-user-setup-1.48.1.exe
+  ██████████████████████████████   134 MB /  134 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\Azure Data Studio_1.48.1_User_X64_inno_en-US.exe
+✓ 验证 Microsoft.AzureDataStudio 1.48.1 通过！
+
+INFO 正在检查 Microsoft.AzureDataStudio 1.48.0 ...
+使用 winget 验证...
+已找到 Azure Data Studio [Microsoft.AzureDataStudio] 版本 1.48.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://sqlopsbuilds.azureedge.net/stable/4970733324ef8254b7c22a5dc55af7f8a1dea93f/azuredatastudio-windows-user-setup-1.48.0.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://sqlopsbuilds.azureedge.net/stable/4970733324ef8254b7c22a5dc55af7f8a1dea93f/azuredatastudio-windows-user-setup-1.48.0.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/4970733324ef8254b7c22a5dc55af7f8a1dea93f/azuredatastudio-windows-user-setup-1.48.0.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000234A7379450>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+https://sqlopsbuilds.azureedge.net/stable/4970733324ef8254b7c22a5dc55af7f8a1dea93f/azuredatastudio-windows-setup-1.48.0.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/4970733324ef8254b7c22a5dc55af7f8a1dea93f/azuredatastudio-windows-setup-1.48.0.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000234A737A210>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.AzureDataStudio 1.48.0 下载失败！将移除此版本...
+[!] 二次检查 https://download.microsoft.com/download/380cb128-f316-418f-b60a-963454e34173/azuredatastudio-windows-user-setup-1.48.0.exe: 404 b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\n<html xmlns="http://www.w3.org/1999/xhtml">\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>\n<title>404 - File or directory not found.</title>\n<style type="text/css">\n<!--\nbody{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}\nfieldset{padding:0 15px 10px 15px;}\nh1{font-size:2.4em;margin:0;color:#FFF;}\nh2{font-size:1.7em;margin:0;color:#CC0000;}\nh3{font-size:1.2em;margin:10px 0 0 0;color:#000000;}\n#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;\nbackground-color:#555555;}\n#content{margin:0 0 0 2%;position:relative;}\n.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}\n-->\n</style>\n</head>\n<body>\n<div id="header"><h1>404 Not Found</h1></div>\n<div id="content">\n <div class="content-container"><fieldset>\n  <h2>404 - File or directory not found.</h2>\n  <h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>\n </fieldset></div>\n</div>\n</body>\n</html>'
+[!] 二次检查 https://azuredatastudio-update.azurewebsites.net/1.48.0/win32-x64-user/stable: 403 b'<!DOCTYPE html><html><head><title>Web App - Unavailable</title><style type="text/css">html{height:100%;width:100%;}#feature{width:960px;margin:95px auto 0 auto;overflow:auto;}#content{font-family:"Segoe UI";font-weight:normal;font-size:22px;color:#fff;float:left;width:460px;margin-top:68px;margin-left:0px;vertical-align:middle;}#content h1{font-family:"Segoe UI Light";color:#fff;font-weight:normal;font-size:60px;line-height:48pt;width:800px;}p a,p a:visited,p a:active,p a:hover{color:#fff;}</style></head><body bgcolor="#00abec"><div id="feature"><div id="content"><h1 id="unavailable">Error 403 - This web app is stopped.</h1><p id="tryAgain">The web app you have attempted to reach is currently stopped and does not accept any requests. Please try to reload the page or visit it again soon.</p><p id="toAdmin">If you are the web app administrator, please find the common 403 error scenarios and resolution <a href="https://go.microsoft.com/fwlink/?linkid=2095007" target="_blank">here</a>. For further troubleshooting tools and recommendations, please visit <a href="https://portal.azure.com/">Azure Portal</a>.</p></div></div></body></html>'
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+remote: Enumerating objects: 33, done.
+remote: Counting objects: 100% (29/29), done.
+remote: Compressing objects: 100% (20/20), done.
+remote: Total 33 (delta 18), reused 11 (delta 9), pack-reused 4 (from 1)
+Unpacking objects: 100% (33/33), 40.35 KiB | 107.00 KiB/s, done.
+From https://github.com/microsoft/winget-pkgs
+   0d7732d00d6..1ed4f76cfd5  master     -> upstream/master
+  已获取上游修改
+  已获取远程修改
+Successfully rebased and updated refs/heads/master.
+  已变基上游修改
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Bypassed rule violations for refs/heads/master:
+remote:
+remote: - Changes must be made through a pull request.
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+   0d7732d00d6..1ed4f76cfd5  master -> master
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.AzureDataStudio-1.48.0-1759010176'
+  已签出新分支 Remove-Microsoft.AzureDataStudio-1.48.0-1759010176
+  已移除软件包 Microsoft.AzureDataStudio 版本 1.48.0
+[Remove-Microsoft.AzureDataStudio-1.48.0-1759010176 9d569384c61] Remove version: Microsoft.AzureDataStudio version 1.48.0 (Auto)
+ 3 files changed, 74 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.48.0/Microsoft.AzureDataStudio.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.48.0/Microsoft.AzureDataStudio.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.48.0/Microsoft.AzureDataStudio.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 750 bytes | 250.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.AzureDataStudio-1.48.0-1759010176' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.AzureDataStudio-1.48.0-1759010176
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.AzureDataStudio-1.48.0-1759010176 -> Remove-Microsoft.AzureDataStudio-1.48.0-1759010176
+branch 'Remove-Microsoft.AzureDataStudio-1.48.0-1759010176' set up to track 'origin/Remove-Microsoft.AzureDataStudio-1.48.0-1759010176'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298282
+ 成功移除 Microsoft.AzureDataStudio 版本 1.48.0
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.AzureDataStudio-1.48.0-1759010176 (was 9d569384c61).
+工作区清理完成
+
+INFO 正在检查 Microsoft.AzureDataStudio 1.45.1 ...
+使用 winget 验证...
+已找到 Azure Data Studio [Microsoft.AzureDataStudio] 版本 1.45.1
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://sqlopsbuilds.azureedge.net/stable/88c21b1725a3e79440027bdb7b5a55fb036be0e2/azuredatastudio-windows-user-setup-1.45.1.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://sqlopsbuilds.azureedge.net/stable/88c21b1725a3e79440027bdb7b5a55fb036be0e2/azuredatastudio-windows-user-setup-1.45.1.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/88c21b1725a3e79440027bdb7b5a55fb036be0e2/azuredatastudio-windows-user-setup-1.45.1.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000234A7379A90>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+https://sqlopsbuilds.azureedge.net/stable/88c21b1725a3e79440027bdb7b5a55fb036be0e2/azuredatastudio-windows-setup-1.45.1.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/88c21b1725a3e79440027bdb7b5a55fb036be0e2/azuredatastudio-windows-setup-1.45.1.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000234A7379D10>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.AzureDataStudio 1.45.1 下载失败！将移除此版本...
+[!] 二次检查 https://download.microsoft.com/download/380cb128-f316-418f-b60a-963454e34173/azuredatastudio-windows-user-setup-1.45.1.exe: 404 b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\n<html xmlns="http://www.w3.org/1999/xhtml">\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>\n<title>404 - File or directory not found.</title>\n<style type="text/css">\n<!--\nbody{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}\nfieldset{padding:0 15px 10px 15px;}\nh1{font-size:2.4em;margin:0;color:#FFF;}\nh2{font-size:1.7em;margin:0;color:#CC0000;}\nh3{font-size:1.2em;margin:10px 0 0 0;color:#000000;}\n#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;\nbackground-color:#555555;}\n#content{margin:0 0 0 2%;position:relative;}\n.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}\n-->\n</style>\n</head>\n<body>\n<div id="header"><h1>404 Not Found</h1></div>\n<div id="content">\n <div class="content-container"><fieldset>\n  <h2>404 - File or directory not found.</h2>\n  <h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>\n </fieldset></div>\n</div>\n</body>\n</html>'
+✕ 二次检查也许可用的 InstallerUrl 时出现错误: HTTPSConnectionPool(host='azuredatastudio-update.azurewebsites.net', port=443): Max retries exceeded with url: /1.45.1/win32-x64-user/stable (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.AzureDataStudio-1.45.1-1759010252'
+  已签出新分支 Remove-Microsoft.AzureDataStudio-1.45.1-1759010252
+  已移除软件包 Microsoft.AzureDataStudio 版本 1.45.1
+[Remove-Microsoft.AzureDataStudio-1.45.1-1759010252 b49239c8d86] Remove version: Microsoft.AzureDataStudio version 1.45.1 (Auto)
+ 3 files changed, 74 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.45.1/Microsoft.AzureDataStudio.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.45.1/Microsoft.AzureDataStudio.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.45.1/Microsoft.AzureDataStudio.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 752 bytes | 250.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.AzureDataStudio-1.45.1-1759010252' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.AzureDataStudio-1.45.1-1759010252
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.AzureDataStudio-1.45.1-1759010252 -> Remove-Microsoft.AzureDataStudio-1.45.1-1759010252
+branch 'Remove-Microsoft.AzureDataStudio-1.45.1-1759010252' set up to track 'origin/Remove-Microsoft.AzureDataStudio-1.45.1-1759010252'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298283
+ 成功移除 Microsoft.AzureDataStudio 版本 1.45.1
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.AzureDataStudio-1.45.1-1759010252 (was b49239c8d86).
+工作区清理完成
+
+INFO 正在检查 Microsoft.AzureDataStudio 1.44.1 ...
+使用 winget 验证...
+已找到 Azure Data Studio [Microsoft.AzureDataStudio] 版本 1.44.1
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://sqlopsbuilds.azureedge.net/stable/8f53a316fa00a98264f1ab119641cd540b5af25c/azuredatastudio-windows-user-setup-1.44.1.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://sqlopsbuilds.azureedge.net/stable/8f53a316fa00a98264f1ab119641cd540b5af25c/azuredatastudio-windows-user-setup-1.44.1.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/8f53a316fa00a98264f1ab119641cd540b5af25c/azuredatastudio-windows-user-setup-1.44.1.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000234A7379310>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+https://sqlopsbuilds.azureedge.net/stable/8f53a316fa00a98264f1ab119641cd540b5af25c/azuredatastudio-windows-setup-1.44.1.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/8f53a316fa00a98264f1ab119641cd540b5af25c/azuredatastudio-windows-setup-1.44.1.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000234A7378050>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.AzureDataStudio 1.44.1 下载失败！将移除此版本...
+[!] 二次检查 https://download.microsoft.com/download/380cb128-f316-418f-b60a-963454e34173/azuredatastudio-windows-user-setup-1.44.1.exe: 404 b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\n<html xmlns="http://www.w3.org/1999/xhtml">\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>\n<title>404 - File or directory not found.</title>\n<style type="text/css">\n<!--\nbody{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}\nfieldset{padding:0 15px 10px 15px;}\nh1{font-size:2.4em;margin:0;color:#FFF;}\nh2{font-size:1.7em;margin:0;color:#CC0000;}\nh3{font-size:1.2em;margin:10px 0 0 0;color:#000000;}\n#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;\nbackground-color:#555555;}\n#content{margin:0 0 0 2%;position:relative;}\n.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}\n-->\n</style>\n</head>\n<body>\n<div id="header"><h1>404 Not Found</h1></div>\n<div id="content">\n <div class="content-container"><fieldset>\n  <h2>404 - File or directory not found.</h2>\n  <h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>\n </fieldset></div>\n</div>\n</body>\n</html>'
+✕ 二次检查也许可用的 InstallerUrl 时出现错误: HTTPSConnectionPool(host='azuredatastudio-update.azurewebsites.net', port=443): Max retries exceeded with url: /1.44.1/win32-x64-user/stable (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.AzureDataStudio-1.44.1-1759010320'
+  已签出新分支 Remove-Microsoft.AzureDataStudio-1.44.1-1759010320
+  已移除软件包 Microsoft.AzureDataStudio 版本 1.44.1
+[Remove-Microsoft.AzureDataStudio-1.44.1-1759010320 9066e316d31] Remove version: Microsoft.AzureDataStudio version 1.44.1 (Auto)
+ 3 files changed, 76 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.44.1/Microsoft.AzureDataStudio.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.44.1/Microsoft.AzureDataStudio.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.44.1/Microsoft.AzureDataStudio.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 754 bytes | 377.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.AzureDataStudio-1.44.1-1759010320' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.AzureDataStudio-1.44.1-1759010320
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.AzureDataStudio-1.44.1-1759010320 -> Remove-Microsoft.AzureDataStudio-1.44.1-1759010320
+branch 'Remove-Microsoft.AzureDataStudio-1.44.1-1759010320' set up to track 'origin/Remove-Microsoft.AzureDataStudio-1.44.1-1759010320'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298284
+ 成功移除 Microsoft.AzureDataStudio 版本 1.44.1
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.AzureDataStudio-1.44.1-1759010320 (was 9066e316d31).
+工作区清理完成
+
+INFO 正在检查 Microsoft.AzureDataStudio 1.43.0 ...
+使用 winget 验证...
+已找到 Azure Data Studio [Microsoft.AzureDataStudio] 版本 1.43.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://sqlopsbuilds.azureedge.net/stable/b790d700898b1095d83e62f0de14678a58222520/azuredatastudio-windows-user-setup-1.43.0.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://sqlopsbuilds.azureedge.net/stable/b790d700898b1095d83e62f0de14678a58222520/azuredatastudio-windows-user-setup-1.43.0.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/b790d700898b1095d83e62f0de14678a58222520/azuredatastudio-windows-user-setup-1.43.0.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000234A7379D10>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+https://sqlopsbuilds.azureedge.net/stable/b790d700898b1095d83e62f0de14678a58222520/azuredatastudio-windows-setup-1.43.0.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/b790d700898b1095d83e62f0de14678a58222520/azuredatastudio-windows-setup-1.43.0.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000234A7379A90>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.AzureDataStudio 1.43.0 下载失败！将移除此版本...
+[!] 二次检查 https://download.microsoft.com/download/380cb128-f316-418f-b60a-963454e34173/azuredatastudio-windows-user-setup-1.43.0.exe: 404 b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\n<html xmlns="http://www.w3.org/1999/xhtml">\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>\n<title>404 - File or directory not found.</title>\n<style type="text/css">\n<!--\nbody{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}\nfieldset{padding:0 15px 10px 15px;}\nh1{font-size:2.4em;margin:0;color:#FFF;}\nh2{font-size:1.7em;margin:0;color:#CC0000;}\nh3{font-size:1.2em;margin:10px 0 0 0;color:#000000;}\n#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;\nbackground-color:#555555;}\n#content{margin:0 0 0 2%;position:relative;}\n.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}\n-->\n</style>\n</head>\n<body>\n<div id="header"><h1>404 Not Found</h1></div>\n<div id="content">\n <div class="content-container"><fieldset>\n  <h2>404 - File or directory not found.</h2>\n  <h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>\n </fieldset></div>\n</div>\n</body>\n</html>'
+✕ 二次检查也许可用的 InstallerUrl 时出现错误: HTTPSConnectionPool(host='azuredatastudio-update.azurewebsites.net', port=443): Max retries exceeded with url: /1.43.0/win32-x64-user/stable (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.AzureDataStudio-1.43.0-1759010390'
+  已签出新分支 Remove-Microsoft.AzureDataStudio-1.43.0-1759010390
+  已移除软件包 Microsoft.AzureDataStudio 版本 1.43.0
+[Remove-Microsoft.AzureDataStudio-1.43.0-1759010390 225417d2f66] Remove version: Microsoft.AzureDataStudio version 1.43.0 (Auto)
+ 3 files changed, 76 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.43.0/Microsoft.AzureDataStudio.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.43.0/Microsoft.AzureDataStudio.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.43.0/Microsoft.AzureDataStudio.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 757 bytes | 378.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.AzureDataStudio-1.43.0-1759010390' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.AzureDataStudio-1.43.0-1759010390
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.AzureDataStudio-1.43.0-1759010390 -> Remove-Microsoft.AzureDataStudio-1.43.0-1759010390
+branch 'Remove-Microsoft.AzureDataStudio-1.43.0-1759010390' set up to track 'origin/Remove-Microsoft.AzureDataStudio-1.43.0-1759010390'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298285
+ 成功移除 Microsoft.AzureDataStudio 版本 1.43.0
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.AzureDataStudio-1.43.0-1759010390 (was 225417d2f66).
+工作区清理完成
+
+INFO 正在检查 Microsoft.AzureDataStudio 1.41.2 ...
+使用 winget 验证...
+已找到 Azure Data Studio [Microsoft.AzureDataStudio] 版本 1.41.2
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://sqlopsbuilds.azureedge.net/stable/0f0960d0e774e1ce903b79378addff96117c27a6/azuredatastudio-windows-user-setup-1.41.2.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://sqlopsbuilds.azureedge.net/stable/0f0960d0e774e1ce903b79378addff96117c27a6/azuredatastudio-windows-user-setup-1.41.2.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/0f0960d0e774e1ce903b79378addff96117c27a6/azuredatastudio-windows-user-setup-1.41.2.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000234A7378910>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+https://sqlopsbuilds.azureedge.net/stable/0f0960d0e774e1ce903b79378addff96117c27a6/azuredatastudio-windows-setup-1.41.2.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/0f0960d0e774e1ce903b79378addff96117c27a6/azuredatastudio-windows-setup-1.41.2.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000234A737BB10>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.AzureDataStudio 1.41.2 下载失败！将移除此版本...
+[!] 二次检查 https://download.microsoft.com/download/380cb128-f316-418f-b60a-963454e34173/azuredatastudio-windows-user-setup-1.41.2.exe: 404 b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\n<html xmlns="http://www.w3.org/1999/xhtml">\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>\n<title>404 - File or directory not found.</title>\n<style type="text/css">\n<!--\nbody{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}\nfieldset{padding:0 15px 10px 15px;}\nh1{font-size:2.4em;margin:0;color:#FFF;}\nh2{font-size:1.7em;margin:0;color:#CC0000;}\nh3{font-size:1.2em;margin:10px 0 0 0;color:#000000;}\n#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;\nbackground-color:#555555;}\n#content{margin:0 0 0 2%;position:relative;}\n.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}\n-->\n</style>\n</head>\n<body>\n<div id="header"><h1>404 Not Found</h1></div>\n<div id="content">\n <div class="content-container"><fieldset>\n  <h2>404 - File or directory not found.</h2>\n  <h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>\n </fieldset></div>\n</div>\n</body>\n</html>'
+✕ 二次检查也许可用的 InstallerUrl 时出现错误: HTTPSConnectionPool(host='azuredatastudio-update.azurewebsites.net', port=443): Max retries exceeded with url: /1.41.2/win32-x64-user/stable (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.AzureDataStudio-1.41.2-1759010465'
+  已签出新分支 Remove-Microsoft.AzureDataStudio-1.41.2-1759010465
+  已移除软件包 Microsoft.AzureDataStudio 版本 1.41.2
+[Remove-Microsoft.AzureDataStudio-1.41.2-1759010465 356c5690d42] Remove version: Microsoft.AzureDataStudio version 1.41.2 (Auto)
+ 3 files changed, 76 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.41.2/Microsoft.AzureDataStudio.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.41.2/Microsoft.AzureDataStudio.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.41.2/Microsoft.AzureDataStudio.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 752 bytes | 250.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.AzureDataStudio-1.41.2-1759010465' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.AzureDataStudio-1.41.2-1759010465
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.AzureDataStudio-1.41.2-1759010465 -> Remove-Microsoft.AzureDataStudio-1.41.2-1759010465
+branch 'Remove-Microsoft.AzureDataStudio-1.41.2-1759010465' set up to track 'origin/Remove-Microsoft.AzureDataStudio-1.41.2-1759010465'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298286
+ 成功移除 Microsoft.AzureDataStudio 版本 1.41.2
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.AzureDataStudio-1.41.2-1759010465 (was 356c5690d42).
+工作区清理完成
+
+INFO 正在检查 Microsoft.AzureDataStudio 1.40.1 ...
+使用 winget 验证...
+已找到 Azure Data Studio [Microsoft.AzureDataStudio] 版本 1.40.1
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://sqlopsbuilds.azureedge.net/stable/3a32679ab590c1023ab4de6f191769e7e127d25b/azuredatastudio-windows-user-setup-1.40.1.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://sqlopsbuilds.azureedge.net/stable/3a32679ab590c1023ab4de6f191769e7e127d25b/azuredatastudio-windows-user-setup-1.40.1.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/3a32679ab590c1023ab4de6f191769e7e127d25b/azuredatastudio-windows-user-setup-1.40.1.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000234A737BC50>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+https://sqlopsbuilds.azureedge.net/stable/3a32679ab590c1023ab4de6f191769e7e127d25b/azuredatastudio-windows-setup-1.40.1.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/3a32679ab590c1023ab4de6f191769e7e127d25b/azuredatastudio-windows-setup-1.40.1.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000234A7378690>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.AzureDataStudio 1.40.1 下载失败！将移除此版本...
+[!] 二次检查 https://download.microsoft.com/download/380cb128-f316-418f-b60a-963454e34173/azuredatastudio-windows-user-setup-1.40.1.exe: 404 b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\n<html xmlns="http://www.w3.org/1999/xhtml">\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>\n<title>404 - File or directory not found.</title>\n<style type="text/css">\n<!--\nbody{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}\nfieldset{padding:0 15px 10px 15px;}\nh1{font-size:2.4em;margin:0;color:#FFF;}\nh2{font-size:1.7em;margin:0;color:#CC0000;}\nh3{font-size:1.2em;margin:10px 0 0 0;color:#000000;}\n#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;\nbackground-color:#555555;}\n#content{margin:0 0 0 2%;position:relative;}\n.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}\n-->\n</style>\n</head>\n<body>\n<div id="header"><h1>404 Not Found</h1></div>\n<div id="content">\n <div class="content-container"><fieldset>\n  <h2>404 - File or directory not found.</h2>\n  <h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>\n </fieldset></div>\n</div>\n</body>\n</html>'
+✕ 二次检查也许可用的 InstallerUrl 时出现错误: HTTPSConnectionPool(host='azuredatastudio-update.azurewebsites.net', port=443): Max retries exceeded with url: /1.40.1/win32-x64-user/stable (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+remote: Enumerating objects: 21, done.
+remote: Counting objects: 100% (21/21), done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 11 (delta 8), reused 2 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (11/11), 1.70 KiB | 6.00 KiB/s, done.
+From https://github.com/microsoft/winget-pkgs
+   1ed4f76cfd5..367f541677f  master     -> upstream/master
+  已获取上游修改
+  已获取远程修改
+Successfully rebased and updated refs/heads/master.
+  已变基上游修改
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (11/11), 1.72 KiB | 440.00 KiB/s, done.
+Total 11 (delta 8), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (8/8), completed with 8 local objects.
+remote: Bypassed rule violations for refs/heads/master:
+remote:
+remote: - Changes must be made through a pull request.
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+   1ed4f76cfd5..367f541677f  master -> master
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.AzureDataStudio-1.40.1-1759010578'
+  已签出新分支 Remove-Microsoft.AzureDataStudio-1.40.1-1759010578
+  已移除软件包 Microsoft.AzureDataStudio 版本 1.40.1
+[Remove-Microsoft.AzureDataStudio-1.40.1-1759010578 d91301cfc4b] Remove version: Microsoft.AzureDataStudio version 1.40.1 (Auto)
+ 3 files changed, 76 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.40.1/Microsoft.AzureDataStudio.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.40.1/Microsoft.AzureDataStudio.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.40.1/Microsoft.AzureDataStudio.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 758 bytes | 252.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.AzureDataStudio-1.40.1-1759010578' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.AzureDataStudio-1.40.1-1759010578
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.AzureDataStudio-1.40.1-1759010578 -> Remove-Microsoft.AzureDataStudio-1.40.1-1759010578
+branch 'Remove-Microsoft.AzureDataStudio-1.40.1-1759010578' set up to track 'origin/Remove-Microsoft.AzureDataStudio-1.40.1-1759010578'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298287
+ 成功移除 Microsoft.AzureDataStudio 版本 1.40.1
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.AzureDataStudio-1.40.1-1759010578 (was d91301cfc4b).
+工作区清理完成
+
+INFO 正在检查 Microsoft.AzureDataStudio 1.38.0 ...
+使用 winget 验证...
+已找到 Azure Data Studio [Microsoft.AzureDataStudio] 版本 1.38.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://sqlopsbuilds.azureedge.net/stable/dff93c4736269ef2a7e8a225737a0d8354bf0246/azuredatastudio-windows-user-setup-1.38.0.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+正在检查 https://sqlopsbuilds.azureedge.net/stable/dff93c4736269ef2a7e8a2257https://sqlopsbuilds.azureedge.net/stable/dff93c4736269ef2a7e8a225737a0d8354bf0246/azuredatastudio-windows-setup-1.38.0.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/dff93c4736269ef2a7e8a225737a0d8354bf0246/azuredatastudio-windows-setup-1.38.0.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000234A737A0D0>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+正在检查 https://sqlopsbuilds.azureedge.net/stable/dff93c4736269ef2a7e8a2257https://sqlopsbuilds.azureedge.net/stable/dff93c4736269ef2a7e8a225737a0d8354bf0246/azuredatastudio-windows-user-setup-1.38.0.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/dff93c4736269ef2a7e8a225737a0d8354bf0246/azuredatastudio-windows-user-setup-1.38.0.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000234A7378CD0>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.AzureDataStudio 1.38.0 下载失败！将移除此版本...
+[!] 二次检查 https://download.microsoft.com/download/380cb128-f316-418f-b60a-963454e34173/azuredatastudio-windows-user-setup-1.38.0.exe: 404 b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\n<html xmlns="http://www.w3.org/1999/xhtml">\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>\n<title>404 - File or directory not found.</title>\n<style type="text/css">\n<!--\nbody{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}\nfieldset{padding:0 15px 10px 15px;}\nh1{font-size:2.4em;margin:0;color:#FFF;}\nh2{font-size:1.7em;margin:0;color:#CC0000;}\nh3{font-size:1.2em;margin:10px 0 0 0;color:#000000;}\n#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;\nbackground-color:#555555;}\n#content{margin:0 0 0 2%;position:relative;}\n.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}\n-->\n</style>\n</head>\n<body>\n<div id="header"><h1>404 Not Found</h1></div>\n<div id="content">\n <div class="content-container"><fieldset>\n  <h2>404 - File or directory not found.</h2>\n  <h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>\n </fieldset></div>\n</div>\n</body>\n</html>'
+✕ 二次检查也许可用的 InstallerUrl 时出现错误: HTTPSConnectionPool(host='azuredatastudio-update.azurewebsites.net', port=443): Max retries exceeded with url: /1.38.0/win32-x64-user/stable (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+remote: Enumerating objects: 49, done.
+remote: Counting objects: 100% (49/49), done.
+remote: Compressing objects: 100% (36/36), done.
+remote: Total 38 (delta 25), reused 6 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (38/38), 8.96 KiB | 20.00 KiB/s, done.
+From https://github.com/microsoft/winget-pkgs
+   367f541677f..6f350aba608  master     -> upstream/master
+  已获取上游修改
+  已获取远程修改
+Successfully rebased and updated refs/heads/master.
+  已变基上游修改
+Enumerating objects: 49, done.
+Counting objects: 100% (49/49), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (36/36), done.
+Writing objects: 100% (38/38), 8.98 KiB | 484.00 KiB/s, done.
+Total 38 (delta 25), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (25/25), completed with 9 local objects.
+remote: Bypassed rule violations for refs/heads/master:
+remote:
+remote: - Changes must be made through a pull request.
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+   367f541677f..6f350aba608  master -> master
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.AzureDataStudio-1.38.0-1759010827'
+  已签出新分支 Remove-Microsoft.AzureDataStudio-1.38.0-1759010827
+  已移除软件包 Microsoft.AzureDataStudio 版本 1.38.0
+[Remove-Microsoft.AzureDataStudio-1.38.0-1759010827 5eb002aa27d] Remove version: Microsoft.AzureDataStudio version 1.38.0 (Auto)
+ 3 files changed, 76 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.38.0/Microsoft.AzureDataStudio.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.38.0/Microsoft.AzureDataStudio.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.38.0/Microsoft.AzureDataStudio.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 752 bytes | 250.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.AzureDataStudio-1.38.0-1759010827' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.AzureDataStudio-1.38.0-1759010827
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.AzureDataStudio-1.38.0-1759010827 -> Remove-Microsoft.AzureDataStudio-1.38.0-1759010827
+branch 'Remove-Microsoft.AzureDataStudio-1.38.0-1759010827' set up to track 'origin/Remove-Microsoft.AzureDataStudio-1.38.0-1759010827'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298288
+ 成功移除 Microsoft.AzureDataStudio 版本 1.38.0
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.AzureDataStudio-1.38.0-1759010827 (was 5eb002aa27d).
+工作区清理完成
+
+INFO 正在检查 Microsoft.AzureDataStudio 1.38.0 ...
+使用 winget 验证...
+已找到 Azure Data Studio [Microsoft.AzureDataStudio] 版本 1.38.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://sqlopsbuilds.azureedge.net/stable/dff93c4736269ef2a7e8a225737a0d8354bf0246/azuredatastudio-windows-user-setup-1.38.0.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://sqlopsbuilds.azureedge.net/stable/dff93c4736269ef2a7e8a225737a0d8354bf0246/azuredatastudio-windows-user-setup-1.38.0.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/dff93c4736269ef2a7e8a225737a0d8354bf0246/azuredatastudio-windows-user-setup-1.38.0.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000025FB85F5450>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+https://sqlopsbuilds.azureedge.net/stable/dff93c4736269ef2a7e8a225737a0d8354bf0246/azuredatastudio-windows-setup-1.38.0.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/dff93c4736269ef2a7e8a225737a0d8354bf0246/azuredatastudio-windows-setup-1.38.0.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000025FB85F6210>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.AzureDataStudio 1.38.0 下载失败！将移除此版本...
+WARN 找到重复的拉取请求，跳过后续处理
+
+INFO 正在检查 Microsoft.AzureDataStudio 1.36.1 ...
+使用 winget 验证...
+已找到 Azure Data Studio [Microsoft.AzureDataStudio] 版本 1.36.1
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://sqlopsbuilds.azureedge.net/stable/e56e1d931bbb110fe8f24751423c4e184bb8f22d/azuredatastudio-windows-user-setup-1.36.1.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://sqlopsbuilds.azureedge.net/stable/e56e1d931bbb110fe8f24751423c4e184bb8f22d/azuredatastudio-windows-setup-1.36.1.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/e56e1d931bbb110fe8f24751423c4e184bb8f22d/azuredatastudio-windows-setup-1.36.1.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000025FB85F6990>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+https://sqlopsbuilds.azureedge.net/stable/e56e1d931bbb110fe8f24751423c4e184bb8f22d/azuredatastudio-windows-user-setup-1.36.1.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/e56e1d931bbb110fe8f24751423c4e184bb8f22d/azuredatastudio-windows-user-setup-1.36.1.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000025FB85F7110>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.AzureDataStudio 1.36.1 下载失败！将移除此版本...
+[!] 二次检查 https://download.microsoft.com/download/380cb128-f316-418f-b60a-963454e34173/azuredatastudio-windows-user-setup-1.36.1.exe: 404 b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\n<html xmlns="http://www.w3.org/1999/xhtml">\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>\n<title>404 - File or directory not found.</title>\n<style type="text/css">\n<!--\nbody{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}\nfieldset{padding:0 15px 10px 15px;}\nh1{font-size:2.4em;margin:0;color:#FFF;}\nh2{font-size:1.7em;margin:0;color:#CC0000;}\nh3{font-size:1.2em;margin:10px 0 0 0;color:#000000;}\n#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;\nbackground-color:#555555;}\n#content{margin:0 0 0 2%;position:relative;}\n.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}\n-->\n</style>\n</head>\n<body>\n<div id="header"><h1>404 Not Found</h1></div>\n<div id="content">\n <div class="content-container"><fieldset>\n  <h2>404 - File or directory not found.</h2>\n  <h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>\n </fieldset></div>\n</div>\n</body>\n</html>'
+[!] 二次检查 https://azuredatastudio-update.azurewebsites.net/1.36.1/win32-x64-user/stable: 403 b'<!DOCTYPE html><html><head><title>Web App - Unavailable</title><style type="text/css">html{height:100%;width:100%;}#feature{width:960px;margin:95px auto 0 auto;overflow:auto;}#content{font-family:"Segoe UI";font-weight:normal;font-size:22px;color:#fff;float:left;width:460px;margin-top:68px;margin-left:0px;vertical-align:middle;}#content h1{font-family:"Segoe UI Light";color:#fff;font-weight:normal;font-size:60px;line-height:48pt;width:800px;}p a,p a:visited,p a:active,p a:hover{color:#fff;}</style></head><body bgcolor="#00abec"><div id="feature"><div id="content"><h1 id="unavailable">Error 403 - This web app is stopped.</h1><p id="tryAgain">The web app you have attempted to reach is currently stopped and does not accept any requests. Please try to reload the page or visit it again soon.</p><p id="toAdmin">If you are the web app administrator, please find the common 403 error scenarios and resolution <a href="https://go.microsoft.com/fwlink/?linkid=2095007" target="_blank">here</a>. For further troubleshooting tools and recommendations, please visit <a href="https://portal.azure.com/">Azure Portal</a>.</p></div></div></body></html>'
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+remote: Enumerating objects: 17, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Total 17 (delta 12), reused 12 (delta 12), pack-reused 5 (from 2)
+Unpacking objects: 100% (17/17), 3.75 KiB | 12.00 KiB/s, done.
+From https://github.com/microsoft/winget-pkgs
+   6f350aba608..9ad3bdde3f4  master     -> upstream/master
+  已获取上游修改
+  已获取远程修改
+Successfully rebased and updated refs/heads/master.
+  已变基上游修改
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Bypassed rule violations for refs/heads/master:
+remote:
+remote: - Changes must be made through a pull request.
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+   6f350aba608..9ad3bdde3f4  master -> master
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.AzureDataStudio-1.36.1-1759011681'
+  已签出新分支 Remove-Microsoft.AzureDataStudio-1.36.1-1759011681
+  已移除软件包 Microsoft.AzureDataStudio 版本 1.36.1
+[Remove-Microsoft.AzureDataStudio-1.36.1-1759011681 a4b4ec2d54d] Remove version: Microsoft.AzureDataStudio version 1.36.1 (Auto)
+ 3 files changed, 76 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.36.1/Microsoft.AzureDataStudio.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.36.1/Microsoft.AzureDataStudio.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.36.1/Microsoft.AzureDataStudio.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 756 bytes | 252.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.AzureDataStudio-1.36.1-1759011681' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.AzureDataStudio-1.36.1-1759011681
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.AzureDataStudio-1.36.1-1759011681 -> Remove-Microsoft.AzureDataStudio-1.36.1-1759011681
+branch 'Remove-Microsoft.AzureDataStudio-1.36.1-1759011681' set up to track 'origin/Remove-Microsoft.AzureDataStudio-1.36.1-1759011681'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298290
+ 成功移除 Microsoft.AzureDataStudio 版本 1.36.1
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.AzureDataStudio-1.36.1-1759011681 (was a4b4ec2d54d).
+工作区清理完成
+
+INFO 正在检查 Microsoft.AzureDataStudio 1.35.1 ...
+使用 winget 验证...
+已找到 Azure Data Studio [Microsoft.AzureDataStudio] 版本 1.35.1
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://sqlopsbuilds.azureedge.net/stable/fab63efd307e54c063c8af03474bbb5d77f5fd11/azuredatastudio-windows-user-setup-1.35.1.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://sqlopsbuilds.azureedge.net/stable/fab63efd307e54c063c8af03474bbb5d77f5fd11/azuredatastudio-windows-user-setup-1.35.1.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/fab63efd307e54c063c8af03474bbb5d77f5fd11/azuredatastudio-windows-user-setup-1.35.1.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000025FB85F6AD0>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+https://sqlopsbuilds.azureedge.net/stable/fab63efd307e54c063c8af03474bbb5d77f5fd11/azuredatastudio-windows-setup-1.35.1.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/fab63efd307e54c063c8af03474bbb5d77f5fd11/azuredatastudio-windows-setup-1.35.1.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000025FB85F6350>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.AzureDataStudio 1.35.1 下载失败！将移除此版本...
+[!] 二次检查 https://download.microsoft.com/download/380cb128-f316-418f-b60a-963454e34173/azuredatastudio-windows-user-setup-1.35.1.exe: 404 b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\n<html xmlns="http://www.w3.org/1999/xhtml">\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>\n<title>404 - File or directory not found.</title>\n<style type="text/css">\n<!--\nbody{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}\nfieldset{padding:0 15px 10px 15px;}\nh1{font-size:2.4em;margin:0;color:#FFF;}\nh2{font-size:1.7em;margin:0;color:#CC0000;}\nh3{font-size:1.2em;margin:10px 0 0 0;color:#000000;}\n#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;\nbackground-color:#555555;}\n#content{margin:0 0 0 2%;position:relative;}\n.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}\n-->\n</style>\n</head>\n<body>\n<div id="header"><h1>404 Not Found</h1></div>\n<div id="content">\n <div class="content-container"><fieldset>\n  <h2>404 - File or directory not found.</h2>\n  <h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>\n </fieldset></div>\n</div>\n</body>\n</html>'
+✕ 二次检查也许可用的 InstallerUrl 时出现错误: HTTPSConnectionPool(host='azuredatastudio-update.azurewebsites.net', port=443): Max retries exceeded with url: /1.35.1/win32-x64-user/stable (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.AzureDataStudio-1.35.1-1759011759'
+  已签出新分支 Remove-Microsoft.AzureDataStudio-1.35.1-1759011759
+  已移除软件包 Microsoft.AzureDataStudio 版本 1.35.1
+[Remove-Microsoft.AzureDataStudio-1.35.1-1759011759 ece61ddbbff] Remove version: Microsoft.AzureDataStudio version 1.35.1 (Auto)
+ 3 files changed, 76 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.35.1/Microsoft.AzureDataStudio.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.35.1/Microsoft.AzureDataStudio.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.35.1/Microsoft.AzureDataStudio.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 752 bytes | 250.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.AzureDataStudio-1.35.1-1759011759' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.AzureDataStudio-1.35.1-1759011759
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.AzureDataStudio-1.35.1-1759011759 -> Remove-Microsoft.AzureDataStudio-1.35.1-1759011759
+branch 'Remove-Microsoft.AzureDataStudio-1.35.1-1759011759' set up to track 'origin/Remove-Microsoft.AzureDataStudio-1.35.1-1759011759'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298292
+ 成功移除 Microsoft.AzureDataStudio 版本 1.35.1
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.AzureDataStudio-1.35.1-1759011759 (was ece61ddbbff).
+工作区清理完成
+
+INFO 正在检查 Microsoft.AzureDataStudio 1.32.0 ...
+使用 winget 验证...
+已找到 Azure Data Studio [Microsoft.AzureDataStudio] 版本 1.32.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://sqlopsbuilds.azureedge.net/stable/4a45ba7cf20dd4129f1a08e5e776dfb33e3d1d1e/azuredatastudio-windows-user-setup-1.32.0.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://sqlopsbuilds.azureedge.net/stable/4a45ba7cf20dd4129f1a08e5e776dfb33e3d1d1e/azuredatastudio-windows-user-setup-1.32.0.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/4a45ba7cf20dd4129f1a08e5e776dfb33e3d1d1e/azuredatastudio-windows-user-setup-1.32.0.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000025FB85F6490>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+https://sqlopsbuilds.azureedge.net/stable/4a45ba7cf20dd4129f1a08e5e776dfb33e3d1d1e/azuredatastudio-windows-setup-1.32.0.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/4a45ba7cf20dd4129f1a08e5e776dfb33e3d1d1e/azuredatastudio-windows-setup-1.32.0.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000025FB85F6990>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.AzureDataStudio 1.32.0 下载失败！将移除此版本...
+[!] 二次检查 https://download.microsoft.com/download/380cb128-f316-418f-b60a-963454e34173/azuredatastudio-windows-user-setup-1.32.0.exe: 404 b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\n<html xmlns="http://www.w3.org/1999/xhtml">\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>\n<title>404 - File or directory not found.</title>\n<style type="text/css">\n<!--\nbody{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}\nfieldset{padding:0 15px 10px 15px;}\nh1{font-size:2.4em;margin:0;color:#FFF;}\nh2{font-size:1.7em;margin:0;color:#CC0000;}\nh3{font-size:1.2em;margin:10px 0 0 0;color:#000000;}\n#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;\nbackground-color:#555555;}\n#content{margin:0 0 0 2%;position:relative;}\n.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}\n-->\n</style>\n</head>\n<body>\n<div id="header"><h1>404 Not Found</h1></div>\n<div id="content">\n <div class="content-container"><fieldset>\n  <h2>404 - File or directory not found.</h2>\n  <h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>\n </fieldset></div>\n</div>\n</body>\n</html>'
+[!] 二次检查 https://azuredatastudio-update.azurewebsites.net/1.32.0/win32-x64-user/stable: 403 b'<!DOCTYPE html><html><head><title>Web App - Unavailable</title><style type="text/css">html{height:100%;width:100%;}#feature{width:960px;margin:95px auto 0 auto;overflow:auto;}#content{font-family:"Segoe UI";font-weight:normal;font-size:22px;color:#fff;float:left;width:460px;margin-top:68px;margin-left:0px;vertical-align:middle;}#content h1{font-family:"Segoe UI Light";color:#fff;font-weight:normal;font-size:60px;line-height:48pt;width:800px;}p a,p a:visited,p a:active,p a:hover{color:#fff;}</style></head><body bgcolor="#00abec"><div id="feature"><div id="content"><h1 id="unavailable">Error 403 - This web app is stopped.</h1><p id="tryAgain">The web app you have attempted to reach is currently stopped and does not accept any requests. Please try to reload the page or visit it again soon.</p><p id="toAdmin">If you are the web app administrator, please find the common 403 error scenarios and resolution <a href="https://go.microsoft.com/fwlink/?linkid=2095007" target="_blank">here</a>. For further troubleshooting tools and recommendations, please visit <a href="https://portal.azure.com/">Azure Portal</a>.</p></div></div></body></html>'
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.AzureDataStudio-1.32.0-1759011833'
+  已签出新分支 Remove-Microsoft.AzureDataStudio-1.32.0-1759011833
+  已移除软件包 Microsoft.AzureDataStudio 版本 1.32.0
+[Remove-Microsoft.AzureDataStudio-1.32.0-1759011833 1b69422839d] Remove version: Microsoft.AzureDataStudio version 1.32.0 (Auto)
+ 3 files changed, 76 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.32.0/Microsoft.AzureDataStudio.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.32.0/Microsoft.AzureDataStudio.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.32.0/Microsoft.AzureDataStudio.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 752 bytes | 250.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.AzureDataStudio-1.32.0-1759011833' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.AzureDataStudio-1.32.0-1759011833
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.AzureDataStudio-1.32.0-1759011833 -> Remove-Microsoft.AzureDataStudio-1.32.0-1759011833
+branch 'Remove-Microsoft.AzureDataStudio-1.32.0-1759011833' set up to track 'origin/Remove-Microsoft.AzureDataStudio-1.32.0-1759011833'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298293
+ 成功移除 Microsoft.AzureDataStudio 版本 1.32.0
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.AzureDataStudio-1.32.0-1759011833 (was 1b69422839d).
+工作区清理完成
+
+INFO 正在检查 Microsoft.AzureDataStudio 1.31.1 ...
+使用 winget 验证...
+  ██████████████████████████████  100% MB / 2.25 MB
+已找到 Azure Data Studio [Microsoft.AzureDataStudio] 版本 1.31.1
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://sqlopsbuilds.azureedge.net/stable/65fb22cc7c36db9c53af1ed2fdbdf48f66c682be/azuredatastudio-windows-user-setup-1.31.1.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://sqlopsbuilds.azureedge.net/stable/65fb22cc7c36db9c53af1ed2fdbdf48f66c682be/azuredatastudio-windows-setup-1.31.1.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/65fb22cc7c36db9c53af1ed2fdbdf48f66c682be/azuredatastudio-windows-setup-1.31.1.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000025FB85F5F90>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+https://sqlopsbuilds.azureedge.net/stable/65fb22cc7c36db9c53af1ed2fdbdf48f66c682be/azuredatastudio-windows-user-setup-1.31.1.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/65fb22cc7c36db9c53af1ed2fdbdf48f66c682be/azuredatastudio-windows-user-setup-1.31.1.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000025FB85F4E10>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.AzureDataStudio 1.31.1 下载失败！将移除此版本...
+[!] 二次检查 https://download.microsoft.com/download/380cb128-f316-418f-b60a-963454e34173/azuredatastudio-windows-user-setup-1.31.1.exe: 404 b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\n<html xmlns="http://www.w3.org/1999/xhtml">\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>\n<title>404 - File or directory not found.</title>\n<style type="text/css">\n<!--\nbody{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}\nfieldset{padding:0 15px 10px 15px;}\nh1{font-size:2.4em;margin:0;color:#FFF;}\nh2{font-size:1.7em;margin:0;color:#CC0000;}\nh3{font-size:1.2em;margin:10px 0 0 0;color:#000000;}\n#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;\nbackground-color:#555555;}\n#content{margin:0 0 0 2%;position:relative;}\n.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}\n-->\n</style>\n</head>\n<body>\n<div id="header"><h1>404 Not Found</h1></div>\n<div id="content">\n <div class="content-container"><fieldset>\n  <h2>404 - File or directory not found.</h2>\n  <h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>\n </fieldset></div>\n</div>\n</body>\n</html>'
+✕ 二次检查也许可用的 InstallerUrl 时出现错误: HTTPSConnectionPool(host='azuredatastudio-update.azurewebsites.net', port=443): Max retries exceeded with url: /1.31.1/win32-x64-user/stable (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.AzureDataStudio-1.31.1-1759011913'
+  已签出新分支 Remove-Microsoft.AzureDataStudio-1.31.1-1759011913
+  已移除软件包 Microsoft.AzureDataStudio 版本 1.31.1
+[Remove-Microsoft.AzureDataStudio-1.31.1-1759011913 9e3e17d1983] Remove version: Microsoft.AzureDataStudio version 1.31.1 (Auto)
+ 3 files changed, 76 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.31.1/Microsoft.AzureDataStudio.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.31.1/Microsoft.AzureDataStudio.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.31.1/Microsoft.AzureDataStudio.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 753 bytes | 251.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.AzureDataStudio-1.31.1-1759011913' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.AzureDataStudio-1.31.1-1759011913
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.AzureDataStudio-1.31.1-1759011913 -> Remove-Microsoft.AzureDataStudio-1.31.1-1759011913
+branch 'Remove-Microsoft.AzureDataStudio-1.31.1-1759011913' set up to track 'origin/Remove-Microsoft.AzureDataStudio-1.31.1-1759011913'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298294
+ 成功移除 Microsoft.AzureDataStudio 版本 1.31.1
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.AzureDataStudio-1.31.1-1759011913 (was 9e3e17d1983).
+工作区清理完成
+
+INFO 正在检查 Microsoft.AzureDataStudio 1.25.1 ...
+使用 winget 验证...
+已找到 Azure Data Studio [Microsoft.AzureDataStudio] 版本 1.25.1
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://sqlopsbuilds.azureedge.net/stable/e7eacc32c0d20bd4da843320c3bfac231b308c98/azuredatastudio-windows-user-setup-1.25.1.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://sqlopsbuilds.azureedge.net/stable/e7eacc32c0d20bd4da843320c3bfac231b308c98/azuredatastudio-windows-user-setup-1.25.1.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/e7eacc32c0d20bd4da843320c3bfac231b308c98/azuredatastudio-windows-user-setup-1.25.1.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000025FB85F42D0>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.AzureDataStudio 1.25.1 下载失败！将移除此版本...
+[!] 二次检查 https://download.microsoft.com/download/380cb128-f316-418f-b60a-963454e34173/azuredatastudio-windows-user-setup-1.25.1.exe: 404 b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\n<html xmlns="http://www.w3.org/1999/xhtml">\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>\n<title>404 - File or directory not found.</title>\n<style type="text/css">\n<!--\nbody{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}\nfieldset{padding:0 15px 10px 15px;}\nh1{font-size:2.4em;margin:0;color:#FFF;}\nh2{font-size:1.7em;margin:0;color:#CC0000;}\nh3{font-size:1.2em;margin:10px 0 0 0;color:#000000;}\n#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;\nbackground-color:#555555;}\n#content{margin:0 0 0 2%;position:relative;}\n.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}\n-->\n</style>\n</head>\n<body>\n<div id="header"><h1>404 Not Found</h1></div>\n<div id="content">\n <div class="content-container"><fieldset>\n  <h2>404 - File or directory not found.</h2>\n  <h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>\n </fieldset></div>\n</div>\n</body>\n</html>'
+✕ 二次检查也许可用的 InstallerUrl 时出现错误: HTTPSConnectionPool(host='azuredatastudio-update.azurewebsites.net', port=443): Max retries exceeded with url: /1.25.1/win32-x64-user/stable (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.AzureDataStudio-1.25.1-1759011991'
+  已签出新分支 Remove-Microsoft.AzureDataStudio-1.25.1-1759011991
+  已移除软件包 Microsoft.AzureDataStudio 版本 1.25.1
+[Remove-Microsoft.AzureDataStudio-1.25.1-1759011991 67c5f518d6d] Remove version: Microsoft.AzureDataStudio version 1.25.1 (Auto)
+ 3 files changed, 77 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.25.1/Microsoft.AzureDataStudio.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.25.1/Microsoft.AzureDataStudio.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.25.1/Microsoft.AzureDataStudio.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 753 bytes | 251.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.AzureDataStudio-1.25.1-1759011991' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.AzureDataStudio-1.25.1-1759011991
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.AzureDataStudio-1.25.1-1759011991 -> Remove-Microsoft.AzureDataStudio-1.25.1-1759011991
+branch 'Remove-Microsoft.AzureDataStudio-1.25.1-1759011991' set up to track 'origin/Remove-Microsoft.AzureDataStudio-1.25.1-1759011991'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298295
+ 成功移除 Microsoft.AzureDataStudio 版本 1.25.1
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.AzureDataStudio-1.25.1-1759011991 (was 67c5f518d6d).
+工作区清理完成
+
+INFO 正在检查 Microsoft.AzureDataStudio 1.24.0 ...
+使用 winget 验证...
+已找到 Azure Data Studio [Microsoft.AzureDataStudio] 版本 1.24.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://sqlopsbuilds.azureedge.net/stable/eb3c0f5d9df86b9490606aab7fffaa253b0aca4d/azuredatastudio-windows-user-setup-1.24.0.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://sqlopsbuilds.azureedge.net/stable/eb3c0f5d9df86b9490606aab7fffaa253b0aca4d/azuredatastudio-windows-user-setup-1.24.0.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/eb3c0f5d9df86b9490606aab7fffaa253b0aca4d/azuredatastudio-windows-user-setup-1.24.0.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000025FB85F4410>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.AzureDataStudio 1.24.0 下载失败！将移除此版本...
+[!] 二次检查 https://download.microsoft.com/download/380cb128-f316-418f-b60a-963454e34173/azuredatastudio-windows-user-setup-1.24.0.exe: 404 b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\n<html xmlns="http://www.w3.org/1999/xhtml">\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>\n<title>404 - File or directory not found.</title>\n<style type="text/css">\n<!--\nbody{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}\nfieldset{padding:0 15px 10px 15px;}\nh1{font-size:2.4em;margin:0;color:#FFF;}\nh2{font-size:1.7em;margin:0;color:#CC0000;}\nh3{font-size:1.2em;margin:10px 0 0 0;color:#000000;}\n#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;\nbackground-color:#555555;}\n#content{margin:0 0 0 2%;position:relative;}\n.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}\n-->\n</style>\n</head>\n<body>\n<div id="header"><h1>404 Not Found</h1></div>\n<div id="content">\n <div class="content-container"><fieldset>\n  <h2>404 - File or directory not found.</h2>\n  <h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>\n </fieldset></div>\n</div>\n</body>\n</html>'
+[!] 二次检查 https://azuredatastudio-update.azurewebsites.net/1.24.0/win32-x64-user/stable: 403 b'<!DOCTYPE html><html><head><title>Web App - Unavailable</title><style type="text/css">html{height:100%;width:100%;}#feature{width:960px;margin:95px auto 0 auto;overflow:auto;}#content{font-family:"Segoe UI";font-weight:normal;font-size:22px;color:#fff;float:left;width:460px;margin-top:68px;margin-left:0px;vertical-align:middle;}#content h1{font-family:"Segoe UI Light";color:#fff;font-weight:normal;font-size:60px;line-height:48pt;width:800px;}p a,p a:visited,p a:active,p a:hover{color:#fff;}</style></head><body bgcolor="#00abec"><div id="feature"><div id="content"><h1 id="unavailable">Error 403 - This web app is stopped.</h1><p id="tryAgain">The web app you have attempted to reach is currently stopped and does not accept any requests. Please try to reload the page or visit it again soon.</p><p id="toAdmin">If you are the web app administrator, please find the common 403 error scenarios and resolution <a href="https://go.microsoft.com/fwlink/?linkid=2095007" target="_blank">here</a>. For further troubleshooting tools and recommendations, please visit <a href="https://portal.azure.com/">Azure Portal</a>.</p></div></div></body></html>'
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.AzureDataStudio-1.24.0-1759012100'
+  已签出新分支 Remove-Microsoft.AzureDataStudio-1.24.0-1759012100
+  已移除软件包 Microsoft.AzureDataStudio 版本 1.24.0
+[Remove-Microsoft.AzureDataStudio-1.24.0-1759012100 e674f77f5d9] Remove version: Microsoft.AzureDataStudio version 1.24.0 (Auto)
+ 3 files changed, 77 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.24.0/Microsoft.AzureDataStudio.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.24.0/Microsoft.AzureDataStudio.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.24.0/Microsoft.AzureDataStudio.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 748 bytes | 249.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.AzureDataStudio-1.24.0-1759012100' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.AzureDataStudio-1.24.0-1759012100
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.AzureDataStudio-1.24.0-1759012100 -> Remove-Microsoft.AzureDataStudio-1.24.0-1759012100
+branch 'Remove-Microsoft.AzureDataStudio-1.24.0-1759012100' set up to track 'origin/Remove-Microsoft.AzureDataStudio-1.24.0-1759012100'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298297
+ 成功移除 Microsoft.AzureDataStudio 版本 1.24.0
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.AzureDataStudio-1.24.0-1759012100 (was e674f77f5d9).
+工作区清理完成
+
+INFO 正在检查 Microsoft.AzureDataStudio 1.22.0 ...
+使用 winget 验证...
+已找到 Azure Data Studio [Microsoft.AzureDataStudio] 版本 1.22.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://sqlopsbuilds.azureedge.net/stable/77b9a708df3679c26a89ba24a070b3f7a078a510/azuredatastudio-windows-user-setup-1.22.0.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://sqlopsbuilds.azureedge.net/stable/77b9a708df3679c26a89ba24a070b3f7a078a510/azuredatastudio-windows-user-setup-1.22.0.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/77b9a708df3679c26a89ba24a070b3f7a078a510/azuredatastudio-windows-user-setup-1.22.0.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000025FB85F4F50>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.AzureDataStudio 1.22.0 下载失败！将移除此版本...
+[!] 二次检查 https://download.microsoft.com/download/380cb128-f316-418f-b60a-963454e34173/azuredatastudio-windows-user-setup-1.22.0.exe: 404 b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\n<html xmlns="http://www.w3.org/1999/xhtml">\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>\n<title>404 - File or directory not found.</title>\n<style type="text/css">\n<!--\nbody{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}\nfieldset{padding:0 15px 10px 15px;}\nh1{font-size:2.4em;margin:0;color:#FFF;}\nh2{font-size:1.7em;margin:0;color:#CC0000;}\nh3{font-size:1.2em;margin:10px 0 0 0;color:#000000;}\n#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;\nbackground-color:#555555;}\n#content{margin:0 0 0 2%;position:relative;}\n.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}\n-->\n</style>\n</head>\n<body>\n<div id="header"><h1>404 Not Found</h1></div>\n<div id="content">\n <div class="content-container"><fieldset>\n  <h2>404 - File or directory not found.</h2>\n  <h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>\n </fieldset></div>\n</div>\n</body>\n</html>'
+✕ 二次检查也许可用的 InstallerUrl 时出现错误: HTTPSConnectionPool(host='azuredatastudio-update.azurewebsites.net', port=443): Max retries exceeded with url: /1.22.0/win32-x64-user/stable (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.AzureDataStudio-1.22.0-1759012337'
+  已签出新分支 Remove-Microsoft.AzureDataStudio-1.22.0-1759012337
+  已移除软件包 Microsoft.AzureDataStudio 版本 1.22.0
+[Remove-Microsoft.AzureDataStudio-1.22.0-1759012337 a69dc96e8f2] Remove version: Microsoft.AzureDataStudio version 1.22.0 (Auto)
+ 3 files changed, 77 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.22.0/Microsoft.AzureDataStudio.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.22.0/Microsoft.AzureDataStudio.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.22.0/Microsoft.AzureDataStudio.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 752 bytes | 250.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.AzureDataStudio-1.22.0-1759012337' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.AzureDataStudio-1.22.0-1759012337
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.AzureDataStudio-1.22.0-1759012337 -> Remove-Microsoft.AzureDataStudio-1.22.0-1759012337
+branch 'Remove-Microsoft.AzureDataStudio-1.22.0-1759012337' set up to track 'origin/Remove-Microsoft.AzureDataStudio-1.22.0-1759012337'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298303
+ 成功移除 Microsoft.AzureDataStudio 版本 1.22.0
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.AzureDataStudio-1.22.0-1759012337 (was a69dc96e8f2).
+工作区清理完成
+
+INFO 正在检查 Microsoft.AzureDataStudio 1.21.0 ...
+使用 winget 验证...
+已找到 Azure Data Studio [Microsoft.AzureDataStudio] 版本 1.21.0
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://sqlopsbuilds.azureedge.net/stable/2413919f186f780f0193d047da3d90bb3c1e9bf6/azuredatastudio-windows-user-setup-1.21.0.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://sqlopsbuilds.azureedge.net/stable/2413919f186f780f0193d047da3d90bb3c1e9bf6/azuredatastudio-windows-user-setup-1.21.0.exe | 错误 (HTTPSConnectionPool(host='sqlopsbuilds.azureedge.net', port=443): Max retries exceeded with url: /stable/2413919f186f780f0193d047da3d90bb3c1e9bf6/azuredatastudio-windows-user-setup-1.21.0.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000024B284E5450>: Failed to resolve 'sqlopsbuilds.azureedge.net' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.AzureDataStudio 1.21.0 下载失败！将移除此版本...
+[!] 二次检查 https://download.microsoft.com/download/380cb128-f316-418f-b60a-963454e34173/azuredatastudio-windows-user-setup-1.21.0.exe: 404 b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\n<html xmlns="http://www.w3.org/1999/xhtml">\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>\n<title>404 - File or directory not found.</title>\n<style type="text/css">\n<!--\nbody{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}\nfieldset{padding:0 15px 10px 15px;}\nh1{font-size:2.4em;margin:0;color:#FFF;}\nh2{font-size:1.7em;margin:0;color:#CC0000;}\nh3{font-size:1.2em;margin:10px 0 0 0;color:#000000;}\n#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;\nbackground-color:#555555;}\n#content{margin:0 0 0 2%;position:relative;}\n.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}\n-->\n</style>\n</head>\n<body>\n<div id="header"><h1>404 Not Found</h1></div>\n<div id="content">\n <div class="content-container"><fieldset>\n  <h2>404 - File or directory not found.</h2>\n  <h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>\n </fieldset></div>\n</div>\n</body>\n</html>'
+✕ 二次检查也许可用的 InstallerUrl 时出现错误: HTTPSConnectionPool(host='azuredatastudio-update.azurewebsites.net', port=443): Max retries exceeded with url: /1.21.0/win32-x64-user/stable (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+remote: Enumerating objects: 60, done.
+remote: Counting objects: 100% (22/22), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 60 (delta 14), reused 10 (delta 10), pack-reused 38 (from 3)
+Unpacking objects: 100% (60/60), 67.31 KiB | 112.00 KiB/s, done.
+From https://github.com/microsoft/winget-pkgs
+   9ad3bdde3f4..aa692c1da14  master     -> upstream/master
+  已获取上游修改
+  已获取远程修改
+Successfully rebased and updated refs/heads/master.
+  已变基上游修改
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Bypassed rule violations for refs/heads/master:
+remote:
+remote: - Changes must be made through a pull request.
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+   9ad3bdde3f4..aa692c1da14  master -> master
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.AzureDataStudio-1.21.0-1759012783'
+  已签出新分支 Remove-Microsoft.AzureDataStudio-1.21.0-1759012783
+  已移除软件包 Microsoft.AzureDataStudio 版本 1.21.0
+[Remove-Microsoft.AzureDataStudio-1.21.0-1759012783 68fc5758a09] Remove version: Microsoft.AzureDataStudio version 1.21.0 (Auto)
+ 3 files changed, 77 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.21.0/Microsoft.AzureDataStudio.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.21.0/Microsoft.AzureDataStudio.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/AzureDataStudio/1.21.0/Microsoft.AzureDataStudio.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 750 bytes | 250.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.AzureDataStudio-1.21.0-1759012783' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.AzureDataStudio-1.21.0-1759012783
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.AzureDataStudio-1.21.0-1759012783 -> Remove-Microsoft.AzureDataStudio-1.21.0-1759012783
+branch 'Remove-Microsoft.AzureDataStudio-1.21.0-1759012783' set up to track 'origin/Remove-Microsoft.AzureDataStudio-1.21.0-1759012783'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298307
+ 成功移除 Microsoft.AzureDataStudio 版本 1.21.0
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.AzureDataStudio-1.21.0-1759012783 (was 68fc5758a09).
+工作区清理完成
+
+✓ 成功检查 Microsoft.AzureDataStudio 的所有版本
