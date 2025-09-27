@@ -1,0 +1,2998 @@
+$ sundry autoremove Microsoft.Skype
+✓ 找到 Microsoft.Skype 版本:
+8.150, 8.138, 8.137, 8.136, 8.134, 8.133, 8.132, 8.131, 8.130, 8.129, 8.128, 8.127, 8.126, 8.125, 8.124, 8.123, 8.122, 8.120, 8.119, 8.118, 8.117, 8.116, 8.115, 8.112, 8.110, 8.109, 8.97, 8.96, 8.95, 8.94, 8.93, 8.92, 8.91, 8.90, 8.89, 8.88, 8.87, 8.86, 8.85, 8.83, 8.82, 8.81, 8.80, 8.79, 8.78, 8.77, 8.75, 8.74, 8.73, 8.72.0.94, 8.72.0.82, 8.71.0.49, 8.71.0.36, 8.69.0.77, 8.67.0.96, 8.66.0.77, 8.65.0.78, 8.65.0.76, 8.64.0.80, 8.60.0.76
+
+
+INFO 正在检查 Microsoft.Skype 8.150 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.150
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/production/win/Skype-8.150.0.125.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/production/win/Skype-8.150.0.125.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/production/win/Skype-8.150.0.125.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021CE1515590>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.150 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.150-1758948349'
+  已签出新分支 Remove-Microsoft.Skype-8.150-1758948349
+  已移除软件包 Microsoft.Skype 版本 8.150
+[Remove-Microsoft.Skype-8.150-1758948349 99c85b6c1e8] Remove version: Microsoft.Skype version 8.150 (Auto)
+ 4 files changed, 102 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.150/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.150/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.150/Microsoft.Skype.locale.zh-CN.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.150/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 746 bytes | 373.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.150-1758948349' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.150-1758948349
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.150-1758948349 -> Remove-Microsoft.Skype-8.150-1758948349
+branch 'Remove-Microsoft.Skype-8.150-1758948349' set up to track 'origin/Remove-Microsoft.Skype-8.150-1758948349'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298017
+ 成功移除 Microsoft.Skype 版本 8.150
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.150-1758948349 (was 99c85b6c1e8).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.138 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.138
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/production/win/Skype-8.138.0.214.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/production/win/Skype-8.138.0.214.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/production/win/Skype-8.138.0.214.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021CE1515810>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.138 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.138-1758948405'
+  已签出新分支 Remove-Microsoft.Skype-8.138-1758948405
+  已移除软件包 Microsoft.Skype 版本 8.138
+[Remove-Microsoft.Skype-8.138-1758948405 10b70eef274] Remove version: Microsoft.Skype version 8.138 (Auto)
+ 4 files changed, 102 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.138/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.138/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.138/Microsoft.Skype.locale.zh-CN.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.138/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 746 bytes | 373.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.138-1758948405' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.138-1758948405
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.138-1758948405 -> Remove-Microsoft.Skype-8.138-1758948405
+branch 'Remove-Microsoft.Skype-8.138-1758948405' set up to track 'origin/Remove-Microsoft.Skype-8.138-1758948405'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298018
+ 成功移除 Microsoft.Skype 版本 8.138
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.138-1758948405 (was 10b70eef274).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.137 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.137
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/production/win/Skype-8.137.0.425.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/production/win/Skype-8.137.0.425.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/production/win/Skype-8.137.0.425.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021CE1515090>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.137 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.137-1758948453'
+  已签出新分支 Remove-Microsoft.Skype-8.137-1758948453
+  已移除软件包 Microsoft.Skype 版本 8.137
+[Remove-Microsoft.Skype-8.137-1758948453 64c31a1d8a7] Remove version: Microsoft.Skype version 8.137 (Auto)
+ 4 files changed, 102 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.137/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.137/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.137/Microsoft.Skype.locale.zh-CN.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.137/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 746 bytes | 248.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.137-1758948453' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.137-1758948453
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.137-1758948453 -> Remove-Microsoft.Skype-8.137-1758948453
+branch 'Remove-Microsoft.Skype-8.137-1758948453' set up to track 'origin/Remove-Microsoft.Skype-8.137-1758948453'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298019
+ 成功移除 Microsoft.Skype 版本 8.137
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.137-1758948453 (was 64c31a1d8a7).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.136 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.136
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/production/win/Skype-8.136.0.203.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/production/win/Skype-8.136.0.203.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/production/win/Skype-8.136.0.203.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021CE1515450>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.136 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.136-1758948501'
+  已签出新分支 Remove-Microsoft.Skype-8.136-1758948501
+  已移除软件包 Microsoft.Skype 版本 8.136
+[Remove-Microsoft.Skype-8.136-1758948501 4e3d04571e2] Remove version: Microsoft.Skype version 8.136 (Auto)
+ 4 files changed, 102 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.136/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.136/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.136/Microsoft.Skype.locale.zh-CN.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.136/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 748 bytes | 187.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.136-1758948501' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.136-1758948501
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.136-1758948501 -> Remove-Microsoft.Skype-8.136-1758948501
+branch 'Remove-Microsoft.Skype-8.136-1758948501' set up to track 'origin/Remove-Microsoft.Skype-8.136-1758948501'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298021
+ 成功移除 Microsoft.Skype 版本 8.136
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.136-1758948501 (was 4e3d04571e2).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.134 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.134
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/production/win/Skype-8.134.0.202.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/production/win/Skype-8.134.0.202.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/production/win/Skype-8.134.0.202.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021CE1514050>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.134 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.134-1758948572'
+  已签出新分支 Remove-Microsoft.Skype-8.134-1758948572
+  已移除软件包 Microsoft.Skype 版本 8.134
+[Remove-Microsoft.Skype-8.134-1758948572 9a9c5b45be7] Remove version: Microsoft.Skype version 8.134 (Auto)
+ 4 files changed, 102 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.134/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.134/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.134/Microsoft.Skype.locale.zh-CN.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.134/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 747 bytes | 373.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.134-1758948572' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.134-1758948572
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.134-1758948572 -> Remove-Microsoft.Skype-8.134-1758948572
+branch 'Remove-Microsoft.Skype-8.134-1758948572' set up to track 'origin/Remove-Microsoft.Skype-8.134-1758948572'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298022
+ 成功移除 Microsoft.Skype 版本 8.134
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.134-1758948572 (was 9a9c5b45be7).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.133 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.133
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/production/win/Skype-8.133.0.202.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/production/win/Skype-8.133.0.202.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/production/win/Skype-8.133.0.202.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021CE1517B10>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.133 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.133-1758948667'
+  已签出新分支 Remove-Microsoft.Skype-8.133-1758948667
+  已移除软件包 Microsoft.Skype 版本 8.133
+[Remove-Microsoft.Skype-8.133-1758948667 1f876310795] Remove version: Microsoft.Skype version 8.133 (Auto)
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.133/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.133/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.133/Microsoft.Skype.locale.zh-CN.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.133/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 750 bytes | 250.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.133-1758948667' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.133-1758948667
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.133-1758948667 -> Remove-Microsoft.Skype-8.133-1758948667
+branch 'Remove-Microsoft.Skype-8.133-1758948667' set up to track 'origin/Remove-Microsoft.Skype-8.133-1758948667'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298023
+ 成功移除 Microsoft.Skype 版本 8.133
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.133-1758948667 (was 1f876310795).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.132 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.132
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/production/win/Skype-8.132.0.201.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/production/win/Skype-8.132.0.201.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/production/win/Skype-8.132.0.201.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021CE1517C50>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.132 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.132-1758948894'
+  已签出新分支 Remove-Microsoft.Skype-8.132-1758948894
+  已移除软件包 Microsoft.Skype 版本 8.132
+[Remove-Microsoft.Skype-8.132-1758948894 e8adb0cb5e2] Remove version: Microsoft.Skype version 8.132 (Auto)
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.132/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.132/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.132/Microsoft.Skype.locale.zh-CN.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.132/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 745 bytes | 248.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.132-1758948894' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.132-1758948894
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.132-1758948894 -> Remove-Microsoft.Skype-8.132-1758948894
+branch 'Remove-Microsoft.Skype-8.132-1758948894' set up to track 'origin/Remove-Microsoft.Skype-8.132-1758948894'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298024
+ 成功移除 Microsoft.Skype 版本 8.132
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.132-1758948894 (was e8adb0cb5e2).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.131 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.131
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/production/win/Skype-8.131.0.202.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/production/win/Skype-8.131.0.202.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/production/win/Skype-8.131.0.202.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C0CEB05590>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.131 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.131-1758949689'
+  已签出新分支 Remove-Microsoft.Skype-8.131-1758949689
+  已移除软件包 Microsoft.Skype 版本 8.131
+[Remove-Microsoft.Skype-8.131-1758949689 de5fe86bab9] Remove version: Microsoft.Skype version 8.131 (Auto)
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.131/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.131/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.131/Microsoft.Skype.locale.zh-CN.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.131/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 749 bytes | 249.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.131-1758949689' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.131-1758949689
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.131-1758949689 -> Remove-Microsoft.Skype-8.131-1758949689
+branch 'Remove-Microsoft.Skype-8.131-1758949689' set up to track 'origin/Remove-Microsoft.Skype-8.131-1758949689'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298025
+ 成功移除 Microsoft.Skype 版本 8.131
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.131-1758949689 (was de5fe86bab9).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.130 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.130
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/production/win/Skype-8.130.0.205.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/production/win/Skype-8.130.0.205.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/production/win/Skype-8.130.0.205.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C0CEB05810>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.130 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.130-1758949763'
+  已签出新分支 Remove-Microsoft.Skype-8.130-1758949763
+  已移除软件包 Microsoft.Skype 版本 8.130
+[Remove-Microsoft.Skype-8.130-1758949763 ed4333ea0b8] Remove version: Microsoft.Skype version 8.130 (Auto)
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.130/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.130/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.130/Microsoft.Skype.locale.zh-CN.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.130/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 747 bytes | 249.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.130-1758949763' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.130-1758949763
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.130-1758949763 -> Remove-Microsoft.Skype-8.130-1758949763
+branch 'Remove-Microsoft.Skype-8.130-1758949763' set up to track 'origin/Remove-Microsoft.Skype-8.130-1758949763'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298026
+ 成功移除 Microsoft.Skype 版本 8.130
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.130-1758949763 (was ed4333ea0b8).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.129 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.129
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/production/win/Skype-8.129.0.202.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/production/win/Skype-8.129.0.202.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/production/win/Skype-8.129.0.202.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C0CEB05090>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.129 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.129-1758949827'
+  已签出新分支 Remove-Microsoft.Skype-8.129-1758949827
+  已移除软件包 Microsoft.Skype 版本 8.129
+[Remove-Microsoft.Skype-8.129-1758949827 17bc1e1afe4] Remove version: Microsoft.Skype version 8.129 (Auto)
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.129/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.129/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.129/Microsoft.Skype.locale.zh-CN.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.129/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 747 bytes | 249.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.129-1758949827' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.129-1758949827
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.129-1758949827 -> Remove-Microsoft.Skype-8.129-1758949827
+branch 'Remove-Microsoft.Skype-8.129-1758949827' set up to track 'origin/Remove-Microsoft.Skype-8.129-1758949827'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298027
+ 成功移除 Microsoft.Skype 版本 8.129
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.129-1758949827 (was 17bc1e1afe4).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.128 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.128
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/production/win/Skype-8.128.0.207.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/production/win/Skype-8.128.0.207.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/production/win/Skype-8.128.0.207.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C0CEB05450>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.128 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.128-1758949884'
+  已签出新分支 Remove-Microsoft.Skype-8.128-1758949884
+  已移除软件包 Microsoft.Skype 版本 8.128
+[Remove-Microsoft.Skype-8.128-1758949884 099d672f796] Remove version: Microsoft.Skype version 8.128 (Auto)
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.128/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.128/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.128/Microsoft.Skype.locale.zh-CN.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.128/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 748 bytes | 374.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.128-1758949884' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.128-1758949884
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.128-1758949884 -> Remove-Microsoft.Skype-8.128-1758949884
+branch 'Remove-Microsoft.Skype-8.128-1758949884' set up to track 'origin/Remove-Microsoft.Skype-8.128-1758949884'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298028
+ 成功移除 Microsoft.Skype 版本 8.128
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.128-1758949884 (was 099d672f796).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.127 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.127
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/production/win/Skype-8.127.0.200.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/production/win/Skype-8.127.0.200.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/production/win/Skype-8.127.0.200.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C0CEB04050>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.127 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.127-1758949938'
+  已签出新分支 Remove-Microsoft.Skype-8.127-1758949938
+  已移除软件包 Microsoft.Skype 版本 8.127
+[Remove-Microsoft.Skype-8.127-1758949938 3415451534d] Remove version: Microsoft.Skype version 8.127 (Auto)
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.127/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.127/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.127/Microsoft.Skype.locale.zh-CN.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.127/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 744 bytes | 372.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.127-1758949938' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.127-1758949938
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.127-1758949938 -> Remove-Microsoft.Skype-8.127-1758949938
+branch 'Remove-Microsoft.Skype-8.127-1758949938' set up to track 'origin/Remove-Microsoft.Skype-8.127-1758949938'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298029
+ 成功移除 Microsoft.Skype 版本 8.127
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.127-1758949938 (was 3415451534d).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.126 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.126
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/production/win/Skype-8.126.0.208.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/production/win/Skype-8.126.0.208.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/production/win/Skype-8.126.0.208.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002123DC15590>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.126 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.126-1758950086'
+  已签出新分支 Remove-Microsoft.Skype-8.126-1758950086
+  已移除软件包 Microsoft.Skype 版本 8.126
+[Remove-Microsoft.Skype-8.126-1758950086 94a8160d6f0] Remove version: Microsoft.Skype version 8.126 (Auto)
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.126/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.126/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.126/Microsoft.Skype.locale.zh-CN.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.126/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 751 bytes | 375.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.126-1758950086' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.126-1758950086
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.126-1758950086 -> Remove-Microsoft.Skype-8.126-1758950086
+branch 'Remove-Microsoft.Skype-8.126-1758950086' set up to track 'origin/Remove-Microsoft.Skype-8.126-1758950086'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298030
+ 成功移除 Microsoft.Skype 版本 8.126
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.126-1758950086 (was 94a8160d6f0).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.125 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.125
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/production/win/Skype-8.125.0.201.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/production/win/Skype-8.125.0.201.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/production/win/Skype-8.125.0.201.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002123DC14E10>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.125 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.125-1758950138'
+  已签出新分支 Remove-Microsoft.Skype-8.125-1758950138
+  已移除软件包 Microsoft.Skype 版本 8.125
+[Remove-Microsoft.Skype-8.125-1758950138 b59255c4d5b] Remove version: Microsoft.Skype version 8.125 (Auto)
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.125/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.125/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.125/Microsoft.Skype.locale.zh-CN.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.125/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 750 bytes | 375.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.125-1758950138' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.125-1758950138
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.125-1758950138 -> Remove-Microsoft.Skype-8.125-1758950138
+branch 'Remove-Microsoft.Skype-8.125-1758950138' set up to track 'origin/Remove-Microsoft.Skype-8.125-1758950138'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298031
+ 成功移除 Microsoft.Skype 版本 8.125
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.125-1758950138 (was b59255c4d5b).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.124 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.124
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/production/win/Skype-8.124.0.204.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/production/win/Skype-8.124.0.204.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/production/win/Skype-8.124.0.204.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002123DC14F50>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.124 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.124-1758950195'
+  已签出新分支 Remove-Microsoft.Skype-8.124-1758950195
+  已移除软件包 Microsoft.Skype 版本 8.124
+[Remove-Microsoft.Skype-8.124-1758950195 846f3dd7171] Remove version: Microsoft.Skype version 8.124 (Auto)
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.124/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.124/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.124/Microsoft.Skype.locale.zh-CN.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.124/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 749 bytes | 374.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.124-1758950195' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.124-1758950195
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.124-1758950195 -> Remove-Microsoft.Skype-8.124-1758950195
+branch 'Remove-Microsoft.Skype-8.124-1758950195' set up to track 'origin/Remove-Microsoft.Skype-8.124-1758950195'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298032
+ 成功移除 Microsoft.Skype 版本 8.124
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.124-1758950195 (was 846f3dd7171).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.123 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.123
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/production/win/Skype-8.123.0.203.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/production/win/Skype-8.123.0.203.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/production/win/Skype-8.123.0.203.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002123DC14CD0>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.123 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.123-1758950253'
+  已签出新分支 Remove-Microsoft.Skype-8.123-1758950253
+  已移除软件包 Microsoft.Skype 版本 8.123
+[Remove-Microsoft.Skype-8.123-1758950253 077002c4c69] Remove version: Microsoft.Skype version 8.123 (Auto)
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.123/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.123/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.123/Microsoft.Skype.locale.zh-CN.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.123/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 748 bytes | 374.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.123-1758950253' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.123-1758950253
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.123-1758950253 -> Remove-Microsoft.Skype-8.123-1758950253
+branch 'Remove-Microsoft.Skype-8.123-1758950253' set up to track 'origin/Remove-Microsoft.Skype-8.123-1758950253'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298033
+ 成功移除 Microsoft.Skype 版本 8.123
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.123-1758950253 (was 077002c4c69).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.122 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.122
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/production/win/Skype-8.122.0.205.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/production/win/Skype-8.122.0.205.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/production/win/Skype-8.122.0.205.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002123DC174D0>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.122 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.122-1758950311'
+  已签出新分支 Remove-Microsoft.Skype-8.122-1758950311
+  已移除软件包 Microsoft.Skype 版本 8.122
+[Remove-Microsoft.Skype-8.122-1758950311 287fffb31b6] Remove version: Microsoft.Skype version 8.122 (Auto)
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.122/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.122/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.122/Microsoft.Skype.locale.zh-CN.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.122/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 745 bytes | 372.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.122-1758950311' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.122-1758950311
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.122-1758950311 -> Remove-Microsoft.Skype-8.122-1758950311
+branch 'Remove-Microsoft.Skype-8.122-1758950311' set up to track 'origin/Remove-Microsoft.Skype-8.122-1758950311'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298034
+ 成功移除 Microsoft.Skype 版本 8.122
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.122-1758950311 (was 287fffb31b6).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.120 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.120
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/production/win/Skype-8.120.0.207.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/production/win/Skype-8.120.0.207.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/production/win/Skype-8.120.0.207.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002123DC17C50>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.120 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.120-1758950386'
+  已签出新分支 Remove-Microsoft.Skype-8.120-1758950386
+  已移除软件包 Microsoft.Skype 版本 8.120
+[Remove-Microsoft.Skype-8.120-1758950386 9a0f82fda39] Remove version: Microsoft.Skype version 8.120 (Auto)
+ 4 files changed, 119 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.120/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.120/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.120/Microsoft.Skype.locale.zh-CN.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.120/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 744 bytes | 372.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.120-1758950386' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.120-1758950386
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.120-1758950386 -> Remove-Microsoft.Skype-8.120-1758950386
+branch 'Remove-Microsoft.Skype-8.120-1758950386' set up to track 'origin/Remove-Microsoft.Skype-8.120-1758950386'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298035
+ 成功移除 Microsoft.Skype 版本 8.120
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.120-1758950386 (was 9a0f82fda39).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.110 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.110
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.110.0.218.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.110.0.218.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.110.0.218.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002D569AD5590>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.110 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.110-1758950929'
+  已签出新分支 Remove-Microsoft.Skype-8.110-1758950929
+  已移除软件包 Microsoft.Skype 版本 8.110
+[Remove-Microsoft.Skype-8.110-1758950929 6bb24d5b524] Remove version: Microsoft.Skype version 8.110 (Auto)
+ 3 files changed, 63 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.110/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.110/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.110/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 747 bytes | 373.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.110-1758950929' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.110-1758950929
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.110-1758950929 -> Remove-Microsoft.Skype-8.110-1758950929
+branch 'Remove-Microsoft.Skype-8.110-1758950929' set up to track 'origin/Remove-Microsoft.Skype-8.110-1758950929'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298043
+ 成功移除 Microsoft.Skype 版本 8.110
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.110-1758950929 (was 6bb24d5b524).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.109 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.109
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.109.0.209.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.109.0.209.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.109.0.209.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002D569AD7250>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.109 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.109-1758950979'
+  已签出新分支 Remove-Microsoft.Skype-8.109-1758950979
+  已移除软件包 Microsoft.Skype 版本 8.109
+[Remove-Microsoft.Skype-8.109-1758950979 3f9f35d9542] Remove version: Microsoft.Skype version 8.109 (Auto)
+ 3 files changed, 66 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.109/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.109/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.109/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 743 bytes | 371.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.109-1758950979' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.109-1758950979
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.109-1758950979 -> Remove-Microsoft.Skype-8.109-1758950979
+branch 'Remove-Microsoft.Skype-8.109-1758950979' set up to track 'origin/Remove-Microsoft.Skype-8.109-1758950979'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298045
+ 成功移除 Microsoft.Skype 版本 8.109
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.109-1758950979 (was 3f9f35d9542).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.97 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.97
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.97.0.404.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.97.0.404.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.97.0.404.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002D569AD51D0>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.97 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.97-1758951034'
+  已签出新分支 Remove-Microsoft.Skype-8.97-1758951034
+  已移除软件包 Microsoft.Skype 版本 8.97
+[Remove-Microsoft.Skype-8.97-1758951034 b4843c7946c] Remove version: Microsoft.Skype version 8.97 (Auto)
+ 3 files changed, 65 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.97/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.97/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.97/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 745 bytes | 372.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.97-1758951034' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.97-1758951034
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.97-1758951034 -> Remove-Microsoft.Skype-8.97-1758951034
+branch 'Remove-Microsoft.Skype-8.97-1758951034' set up to track 'origin/Remove-Microsoft.Skype-8.97-1758951034'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298048
+ 成功移除 Microsoft.Skype 版本 8.97
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.97-1758951034 (was b4843c7946c).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.96 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.96
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.96.0.409.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.96.0.409.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.96.0.409.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002D569AD5450>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.96 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.96-1758951085'
+  已签出新分支 Remove-Microsoft.Skype-8.96-1758951085
+  已移除软件包 Microsoft.Skype 版本 8.96
+[Remove-Microsoft.Skype-8.96-1758951085 deb6455746b] Remove version: Microsoft.Skype version 8.96 (Auto)
+ 3 files changed, 65 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.96/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.96/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.96/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 744 bytes | 372.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.96-1758951085' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.96-1758951085
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.96-1758951085 -> Remove-Microsoft.Skype-8.96-1758951085
+branch 'Remove-Microsoft.Skype-8.96-1758951085' set up to track 'origin/Remove-Microsoft.Skype-8.96-1758951085'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298050
+ 成功移除 Microsoft.Skype 版本 8.96
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.96-1758951085 (was deb6455746b).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.95 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.95
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.95.0.408.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.95.0.408.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.95.0.408.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002D569AD42D0>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.95 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.95-1758951142'
+  已签出新分支 Remove-Microsoft.Skype-8.95-1758951142
+  已移除软件包 Microsoft.Skype 版本 8.95
+[Remove-Microsoft.Skype-8.95-1758951142 41e8ecdadd0] Remove version: Microsoft.Skype version 8.95 (Auto)
+ 3 files changed, 67 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.95/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.95/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.95/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 741 bytes | 370.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.95-1758951142' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.95-1758951142
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.95-1758951142 -> Remove-Microsoft.Skype-8.95-1758951142
+branch 'Remove-Microsoft.Skype-8.95-1758951142' set up to track 'origin/Remove-Microsoft.Skype-8.95-1758951142'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298052
+ 成功移除 Microsoft.Skype 版本 8.95
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.95-1758951142 (was 41e8ecdadd0).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.94 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.94
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.94.0.428.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.94.0.428.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.94.0.428.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002D569AD7B10>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.94 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.94-1758951228'
+  已签出新分支 Remove-Microsoft.Skype-8.94-1758951228
+  已移除软件包 Microsoft.Skype 版本 8.94
+[Remove-Microsoft.Skype-8.94-1758951228 b8da807a658] Remove version: Microsoft.Skype version 8.94 (Auto)
+ 3 files changed, 66 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.94/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.94/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.94/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 747 bytes | 373.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.94-1758951228' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.94-1758951228
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.94-1758951228 -> Remove-Microsoft.Skype-8.94-1758951228
+branch 'Remove-Microsoft.Skype-8.94-1758951228' set up to track 'origin/Remove-Microsoft.Skype-8.94-1758951228'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298054
+ 成功移除 Microsoft.Skype 版本 8.94
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.94-1758951228 (was b8da807a658).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.93 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.93
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.93.0.404.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.93.0.404.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.93.0.404.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000143A67C5590>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.93 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.93-1758951451'
+  已签出新分支 Remove-Microsoft.Skype-8.93-1758951451
+  已移除软件包 Microsoft.Skype 版本 8.93
+[Remove-Microsoft.Skype-8.93-1758951451 a82c06576b7] Remove version: Microsoft.Skype version 8.93 (Auto)
+ 3 files changed, 66 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.93/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.93/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.93/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 742 bytes | 247.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.93-1758951451' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.93-1758951451
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.93-1758951451 -> Remove-Microsoft.Skype-8.93-1758951451
+branch 'Remove-Microsoft.Skype-8.93-1758951451' set up to track 'origin/Remove-Microsoft.Skype-8.93-1758951451'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298056
+ 成功移除 Microsoft.Skype 版本 8.93
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.93-1758951451 (was a82c06576b7).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.92 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.92
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.92.0.401.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.92.0.401.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.92.0.401.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000143A67C7250>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.92 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.92-1758951505'
+  已签出新分支 Remove-Microsoft.Skype-8.92-1758951505
+  已移除软件包 Microsoft.Skype 版本 8.92
+[Remove-Microsoft.Skype-8.92-1758951505 87ff1f4a05f] Remove version: Microsoft.Skype version 8.92 (Auto)
+ 3 files changed, 66 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.92/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.92/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.92/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 749 bytes | 249.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.92-1758951505' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.92-1758951505
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.92-1758951505 -> Remove-Microsoft.Skype-8.92-1758951505
+branch 'Remove-Microsoft.Skype-8.92-1758951505' set up to track 'origin/Remove-Microsoft.Skype-8.92-1758951505'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298057
+ 成功移除 Microsoft.Skype 版本 8.92
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.92-1758951505 (was 87ff1f4a05f).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.91 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.91
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.91.0.404.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.91.0.404.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.91.0.404.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000143A67C5090>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.91 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.91-1758951560'
+  已签出新分支 Remove-Microsoft.Skype-8.91-1758951560
+  已移除软件包 Microsoft.Skype 版本 8.91
+[Remove-Microsoft.Skype-8.91-1758951560 978ad685cbd] Remove version: Microsoft.Skype version 8.91 (Auto)
+ 3 files changed, 66 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.91/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.91/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.91/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 746 bytes | 746.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.91-1758951560' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.91-1758951560
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.91-1758951560 -> Remove-Microsoft.Skype-8.91-1758951560
+branch 'Remove-Microsoft.Skype-8.91-1758951560' set up to track 'origin/Remove-Microsoft.Skype-8.91-1758951560'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298058
+ 成功移除 Microsoft.Skype 版本 8.91
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.91-1758951560 (was 978ad685cbd).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.90 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.90
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.90.0.407.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.90.0.407.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.90.0.407.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000143A67C4CD0>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.90 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.90-1758951617'
+  已签出新分支 Remove-Microsoft.Skype-8.90-1758951617
+  已移除软件包 Microsoft.Skype 版本 8.90
+[Remove-Microsoft.Skype-8.90-1758951617 feb0b24acce] Remove version: Microsoft.Skype version 8.90 (Auto)
+ 3 files changed, 66 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.90/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.90/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.90/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 749 bytes | 374.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.90-1758951617' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.90-1758951617
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.90-1758951617 -> Remove-Microsoft.Skype-8.90-1758951617
+branch 'Remove-Microsoft.Skype-8.90-1758951617' set up to track 'origin/Remove-Microsoft.Skype-8.90-1758951617'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298059
+ 成功移除 Microsoft.Skype 版本 8.90
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.90-1758951617 (was feb0b24acce).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.89 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.89
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.89.0.403.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.89.0.403.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.89.0.403.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000143A67C74D0>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.89 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.89-1758951682'
+  已签出新分支 Remove-Microsoft.Skype-8.89-1758951682
+  已移除软件包 Microsoft.Skype 版本 8.89
+[Remove-Microsoft.Skype-8.89-1758951682 a8c5b942f27] Remove version: Microsoft.Skype version 8.89 (Auto)
+ 3 files changed, 66 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.89/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.89/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.89/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 745 bytes | 248.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.89-1758951682' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.89-1758951682
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.89-1758951682 -> Remove-Microsoft.Skype-8.89-1758951682
+branch 'Remove-Microsoft.Skype-8.89-1758951682' set up to track 'origin/Remove-Microsoft.Skype-8.89-1758951682'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298060
+ 成功移除 Microsoft.Skype 版本 8.89
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.89-1758951682 (was a8c5b942f27).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.88 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.88
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.88.0.401.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.88.0.401.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.88.0.401.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000143A67C7C50>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.88 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.88-1758951770'
+  已签出新分支 Remove-Microsoft.Skype-8.88-1758951770
+  已移除软件包 Microsoft.Skype 版本 8.88
+[Remove-Microsoft.Skype-8.88-1758951770 0f756f8b10f] Remove version: Microsoft.Skype version 8.88 (Auto)
+ 3 files changed, 66 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.88/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.88/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.88/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 746 bytes | 373.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.88-1758951770' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.88-1758951770
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.88-1758951770 -> Remove-Microsoft.Skype-8.88-1758951770
+branch 'Remove-Microsoft.Skype-8.88-1758951770' set up to track 'origin/Remove-Microsoft.Skype-8.88-1758951770'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298061
+ 成功移除 Microsoft.Skype 版本 8.88
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.88-1758951770 (was 0f756f8b10f).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.87 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.87
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.87.0.406.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.87.0.406.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.87.0.406.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000143A6723B10>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.87 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.87-1758951912'
+  已签出新分支 Remove-Microsoft.Skype-8.87-1758951912
+  已移除软件包 Microsoft.Skype 版本 8.87
+[Remove-Microsoft.Skype-8.87-1758951912 30b2eab5f88] Remove version: Microsoft.Skype version 8.87 (Auto)
+ 3 files changed, 66 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.87/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.87/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.87/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 751 bytes | 375.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.87-1758951912' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.87-1758951912
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.87-1758951912 -> Remove-Microsoft.Skype-8.87-1758951912
+branch 'Remove-Microsoft.Skype-8.87-1758951912' set up to track 'origin/Remove-Microsoft.Skype-8.87-1758951912'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298062
+ 成功移除 Microsoft.Skype 版本 8.87
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.87-1758951912 (was 30b2eab5f88).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.86 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.86
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.86.0.409.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.86.0.409.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.86.0.409.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027B8BA45590>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.86 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.86-1758952087'
+  已签出新分支 Remove-Microsoft.Skype-8.86-1758952087
+  已移除软件包 Microsoft.Skype 版本 8.86
+[Remove-Microsoft.Skype-8.86-1758952087 97112b29afb] Remove version: Microsoft.Skype version 8.86 (Auto)
+ 3 files changed, 66 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.86/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.86/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.86/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 745 bytes | 372.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.86-1758952087' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.86-1758952087
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.86-1758952087 -> Remove-Microsoft.Skype-8.86-1758952087
+branch 'Remove-Microsoft.Skype-8.86-1758952087' set up to track 'origin/Remove-Microsoft.Skype-8.86-1758952087'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298063
+ 成功移除 Microsoft.Skype 版本 8.86
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.86-1758952087 (was 97112b29afb).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.85 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.85
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.85.0.409.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.85.0.409.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.85.0.409.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027B8BA47250>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.85 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.85-1758952146'
+  已签出新分支 Remove-Microsoft.Skype-8.85-1758952146
+  已移除软件包 Microsoft.Skype 版本 8.85
+[Remove-Microsoft.Skype-8.85-1758952146 40900834a19] Remove version: Microsoft.Skype version 8.85 (Auto)
+ 3 files changed, 61 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.85/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.85/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.85/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 745 bytes | 372.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.85-1758952146' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.85-1758952146
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.85-1758952146 -> Remove-Microsoft.Skype-8.85-1758952146
+branch 'Remove-Microsoft.Skype-8.85-1758952146' set up to track 'origin/Remove-Microsoft.Skype-8.85-1758952146'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298064
+ 成功移除 Microsoft.Skype 版本 8.85
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.85-1758952146 (was 40900834a19).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.83 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.83
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.83.0.408.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.83.0.408.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.83.0.408.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027B8BA45090>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.83 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.83-1758952196'
+  已签出新分支 Remove-Microsoft.Skype-8.83-1758952196
+  已移除软件包 Microsoft.Skype 版本 8.83
+[Remove-Microsoft.Skype-8.83-1758952196 183e1afd552] Remove version: Microsoft.Skype version 8.83 (Auto)
+ 3 files changed, 61 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.83/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.83/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.83/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 749 bytes | 57.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.83-1758952196' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.83-1758952196
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.83-1758952196 -> Remove-Microsoft.Skype-8.83-1758952196
+branch 'Remove-Microsoft.Skype-8.83-1758952196' set up to track 'origin/Remove-Microsoft.Skype-8.83-1758952196'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298066
+ 成功移除 Microsoft.Skype 版本 8.83
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.83-1758952196 (was 183e1afd552).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.82 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.82
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.82.0.403.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.82.0.403.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.82.0.403.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027B8BA44CD0>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.82 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.82-1758952253'
+  已签出新分支 Remove-Microsoft.Skype-8.82-1758952253
+  已移除软件包 Microsoft.Skype 版本 8.82
+[Remove-Microsoft.Skype-8.82-1758952253 e341bbf7c58] Remove version: Microsoft.Skype version 8.82 (Auto)
+ 3 files changed, 61 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.82/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.82/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.82/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 752 bytes | 376.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.82-1758952253' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.82-1758952253
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.82-1758952253 -> Remove-Microsoft.Skype-8.82-1758952253
+branch 'Remove-Microsoft.Skype-8.82-1758952253' set up to track 'origin/Remove-Microsoft.Skype-8.82-1758952253'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298067
+ 成功移除 Microsoft.Skype 版本 8.82
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.82-1758952253 (was e341bbf7c58).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.81 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.81
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.81.0.268.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.81.0.268.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.81.0.268.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027B8BA474D0>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.81 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.81-1758952308'
+  已签出新分支 Remove-Microsoft.Skype-8.81-1758952308
+  已移除软件包 Microsoft.Skype 版本 8.81
+[Remove-Microsoft.Skype-8.81-1758952308 c0644e05357] Remove version: Microsoft.Skype version 8.81 (Auto)
+ 3 files changed, 61 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.81/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.81/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.81/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 747 bytes | 373.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.81-1758952308' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.81-1758952308
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.81-1758952308 -> Remove-Microsoft.Skype-8.81-1758952308
+branch 'Remove-Microsoft.Skype-8.81-1758952308' set up to track 'origin/Remove-Microsoft.Skype-8.81-1758952308'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298068
+ 成功移除 Microsoft.Skype 版本 8.81
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.81-1758952308 (was c0644e05357).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.80 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.80
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.80.0.143.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.80.0.143.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.80.0.143.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027B8BA47C50>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.80 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.80-1758952378'
+  已签出新分支 Remove-Microsoft.Skype-8.80-1758952378
+  已移除软件包 Microsoft.Skype 版本 8.80
+[Remove-Microsoft.Skype-8.80-1758952378 f89e2a67d93] Remove version: Microsoft.Skype version 8.80 (Auto)
+ 3 files changed, 61 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.80/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.80/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.80/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 747 bytes | 373.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.80-1758952378' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.80-1758952378
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.80-1758952378 -> Remove-Microsoft.Skype-8.80-1758952378
+branch 'Remove-Microsoft.Skype-8.80-1758952378' set up to track 'origin/Remove-Microsoft.Skype-8.80-1758952378'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298070
+ 成功移除 Microsoft.Skype 版本 8.80
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.80-1758952378 (was f89e2a67d93).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.79 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.79
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.79.0.95.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.79.0.95.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.79.0.95.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000264A9975590>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.79 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.79-1758952531'
+  已签出新分支 Remove-Microsoft.Skype-8.79-1758952531
+  已移除软件包 Microsoft.Skype 版本 8.79
+[Remove-Microsoft.Skype-8.79-1758952531 e44835636c7] Remove version: Microsoft.Skype version 8.79 (Auto)
+ 3 files changed, 53 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.79/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.79/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.79/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 745 bytes | 372.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.79-1758952531' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.79-1758952531
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.79-1758952531 -> Remove-Microsoft.Skype-8.79-1758952531
+branch 'Remove-Microsoft.Skype-8.79-1758952531' set up to track 'origin/Remove-Microsoft.Skype-8.79-1758952531'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298071
+ 成功移除 Microsoft.Skype 版本 8.79
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.79-1758952531 (was e44835636c7).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.78 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.78
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.78.0.159.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.78.0.159.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.78.0.159.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000264A9977250>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.78 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.78-1758952581'
+  已签出新分支 Remove-Microsoft.Skype-8.78-1758952581
+  已移除软件包 Microsoft.Skype 版本 8.78
+[Remove-Microsoft.Skype-8.78-1758952581 5acaaa656bf] Remove version: Microsoft.Skype version 8.78 (Auto)
+ 3 files changed, 53 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.78/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.78/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.78/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 747 bytes | 373.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.78-1758952581' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.78-1758952581
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.78-1758952581 -> Remove-Microsoft.Skype-8.78-1758952581
+branch 'Remove-Microsoft.Skype-8.78-1758952581' set up to track 'origin/Remove-Microsoft.Skype-8.78-1758952581'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298072
+ 成功移除 Microsoft.Skype 版本 8.78
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.78-1758952581 (was 5acaaa656bf).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.77 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.77
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.77.0.97.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.77.0.97.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.77.0.97.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000264A99751D0>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.77 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.77-1758952632'
+  已签出新分支 Remove-Microsoft.Skype-8.77-1758952632
+  已移除软件包 Microsoft.Skype 版本 8.77
+[Remove-Microsoft.Skype-8.77-1758952632 c54e6025d4b] Remove version: Microsoft.Skype version 8.77 (Auto)
+ 3 files changed, 53 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.77/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.77/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.77/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 748 bytes | 374.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.77-1758952632' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.77-1758952632
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.77-1758952632 -> Remove-Microsoft.Skype-8.77-1758952632
+branch 'Remove-Microsoft.Skype-8.77-1758952632' set up to track 'origin/Remove-Microsoft.Skype-8.77-1758952632'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298073
+ 成功移除 Microsoft.Skype 版本 8.77
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.77-1758952632 (was c54e6025d4b).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.75 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.75
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.75.0.140.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.75.0.140.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.75.0.140.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000264A9975450>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.75 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.75-1758952683'
+  已签出新分支 Remove-Microsoft.Skype-8.75-1758952683
+  已移除软件包 Microsoft.Skype 版本 8.75
+[Remove-Microsoft.Skype-8.75-1758952683 9429fafeb5d] Remove version: Microsoft.Skype version 8.75 (Auto)
+ 3 files changed, 62 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.75/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.75/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.75/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 740 bytes | 370.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.75-1758952683' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.75-1758952683
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.75-1758952683 -> Remove-Microsoft.Skype-8.75-1758952683
+branch 'Remove-Microsoft.Skype-8.75-1758952683' set up to track 'origin/Remove-Microsoft.Skype-8.75-1758952683'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298074
+ 成功移除 Microsoft.Skype 版本 8.75
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.75-1758952683 (was 9429fafeb5d).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.74 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.74
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.74.0.152.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.74.0.152.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.74.0.152.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000264A99742D0>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.74 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.74-1758952737'
+  已签出新分支 Remove-Microsoft.Skype-8.74-1758952737
+  已移除软件包 Microsoft.Skype 版本 8.74
+[Remove-Microsoft.Skype-8.74-1758952737 ff8d87f8e27] Remove version: Microsoft.Skype version 8.74 (Auto)
+ 3 files changed, 63 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.74/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.74/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.74/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 745 bytes | 372.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.74-1758952737' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.74-1758952737
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.74-1758952737 -> Remove-Microsoft.Skype-8.74-1758952737
+branch 'Remove-Microsoft.Skype-8.74-1758952737' set up to track 'origin/Remove-Microsoft.Skype-8.74-1758952737'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298076
+ 成功移除 Microsoft.Skype 版本 8.74
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.74-1758952737 (was ff8d87f8e27).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.73 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.73
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.73.0.124.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.73.0.124.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.73.0.124.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000264A9977B10>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.73 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.73-1758952814'
+  已签出新分支 Remove-Microsoft.Skype-8.73-1758952814
+  已移除软件包 Microsoft.Skype 版本 8.73
+[Remove-Microsoft.Skype-8.73-1758952814 0d24889333a] Remove version: Microsoft.Skype version 8.73 (Auto)
+ 3 files changed, 62 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.73/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.73/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.73/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 742 bytes | 371.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.73-1758952814' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.73-1758952814
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.73-1758952814 -> Remove-Microsoft.Skype-8.73-1758952814
+branch 'Remove-Microsoft.Skype-8.73-1758952814' set up to track 'origin/Remove-Microsoft.Skype-8.73-1758952814'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298077
+ 成功移除 Microsoft.Skype 版本 8.73
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.73-1758952814 (was 0d24889333a).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.72.0.94 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.72.0.94
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.72.0.94.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.72.0.94.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.72.0.94.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000264A9977C50>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.72.0.94 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.72.0.94-1758952980'
+  已签出新分支 Remove-Microsoft.Skype-8.72.0.94-1758952980
+  已移除软件包 Microsoft.Skype 版本 8.72.0.94
+[Remove-Microsoft.Skype-8.72.0.94-1758952980 348b024a773] Remove version: Microsoft.Skype version 8.72.0.94 (Auto)
+ 3 files changed, 53 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.72.0.94/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.72.0.94/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.72.0.94/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 751 bytes | 375.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.72.0.94-1758952980' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.72.0.94-1758952980
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.72.0.94-1758952980 -> Remove-Microsoft.Skype-8.72.0.94-1758952980
+branch 'Remove-Microsoft.Skype-8.72.0.94-1758952980' set up to track 'origin/Remove-Microsoft.Skype-8.72.0.94-1758952980'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298081
+ 成功移除 Microsoft.Skype 版本 8.72.0.94
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.72.0.94-1758952980 (was 348b024a773).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.72.0.82 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.72.0.82
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.72.0.82.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.72.0.82.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.72.0.82.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000241765D5590>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.72.0.82 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.72.0.82-1758953205'
+  已签出新分支 Remove-Microsoft.Skype-8.72.0.82-1758953205
+  已移除软件包 Microsoft.Skype 版本 8.72.0.82
+[Remove-Microsoft.Skype-8.72.0.82-1758953205 247c126a51e] Remove version: Microsoft.Skype version 8.72.0.82 (Auto)
+ 3 files changed, 53 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.72.0.82/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.72.0.82/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.72.0.82/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 750 bytes | 375.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.72.0.82-1758953205' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.72.0.82-1758953205
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.72.0.82-1758953205 -> Remove-Microsoft.Skype-8.72.0.82-1758953205
+branch 'Remove-Microsoft.Skype-8.72.0.82-1758953205' set up to track 'origin/Remove-Microsoft.Skype-8.72.0.82-1758953205'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298083
+ 成功移除 Microsoft.Skype 版本 8.72.0.82
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.72.0.82-1758953205 (was 247c126a51e).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.71.0.49 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.71.0.49
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.71.0.49.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.71.0.49.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.71.0.49.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000241765D7250>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.71.0.49 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.71.0.49-1758953257'
+  已签出新分支 Remove-Microsoft.Skype-8.71.0.49-1758953257
+  已移除软件包 Microsoft.Skype 版本 8.71.0.49
+[Remove-Microsoft.Skype-8.71.0.49-1758953257 338d75e1e40] Remove version: Microsoft.Skype version 8.71.0.49 (Auto)
+ 3 files changed, 52 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.71.0.49/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.71.0.49/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.71.0.49/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 754 bytes | 377.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.71.0.49-1758953257' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.71.0.49-1758953257
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.71.0.49-1758953257 -> Remove-Microsoft.Skype-8.71.0.49-1758953257
+branch 'Remove-Microsoft.Skype-8.71.0.49-1758953257' set up to track 'origin/Remove-Microsoft.Skype-8.71.0.49-1758953257'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298084
+ 成功移除 Microsoft.Skype 版本 8.71.0.49
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.71.0.49-1758953257 (was 338d75e1e40).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.71.0.36 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.71.0.36
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.71.0.36.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.71.0.36.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.71.0.36.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000241765D51D0>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.71.0.36 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.71.0.36-1758953308'
+  已签出新分支 Remove-Microsoft.Skype-8.71.0.36-1758953308
+  已移除软件包 Microsoft.Skype 版本 8.71.0.36
+[Remove-Microsoft.Skype-8.71.0.36-1758953308 17d89042746] Remove version: Microsoft.Skype version 8.71.0.36 (Auto)
+ 3 files changed, 47 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.71.0.36/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.71.0.36/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.71.0.36/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 753 bytes | 376.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.71.0.36-1758953308' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.71.0.36-1758953308
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.71.0.36-1758953308 -> Remove-Microsoft.Skype-8.71.0.36-1758953308
+branch 'Remove-Microsoft.Skype-8.71.0.36-1758953308' set up to track 'origin/Remove-Microsoft.Skype-8.71.0.36-1758953308'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298085
+ 成功移除 Microsoft.Skype 版本 8.71.0.36
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.71.0.36-1758953308 (was 17d89042746).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.69.0.77 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.69.0.77
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.69.0.77.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.69.0.77.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.69.0.77.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000241765D5450>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.69.0.77 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.69.0.77-1758953362'
+  已签出新分支 Remove-Microsoft.Skype-8.69.0.77-1758953362
+  已移除软件包 Microsoft.Skype 版本 8.69.0.77
+[Remove-Microsoft.Skype-8.69.0.77-1758953362 2cceb48d7cf] Remove version: Microsoft.Skype version 8.69.0.77 (Auto)
+ 3 files changed, 47 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.69.0.77/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.69.0.77/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.69.0.77/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 748 bytes | 374.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.69.0.77-1758953362' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.69.0.77-1758953362
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.69.0.77-1758953362 -> Remove-Microsoft.Skype-8.69.0.77-1758953362
+branch 'Remove-Microsoft.Skype-8.69.0.77-1758953362' set up to track 'origin/Remove-Microsoft.Skype-8.69.0.77-1758953362'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298086
+ 成功移除 Microsoft.Skype 版本 8.69.0.77
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.69.0.77-1758953362 (was 2cceb48d7cf).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.67.0.96 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.67.0.96
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.67.0.96.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.67.0.96.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.67.0.96.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000241765D42D0>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.67.0.96 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.67.0.96-1758953418'
+  已签出新分支 Remove-Microsoft.Skype-8.67.0.96-1758953418
+  已移除软件包 Microsoft.Skype 版本 8.67.0.96
+[Remove-Microsoft.Skype-8.67.0.96-1758953418 ebd4c104157] Remove version: Microsoft.Skype version 8.67.0.96 (Auto)
+ 3 files changed, 50 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.67.0.96/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.67.0.96/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.67.0.96/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 749 bytes | 374.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.67.0.96-1758953418' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.67.0.96-1758953418
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.67.0.96-1758953418 -> Remove-Microsoft.Skype-8.67.0.96-1758953418
+branch 'Remove-Microsoft.Skype-8.67.0.96-1758953418' set up to track 'origin/Remove-Microsoft.Skype-8.67.0.96-1758953418'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298087
+ 成功移除 Microsoft.Skype 版本 8.67.0.96
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.67.0.96-1758953418 (was ebd4c104157).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.66.0.77 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.66.0.77
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.66.0.77.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.66.0.77.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.66.0.77.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000241765D7B10>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.66.0.77 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.66.0.77-1758953499'
+  已签出新分支 Remove-Microsoft.Skype-8.66.0.77-1758953499
+  已移除软件包 Microsoft.Skype 版本 8.66.0.77
+[Remove-Microsoft.Skype-8.66.0.77-1758953499 198a59a7131] Remove version: Microsoft.Skype version 8.66.0.77 (Auto)
+ 3 files changed, 50 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.66.0.77/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.66.0.77/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.66.0.77/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 748 bytes | 374.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.66.0.77-1758953499' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.66.0.77-1758953499
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.66.0.77-1758953499 -> Remove-Microsoft.Skype-8.66.0.77-1758953499
+branch 'Remove-Microsoft.Skype-8.66.0.77-1758953499' set up to track 'origin/Remove-Microsoft.Skype-8.66.0.77-1758953499'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298088
+ 成功移除 Microsoft.Skype 版本 8.66.0.77
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.66.0.77-1758953499 (was 198a59a7131).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.65.0.78 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.65.0.78
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.65.0.78.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.65.0.78.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.65.0.78.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000187285E1590>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.65.0.78 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.65.0.78-1758953696'
+  已签出新分支 Remove-Microsoft.Skype-8.65.0.78-1758953696
+  已移除软件包 Microsoft.Skype 版本 8.65.0.78
+[Remove-Microsoft.Skype-8.65.0.78-1758953696 bb56c3621ed] Remove version: Microsoft.Skype version 8.65.0.78 (Auto)
+ 3 files changed, 47 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.65.0.78/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.65.0.78/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.65.0.78/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 747 bytes | 373.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.65.0.78-1758953696' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.65.0.78-1758953696
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.65.0.78-1758953696 -> Remove-Microsoft.Skype-8.65.0.78-1758953696
+branch 'Remove-Microsoft.Skype-8.65.0.78-1758953696' set up to track 'origin/Remove-Microsoft.Skype-8.65.0.78-1758953696'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298091
+ 成功移除 Microsoft.Skype 版本 8.65.0.78
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.65.0.78-1758953696 (was bb56c3621ed).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.65.0.76 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.65.0.76
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.65.0.76.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.65.0.76.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.65.0.76.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000187285E0E10>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.65.0.76 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.65.0.76-1758953759'
+  已签出新分支 Remove-Microsoft.Skype-8.65.0.76-1758953759
+  已移除软件包 Microsoft.Skype 版本 8.65.0.76
+[Remove-Microsoft.Skype-8.65.0.76-1758953759 a9c9009f015] Remove version: Microsoft.Skype version 8.65.0.76 (Auto)
+ 3 files changed, 50 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.65.0.76/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.65.0.76/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.65.0.76/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 750 bytes | 375.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.65.0.76-1758953759' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.65.0.76-1758953759
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.65.0.76-1758953759 -> Remove-Microsoft.Skype-8.65.0.76-1758953759
+branch 'Remove-Microsoft.Skype-8.65.0.76-1758953759' set up to track 'origin/Remove-Microsoft.Skype-8.65.0.76-1758953759'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298092
+ 成功移除 Microsoft.Skype 版本 8.65.0.76
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.65.0.76-1758953759 (was a9c9009f015).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.64.0.80 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.64.0.80
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.64.0.80.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.64.0.80.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.64.0.80.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000187285E0F50>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.64.0.80 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+fatal: unable to access 'https://github.com/microsoft/winget-pkgs.git/': The requested URL returned error: 502
+✕ 获取上游修改失败:
+Command '['git', 'fetch', 'upstream']' returned non-zero exit status 128.
+? 是否重试？(默认为是):
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.64.0.80-1758953830'
+  已签出新分支 Remove-Microsoft.Skype-8.64.0.80-1758953830
+  已移除软件包 Microsoft.Skype 版本 8.64.0.80
+[Remove-Microsoft.Skype-8.64.0.80-1758953830 2b3393fe6b3] Remove version: Microsoft.Skype version 8.64.0.80 (Auto)
+ 3 files changed, 50 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.64.0.80/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.64.0.80/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.64.0.80/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 750 bytes | 375.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.64.0.80-1758953830' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.64.0.80-1758953830
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.64.0.80-1758953830 -> Remove-Microsoft.Skype-8.64.0.80-1758953830
+branch 'Remove-Microsoft.Skype-8.64.0.80-1758953830' set up to track 'origin/Remove-Microsoft.Skype-8.64.0.80-1758953830'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298094
+ 成功移除 Microsoft.Skype 版本 8.64.0.80
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.64.0.80-1758953830 (was 2b3393fe6b3).
+工作区清理完成
+
+INFO 正在检查 Microsoft.Skype 8.60.0.76 ...
+使用 winget 验证...
+已找到 Skype [Microsoft.Skype] 版本 8.60.0.76
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.skype.com/s4l/download/win/Skype-8.60.0.76.exe
+执行此命令时发生意外错误：
+InternetOpenUrl() failed.
+0x80072ee7 : unknown error
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.skype.com/s4l/download/win/Skype-8.60.0.76.exe | 错误 (HTTPSConnectionPool(host='download.skype.com', port=443): Max retries exceeded with url: /s4l/download/win/Skype-8.60.0.76.exe (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000187285E0CD0>: Failed to resolve 'download.skype.com' ([Errno 11001] getaddrinfo failed)")))
+✕ Microsoft.Skype 8.60.0.76 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-Microsoft.Skype-8.60.0.76-1758953899'
+  已签出新分支 Remove-Microsoft.Skype-8.60.0.76-1758953899
+  已移除软件包 Microsoft.Skype 版本 8.60.0.76
+[Remove-Microsoft.Skype-8.60.0.76-1758953899 852d4ccfa49] Remove version: Microsoft.Skype version 8.60.0.76 (Auto)
+ 3 files changed, 50 deletions(-)
+ delete mode 100644 manifests/m/Microsoft/Skype/8.60.0.76/Microsoft.Skype.installer.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.60.0.76/Microsoft.Skype.locale.en-US.yaml
+ delete mode 100644 manifests/m/Microsoft/Skype/8.60.0.76/Microsoft.Skype.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 753 bytes | 251.00 KiB/s, done.
+Total 6 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+remote:
+remote: Create a pull request for 'Remove-Microsoft.Skype-8.60.0.76-1758953899' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Microsoft.Skype-8.60.0.76-1758953899
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Microsoft.Skype-8.60.0.76-1758953899 -> Remove-Microsoft.Skype-8.60.0.76-1758953899
+branch 'Remove-Microsoft.Skype-8.60.0.76-1758953899' set up to track 'origin/Remove-Microsoft.Skype-8.60.0.76-1758953899'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/298096
+ 成功移除 Microsoft.Skype 版本 8.60.0.76
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Microsoft.Skype-8.60.0.76-1758953899 (was 852d4ccfa49).
+工作区清理完成
+
+✓ 成功检查 Microsoft.Skype 的所有版本
