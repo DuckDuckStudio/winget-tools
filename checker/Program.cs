@@ -13,7 +13,6 @@ namespace checker
 {
     internal class Program
     {
-        // 替换为线程安全集合
         internal static ConcurrentDictionary<string, string> checkedUrls = new();
 
         internal static readonly string[] installerType = [".exe", ".zip", ".msi", ".msix", ".appx", "download", ".msixbundle"];
@@ -262,18 +261,20 @@ namespace checker
             {
                 if (result == "OK")
                 {
-                    Console.Write("*");
+                    Console.Write("X");
                     return true;
                 }
                 else if (result.StartsWith("\n[Debug]"))
                 {
-                    Console.Write("-");
+                    Console.Write("X");
 #if DEBUG
                     WriteErrorMessage(result, filePath);
 #endif
+                    return true;
                 }
                 else
                 {
+                    Console.Write("X");
                     WriteErrorMessage(result, filePath);
                     await FailureCheck(filePath);
                     return false;
