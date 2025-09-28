@@ -90,7 +90,7 @@ namespace checker
             client.Timeout = TimeSpan.FromSeconds(15);
 
             bool failed = false; // 在失败模式 默认 下的标记
-            var allUrls = new List<(string filePath, string url)>();
+            List<(string filePath, string url)> allUrls = [];
 
             Console.WriteLine("[INFO] 正在查找 URL...");
 
@@ -121,8 +121,8 @@ namespace checker
             Console.WriteLine("[INFO] 查找 URL 完毕");
 
             // 再并发检查所有 URL
-            var semaphore = new SemaphoreSlim(maxConcurrency); // 控制最大并发数
-            var urlTasks = allUrls.Select(async tuple =>
+            SemaphoreSlim semaphore = new(maxConcurrency); // 控制最大并发数
+            Task[] urlTasks = [.. allUrls.Select(async tuple =>
             {
                 await semaphore.WaitAsync();
                 try
@@ -137,7 +137,7 @@ namespace checker
                 {
                     semaphore.Release();
                 }
-            }).ToArray();
+            })];
 
             await Task.WhenAll(urlTasks);
 
@@ -183,8 +183,8 @@ namespace checker
             if (!(string.IsNullOrWhiteSpace(packageID) || string.IsNullOrWhiteSpace(packageVersion)))
             {
                 // 从环境变量获取 Token
-                var githubToken = Environment.GetEnvironmentVariable("GITHUB_TOKEN");
-                var productHeader = new ProductHeaderValue("DuplicatePRFinder");
+                string? githubToken = Environment.GetEnvironmentVariable("GITHUB_TOKEN");
+                ProductHeaderValue productHeader = new("DuplicatePRFinder");
 
                 GitHubClient client;
                 if (string.IsNullOrEmpty(githubToken))
@@ -197,11 +197,11 @@ namespace checker
                     client = new GitHubClient(productHeader) { Credentials = new Credentials(githubToken) };
                 }
 
-                var searchRequest = new SearchIssuesRequest($"is:pr is:open repo:microsoft/winget-pkgs {packageID} {packageVersion}");
+                SearchIssuesRequest searchRequest = new($"is:pr is:open repo:microsoft/winget-pkgs {packageID} {packageVersion}");
 
                 try
                 {
-                    var result = await client.Search.SearchIssues(searchRequest);
+                    SearchIssuesResult result = await client.Search.SearchIssues(searchRequest);
 
                     foreach (Issue? pr in result.Items)
                     {
@@ -257,7 +257,7 @@ namespace checker
         static async Task<bool> CheckUrlAsync(HttpClient client, string filePath, string url, string failureLevel)
         {
             // 检查这个 URL 是否在 checkedUrls 中
-            if (checkedUrls.TryGetValue(url, out var result))
+            if (checkedUrls.TryGetValue(url, out string? result))
             {
                 if (result == "OK")
                 {
