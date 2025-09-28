@@ -113,7 +113,7 @@ namespace checker
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine($"\n[Error] 处理文件 <ManifestFilePath> 时发生错误: {e.Message}");
+                    WriteErrorMessage($"\n[Error] 处理文件 <ManifestFilePath> 时发生错误: {e.Message}", filePath);
                     failed = true;
                 }
             }
