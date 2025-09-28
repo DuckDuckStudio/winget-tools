@@ -1,0 +1,24 @@
+~~ Start logging ~~
+2025-09-28 22:46:46.147 FUN 【有这时间玩音游还不如去玩原神】https://www.bilibili.com/video/BV1Lb421n7pB/
+2025-09-28 22:46:46.150 INFO Found the following version folder: ['25.08.04.01']
+2025-09-28 22:46:46.152 INFO Processing version folder: 25.08.04.01
+2025-09-28 22:46:46.153 INFO   Create and checkout to a new branch: New-Version-GIGABYTE.GigabyteControlCenter-25.08.04.01-1759070806
+2025-09-28 22:46:52.583 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GIGABYTE\GigabyteControlCenter\25.08.04.01\GIGABYTE.GigabyteControlCenter.installer.yaml
+2025-09-28 22:46:52.623 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\GIGABYTE\GigabyteControlCenter\25.08.04.01\GIGABYTE.GigabyteControlCenter.installer.yaml
+2025-09-28 22:46:52.886 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GIGABYTE\GigabyteControlCenter\25.08.04.01\GIGABYTE.GigabyteControlCenter.locale.en-US.yaml
+2025-09-28 22:46:52.891 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\GIGABYTE\GigabyteControlCenter\25.08.04.01\GIGABYTE.GigabyteControlCenter.locale.en-US.yaml
+2025-09-28 22:46:53.331 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GIGABYTE\GigabyteControlCenter\25.08.04.01\GIGABYTE.GigabyteControlCenter.yaml
+2025-09-28 22:46:53.359 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\GIGABYTE\GigabyteControlCenter\25.08.04.01\GIGABYTE.GigabyteControlCenter.yaml
+2025-09-28 22:46:53.171 INFO   New manifests in D:\...\winget-pkgs\manifests\g\GIGABYTE\GigabyteControlCenter\25.08.04.01 for GIGABYTE.GigabyteControlCenter (25.08.04.01)
+2025-09-28 22:55:49.205 WARNING     清单验证成功，但出现警告。
+2025-09-28 22:55:49.207 WARNING     Manifest Warning: Silent and SilentWithProgress switches are not specified for InstallerType exe. Please make sure the installer can run unattended.
+2025-09-28 22:55:49.209 INFO     
+2025-09-28 22:55:50.638 INFO Manifest Error Fixed.
+2025-09-28 22:55:50.641 INFO   Staging and Committing Changes to Git
+2025-09-28 22:56:08.489 INFO     Commit message: New version: GIGABYTE.GigabyteControlCenter version 25.08.04.01 (Auto)
+2025-09-28 22:56:29.623 INFO   Pushing changes to remote (origin) repository
+2025-09-28 22:56:34.679 INFO     Successfully pushed to remote (origin): New-Version-GIGABYTE.GigabyteControlCenter-25.08.04.01-1759070806
+2025-09-28 22:56:38.126 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/298513
+2025-09-28 22:56:38.132 INFO All manifests have been modified and pushed through.
+2025-09-28 22:56:45.883 INFO Workspace clean-up completed.
+~~ End of logging ~~
