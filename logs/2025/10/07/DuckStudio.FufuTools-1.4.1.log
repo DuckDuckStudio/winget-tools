@@ -1,0 +1,45 @@
+~~ Start logging ~~
+2025-10-07 06:40:22.376 FUN 当你感到很冷的时候，可以把手按在冰上，因为按冰不冻。
+2025-10-07 06:40:22.384 INFO Found the following version folder: ['1.3.10', '1.3.2', '1.3.3', '1.3.4', '1.3.5', '1.3.6', '1.3.7', '1.3.7.1', '1.3.8', '1.4.0', '1.4.1']
+2025-10-07 06:40:22.385 INFO Skip version 1.3.10, because it's not in the list of versions to be modified.
+2025-10-07 06:40:22.386 INFO Skip version 1.3.2, because it's not in the list of versions to be modified.
+2025-10-07 06:40:22.388 INFO Skip version 1.3.3, because it's not in the list of versions to be modified.
+2025-10-07 06:40:22.390 INFO Skip version 1.3.4, because it's not in the list of versions to be modified.
+2025-10-07 06:40:22.391 INFO Skip version 1.3.5, because it's not in the list of versions to be modified.
+2025-10-07 06:40:22.392 INFO Skip version 1.3.6, because it's not in the list of versions to be modified.
+2025-10-07 06:40:22.394 INFO Skip version 1.3.7, because it's not in the list of versions to be modified.
+2025-10-07 06:40:22.396 INFO Skip version 1.3.7.1, because it's not in the list of versions to be modified.
+2025-10-07 06:40:22.397 INFO Skip version 1.3.8, because it's not in the list of versions to be modified.
+2025-10-07 06:40:22.399 INFO Skip version 1.4.0, because it's not in the list of versions to be modified.
+2025-10-07 06:40:22.400 INFO Processing version folder: 1.4.1
+2025-10-07 06:40:22.401 INFO   Create and checkout to a new branch: New-Version-DuckStudio.FufuTools-1.4.1-1759790422
+2025-10-07 06:40:29.684 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.4.1\DuckStudio.FufuTools.installer.yaml
+2025-10-07 06:40:29.687 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.4.1\DuckStudio.FufuTools.installer.yaml
+2025-10-07 06:40:29.890 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.4.1\DuckStudio.FufuTools.locale.en-US.yaml
+2025-10-07 06:40:29.895 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.4.1\DuckStudio.FufuTools.locale.en-US.yaml
+2025-10-07 06:40:30.375 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.4.1\DuckStudio.FufuTools.locale.zh-CN.yaml
+2025-10-07 06:40:30.412 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.4.1\DuckStudio.FufuTools.locale.zh-CN.yaml
+2025-10-07 06:40:30.205 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.4.1\DuckStudio.FufuTools.yaml
+2025-10-07 06:40:30.208 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.4.1\DuckStudio.FufuTools.yaml
+2025-10-07 06:40:30.368 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.4.1 for DuckStudio.FufuTools (1.4.1)
+2025-10-07 06:40:39.942 INFO     清单验证成功。
+2025-10-07 06:40:39.954 INFO   Staging and Committing Changes to Git
+2025-10-07 06:41:01.902 INFO     Commit message: New version: DuckStudio.FufuTools version 1.4.1 (Auto)
+2025-10-07 06:41:25.279 INFO   Pushing changes to remote (origin) repository
+2025-10-07 06:41:30.218 INFO     Successfully pushed to remote (origin): New-Version-DuckStudio.FufuTools-1.4.1-1759790422
+2025-10-07 06:41:31.895 ERROR     Failed to create pull request: 401 - {
+2025-10-07 06:41:31.895 ERROR   "message": "Bad credentials",
+2025-10-07 06:41:31.895 ERROR   "documentation_url": "https://docs.github.com/rest",
+2025-10-07 06:41:31.895 ERROR   "status": "401"
+2025-10-07 06:41:31.895 ERROR }
+2025-10-07 06:41:41.618 INFO     Retrying to create a pull request...
+2025-10-07 06:41:42.962 ERROR     Failed to create pull request: 401 - {
+2025-10-07 06:41:42.962 ERROR   "message": "Bad credentials",
+2025-10-07 06:41:42.962 ERROR   "documentation_url": "https://docs.github.com/rest",
+2025-10-07 06:41:42.962 ERROR   "status": "401"
+2025-10-07 06:41:42.962 ERROR }
+2025-10-07 06:45:25.606 INFO     Retrying to create a pull request...
+2025-10-07 06:45:28.255 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/301586
+2025-10-07 06:45:28.257 INFO All manifests have been modified and pushed through.
+2025-10-07 06:45:36.670 INFO Workspace clean-up completed.
+~~ End of logging ~~
