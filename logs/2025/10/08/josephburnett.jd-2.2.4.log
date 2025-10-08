@@ -1,0 +1,25 @@
+~~ Start logging ~~
+2025-10-08 09:02:34.524 FUN |･ω･｀)
+2025-10-08 09:02:34.533 INFO Found the following version folder: ['2.2.2', '2.2.3', '2.2.4']
+2025-10-08 09:02:34.536 INFO Skip version 2.2.2, because it's not in the list of versions to be modified.
+2025-10-08 09:02:34.538 INFO Skip version 2.2.3, because it's not in the list of versions to be modified.
+2025-10-08 09:02:34.540 INFO Processing version folder: 2.2.4
+2025-10-08 09:02:34.542 INFO   Create and checkout to a new branch: New-Version-josephburnett.jd-2.2.4-1759885354
+2025-10-08 09:02:45.401 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.2.4\josephburnett.jd.installer.yaml
+2025-10-08 09:02:45.405 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.2.4\josephburnett.jd.installer.yaml
+2025-10-08 09:02:45.690 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.2.4\josephburnett.jd.locale.en-US.yaml
+2025-10-08 09:02:45.694 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.2.4\josephburnett.jd.locale.en-US.yaml
+2025-10-08 09:02:45.870 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.2.4\josephburnett.jd.locale.zh-CN.yaml
+2025-10-08 09:02:45.874 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.2.4\josephburnett.jd.locale.zh-CN.yaml
+2025-10-08 09:02:46.133 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.2.4\josephburnett.jd.yaml
+2025-10-08 09:02:46.137 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.2.4\josephburnett.jd.yaml
+2025-10-08 09:02:46.422 INFO   New manifests in D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.2.4 for josephburnett.jd (2.2.4)
+2025-10-08 09:02:54.628 INFO     清单验证成功。
+2025-10-08 09:02:54.643 INFO   Staging and Committing Changes to Git
+2025-10-08 09:03:20.843 INFO     Commit message: New version: josephburnett.jd version 2.2.4 (Auto)
+2025-10-08 09:03:58.194 INFO   Pushing changes to remote (origin) repository
+2025-10-08 09:04:06.918 INFO     Successfully pushed to remote (origin): New-Version-josephburnett.jd-2.2.4-1759885354
+2025-10-08 09:04:11.117 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/301840
+2025-10-08 09:04:11.121 INFO All manifests have been modified and pushed through.
+2025-10-08 09:04:23.640 INFO Workspace clean-up completed.
+~~ End of logging ~~
