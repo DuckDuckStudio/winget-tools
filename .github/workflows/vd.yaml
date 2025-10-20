@@ -29,6 +29,12 @@ jobs:
         curl -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3" -I ${{ github.event.inputs.domain }}
         sleep 2
 
+    - name: 验证内容 - curl
+      # continue-on-error: true
+      run: |
+        curl "${{ github.event.inputs.domain }}"
+        sleep 2
+
     - name: 验证响应头 - wget
       continue-on-error: true
       run: |
