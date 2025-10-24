@@ -256,17 +256,19 @@ namespace checker
 
         static async Task<bool> CheckUrlAsync(HttpClient client, string filePath, string url, string failureLevel)
         {
+            // * OK | - 忽略 | ^ 使用存储的结果
+
             // 检查这个 URL 是否在 checkedUrls 中
             if (checkedUrls.TryGetValue(url, out string? result))
             {
                 if (result == "OK")
                 {
-                    Console.Write("X");
+                    Console.Write("^");
                     return true;
                 }
                 else if (result.StartsWith("\n[Debug]"))
                 {
-                    Console.Write("X");
+                    Console.Write("^");
 #if DEBUG
                     WriteErrorMessage(result, filePath);
 #endif
@@ -274,7 +276,7 @@ namespace checker
                 }
                 else
                 {
-                    Console.Write("X");
+                    Console.Write("^");
                     WriteErrorMessage(result, filePath);
                     await FailureCheck(filePath);
                     return false;
