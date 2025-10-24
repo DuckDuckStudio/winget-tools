@@ -1,0 +1,24 @@
+~~ Start logging ~~
+2025-10-02 13:49:46.424 FUN (・◇・)
+2025-10-02 13:49:46.427 INFO Found the following version folder: ['0.6.7']
+2025-10-02 13:49:46.429 INFO Processing version folder: 0.6.7
+2025-10-02 13:49:46.431 INFO   Create and checkout to a new branch: New-Version-TeamFlos.Phira-0.6.7-1759384186
+2025-10-02 13:49:53.998 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.6.7\TeamFlos.Phira.installer.yaml
+2025-10-02 13:49:54.235 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.6.7\TeamFlos.Phira.installer.yaml
+2025-10-02 13:49:54.194 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.6.7\TeamFlos.Phira.locale.zh-CN.yaml
+2025-10-02 13:49:54.201 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.6.7\TeamFlos.Phira.locale.zh-CN.yaml
+2025-10-02 13:49:54.333 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.6.7\TeamFlos.Phira.yaml
+2025-10-02 13:49:54.336 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.6.7\TeamFlos.Phira.yaml
+2025-10-02 13:49:54.497 INFO   New manifests in D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.6.7 for TeamFlos.Phira (0.6.7)
+2025-10-02 14:06:02.804 WARNING     清单验证成功，但出现警告。
+2025-10-02 14:06:02.806 WARNING     Manifest Warning: Unknown field. [Tag]
+2025-10-02 14:06:02.808 INFO     
+2025-10-02 14:07:04.866 INFO Manifest Error Fixed.
+2025-10-02 14:07:04.111 INFO   Staging and Committing Changes to Git
+2025-10-02 14:07:22.682 INFO     Commit message: New version: TeamFlos.Phira version 0.6.7 (Auto)
+2025-10-02 14:07:44.837 INFO   Pushing changes to remote (origin) repository
+2025-10-02 14:07:49.946 INFO     Successfully pushed to remote (origin): New-Version-TeamFlos.Phira-0.6.7-1759384186
+2025-10-02 14:07:53.292 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/300432
+2025-10-02 14:07:53.295 INFO All manifests have been modified and pushed through.
+2025-10-02 14:08:03.908 INFO Workspace clean-up completed.
+~~ End of logging ~~

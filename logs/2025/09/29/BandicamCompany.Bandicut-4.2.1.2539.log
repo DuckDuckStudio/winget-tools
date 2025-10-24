@@ -1,0 +1,55 @@
+~~ Start logging ~~
+2025-09-29 11:28:33.391 FUN 一勺料汁~
+2025-09-29 11:28:33.414 INFO Found the following version folder: ['2.7.0.303', '2.7.1.313', '2.8.0.345', '2.8.1.363', '2.8.2.380', '3.0.0.402', '3.1.0.422', '3.1.1.431', '3.1.2.441', '3.1.3.454', '3.1.4.480', '3.1.5.511', '3.5.0.599', '3.6.1.639', '3.6.2.647', '3.6.3.652', '3.6.4.661', '3.6.5.668', '3.6.6.676', '3.6.7.691', '3.6.8.711', '3.7.0.762', '3.8.0.825', '3.8.1.855', '3.8.2.862', '3.8.3.2432', '3.8.4.2434', '3.8.5.2442', '3.8.6.2447', '3.8.7.2452', '4.0.0.2509', '4.0.1.2516', '4.1.0.2527', '4.2.1.2539']
+2025-09-29 11:28:33.426 INFO Skip version 2.7.0.303, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.427 INFO Skip version 2.7.1.313, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.428 INFO Skip version 2.8.0.345, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.430 INFO Skip version 2.8.1.363, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.432 INFO Skip version 2.8.2.380, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.434 INFO Skip version 3.0.0.402, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.437 INFO Skip version 3.1.0.422, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.439 INFO Skip version 3.1.1.431, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.441 INFO Skip version 3.1.2.441, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.442 INFO Skip version 3.1.3.454, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.444 INFO Skip version 3.1.4.480, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.445 INFO Skip version 3.1.5.511, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.447 INFO Skip version 3.5.0.599, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.448 INFO Skip version 3.6.1.639, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.450 INFO Skip version 3.6.2.647, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.453 INFO Skip version 3.6.3.652, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.454 INFO Skip version 3.6.4.661, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.456 INFO Skip version 3.6.5.668, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.458 INFO Skip version 3.6.6.676, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.460 INFO Skip version 3.6.7.691, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.462 INFO Skip version 3.6.8.711, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.463 INFO Skip version 3.7.0.762, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.465 INFO Skip version 3.8.0.825, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.467 INFO Skip version 3.8.1.855, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.470 INFO Skip version 3.8.2.862, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.472 INFO Skip version 3.8.3.2432, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.474 INFO Skip version 3.8.4.2434, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.476 INFO Skip version 3.8.5.2442, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.478 INFO Skip version 3.8.6.2447, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.480 INFO Skip version 3.8.7.2452, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.484 INFO Skip version 4.0.0.2509, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.487 INFO Skip version 4.0.1.2516, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.488 INFO Skip version 4.1.0.2527, because it's not in the list of versions to be modified.
+2025-09-29 11:28:33.490 INFO Processing version folder: 4.2.1.2539
+2025-09-29 11:28:33.493 INFO   Create and checkout to a new branch: Modify-S-BandicamCompany.Bandicut-4.2.1.2539-1759116513
+2025-09-29 11:28:51.522 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\BandicamCompany\Bandicut\4.2.1.2539\BandicamCompany.Bandicut.installer.yaml
+2025-09-29 11:28:51.526 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\BandicamCompany\Bandicut\4.2.1.2539\BandicamCompany.Bandicut.installer.yaml
+2025-09-29 11:28:51.675 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\BandicamCompany\Bandicut\4.2.1.2539\BandicamCompany.Bandicut.locale.en-US.yaml
+2025-09-29 11:28:51.681 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\BandicamCompany\Bandicut\4.2.1.2539\BandicamCompany.Bandicut.locale.en-US.yaml
+2025-09-29 11:28:51.778 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\BandicamCompany\Bandicut\4.2.1.2539\BandicamCompany.Bandicut.locale.zh-CN.yaml
+2025-09-29 11:28:51.782 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\BandicamCompany\Bandicut\4.2.1.2539\BandicamCompany.Bandicut.locale.zh-CN.yaml
+2025-09-29 11:28:51.891 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\BandicamCompany\Bandicut\4.2.1.2539\BandicamCompany.Bandicut.yaml
+2025-09-29 11:28:51.894 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\BandicamCompany\Bandicut\4.2.1.2539\BandicamCompany.Bandicut.yaml
+2025-09-29 11:31:45.717 INFO     清单验证成功。
+2025-09-29 11:31:45.728 INFO   Staging and Committing Changes to Git
+2025-09-29 11:31:57.508 INFO     Commit message: Modify: BandicamCompany.Bandicut version 4.2.1.2539 (Auto)
+2025-09-29 11:31:57.526 INFO   Pushing changes to remote (origin) repository
+2025-09-29 11:32:02.635 INFO     Successfully pushed to remote (origin): Modify-S-BandicamCompany.Bandicut-4.2.1.2539-1759116513
+2025-09-29 11:32:05.583 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/298680
+2025-09-29 11:32:05.585 INFO All manifests have been modified and pushed through.
+2025-09-29 11:32:13.254 INFO Workspace clean-up completed.
+~~ End of logging ~~

@@ -1,0 +1,30 @@
+~~ Start logging ~~
+2025-10-08 09:49:28.848 FUN 【撞飞机了ToT】https://www.bilibili.com/video/BV1f14y1h7Hp/?t=272
+2025-10-08 09:49:28.849 INFO Trying to generate new manifests for josephburnett.jd 2.2.7 with urls ['https://github.com/josephburnett/jd/releases/download/v2.2.7/jd-amd64-windows.exe', 'https://github.com/josephburnett/jd/releases/download/v2.2.7/jd-arm64-windows.exe']...
+2025-10-08 09:49:54.789 INFO The manifest was successfully generated.
+2025-10-08 09:49:54.792 INFO Found the following version folder: ['2.2.2', '2.2.3', '2.2.7']
+2025-10-08 09:49:54.794 INFO Skip version 2.2.2, because it's not in the list of versions to be modified.
+2025-10-08 09:49:54.796 INFO Skip version 2.2.3, because it's not in the list of versions to be modified.
+2025-10-08 09:49:54.797 INFO Processing version folder: 2.2.7
+2025-10-08 09:49:54.799 INFO   Create and checkout to a new branch: New-Version-josephburnett.jd-2.2.7-1759888194
+2025-10-08 09:50:03.346 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.2.7\josephburnett.jd.installer.yaml
+2025-10-08 09:50:03.350 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.2.7\josephburnett.jd.installer.yaml
+2025-10-08 09:50:03.574 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.2.7\josephburnett.jd.locale.en-US.yaml
+2025-10-08 09:50:03.576 INFO     [josephburnett.jd locale manifests] 使用 master 分支的 LICENSE 而不是 HEAD 的
+2025-10-08 09:50:03.578 INFO     [josephburnett.jd en-US locale manifest] 格式化 Description 字段
+2025-10-08 09:50:03.580 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.2.7\josephburnett.jd.locale.en-US.yaml
+2025-10-08 09:50:03.757 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.2.7\josephburnett.jd.locale.zh-CN.yaml
+2025-10-08 09:50:03.758 INFO     [josephburnett.jd zh-CN locale manifest] 格式化 Description 字段
+2025-10-08 09:50:03.761 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.2.7\josephburnett.jd.locale.zh-CN.yaml
+2025-10-08 09:50:03.935 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.2.7\josephburnett.jd.yaml
+2025-10-08 09:50:03.938 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.2.7\josephburnett.jd.yaml
+2025-10-08 09:50:04.130 INFO   New manifests in D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.2.7 for josephburnett.jd (2.2.7)
+2025-10-08 09:50:33.884 INFO     清单验证成功。
+2025-10-08 09:50:33.900 INFO   Staging and Committing Changes to Git
+2025-10-08 09:50:43.653 INFO     Commit message: New version: josephburnett.jd version 2.2.7 (Auto)
+2025-10-08 09:51:03.876 INFO   Pushing changes to remote (origin) repository
+2025-10-08 09:51:08.961 INFO     Successfully pushed to remote (origin): New-Version-josephburnett.jd-2.2.7-1759888194
+2025-10-08 09:51:11.742 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/301849
+2025-10-08 09:51:11.744 INFO All manifests have been modified and pushed through.
+2025-10-08 09:51:20.350 INFO Workspace clean-up completed.
+~~ End of logging ~~
