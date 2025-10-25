@@ -1,0 +1,35 @@
+~~ Start logging ~~
+2025-10-26 05:17:38.831 FUN 到底都在燃什么啊喂
+2025-10-26 05:17:38.837 INFO Found the following version folder: ['1.39.4', '1.41.0', '1.42.0', '1.43.0', '1.43.1', '1.43.3', '1.43.5', '1.45.0', '1.46.0']
+2025-10-26 05:17:38.838 INFO Skip version 1.39.4, because it's not in the list of versions to be modified.
+2025-10-26 05:17:38.840 INFO Skip version 1.41.0, because it's not in the list of versions to be modified.
+2025-10-26 05:17:38.840 INFO Skip version 1.42.0, because it's not in the list of versions to be modified.
+2025-10-26 05:17:38.841 INFO Skip version 1.43.0, because it's not in the list of versions to be modified.
+2025-10-26 05:17:38.843 INFO Skip version 1.43.1, because it's not in the list of versions to be modified.
+2025-10-26 05:17:38.843 INFO Skip version 1.43.3, because it's not in the list of versions to be modified.
+2025-10-26 05:17:38.844 INFO Skip version 1.43.5, because it's not in the list of versions to be modified.
+2025-10-26 05:17:38.845 INFO Skip version 1.45.0, because it's not in the list of versions to be modified.
+2025-10-26 05:17:38.846 INFO Processing version folder: 1.46.0
+2025-10-26 05:17:38.848 INFO   Create and checkout to a new branch: New-Version-NextDNS.NextDNS.CLI-1.46.0-1761427058
+2025-10-26 05:17:45.450 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\n\NextDNS\NextDNS\CLI\1.46.0\NextDNS.NextDNS.CLI.installer.yaml
+2025-10-26 05:17:45.452 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-10-26 05:17:45.453 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-10-26 05:17:45.455 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\n\NextDNS\NextDNS\CLI\1.46.0\NextDNS.NextDNS.CLI.installer.yaml
+2025-10-26 05:17:45.651 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\n\NextDNS\NextDNS\CLI\1.46.0\NextDNS.NextDNS.CLI.locale.en-US.yaml
+2025-10-26 05:17:45.654 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-10-26 05:17:45.656 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-10-26 05:17:45.658 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\n\NextDNS\NextDNS\CLI\1.46.0\NextDNS.NextDNS.CLI.locale.en-US.yaml
+2025-10-26 05:17:45.773 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\n\NextDNS\NextDNS\CLI\1.46.0\NextDNS.NextDNS.CLI.yaml
+2025-10-26 05:17:45.775 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-10-26 05:17:45.777 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-10-26 05:17:45.782 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\n\NextDNS\NextDNS\CLI\1.46.0\NextDNS.NextDNS.CLI.yaml
+2025-10-26 05:17:45.897 INFO   New manifests in D:\...\winget-pkgs\manifests\n\NextDNS\NextDNS\CLI\1.46.0 for NextDNS.NextDNS.CLI (1.46.0)
+2025-10-26 05:17:52.610 INFO     清单验证成功。
+2025-10-26 05:17:52.621 INFO   Staging and Committing Changes to Git
+2025-10-26 05:18:00.610 INFO     Commit message: New version: NextDNS.NextDNS.CLI version 1.46.0 (Auto)
+2025-10-26 05:18:18.413 INFO   Pushing changes to remote (origin) repository
+2025-10-26 05:18:22.159 INFO     Successfully pushed to remote (origin): New-Version-NextDNS.NextDNS.CLI-1.46.0-1761427058
+2025-10-26 05:18:25.781 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/306994
+2025-10-26 05:18:25.798 INFO All manifests have been modified and pushed through.
+2025-10-26 05:18:32.111 INFO Workspace clean-up completed.
+~~ End of logging ~~
