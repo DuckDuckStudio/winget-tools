@@ -1,0 +1,49 @@
+~~ Start logging ~~
+2025-10-25 17:00:27.596 FUN ?
+2025-10-25 17:00:27.605 INFO Found the following version folder: ['18.0.0.0', '18.1.0.0', '18.2.0.0', '18.3.0.0', '18.4.0.0', '18.5.0.0', '18.6.0.0', '18.7.0.0', '18.8.0.0', '18.9.0.0', '19.0.0.0', '19.1.0.0', '19.2.0.0', '19.3.0.0', '19.4.0.0', '20.0.0.0', '20.1.0.0', '20.3.0.0', '20.4.0.0', '20.5.0.0', '21.0.0.0', '21.1.0.0', '21.2.0.0']
+2025-10-25 17:00:27.607 INFO Skip version 18.0.0.0, because it's not in the list of versions to be modified.
+2025-10-25 17:00:27.608 INFO Skip version 18.1.0.0, because it's not in the list of versions to be modified.
+2025-10-25 17:00:27.610 INFO Skip version 18.2.0.0, because it's not in the list of versions to be modified.
+2025-10-25 17:00:27.612 INFO Skip version 18.3.0.0, because it's not in the list of versions to be modified.
+2025-10-25 17:00:27.614 INFO Skip version 18.4.0.0, because it's not in the list of versions to be modified.
+2025-10-25 17:00:27.615 INFO Skip version 18.5.0.0, because it's not in the list of versions to be modified.
+2025-10-25 17:00:27.617 INFO Skip version 18.6.0.0, because it's not in the list of versions to be modified.
+2025-10-25 17:00:27.618 INFO Skip version 18.7.0.0, because it's not in the list of versions to be modified.
+2025-10-25 17:00:27.620 INFO Skip version 18.8.0.0, because it's not in the list of versions to be modified.
+2025-10-25 17:00:27.621 INFO Skip version 18.9.0.0, because it's not in the list of versions to be modified.
+2025-10-25 17:00:27.623 INFO Processing version folder: 19.0.0.0
+2025-10-25 17:00:27.626 INFO   Create and checkout to a new branch: Modify-S-XBMCFoundation.Kodi-19.0.0.0-1761382827
+2025-10-25 17:00:50.164 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\x\XBMCFoundation\Kodi\19.0.0.0\XBMCFoundation.Kodi.installer.yaml
+2025-10-25 17:00:50.203 INFO     检测到 D:\...\winget-pkgs\manifests\x\XBMCFoundation\Kodi\19.0.0.0\XBMCFoundation.Kodi.installer.yaml 中含有不安全的 URL (HTTP)，自动替换为安全的 URL (HTTPS)
+2025-10-25 17:00:50.207 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-10-25 17:00:50.210 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-10-25 17:00:50.215 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\x\XBMCFoundation\Kodi\19.0.0.0\XBMCFoundation.Kodi.installer.yaml
+2025-10-25 17:00:50.460 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\x\XBMCFoundation\Kodi\19.0.0.0\XBMCFoundation.Kodi.locale.en-US.yaml
+2025-10-25 17:00:50.499 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-10-25 17:00:50.501 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-10-25 17:00:50.505 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\x\XBMCFoundation\Kodi\19.0.0.0\XBMCFoundation.Kodi.locale.en-US.yaml
+2025-10-25 17:00:50.640 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\x\XBMCFoundation\Kodi\19.0.0.0\XBMCFoundation.Kodi.yaml
+2025-10-25 17:00:50.643 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-10-25 17:00:50.645 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-10-25 17:00:50.648 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\x\XBMCFoundation\Kodi\19.0.0.0\XBMCFoundation.Kodi.yaml
+2025-10-25 17:01:43.563 INFO     清单验证成功。
+2025-10-25 17:01:43.580 INFO   Staging and Committing Changes to Git
+2025-10-25 17:01:58.390 INFO     Commit message: Modify: XBMCFoundation.Kodi version 19.0.0.0 (Auto)
+2025-10-25 17:01:58.393 INFO   Pushing changes to remote (origin) repository
+2025-10-25 17:02:02.878 INFO     Successfully pushed to remote (origin): Modify-S-XBMCFoundation.Kodi-19.0.0.0-1761382827
+2025-10-25 17:02:06.399 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/306932
+2025-10-25 17:02:06.403 INFO Skip version 19.1.0.0, because it's not in the list of versions to be modified.
+2025-10-25 17:02:06.405 INFO Skip version 19.2.0.0, because it's not in the list of versions to be modified.
+2025-10-25 17:02:06.407 INFO Skip version 19.3.0.0, because it's not in the list of versions to be modified.
+2025-10-25 17:02:06.409 INFO Skip version 19.4.0.0, because it's not in the list of versions to be modified.
+2025-10-25 17:02:06.414 INFO Skip version 20.0.0.0, because it's not in the list of versions to be modified.
+2025-10-25 17:02:06.417 INFO Skip version 20.1.0.0, because it's not in the list of versions to be modified.
+2025-10-25 17:02:06.420 INFO Skip version 20.3.0.0, because it's not in the list of versions to be modified.
+2025-10-25 17:02:06.422 INFO Skip version 20.4.0.0, because it's not in the list of versions to be modified.
+2025-10-25 17:02:06.423 INFO Skip version 20.5.0.0, because it's not in the list of versions to be modified.
+2025-10-25 17:02:06.425 INFO Skip version 21.0.0.0, because it's not in the list of versions to be modified.
+2025-10-25 17:02:06.431 INFO Skip version 21.1.0.0, because it's not in the list of versions to be modified.
+2025-10-25 17:02:06.434 INFO Skip version 21.2.0.0, because it's not in the list of versions to be modified.
+2025-10-25 17:02:06.436 INFO All manifests have been modified and pushed through.
+2025-10-25 17:02:12.874 INFO Workspace clean-up completed.
+~~ End of logging ~~
