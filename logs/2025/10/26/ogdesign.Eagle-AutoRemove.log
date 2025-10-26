@@ -1,0 +1,612 @@
+[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry autoremove ogdesign.Eagle
+✓ 找到 ogdesign.Eagle 版本:
+4.0.0.22, 4.0.0.21, 4.0.0.19, 4.0.0.17, 4.0.0.13, 4.0.0.12, 4.0.0.7, 4.0.0.3, 3.0.0.62, 3.0.0.44, 3.0.0.43, 3.0.0.40, 3.0.0.38, 3.0.0.37, 3.0.0.36, 3.0.0.34, 3.0.0.33, 3.0.0.32, 3.0.0.30, 3.0.0.29, 3.0.0.28, 3.0.0.26, 3.0.0.25, 3.0.0.23, 3.0.0.22, 3.0.0.21, 3.0.0.20, 3.0.0.19, 3.0.0.18, 3.0.0.17, 3.0.0.16, 3.0.0.14, 3.0.0.13, 3.0.0.12, 3.0.0.11, 3.0.0.10, 3.0.0.9, 3.0.0.8, 3.0.0.7, 2.0.0.73, 2.0.0.70, 2.0.0.69, 2.0.0.66, 2.0.0.57, 2.0.0.56, 2.0.0.53, 2.0.0.51, 2.0.0.49
+
+
+INFO 正在检查 ogdesign.Eagle 4.0.0.22 ...
+使用 winget 验证...
+已找到 Eagle [ogdesign.Eagle] 版本 4.0.0.22
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-4.0-x64-build10.exe
+  ██████████████████████████████   123 MB /  123 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\Eagle_4.0.0.22_Machine_X64_nullsoft_zh-CN.exe
+✓ 验证 ogdesign.Eagle 4.0.0.22 通过！
+
+INFO 正在检查 ogdesign.Eagle 4.0.0.21 ...
+使用 winget 验证...
+已找到 Eagle [ogdesign.Eagle] 版本 4.0.0.21
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-4.0-x64-build9.exe
+  ██████████████████████████████   123 MB /  123 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\Eagle_4.0.0.21_Machine_X64_nullsoft_zh-CN.exe
+✓ 验证 ogdesign.Eagle 4.0.0.21 通过！
+
+INFO 正在检查 ogdesign.Eagle 4.0.0.19 ...
+使用 winget 验证...
+已找到 Eagle [ogdesign.Eagle] 版本 4.0.0.19
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-4.0-x64-build8.exe
+  ██████████████████████████████   123 MB /  123 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\Eagle_4.0.0.19_Machine_X64_nullsoft_zh-CN.exe
+✓ 验证 ogdesign.Eagle 4.0.0.19 通过！
+
+INFO 正在检查 ogdesign.Eagle 4.0.0.17 ...
+使用 winget 验证...
+已找到 Eagle [ogdesign.Eagle] 版本 4.0.0.17
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-4.0-x64-build7.exe
+  ██████████████████████████████   123 MB /  123 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\Eagle_4.0.0.17_Machine_X64_nullsoft_zh-CN.exe
+✓ 验证 ogdesign.Eagle 4.0.0.17 通过！
+
+INFO 正在检查 ogdesign.Eagle 4.0.0.13 ...
+使用 winget 验证...
+已找到 Eagle [ogdesign.Eagle] 版本 4.0.0.13
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-4.0-x64-build5.exe
+  ██████████████████████████████   123 MB /  123 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\Eagle_4.0.0.13_Machine_X64_nullsoft_zh-CN.exe
+✓ 验证 ogdesign.Eagle 4.0.0.13 通过！
+
+INFO 正在检查 ogdesign.Eagle 4.0.0.12 ...
+使用 winget 验证...
+已找到 Eagle [ogdesign.Eagle] 版本 4.0.0.12
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-4.0-x64-build4.exe
+  ██████████████████████████████   123 MB /  123 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\Eagle_4.0.0.12_Machine_X64_nullsoft_zh-CN.exe
+✓ 验证 ogdesign.Eagle 4.0.0.12 通过！
+
+INFO 正在检查 ogdesign.Eagle 4.0.0.7 ...
+使用 winget 验证...
+已找到 Eagle [ogdesign.Eagle] 版本 4.0.0.7
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-4.0-x64-build2.exe
+  ██████████████████████████████   123 MB /  123 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\Eagle_4.0.0.7_Machine_X64_nullsoft_zh-CN.exe
+✓ 验证 ogdesign.Eagle 4.0.0.7 通过！
+
+INFO 正在检查 ogdesign.Eagle 4.0.0.3 ...
+使用 winget 验证...
+已找到 Eagle [ogdesign.Eagle] 版本 4.0.0.3
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-4.0-x64-build1.exe
+  ██████████████████████████████   123 MB /  123 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\Eagle_4.0.0.3_Machine_X64_nullsoft_zh-CN.exe
+✓ 验证 ogdesign.Eagle 4.0.0.3 通过！
+
+INFO 正在检查 ogdesign.Eagle 3.0.0.62 ...
+使用 winget 验证...
+已找到 Eagle [ogdesign.Eagle] 版本 3.0.0.62
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-3.0-build45.exe
+  ██████████████████████████████   132 MB /  132 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\Eagle_3.0.0.62_Machine_X64_nullsoft_zh-CN.exe
+✓ 验证 ogdesign.Eagle 3.0.0.62 通过！
+
+INFO 正在检查 ogdesign.Eagle 3.0.0.44 ...
+使用 winget 验证...
+已找到 Eagle [ogdesign.Eagle] 版本 3.0.0.44
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-3.0-build44.exe
+  ██████████████████████████████   115 MB /  115 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\Eagle_3.0.0.44_Machine_X64_nullsoft_zh-CN.exe
+✓ 验证 ogdesign.Eagle 3.0.0.44 通过！
+
+INFO 正在检查 ogdesign.Eagle 3.0.0.43 ...
+使用 winget 验证...
+已找到 Eagle [ogdesign.Eagle] 版本 3.0.0.43
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-3.0-build33.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : Not found (404).
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-3.0-build33.exe | 失效 (404)
+https://r2-app.eagle.cool/releases/Eagle-3.0-build33.exe | 失效 (404)
+✕ ogdesign.Eagle 3.0.0.43 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+remote: Enumerating objects: 532, done.
+remote: Counting objects: 100% (280/280), done.
+remote: Compressing objects: 100% (21/21), done.
+remote: Total 532 (delta 268), reused 260 (delta 259), pack-reused 252 (from 2)
+Receiving objects: 100% (532/532), 160.95 KiB | 98.00 KiB/s, done.
+Resolving deltas: 100% (298/298), completed with 113 local objects.
+From https://github.com/microsoft/winget-pkgs
+   41ac047a759..88a2cae2caf  master     -> upstream/master
+  已获取上游修改
+  已获取远程修改
+Successfully rebased and updated refs/heads/master.
+  已变基上游修改
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Bypassed rule violations for refs/heads/master:
+remote:
+remote: - Changes must be made through a pull request.
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+   41ac047a759..88a2cae2caf  master -> master
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-ogdesign.Eagle-3.0.0.43-1761466024'
+  已签出新分支 Remove-ogdesign.Eagle-3.0.0.43-1761466024
+  已移除软件包 ogdesign.Eagle 版本 3.0.0.43
+[Remove-ogdesign.Eagle-3.0.0.43-1761466024 36449e19dfe] Remove version: ogdesign.Eagle version 3.0.0.43 (Auto)
+ 4 files changed, 115 deletions(-)
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.43/ogdesign.Eagle.installer.yaml
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.43/ogdesign.Eagle.locale.en-US.yaml
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.43/ogdesign.Eagle.locale.zh-CN.yaml
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.43/ogdesign.Eagle.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 721 bytes | 120.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-ogdesign.Eagle-3.0.0.43-1761466024' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-ogdesign.Eagle-3.0.0.43-1761466024
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-ogdesign.Eagle-3.0.0.43-1761466024 -> Remove-ogdesign.Eagle-3.0.0.43-1761466024
+branch 'Remove-ogdesign.Eagle-3.0.0.43-1761466024' set up to track 'origin/Remove-ogdesign.Eagle-3.0.0.43-1761466024'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/307071
+ 成功移除 ogdesign.Eagle 版本 3.0.0.43
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-ogdesign.Eagle-3.0.0.43-1761466024 (was 36449e19dfe).
+工作区清理完成
+
+INFO 正在检查 ogdesign.Eagle 3.0.0.40 ...
+使用 winget 验证...
+已找到 Eagle [ogdesign.Eagle] 版本 3.0.0.40
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-3.0-build32.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : Not found (404).
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+正在检查 https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eaglehttps://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-3.0-build32.exe | 失效 (404)
+https://r2-app.eagle.cool/releases/Eagle-3.0-build32.exe | 失效 (404)
+✕ ogdesign.Eagle 3.0.0.40 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-ogdesign.Eagle-3.0.0.40-1761466106'
+  已签出新分支 Remove-ogdesign.Eagle-3.0.0.40-1761466106
+  已移除软件包 ogdesign.Eagle 版本 3.0.0.40
+[Remove-ogdesign.Eagle-3.0.0.40-1761466106 cc0b8562307] Remove version: ogdesign.Eagle version 3.0.0.40 (Auto)
+ 4 files changed, 116 deletions(-)
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.40/ogdesign.Eagle.installer.yaml
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.40/ogdesign.Eagle.locale.en-US.yaml
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.40/ogdesign.Eagle.locale.zh-CN.yaml
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.40/ogdesign.Eagle.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 722 bytes | 240.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-ogdesign.Eagle-3.0.0.40-1761466106' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-ogdesign.Eagle-3.0.0.40-1761466106
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-ogdesign.Eagle-3.0.0.40-1761466106 -> Remove-ogdesign.Eagle-3.0.0.40-1761466106
+branch 'Remove-ogdesign.Eagle-3.0.0.40-1761466106' set up to track 'origin/Remove-ogdesign.Eagle-3.0.0.40-1761466106'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/307072
+ 成功移除 ogdesign.Eagle 版本 3.0.0.40
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-ogdesign.Eagle-3.0.0.40-1761466106 (was cc0b8562307).
+工作区清理完成
+
+INFO 正在检查 ogdesign.Eagle 3.0.0.38 ...
+使用 winget 验证...
+已找到 Eagle [ogdesign.Eagle] 版本 3.0.0.38
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-3.0-build31.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : Not found (404).
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://r2-app.eagle.cool/releases/Eagle-3.0-build31.exe | 失效 (404)
+正在检查 https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eaglehttps://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-3.0-build31.exe | 失效 (404)
+✕ ogdesign.Eagle 3.0.0.38 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-ogdesign.Eagle-3.0.0.38-1761466179'
+  已签出新分支 Remove-ogdesign.Eagle-3.0.0.38-1761466179
+  已移除软件包 ogdesign.Eagle 版本 3.0.0.38
+[Remove-ogdesign.Eagle-3.0.0.38-1761466179 a667b81807f] Remove version: ogdesign.Eagle version 3.0.0.38 (Auto)
+ 4 files changed, 116 deletions(-)
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.38/ogdesign.Eagle.installer.yaml
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.38/ogdesign.Eagle.locale.en-US.yaml
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.38/ogdesign.Eagle.locale.zh-CN.yaml
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.38/ogdesign.Eagle.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 722 bytes | 240.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-ogdesign.Eagle-3.0.0.38-1761466179' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-ogdesign.Eagle-3.0.0.38-1761466179
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-ogdesign.Eagle-3.0.0.38-1761466179 -> Remove-ogdesign.Eagle-3.0.0.38-1761466179
+branch 'Remove-ogdesign.Eagle-3.0.0.38-1761466179' set up to track 'origin/Remove-ogdesign.Eagle-3.0.0.38-1761466179'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/307073
+ 成功移除 ogdesign.Eagle 版本 3.0.0.38
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-ogdesign.Eagle-3.0.0.38-1761466179 (was a667b81807f).
+工作区清理完成
+
+INFO 正在检查 ogdesign.Eagle 3.0.0.37 ...
+使用 winget 验证...
+已找到 Eagle [ogdesign.Eagle] 版本 3.0.0.37
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-3.0-build30.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : Not found (404).
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+正在检查 https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eaglehttps://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-3.0-build30.exe | 失效 (404)
+https://r2-app.eagle.cool/releases/Eagle-3.0-build30.exe | 失效 (404)
+✕ ogdesign.Eagle 3.0.0.37 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-ogdesign.Eagle-3.0.0.37-1761466250'
+  已签出新分支 Remove-ogdesign.Eagle-3.0.0.37-1761466250
+  已移除软件包 ogdesign.Eagle 版本 3.0.0.37
+[Remove-ogdesign.Eagle-3.0.0.37-1761466250 49b1d087ae3] Remove version: ogdesign.Eagle version 3.0.0.37 (Auto)
+ 4 files changed, 116 deletions(-)
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.37/ogdesign.Eagle.installer.yaml
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.37/ogdesign.Eagle.locale.en-US.yaml
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.37/ogdesign.Eagle.locale.zh-CN.yaml
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.37/ogdesign.Eagle.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 720 bytes | 240.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-ogdesign.Eagle-3.0.0.37-1761466250' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-ogdesign.Eagle-3.0.0.37-1761466250
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-ogdesign.Eagle-3.0.0.37-1761466250 -> Remove-ogdesign.Eagle-3.0.0.37-1761466250
+branch 'Remove-ogdesign.Eagle-3.0.0.37-1761466250' set up to track 'origin/Remove-ogdesign.Eagle-3.0.0.37-1761466250'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/307074
+ 成功移除 ogdesign.Eagle 版本 3.0.0.37
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-ogdesign.Eagle-3.0.0.37-1761466250 (was 49b1d087ae3).
+工作区清理完成
+
+INFO 正在检查 ogdesign.Eagle 3.0.0.36 ...
+使用 winget 验证...
+已找到 Eagle [ogdesign.Eagle] 版本 3.0.0.36
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-3.0-build29.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : Not found (404).
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+正在检查 https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eaglehttps://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-3.0-build29.exe | 失效 (404)
+https://r2-app.eagle.cool/releases/Eagle-3.0-build29.exe | 失效 (404)
+✕ ogdesign.Eagle 3.0.0.36 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-ogdesign.Eagle-3.0.0.36-1761466338'
+  已签出新分支 Remove-ogdesign.Eagle-3.0.0.36-1761466338
+  已移除软件包 ogdesign.Eagle 版本 3.0.0.36
+[Remove-ogdesign.Eagle-3.0.0.36-1761466338 60f4f951eb3] Remove version: ogdesign.Eagle version 3.0.0.36 (Auto)
+ 4 files changed, 116 deletions(-)
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.36/ogdesign.Eagle.installer.yaml
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.36/ogdesign.Eagle.locale.en-US.yaml
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.36/ogdesign.Eagle.locale.zh-CN.yaml
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.36/ogdesign.Eagle.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 718 bytes | 239.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-ogdesign.Eagle-3.0.0.36-1761466338' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-ogdesign.Eagle-3.0.0.36-1761466338
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-ogdesign.Eagle-3.0.0.36-1761466338 -> Remove-ogdesign.Eagle-3.0.0.36-1761466338
+branch 'Remove-ogdesign.Eagle-3.0.0.36-1761466338' set up to track 'origin/Remove-ogdesign.Eagle-3.0.0.36-1761466338'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/307076
+ 成功移除 ogdesign.Eagle 版本 3.0.0.36
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-ogdesign.Eagle-3.0.0.36-1761466338 (was 60f4f951eb3).
+工作区清理完成
+
+INFO 正在检查 ogdesign.Eagle 3.0.0.34 ...
+使用 winget 验证...
+已找到 Eagle [ogdesign.Eagle] 版本 3.0.0.34
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-3.0-build28.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : Not found (404).
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://r2-app.eagle.cool/releases/Eagle-3.0-build28.exe | 失效 (404)
+正在检查 https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eaglehttps://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-3.0-build28.exe | 失效 (404)
+✕ ogdesign.Eagle 3.0.0.34 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-ogdesign.Eagle-3.0.0.34-1761466452'
+  已签出新分支 Remove-ogdesign.Eagle-3.0.0.34-1761466452
+  已移除软件包 ogdesign.Eagle 版本 3.0.0.34
+[Remove-ogdesign.Eagle-3.0.0.34-1761466452 7f0c4e727c6] Remove version: ogdesign.Eagle version 3.0.0.34 (Auto)
+ 4 files changed, 116 deletions(-)
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.34/ogdesign.Eagle.installer.yaml
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.34/ogdesign.Eagle.locale.en-US.yaml
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.34/ogdesign.Eagle.locale.zh-CN.yaml
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.34/ogdesign.Eagle.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 723 bytes | 144.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-ogdesign.Eagle-3.0.0.34-1761466452' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-ogdesign.Eagle-3.0.0.34-1761466452
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-ogdesign.Eagle-3.0.0.34-1761466452 -> Remove-ogdesign.Eagle-3.0.0.34-1761466452
+branch 'Remove-ogdesign.Eagle-3.0.0.34-1761466452' set up to track 'origin/Remove-ogdesign.Eagle-3.0.0.34-1761466452'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/307077
+ 成功移除 ogdesign.Eagle 版本 3.0.0.34
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-ogdesign.Eagle-3.0.0.34-1761466452 (was 7f0c4e727c6).
+工作区清理完成
+
+INFO 正在检查 ogdesign.Eagle 3.0.0.33 ...
+使用 winget 验证...
+已找到 Eagle [ogdesign.Eagle] 版本 3.0.0.33
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-3.0-build27.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : Not found (404).
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://r2-app.eagle.cool/releases/Eagle-3.0-build27.exe | 失效 (404)
+正在检查 https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eaglehttps://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-3.0-build27.exe | 失效 (404)
+✕ ogdesign.Eagle 3.0.0.33 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-ogdesign.Eagle-3.0.0.33-1761466719'
+  已签出新分支 Remove-ogdesign.Eagle-3.0.0.33-1761466719
+  已移除软件包 ogdesign.Eagle 版本 3.0.0.33
+[Remove-ogdesign.Eagle-3.0.0.33-1761466719 e667b6de431] Remove version: ogdesign.Eagle version 3.0.0.33 (Auto)
+ 4 files changed, 116 deletions(-)
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.33/ogdesign.Eagle.installer.yaml
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.33/ogdesign.Eagle.locale.en-US.yaml
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.33/ogdesign.Eagle.locale.zh-CN.yaml
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.33/ogdesign.Eagle.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 724 bytes | 241.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-ogdesign.Eagle-3.0.0.33-1761466719' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-ogdesign.Eagle-3.0.0.33-1761466719
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-ogdesign.Eagle-3.0.0.33-1761466719 -> Remove-ogdesign.Eagle-3.0.0.33-1761466719
+branch 'Remove-ogdesign.Eagle-3.0.0.33-1761466719' set up to track 'origin/Remove-ogdesign.Eagle-3.0.0.33-1761466719'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/307078
+ 成功移除 ogdesign.Eagle 版本 3.0.0.33
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-ogdesign.Eagle-3.0.0.33-1761466719 (was e667b6de431).
+工作区清理完成
+
+INFO 正在检查 ogdesign.Eagle 3.0.0.32 ...
+使用 winget 验证...
+已找到 Eagle [ogdesign.Eagle] 版本 3.0.0.32
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-3.0-build26.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : Not found (404).
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+正在检查 https://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eaglehttps://eaglefile.oss-cn-shenzhen.aliyuncs.com/releases/Eagle-3.0-build26.exe | 失效 (404)
+https://r2-app.eagle.cool/releases/Eagle-3.0-build26.exe | 失效 (404)
+✕ ogdesign.Eagle 3.0.0.32 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+  已签出到 master 分支
+  已获取上游修改
+  已获取远程修改
+Current branch master is up to date.
+  已变基上游修改
+Everything up-to-date
+  已推送 master 分支
+✓ 同步完成
+Switched to a new branch 'Remove-ogdesign.Eagle-3.0.0.32-1761467610'
+  已签出新分支 Remove-ogdesign.Eagle-3.0.0.32-1761467610
+  已移除软件包 ogdesign.Eagle 版本 3.0.0.32
+[Remove-ogdesign.Eagle-3.0.0.32-1761467610 b407d8349d9] Remove version: ogdesign.Eagle version 3.0.0.32 (Auto)
+ 4 files changed, 116 deletions(-)
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.32/ogdesign.Eagle.installer.yaml
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.32/ogdesign.Eagle.locale.en-US.yaml
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.32/ogdesign.Eagle.locale.zh-CN.yaml
+ delete mode 100644 manifests/o/ogdesign/Eagle/3.0.0.32/ogdesign.Eagle.yaml
+  已提交修改
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 722 bytes | 361.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+remote:
+remote: Create a pull request for 'Remove-ogdesign.Eagle-3.0.0.32-1761467610' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-ogdesign.Eagle-3.0.0.32-1761467610
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-ogdesign.Eagle-3.0.0.32-1761467610 -> Remove-ogdesign.Eagle-3.0.0.32-1761467610
+branch 'Remove-ogdesign.Eagle-3.0.0.32-1761467610' set up to track 'origin/Remove-ogdesign.Eagle-3.0.0.32-1761467610'.
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/307080
+ 成功移除 ogdesign.Eagle 版本 3.0.0.32
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-ogdesign.Eagle-3.0.0.32-1761467610 (was b407d8349d9).
+工作区清理完成
+
+--> Ctrl + C 提前中止
