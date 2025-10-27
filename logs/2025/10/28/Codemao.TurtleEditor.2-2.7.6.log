@@ -1,0 +1,33 @@
+~~ Start logging ~~
+2025-10-28 05:50:49.793 FUN 我超，冰！
+2025-10-28 05:50:49.794 INFO Trying to generate new manifests for Codemao.TurtleEditor.2 2.7.6 with urls ['https://static.codemao.cn/turtle/client/release/%E6%B5%B7%E9%BE%9F%E7%BC%96%E8%BE%91%E5%99%A82-x64-2.7.6.exe', 'https://static.codemao.cn/turtle/client/release/%E6%B5%B7%E9%BE%9F%E7%BC%96%E8%BE%91%E5%99%A82-x32-2.7.6.exe']...
+2025-10-28 05:50:58.618 INFO The manifest was successfully generated.
+2025-10-28 05:50:58.623 INFO Found the following version folder: ['2.0.0', '2.0.1', '2.1.1', '2.4.0', '2.6.1', '2.7.3', '2.7.4', '2.7.5', '2.7.6']
+2025-10-28 05:50:58.624 INFO Skip version 2.0.0, because it's not in the list of versions to be modified.
+2025-10-28 05:50:58.626 INFO Skip version 2.0.1, because it's not in the list of versions to be modified.
+2025-10-28 05:50:58.628 INFO Skip version 2.1.1, because it's not in the list of versions to be modified.
+2025-10-28 05:50:58.630 INFO Skip version 2.4.0, because it's not in the list of versions to be modified.
+2025-10-28 05:50:58.631 INFO Skip version 2.6.1, because it's not in the list of versions to be modified.
+2025-10-28 05:50:58.632 INFO Skip version 2.7.3, because it's not in the list of versions to be modified.
+2025-10-28 05:50:58.634 INFO Skip version 2.7.4, because it's not in the list of versions to be modified.
+2025-10-28 05:50:58.636 INFO Skip version 2.7.5, because it's not in the list of versions to be modified.
+2025-10-28 05:50:58.636 INFO Processing version folder: 2.7.6
+2025-10-28 05:50:58.637 INFO   Create and checkout to a new branch: New-Version-Codemao.TurtleEditor.2-2.7.6-1761601858
+2025-10-28 05:51:04.412 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\2\2.7.6\Codemao.TurtleEditor.2.installer.yaml
+2025-10-28 05:51:04.415 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\2\2.7.6\Codemao.TurtleEditor.2.installer.yaml
+2025-10-28 05:51:04.618 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\2\2.7.6\Codemao.TurtleEditor.2.locale.en-US.yaml
+2025-10-28 05:51:04.622 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\2\2.7.6\Codemao.TurtleEditor.2.locale.en-US.yaml
+2025-10-28 05:51:04.745 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\2\2.7.6\Codemao.TurtleEditor.2.locale.zh-CN.yaml
+2025-10-28 05:51:04.749 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\2\2.7.6\Codemao.TurtleEditor.2.locale.zh-CN.yaml
+2025-10-28 05:51:04.893 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\2\2.7.6\Codemao.TurtleEditor.2.yaml
+2025-10-28 05:51:04.896 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\2\2.7.6\Codemao.TurtleEditor.2.yaml
+2025-10-28 05:51:05.594 INFO   New manifests in D:\...\winget-pkgs\manifests\c\Codemao\TurtleEditor\2\2.7.6 for Codemao.TurtleEditor.2 (2.7.6)
+2025-10-28 05:52:43.915 INFO     清单验证成功。
+2025-10-28 05:52:43.925 INFO   Staging and Committing Changes to Git
+2025-10-28 05:52:55.646 INFO     Commit message: New version: Codemao.TurtleEditor.2 version 2.7.6 (Auto)
+2025-10-28 05:53:17.822 INFO   Pushing changes to remote (origin) repository
+2025-10-28 05:53:22.158 INFO     Successfully pushed to remote (origin): New-Version-Codemao.TurtleEditor.2-2.7.6-1761601858
+2025-10-28 05:53:24.809 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/307427
+2025-10-28 05:53:24.811 INFO All manifests have been modified and pushed through.
+2025-10-28 05:53:36.317 INFO Workspace clean-up completed.
+~~ End of logging ~~
