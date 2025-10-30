@@ -1,0 +1,23 @@
+~~ Start logging ~~
+2025-10-30 21:49:08.736 FUN 【那一天的延迟，延迟起来】https://www.bilibili.com/video/BV1SnNbzFEkG/
+2025-10-30 21:49:08.741 INFO Found the following version folder: ['2.2.15.4', '2.2.15.5']
+2025-10-30 21:49:08.743 INFO Processing version folder: 2.2.15.4
+2025-10-30 21:49:08.745 INFO   Create and checkout to a new branch: Modify-S-accellence.vimacc-2.2.15.4-1761832148
+2025-10-30 21:49:31.110 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\accellence\vimacc\2.2.15.4\accellence.vimacc.installer.yaml
+2025-10-30 21:49:31.116 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\accellence\vimacc\2.2.15.4\accellence.vimacc.installer.yaml
+2025-10-30 21:49:31.469 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\accellence\vimacc\2.2.15.4\accellence.vimacc.locale.de-DE.yaml
+2025-10-30 21:49:31.512 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\accellence\vimacc\2.2.15.4\accellence.vimacc.locale.de-DE.yaml
+2025-10-30 21:49:31.767 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\accellence\vimacc\2.2.15.4\accellence.vimacc.locale.en-US.yaml
+2025-10-30 21:49:31.808 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\accellence\vimacc\2.2.15.4\accellence.vimacc.locale.en-US.yaml
+2025-10-30 21:49:32.317 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\accellence\vimacc\2.2.15.4\accellence.vimacc.yaml
+2025-10-30 21:49:32.372 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\accellence\vimacc\2.2.15.4\accellence.vimacc.yaml
+2025-10-30 21:52:39.796 INFO     清单验证成功。
+2025-10-30 21:52:39.104 INFO   Staging and Committing Changes to Git
+2025-10-30 21:53:05.425 INFO     Commit message: Modify: accellence.vimacc version 2.2.15.4 (Auto)
+2025-10-30 21:53:05.428 INFO   Pushing changes to remote (origin) repository
+2025-10-30 21:53:55.782 INFO     Successfully pushed to remote (origin): Modify-S-accellence.vimacc-2.2.15.4-1761832148
+2025-10-30 21:54:06.900 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/308437
+2025-10-30 21:54:06.911 INFO Skip version 2.2.15.5, because it's not in the list of versions to be modified.
+2025-10-30 21:54:06.913 INFO All manifests have been modified and pushed through.
+2025-10-30 21:54:18.594 INFO Workspace clean-up completed.
+~~ End of logging ~~
