@@ -1,0 +1,28 @@
+~~ Start logging ~~
+2025-11-07 06:06:37.370 FUN (=・ω・=)
+2025-11-07 06:06:37.374 INFO Found the following version folder: ['2.2.0.0', '2.3.0.0', '2.3.1.1', '3.0.0.0', '3.0.1.0', '3.1.1.0']
+2025-11-07 06:06:37.375 INFO Skip version 2.2.0.0, because it's not in the list of versions to be modified.
+2025-11-07 06:06:37.376 INFO Skip version 2.3.0.0, because it's not in the list of versions to be modified.
+2025-11-07 06:06:37.377 INFO Skip version 2.3.1.1, because it's not in the list of versions to be modified.
+2025-11-07 06:06:37.378 INFO Skip version 3.0.0.0, because it's not in the list of versions to be modified.
+2025-11-07 06:06:37.379 INFO Skip version 3.0.1.0, because it's not in the list of versions to be modified.
+2025-11-07 06:06:37.379 INFO Processing version folder: 3.1.1.0
+2025-11-07 06:06:37.380 INFO   Create and checkout to a new branch: New-Version-denglihong2007.CRSim-3.1.1.0-1762466797
+2025-11-07 06:06:43.931 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\denglihong2007\CRSim\3.1.1.0\denglihong2007.CRSim.installer.yaml
+2025-11-07 06:06:43.934 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\denglihong2007\CRSim\3.1.1.0\denglihong2007.CRSim.installer.yaml
+2025-11-07 06:06:44.204 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\denglihong2007\CRSim\3.1.1.0\denglihong2007.CRSim.locale.en-US.yaml
+2025-11-07 06:06:44.210 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\denglihong2007\CRSim\3.1.1.0\denglihong2007.CRSim.locale.en-US.yaml
+2025-11-07 06:06:44.340 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\denglihong2007\CRSim\3.1.1.0\denglihong2007.CRSim.locale.zh-CN.yaml
+2025-11-07 06:06:44.344 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\denglihong2007\CRSim\3.1.1.0\denglihong2007.CRSim.locale.zh-CN.yaml
+2025-11-07 06:06:44.474 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\denglihong2007\CRSim\3.1.1.0\denglihong2007.CRSim.yaml
+2025-11-07 06:06:44.477 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\denglihong2007\CRSim\3.1.1.0\denglihong2007.CRSim.yaml
+2025-11-07 06:06:44.610 INFO   New manifests in D:\...\winget-pkgs\manifests\d\denglihong2007\CRSim\3.1.1.0 for denglihong2007.CRSim (3.1.1.0)
+2025-11-07 06:06:54.831 INFO Manifest validation succeeded with "sundry validate".
+2025-11-07 06:06:54.833 INFO   Staging and Committing Changes to Git
+2025-11-07 06:07:02.804 INFO     Commit message: New version: denglihong2007.CRSim version 3.1.1.0 (Auto)
+2025-11-07 06:07:10.319 INFO   Pushing changes to remote (origin) repository
+2025-11-07 06:07:20.152 INFO     Successfully pushed to remote (origin): New-Version-denglihong2007.CRSim-3.1.1.0-1762466797
+2025-11-07 06:08:03.959 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/310472
+2025-11-07 06:08:03.962 INFO All manifests have been modified and pushed through.
+2025-11-07 06:08:10.604 INFO Workspace clean-up completed.
+~~ End of logging ~~
