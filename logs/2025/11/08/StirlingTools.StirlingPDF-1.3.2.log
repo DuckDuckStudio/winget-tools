@@ -1,0 +1,40 @@
+~~ Start logging ~~
+2025-11-08 23:28:46.517 FUN Q：你家这个 Sundry，我儿子说不好用
+2025-11-08 23:28:46.517 FUN A：换个儿子再试一下，亲
+2025-11-08 23:28:46.548 INFO Found the following version folder: ['0.37.1', '0.45.0', '0.45.2', '0.45.3', '0.45.4', '0.45.5', '0.45.6', '0.46.0', '0.46.1', '0.46.2', '1.0.0', '1.0.1', '1.0.2', '1.1.0', '1.1.1', '1.2.0', '1.3.1', '1.3.2', '1.4.0', '1.5.0']
+2025-11-08 23:28:46.551 INFO Skip version 0.37.1, because it's not in the list of versions to be modified.
+2025-11-08 23:28:46.553 INFO Skip version 0.45.0, because it's not in the list of versions to be modified.
+2025-11-08 23:28:46.555 INFO Skip version 0.45.2, because it's not in the list of versions to be modified.
+2025-11-08 23:28:46.557 INFO Skip version 0.45.3, because it's not in the list of versions to be modified.
+2025-11-08 23:28:46.558 INFO Skip version 0.45.4, because it's not in the list of versions to be modified.
+2025-11-08 23:28:46.560 INFO Skip version 0.45.5, because it's not in the list of versions to be modified.
+2025-11-08 23:28:46.562 INFO Skip version 0.45.6, because it's not in the list of versions to be modified.
+2025-11-08 23:28:46.563 INFO Skip version 0.46.0, because it's not in the list of versions to be modified.
+2025-11-08 23:28:46.565 INFO Skip version 0.46.1, because it's not in the list of versions to be modified.
+2025-11-08 23:28:46.568 INFO Skip version 0.46.2, because it's not in the list of versions to be modified.
+2025-11-08 23:28:46.570 INFO Skip version 1.0.0, because it's not in the list of versions to be modified.
+2025-11-08 23:28:46.571 INFO Skip version 1.0.1, because it's not in the list of versions to be modified.
+2025-11-08 23:28:46.573 INFO Skip version 1.0.2, because it's not in the list of versions to be modified.
+2025-11-08 23:28:46.575 INFO Skip version 1.1.0, because it's not in the list of versions to be modified.
+2025-11-08 23:28:46.577 INFO Skip version 1.1.1, because it's not in the list of versions to be modified.
+2025-11-08 23:28:46.579 INFO Skip version 1.2.0, because it's not in the list of versions to be modified.
+2025-11-08 23:28:46.580 INFO Skip version 1.3.1, because it's not in the list of versions to be modified.
+2025-11-08 23:28:46.582 INFO Processing version folder: 1.3.2
+2025-11-08 23:28:46.585 INFO   Create and checkout to a new branch: Modify-S-StirlingTools.StirlingPDF-1.3.2-1762615726
+2025-11-08 23:30:11.459 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\s\StirlingTools\StirlingPDF\1.3.2\StirlingTools.StirlingPDF.installer.yaml
+2025-11-08 23:30:11.466 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\s\StirlingTools\StirlingPDF\1.3.2\StirlingTools.StirlingPDF.installer.yaml
+2025-11-08 23:30:11.843 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\s\StirlingTools\StirlingPDF\1.3.2\StirlingTools.StirlingPDF.locale.en-US.yaml
+2025-11-08 23:30:11.853 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\s\StirlingTools\StirlingPDF\1.3.2\StirlingTools.StirlingPDF.locale.en-US.yaml
+2025-11-08 23:30:12.229 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\s\StirlingTools\StirlingPDF\1.3.2\StirlingTools.StirlingPDF.yaml
+2025-11-08 23:30:12.661 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\s\StirlingTools\StirlingPDF\1.3.2\StirlingTools.StirlingPDF.yaml
+2025-11-08 23:34:42.388 INFO Manifest validation succeeded with "sundry validate".
+2025-11-08 23:34:42.417 INFO   Staging and Committing Changes to Git
+2025-11-08 23:35:02.412 INFO     Commit message: Modify: StirlingTools.StirlingPDF version 1.3.2 (Auto)
+2025-11-08 23:35:02.415 INFO   Pushing changes to remote (origin) repository
+2025-11-08 23:35:16.347 INFO     Successfully pushed to remote (origin): Modify-S-StirlingTools.StirlingPDF-1.3.2-1762615726
+2025-11-08 23:35:21.864 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/311081
+2025-11-08 23:35:21.872 INFO Skip version 1.4.0, because it's not in the list of versions to be modified.
+2025-11-08 23:35:21.875 INFO Skip version 1.5.0, because it's not in the list of versions to be modified.
+2025-11-08 23:35:21.877 INFO All manifests have been modified and pushed through.
+2025-11-08 23:35:31.305 INFO Workspace clean-up completed.
+~~ End of logging ~~
