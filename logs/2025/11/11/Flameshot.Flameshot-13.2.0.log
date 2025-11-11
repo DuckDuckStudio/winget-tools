@@ -1,0 +1,31 @@
+~~ Start logging ~~
+2025-11-11 09:09:09.402 FUN 💃怎么也飞不出💃花花的世界💃原来我就是那一只💃酒醉的蝴蝶💃春去镜中花💃秋来水中月💃原来我就是那一只💃酒醉的蝴蝶💃
+2025-11-11 09:09:09.407 INFO Found the following version folder: ['0.10.1', '0.10.2', '0.8.4', '0.9.0', '11.0.0', '12.0.0', '12.1.0', '13.0.0', '13.0.1', '13.1.0', '13.2.0', '13.3.0']
+2025-11-11 09:09:09.408 INFO Skip version 0.10.1, because it's not in the list of versions to be modified.
+2025-11-11 09:09:09.411 INFO Skip version 0.10.2, because it's not in the list of versions to be modified.
+2025-11-11 09:09:09.413 INFO Skip version 0.8.4, because it's not in the list of versions to be modified.
+2025-11-11 09:09:09.414 INFO Skip version 0.9.0, because it's not in the list of versions to be modified.
+2025-11-11 09:09:09.415 INFO Skip version 11.0.0, because it's not in the list of versions to be modified.
+2025-11-11 09:09:09.416 INFO Skip version 12.0.0, because it's not in the list of versions to be modified.
+2025-11-11 09:09:09.417 INFO Skip version 12.1.0, because it's not in the list of versions to be modified.
+2025-11-11 09:09:09.418 INFO Skip version 13.0.0, because it's not in the list of versions to be modified.
+2025-11-11 09:09:09.419 INFO Skip version 13.0.1, because it's not in the list of versions to be modified.
+2025-11-11 09:09:09.420 INFO Skip version 13.1.0, because it's not in the list of versions to be modified.
+2025-11-11 09:09:09.421 INFO Processing version folder: 13.2.0
+2025-11-11 09:09:09.422 INFO   Create and checkout to a new branch: Modify-S-Flameshot.Flameshot-13.2.0-1762823349
+2025-11-11 09:09:22.134 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\Flameshot\Flameshot\13.2.0\Flameshot.Flameshot.installer.yaml
+2025-11-11 09:09:22.136 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\f\Flameshot\Flameshot\13.2.0\Flameshot.Flameshot.installer.yaml
+2025-11-11 09:09:22.352 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\Flameshot\Flameshot\13.2.0\Flameshot.Flameshot.locale.en-US.yaml
+2025-11-11 09:09:22.355 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\f\Flameshot\Flameshot\13.2.0\Flameshot.Flameshot.locale.en-US.yaml
+2025-11-11 09:09:22.455 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\Flameshot\Flameshot\13.2.0\Flameshot.Flameshot.yaml
+2025-11-11 09:09:22.458 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\f\Flameshot\Flameshot\13.2.0\Flameshot.Flameshot.yaml
+2025-11-11 09:10:29.429 INFO Manifest validation succeeded with "sundry validate".
+2025-11-11 09:10:29.431 INFO   Staging and Committing Changes to Git
+2025-11-11 09:10:45.937 INFO     Commit message: Modify: Flameshot.Flameshot version 13.2.0 (Auto)
+2025-11-11 09:10:45.939 INFO   Pushing changes to remote (origin) repository
+2025-11-11 09:10:50.244 INFO     Successfully pushed to remote (origin): Modify-S-Flameshot.Flameshot-13.2.0-1762823349
+2025-11-11 09:10:53.370 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/311529
+2025-11-11 09:10:53.372 INFO Skip version 13.3.0, because it's not in the list of versions to be modified.
+2025-11-11 09:10:53.373 INFO All manifests have been modified and pushed through.
+2025-11-11 09:10:59.407 INFO Workspace clean-up completed.
+~~ End of logging ~~
