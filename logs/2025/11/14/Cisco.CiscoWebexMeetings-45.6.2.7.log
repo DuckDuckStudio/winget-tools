@@ -1,0 +1,31 @@
+~~ Start logging ~~
+2025-11-14 04:53:53.735 FUN 进不去！怎么想都进不去吧！
+2025-11-14 04:53:53.739 INFO Found the following version folder: ['42.2.2.33', '42.4.1.12', '43.8.2.6', '44.4.0.159', '45.6.2.7']
+2025-11-14 04:53:53.740 INFO Skip version 42.2.2.33, because it's not in the list of versions to be modified.
+2025-11-14 04:53:53.741 INFO Skip version 42.4.1.12, because it's not in the list of versions to be modified.
+2025-11-14 04:53:53.742 INFO Skip version 43.8.2.6, because it's not in the list of versions to be modified.
+2025-11-14 04:53:53.744 INFO Skip version 44.4.0.159, because it's not in the list of versions to be modified.
+2025-11-14 04:53:53.744 INFO Processing version folder: 45.6.2.7
+2025-11-14 04:53:53.745 INFO   Create and checkout to a new branch: New-Version-Cisco.CiscoWebexMeetings-45.6.2.7-1763067233
+2025-11-14 04:53:58.989 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Cisco\CiscoWebexMeetings\45.6.2.7\Cisco.CiscoWebexMeetings.installer.yaml
+2025-11-14 04:53:58.990 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-11-14 04:53:58.991 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-11-14 04:53:58.994 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Cisco\CiscoWebexMeetings\45.6.2.7\Cisco.CiscoWebexMeetings.installer.yaml
+2025-11-14 04:53:59.148 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Cisco\CiscoWebexMeetings\45.6.2.7\Cisco.CiscoWebexMeetings.locale.en-US.yaml
+2025-11-14 04:53:59.150 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-11-14 04:53:59.153 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-11-14 04:53:59.157 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Cisco\CiscoWebexMeetings\45.6.2.7\Cisco.CiscoWebexMeetings.locale.en-US.yaml
+2025-11-14 04:53:59.259 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Cisco\CiscoWebexMeetings\45.6.2.7\Cisco.CiscoWebexMeetings.yaml
+2025-11-14 04:53:59.261 INFO     Replace ManifestVersion: 1.6.0 -> 1.10.0
+2025-11-14 04:53:59.263 INFO     Replace schema references: 1.6.0.schema.json -> 1.10.0.schema.json
+2025-11-14 04:53:59.266 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Cisco\CiscoWebexMeetings\45.6.2.7\Cisco.CiscoWebexMeetings.yaml
+2025-11-14 04:53:59.374 INFO   New manifests in D:\...\winget-pkgs\manifests\c\Cisco\CiscoWebexMeetings\45.6.2.7 for Cisco.CiscoWebexMeetings (45.6.2.7)
+2025-11-14 04:54:04.343 INFO Manifest validation succeeded with "sundry validate".
+2025-11-14 04:54:04.359 INFO   Staging and Committing Changes to Git
+2025-11-14 04:54:14.679 INFO     Commit message: New version: Cisco.CiscoWebexMeetings version 45.6.2.7 (Auto)
+2025-11-14 04:54:32.634 INFO   Pushing changes to remote (origin) repository
+2025-11-14 04:54:35.920 INFO     Successfully pushed to remote (origin): New-Version-Cisco.CiscoWebexMeetings-45.6.2.7-1763067233
+2025-11-14 04:54:39.115 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/313030
+2025-11-14 04:54:39.117 INFO All manifests have been modified and pushed through.
+2025-11-14 04:54:45.408 INFO Workspace clean-up completed.
+~~ End of logging ~~
