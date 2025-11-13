@@ -1,0 +1,37 @@
+~~ Start logging ~~
+2025-11-13 14:08:10.876 FUN 这下听懂了。
+2025-11-13 14:08:10.884 INFO Found the following version folder: ['2024.12.25.12494060383', '2025.01.14.12764289055', '2025.01.15.12782147412', '2025.01.19.12849721517', '2025.01.22.12907017964', '2025.01.22.12911106870', '2025.03.07.13718228324', '2025.03.10.13761118669', '2025.04.10.14373190636', '2025.07.16.16318740224', '2025.07.17.16336851664', '2025.09.08.17538371202', '2025.10.14.18485774741', '2025.11.13.19317791500']
+2025-11-13 14:08:10.886 INFO Skip version 2024.12.25.12494060383, because it's not in the list of versions to be modified.
+2025-11-13 14:08:10.924 INFO Skip version 2025.01.14.12764289055, because it's not in the list of versions to be modified.
+2025-11-13 14:08:10.927 INFO Skip version 2025.01.15.12782147412, because it's not in the list of versions to be modified.
+2025-11-13 14:08:10.929 INFO Skip version 2025.01.19.12849721517, because it's not in the list of versions to be modified.
+2025-11-13 14:08:10.931 INFO Skip version 2025.01.22.12907017964, because it's not in the list of versions to be modified.
+2025-11-13 14:08:10.934 INFO Skip version 2025.01.22.12911106870, because it's not in the list of versions to be modified.
+2025-11-13 14:08:10.937 INFO Skip version 2025.03.07.13718228324, because it's not in the list of versions to be modified.
+2025-11-13 14:08:10.940 INFO Skip version 2025.03.10.13761118669, because it's not in the list of versions to be modified.
+2025-11-13 14:08:10.943 INFO Skip version 2025.04.10.14373190636, because it's not in the list of versions to be modified.
+2025-11-13 14:08:10.947 INFO Skip version 2025.07.16.16318740224, because it's not in the list of versions to be modified.
+2025-11-13 14:08:10.949 INFO Skip version 2025.07.17.16336851664, because it's not in the list of versions to be modified.
+2025-11-13 14:08:10.951 INFO Skip version 2025.09.08.17538371202, because it's not in the list of versions to be modified.
+2025-11-13 14:08:10.953 INFO Skip version 2025.10.14.18485774741, because it's not in the list of versions to be modified.
+2025-11-13 14:08:10.957 INFO Processing version folder: 2025.11.13.19317791500
+2025-11-13 14:08:10.960 INFO   Create and checkout to a new branch: New-Version-DuckStudio.GitHubView.Nightly-2025.11.13.19317791500-1763014090
+2025-11-13 14:08:18.969 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.11.13.19317791500\DuckStudio.GitHubView.Nightly.installer.yaml
+2025-11-13 14:08:18.974 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.11.13.19317791500\DuckStudio.GitHubView.Nightly.installer.yaml
+2025-11-13 14:08:19.284 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.11.13.19317791500\DuckStudio.GitHubView.Nightly.locale.en-US.yaml
+2025-11-13 14:08:19.289 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.11.13.19317791500\DuckStudio.GitHubView.Nightly.locale.en-US.yaml
+2025-11-13 14:08:19.503 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.11.13.19317791500\DuckStudio.GitHubView.Nightly.locale.zh-CN.yaml
+2025-11-13 14:08:19.508 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.11.13.19317791500\DuckStudio.GitHubView.Nightly.locale.zh-CN.yaml
+2025-11-13 14:08:19.811 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.11.13.19317791500\DuckStudio.GitHubView.Nightly.yaml
+2025-11-13 14:08:19.938 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.11.13.19317791500\DuckStudio.GitHubView.Nightly.yaml
+2025-11-13 14:08:20.384 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.11.13.19317791500 for DuckStudio.GitHubView.Nightly (2025.11.13.19317791500)
+2025-11-13 14:08:33.883 INFO The manifest failed to validate using "sundry validate".
+2025-11-13 14:36:04.151 INFO Manifest Error Fixed.
+2025-11-13 14:36:04.154 INFO   Staging and Committing Changes to Git
+2025-11-13 14:36:15.634 INFO     Commit message: New version: DuckStudio.GitHubView.Nightly version 2025.11.13.19317791500 (Auto)
+2025-11-13 14:36:33.844 INFO   Pushing changes to remote (origin) repository
+2025-11-13 14:36:38.261 INFO     Successfully pushed to remote (origin): New-Version-DuckStudio.GitHubView.Nightly-2025.11.13.19317791500-1763014090
+2025-11-13 14:36:41.459 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/312848
+2025-11-13 14:36:41.462 INFO All manifests have been modified and pushed through.
+2025-11-13 14:36:49.177 INFO Workspace clean-up completed.
+~~ End of logging ~~
