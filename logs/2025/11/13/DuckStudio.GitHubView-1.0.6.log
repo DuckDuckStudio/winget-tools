@@ -1,0 +1,27 @@
+~~ Start logging ~~
+2025-11-13 19:35:47.740 FUN 【撞飞机了ToT】https://www.bilibili.com/video/BV1f14y1h7Hp/?t=272
+2025-11-13 19:35:47.745 INFO Found the following version folder: ['1.0.0', '1.0.1', '1.0.3', '1.0.4', '1.0.5', '1.0.6', 'Nightly']
+2025-11-13 19:35:47.747 INFO Skip version 1.0.0, because it's not in the list of versions to be modified.
+2025-11-13 19:35:47.748 INFO Skip version 1.0.1, because it's not in the list of versions to be modified.
+2025-11-13 19:35:47.749 INFO Skip version 1.0.3, because it's not in the list of versions to be modified.
+2025-11-13 19:35:47.751 INFO Skip version 1.0.4, because it's not in the list of versions to be modified.
+2025-11-13 19:35:47.752 INFO Skip version 1.0.5, because it's not in the list of versions to be modified.
+2025-11-13 19:35:47.754 INFO Processing version folder: 1.0.6
+2025-11-13 19:35:47.755 INFO   Create and checkout to a new branch: New-Version-DuckStudio.GitHubView-1.0.6-1763033747
+2025-11-13 19:35:58.788 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.6\DuckStudio.GitHubView.installer.yaml
+2025-11-13 19:35:58.793 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.6\DuckStudio.GitHubView.installer.yaml
+2025-11-13 19:35:59.129 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.6\DuckStudio.GitHubView.locale.zh-CN.yaml
+2025-11-13 19:35:59.134 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.6\DuckStudio.GitHubView.locale.zh-CN.yaml
+2025-11-13 19:35:59.355 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.6\DuckStudio.GitHubView.yaml
+2025-11-13 19:35:59.363 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.6\DuckStudio.GitHubView.yaml
+2025-11-13 19:35:59.609 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\1.0.6 for DuckStudio.GitHubView (1.0.6)
+2025-11-13 20:00:42.698 INFO Manifest validation succeeded with "sundry validate".
+2025-11-13 20:00:42.701 INFO   Staging and Committing Changes to Git
+2025-11-13 20:00:57.646 INFO     Commit message: New version: DuckStudio.GitHubView version 1.0.6 (Auto)
+2025-11-13 20:01:21.905 INFO   Pushing changes to remote (origin) repository
+2025-11-13 20:01:26.966 INFO     Successfully pushed to remote (origin): New-Version-DuckStudio.GitHubView-1.0.6-1763033747
+2025-11-13 20:01:31.569 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/312912
+2025-11-13 20:01:31.573 INFO Skip version Nightly, because it's not in the list of versions to be modified.
+2025-11-13 20:01:31.575 INFO All manifests have been modified and pushed through.
+2025-11-13 20:01:40.248 INFO Workspace clean-up completed.
+~~ End of logging ~~
