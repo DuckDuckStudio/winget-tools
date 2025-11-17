@@ -54,7 +54,7 @@ jobs:
       - name: 设置 .NET
         uses: actions/setup-dotnet@v5.0.0
         with:
-          dotnet-version: 9.x
+          dotnet-version: 10.x
 
       - name: 克隆 winget-pkgs fork
         run: |
