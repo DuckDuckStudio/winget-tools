@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.Collections.Concurrent;
 using YamlDotNet.RepresentationModel;
+using System.Security.Authentication.ExtendedProtection;
 
 namespace checker
 {
@@ -449,6 +450,23 @@ namespace checker
                             // 忽略异常
                         }
                     }
+                    // 检查响应的 Content-Type 头是否是常见的意外的类型
+                    string? contentType = response.Content.Headers.ContentType?.MediaType ?? null;
+                    if (!string.IsNullOrWhiteSpace(contentType))
+                    {
+                        HashSet<string> unexpectedTypes = ["xml", "json", "html"];
+                        if (unexpectedTypes.Any(i => contentType.Contains(i, StringComparison.OrdinalIgnoreCase)))
+                        {
+                            errorMessage = $"\n[Warning] <ManifestFilePath> 中的 {url} 响应的类型似乎不是有效的安装程序 ({contentType})";
+                            checkedUrls.TryAdd(url, errorMessage);
+                            WriteErrorMessage(errorMessage, filePath);
+                            if (failureLevel == "详细")
+                            {
+                                return false;
+                            }
+                        }
+                    }
+                    // 如果没有抛出异常，也没有遇到检查错误
                     Console.Write("*");
                     checkedUrls.TryAdd(url, "OK");
                 }
@@ -574,6 +592,8 @@ namespace checker
                 WriteErrorMessage(errorMessage, filePath);
                 return false;
             }
+            // 请将这个放在方法底部，在没有 return false 时接着
+            // 请注意，忽略的或跳过的链接不会 return false
             return true;
         }
 
