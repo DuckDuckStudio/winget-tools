@@ -457,7 +457,7 @@ namespace checker
                         HashSet<string> unexpectedTypes = ["xml", "json", "html"];
                         if (unexpectedTypes.Any(i => contentType.Contains(i, StringComparison.OrdinalIgnoreCase)))
                         {
-                            errorMessage = $"\n[Warning] <ManifestFilePath> 中的 {url} 响应的类型似乎不是有效的安装程序 ({contentType})";
+                            errorMessage = $"\n[Warning] <ManifestFilePath> 中的 {url} 响应的类型似乎不是有效的安装程序 ({contentType})\n[Hint] Sundry 命令: sundry remove <PackageIdentifier> <PackageVersion> \"The installer url(s) responded with an unexpected type ({contentType}) in GitHub Action.\"";
                             checkedUrls.TryAdd(url, errorMessage);
                             WriteErrorMessage(errorMessage, filePath);
                             if (failureLevel == "详细")
