@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.Collections.Concurrent;
 using YamlDotNet.RepresentationModel;
-using System.Security.Authentication.ExtendedProtection;
 
 namespace checker
 {
