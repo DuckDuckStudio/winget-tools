@@ -63,6 +63,13 @@ namespace checker
 #endif
             }
 
+            if (args[0] == "PackageChecks")
+            {
+                return PackageChecks.a.abbodi1406.vcredist.Checker.Check();
+            }
+
+            // ===============================================================
+
             string folderPath = Path.Combine("winget-pkgs", "manifests", args[0]);
             if (!Directory.Exists(folderPath))
             {
