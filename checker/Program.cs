@@ -18,22 +18,12 @@ namespace checker
         internal static readonly string[] installerType = [".exe", ".zip", ".msi", ".msix", ".appx", "download", ".msixbundle"];
         // &download 为 sourceforge 和类似网站的下载链接
 
-        static async Task Main(string[] args)
+        static async Task<int> Main(string[] args)
         {
             if (args.Length < 1)
             {
                 Console.WriteLine("[Error] 没有指定需要检查的目录");
-                return;
-            }
-
-            string folderPath = Path.Combine("winget-pkgs", "manifests", args[0]);
-            if (!Directory.Exists(folderPath))
-            {
-#if DEBUG
-                Console.WriteLine($"[Debug] 检查目录 {folderPath}");
-#endif
-                Console.WriteLine("[Error] 指定的检查目录不存在");
-                return;
+                return 1;
             }
 
             string failureLevel;
@@ -73,13 +63,24 @@ namespace checker
 #endif
             }
 
+            string folderPath = Path.Combine("winget-pkgs", "manifests", args[0]);
+            if (!Directory.Exists(folderPath))
+            {
+#if DEBUG
+                Console.WriteLine($"[Debug] 检查目录 {folderPath}");
+#endif
+                Console.WriteLine("[Error] 指定的检查目录不存在");
+                return 1;
+            }
+
             if (await CheckUrlsInYamlFilesParallel(folderPath, failureLevel, maxConcurrency))
             {
                 Console.WriteLine("\n所有检查的链接正常");
+                return 0;
             }
             else
             {
-                Environment.Exit(1);
+                return 1;
             }
         }
 
