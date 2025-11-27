@@ -295,7 +295,7 @@ namespace checker
             try
             {
                 HttpResponseMessage response = await client.SendAsync(new HttpRequestMessage(HttpMethod.Head, url));
-                if ((int)response.StatusCode >= 400)
+                if (((int)response.StatusCode >= 400) || !string.IsNullOrWhiteSpace(GetUnexpectedContentType(response.Content.Headers.ContentType?.MediaType ?? null)))
                 {
                     response = await client.GetAsync(url);
                 }
@@ -457,20 +457,18 @@ namespace checker
                             // 忽略异常
                         }
                     }
-                    // 检查响应的 Content-Type 头是否是常见的意外的类型
-                    string? contentType = response.Content.Headers.ContentType?.MediaType ?? null;
-                    if (!string.IsNullOrWhiteSpace(contentType))
+                    string? unexpectedType = GetUnexpectedContentType(response.Content.Headers.ContentType?.MediaType ?? null);
+                    if (!string.IsNullOrWhiteSpace(unexpectedType))
                     {
-                        HashSet<string> unexpectedTypes = ["xml", "json", "html"];
-                        if (unexpectedTypes.Any(i => contentType.Contains(i, StringComparison.OrdinalIgnoreCase)))
+                        errorMessage = $"\n[Warning] <ManifestFilePath> 中的 {url} 响应的类型似乎不是有效的安装程序 ({unexpectedType})\n[Hint] Sundry 命令: sundry remove <PackageIdentifier> <PackageVersion> \"The installer url(s) responded with an unexpected type ({unexpectedType}) in GitHub Action.\"";
+                        checkedUrls.TryAdd(url, errorMessage);
+                        WriteErrorMessage(errorMessage, filePath);
+#if DEBUG
+                        Console.WriteLine($"[Debug] 响应的内容:\n{await response.Content.ReadAsStringAsync()}");
+#endif
+                        if (failureLevel == "详细")
                         {
-                            errorMessage = $"\n[Warning] <ManifestFilePath> 中的 {url} 响应的类型似乎不是有效的安装程序 ({contentType})\n[Hint] Sundry 命令: sundry remove <PackageIdentifier> <PackageVersion> \"The installer url(s) responded with an unexpected type ({contentType}) in GitHub Action.\"";
-                            checkedUrls.TryAdd(url, errorMessage);
-                            WriteErrorMessage(errorMessage, filePath);
-                            if (failureLevel == "详细")
-                            {
-                                return false;
-                            }
+                            return false;
                         }
                     }
                     // 如果没有抛出异常，也没有遇到检查错误
@@ -673,6 +671,19 @@ namespace checker
                 }
             }
             return urls;
+        }
+
+        static string? GetUnexpectedContentType(string? contentType)
+        {
+            if (!string.IsNullOrWhiteSpace(contentType))
+            {
+                HashSet<string> unexpectedTypes = ["xml", "json", "html"];
+                if (unexpectedTypes.Any(i => contentType.Contains(i, StringComparison.OrdinalIgnoreCase)))
+                {
+                    return contentType;
+                }
+            }
+            return null;
         }
 
         static bool IsExcluded(string url)
