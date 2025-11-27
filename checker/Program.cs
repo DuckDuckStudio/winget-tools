@@ -463,9 +463,6 @@ namespace checker
                         errorMessage = $"\n[Warning] <ManifestFilePath> 中的 {url} 响应的类型似乎不是有效的安装程序 ({unexpectedType})\n[Hint] Sundry 命令: sundry remove <PackageIdentifier> <PackageVersion> \"The installer url(s) responded with an unexpected type ({unexpectedType}) in GitHub Action.\"";
                         checkedUrls.TryAdd(url, errorMessage);
                         WriteErrorMessage(errorMessage, filePath);
-#if DEBUG
-                        Console.WriteLine($"[Debug] 响应的内容:\n{await response.Content.ReadAsStringAsync()}");
-#endif
                         if (failureLevel == "详细")
                         {
                             return false;
