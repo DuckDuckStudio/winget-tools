@@ -1,0 +1,59 @@
+~~ Start logging ~~
+2025-11-30 05:32:42.956 FUN (=ＴェＴ=)
+2025-11-30 05:32:42.268 INFO Found the following version folder: ['8.11.0', '8.12.0', '8.13.0', '8.14.0', '8.15.0', '8.17.1', '8.18.0', '8.18.1', '8.19.0', '8.21.0', '8.22.0', '8.22.1', '8.23.0', '8.23.1', '8.23.2', '8.24.0', '8.24.1', '8.25.0', '8.26.0', '8.27.0', '8.28.0', '8.29.0', '8.7.0', '8.8.1', '9.18.0', '9.19.0', '9.20.0', '9.21.0', '9.21.1', '9.22.0', '9.23.0', '9.24.0', '9.25.1', '9.26.0']
+2025-11-30 05:32:42.287 INFO Skip version 8.11.0, because it's not in the list of versions to be modified.
+2025-11-30 05:32:42.402 INFO Skip version 8.12.0, because it's not in the list of versions to be modified.
+2025-11-30 05:32:42.420 INFO Skip version 8.13.0, because it's not in the list of versions to be modified.
+2025-11-30 05:32:42.437 INFO Skip version 8.14.0, because it's not in the list of versions to be modified.
+2025-11-30 05:32:42.452 INFO Skip version 8.15.0, because it's not in the list of versions to be modified.
+2025-11-30 05:32:42.467 INFO Skip version 8.17.1, because it's not in the list of versions to be modified.
+2025-11-30 05:32:42.483 INFO Skip version 8.18.0, because it's not in the list of versions to be modified.
+2025-11-30 05:32:42.498 INFO Skip version 8.18.1, because it's not in the list of versions to be modified.
+2025-11-30 05:32:42.522 INFO Skip version 8.19.0, because it's not in the list of versions to be modified.
+2025-11-30 05:32:42.540 INFO Skip version 8.21.0, because it's not in the list of versions to be modified.
+2025-11-30 05:32:42.558 INFO Skip version 8.22.0, because it's not in the list of versions to be modified.
+2025-11-30 05:32:42.576 INFO Skip version 8.22.1, because it's not in the list of versions to be modified.
+2025-11-30 05:32:42.607 INFO Skip version 8.23.0, because it's not in the list of versions to be modified.
+2025-11-30 05:32:42.632 INFO Skip version 8.23.1, because it's not in the list of versions to be modified.
+2025-11-30 05:32:42.654 INFO Skip version 8.23.2, because it's not in the list of versions to be modified.
+2025-11-30 05:32:42.697 INFO Skip version 8.24.0, because it's not in the list of versions to be modified.
+2025-11-30 05:32:42.714 INFO Skip version 8.24.1, because it's not in the list of versions to be modified.
+2025-11-30 05:32:42.730 INFO Skip version 8.25.0, because it's not in the list of versions to be modified.
+2025-11-30 05:32:42.746 INFO Skip version 8.26.0, because it's not in the list of versions to be modified.
+2025-11-30 05:32:42.762 INFO Skip version 8.27.0, because it's not in the list of versions to be modified.
+2025-11-30 05:32:42.778 INFO Skip version 8.28.0, because it's not in the list of versions to be modified.
+2025-11-30 05:32:42.794 INFO Skip version 8.29.0, because it's not in the list of versions to be modified.
+2025-11-30 05:32:42.810 INFO Skip version 8.7.0, because it's not in the list of versions to be modified.
+2025-11-30 05:32:42.829 INFO Skip version 8.8.1, because it's not in the list of versions to be modified.
+2025-11-30 05:32:42.847 INFO Skip version 9.18.0, because it's not in the list of versions to be modified.
+2025-11-30 05:32:42.868 INFO Skip version 9.19.0, because it's not in the list of versions to be modified.
+2025-11-30 05:32:42.882 INFO Skip version 9.20.0, because it's not in the list of versions to be modified.
+2025-11-30 05:32:42.898 INFO Processing version folder: 9.21.0
+2025-11-30 05:32:42.914 INFO   Create and checkout to a new branch: Modify-S-OliverSchwendener.ueli-9.21.0-1764451962
+2025-11-30 05:33:03.905 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.21.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 05:33:03.909 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 05:33:03.911 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 05:33:03.914 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.21.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 05:33:04.199 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.21.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 05:33:04.203 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 05:33:04.206 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 05:33:04.209 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.21.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 05:33:04.345 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.21.0\OliverSchwendener.ueli.yaml
+2025-11-30 05:33:04.349 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 05:33:04.351 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 05:33:04.355 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.21.0\OliverSchwendener.ueli.yaml
+2025-11-30 05:33:40.370 INFO Manifest validation succeeded with "sundry validate".
+2025-11-30 05:33:40.372 INFO   Staging and Committing Changes to Git
+2025-11-30 05:33:48.563 INFO     Commit message: Modify: OliverSchwendener.ueli version 9.21.0 (Auto)
+2025-11-30 05:33:48.565 INFO   Pushing changes to remote (origin) repository
+2025-11-30 05:33:53.655 INFO     Successfully pushed to remote (origin): Modify-S-OliverSchwendener.ueli-9.21.0-1764451962
+2025-11-30 05:33:58.145 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318336
+2025-11-30 05:33:58.147 INFO Skip version 9.21.1, because it's not in the list of versions to be modified.
+2025-11-30 05:33:58.149 INFO Skip version 9.22.0, because it's not in the list of versions to be modified.
+2025-11-30 05:33:58.151 INFO Skip version 9.23.0, because it's not in the list of versions to be modified.
+2025-11-30 05:33:58.152 INFO Skip version 9.24.0, because it's not in the list of versions to be modified.
+2025-11-30 05:33:58.154 INFO Skip version 9.25.1, because it's not in the list of versions to be modified.
+2025-11-30 05:33:58.155 INFO Skip version 9.26.0, because it's not in the list of versions to be modified.
+2025-11-30 05:33:58.157 INFO All manifests have been modified and pushed through.
+2025-11-30 05:34:05.613 INFO Workspace clean-up completed.
+~~ End of logging ~~
