@@ -53,15 +53,15 @@
 2025-11-27 13:16:51.882 INFO Skip version 1.5.0, because it's not in the list of versions to be modified.
 2025-11-27 13:16:51.884 INFO Processing version folder: 1.5.1
 2025-11-27 13:16:51.885 INFO   Create and checkout to a new branch: New-Version-DuckStudio.Sundry-1.5.1-1764220611
-2025-11-27 13:16:58.511 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\d\DuckStudio\Sundry\1.5.1\DuckStudio.Sundry.installer.yaml
-2025-11-27 13:16:58.514 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\d\DuckStudio\Sundry\1.5.1\DuckStudio.Sundry.installer.yaml
-2025-11-27 13:16:58.682 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\d\DuckStudio\Sundry\1.5.1\DuckStudio.Sundry.locale.en-US.yaml
-2025-11-27 13:16:58.686 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\d\DuckStudio\Sundry\1.5.1\DuckStudio.Sundry.locale.en-US.yaml
-2025-11-27 13:16:58.774 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\d\DuckStudio\Sundry\1.5.1\DuckStudio.Sundry.locale.zh-CN.yaml
-2025-11-27 13:16:58.778 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\d\DuckStudio\Sundry\1.5.1\DuckStudio.Sundry.locale.zh-CN.yaml
-2025-11-27 13:16:58.874 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\d\DuckStudio\Sundry\1.5.1\DuckStudio.Sundry.yaml
-2025-11-27 13:16:58.878 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\d\DuckStudio\Sundry\1.5.1\DuckStudio.Sundry.yaml
-2025-11-27 13:16:58.991 INFO   New manifests in D:\Duckhome\Files\Repos\winget-pkgs\manifests\d\DuckStudio\Sundry\1.5.1 for DuckStudio.Sundry (1.5.1)
+2025-11-27 13:16:58.511 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.5.1\DuckStudio.Sundry.installer.yaml
+2025-11-27 13:16:58.514 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.5.1\DuckStudio.Sundry.installer.yaml
+2025-11-27 13:16:58.682 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.5.1\DuckStudio.Sundry.locale.en-US.yaml
+2025-11-27 13:16:58.686 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.5.1\DuckStudio.Sundry.locale.en-US.yaml
+2025-11-27 13:16:58.774 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.5.1\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-11-27 13:16:58.778 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.5.1\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-11-27 13:16:58.874 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.5.1\DuckStudio.Sundry.yaml
+2025-11-27 13:16:58.878 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.5.1\DuckStudio.Sundry.yaml
+2025-11-27 13:16:58.991 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.5.1 for DuckStudio.Sundry (1.5.1)
 2025-11-27 13:17:09.585 INFO Manifest validation succeeded with "sundry validate".
 2025-11-27 13:17:09.586 INFO   Staging and Committing Changes to Git
 2025-11-27 13:17:27.784 INFO     Commit message: New version: DuckStudio.Sundry version 1.5.1 (Auto)

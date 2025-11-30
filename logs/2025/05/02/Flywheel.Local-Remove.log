@@ -1,5 +1,5 @@
 PowerShell 7.5.1
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 7.2.0 "It returns a 404 status code in GitHub Action and has been automatically verified.
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove Flywheel.Local 7.2.0 "It returns a 404 status code in GitHub Action and has been automatically verified.
 >>
 >> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
 开始预先检查
@@ -147,7 +147,7 @@ Deleted branch Remove-Flywheel.Local-7.2.0-1746198279 (was d55badd19f4).
 Deleted branch if/storj-uplink-v1.127.1 (was be4e8533872).
 工作区清理完成
 
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.4.3 "It returns a 404 status code in GitHub Action and has been automatically verified.
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove Flywheel.Local 6.4.3 "It returns a 404 status code in GitHub Action and has been automatically verified.
 >>
 >> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
 开始预先检查
@@ -297,7 +297,7 @@ Your branch is up to date with 'origin/master'.
 Deleted branch Remove-Flywheel.Local-6.4.3-1746198355 (was 8cba97c04ae).
 工作区清理完成
 
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.3.0 "It returns a 404 status code in GitHub Action and has been automatically verified.
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove Flywheel.Local 6.3.0 "It returns a 404 status code in GitHub Action and has been automatically verified.
 >>
 >> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
 开始预先检查
@@ -448,7 +448,7 @@ Your branch is up to date with 'origin/master'.
 Deleted branch Remove-Flywheel.Local-6.3.0-1746198422 (was 8a09be5c70a).
 工作区清理完成
 
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.5.1 "It returns a 404 status code in GitHub Action and has been automatically verified.
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove Flywheel.Local 6.5.1 "It returns a 404 status code in GitHub Action and has been automatically verified.
 >>
 >> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
 开始预先检查
@@ -600,7 +600,7 @@ Your branch is up to date with 'origin/master'.
 Deleted branch Remove-Flywheel.Local-6.5.1-1746198480 (was 19ecd5eecc1).
 工作区清理完成
 
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.2.0 "It returns a 404 status code in GitHub Action and has been automatically verified.
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove Flywheel.Local 6.2.0 "It returns a 404 status code in GitHub Action and has been automatically verified.
 >>
 >> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
 开始预先检查
@@ -753,7 +753,7 @@ Your branch is up to date with 'origin/master'.
 Deleted branch Remove-Flywheel.Local-6.2.0-1746198539 (was ed8493f3bef).
 工作区清理完成
 
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.1.0 "It returns a 404 status code in GitHub Action and has been automatically verified.
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove Flywheel.Local 6.1.0 "It returns a 404 status code in GitHub Action and has been automatically verified.
 >>
 >> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
 开始预先检查
@@ -907,7 +907,7 @@ Your branch is up to date with 'origin/master'.
 Deleted branch Remove-Flywheel.Local-6.1.0-1746198594 (was c8ebf94fb3c).
 工作区清理完成
 
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.1.8 "It returns a 404 status code in GitHub Action and has been automatically verified.
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove Flywheel.Local 6.1.8 "It returns a 404 status code in GitHub Action and has been automatically verified.
 >>
 >> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
 开始预先检查
@@ -1062,7 +1062,7 @@ Your branch is up to date with 'origin/master'.
 Deleted branch Remove-Flywheel.Local-6.1.8-1746198656 (was f657234e4b0).
 工作区清理完成
 
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.4.0 "It returns a 404 status code in GitHub Action and has been automatically verified.
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove Flywheel.Local 6.4.0 "It returns a 404 status code in GitHub Action and has been automatically verified.
 >>
 >> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
 开始预先检查
@@ -1218,7 +1218,7 @@ Your branch is up to date with 'origin/master'.
 Deleted branch Remove-Flywheel.Local-6.4.0-1746198710 (was 1538ac0055f).
 工作区清理完成
 
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.0.0 "It returns a 404 status code in GitHub Action and has been automatically verified.
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove Flywheel.Local 6.0.0 "It returns a 404 status code in GitHub Action and has been automatically verified.
 >>
 >> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
 开始预先检查
@@ -1375,7 +1375,7 @@ Your branch is up to date with 'origin/master'.
 Deleted branch Remove-Flywheel.Local-6.0.0-1746198765 (was a1048914c9d).
 工作区清理完成
 
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.6.1 "It returns a 404 status code in GitHub Action and has been automatically verified.
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove Flywheel.Local 6.6.1 "It returns a 404 status code in GitHub Action and has been automatically verified.
 >>
 >> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
 开始预先检查
@@ -1533,7 +1533,7 @@ Your branch is up to date with 'origin/master'.
 Deleted branch Remove-Flywheel.Local-6.6.1-1746198819 (was 7e66c0a2bec).
 工作区清理完成
 
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 7.1.2 "It returns a 404 status code in GitHub Action and has been automatically verified.
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove Flywheel.Local 7.1.2 "It returns a 404 status code in GitHub Action and has been automatically verified.
 >>
 >> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
 开始预先检查
@@ -1693,7 +1693,7 @@ Your branch is up to date with 'origin/master'.
 Deleted branch Remove-Flywheel.Local-7.1.2-1746198898 (was a3472cb251e).
 工作区清理完成
 
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.5.2 "It returns a 404 status code in GitHub Action and has been automatically verified.
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove Flywheel.Local 6.5.2 "It returns a 404 status code in GitHub Action and has been automatically verified.
 >>
 >> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
 开始预先检查
@@ -1853,7 +1853,7 @@ Your branch is up to date with 'origin/master'.
 Deleted branch Remove-Flywheel.Local-6.5.2-1746198965 (was 104791cd9f8).
 工作区清理完成
 
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.6.0 "It returns a 404 status code in GitHub Action and has been automatically verified.
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove Flywheel.Local 6.6.0 "It returns a 404 status code in GitHub Action and has been automatically verified.
 >>
 >> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
 开始预先检查
@@ -2014,7 +2014,7 @@ Your branch is up to date with 'origin/master'.
 Deleted branch Remove-Flywheel.Local-6.6.0-1746199028 (was 781cfad04b7).
 工作区清理完成
 
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 7.1.0 "It returns a 404 status code in GitHub Action and has been automatically verified.
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove Flywheel.Local 7.1.0 "It returns a 404 status code in GitHub Action and has been automatically verified.
 >>
 >> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
 开始预先检查
@@ -2177,7 +2177,7 @@ Your branch is up to date with 'origin/master'.
 Deleted branch Remove-Flywheel.Local-7.1.0-1746199087 (was 965d8eee165).
 工作区清理完成
 
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.4.1 "It returns a 404 status code in GitHub Action and has been automatically verified.
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove Flywheel.Local 6.4.1 "It returns a 404 status code in GitHub Action and has been automatically verified.
 >>
 >> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
 开始预先检查
@@ -2340,7 +2340,7 @@ Your branch is up to date with 'origin/master'.
 Deleted branch Remove-Flywheel.Local-6.4.1-1746199145 (was 27e7f1dc1a8).
 工作区清理完成
 
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.3.1 "It returns a 404 status code in GitHub Action and has been automatically verified.
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove Flywheel.Local 6.3.1 "It returns a 404 status code in GitHub Action and has been automatically verified.
 >>
 >> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
 开始预先检查
@@ -2504,7 +2504,7 @@ Your branch is up to date with 'origin/master'.
 Deleted branch Remove-Flywheel.Local-6.3.1-1746199200 (was c84f603da88).
 工作区清理完成
 
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 8.1.0 "It returns a 404 status code in GitHub Action and has been automatically verified.
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove Flywheel.Local 8.1.0 "It returns a 404 status code in GitHub Action and has been automatically verified.
 >>
 >> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
 开始预先检查
@@ -2670,7 +2670,7 @@ Your branch is up to date with 'origin/master'.
 Deleted branch Remove-Flywheel.Local-8.1.0-1746199257 (was 8db35aded58).
 工作区清理完成
 
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.7.0.20230323.2 "It returns a 404 status code in GitHub Action and has been automatically verified.
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove Flywheel.Local 6.7.0.20230323.2 "It returns a 404 status code in GitHub Action and has been automatically verified.
 >>
 >> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
 开始预先检查
@@ -2836,7 +2836,7 @@ Your branch is up to date with 'origin/master'.
 Deleted branch Remove-Flywheel.Local-6.7.0.20230323.2-1746199313 (was f2f6d8fb31e).
 工作区清理完成
 
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Flywheel.Local 6.4.2 "It returns a 404 status code in GitHub Action and has been automatically verified.
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove Flywheel.Local 6.4.2 "It returns a 404 status code in GitHub Action and has been automatically verified.
 >>
 >> - Resolves https://github.com/microsoft/winget-pkgs/issues/253271"
 开始预先检查

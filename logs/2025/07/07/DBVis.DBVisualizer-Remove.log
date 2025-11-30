@@ -1,4 +1,4 @@
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove DBVis.DBVisualizer 25.1.4
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove DBVis.DBVisualizer 25.1.4
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 DbVisualizer [DBVis.DBVisualizer]
@@ -193,7 +193,7 @@ Your branch is ahead of 'origin/master' by 13 commits.
 Deleted branch Remove-DBVis.DBVisualizer-25.1.4-1751818294 (was 6c6dba2f2dc).
 工作区清理完成
 
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove DBVis.DBVisualizer 25.1.3
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove DBVis.DBVisualizer 25.1.3
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 DbVisualizer [DBVis.DBVisualizer]
@@ -396,7 +396,7 @@ Your branch is ahead of 'origin/master' by 14 commits.
 Deleted branch Remove-DBVis.DBVisualizer-25.1.3-1751818467 (was d229555e89d).
 工作区清理完成
 
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove DBVis.DBVisualizer 25.1.2
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove DBVis.DBVisualizer 25.1.2
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 DbVisualizer [DBVis.DBVisualizer]
