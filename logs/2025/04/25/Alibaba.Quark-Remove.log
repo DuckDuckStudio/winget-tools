@@ -1,4 +1,4 @@
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Alibaba.Quark 1.2.5.25
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove Alibaba.Quark 1.2.5.25
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 夸克 [Alibaba.Quark]
@@ -137,7 +137,7 @@ Your branch is ahead of 'origin/master' by 1 commit.
   (use "git push" to publish your local commits)
 Deleted branch Remove-Alibaba.Quark-1.2.5.25-1745564604 (was 6a0ccc4bab4).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Alibaba.Quark 1.2.3.17
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove Alibaba.Quark 1.2.3.17
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 夸克 [Alibaba.Quark]
@@ -278,7 +278,7 @@ Your branch is ahead of 'origin/master' by 1 commit.
   (use "git push" to publish your local commits)
 Deleted branch Remove-Alibaba.Quark-1.2.3.17-1745564751 (was 2f143c6a991).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Alibaba.Quark 1.2.4.24
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove Alibaba.Quark 1.2.4.24
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 夸克 [Alibaba.Quark]
@@ -420,7 +420,7 @@ Your branch is ahead of 'origin/master' by 1 commit.
   (use "git push" to publish your local commits)
 Deleted branch Remove-Alibaba.Quark-1.2.4.24-1745564803 (was 7bd94e2a154).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Alibaba.Quark 1.2.3.18
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove Alibaba.Quark 1.2.3.18
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 夸克 [Alibaba.Quark]

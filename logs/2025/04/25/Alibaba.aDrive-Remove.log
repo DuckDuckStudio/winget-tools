@@ -1,4 +1,4 @@
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> winget show --id Alibaba.aDrive --versions
+[Powered by 虚空终端] PS D:\...\CodeDebug> winget show --id Alibaba.aDrive --versions
 已找到 阿里云盘 [Alibaba.aDrive]
 版本
 -----
@@ -21,7 +21,7 @@
 3.3.0
 3.0.0
 2.2.4
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Alibaba.aDrive 6.2.0 "403 Forbidden"
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove Alibaba.aDrive 6.2.0 "403 Forbidden"
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 阿里云盘 [Alibaba.aDrive]
@@ -163,7 +163,7 @@ Your branch is ahead of 'origin/master' by 1 commit.
   (use "git push" to publish your local commits)
 Deleted branch Remove-Alibaba.aDrive-6.2.0-1745565783 (was d799f897325).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Alibaba.aDrive 6.5.0 "- 403 Forbidden
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove Alibaba.aDrive 6.5.0 "- 403 Forbidden
 >> - Resposes xml similar to https://github.com/microsoft/winget-pkgs/pull/250962
 >> - See my automation log for WinGet output: [logs\20250425\Alibaba.aDrive-Remove.log](https://github.com/***/winget-tools/tree/main/logs/20250425/Alibaba.aDrive-Remove.log)"
 开始预先检查
@@ -318,7 +318,7 @@ Your branch is ahead of 'origin/master' by 9 commits.
   (use "git push" to publish your local commits)
 Deleted branch Remove-Alibaba.aDrive-6.5.0-1745566126 (was eb0ac1e4cad).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Alibaba.aDrive 6.4.2 "- 403 Forbidden
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove Alibaba.aDrive 6.4.2 "- 403 Forbidden
 >> - Resposes xml similar to https://github.com/microsoft/winget-pkgs/pull/250962
 >> - See my automation log for WinGet output: [logs\20250425\Alibaba.aDrive-Remove.log](https://github.com/***/winget-tools/tree/main/logs/20250425/Alibaba.aDrive-Remove.log)"
 开始预先检查
@@ -465,7 +465,7 @@ Your branch is ahead of 'origin/master' by 9 commits.
   (use "git push" to publish your local commits)
 Deleted branch Remove-Alibaba.aDrive-6.4.2-1745566200 (was ed45c69d522).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove Alibaba.aDrive 6.3.2 "- 403 Forbidden
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove Alibaba.aDrive 6.3.2 "- 403 Forbidden
 >> - Resposes xml similar to https://github.com/microsoft/winget-pkgs/pull/250962
 >> - See my automation log for WinGet output: [logs\20250425\Alibaba.aDrive-Remove.log](https://github.com/***/winget-tools/tree/main/logs/20250425/Alibaba.aDrive-Remove.log)"
 开始预先检查

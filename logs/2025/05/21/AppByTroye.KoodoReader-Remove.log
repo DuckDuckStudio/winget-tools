@@ -1,5 +1,5 @@
 PowerShell 7.5.1
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove AppByTroye.KoodoReader 1.9.4
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove AppByTroye.KoodoReader 1.9.4
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 Koodo Reader [AppByTroye.KoodoReader]
@@ -173,7 +173,7 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 Deleted branch Remove-AppByTroye.KoodoReader-1.9.4-1747816094 (was b20e3698364).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove AppByTroye.KoodoReader 1.9.5
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove AppByTroye.KoodoReader 1.9.5
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 Koodo Reader [AppByTroye.KoodoReader]
@@ -348,7 +348,7 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 Deleted branch Remove-AppByTroye.KoodoReader-1.9.5-1747816183 (was cc62ba62e6b).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove AppByTroye.KoodoReader 1.9.6
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove AppByTroye.KoodoReader 1.9.6
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 Koodo Reader [AppByTroye.KoodoReader]

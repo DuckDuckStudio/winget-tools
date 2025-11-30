@@ -1,5 +1,5 @@
 PowerShell 7.5.1
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> & D:\...\winget-tools\logs\2025\06\11\移除脚本\AppByTroye.KoodoReader.ps1
+[Powered by 虚空终端] PS D:\...\CodeDebug> & D:\...\winget-tools\logs\2025\06\11\移除脚本\AppByTroye.KoodoReader.ps1
 访问 https://github.com/DuckDuckStudio/winget-tools/actions/runs/15576541006/job/43862458615#step:5:8 查看检查日志。
 开始预先检查
 ======= 此软件包现有的所有版本 =======

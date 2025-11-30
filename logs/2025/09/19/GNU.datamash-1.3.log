@@ -3,18 +3,18 @@
 2025-09-19 01:27:27.184 INFO Found the following version folder: ['1.3']
 2025-09-19 01:27:27.186 INFO Processing version folder: 1.3
 2025-09-19 01:27:27.187 INFO   Create and checkout to a new branch: Modify-S-GNU.datamash-1.3-1758216447
-2025-09-19 01:27:40.802 INFO   Processing of manifest: d:\duckhome\projects\msvs\source\repos\winget-pkgs\manifests\g\GNU\datamash\1.3\GNU.datamash.installer.yaml
+2025-09-19 01:27:40.802 INFO   Processing of manifest: d:\...\winget-pkgs\manifests\g\GNU\datamash\1.3\GNU.datamash.installer.yaml
 2025-09-19 01:27:40.804 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
 2025-09-19 01:27:40.806 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
-2025-09-19 01:27:40.819 INFO     The manifest file has been saved as: d:\duckhome\projects\msvs\source\repos\winget-pkgs\manifests\g\GNU\datamash\1.3\GNU.datamash.installer.yaml
-2025-09-19 01:27:40.999 INFO   Processing of manifest: d:\duckhome\projects\msvs\source\repos\winget-pkgs\manifests\g\GNU\datamash\1.3\GNU.datamash.locale.en-US.yaml
+2025-09-19 01:27:40.819 INFO     The manifest file has been saved as: d:\...\winget-pkgs\manifests\g\GNU\datamash\1.3\GNU.datamash.installer.yaml
+2025-09-19 01:27:40.999 INFO   Processing of manifest: d:\...\winget-pkgs\manifests\g\GNU\datamash\1.3\GNU.datamash.locale.en-US.yaml
 2025-09-19 01:27:41.677 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
 2025-09-19 01:27:41.874 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
-2025-09-19 01:27:41.108 INFO     The manifest file has been saved as: d:\duckhome\projects\msvs\source\repos\winget-pkgs\manifests\g\GNU\datamash\1.3\GNU.datamash.locale.en-US.yaml
-2025-09-19 01:27:41.137 INFO   Processing of manifest: d:\duckhome\projects\msvs\source\repos\winget-pkgs\manifests\g\GNU\datamash\1.3\GNU.datamash.yaml
+2025-09-19 01:27:41.108 INFO     The manifest file has been saved as: d:\...\winget-pkgs\manifests\g\GNU\datamash\1.3\GNU.datamash.locale.en-US.yaml
+2025-09-19 01:27:41.137 INFO   Processing of manifest: d:\...\winget-pkgs\manifests\g\GNU\datamash\1.3\GNU.datamash.yaml
 2025-09-19 01:27:41.139 INFO     Replace ManifestVersion: 1.4.0 -> 1.10.0
 2025-09-19 01:27:41.140 INFO     Replace schema references: 1.4.0.schema.json -> 1.10.0.schema.json
-2025-09-19 01:27:41.143 INFO     The manifest file has been saved as: d:\duckhome\projects\msvs\source\repos\winget-pkgs\manifests\g\GNU\datamash\1.3\GNU.datamash.yaml
+2025-09-19 01:27:41.143 INFO     The manifest file has been saved as: d:\...\winget-pkgs\manifests\g\GNU\datamash\1.3\GNU.datamash.yaml
 2025-09-19 01:28:10.860 INFO     清单验证成功。
 2025-09-19 01:28:10.873 INFO   Staging and Committing Changes to Git
 2025-09-19 01:28:17.543 INFO     Commit message: Modify: GNU.datamash version 1.3 (Auto)

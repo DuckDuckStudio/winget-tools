@@ -1,5 +1,5 @@
 PowerShell 7.5.1
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.Classic 6.0.873
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove GeoGebra.Classic 6.0.873
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 GeoGebra Classic [GeoGebra.Classic]
@@ -137,7 +137,7 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 Deleted branch Remove-GeoGebra.Classic-6.0.873-1745795333 (was 81dd2108485).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.Classic 6.0.874
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove GeoGebra.Classic 6.0.874
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 GeoGebra Classic [GeoGebra.Classic]
@@ -279,7 +279,7 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 Deleted branch Remove-GeoGebra.Classic-6.0.874-1745795378 (was db43673b125).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.Classic 6.0.875
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove GeoGebra.Classic 6.0.875
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 GeoGebra Classic [GeoGebra.Classic]
@@ -422,7 +422,7 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 Deleted branch Remove-GeoGebra.Classic-6.0.875-1745795425 (was 621ea35cd40).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.Classic 6.0.876
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove GeoGebra.Classic 6.0.876
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 GeoGebra Classic [GeoGebra.Classic]
@@ -566,7 +566,7 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 Deleted branch Remove-GeoGebra.Classic-6.0.876-1745795472 (was 0a85ae0a5da).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.Classic 6.0.878
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove GeoGebra.Classic 6.0.878
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 GeoGebra Classic [GeoGebra.Classic]
@@ -654,8 +654,8 @@ Microsoft 对第三方程序包概不负责，也不向第三方程序包授予�
 正在下载 https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-878-0.exe
   ▎                               1024 KB /  111 MB
 已取消操作，没有修改任何文件
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> # 它是在下载什么玩意？ - 手动验证确定 404 Not Found...
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.Classic 6.0.878
+[Powered by 虚空终端] PS D:\...\CodeDebug> # 它是在下载什么玩意？ - 手动验证确定 404 Not Found...
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove GeoGebra.Classic 6.0.878
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 GeoGebra Classic [GeoGebra.Classic]

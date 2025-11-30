@@ -15,15 +15,15 @@
 2025-11-23 21:49:18.651 INFO Skip version 1.4.2, because it's not in the list of versions to be modified.
 2025-11-23 21:49:18.655 INFO Processing version folder: 1.5.0
 2025-11-23 21:49:18.658 INFO   Create and checkout to a new branch: New-Version-DuckStudio.FufuTools-1.5.0-1763905758
-2025-11-23 21:49:29.451 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.5.0\DuckStudio.FufuTools.installer.yaml
-2025-11-23 21:49:29.458 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.5.0\DuckStudio.FufuTools.installer.yaml
-2025-11-23 21:49:29.882 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.5.0\DuckStudio.FufuTools.locale.en-US.yaml
-2025-11-23 21:49:29.888 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.5.0\DuckStudio.FufuTools.locale.en-US.yaml
-2025-11-23 21:49:30.541 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.5.0\DuckStudio.FufuTools.locale.zh-CN.yaml
-2025-11-23 21:49:30.589 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.5.0\DuckStudio.FufuTools.locale.zh-CN.yaml
-2025-11-23 21:49:30.244 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.5.0\DuckStudio.FufuTools.yaml
-2025-11-23 21:49:30.249 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.5.0\DuckStudio.FufuTools.yaml
-2025-11-23 21:49:30.437 INFO   New manifests in D:\Duckhome\Files\Repos\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.5.0 for DuckStudio.FufuTools (1.5.0)
+2025-11-23 21:49:29.451 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.5.0\DuckStudio.FufuTools.installer.yaml
+2025-11-23 21:49:29.458 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.5.0\DuckStudio.FufuTools.installer.yaml
+2025-11-23 21:49:29.882 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.5.0\DuckStudio.FufuTools.locale.en-US.yaml
+2025-11-23 21:49:29.888 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.5.0\DuckStudio.FufuTools.locale.en-US.yaml
+2025-11-23 21:49:30.541 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.5.0\DuckStudio.FufuTools.locale.zh-CN.yaml
+2025-11-23 21:49:30.589 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.5.0\DuckStudio.FufuTools.locale.zh-CN.yaml
+2025-11-23 21:49:30.244 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.5.0\DuckStudio.FufuTools.yaml
+2025-11-23 21:49:30.249 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.5.0\DuckStudio.FufuTools.yaml
+2025-11-23 21:49:30.437 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\FufuTools\1.5.0 for DuckStudio.FufuTools (1.5.0)
 2025-11-23 21:50:39.375 INFO Manifest validation succeeded with "sundry validate".
 2025-11-23 21:50:39.378 INFO   Staging and Committing Changes to Git
 2025-11-23 21:51:01.281 INFO     Commit message: New version: DuckStudio.FufuTools version 1.5.0 (Auto)
