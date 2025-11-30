@@ -4,13 +4,13 @@
 2025-11-22 21:13:12.978 INFO Skip version 15.3, because it's not in the list of versions to be modified.
 2025-11-22 21:13:12.979 INFO Processing version folder: 15.4
 2025-11-22 21:13:12.981 INFO   Create and checkout to a new branch: New-Version-Burnaware.PDFShaper.Free-15.4-1763817192
-2025-11-22 21:13:23.710 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\b\Burnaware\PDFShaper\Free\15.4\Burnaware.PDFShaper.Free.installer.yaml
-2025-11-22 21:13:23.713 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\b\Burnaware\PDFShaper\Free\15.4\Burnaware.PDFShaper.Free.installer.yaml
-2025-11-22 21:13:23.961 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\b\Burnaware\PDFShaper\Free\15.4\Burnaware.PDFShaper.Free.locale.en-US.yaml
-2025-11-22 21:13:23.967 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\b\Burnaware\PDFShaper\Free\15.4\Burnaware.PDFShaper.Free.locale.en-US.yaml
-2025-11-22 21:13:24.105 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\b\Burnaware\PDFShaper\Free\15.4\Burnaware.PDFShaper.Free.yaml
-2025-11-22 21:13:24.109 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\b\Burnaware\PDFShaper\Free\15.4\Burnaware.PDFShaper.Free.yaml
-2025-11-22 21:13:24.240 INFO   New manifests in D:\Duckhome\Files\Repos\winget-pkgs\manifests\b\Burnaware\PDFShaper\Free\15.4 for Burnaware.PDFShaper.Free (15.4)
+2025-11-22 21:13:23.710 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Burnaware\PDFShaper\Free\15.4\Burnaware.PDFShaper.Free.installer.yaml
+2025-11-22 21:13:23.713 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Burnaware\PDFShaper\Free\15.4\Burnaware.PDFShaper.Free.installer.yaml
+2025-11-22 21:13:23.961 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Burnaware\PDFShaper\Free\15.4\Burnaware.PDFShaper.Free.locale.en-US.yaml
+2025-11-22 21:13:23.967 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Burnaware\PDFShaper\Free\15.4\Burnaware.PDFShaper.Free.locale.en-US.yaml
+2025-11-22 21:13:24.105 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Burnaware\PDFShaper\Free\15.4\Burnaware.PDFShaper.Free.yaml
+2025-11-22 21:13:24.109 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Burnaware\PDFShaper\Free\15.4\Burnaware.PDFShaper.Free.yaml
+2025-11-22 21:13:24.240 INFO   New manifests in D:\...\winget-pkgs\manifests\b\Burnaware\PDFShaper\Free\15.4 for Burnaware.PDFShaper.Free (15.4)
 2025-11-22 21:13:38.315 INFO Manifest validation succeeded with "sundry validate".
 2025-11-22 21:13:38.317 INFO   Staging and Committing Changes to Git
 2025-11-22 21:13:48.479 INFO     Commit message: New version: Burnaware.PDFShaper.Free version 15.4 (Auto)

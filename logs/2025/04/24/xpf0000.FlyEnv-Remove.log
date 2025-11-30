@@ -254,15 +254,15 @@ Switched to a new branch 'Remove-xpf0000.FlyEnv-4.6.0-1745493706'
   已提交修改
 fatal: unable to access 'https://github.com/***/winget-pkgs.git/': The requested URL returned error: 502
 Traceback (most recent call last):
-  File "D:\Duckhome\CodeDebug\winget\remove.py", line 214, in <module>
+  File "D:\...\CodeDebug\winget\remove.py", line 214, in <module>
     subprocess.run(["git", "push"], check=True)
     ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\Duckhome\env\Python313\Lib\subprocess.py", line 577, in run
+  File "D:\...\env\Python313\Lib\subprocess.py", line 577, in run
     raise CalledProcessError(retcode, process.args,
                              output=stdout, stderr=stderr)
 subprocess.CalledProcessError: Command '['git', 'push']' returned non-zero exit status 128.
 [Powered by 虚空终端] PS D:\...\winget-pkgs> sundry remove xpf0000.FlyEnv 4.6.0
-软件包版本清单文件不存在: D:/Duckhome/projects/MSVS/Source/Repos/winget-pkgs\manifests\x\xpf0000\FlyEnv\4.6.0
+软件包版本清单文件不存在: D:/.../projects/MSVS/Source/Repos/winget-pkgs\manifests\x\xpf0000\FlyEnv\4.6.0
 [Powered by 虚空终端] PS D:\...\winget-pkgs> ^C
 [Powered by 虚空终端] PS D:\...\winget-pkgs> git checkout master
 Switched to branch 'master'

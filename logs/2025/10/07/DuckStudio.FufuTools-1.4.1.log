@@ -27,16 +27,24 @@
 2025-10-07 06:41:01.902 INFO     Commit message: New version: DuckStudio.FufuTools version 1.4.1 (Auto)
 2025-10-07 06:41:25.279 INFO   Pushing changes to remote (origin) repository
 2025-10-07 06:41:30.218 INFO     Successfully pushed to remote (origin): New-Version-DuckStudio.FufuTools-1.4.1-1759790422
-2025-10-07 06:41:31.895 ERROR     Failed to create pull request: 401 - {
-2025-10-07 06:41:31.895 ERROR   "message": "Bad credentials",
-2025-10-07 06:41:31.895 ERROR   "documentation_url": "https://docs.github.com/rest",
-2025-10-07 06:41:31.895 ERROR   "status": "401"
+2025-10-07 06:41:31.895 ERROR     Failed to create pull request: 401 - {
+
+2025-10-07 06:41:31.895 ERROR   "message": "Bad credentials",
+
+2025-10-07 06:41:31.895 ERROR   "documentation_url": "https://docs.github.com/rest",
+
+2025-10-07 06:41:31.895 ERROR   "status": "401"
+
 2025-10-07 06:41:31.895 ERROR }
 2025-10-07 06:41:41.618 INFO     Retrying to create a pull request...
-2025-10-07 06:41:42.962 ERROR     Failed to create pull request: 401 - {
-2025-10-07 06:41:42.962 ERROR   "message": "Bad credentials",
-2025-10-07 06:41:42.962 ERROR   "documentation_url": "https://docs.github.com/rest",
-2025-10-07 06:41:42.962 ERROR   "status": "401"
+2025-10-07 06:41:42.962 ERROR     Failed to create pull request: 401 - {
+
+2025-10-07 06:41:42.962 ERROR   "message": "Bad credentials",
+
+2025-10-07 06:41:42.962 ERROR   "documentation_url": "https://docs.github.com/rest",
+
+2025-10-07 06:41:42.962 ERROR   "status": "401"
+
 2025-10-07 06:41:42.962 ERROR }
 2025-10-07 06:45:25.606 INFO     Retrying to create a pull request...
 2025-10-07 06:45:28.255 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/301586

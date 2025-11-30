@@ -1,5 +1,5 @@
 PowerShell 7.5.1
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.Geometry 6.0.873
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove GeoGebra.Geometry 6.0.873
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 GeoGebra Geometry [GeoGebra.Geometry]
@@ -124,7 +124,7 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 Deleted branch Remove-GeoGebra.Geometry-6.0.873-1745794788 (was 5106d15c43c).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.Geometry 6.0.874
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove GeoGebra.Geometry 6.0.874
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 GeoGebra Geometry [GeoGebra.Geometry]
@@ -253,7 +253,7 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 Deleted branch Remove-GeoGebra.Geometry-6.0.874-1745794849 (was aec02ec97b9).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.Geometry 6.0.875
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove GeoGebra.Geometry 6.0.875
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 GeoGebra Geometry [GeoGebra.Geometry]
@@ -383,7 +383,7 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 Deleted branch Remove-GeoGebra.Geometry-6.0.875-1745794896 (was 905f33c2093).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.Geometry 6.0.876
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove GeoGebra.Geometry 6.0.876
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 GeoGebra Geometry [GeoGebra.Geometry]
@@ -514,7 +514,7 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 Deleted branch Remove-GeoGebra.Geometry-6.0.876-1745794945 (was 1d2f99652a7).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.Geometry 6.0.878
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove GeoGebra.Geometry 6.0.878
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 GeoGebra Geometry [GeoGebra.Geometry]

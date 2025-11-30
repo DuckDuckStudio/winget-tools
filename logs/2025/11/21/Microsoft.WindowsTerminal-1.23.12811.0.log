@@ -52,28 +52,28 @@
 2025-11-21 09:00:48.683 INFO Skip version 1.23.12681.0, because it's not in the list of versions to be modified.
 2025-11-21 09:00:48.685 INFO Processing version folder: 1.23.12811.0
 2025-11-21 09:00:48.686 INFO   Create and checkout to a new branch: Modify-S-Microsoft.WindowsTerminal-1.23.12811.0-1763686848
-2025-11-21 09:01:22.789 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.installer.yaml
-2025-11-21 09:01:22.802 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.installer.yaml
-2025-11-21 09:01:22.978 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.en-US.yaml
-2025-11-21 09:01:22.981 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.en-US.yaml
-2025-11-21 09:01:23.763 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.fr-FR.yaml
-2025-11-21 09:01:23.799 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.fr-FR.yaml
-2025-11-21 09:01:23.187 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.it-IT.yaml
-2025-11-21 09:01:23.191 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.it-IT.yaml
-2025-11-21 09:01:23.302 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.ja-JP.yaml
-2025-11-21 09:01:23.307 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.ja-JP.yaml
-2025-11-21 09:01:23.434 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.ko-KR.yaml
-2025-11-21 09:01:23.439 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.ko-KR.yaml
-2025-11-21 09:01:23.602 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.pt-BR.yaml
-2025-11-21 09:01:23.611 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.pt-BR.yaml
-2025-11-21 09:01:23.838 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.ru-RU.yaml
-2025-11-21 09:01:23.856 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.ru-RU.yaml
-2025-11-21 09:01:24.311 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.zh-CN.yaml
-2025-11-21 09:01:24.670 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.zh-CN.yaml
-2025-11-21 09:01:25.622 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.zh-TW.yaml
-2025-11-21 09:01:25.981 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.zh-TW.yaml
-2025-11-21 09:01:26.548 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.yaml
-2025-11-21 09:01:26.872 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.yaml
+2025-11-21 09:01:22.789 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.installer.yaml
+2025-11-21 09:01:22.802 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.installer.yaml
+2025-11-21 09:01:22.978 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.en-US.yaml
+2025-11-21 09:01:22.981 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.en-US.yaml
+2025-11-21 09:01:23.763 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.fr-FR.yaml
+2025-11-21 09:01:23.799 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.fr-FR.yaml
+2025-11-21 09:01:23.187 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.it-IT.yaml
+2025-11-21 09:01:23.191 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.it-IT.yaml
+2025-11-21 09:01:23.302 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.ja-JP.yaml
+2025-11-21 09:01:23.307 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.ja-JP.yaml
+2025-11-21 09:01:23.434 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.ko-KR.yaml
+2025-11-21 09:01:23.439 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.ko-KR.yaml
+2025-11-21 09:01:23.602 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.pt-BR.yaml
+2025-11-21 09:01:23.611 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.pt-BR.yaml
+2025-11-21 09:01:23.838 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.ru-RU.yaml
+2025-11-21 09:01:23.856 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.ru-RU.yaml
+2025-11-21 09:01:24.311 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.zh-CN.yaml
+2025-11-21 09:01:24.670 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.zh-CN.yaml
+2025-11-21 09:01:25.622 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.zh-TW.yaml
+2025-11-21 09:01:25.981 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.locale.zh-TW.yaml
+2025-11-21 09:01:26.548 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.yaml
+2025-11-21 09:01:26.872 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\Microsoft\WindowsTerminal\1.23.12811.0\Microsoft.WindowsTerminal.yaml
 2025-11-21 09:16:18.580 INFO Manifest validation succeeded with "sundry validate".
 2025-11-21 09:16:18.582 INFO   Staging and Committing Changes to Git
 2025-11-21 09:16:50.326 INFO     Commit message: Modify: Microsoft.WindowsTerminal version 1.23.12811.0 (Auto)
