@@ -1,0 +1,659 @@
+~~ Start logging ~~
+2025-11-30 06:41:45.371 FUN 这么近，那么美，周末到____！
+2025-11-30 06:41:45.372 WARN Sundry-old is deprecated, please use the new version Sundry: https://github.com/DuckDuckStudio/Sundry/releases
+2025-11-30 06:41:45.375 INFO Found the following version folder: ['8.11.0', '8.12.0', '8.13.0', '8.14.0', '8.15.0', '8.17.1', '8.18.0', '8.18.1', '8.19.0', '8.21.0', '8.22.0', '8.22.1', '8.23.0', '8.23.1', '8.23.2', '8.24.0', '8.24.1', '8.25.0', '8.26.0', '8.27.0', '8.28.0', '8.29.0', '8.7.0', '8.8.1', '9.18.0', '9.19.0', '9.20.0', '9.21.0', '9.21.1', '9.22.0', '9.23.0', '9.24.0', '9.25.1', '9.26.0']
+2025-11-30 06:41:45.475 INFO Skip version 8.11.0. - Not in the list to be modified.
+2025-11-30 06:41:45.476 INFO Skip version 8.12.0. - Not in the list to be modified.
+2025-11-30 06:41:45.477 INFO Processing version folder: 8.13.0
+2025-11-30 06:41:45.478 INFO   Create and checkout to a new branch: Modify-OliverSchwendener.ueli-8.13.0-1764456105
+2025-11-30 06:41:57.888 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.13.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:41:57.890 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:41:57.891 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:41:57.892 INFO     Fixes scope: machine -> user
+2025-11-30 06:41:57.893 WHY     See https://github.com/microsoft/winget-pkgs/issues/280955
+2025-11-30 06:41:57.905 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.13.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:41:57.907 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.13.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:41:57.909 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:41:57.910 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:41:57.913 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.13.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:41:57.914 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.13.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:41:57.917 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:41:57.918 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:41:57.920 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.13.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:41:59.510 INFO     清单验证成功。
+2025-11-30 06:41:59.559 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:41:59.570 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:41:59.574 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.yaml
+2025-11-30 06:41:59.677 INFO   Staging and Committing Changes to Git
+2025-11-30 06:42:19.378 INFO     Commit message: Modify: OliverSchwendener.ueli version 8.13.0 (Auto)
+2025-11-30 06:42:19.380 INFO   Pushing changes to remote (origin) repository
+2025-11-30 06:42:25.153 INFO     Successfully pushed to remote (origin): Modify-OliverSchwendener.ueli-8.13.0-1764456105
+2025-11-30 06:42:29.779 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318339
+2025-11-30 06:42:29.790 INFO Processing version folder: 8.14.0
+2025-11-30 06:42:29.793 INFO   Create and checkout to a new branch: Modify-OliverSchwendener.ueli-8.14.0-1764456149
+2025-11-30 06:42:41.761 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.14.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:42:41.763 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:42:41.764 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:42:41.766 INFO     Fixes scope: machine -> user
+2025-11-30 06:42:41.767 WHY     See https://github.com/microsoft/winget-pkgs/issues/280955
+2025-11-30 06:42:41.769 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.14.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:42:41.771 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.14.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:42:41.773 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:42:41.774 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:42:41.776 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.14.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:42:41.778 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.14.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:42:41.780 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:42:41.781 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:42:41.784 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.14.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:42:43.711 INFO     清单验证成功。
+2025-11-30 06:42:43.773 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:42:43.788 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:42:43.792 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.yaml
+2025-11-30 06:42:43.912 INFO   Staging and Committing Changes to Git
+2025-11-30 06:42:53.330 INFO     Commit message: Modify: OliverSchwendener.ueli version 8.14.0 (Auto)
+2025-11-30 06:42:53.331 INFO   Pushing changes to remote (origin) repository
+2025-11-30 06:42:58.992 INFO     Successfully pushed to remote (origin): Modify-OliverSchwendener.ueli-8.14.0-1764456149
+2025-11-30 06:43:03.648 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318340
+2025-11-30 06:43:03.654 INFO Processing version folder: 8.15.0
+2025-11-30 06:43:03.655 INFO   Create and checkout to a new branch: Modify-OliverSchwendener.ueli-8.15.0-1764456183
+2025-11-30 06:43:13.749 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.15.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:43:13.751 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:43:13.752 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:43:13.754 INFO     Fixes scope: machine -> user
+2025-11-30 06:43:13.755 WHY     See https://github.com/microsoft/winget-pkgs/issues/280955
+2025-11-30 06:43:13.756 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.15.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:43:13.758 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.15.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:43:13.760 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:43:13.761 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:43:13.763 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.15.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:43:13.764 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.15.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:43:13.766 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:43:13.767 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:43:13.769 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.15.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:43:15.608 INFO     清单验证成功。
+2025-11-30 06:43:15.668 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:43:15.683 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:43:15.688 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.yaml
+2025-11-30 06:43:15.800 INFO   Staging and Committing Changes to Git
+2025-11-30 06:43:26.266 INFO     Commit message: Modify: OliverSchwendener.ueli version 8.15.0 (Auto)
+2025-11-30 06:43:26.285 INFO   Pushing changes to remote (origin) repository
+2025-11-30 06:43:32.132 INFO     Successfully pushed to remote (origin): Modify-OliverSchwendener.ueli-8.15.0-1764456183
+2025-11-30 06:43:36.296 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318341
+2025-11-30 06:43:36.301 INFO Processing version folder: 8.17.1
+2025-11-30 06:43:36.303 INFO   Create and checkout to a new branch: Modify-OliverSchwendener.ueli-8.17.1-1764456216
+2025-11-30 06:43:46.925 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.17.1\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:43:46.927 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:43:46.929 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:43:46.930 INFO     Fixes scope: machine -> user
+2025-11-30 06:43:46.931 WHY     See https://github.com/microsoft/winget-pkgs/issues/280955
+2025-11-30 06:43:46.933 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.17.1\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:43:46.934 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.17.1\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:43:46.937 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:43:46.938 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:43:46.941 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.17.1\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:43:46.943 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.17.1\OliverSchwendener.ueli.yaml
+2025-11-30 06:43:46.945 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:43:46.946 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:43:46.948 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.17.1\OliverSchwendener.ueli.yaml
+2025-11-30 06:43:48.727 INFO     清单验证成功。
+2025-11-30 06:43:48.778 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:43:48.792 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:43:48.796 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.yaml
+2025-11-30 06:43:48.917 INFO   Staging and Committing Changes to Git
+2025-11-30 06:43:58.532 INFO     Commit message: Modify: OliverSchwendener.ueli version 8.17.1 (Auto)
+2025-11-30 06:43:58.549 INFO   Pushing changes to remote (origin) repository
+2025-11-30 06:44:03.970 INFO     Successfully pushed to remote (origin): Modify-OliverSchwendener.ueli-8.17.1-1764456216
+2025-11-30 06:44:08.957 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318342
+2025-11-30 06:44:08.962 INFO Processing version folder: 8.18.0
+2025-11-30 06:44:08.964 INFO   Create and checkout to a new branch: Modify-OliverSchwendener.ueli-8.18.0-1764456248
+2025-11-30 06:44:20.511 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.18.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:44:20.513 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:44:20.515 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:44:20.517 INFO     Fixes scope: machine -> user
+2025-11-30 06:44:20.519 WHY     See https://github.com/microsoft/winget-pkgs/issues/280955
+2025-11-30 06:44:20.521 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.18.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:44:20.523 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.18.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:44:20.527 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:44:20.531 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:44:20.539 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.18.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:44:20.541 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.18.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:44:20.544 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:44:20.545 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:44:20.549 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.18.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:44:22.258 INFO     清单验证成功。
+2025-11-30 06:44:22.313 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:44:22.328 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:44:22.333 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.yaml
+2025-11-30 06:44:22.495 INFO   Staging and Committing Changes to Git
+2025-11-30 06:44:32.491 INFO     Commit message: Modify: OliverSchwendener.ueli version 8.18.0 (Auto)
+2025-11-30 06:44:32.493 INFO   Pushing changes to remote (origin) repository
+2025-11-30 06:44:38.368 INFO     Successfully pushed to remote (origin): Modify-OliverSchwendener.ueli-8.18.0-1764456248
+2025-11-30 06:44:43.675 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318343
+2025-11-30 06:44:43.720 INFO Processing version folder: 8.18.1
+2025-11-30 06:44:43.732 INFO   Create and checkout to a new branch: Modify-OliverSchwendener.ueli-8.18.1-1764456283
+2025-11-30 06:44:54.463 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.18.1\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:44:54.466 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:44:54.467 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:44:54.469 INFO     Fixes scope: machine -> user
+2025-11-30 06:44:54.470 WHY     See https://github.com/microsoft/winget-pkgs/issues/280955
+2025-11-30 06:44:54.472 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.18.1\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:44:54.474 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.18.1\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:44:54.477 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:44:54.479 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:44:54.482 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.18.1\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:44:54.484 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.18.1\OliverSchwendener.ueli.yaml
+2025-11-30 06:44:54.486 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:44:54.488 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:44:54.490 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.18.1\OliverSchwendener.ueli.yaml
+2025-11-30 06:44:56.437 INFO     清单验证成功。
+2025-11-30 06:44:56.499 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:44:56.518 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:44:56.523 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.yaml
+2025-11-30 06:44:56.666 INFO   Staging and Committing Changes to Git
+2025-11-30 06:45:07.658 INFO     Commit message: Modify: OliverSchwendener.ueli version 8.18.1 (Auto)
+2025-11-30 06:45:07.660 INFO   Pushing changes to remote (origin) repository
+2025-11-30 06:45:14.233 INFO     Successfully pushed to remote (origin): Modify-OliverSchwendener.ueli-8.18.1-1764456283
+2025-11-30 06:45:19.344 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318344
+2025-11-30 06:45:19.349 INFO Processing version folder: 8.19.0
+2025-11-30 06:45:19.350 INFO   Create and checkout to a new branch: Modify-OliverSchwendener.ueli-8.19.0-1764456319
+2025-11-30 06:45:29.581 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.19.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:45:29.583 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:45:29.585 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:45:29.586 INFO     Fixes scope: machine -> user
+2025-11-30 06:45:29.587 WHY     See https://github.com/microsoft/winget-pkgs/issues/280955
+2025-11-30 06:45:29.590 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.19.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:45:29.591 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.19.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:45:29.594 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:45:29.596 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:45:29.598 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.19.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:45:29.600 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.19.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:45:29.602 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:45:29.603 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:45:29.606 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.19.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:45:31.503 INFO     清单验证成功。
+2025-11-30 06:45:31.566 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:45:31.582 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:45:31.588 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.yaml
+2025-11-30 06:45:31.722 INFO   Staging and Committing Changes to Git
+2025-11-30 06:45:41.383 INFO     Commit message: Modify: OliverSchwendener.ueli version 8.19.0 (Auto)
+2025-11-30 06:45:41.199 INFO   Pushing changes to remote (origin) repository
+2025-11-30 06:45:46.853 INFO     Successfully pushed to remote (origin): Modify-OliverSchwendener.ueli-8.19.0-1764456319
+2025-11-30 06:45:50.457 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318345
+2025-11-30 06:45:50.464 INFO Processing version folder: 8.21.0
+2025-11-30 06:45:50.465 INFO   Create and checkout to a new branch: Modify-OliverSchwendener.ueli-8.21.0-1764456350
+2025-11-30 06:46:01.995 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.21.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:46:01.998 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:46:01.999 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:46:02.991 INFO     Fixes scope: machine -> user
+2025-11-30 06:46:02.199 WHY     See https://github.com/microsoft/winget-pkgs/issues/280955
+2025-11-30 06:46:02.430 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.21.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:46:02.706 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.21.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:46:02.193 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:46:02.212 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:46:02.249 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.21.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:46:02.268 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.21.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:46:02.292 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:46:02.306 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:46:02.330 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.21.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:46:04.253 INFO     清单验证成功。
+2025-11-30 06:46:04.333 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:46:04.360 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:46:04.367 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.yaml
+2025-11-30 06:46:04.533 INFO   Staging and Committing Changes to Git
+2025-11-30 06:46:16.341 INFO     Commit message: Modify: OliverSchwendener.ueli version 8.21.0 (Auto)
+2025-11-30 06:46:16.343 INFO   Pushing changes to remote (origin) repository
+2025-11-30 06:46:22.262 INFO     Successfully pushed to remote (origin): Modify-OliverSchwendener.ueli-8.21.0-1764456350
+2025-11-30 06:46:26.792 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318346
+2025-11-30 06:46:26.797 INFO Processing version folder: 8.22.0
+2025-11-30 06:46:26.798 INFO   Create and checkout to a new branch: Modify-OliverSchwendener.ueli-8.22.0-1764456386
+2025-11-30 06:46:40.147 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.22.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:46:40.149 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:46:40.151 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:46:40.153 INFO     Fixes scope: machine -> user
+2025-11-30 06:46:40.154 WHY     See https://github.com/microsoft/winget-pkgs/issues/280955
+2025-11-30 06:46:40.157 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.22.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:46:40.159 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.22.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:46:40.162 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:46:40.163 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:46:40.165 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.22.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:46:40.166 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.22.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:46:40.168 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:46:40.172 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:46:40.174 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.22.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:46:42.154 INFO     清单验证成功。
+2025-11-30 06:46:42.214 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:46:42.233 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:46:42.240 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.yaml
+2025-11-30 06:46:42.387 INFO   Staging and Committing Changes to Git
+2025-11-30 06:46:52.624 INFO     Commit message: Modify: OliverSchwendener.ueli version 8.22.0 (Auto)
+2025-11-30 06:46:52.626 INFO   Pushing changes to remote (origin) repository
+2025-11-30 06:46:58.998 INFO     Successfully pushed to remote (origin): Modify-OliverSchwendener.ueli-8.22.0-1764456386
+2025-11-30 06:47:04.132 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318347
+2025-11-30 06:47:04.137 INFO Processing version folder: 8.22.1
+2025-11-30 06:47:04.139 INFO   Create and checkout to a new branch: Modify-OliverSchwendener.ueli-8.22.1-1764456424
+2025-11-30 06:47:14.264 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.22.1\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:47:14.266 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:47:14.268 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:47:14.269 INFO     Fixes scope: machine -> user
+2025-11-30 06:47:14.270 WHY     See https://github.com/microsoft/winget-pkgs/issues/280955
+2025-11-30 06:47:14.273 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.22.1\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:47:14.274 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.22.1\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:47:14.287 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:47:14.288 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:47:14.291 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.22.1\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:47:14.292 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.22.1\OliverSchwendener.ueli.yaml
+2025-11-30 06:47:14.294 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:47:14.296 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:47:14.298 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.22.1\OliverSchwendener.ueli.yaml
+2025-11-30 06:47:16.243 INFO     清单验证成功。
+2025-11-30 06:47:16.307 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:47:16.322 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:47:16.327 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.yaml
+2025-11-30 06:47:16.471 INFO   Staging and Committing Changes to Git
+2025-11-30 06:47:28.394 INFO     Commit message: Modify: OliverSchwendener.ueli version 8.22.1 (Auto)
+2025-11-30 06:47:28.396 INFO   Pushing changes to remote (origin) repository
+2025-11-30 06:47:34.545 INFO     Successfully pushed to remote (origin): Modify-OliverSchwendener.ueli-8.22.1-1764456424
+2025-11-30 06:47:37.366 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318348
+2025-11-30 06:47:37.380 INFO Processing version folder: 8.23.0
+2025-11-30 06:47:37.382 INFO   Create and checkout to a new branch: Modify-OliverSchwendener.ueli-8.23.0-1764456457
+2025-11-30 06:47:48.503 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.23.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:47:48.505 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:47:48.507 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:47:48.509 INFO     Fixes scope: machine -> user
+2025-11-30 06:47:48.510 WHY     See https://github.com/microsoft/winget-pkgs/issues/280955
+2025-11-30 06:47:48.513 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.23.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:47:48.515 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.23.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:47:48.517 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:47:48.519 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:47:48.521 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.23.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:47:48.523 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.23.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:47:48.525 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:47:48.527 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:47:48.530 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.23.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:47:50.575 INFO     清单验证成功。
+2025-11-30 06:47:50.646 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:47:50.662 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:47:50.668 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.yaml
+2025-11-30 06:47:50.816 INFO   Staging and Committing Changes to Git
+2025-11-30 06:48:01.286 INFO     Commit message: Modify: OliverSchwendener.ueli version 8.23.0 (Auto)
+2025-11-30 06:48:01.289 INFO   Pushing changes to remote (origin) repository
+2025-11-30 06:48:07.347 INFO     Successfully pushed to remote (origin): Modify-OliverSchwendener.ueli-8.23.0-1764456457
+2025-11-30 06:48:10.736 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318349
+2025-11-30 06:48:10.740 INFO Processing version folder: 8.23.1
+2025-11-30 06:48:10.742 INFO   Create and checkout to a new branch: Modify-OliverSchwendener.ueli-8.23.1-1764456490
+2025-11-30 06:48:21.136 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.23.1\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:48:21.138 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:48:21.139 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:48:21.140 INFO     Fixes scope: machine -> user
+2025-11-30 06:48:21.142 WHY     See https://github.com/microsoft/winget-pkgs/issues/280955
+2025-11-30 06:48:21.144 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.23.1\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:48:21.146 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.23.1\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:48:21.158 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:48:21.160 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:48:21.162 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.23.1\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:48:21.164 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.23.1\OliverSchwendener.ueli.yaml
+2025-11-30 06:48:21.166 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:48:21.168 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:48:21.170 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.23.1\OliverSchwendener.ueli.yaml
+2025-11-30 06:48:23.244 INFO     清单验证成功。
+2025-11-30 06:48:23.302 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:48:23.317 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:48:23.321 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.yaml
+2025-11-30 06:48:23.461 INFO   Staging and Committing Changes to Git
+2025-11-30 06:48:32.881 INFO     Commit message: Modify: OliverSchwendener.ueli version 8.23.1 (Auto)
+2025-11-30 06:48:32.883 INFO   Pushing changes to remote (origin) repository
+2025-11-30 06:48:39.533 INFO     Successfully pushed to remote (origin): Modify-OliverSchwendener.ueli-8.23.1-1764456490
+2025-11-30 06:48:43.743 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318350
+2025-11-30 06:48:43.121 INFO Processing version folder: 8.23.2
+2025-11-30 06:48:43.139 INFO   Create and checkout to a new branch: Modify-OliverSchwendener.ueli-8.23.2-1764456523
+2025-11-30 06:48:57.577 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.23.2\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:48:57.579 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:48:57.580 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:48:57.581 INFO     Fixes scope: machine -> user
+2025-11-30 06:48:57.582 WHY     See https://github.com/microsoft/winget-pkgs/issues/280955
+2025-11-30 06:48:57.584 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.23.2\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:48:57.586 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.23.2\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:48:57.589 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:48:57.591 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:48:57.594 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.23.2\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:48:57.596 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.23.2\OliverSchwendener.ueli.yaml
+2025-11-30 06:48:57.598 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:48:57.599 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:48:57.602 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.23.2\OliverSchwendener.ueli.yaml
+2025-11-30 06:48:59.762 INFO     清单验证成功。
+2025-11-30 06:48:59.828 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:48:59.847 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:48:59.854 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.yaml
+2025-11-30 06:49:00.842 INFO   Staging and Committing Changes to Git
+2025-11-30 06:49:11.663 INFO     Commit message: Modify: OliverSchwendener.ueli version 8.23.2 (Auto)
+2025-11-30 06:49:11.665 INFO   Pushing changes to remote (origin) repository
+2025-11-30 06:49:17.577 INFO     Successfully pushed to remote (origin): Modify-OliverSchwendener.ueli-8.23.2-1764456523
+2025-11-30 06:49:23.154 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318351
+2025-11-30 06:49:23.159 INFO Processing version folder: 8.24.0
+2025-11-30 06:49:23.161 INFO   Create and checkout to a new branch: Modify-OliverSchwendener.ueli-8.24.0-1764456563
+2025-11-30 06:49:35.308 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.24.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:49:35.310 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:49:35.311 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:49:35.313 INFO     Fixes scope: machine -> user
+2025-11-30 06:49:35.314 WHY     See https://github.com/microsoft/winget-pkgs/issues/280955
+2025-11-30 06:49:35.316 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.24.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:49:35.318 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.24.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:49:35.321 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:49:35.323 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:49:35.325 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.24.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:49:35.327 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.24.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:49:35.329 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:49:35.330 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:49:35.333 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.24.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:49:37.433 INFO     清单验证成功。
+2025-11-30 06:49:37.508 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:49:37.528 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:49:37.534 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.yaml
+2025-11-30 06:49:37.667 INFO   Staging and Committing Changes to Git
+2025-11-30 06:49:48.103 INFO     Commit message: Modify: OliverSchwendener.ueli version 8.24.0 (Auto)
+2025-11-30 06:49:48.122 INFO   Pushing changes to remote (origin) repository
+2025-11-30 06:49:54.616 INFO     Successfully pushed to remote (origin): Modify-OliverSchwendener.ueli-8.24.0-1764456563
+2025-11-30 06:50:00.416 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318352
+2025-11-30 06:50:00.421 INFO Processing version folder: 8.24.1
+2025-11-30 06:50:00.423 INFO   Create and checkout to a new branch: Modify-OliverSchwendener.ueli-8.24.1-1764456600
+2025-11-30 06:50:11.883 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.24.1\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:50:11.885 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:50:11.887 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:50:11.888 INFO     Fixes scope: machine -> user
+2025-11-30 06:50:11.889 WHY     See https://github.com/microsoft/winget-pkgs/issues/280955
+2025-11-30 06:50:11.892 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.24.1\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:50:11.894 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.24.1\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:50:11.897 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:50:11.898 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:50:11.901 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.24.1\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:50:11.903 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.24.1\OliverSchwendener.ueli.yaml
+2025-11-30 06:50:11.905 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:50:11.906 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:50:11.909 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.24.1\OliverSchwendener.ueli.yaml
+2025-11-30 06:50:14.436 INFO     清单验证成功。
+2025-11-30 06:50:14.114 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:50:14.136 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:50:14.143 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.yaml
+2025-11-30 06:50:14.271 INFO   Staging and Committing Changes to Git
+2025-11-30 06:50:24.946 INFO     Commit message: Modify: OliverSchwendener.ueli version 8.24.1 (Auto)
+2025-11-30 06:50:24.948 INFO   Pushing changes to remote (origin) repository
+2025-11-30 06:50:31.731 INFO     Successfully pushed to remote (origin): Modify-OliverSchwendener.ueli-8.24.1-1764456600
+2025-11-30 06:50:35.712 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318353
+2025-11-30 06:50:35.717 INFO Processing version folder: 8.25.0
+2025-11-30 06:50:35.719 INFO   Create and checkout to a new branch: Modify-OliverSchwendener.ueli-8.25.0-1764456635
+2025-11-30 06:50:47.385 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.25.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:50:47.387 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:50:47.389 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:50:47.390 INFO     Fixes scope: machine -> user
+2025-11-30 06:50:47.391 WHY     See https://github.com/microsoft/winget-pkgs/issues/280955
+2025-11-30 06:50:47.394 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.25.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:50:47.395 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.25.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:50:47.398 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:50:47.399 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:50:47.402 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.25.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:50:47.404 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.25.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:50:47.406 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:50:47.407 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:50:47.410 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.25.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:50:49.760 INFO     清单验证成功。
+2025-11-30 06:50:49.833 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:50:49.854 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:50:49.860 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.yaml
+2025-11-30 06:50:49.995 INFO   Staging and Committing Changes to Git
+2025-11-30 06:51:01.882 INFO     Commit message: Modify: OliverSchwendener.ueli version 8.25.0 (Auto)
+2025-11-30 06:51:01.884 INFO   Pushing changes to remote (origin) repository
+2025-11-30 06:51:07.973 INFO     Successfully pushed to remote (origin): Modify-OliverSchwendener.ueli-8.25.0-1764456635
+2025-11-30 06:51:13.376 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318354
+2025-11-30 06:51:13.380 INFO Processing version folder: 8.26.0
+2025-11-30 06:51:13.381 INFO   Create and checkout to a new branch: Modify-OliverSchwendener.ueli-8.26.0-1764456673
+2025-11-30 06:51:24.261 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.26.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:51:24.263 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:51:24.264 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:51:24.266 INFO     Fixes scope: machine -> user
+2025-11-30 06:51:24.267 WHY     See https://github.com/microsoft/winget-pkgs/issues/280955
+2025-11-30 06:51:24.269 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.26.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:51:24.271 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.26.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:51:24.273 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:51:24.275 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:51:24.277 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.26.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:51:24.279 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.26.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:51:24.282 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:51:24.283 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:51:24.285 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.26.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:51:26.240 INFO     清单验证成功。
+2025-11-30 06:51:26.299 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:51:26.313 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:51:26.318 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.yaml
+2025-11-30 06:51:26.457 INFO   Staging and Committing Changes to Git
+2025-11-30 06:51:36.732 INFO     Commit message: Modify: OliverSchwendener.ueli version 8.26.0 (Auto)
+2025-11-30 06:51:36.734 INFO   Pushing changes to remote (origin) repository
+2025-11-30 06:51:42.415 INFO     Successfully pushed to remote (origin): Modify-OliverSchwendener.ueli-8.26.0-1764456673
+2025-11-30 06:51:45.704 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318355
+2025-11-30 06:51:45.709 INFO Processing version folder: 8.27.0
+2025-11-30 06:51:45.710 INFO   Create and checkout to a new branch: Modify-OliverSchwendener.ueli-8.27.0-1764456705
+2025-11-30 06:51:57.329 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.27.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:51:57.331 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:51:57.333 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:51:57.335 INFO     Fixes scope: machine -> user
+2025-11-30 06:51:57.335 WHY     See https://github.com/microsoft/winget-pkgs/issues/280955
+2025-11-30 06:51:57.338 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.27.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:51:57.339 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.27.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:51:57.342 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:51:57.344 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:51:57.346 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.27.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:51:57.347 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.27.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:51:57.349 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:51:57.351 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:51:57.354 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.27.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:51:59.290 INFO     清单验证成功。
+2025-11-30 06:51:59.358 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:51:59.378 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:51:59.384 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.yaml
+2025-11-30 06:51:59.539 INFO   Staging and Committing Changes to Git
+2025-11-30 06:52:10.655 INFO     Commit message: Modify: OliverSchwendener.ueli version 8.27.0 (Auto)
+2025-11-30 06:52:10.656 INFO   Pushing changes to remote (origin) repository
+2025-11-30 06:52:16.941 INFO     Successfully pushed to remote (origin): Modify-OliverSchwendener.ueli-8.27.0-1764456705
+2025-11-30 06:52:22.183 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318356
+2025-11-30 06:52:22.222 INFO Processing version folder: 8.28.0
+2025-11-30 06:52:22.234 INFO   Create and checkout to a new branch: Modify-OliverSchwendener.ueli-8.28.0-1764456742
+2025-11-30 06:52:34.109 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.28.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:52:34.111 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:52:34.113 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:52:34.115 INFO     Fixes scope: machine -> user
+2025-11-30 06:52:34.116 WHY     See https://github.com/microsoft/winget-pkgs/issues/280955
+2025-11-30 06:52:34.118 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.28.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:52:34.120 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.28.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:52:34.122 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:52:34.123 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:52:34.125 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.28.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:52:34.127 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.28.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:52:34.128 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:52:34.130 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:52:34.133 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.28.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:52:36.996 INFO     清单验证成功。
+2025-11-30 06:52:36.158 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:52:36.172 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:52:36.176 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.yaml
+2025-11-30 06:52:36.314 INFO   Staging and Committing Changes to Git
+2025-11-30 06:52:47.677 INFO     Commit message: Modify: OliverSchwendener.ueli version 8.28.0 (Auto)
+2025-11-30 06:52:47.679 INFO   Pushing changes to remote (origin) repository
+2025-11-30 06:52:54.271 INFO     Successfully pushed to remote (origin): Modify-OliverSchwendener.ueli-8.28.0-1764456742
+2025-11-30 06:52:57.461 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318357
+2025-11-30 06:52:57.465 INFO Processing version folder: 8.29.0
+2025-11-30 06:52:57.467 INFO   Create and checkout to a new branch: Modify-OliverSchwendener.ueli-8.29.0-1764456777
+2025-11-30 06:53:10.106 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.29.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:53:10.109 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:53:10.110 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:53:10.111 INFO     Fixes scope: machine -> user
+2025-11-30 06:53:10.112 WHY     See https://github.com/microsoft/winget-pkgs/issues/280955
+2025-11-30 06:53:10.115 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.29.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:53:10.116 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.29.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:53:10.119 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:53:10.120 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:53:10.122 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.29.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:53:10.124 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.29.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:53:10.126 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:53:10.128 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:53:10.130 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\8.29.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:53:12.147 INFO     清单验证成功。
+2025-11-30 06:53:12.207 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:53:12.223 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:53:12.228 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.yaml
+2025-11-30 06:53:12.361 INFO   Staging and Committing Changes to Git
+2025-11-30 06:53:24.274 INFO     Commit message: Modify: OliverSchwendener.ueli version 8.29.0 (Auto)
+2025-11-30 06:53:24.276 INFO   Pushing changes to remote (origin) repository
+2025-11-30 06:53:30.899 INFO     Successfully pushed to remote (origin): Modify-OliverSchwendener.ueli-8.29.0-1764456777
+2025-11-30 06:53:36.603 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318358
+2025-11-30 06:53:36.610 INFO Skip version 8.7.0. - Not in the list to be modified.
+2025-11-30 06:53:36.611 INFO Skip version 8.8.1. - Not in the list to be modified.
+2025-11-30 06:53:36.613 INFO Processing version folder: 9.18.0
+2025-11-30 06:53:36.615 INFO   Create and checkout to a new branch: Modify-OliverSchwendener.ueli-9.18.0-1764456816
+2025-11-30 06:53:50.571 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.18.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:53:50.574 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:53:50.575 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:53:50.577 INFO     Fixes scope: machine -> user
+2025-11-30 06:53:50.578 WHY     See https://github.com/microsoft/winget-pkgs/issues/280955
+2025-11-30 06:53:50.581 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.18.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:53:50.583 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.18.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:53:50.589 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:53:50.591 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:53:50.595 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.18.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:53:50.597 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.18.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:53:50.600 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:53:50.602 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:53:50.604 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.18.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:53:52.728 INFO     清单验证成功。
+2025-11-30 06:53:52.793 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:53:52.809 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:53:52.813 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.yaml
+2025-11-30 06:53:52.994 INFO   Staging and Committing Changes to Git
+2025-11-30 06:54:05.569 INFO     Commit message: Modify: OliverSchwendener.ueli version 9.18.0 (Auto)
+2025-11-30 06:54:05.588 INFO   Pushing changes to remote (origin) repository
+2025-11-30 06:54:12.422 INFO     Successfully pushed to remote (origin): Modify-OliverSchwendener.ueli-9.18.0-1764456816
+2025-11-30 06:54:15.702 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318359
+2025-11-30 06:54:15.707 INFO Skip version 9.19.0. - Not in the list to be modified.
+2025-11-30 06:54:15.708 INFO Processing version folder: 9.20.0
+2025-11-30 06:54:15.710 INFO   Create and checkout to a new branch: Modify-OliverSchwendener.ueli-9.20.0-1764456855
+2025-11-30 06:54:29.426 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.20.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:54:29.428 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:54:29.429 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:54:29.431 INFO     Fixes scope: machine -> user
+2025-11-30 06:54:29.432 WHY     See https://github.com/microsoft/winget-pkgs/issues/280955
+2025-11-30 06:54:29.434 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.20.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:54:29.436 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.20.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:54:29.439 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:54:29.441 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:54:29.443 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.20.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:54:29.445 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.20.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:54:29.447 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:54:29.448 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:54:29.451 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.20.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:54:31.565 INFO     清单验证成功。
+2025-11-30 06:54:31.634 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:54:31.653 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:54:31.661 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.yaml
+2025-11-30 06:54:31.785 INFO   Staging and Committing Changes to Git
+2025-11-30 06:54:44.323 INFO     Commit message: Modify: OliverSchwendener.ueli version 9.20.0 (Auto)
+2025-11-30 06:54:44.325 INFO   Pushing changes to remote (origin) repository
+2025-11-30 06:54:49.912 INFO     Successfully pushed to remote (origin): Modify-OliverSchwendener.ueli-9.20.0-1764456855
+2025-11-30 06:54:53.560 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318360
+2025-11-30 06:54:53.611 INFO Skip version 9.21.0. - Not in the list to be modified.
+2025-11-30 06:54:53.627 INFO Skip version 9.21.1. - Not in the list to be modified.
+2025-11-30 06:54:53.643 INFO Processing version folder: 9.22.0
+2025-11-30 06:54:53.664 INFO   Create and checkout to a new branch: Modify-OliverSchwendener.ueli-9.22.0-1764456893
+2025-11-30 06:55:06.777 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.22.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:55:06.779 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:55:06.781 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:55:06.783 INFO     Fixes scope: machine -> user
+2025-11-30 06:55:06.784 WHY     See https://github.com/microsoft/winget-pkgs/issues/280955
+2025-11-30 06:55:06.787 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.22.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:55:06.790 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.22.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:55:06.793 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:55:06.794 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:55:06.798 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.22.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:55:06.800 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.22.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:55:06.802 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:55:06.804 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:55:06.806 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.22.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:55:09.107 INFO     清单验证成功。
+2025-11-30 06:55:09.175 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:55:09.193 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:55:09.201 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.yaml
+2025-11-30 06:55:09.335 INFO   Staging and Committing Changes to Git
+2025-11-30 06:55:22.585 INFO     Commit message: Modify: OliverSchwendener.ueli version 9.22.0 (Auto)
+2025-11-30 06:55:22.605 INFO   Pushing changes to remote (origin) repository
+2025-11-30 06:55:28.513 INFO     Successfully pushed to remote (origin): Modify-OliverSchwendener.ueli-9.22.0-1764456893
+2025-11-30 06:55:33.527 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318361
+2025-11-30 06:55:33.534 INFO Processing version folder: 9.23.0
+2025-11-30 06:55:33.536 INFO   Create and checkout to a new branch: Modify-OliverSchwendener.ueli-9.23.0-1764456933
+2025-11-30 06:55:48.270 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.23.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:55:48.292 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:55:48.308 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:55:48.324 INFO     Fixes scope: machine -> user
+2025-11-30 06:55:48.337 WHY     See https://github.com/microsoft/winget-pkgs/issues/280955
+2025-11-30 06:55:48.365 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.23.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:55:48.384 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.23.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:55:48.413 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:55:48.427 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:55:48.452 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.23.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:55:48.468 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.23.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:55:48.492 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:55:48.508 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:55:48.535 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.23.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:55:50.160 INFO     清单验证成功。
+2025-11-30 06:55:50.218 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:55:50.233 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:55:50.239 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.yaml
+2025-11-30 06:55:50.382 INFO   Staging and Committing Changes to Git
+2025-11-30 06:56:03.550 INFO     Commit message: Modify: OliverSchwendener.ueli version 9.23.0 (Auto)
+2025-11-30 06:56:03.552 INFO   Pushing changes to remote (origin) repository
+2025-11-30 06:56:09.439 INFO     Successfully pushed to remote (origin): Modify-OliverSchwendener.ueli-9.23.0-1764456933
+2025-11-30 06:56:12.306 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318362
+2025-11-30 06:56:12.311 INFO Processing version folder: 9.24.0
+2025-11-30 06:56:12.312 INFO   Create and checkout to a new branch: Modify-OliverSchwendener.ueli-9.24.0-1764456972
+2025-11-30 06:56:26.787 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.24.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:56:26.790 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:56:26.791 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:56:26.793 INFO     Fixes scope: machine -> user
+2025-11-30 06:56:26.794 WHY     See https://github.com/microsoft/winget-pkgs/issues/280955
+2025-11-30 06:56:26.797 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.24.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:56:26.798 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.24.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:56:26.801 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:56:26.802 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:56:26.805 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.24.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:56:26.807 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.24.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:56:26.809 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-11-30 06:56:26.811 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-11-30 06:56:26.813 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.24.0\OliverSchwendener.ueli.yaml
+2025-11-30 06:56:28.948 INFO     清单验证成功。
+2025-11-30 06:56:29.155 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:56:29.351 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:56:29.405 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.yaml
+2025-11-30 06:56:29.189 INFO   Staging and Committing Changes to Git
+2025-11-30 06:56:42.700 INFO     Commit message: Modify: OliverSchwendener.ueli version 9.24.0 (Auto)
+2025-11-30 06:56:42.702 INFO   Pushing changes to remote (origin) repository
+2025-11-30 06:56:48.877 INFO     Successfully pushed to remote (origin): Modify-OliverSchwendener.ueli-9.24.0-1764456972
+2025-11-30 06:56:53.903 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318363
+2025-11-30 06:56:53.908 INFO Processing version folder: 9.25.1
+2025-11-30 06:56:53.910 INFO   Create and checkout to a new branch: Modify-OliverSchwendener.ueli-9.25.1-1764457013
+2025-11-30 06:57:08.313 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.25.1\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:57:08.315 INFO     Fixes scope: machine -> user
+2025-11-30 06:57:08.317 WHY     See https://github.com/microsoft/winget-pkgs/issues/280955
+2025-11-30 06:57:08.320 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.25.1\OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:57:08.322 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.25.1\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:57:08.326 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.25.1\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:57:08.328 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.25.1\OliverSchwendener.ueli.yaml
+2025-11-30 06:57:08.331 INFO     The modified file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.25.1\OliverSchwendener.ueli.yaml
+2025-11-30 06:57:10.521 INFO     清单验证成功。
+2025-11-30 06:57:10.600 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.installer.yaml
+2025-11-30 06:57:10.621 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 06:57:10.629 INFO     ✓ 成功使用清单 schema 验证 OliverSchwendener.ueli.yaml
+2025-11-30 06:57:10.764 INFO   Staging and Committing Changes to Git
+2025-11-30 06:57:24.241 INFO     Commit message: Modify: OliverSchwendener.ueli version 9.25.1 (Auto)
+2025-11-30 06:57:24.243 INFO   Pushing changes to remote (origin) repository
+2025-11-30 06:57:30.826 INFO     Successfully pushed to remote (origin): Modify-OliverSchwendener.ueli-9.25.1-1764457013
+2025-11-30 06:57:36.859 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318364
+2025-11-30 06:57:36.864 INFO Skip version 9.26.0. - Not in the list to be modified.
+2025-11-30 06:57:36.866 INFO All manifests have been modified and pushed through.
+2025-11-30 06:57:55.318 INFO Workspace clean-up completed.
+~~ End of logging ~~
