@@ -1,0 +1,53 @@
+~~ Start logging ~~
+2025-11-30 05:10:18.758 FUN 对的对的对的。哦不对！不对不对。哦对的对的。对吗？
+2025-11-30 05:10:18.774 INFO Found the following version folder: ['8.11.0', '8.12.0', '8.13.0', '8.14.0', '8.15.0', '8.17.1', '8.18.0', '8.18.1', '8.19.0', '8.21.0', '8.22.0', '8.22.1', '8.23.0', '8.23.1', '8.23.2', '8.24.0', '8.24.1', '8.25.0', '8.26.0', '8.27.0', '8.28.0', '8.29.0', '8.7.0', '8.8.1', '9.18.0', '9.19.0', '9.20.0', '9.21.0', '9.21.1', '9.22.0', '9.23.0', '9.24.0', '9.25.1', '9.26.0']
+2025-11-30 05:10:18.776 INFO Skip version 8.11.0, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.777 INFO Skip version 8.12.0, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.779 INFO Skip version 8.13.0, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.780 INFO Skip version 8.14.0, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.782 INFO Skip version 8.15.0, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.784 INFO Skip version 8.17.1, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.785 INFO Skip version 8.18.0, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.787 INFO Skip version 8.18.1, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.788 INFO Skip version 8.19.0, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.789 INFO Skip version 8.21.0, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.790 INFO Skip version 8.22.0, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.792 INFO Skip version 8.22.1, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.793 INFO Skip version 8.23.0, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.794 INFO Skip version 8.23.1, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.795 INFO Skip version 8.23.2, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.796 INFO Skip version 8.24.0, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.798 INFO Skip version 8.24.1, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.800 INFO Skip version 8.25.0, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.802 INFO Skip version 8.26.0, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.804 INFO Skip version 8.27.0, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.805 INFO Skip version 8.28.0, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.807 INFO Skip version 8.29.0, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.808 INFO Skip version 8.7.0, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.809 INFO Skip version 8.8.1, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.810 INFO Skip version 9.18.0, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.812 INFO Skip version 9.19.0, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.813 INFO Skip version 9.20.0, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.814 INFO Skip version 9.21.0, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.816 INFO Skip version 9.21.1, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.818 INFO Skip version 9.22.0, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.819 INFO Skip version 9.23.0, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.821 INFO Skip version 9.24.0, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.822 INFO Skip version 9.25.1, because it's not in the list of versions to be modified.
+2025-11-30 05:10:18.823 INFO Processing version folder: 9.26.0
+2025-11-30 05:10:18.824 INFO   Create and checkout to a new branch: Modify-S-OliverSchwendener.ueli-9.26.0-1764450618
+2025-11-30 05:10:35.280 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.26.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 05:10:35.294 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.26.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 05:10:35.475 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.26.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 05:10:35.480 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.26.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 05:10:35.588 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.26.0\OliverSchwendener.ueli.yaml
+2025-11-30 05:10:35.592 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.26.0\OliverSchwendener.ueli.yaml
+2025-11-30 05:15:33.908 INFO Manifest validation succeeded with "sundry validate".
+2025-11-30 05:15:33.921 INFO   Staging and Committing Changes to Git
+2025-11-30 05:15:52.730 INFO     Commit message: Modify: OliverSchwendener.ueli version 9.26.0 (Auto)
+2025-11-30 05:15:52.732 INFO   Pushing changes to remote (origin) repository
+2025-11-30 05:16:01.594 INFO     Successfully pushed to remote (origin): Modify-S-OliverSchwendener.ueli-9.26.0-1764450618
+2025-11-30 05:16:07.413 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318330
+2025-11-30 05:16:07.416 INFO All manifests have been modified and pushed through.
+2025-11-30 05:16:16.618 INFO Workspace clean-up completed.
+~~ End of logging ~~
