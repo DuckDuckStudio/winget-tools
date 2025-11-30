@@ -28,18 +28,18 @@
 2025-11-30 05:35:02.481 INFO Skip version 9.18.0, because it's not in the list of versions to be modified.
 2025-11-30 05:35:02.482 INFO Processing version folder: 9.19.0
 2025-11-30 05:35:02.483 INFO   Create and checkout to a new branch: Modify-S-OliverSchwendener.ueli-9.19.0-1764452102
-2025-11-30 05:35:18.201 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.19.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 05:35:18.201 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.19.0\OliverSchwendener.ueli.installer.yaml
 2025-11-30 05:35:18.204 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
 2025-11-30 05:35:18.206 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
-2025-11-30 05:35:18.208 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.19.0\OliverSchwendener.ueli.installer.yaml
-2025-11-30 05:35:18.378 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.19.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 05:35:18.208 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.19.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 05:35:18.378 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.19.0\OliverSchwendener.ueli.locale.en-US.yaml
 2025-11-30 05:35:18.381 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
 2025-11-30 05:35:18.383 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
-2025-11-30 05:35:18.385 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.19.0\OliverSchwendener.ueli.locale.en-US.yaml
-2025-11-30 05:35:18.477 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.19.0\OliverSchwendener.ueli.yaml
+2025-11-30 05:35:18.385 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.19.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 05:35:18.477 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.19.0\OliverSchwendener.ueli.yaml
 2025-11-30 05:35:18.479 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
 2025-11-30 05:35:18.481 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
-2025-11-30 05:35:18.483 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.19.0\OliverSchwendener.ueli.yaml
+2025-11-30 05:35:18.483 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.19.0\OliverSchwendener.ueli.yaml
 2025-11-30 05:35:54.860 INFO Manifest validation succeeded with "sundry validate".
 2025-11-30 05:35:54.861 INFO   Staging and Committing Changes to Git
 2025-11-30 05:36:03.637 INFO     Commit message: Modify: OliverSchwendener.ueli version 9.19.0 (Auto)
