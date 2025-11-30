@@ -36,12 +36,12 @@
 2025-11-30 05:10:18.822 INFO Skip version 9.25.1, because it's not in the list of versions to be modified.
 2025-11-30 05:10:18.823 INFO Processing version folder: 9.26.0
 2025-11-30 05:10:18.824 INFO   Create and checkout to a new branch: Modify-S-OliverSchwendener.ueli-9.26.0-1764450618
-2025-11-30 05:10:35.280 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.26.0\OliverSchwendener.ueli.installer.yaml
-2025-11-30 05:10:35.294 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.26.0\OliverSchwendener.ueli.installer.yaml
-2025-11-30 05:10:35.475 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.26.0\OliverSchwendener.ueli.locale.en-US.yaml
-2025-11-30 05:10:35.480 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.26.0\OliverSchwendener.ueli.locale.en-US.yaml
-2025-11-30 05:10:35.588 INFO   Processing of manifest: D:\Duckhome\Files\Repos\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.26.0\OliverSchwendener.ueli.yaml
-2025-11-30 05:10:35.592 INFO     The manifest file has been saved as: D:\Duckhome\Files\Repos\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.26.0\OliverSchwendener.ueli.yaml
+2025-11-30 05:10:35.280 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.26.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 05:10:35.294 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.26.0\OliverSchwendener.ueli.installer.yaml
+2025-11-30 05:10:35.475 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.26.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 05:10:35.480 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.26.0\OliverSchwendener.ueli.locale.en-US.yaml
+2025-11-30 05:10:35.588 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.26.0\OliverSchwendener.ueli.yaml
+2025-11-30 05:10:35.592 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\o\OliverSchwendener\ueli\9.26.0\OliverSchwendener.ueli.yaml
 2025-11-30 05:15:33.908 INFO Manifest validation succeeded with "sundry validate".
 2025-11-30 05:15:33.921 INFO   Staging and Committing Changes to Git
 2025-11-30 05:15:52.730 INFO     Commit message: Modify: OliverSchwendener.ueli version 9.26.0 (Auto)
