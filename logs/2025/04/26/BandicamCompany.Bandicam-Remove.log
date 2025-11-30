@@ -1,5 +1,5 @@
 PowerShell 7.5.1
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry sync
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry sync
 Already on 'master'
 Your branch is up to date with 'origin/master'.
   已签出到 master 分支
@@ -25,7 +25,7 @@ To https://github.com/.../winget-pkgs.git
    11946c6d65f..92cc2b772bd  master -> master
   已推送 master 分支
 ✓ 同步完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 3.2.5.1125
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove BandicamCompany.Bandicam 3.2.5.1125
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 Bandicam [BandicamCompany.Bandicam]
@@ -247,7 +247,7 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 Deleted branch Remove-BandicamCompany.Bandicam-3.2.5.1125-1745636749 (was 26107f71b5a).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 3.2.4.1118
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove BandicamCompany.Bandicam 3.2.4.1118
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 Bandicam [BandicamCompany.Bandicam]
@@ -473,7 +473,7 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 Deleted branch Remove-BandicamCompany.Bandicam-3.2.4.1118-1745636850 (was 6cd638745fe).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 3.0.2.1014
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove BandicamCompany.Bandicam 3.0.2.1014
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 Bandicam [BandicamCompany.Bandicam]
@@ -700,7 +700,7 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 Deleted branch Remove-BandicamCompany.Bandicam-3.0.2.1014-1745636902 (was 18f97a2e7f6).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 3.2.0.1102
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove BandicamCompany.Bandicam 3.2.0.1102
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 Bandicam [BandicamCompany.Bandicam]
@@ -928,7 +928,7 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 Deleted branch Remove-BandicamCompany.Bandicam-3.2.0.1102-1745636957 (was 0b60b56eac0).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 2.3.3.860
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove BandicamCompany.Bandicam 2.3.3.860
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 Bandicam [BandicamCompany.Bandicam]
@@ -1157,7 +1157,7 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 Deleted branch Remove-BandicamCompany.Bandicam-2.3.3.860-1745637009 (was 7a56daa56a0).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 3.2.2.1111
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove BandicamCompany.Bandicam 3.2.2.1111
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 Bandicam [BandicamCompany.Bandicam]
@@ -1387,7 +1387,7 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 Deleted branch Remove-BandicamCompany.Bandicam-3.2.2.1111-1745637061 (was 34fd6af5c0b).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 3.2.3.1114
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove BandicamCompany.Bandicam 3.2.3.1114
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 Bandicam [BandicamCompany.Bandicam]
@@ -1618,7 +1618,7 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 Deleted branch Remove-BandicamCompany.Bandicam-3.2.3.1114-1745637114 (was b6a4b42c87e).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 3.0.1.1003
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove BandicamCompany.Bandicam 3.0.1.1003
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 Bandicam [BandicamCompany.Bandicam]
@@ -1851,7 +1851,7 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 Deleted branch Remove-BandicamCompany.Bandicam-3.0.1.1003-1745637167 (was 0cb37e56fb6).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 3.0.0.997
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove BandicamCompany.Bandicam 3.0.0.997
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 Bandicam [BandicamCompany.Bandicam]
@@ -2084,7 +2084,7 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 Deleted branch Remove-BandicamCompany.Bandicam-3.0.0.997-1745637218 (was 97a0213dda1).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 2.1.2.740
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove BandicamCompany.Bandicam 2.1.2.740
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 Bandicam [BandicamCompany.Bandicam]
@@ -2316,7 +2316,7 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 Deleted branch Remove-BandicamCompany.Bandicam-2.1.2.740-1745637268 (was d9749c3dc7a).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 2.2.5.815
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove BandicamCompany.Bandicam 2.2.5.815
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 Bandicam [BandicamCompany.Bandicam]
@@ -2551,7 +2551,7 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 Deleted branch Remove-BandicamCompany.Bandicam-2.2.5.815-1745637318 (was 35baee2cdf9).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 2.3.0.834
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove BandicamCompany.Bandicam 2.3.0.834
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 Bandicam [BandicamCompany.Bandicam]
@@ -2787,7 +2787,7 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 Deleted branch Remove-BandicamCompany.Bandicam-2.3.0.834-1745637368 (was 2d1fd483dfd).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 2.4.1.903
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove BandicamCompany.Bandicam 2.4.1.903
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 Bandicam [BandicamCompany.Bandicam]
@@ -3024,7 +3024,7 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 Deleted branch Remove-BandicamCompany.Bandicam-2.4.1.903-1745637419 (was c43e736b40f).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove BandicamCompany.Bandicam 2.4.2.905
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove BandicamCompany.Bandicam 2.4.2.905
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 Bandicam [BandicamCompany.Bandicam]

@@ -12,7 +12,7 @@ Manual Verification: Based on the results of the automated validation, they seem
 ===================================================================================
 
 PowerShell 7.5.1
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> & remove.ps1
+[Powered by 虚空终端] PS D:\...\CodeDebug> & remove.ps1
 Already on 'master'
 Your branch is up to date with 'origin/master'.
   已签出到 master 分支
