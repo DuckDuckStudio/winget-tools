@@ -1,4 +1,4 @@
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.GraphingCalculator 6.0.874
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove GeoGebra.GraphingCalculator 6.0.874
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 GeoGebra Graphing Calculator [GeoGebra.GraphingCalculator]
@@ -122,7 +122,7 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 Deleted branch Remove-GeoGebra.GraphingCalculator-6.0.874-1745794179 (was 2982076e16b).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.GraphingCalculator 6.0.876
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove GeoGebra.GraphingCalculator 6.0.876
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 GeoGebra Graphing Calculator [GeoGebra.GraphingCalculator]
@@ -250,7 +250,7 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 Deleted branch Remove-GeoGebra.GraphingCalculator-6.0.876-1745794261 (was 2537e790eec).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.GraphingCalculator 6.0.875
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove GeoGebra.GraphingCalculator 6.0.875
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 GeoGebra Graphing Calculator [GeoGebra.GraphingCalculator]
@@ -379,7 +379,7 @@ Switched to branch 'master'
 Your branch is up to date with 'origin/master'.
 Deleted branch Remove-GeoGebra.GraphingCalculator-6.0.875-1745794322 (was 8d9f60cbe8f).
 工作区清理完成
-[Powered by 虚空终端] PS D:\Duckhome\CodeDebug> sundry remove GeoGebra.GraphingCalculator 6.0.878
+[Powered by 虚空终端] PS D:\...\CodeDebug> sundry remove GeoGebra.GraphingCalculator 6.0.878
 开始预先检查
 ======= 此软件包现有的所有版本 =======
 已找到 GeoGebra Graphing Calculator [GeoGebra.GraphingCalculator]
