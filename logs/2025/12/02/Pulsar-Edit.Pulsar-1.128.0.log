@@ -1,0 +1,34 @@
+~~ Start logging ~~
+2025-12-02 04:24:55.797 FUN 学新闻学学的。
+2025-12-02 04:24:55.802 INFO Found the following version folder: ['1.105.0', '1.106.0', '1.113.0', '1.114.0', '1.124.0', '1.125.0', '1.127.1', '1.128.0', '1.129.0']
+2025-12-02 04:24:55.803 INFO Skip version 1.105.0, because it's not in the list of versions to be modified.
+2025-12-02 04:24:55.804 INFO Skip version 1.106.0, because it's not in the list of versions to be modified.
+2025-12-02 04:24:55.805 INFO Skip version 1.113.0, because it's not in the list of versions to be modified.
+2025-12-02 04:24:55.807 INFO Skip version 1.114.0, because it's not in the list of versions to be modified.
+2025-12-02 04:24:55.809 INFO Skip version 1.124.0, because it's not in the list of versions to be modified.
+2025-12-02 04:24:55.811 INFO Skip version 1.125.0, because it's not in the list of versions to be modified.
+2025-12-02 04:24:55.812 INFO Skip version 1.127.1, because it's not in the list of versions to be modified.
+2025-12-02 04:24:55.813 INFO Processing version folder: 1.128.0
+2025-12-02 04:24:55.814 INFO   Create and checkout to a new branch: Modify-S-Pulsar-Edit.Pulsar-1.128.0-1764620695
+2025-12-02 04:25:39.804 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.128.0\Pulsar-Edit.Pulsar.installer.yaml
+2025-12-02 04:25:39.806 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-12-02 04:25:39.808 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-12-02 04:25:39.811 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.128.0\Pulsar-Edit.Pulsar.installer.yaml
+2025-12-02 04:25:40.627 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.128.0\Pulsar-Edit.Pulsar.locale.en-US.yaml
+2025-12-02 04:25:40.694 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-12-02 04:25:40.722 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-12-02 04:25:40.756 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.128.0\Pulsar-Edit.Pulsar.locale.en-US.yaml
+2025-12-02 04:25:40.221 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.128.0\Pulsar-Edit.Pulsar.yaml
+2025-12-02 04:25:40.224 INFO     Replace ManifestVersion: 1.9.0 -> 1.10.0
+2025-12-02 04:25:40.226 INFO     Replace schema references: 1.9.0.schema.json -> 1.10.0.schema.json
+2025-12-02 04:25:40.229 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.128.0\Pulsar-Edit.Pulsar.yaml
+2025-12-02 04:27:00.377 INFO Manifest validation succeeded with "sundry validate".
+2025-12-02 04:27:00.392 INFO   Staging and Committing Changes to Git
+2025-12-02 04:27:18.463 INFO     Commit message: Modify: Pulsar-Edit.Pulsar version 1.128.0 (Auto)
+2025-12-02 04:27:18.480 INFO   Pushing changes to remote (origin) repository
+2025-12-02 04:27:24.386 INFO     Successfully pushed to remote (origin): Modify-S-Pulsar-Edit.Pulsar-1.128.0-1764620695
+2025-12-02 04:27:30.924 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/318788
+2025-12-02 04:27:30.948 INFO Skip version 1.129.0, because it's not in the list of versions to be modified.
+2025-12-02 04:27:30.966 INFO All manifests have been modified and pushed through.
+2025-12-02 04:27:37.253 INFO Workspace clean-up completed.
+~~ End of logging ~~
