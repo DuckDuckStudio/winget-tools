@@ -1,0 +1,74 @@
+~~ Start logging ~~
+2025-12-09 16:08:19.465 FUN 我喜欢你。
+2025-12-09 16:08:19.509 INFO Found the following version folder: ['1.0.1', '1.0.10', '1.0.11', '1.0.2', '1.0.3', '1.0.4', '1.0.5', '1.0.6', '1.0.7', '1.0.8', '1.0.9', '1.1.0', '1.1.1', '1.1.10', '1.1.11', '1.1.12', '1.1.13', '1.1.14', '1.1.2', '1.1.3', '1.1.4', '1.1.6', '1.1.7', '1.1.8', '1.1.9', '1.2.0', '1.2.1', '1.2.2', '1.2.3', '1.2.4', '1.2.5', '1.2.6', '1.2.7', '1.2.8', '1.2.9', '1.3.0', '1.3.1', '1.3.2', '1.3.3', '1.3.4', '1.3.5', '1.3.6', '1.3.7', '1.3.8', '1.3.9', '1.4.0', '1.4.1', '1.4.2', '1.4.3', '1.5.0', '1.5.1', '1.5.2']
+2025-12-09 16:08:19.547 INFO Skip version 1.0.1, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.549 INFO Skip version 1.0.10, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.552 INFO Skip version 1.0.11, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.554 INFO Skip version 1.0.2, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.556 INFO Skip version 1.0.3, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.558 INFO Skip version 1.0.4, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.559 INFO Skip version 1.0.5, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.560 INFO Skip version 1.0.6, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.562 INFO Skip version 1.0.7, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.563 INFO Skip version 1.0.8, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.565 INFO Skip version 1.0.9, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.567 INFO Skip version 1.1.0, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.569 INFO Skip version 1.1.1, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.571 INFO Skip version 1.1.10, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.573 INFO Skip version 1.1.11, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.574 INFO Skip version 1.1.12, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.576 INFO Skip version 1.1.13, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.577 INFO Skip version 1.1.14, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.579 INFO Skip version 1.1.2, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.581 INFO Skip version 1.1.3, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.583 INFO Skip version 1.1.4, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.585 INFO Skip version 1.1.6, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.587 INFO Skip version 1.1.7, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.589 INFO Skip version 1.1.8, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.591 INFO Skip version 1.1.9, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.592 INFO Skip version 1.2.0, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.594 INFO Skip version 1.2.1, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.595 INFO Skip version 1.2.2, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.597 INFO Skip version 1.2.3, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.599 INFO Skip version 1.2.4, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.602 INFO Skip version 1.2.5, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.603 INFO Skip version 1.2.6, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.605 INFO Skip version 1.2.7, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.607 INFO Skip version 1.2.8, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.609 INFO Skip version 1.2.9, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.610 INFO Skip version 1.3.0, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.611 INFO Skip version 1.3.1, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.613 INFO Skip version 1.3.2, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.616 INFO Skip version 1.3.3, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.618 INFO Skip version 1.3.4, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.620 INFO Skip version 1.3.5, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.622 INFO Skip version 1.3.6, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.624 INFO Skip version 1.3.7, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.625 INFO Skip version 1.3.8, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.627 INFO Skip version 1.3.9, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.628 INFO Skip version 1.4.0, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.631 INFO Skip version 1.4.1, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.633 INFO Skip version 1.4.2, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.635 INFO Skip version 1.4.3, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.637 INFO Skip version 1.5.0, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.639 INFO Skip version 1.5.1, because it's not in the list of versions to be modified.
+2025-12-09 16:08:19.641 INFO Processing version folder: 1.5.2
+2025-12-09 16:08:19.643 INFO   Create and checkout to a new branch: New-Version-DuckStudio.Sundry-1.5.2-1765267699
+2025-12-09 16:08:32.906 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.5.2\DuckStudio.Sundry.installer.yaml
+2025-12-09 16:08:32.910 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.5.2\DuckStudio.Sundry.installer.yaml
+2025-12-09 16:08:33.141 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.5.2\DuckStudio.Sundry.locale.en-US.yaml
+2025-12-09 16:08:33.179 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.5.2\DuckStudio.Sundry.locale.en-US.yaml
+2025-12-09 16:08:33.340 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.5.2\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-12-09 16:08:33.345 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.5.2\DuckStudio.Sundry.locale.zh-CN.yaml
+2025-12-09 16:08:33.500 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.5.2\DuckStudio.Sundry.yaml
+2025-12-09 16:08:33.505 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.5.2\DuckStudio.Sundry.yaml
+2025-12-09 16:08:33.668 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.5.2 for DuckStudio.Sundry (1.5.2)
+2025-12-09 16:08:42.320 INFO Manifest validation succeeded with "sundry validate".
+2025-12-09 16:08:42.322 INFO   Staging and Committing Changes to Git
+2025-12-09 16:08:58.706 INFO     Commit message: New version: DuckStudio.Sundry version 1.5.2 (Auto)
+2025-12-09 16:09:27.740 INFO   Pushing changes to remote (origin) repository
+2025-12-09 16:09:32.654 INFO     Successfully pushed to remote (origin): New-Version-DuckStudio.Sundry-1.5.2-1765267699
+2025-12-09 16:09:35.992 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/320841
+2025-12-09 16:09:36.218 INFO All manifests have been modified and pushed through.
+2025-12-09 16:09:47.768 INFO Workspace clean-up completed.
+~~ End of logging ~~
