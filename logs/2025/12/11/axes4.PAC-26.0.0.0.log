@@ -1,0 +1,26 @@
+~~ Start logging ~~
+2025-12-11 03:57:06.109 FUN (*T▽T*)／
+2025-12-11 03:57:06.115 INFO Found the following version folder: ['2024.4.2', '24.4.4', '26.0.0.0']
+2025-12-11 03:57:06.116 INFO Skip version 2024.4.2, because it's not in the list of versions to be modified.
+2025-12-11 03:57:06.117 INFO Skip version 24.4.4, because it's not in the list of versions to be modified.
+2025-12-11 03:57:06.119 INFO Processing version folder: 26.0.0.0
+2025-12-11 03:57:06.120 INFO   Create and checkout to a new branch: New-Version-axes4.PAC-26.0.0.0-1765396626
+2025-12-11 03:57:17.781 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\axes4\PAC\26.0.0.0\axes4.PAC.installer.yaml
+2025-12-11 03:57:17.210 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\axes4\PAC\26.0.0.0\axes4.PAC.installer.yaml
+2025-12-11 03:57:17.248 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\axes4\PAC\26.0.0.0\axes4.PAC.locale.en-US.yaml
+2025-12-11 03:57:17.253 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\axes4\PAC\26.0.0.0\axes4.PAC.locale.en-US.yaml
+2025-12-11 03:57:17.394 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\axes4\PAC\26.0.0.0\axes4.PAC.locale.zh-CN.yaml
+2025-12-11 03:57:17.397 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\axes4\PAC\26.0.0.0\axes4.PAC.locale.zh-CN.yaml
+2025-12-11 03:57:17.540 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\axes4\PAC\26.0.0.0\axes4.PAC.yaml
+2025-12-11 03:57:17.544 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\axes4\PAC\26.0.0.0\axes4.PAC.yaml
+2025-12-11 03:57:17.701 INFO   New manifests in D:\...\winget-pkgs\manifests\a\axes4\PAC\26.0.0.0 for axes4.PAC (26.0.0.0)
+2025-12-11 03:57:54.561 INFO The manifest failed to validate using "sundry validate".
+2025-12-11 03:57:56.401 INFO Manifest Error Fixed.
+2025-12-11 03:57:56.404 INFO   Staging and Committing Changes to Git
+2025-12-11 03:58:07.195 INFO     Commit message: New version: axes4.PAC version 26.0.0.0 (Auto)
+2025-12-11 03:58:33.970 INFO   Pushing changes to remote (origin) repository
+2025-12-11 03:58:38.322 INFO     Successfully pushed to remote (origin): New-Version-axes4.PAC-26.0.0.0-1765396626
+2025-12-11 03:58:41.189 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/321949
+2025-12-11 03:58:41.195 INFO All manifests have been modified and pushed through.
+2025-12-11 03:58:51.859 INFO Workspace clean-up completed.
+~~ End of logging ~~
