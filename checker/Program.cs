@@ -298,7 +298,7 @@ namespace checker
             try
             {
                 HttpResponseMessage response = await client.SendAsync(new HttpRequestMessage(HttpMethod.Head, url));
-                if (((int)response.StatusCode >= 400) || !string.IsNullOrWhiteSpace(GetUnexpectedContentType(response.Content.Headers.ContentType?.MediaType ?? null)))
+                if (((int)response.StatusCode >= 400) || !string.IsNullOrWhiteSpace(GetUnexpectedContentType(url, response.Content.Headers.ContentType?.MediaType ?? null)))
                 {
                     response = await client.GetAsync(url);
                 }
@@ -460,7 +460,7 @@ namespace checker
                             // 忽略异常
                         }
                     }
-                    string? unexpectedType = GetUnexpectedContentType(response.Content.Headers.ContentType?.MediaType ?? null);
+                    string? unexpectedType = GetUnexpectedContentType(url, response.Content.Headers.ContentType?.MediaType ?? null);
                     if (!string.IsNullOrWhiteSpace(unexpectedType))
                     {
                         errorMessage = $"\n[Warning] <ManifestFilePath> 中的 {url} 响应的类型似乎不是有效的安装程序 ({unexpectedType})\n[Hint] Sundry 命令: sundry remove <PackageIdentifier> <PackageVersion> \"The installer url(s) responded with an unexpected type ({unexpectedType}) in GitHub Action.\"";
@@ -673,9 +673,9 @@ namespace checker
             return urls;
         }
 
-        static string? GetUnexpectedContentType(string? contentType)
+        static string? GetUnexpectedContentType(string url, string? contentType)
         {
-            if (!string.IsNullOrWhiteSpace(contentType))
+            if (!string.IsNullOrWhiteSpace(contentType) && installerType.Any(ext => url.EndsWith(ext, StringComparison.OrdinalIgnoreCase)))
             {
                 HashSet<string> unexpectedTypes = ["xml", "json", "html"];
                 if (unexpectedTypes.Any(i => contentType.Contains(i, StringComparison.OrdinalIgnoreCase)))
