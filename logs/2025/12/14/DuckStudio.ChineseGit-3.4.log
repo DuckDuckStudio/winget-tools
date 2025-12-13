@@ -1,0 +1,42 @@
+~~ Start logging ~~
+2025-12-14 05:19:01.254 FUN 蚂蚂-蚂蚂-蚂蚂-蚂蚂~
+2025-12-14 05:19:01.254 FUN 蚁蚁-蚁蚁-蚁蚁-蚁蚁~
+2025-12-14 05:19:01.262 INFO Found the following version folder: ['2.10.0', '2.2', '2.3', '2.4', '2.5', '2.6', '2.7', '2.8', '2.9', '3.0', '3.1', '3.2', '3.3', '3.4']
+2025-12-14 05:19:01.263 INFO Skip version 2.10.0, because it's not in the list of versions to be modified.
+2025-12-14 05:19:01.265 INFO Skip version 2.2, because it's not in the list of versions to be modified.
+2025-12-14 05:19:01.266 INFO Skip version 2.3, because it's not in the list of versions to be modified.
+2025-12-14 05:19:01.267 INFO Skip version 2.4, because it's not in the list of versions to be modified.
+2025-12-14 05:19:01.268 INFO Skip version 2.5, because it's not in the list of versions to be modified.
+2025-12-14 05:19:01.269 INFO Skip version 2.6, because it's not in the list of versions to be modified.
+2025-12-14 05:19:01.270 INFO Skip version 2.7, because it's not in the list of versions to be modified.
+2025-12-14 05:19:01.272 INFO Skip version 2.8, because it's not in the list of versions to be modified.
+2025-12-14 05:19:01.273 INFO Skip version 2.9, because it's not in the list of versions to be modified.
+2025-12-14 05:19:01.274 INFO Skip version 3.0, because it's not in the list of versions to be modified.
+2025-12-14 05:19:01.276 INFO Skip version 3.1, because it's not in the list of versions to be modified.
+2025-12-14 05:19:01.277 INFO Skip version 3.2, because it's not in the list of versions to be modified.
+2025-12-14 05:19:01.278 INFO Skip version 3.3, because it's not in the list of versions to be modified.
+2025-12-14 05:19:01.280 INFO Processing version folder: 3.4
+2025-12-14 05:19:01.281 INFO   Create and checkout to a new branch: New-Version-DuckStudio.ChineseGit-3.4-1765660741
+2025-12-14 05:19:10.599 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\ChineseGit\3.4\DuckStudio.ChineseGit.installer.yaml
+2025-12-14 05:19:10.602 INFO     Replace ManifestVersion: 1.10.0 -> 1.12.0
+2025-12-14 05:19:10.604 INFO     Replace schema references: 1.10.0.schema.json -> 1.12.0.schema.json
+2025-12-14 05:19:10.607 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\ChineseGit\3.4\DuckStudio.ChineseGit.installer.yaml
+2025-12-14 05:19:10.894 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\ChineseGit\3.4\DuckStudio.ChineseGit.locale.zh-CN.yaml
+2025-12-14 05:19:10.897 INFO     Replace ManifestVersion: 1.10.0 -> 1.12.0
+2025-12-14 05:19:10.899 INFO     Replace schema references: 1.10.0.schema.json -> 1.12.0.schema.json
+2025-12-14 05:19:10.902 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\ChineseGit\3.4\DuckStudio.ChineseGit.locale.zh-CN.yaml
+2025-12-14 05:19:11.623 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\ChineseGit\3.4\DuckStudio.ChineseGit.yaml
+2025-12-14 05:19:11.658 INFO     Replace ManifestVersion: 1.10.0 -> 1.12.0
+2025-12-14 05:19:11.673 INFO     Replace schema references: 1.10.0.schema.json -> 1.12.0.schema.json
+2025-12-14 05:19:11.704 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\ChineseGit\3.4\DuckStudio.ChineseGit.yaml
+2025-12-14 05:19:11.308 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\ChineseGit\3.4 for DuckStudio.ChineseGit (3.4)
+2025-12-14 05:19:31.287 INFO The manifest failed to validate using "sundry validate".
+2025-12-14 05:19:32.748 INFO Manifest Error Fixed.
+2025-12-14 05:19:32.750 INFO   Staging and Committing Changes to Git
+2025-12-14 05:20:03.983 INFO     Commit message: New version: DuckStudio.ChineseGit version 3.4 (Auto)
+2025-12-14 05:20:26.912 INFO   Pushing changes to remote (origin) repository
+2025-12-14 05:20:31.256 INFO     Successfully pushed to remote (origin): New-Version-DuckStudio.ChineseGit-3.4-1765660741
+2025-12-14 05:20:37.385 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/322916
+2025-12-14 05:20:37.389 INFO All manifests have been modified and pushed through.
+2025-12-14 05:20:47.223 INFO Workspace clean-up completed.
+~~ End of logging ~~
