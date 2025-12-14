@@ -1,0 +1,29 @@
+~~ Start logging ~~
+2025-12-14 17:48:22.421 FUN Q：你家这个 Sundry，我儿子说不好用
+2025-12-14 17:48:22.421 FUN A：换个儿子再试一下，亲
+2025-12-14 17:48:22.423 INFO Found the following version folder: ['0.102.0']
+2025-12-14 17:48:22.424 INFO Processing version folder: 0.102.0
+2025-12-14 17:48:22.425 INFO   Create and checkout to a new branch: New-Version-abbodi1406.vcredist-0.102.0-1765705702
+2025-12-14 17:48:32.507 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\abbodi1406\vcredist\0.102.0\abbodi1406.vcredist.installer.yaml
+2025-12-14 17:48:32.509 INFO     Replace ManifestVersion: 1.10.0 -> 1.12.0
+2025-12-14 17:48:32.510 INFO     Replace schema references: 1.10.0.schema.json -> 1.12.0.schema.json
+2025-12-14 17:48:32.512 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\abbodi1406\vcredist\0.102.0\abbodi1406.vcredist.installer.yaml
+2025-12-14 17:48:32.695 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\abbodi1406\vcredist\0.102.0\abbodi1406.vcredist.locale.en-US.yaml
+2025-12-14 17:48:32.697 INFO     Replace ManifestVersion: 1.10.0 -> 1.12.0
+2025-12-14 17:48:32.698 INFO     Replace schema references: 1.10.0.schema.json -> 1.12.0.schema.json
+2025-12-14 17:48:32.701 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\abbodi1406\vcredist\0.102.0\abbodi1406.vcredist.locale.en-US.yaml
+2025-12-14 17:48:32.843 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\abbodi1406\vcredist\0.102.0\abbodi1406.vcredist.yaml
+2025-12-14 17:48:32.845 INFO     Replace ManifestVersion: 1.10.0 -> 1.12.0
+2025-12-14 17:48:32.847 INFO     Replace schema references: 1.10.0.schema.json -> 1.12.0.schema.json
+2025-12-14 17:48:32.850 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\abbodi1406\vcredist\0.102.0\abbodi1406.vcredist.yaml
+2025-12-14 17:48:32.968 INFO   New manifests in D:\...\winget-pkgs\manifests\a\abbodi1406\vcredist\0.102.0 for abbodi1406.vcredist (0.102.0)
+2025-12-14 17:48:57.825 INFO The manifest failed to validate using "sundry validate".
+2025-12-14 17:48:58.785 INFO Manifest Error Fixed.
+2025-12-14 17:48:58.786 INFO   Staging and Committing Changes to Git
+2025-12-14 17:49:09.543 INFO     Commit message: New version: abbodi1406.vcredist version 0.102.0 (Auto)
+2025-12-14 17:49:20.893 INFO   Pushing changes to remote (origin) repository
+2025-12-14 17:49:25.247 INFO     Successfully pushed to remote (origin): New-Version-abbodi1406.vcredist-0.102.0-1765705702
+2025-12-14 17:49:30.347 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/322987
+2025-12-14 17:49:30.350 INFO All manifests have been modified and pushed through.
+2025-12-14 17:49:38.826 INFO Workspace clean-up completed.
+~~ End of logging ~~
