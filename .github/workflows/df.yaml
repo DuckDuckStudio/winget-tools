@@ -54,7 +54,7 @@ jobs:
         sha256sum installer.${{ env.file_extension }} | tr 'a-f' 'A-F'
 
     - name: 上传获取的文件
-      uses: actions/upload-artifact@v5
+      uses: actions/upload-artifact@v6
       with:
         name: installer
         path: installer.${{ env.file_extension }}
