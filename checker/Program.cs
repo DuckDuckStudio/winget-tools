@@ -65,9 +65,7 @@ namespace checker
 
             if (args[0] == "PackageChecks")
             {
-                Console.WriteLine("当前没有设置特殊包检查");
-                return 0;
-                // return PackageChecks.a.abbodi1406.vcredist.Checker.Check();
+                return PackageChecks.a.abbodi1406.vcredist.Checker.Check();
             }
 
             // ===============================================================
