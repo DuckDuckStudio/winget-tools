@@ -24,7 +24,6 @@
 2025-12-17 00:54:49.169 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\denglihong2007\CRSim\3.1.2.0\denglihong2007.CRSim.yaml
 2025-12-17 00:54:49.291 INFO   New manifests in D:\...\winget-pkgs\manifests\d\denglihong2007\CRSim\3.1.2.0 for denglihong2007.CRSim (3.1.2.0)
 2025-12-17 01:05:23.185 INFO The manifest failed to validate using "sundry validate".
-2025-12-17 01:05:24.624 INFO Manifest Error Fixed.
 2025-12-17 01:05:24.627 INFO   Staging and Committing Changes to Git
 2025-12-17 01:05:47.142 INFO     Commit message: New version: denglihong2007.CRSim version 3.1.2.0 (Auto)
 2025-12-17 01:06:11.601 INFO   Pushing changes to remote (origin) repository
