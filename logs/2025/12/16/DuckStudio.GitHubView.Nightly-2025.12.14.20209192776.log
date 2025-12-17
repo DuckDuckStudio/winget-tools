@@ -32,7 +32,6 @@
 2025-12-16 18:59:30.932 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.12.14.20209192776\DuckStudio.GitHubView.Nightly.yaml
 2025-12-16 18:59:31.131 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.12.14.20209192776 for DuckStudio.GitHubView.Nightly (2025.12.14.20209192776)
 2025-12-16 19:02:17.856 INFO The manifest failed to validate using "sundry validate".
-2025-12-16 19:03:44.265 INFO Manifest Error Fixed.
 2025-12-16 19:03:44.267 INFO   Staging and Committing Changes to Git
 2025-12-16 19:04:03.125 INFO     Commit message: New version: DuckStudio.GitHubView.Nightly version 2025.12.14.20209192776 (Auto)
 2025-12-16 19:04:17.689 INFO   Pushing changes to remote (origin) repository
