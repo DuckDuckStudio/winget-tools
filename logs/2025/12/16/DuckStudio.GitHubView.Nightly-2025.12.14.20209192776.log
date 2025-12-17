@@ -1,0 +1,42 @@
+~~ Start logging ~~
+2025-12-16 18:59:16.403 FUN 凡是宣称“无抵押、无资质要求、低利率、放款快”的网贷广告，要求提供验证码或先交会员费、保证金、解冻费或者转账刷流水的，都是诈骗！
+2025-12-16 18:59:16.460 INFO Found the following version folder: ['2024.12.25.12494060383', '2025.01.14.12764289055', '2025.01.15.12782147412', '2025.01.19.12849721517', '2025.01.22.12907017964', '2025.01.22.12911106870', '2025.03.07.13718228324', '2025.03.10.13761118669', '2025.04.10.14373190636', '2025.07.16.16318740224', '2025.07.17.16336851664', '2025.09.08.17538371202', '2025.10.14.18485774741', '2025.11.13.19317791500', '2025.11.13.19329603276', '2025.12.14.20209192776']
+2025-12-16 18:59:16.462 INFO Skip version 2024.12.25.12494060383, because it's not in the list of versions to be modified.
+2025-12-16 18:59:16.465 INFO Skip version 2025.01.14.12764289055, because it's not in the list of versions to be modified.
+2025-12-16 18:59:16.467 INFO Skip version 2025.01.15.12782147412, because it's not in the list of versions to be modified.
+2025-12-16 18:59:16.470 INFO Skip version 2025.01.19.12849721517, because it's not in the list of versions to be modified.
+2025-12-16 18:59:16.472 INFO Skip version 2025.01.22.12907017964, because it's not in the list of versions to be modified.
+2025-12-16 18:59:16.475 INFO Skip version 2025.01.22.12911106870, because it's not in the list of versions to be modified.
+2025-12-16 18:59:16.477 INFO Skip version 2025.03.07.13718228324, because it's not in the list of versions to be modified.
+2025-12-16 18:59:16.479 INFO Skip version 2025.03.10.13761118669, because it's not in the list of versions to be modified.
+2025-12-16 18:59:16.481 INFO Skip version 2025.04.10.14373190636, because it's not in the list of versions to be modified.
+2025-12-16 18:59:16.484 INFO Skip version 2025.07.16.16318740224, because it's not in the list of versions to be modified.
+2025-12-16 18:59:16.487 INFO Skip version 2025.07.17.16336851664, because it's not in the list of versions to be modified.
+2025-12-16 18:59:16.490 INFO Skip version 2025.09.08.17538371202, because it's not in the list of versions to be modified.
+2025-12-16 18:59:16.492 INFO Skip version 2025.10.14.18485774741, because it's not in the list of versions to be modified.
+2025-12-16 18:59:16.494 INFO Skip version 2025.11.13.19317791500, because it's not in the list of versions to be modified.
+2025-12-16 18:59:16.496 INFO Skip version 2025.11.13.19329603276, because it's not in the list of versions to be modified.
+2025-12-16 18:59:16.499 INFO Processing version folder: 2025.12.14.20209192776
+2025-12-16 18:59:16.501 INFO   Create and checkout to a new branch: New-Version-DuckStudio.GitHubView.Nightly-2025.12.14.20209192776-1765882756
+2025-12-16 18:59:30.415 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.12.14.20209192776\DuckStudio.GitHubView.Nightly.installer.yaml
+2025-12-16 18:59:30.452 INFO     Replace ManifestVersion: 1.10.0 -> 1.12.0
+2025-12-16 18:59:30.491 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.12.14.20209192776\DuckStudio.GitHubView.Nightly.installer.yaml
+2025-12-16 18:59:30.477 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.12.14.20209192776\DuckStudio.GitHubView.Nightly.locale.en-US.yaml
+2025-12-16 18:59:30.481 INFO     Replace ManifestVersion: 1.10.0 -> 1.12.0
+2025-12-16 18:59:30.487 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.12.14.20209192776\DuckStudio.GitHubView.Nightly.locale.en-US.yaml
+2025-12-16 18:59:30.718 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.12.14.20209192776\DuckStudio.GitHubView.Nightly.locale.zh-CN.yaml
+2025-12-16 18:59:30.722 INFO     Replace ManifestVersion: 1.10.0 -> 1.12.0
+2025-12-16 18:59:30.726 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.12.14.20209192776\DuckStudio.GitHubView.Nightly.locale.zh-CN.yaml
+2025-12-16 18:59:30.924 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.12.14.20209192776\DuckStudio.GitHubView.Nightly.yaml
+2025-12-16 18:59:30.928 INFO     Replace ManifestVersion: 1.10.0 -> 1.12.0
+2025-12-16 18:59:30.932 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.12.14.20209192776\DuckStudio.GitHubView.Nightly.yaml
+2025-12-16 18:59:31.131 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2025.12.14.20209192776 for DuckStudio.GitHubView.Nightly (2025.12.14.20209192776)
+2025-12-16 19:02:17.856 INFO The manifest failed to validate using "sundry validate".
+2025-12-16 19:03:44.267 INFO   Staging and Committing Changes to Git
+2025-12-16 19:04:03.125 INFO     Commit message: New version: DuckStudio.GitHubView.Nightly version 2025.12.14.20209192776 (Auto)
+2025-12-16 19:04:17.689 INFO   Pushing changes to remote (origin) repository
+2025-12-16 19:04:21.900 INFO     Successfully pushed to remote (origin): New-Version-DuckStudio.GitHubView.Nightly-2025.12.14.20209192776-1765882756
+2025-12-16 19:04:27.807 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/323579
+2025-12-16 19:04:27.813 INFO All manifests have been modified and pushed through.
+2025-12-16 19:04:43.401 INFO Workspace clean-up completed.
+~~ End of logging ~~
