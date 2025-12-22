@@ -1,0 +1,30 @@
+~~ Start logging ~~
+2025-12-23 02:49:47.983 FUN 嘶~不辣
+2025-12-23 02:49:47.988 INFO Found the following version folder: ['1.105.0', '1.106.0', '1.113.0', '1.114.0', '1.124.0', '1.125.0', '1.127.1', '1.128.0', '1.129.0', '1.130.0']
+2025-12-23 02:49:47.989 INFO Skip version 1.105.0, because it's not in the list of versions to be modified.
+2025-12-23 02:49:47.990 INFO Skip version 1.106.0, because it's not in the list of versions to be modified.
+2025-12-23 02:49:47.991 INFO Skip version 1.113.0, because it's not in the list of versions to be modified.
+2025-12-23 02:49:47.992 INFO Skip version 1.114.0, because it's not in the list of versions to be modified.
+2025-12-23 02:49:48.288 INFO Skip version 1.124.0, because it's not in the list of versions to be modified.
+2025-12-23 02:49:48.411 INFO Skip version 1.125.0, because it's not in the list of versions to be modified.
+2025-12-23 02:49:48.502 INFO Skip version 1.127.1, because it's not in the list of versions to be modified.
+2025-12-23 02:49:48.598 INFO Skip version 1.128.0, because it's not in the list of versions to be modified.
+2025-12-23 02:49:48.688 INFO Skip version 1.129.0, because it's not in the list of versions to be modified.
+2025-12-23 02:49:48.782 INFO Processing version folder: 1.130.0
+2025-12-23 02:49:48.865 INFO   Create and checkout to a new branch: New-Version-Pulsar-Edit.Pulsar-1.130.0-1766429388
+2025-12-23 02:49:55.794 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.130.0\Pulsar-Edit.Pulsar.installer.yaml
+2025-12-23 02:49:55.797 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.130.0\Pulsar-Edit.Pulsar.installer.yaml
+2025-12-23 02:49:55.986 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.130.0\Pulsar-Edit.Pulsar.locale.en-US.yaml
+2025-12-23 02:49:55.990 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.130.0\Pulsar-Edit.Pulsar.locale.en-US.yaml
+2025-12-23 02:49:56.958 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.130.0\Pulsar-Edit.Pulsar.yaml
+2025-12-23 02:49:56.995 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.130.0\Pulsar-Edit.Pulsar.yaml
+2025-12-23 02:49:56.209 INFO   New manifests in D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.130.0 for Pulsar-Edit.Pulsar (1.130.0)
+2025-12-23 02:54:23.373 INFO Manifest validation succeeded with "sundry validate".
+2025-12-23 02:54:23.374 INFO   Staging and Committing Changes to Git
+2025-12-23 02:54:43.534 INFO     Commit message: New version: Pulsar-Edit.Pulsar version 1.130.0 (Auto)
+2025-12-23 02:55:09.592 INFO   Pushing changes to remote (origin) repository
+2025-12-23 02:55:13.486 INFO     Successfully pushed to remote (origin): New-Version-Pulsar-Edit.Pulsar-1.130.0-1766429388
+2025-12-23 02:55:16.836 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/325612
+2025-12-23 02:55:16.841 INFO All manifests have been modified and pushed through.
+2025-12-23 02:55:26.153 INFO Workspace clean-up completed.
+~~ End of logging ~~
