@@ -1,0 +1,21 @@
+~~ Start logging ~~
+2025-12-22 09:03:04.163 FUN Wonderhoy!
+2025-12-22 09:03:04.167 INFO Found the following version folder: ['1.7.2']
+2025-12-22 09:03:04.170 INFO Processing version folder: 1.7.2
+2025-12-22 09:03:04.173 INFO   Create and checkout to a new branch: New-Version-fans-joy.PenDriver-1.7.2-1766365384
+2025-12-22 09:03:15.604 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\fans-joy\PenDriver\1.7.2\fans-joy.PenDriver.installer.yaml
+2025-12-22 09:03:15.610 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\f\fans-joy\PenDriver\1.7.2\fans-joy.PenDriver.installer.yaml
+2025-12-22 09:03:16.380 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\fans-joy\PenDriver\1.7.2\fans-joy.PenDriver.locale.zh-CN.yaml
+2025-12-22 09:03:16.428 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\f\fans-joy\PenDriver\1.7.2\fans-joy.PenDriver.locale.zh-CN.yaml
+2025-12-22 09:03:16.177 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\f\fans-joy\PenDriver\1.7.2\fans-joy.PenDriver.yaml
+2025-12-22 09:03:16.181 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\f\fans-joy\PenDriver\1.7.2\fans-joy.PenDriver.yaml
+2025-12-22 09:03:16.324 INFO   New manifests in D:\...\winget-pkgs\manifests\f\fans-joy\PenDriver\1.7.2 for fans-joy.PenDriver (1.7.2)
+2025-12-22 09:05:47.804 INFO Manifest validation succeeded with "sundry validate".
+2025-12-22 09:05:47.806 INFO   Staging and Committing Changes to Git
+2025-12-22 09:06:11.856 INFO     Commit message: New version: fans-joy.PenDriver version 1.7.2 (Auto)
+2025-12-22 09:06:41.221 INFO   Pushing changes to remote (origin) repository
+2025-12-22 09:06:46.199 INFO     Successfully pushed to remote (origin): New-Version-fans-joy.PenDriver-1.7.2-1766365384
+2025-12-22 09:06:50.202 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/325447
+2025-12-22 09:06:50.209 INFO All manifests have been modified and pushed through.
+2025-12-22 09:07:04.943 INFO Workspace clean-up completed.
+~~ End of logging ~~
