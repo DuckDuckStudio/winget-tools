@@ -1,0 +1,44 @@
+~~ Start logging ~~
+2025-12-23 03:08:41.490 FUN ⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⠴⠒⠛⠲⡄
+2025-12-23 03:08:41.490 FUN ⠀⠀⠀⠀ ⠀  ⠀⢻⡄⣠⠶⣆⠀⣸⣀⣀
+2025-12-23 03:08:41.490 FUN ⠀⠀⠀ ⠀⠀⢀⡠⠬⠛⢓⣏⠉⣾⣉⣀⠉⢹⡀
+2025-12-23 03:08:41.490 FUN ⠀⠀ ⠀⢀⡖⠋⣠⠴⠛⠙⢹⠞⢳⢀⣨⡵⠚
+2025-12-23 03:08:41.490 FUN ⠀⠀⠀⣰⠋⡠⠎⠁⣀⠤⠒⠚⠛⠙⠒⠳⠤⣄⡀
+2025-12-23 03:08:41.490 FUN ⠀⠀⠀⠘⠐⢼⠖⠋⠀⠀⢀⠀⠀⠀⠀⠀⠀⠘⣌⡒⠲⢹
+2025-12-23 03:08:41.490 FUN ⠀⠀ ⠀⡸⠁⠀⠀⠀⠀⡆⠀⠀⠐⠀⠢⣄⠀⡽⡙⡲⠑⠒⠒⡒⠁
+2025-12-23 03:08:41.490 FUN ⢀⡠⠴⠚⠀⠀⠀⠀⠀⣕⠝⣄⡀⢀⠀⠀⡇⠵⢍⠚⢾⡀⢠⠖⠁
+2025-12-23 03:08:41.490 FUN ⠈⠦⣄⣀⠀⡔⠀⠀⢁⡞⠀⠉⠲⣄⡀⢲⢼⠀⢀⠳⡄⠁⠀⢣
+2025-12-23 03:08:41.490 FUN ⠀⠀⣠⠃⢐⠄⠀⠀⠴⠅⠠⡊⡢⠀⠉⠉⠁⠀⢆⠕⠹⡀⠀⠈⡆
+2025-12-23 03:08:41.490 FUN ⠀⠠⡇⠀⡸⠀⠀⠀⠨⡅⠀⠒⠈⠀⢄⠠⠠⠔⠀⠀⠀⢻⠀⠀⢣
+2025-12-23 03:08:41.490 FUN ⠀⢸⠅⠀⡕⠀⠀⠀⠀⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡤⡏⠀⠀ ⢸
+2025-12-23 03:08:41.490 FUN ⠀⠈⡇⠀⣣⠀⠀ ⠀⠸⡦⠴⠲⢚⢚⠙⠝⠙⠍⠝⣱⠏⢠⠀⢸⠅
+2025-12-23 03:08:41.490 FUN ⠀⠀⠙⣆⠘⣄⠀⠠⣄⠀⠹⣌⠌⠀⠂⠐⢈⠄⡁⢌⠳⣺⠏⢀⡞
+2025-12-23 03:08:41.490 FUN ⠀⠀⠀⠀⠙⠺⠛⣲⠜⠟⡓⡚⣏⣔⡀⡌⣀⢂⣔⠴⠋⢏⠒⠁
+2025-12-23 03:08:41.505 INFO Found the following version folder: ['1.105.0', '1.106.0', '1.113.0', '1.114.0', '1.124.0', '1.125.0', '1.127.1', '1.128.0', '1.129.0', '1.130.1']
+2025-12-23 03:08:41.507 INFO Skip version 1.105.0, because it's not in the list of versions to be modified.
+2025-12-23 03:08:41.508 INFO Skip version 1.106.0, because it's not in the list of versions to be modified.
+2025-12-23 03:08:41.509 INFO Skip version 1.113.0, because it's not in the list of versions to be modified.
+2025-12-23 03:08:41.510 INFO Skip version 1.114.0, because it's not in the list of versions to be modified.
+2025-12-23 03:08:41.510 INFO Skip version 1.124.0, because it's not in the list of versions to be modified.
+2025-12-23 03:08:41.511 INFO Skip version 1.125.0, because it's not in the list of versions to be modified.
+2025-12-23 03:08:41.512 INFO Skip version 1.127.1, because it's not in the list of versions to be modified.
+2025-12-23 03:08:41.513 INFO Skip version 1.128.0, because it's not in the list of versions to be modified.
+2025-12-23 03:08:41.514 INFO Skip version 1.129.0, because it's not in the list of versions to be modified.
+2025-12-23 03:08:41.514 INFO Processing version folder: 1.130.1
+2025-12-23 03:08:41.515 INFO   Create and checkout to a new branch: New-Version-Pulsar-Edit.Pulsar-1.130.1-1766430521
+2025-12-23 03:08:49.145 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.130.1\Pulsar-Edit.Pulsar.installer.yaml
+2025-12-23 03:08:49.148 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.130.1\Pulsar-Edit.Pulsar.installer.yaml
+2025-12-23 03:08:49.321 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.130.1\Pulsar-Edit.Pulsar.locale.en-US.yaml
+2025-12-23 03:08:49.325 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.130.1\Pulsar-Edit.Pulsar.locale.en-US.yaml
+2025-12-23 03:08:49.423 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.130.1\Pulsar-Edit.Pulsar.yaml
+2025-12-23 03:08:49.426 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.130.1\Pulsar-Edit.Pulsar.yaml
+2025-12-23 03:08:49.533 INFO   New manifests in D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.130.1 for Pulsar-Edit.Pulsar (1.130.1)
+2025-12-23 03:11:06.114 INFO Manifest validation succeeded with "sundry validate".
+2025-12-23 03:11:06.116 INFO   Staging and Committing Changes to Git
+2025-12-23 03:11:18.126 INFO     Commit message: New version: Pulsar-Edit.Pulsar version 1.130.1 (Auto)
+2025-12-23 03:11:41.883 INFO   Pushing changes to remote (origin) repository
+2025-12-23 03:11:45.298 INFO     Successfully pushed to remote (origin): New-Version-Pulsar-Edit.Pulsar-1.130.1-1766430521
+2025-12-23 03:11:48.181 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/325619
+2025-12-23 03:11:48.184 INFO All manifests have been modified and pushed through.
+2025-12-23 03:11:59.348 INFO Workspace clean-up completed.
+~~ End of logging ~~
