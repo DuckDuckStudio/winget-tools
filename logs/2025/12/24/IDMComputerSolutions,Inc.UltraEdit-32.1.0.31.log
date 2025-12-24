@@ -1,0 +1,22 @@
+~~ Start logging ~~
+2025-12-24 19:44:39.618 FUN 到底都在燃什么啊喂
+2025-12-24 19:44:39.620 INFO Found the following version folder: ['32.0.0.39', '32.1.0.31']
+2025-12-24 19:44:39.621 INFO Skip version 32.0.0.39, because it's not in the list of versions to be modified.
+2025-12-24 19:44:39.622 INFO Processing version folder: 32.1.0.31
+2025-12-24 19:44:39.624 INFO   Create and checkout to a new branch: New-Version-IDMComputerSolutions,Inc.UltraEdit-32.1.0.31-1766576679
+2025-12-24 19:44:47.326 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\i\IDMComputerSolutions,Inc\UltraEdit\32.1.0.31\IDMComputerSolutions,Inc.UltraEdit.installer.yaml
+2025-12-24 19:44:47.328 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\i\IDMComputerSolutions,Inc\UltraEdit\32.1.0.31\IDMComputerSolutions,Inc.UltraEdit.installer.yaml
+2025-12-24 19:44:47.511 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\i\IDMComputerSolutions,Inc\UltraEdit\32.1.0.31\IDMComputerSolutions,Inc.UltraEdit.locale.en-US.yaml
+2025-12-24 19:44:47.515 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\i\IDMComputerSolutions,Inc\UltraEdit\32.1.0.31\IDMComputerSolutions,Inc.UltraEdit.locale.en-US.yaml
+2025-12-24 19:44:47.615 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\i\IDMComputerSolutions,Inc\UltraEdit\32.1.0.31\IDMComputerSolutions,Inc.UltraEdit.yaml
+2025-12-24 19:44:47.617 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\i\IDMComputerSolutions,Inc\UltraEdit\32.1.0.31\IDMComputerSolutions,Inc.UltraEdit.yaml
+2025-12-24 19:44:47.723 INFO   New manifests in D:\...\winget-pkgs\manifests\i\IDMComputerSolutions,Inc\UltraEdit\32.1.0.31 for IDMComputerSolutions,Inc.UltraEdit (32.1.0.31)
+2025-12-24 19:45:11.440 INFO Manifest validation succeeded with "sundry validate".
+2025-12-24 19:45:11.453 INFO   Staging and Committing Changes to Git
+2025-12-24 19:45:19.978 INFO     Commit message: New version: IDMComputerSolutions,Inc.UltraEdit version 32.1.0.31 (Auto)
+2025-12-24 19:45:30.100 INFO   Pushing changes to remote (origin) repository
+2025-12-24 19:45:35.466 INFO     Successfully pushed to remote (origin): New-Version-IDMComputerSolutions,Inc.UltraEdit-32.1.0.31-1766576679
+2025-12-24 19:45:39.204 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/326074
+2025-12-24 19:45:39.209 INFO All manifests have been modified and pushed through.
+2025-12-24 19:45:50.517 INFO Workspace clean-up completed.
+~~ End of logging ~~
