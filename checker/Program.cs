@@ -246,6 +246,8 @@ namespace checker
                 ["GeoGebra.GraphingCalculator"] = "在一段时间后，发布者会删除多个旧版本",
                 ["GeoGebra.Classic"] = "在一段时间后，发布者会删除多个旧版本",
                 ["GeoGebra.Geometry"] = "在一段时间后，发布者会删除多个旧版本",
+                ["GeoGebra.CASCalculator"] = "在一段时间后，发布者会删除多个旧版本",
+                ["GeoGebra.CalculatorSuite"] = "在一段时间后，发布者会删除多个旧版本",
                 // --------
                 ["7S2P.Effie.CN"] = "包发布者经常移除此包的旧版本",
                 // ========
