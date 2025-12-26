@@ -239,6 +239,9 @@ namespace checker
                 ["HydrusNetwork.HydrusNetwork"] = "如果该版本在发布后重新发布，则会修改版本号为 v几几几a。一般有位社区贡献者会抓住这个新版本，但TA似乎总是忘记移除旧版本。",
                 ["LutzRoeder.Netron"] = "此包的更新由作者本人维护，但他似乎只在 GitHub Release 上保留极少数版本，并且没有从 WinGet 中移除这些 404 的版本。",
                 ["ColorLogic.ZePrA"] = "此包仅保留每个主要版本 (n.x.x) 的最新版本，如保留 13.1.1、移除 13.0.0",
+                ["Google.Chrome.EXE"] = "我只知道这是个常失败包，社区成员会以 404 Not Found 为由移除它。更多信息请见 https://github.com/microsoft/winget-pkgs/pulls?q=Google.Chrome.EXE+-label%3ANew-Manifest",
+                ["Google.Chrome.Beta.EXE"] = "我只知道这是个常失败包，社区成员会以 404 Not Found 为由移除它。更多信息请见 https://github.com/microsoft/winget-pkgs/pulls?q=Google.Chrome.Beta.EXE+-label%3ANew-Manifest",
+                ["Google.Chrome.Dev.EXE"] = "我只知道这是个常失败包，社区成员会以 404 Not Found 为由移除它。更多信息请见 https://github.com/microsoft/winget-pkgs/pulls?q=Google.Chrome.Dev.EXE+-label%3ANew-Manifest",
                 // 在一段时间后，发布者会删除旧版本
                 ["AppByTroye.KoodoReader"] = "在一段时间后，发布者会删除旧版本",
                 // --------
