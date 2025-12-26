@@ -13,10 +13,47 @@ namespace checker
 {
     internal class Program
     {
-        internal static ConcurrentDictionary<string, string> checkedUrls = new();
+        private static readonly ConcurrentDictionary<string, string> checkedUrls = new();
+        // 标 readonly 是因为“IDE0044 将字段设置为只读”提示。
+        // readonly 确保引用不变（不能再 checkedUrls = new ConcurrentDictionary<string, string>();）
+        // 但内容可变（可以 TryAdd）。
 
-        internal static readonly string[] installerType = [".exe", ".zip", ".msi", ".msix", ".appx", "download", ".msixbundle"];
+        private static readonly string[] installerType = [".exe", ".zip", ".msi", ".msix", ".appx", "download", ".msixbundle"];
         // &download 为 sourceforge 和类似网站的下载链接
+
+        private static readonly Dictionary<string, string> FrequentlyFailingPackages = new()
+        {
+            ["calibre.calibre.portable"] = "有个笨蛋经常使用 GitHub Release 的链接，GitHub Release 的链接只保留最新版本的文件，应改为 https://download.calibre-ebook.com/x.y.z/calibre-portable-installer-x.y.z.exe",
+            ["HydrusNetwork.HydrusNetwork"] = "如果该版本在发布后重新发布，则会修改版本号为 v几几几a。一般有位社区贡献者会抓住这个新版本，但TA似乎总是忘记移除旧版本。",
+            ["LutzRoeder.Netron"] = "此包的更新由作者本人维护，但他似乎只在 GitHub Release 上保留极少数版本，并且没有从 WinGet 中移除这些 404 的版本。",
+            ["ColorLogic.ZePrA"] = "此包仅保留每个主要版本 (n.x.x) 的最新版本，如保留 13.1.1、移除 13.0.0",
+            ["Google.Chrome.EXE"] = "我只知道这是个常失败包，社区成员会以 404 Not Found 为由移除它。更多信息请见 https://github.com/microsoft/winget-pkgs/pulls?q=Google.Chrome.EXE+-label%3ANew-Manifest",
+            ["Google.Chrome.Beta.EXE"] = "我只知道这是个常失败包，社区成员会以 404 Not Found 为由移除它。更多信息请见 https://github.com/microsoft/winget-pkgs/pulls?q=Google.Chrome.Beta.EXE+-label%3ANew-Manifest",
+            ["Google.Chrome.Dev.EXE"] = "我只知道这是个常失败包，社区成员会以 404 Not Found 为由移除它。更多信息请见 https://github.com/microsoft/winget-pkgs/pulls?q=Google.Chrome.Dev.EXE+-label%3ANew-Manifest",
+            // 在一段时间后，发布者会删除旧版本
+            ["AppByTroye.KoodoReader"] = "在一段时间后，发布者会删除旧版本",
+            // --------
+            ["5E.5EClient"] = "在一段时间后，发布者会删除多个旧版本",
+            ["GeoGebra.GraphingCalculator"] = "在一段时间后，发布者会删除多个旧版本",
+            ["GeoGebra.Classic"] = "在一段时间后，发布者会删除多个旧版本",
+            ["GeoGebra.Geometry"] = "在一段时间后，发布者会删除多个旧版本",
+            ["GeoGebra.CASCalculator"] = "在一段时间后，发布者会删除多个旧版本",
+            ["GeoGebra.CalculatorSuite"] = "在一段时间后，发布者会删除多个旧版本",
+            // --------
+            ["7S2P.Effie.CN"] = "包发布者经常移除此包的旧版本",
+            // ========
+        };
+
+        private static readonly HashSet<string> excludedDomains =
+        [
+            "https://www.betterbird.eu/", "https://github.com/coq/platform/releases/", "typora", "https://cdn.kde.org/", // 过于复杂
+            "https://github.com/paintdotnet/release/", "https://cdn.kde.org/ci-builds/education/kiten/master/windows/", // 更新时移除 - 这也许应该归为常失败包而不是忽略？
+            "https://cdn.krisp.ai", "https://www.huaweicloud.com/", "https://mirrors.kodi.tv", "https://scache.vzw.com", "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", "https://www.magicdesktop.com/get/kiosk?src=winget", "https://download.voicecloud.cn/", "https://dl.jisupdftoword.com/", "123pan.com", "jisupdf.com", "jisupdfeditor.com", // 假404
+            "https://www.deezer.com/", ".mil", "https://download.wondershare.com/cbs_down/", // 无法验证
+            "https://downloads.mysql.com/", "https://swcdn.apple.com/content/downloads/", "sourceforge.net", "https://cdn1.waterfox.net/waterfox/releases/", "https://downloads.tableau.com/public/", "https://sp.thsi.cn/staticS3/mobileweb-upload-static-server.file/app_6/downloadcenter/THS_insoft", "https://files02.tchspt.com/down/", "https://cdn-dl.yinxiang.com/", "https://download.mono-project.com/archive/", "https://cdn-resource.aunbox.cn/", "https://www.fischertechnik.de/-/media/fischertechnik/fite/service/downloads/robotics/robo-pro/documents/update-robopro.ashx", "https://azcopyvnext-awgzd8g7aagqhzhe.b02.azurefd.net/releases", "https://files03.tchspt.com/down/iview466_plugins_setup.exe", "https://file2.speedtest.cn/pc-pro/win64/网维助手", "https://www.wagnardsoft.com/DDU/download/", "https://static.cebbank.com/static/cebbank/cebent/ass1/CEBAssistant.zip", "https://www.autodesk.com/support", "https://ftp.gnu.org", // 假403
+            "https://issuepcdn.baidupcs.com/", "https://lf-luna-release.qishui.com/obj/luna-release/", "https://down.360safe.com/cse/", "https://www.gerbview.com/", // 超时
+            "https://aurorabuilder.com/downloads/Aurora%20Setup.zip", // 假400
+        ];
 
         static async Task<int> Main(string[] args)
         {
@@ -233,28 +270,6 @@ namespace checker
 
         static bool GetFrequentlyFailingPackageHint(string filePath)
         {
-            Dictionary<string, string> FrequentlyFailingPackages = new()
-            {
-                ["calibre.calibre.portable"] = "有个笨蛋经常使用 GitHub Release 的链接，GitHub Release 的链接只保留最新版本的文件，应改为 https://download.calibre-ebook.com/x.y.z/calibre-portable-installer-x.y.z.exe",
-                ["HydrusNetwork.HydrusNetwork"] = "如果该版本在发布后重新发布，则会修改版本号为 v几几几a。一般有位社区贡献者会抓住这个新版本，但TA似乎总是忘记移除旧版本。",
-                ["LutzRoeder.Netron"] = "此包的更新由作者本人维护，但他似乎只在 GitHub Release 上保留极少数版本，并且没有从 WinGet 中移除这些 404 的版本。",
-                ["ColorLogic.ZePrA"] = "此包仅保留每个主要版本 (n.x.x) 的最新版本，如保留 13.1.1、移除 13.0.0",
-                ["Google.Chrome.EXE"] = "我只知道这是个常失败包，社区成员会以 404 Not Found 为由移除它。更多信息请见 https://github.com/microsoft/winget-pkgs/pulls?q=Google.Chrome.EXE+-label%3ANew-Manifest",
-                ["Google.Chrome.Beta.EXE"] = "我只知道这是个常失败包，社区成员会以 404 Not Found 为由移除它。更多信息请见 https://github.com/microsoft/winget-pkgs/pulls?q=Google.Chrome.Beta.EXE+-label%3ANew-Manifest",
-                ["Google.Chrome.Dev.EXE"] = "我只知道这是个常失败包，社区成员会以 404 Not Found 为由移除它。更多信息请见 https://github.com/microsoft/winget-pkgs/pulls?q=Google.Chrome.Dev.EXE+-label%3ANew-Manifest",
-                // 在一段时间后，发布者会删除旧版本
-                ["AppByTroye.KoodoReader"] = "在一段时间后，发布者会删除旧版本",
-                // --------
-                ["5E.5EClient"] = "在一段时间后，发布者会删除多个旧版本",
-                ["GeoGebra.GraphingCalculator"] = "在一段时间后，发布者会删除多个旧版本",
-                ["GeoGebra.Classic"] = "在一段时间后，发布者会删除多个旧版本",
-                ["GeoGebra.Geometry"] = "在一段时间后，发布者会删除多个旧版本",
-                ["GeoGebra.CASCalculator"] = "在一段时间后，发布者会删除多个旧版本",
-                ["GeoGebra.CalculatorSuite"] = "在一段时间后，发布者会删除多个旧版本",
-                // --------
-                ["7S2P.Effie.CN"] = "包发布者经常移除此包的旧版本",
-                // ========
-            };
             if (FrequentlyFailingPackages.TryGetValue(GetPackageIdentifier(filePath), out string? hint))
             {
                 Console.WriteLine($"这是常失败软件包: {hint}");
@@ -697,16 +712,6 @@ namespace checker
             /* 常见的错误原因
              * 假 403: 发布者使用了 Cloudflare
              */
-            HashSet<string> excludedDomains =
-            [
-                "https://www.betterbird.eu/", "https://github.com/coq/platform/releases/", "typora", "https://cdn.kde.org/", // 过于复杂
-                "https://github.com/paintdotnet/release/", "https://cdn.kde.org/ci-builds/education/kiten/master/windows/", // 更新时移除 - 这也许应该归为常失败包而不是忽略？
-                "https://cdn.krisp.ai", "https://www.huaweicloud.com/", "https://mirrors.kodi.tv", "https://scache.vzw.com", "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", "https://www.magicdesktop.com/get/kiosk?src=winget", "https://download.voicecloud.cn/", "https://dl.jisupdftoword.com/", "123pan.com", "jisupdf.com", "jisupdfeditor.com", // 假404
-                "https://www.deezer.com/", ".mil", "https://download.wondershare.com/cbs_down/", // 无法验证
-                "https://downloads.mysql.com/", "https://swcdn.apple.com/content/downloads/", "sourceforge.net", "https://cdn1.waterfox.net/waterfox/releases/", "https://downloads.tableau.com/public/", "https://sp.thsi.cn/staticS3/mobileweb-upload-static-server.file/app_6/downloadcenter/THS_insoft", "https://files02.tchspt.com/down/", "https://cdn-dl.yinxiang.com/", "https://download.mono-project.com/archive/", "https://cdn-resource.aunbox.cn/", "https://www.fischertechnik.de/-/media/fischertechnik/fite/service/downloads/robotics/robo-pro/documents/update-robopro.ashx", "https://azcopyvnext-awgzd8g7aagqhzhe.b02.azurefd.net/releases", "https://files03.tchspt.com/down/iview466_plugins_setup.exe", "https://file2.speedtest.cn/pc-pro/win64/网维助手", "https://www.wagnardsoft.com/DDU/download/", "https://static.cebbank.com/static/cebbank/cebent/ass1/CEBAssistant.zip", "https://www.autodesk.com/support", "https://ftp.gnu.org", // 假403
-                "https://issuepcdn.baidupcs.com/", "https://lf-luna-release.qishui.com/obj/luna-release/", "https://down.360safe.com/cse/", "https://www.gerbview.com/", // 超时
-                "https://aurorabuilder.com/downloads/Aurora%20Setup.zip", // 假400
-            ];
             return excludedDomains.Any(url.Contains);
         }
     }
