@@ -1,0 +1,10 @@
+~~ Start logging ~~
+2025-12-29 22:42:48.981 FUN え↑↑↑↑↑
+2025-12-29 22:42:48.986 INFO Found the following version folder: ['1.2.0.0', '1.3.0.1', '1.6.0.0', '1.6.2.0']
+2025-12-29 22:42:48.987 INFO Skip version 1.2.0.0, because it's not in the list of versions to be modified.
+2025-12-29 22:42:48.988 INFO Skip version 1.3.0.1, because it's not in the list of versions to be modified.
+2025-12-29 22:42:48.990 INFO Skip version 1.6.0.0, because it's not in the list of versions to be modified.
+2025-12-29 22:42:48.991 INFO Skip version 1.6.2.0, because it's not in the list of versions to be modified.
+2025-12-29 22:42:48.992 INFO All manifests have been modified and pushed through.
+2025-12-29 22:42:59.369 INFO Workspace clean-up completed.
+~~ End of logging ~~
