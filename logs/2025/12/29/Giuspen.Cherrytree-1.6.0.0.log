@@ -1,0 +1,22 @@
+~~ Start logging ~~
+2025-12-29 22:05:38.367 FUN 当你感到很冷的时候，可以把手按在冰上，因为按冰不冻。
+2025-12-29 22:05:38.371 INFO Found the following version folder: ['1.2.0.0', '1.3.0.1', '1.6.0.0']
+2025-12-29 22:05:38.372 INFO Skip version 1.2.0.0, because it's not in the list of versions to be modified.
+2025-12-29 22:05:38.373 INFO Skip version 1.3.0.1, because it's not in the list of versions to be modified.
+2025-12-29 22:05:38.374 INFO Processing version folder: 1.6.0.0
+2025-12-29 22:05:38.375 INFO   Create and checkout to a new branch: Modify-S-Giuspen.Cherrytree-1.6.0.0-1767017138
+2025-12-29 22:05:55.108 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\Giuspen\Cherrytree\1.6.0.0\Giuspen.Cherrytree.installer.yaml
+2025-12-29 22:05:55.121 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\Giuspen\Cherrytree\1.6.0.0\Giuspen.Cherrytree.installer.yaml
+2025-12-29 22:05:55.321 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\Giuspen\Cherrytree\1.6.0.0\Giuspen.Cherrytree.locale.en-US.yaml
+2025-12-29 22:05:55.324 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\Giuspen\Cherrytree\1.6.0.0\Giuspen.Cherrytree.locale.en-US.yaml
+2025-12-29 22:05:55.450 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\Giuspen\Cherrytree\1.6.0.0\Giuspen.Cherrytree.yaml
+2025-12-29 22:05:55.454 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\Giuspen\Cherrytree\1.6.0.0\Giuspen.Cherrytree.yaml
+2025-12-29 22:08:33.557 INFO Manifest validation succeeded with "sundry validate".
+2025-12-29 22:08:33.559 INFO   Staging and Committing Changes to Git
+2025-12-29 22:08:42.442 INFO     Commit message: Modify: Giuspen.Cherrytree version 1.6.0.0 (Auto)
+2025-12-29 22:08:42.444 INFO   Pushing changes to remote (origin) repository
+2025-12-29 22:08:48.559 INFO     Successfully pushed to remote (origin): Modify-S-Giuspen.Cherrytree-1.6.0.0-1767017138
+2025-12-29 22:08:52.970 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/326757
+2025-12-29 22:08:52.971 INFO All manifests have been modified and pushed through.
+2025-12-29 22:09:00.848 INFO Workspace clean-up completed.
+~~ End of logging ~~
