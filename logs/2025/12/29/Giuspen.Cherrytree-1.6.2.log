@@ -1,0 +1,26 @@
+~~ Start logging ~~
+2025-12-29 22:47:12.307 FUN 【乌蒙山连着山外山，月光洒下了响水滩。有没有人能告诉我，可是苍天对你在呼唤】https://www.bilibili.com/video/BV196kmYuE1K/?t=300
+2025-12-29 22:47:12.310 INFO Found the following version folder: ['1.2.0.0', '1.3.0.1', '1.6.0.0', '1.6.2']
+2025-12-29 22:47:12.311 INFO Skip version 1.2.0.0, because it's not in the list of versions to be modified.
+2025-12-29 22:47:12.312 INFO Skip version 1.3.0.1, because it's not in the list of versions to be modified.
+2025-12-29 22:47:12.314 INFO Skip version 1.6.0.0, because it's not in the list of versions to be modified.
+2025-12-29 22:47:12.324 INFO Processing version folder: 1.6.2
+2025-12-29 22:47:12.326 INFO   Create and checkout to a new branch: New-Version-Giuspen.Cherrytree-1.6.2-1767019632
+2025-12-29 22:47:21.958 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\Giuspen\Cherrytree\1.6.2\Giuspen.Cherrytree.installer.yaml
+2025-12-29 22:47:21.962 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\Giuspen\Cherrytree\1.6.2\Giuspen.Cherrytree.installer.yaml
+2025-12-29 22:47:22.216 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\Giuspen\Cherrytree\1.6.2\Giuspen.Cherrytree.locale.en-US.yaml
+2025-12-29 22:47:22.225 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\Giuspen\Cherrytree\1.6.2\Giuspen.Cherrytree.locale.en-US.yaml
+2025-12-29 22:47:22.376 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\Giuspen\Cherrytree\1.6.2\Giuspen.Cherrytree.locale.zh-CN.yaml
+2025-12-29 22:47:22.380 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\Giuspen\Cherrytree\1.6.2\Giuspen.Cherrytree.locale.zh-CN.yaml
+2025-12-29 22:47:22.496 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\Giuspen\Cherrytree\1.6.2\Giuspen.Cherrytree.yaml
+2025-12-29 22:47:22.500 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\Giuspen\Cherrytree\1.6.2\Giuspen.Cherrytree.yaml
+2025-12-29 22:47:22.648 INFO   New manifests in D:\...\winget-pkgs\manifests\g\Giuspen\Cherrytree\1.6.2 for Giuspen.Cherrytree (1.6.2)
+2025-12-29 22:47:44.307 INFO Manifest validation succeeded with "sundry validate".
+2025-12-29 22:47:44.309 INFO   Staging and Committing Changes to Git
+2025-12-29 22:48:05.146 INFO     Commit message: New version: Giuspen.Cherrytree version 1.6.2 (Auto)
+2025-12-29 22:48:16.379 INFO   Pushing changes to remote (origin) repository
+2025-12-29 22:48:21.316 INFO     Successfully pushed to remote (origin): New-Version-Giuspen.Cherrytree-1.6.2-1767019632
+2025-12-29 22:48:24.799 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/326761
+2025-12-29 22:48:24.804 INFO All manifests have been modified and pushed through.
+2025-12-29 22:48:33.188 INFO Workspace clean-up completed.
+~~ End of logging ~~
