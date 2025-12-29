@@ -1,0 +1,22 @@
+~~ Start logging ~~
+2025-12-29 22:02:01.402 FUN 本来应该葱葱蓉蓉油嫩鱿鱼，现在是葱葱芒芒椰果蛋挞，整夜说虾滑，你摘根叶怎么啦，你菜煮这么苦，没除腥!
+2025-12-29 22:02:01.406 INFO Found the following version folder: ['1.2.0.0', '1.3.0.1', '1.6.0.0']
+2025-12-29 22:02:01.407 INFO Processing version folder: 1.2.0.0
+2025-12-29 22:02:01.409 INFO   Create and checkout to a new branch: Modify-S-Giuspen.Cherrytree-1.2.0.0-1767016921
+2025-12-29 22:02:18.165 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\Giuspen\Cherrytree\1.2.0.0\Giuspen.Cherrytree.installer.yaml
+2025-12-29 22:02:18.169 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\Giuspen\Cherrytree\1.2.0.0\Giuspen.Cherrytree.installer.yaml
+2025-12-29 22:02:18.354 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\Giuspen\Cherrytree\1.2.0.0\Giuspen.Cherrytree.locale.en-US.yaml
+2025-12-29 22:02:18.359 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\Giuspen\Cherrytree\1.2.0.0\Giuspen.Cherrytree.locale.en-US.yaml
+2025-12-29 22:02:18.452 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\Giuspen\Cherrytree\1.2.0.0\Giuspen.Cherrytree.yaml
+2025-12-29 22:02:18.456 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\Giuspen\Cherrytree\1.2.0.0\Giuspen.Cherrytree.yaml
+2025-12-29 22:02:46.535 INFO Manifest validation succeeded with "sundry validate".
+2025-12-29 22:02:46.536 INFO   Staging and Committing Changes to Git
+2025-12-29 22:03:06.612 INFO     Commit message: Modify: Giuspen.Cherrytree version 1.2.0.0 (Auto)
+2025-12-29 22:03:06.636 INFO   Pushing changes to remote (origin) repository
+2025-12-29 22:03:12.901 INFO     Successfully pushed to remote (origin): Modify-S-Giuspen.Cherrytree-1.2.0.0-1767016921
+2025-12-29 22:03:16.410 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/326754
+2025-12-29 22:03:16.414 INFO Skip version 1.3.0.1, because it's not in the list of versions to be modified.
+2025-12-29 22:03:16.415 INFO Skip version 1.6.0.0, because it's not in the list of versions to be modified.
+2025-12-29 22:03:16.416 INFO All manifests have been modified and pushed through.
+2025-12-29 22:03:24.191 INFO Workspace clean-up completed.
+~~ End of logging ~~
