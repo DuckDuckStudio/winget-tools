@@ -1,0 +1,29 @@
+~~ Start logging ~~
+2026-01-04 20:58:43.842 FUN 大勺子星
+2026-01-04 20:58:43.848 INFO Found the following version folder: ['0.9.0.20210627.1', '1.4.0', '2.0.0', '2.0.1', '2.0.3', '2.0.4', '2.0.5', '2.1.0', '2.1.2']
+2026-01-04 20:58:43.849 INFO Skip version 0.9.0.20210627.1, because it's not in the list of versions to be modified.
+2026-01-04 20:58:43.851 INFO Skip version 1.4.0, because it's not in the list of versions to be modified.
+2026-01-04 20:58:43.852 INFO Skip version 2.0.0, because it's not in the list of versions to be modified.
+2026-01-04 20:58:43.862 INFO Skip version 2.0.1, because it's not in the list of versions to be modified.
+2026-01-04 20:58:43.863 INFO Skip version 2.0.3, because it's not in the list of versions to be modified.
+2026-01-04 20:58:43.865 INFO Skip version 2.0.4, because it's not in the list of versions to be modified.
+2026-01-04 20:58:43.866 INFO Skip version 2.0.5, because it's not in the list of versions to be modified.
+2026-01-04 20:58:43.866 INFO Skip version 2.1.0, because it's not in the list of versions to be modified.
+2026-01-04 20:58:43.867 INFO Processing version folder: 2.1.2
+2026-01-04 20:58:43.868 INFO   Create and checkout to a new branch: New-Version-MarceloLvCabral.BrightScriptEmulator-2.1.2-1767531523
+2026-01-04 20:58:51.139 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\MarceloLvCabral\BrightScriptEmulator\2.1.2\MarceloLvCabral.BrightScriptEmulator.installer.yaml
+2026-01-04 20:58:51.142 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\MarceloLvCabral\BrightScriptEmulator\2.1.2\MarceloLvCabral.BrightScriptEmulator.installer.yaml
+2026-01-04 20:58:51.324 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\MarceloLvCabral\BrightScriptEmulator\2.1.2\MarceloLvCabral.BrightScriptEmulator.locale.en-US.yaml
+2026-01-04 20:58:51.328 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\MarceloLvCabral\BrightScriptEmulator\2.1.2\MarceloLvCabral.BrightScriptEmulator.locale.en-US.yaml
+2026-01-04 20:58:51.454 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\MarceloLvCabral\BrightScriptEmulator\2.1.2\MarceloLvCabral.BrightScriptEmulator.yaml
+2026-01-04 20:58:51.457 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\MarceloLvCabral\BrightScriptEmulator\2.1.2\MarceloLvCabral.BrightScriptEmulator.yaml
+2026-01-04 20:58:51.585 INFO   New manifests in D:\...\winget-pkgs\manifests\m\MarceloLvCabral\BrightScriptEmulator\2.1.2 for MarceloLvCabral.BrightScriptEmulator (2.1.2)
+2026-01-04 21:05:14.364 INFO Manifest validation succeeded with "sundry validate".
+2026-01-04 21:05:14.366 INFO   Staging and Committing Changes to Git
+2026-01-04 21:05:27.334 INFO     Commit message: New version: MarceloLvCabral.BrightScriptEmulator version 2.1.2 (Auto)
+2026-01-04 21:06:47.417 INFO   Pushing changes to remote (origin) repository
+2026-01-04 21:08:02.420 INFO     Successfully pushed to remote (origin): New-Version-MarceloLvCabral.BrightScriptEmulator-2.1.2-1767531523
+2026-01-04 21:08:04.946 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/327737
+2026-01-04 21:08:04.952 INFO All manifests have been modified and pushed through.
+2026-01-04 21:08:12.291 INFO Workspace clean-up completed.
+~~ End of logging ~~
