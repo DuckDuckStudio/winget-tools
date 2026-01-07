@@ -1,0 +1,29 @@
+~~ Start logging ~~
+2026-01-07 20:15:03.640 FUN 本来应该葱葱蓉蓉油嫩鱿鱼，现在是葱葱芒芒椰果蛋挞，整夜说虾滑，你摘根叶怎么啦，你菜煮这么苦，没除腥!
+2026-01-07 20:15:03.646 INFO Found the following version folder: ['1.0.2', '1.1.0', '1.1.1', '1.2.0', '1.2.1', '1.2.2', '1.2.3', '1.3.0', '1.3.1', '1.3.2']
+2026-01-07 20:15:03.648 INFO Skip version 1.0.2, because it's not in the list of versions to be modified.
+2026-01-07 20:15:03.649 INFO Skip version 1.1.0, because it's not in the list of versions to be modified.
+2026-01-07 20:15:03.650 INFO Skip version 1.1.1, because it's not in the list of versions to be modified.
+2026-01-07 20:15:03.651 INFO Processing version folder: 1.2.0
+2026-01-07 20:15:03.653 INFO   Create and checkout to a new branch: Modify-S-Nethesis.NethLink-1.2.0-1767788103
+2026-01-07 20:15:41.453 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\n\Nethesis\NethLink\1.2.0\Nethesis.NethLink.installer.yaml
+2026-01-07 20:15:41.457 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\n\Nethesis\NethLink\1.2.0\Nethesis.NethLink.installer.yaml
+2026-01-07 20:15:41.604 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\n\Nethesis\NethLink\1.2.0\Nethesis.NethLink.locale.en-US.yaml
+2026-01-07 20:15:41.611 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\n\Nethesis\NethLink\1.2.0\Nethesis.NethLink.locale.en-US.yaml
+2026-01-07 20:15:41.757 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\n\Nethesis\NethLink\1.2.0\Nethesis.NethLink.yaml
+2026-01-07 20:15:41.762 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\n\Nethesis\NethLink\1.2.0\Nethesis.NethLink.yaml
+2026-01-07 20:16:35.184 INFO Manifest validation succeeded with "sundry validate".
+2026-01-07 20:16:35.186 INFO   Staging and Committing Changes to Git
+2026-01-07 20:16:45.587 INFO     Commit message: Modify: Nethesis.NethLink version 1.2.0 (Auto)
+2026-01-07 20:16:45.588 INFO   Pushing changes to remote (origin) repository
+2026-01-07 20:18:01.391 INFO     Successfully pushed to remote (origin): Modify-S-Nethesis.NethLink-1.2.0-1767788103
+2026-01-07 20:18:04.992 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/328505
+2026-01-07 20:18:04.999 INFO Skip version 1.2.1, because it's not in the list of versions to be modified.
+2026-01-07 20:18:05.173 INFO Skip version 1.2.2, because it's not in the list of versions to be modified.
+2026-01-07 20:18:05.351 INFO Skip version 1.2.3, because it's not in the list of versions to be modified.
+2026-01-07 20:18:05.508 INFO Skip version 1.3.0, because it's not in the list of versions to be modified.
+2026-01-07 20:18:05.650 INFO Skip version 1.3.1, because it's not in the list of versions to be modified.
+2026-01-07 20:18:05.909 INFO Skip version 1.3.2, because it's not in the list of versions to be modified.
+2026-01-07 20:18:05.115 INFO All manifests have been modified and pushed through.
+2026-01-07 20:18:18.565 INFO Workspace clean-up completed.
+~~ End of logging ~~
