@@ -1,0 +1,30 @@
+~~ Start logging ~~
+2026-01-07 21:07:20.736 FUN Q：你家这个 Sundry，我儿子说不好用
+2026-01-07 21:07:20.736 FUN A：换个儿子再试一下，亲
+2026-01-07 21:07:20.742 INFO Found the following version folder: ['1.0.2', '1.1.0', '1.1.1', '1.2.0', '1.2.1', '1.2.2', '1.2.3', '1.3.0', '1.3.1', '1.3.2']
+2026-01-07 21:07:20.743 INFO Skip version 1.0.2, because it's not in the list of versions to be modified.
+2026-01-07 21:07:20.744 INFO Skip version 1.1.0, because it's not in the list of versions to be modified.
+2026-01-07 21:07:20.745 INFO Skip version 1.1.1, because it's not in the list of versions to be modified.
+2026-01-07 21:07:20.755 INFO Skip version 1.2.0, because it's not in the list of versions to be modified.
+2026-01-07 21:07:20.756 INFO Skip version 1.2.1, because it's not in the list of versions to be modified.
+2026-01-07 21:07:20.758 INFO Skip version 1.2.2, because it's not in the list of versions to be modified.
+2026-01-07 21:07:20.760 INFO Processing version folder: 1.2.3
+2026-01-07 21:07:20.761 INFO   Create and checkout to a new branch: Modify-S-Nethesis.NethLink-1.2.3-1767791240
+2026-01-07 21:08:57.397 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\n\Nethesis\NethLink\1.2.3\Nethesis.NethLink.installer.yaml
+2026-01-07 21:08:57.400 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\n\Nethesis\NethLink\1.2.3\Nethesis.NethLink.installer.yaml
+2026-01-07 21:08:57.507 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\n\Nethesis\NethLink\1.2.3\Nethesis.NethLink.locale.en-US.yaml
+2026-01-07 21:08:57.518 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\n\Nethesis\NethLink\1.2.3\Nethesis.NethLink.locale.en-US.yaml
+2026-01-07 21:08:57.680 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\n\Nethesis\NethLink\1.2.3\Nethesis.NethLink.yaml
+2026-01-07 21:08:57.685 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\n\Nethesis\NethLink\1.2.3\Nethesis.NethLink.yaml
+2026-01-07 21:15:39.480 INFO Manifest validation succeeded with "sundry validate".
+2026-01-07 21:15:39.481 INFO   Staging and Committing Changes to Git
+2026-01-07 21:15:49.687 INFO     Commit message: Modify: Nethesis.NethLink version 1.2.3 (Auto)
+2026-01-07 21:15:49.690 INFO   Pushing changes to remote (origin) repository
+2026-01-07 21:15:54.309 INFO     Successfully pushed to remote (origin): Modify-S-Nethesis.NethLink-1.2.3-1767791240
+2026-01-07 21:16:02.573 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/328517
+2026-01-07 21:16:02.581 INFO Skip version 1.3.0, because it's not in the list of versions to be modified.
+2026-01-07 21:16:02.583 INFO Skip version 1.3.1, because it's not in the list of versions to be modified.
+2026-01-07 21:16:02.586 INFO Skip version 1.3.2, because it's not in the list of versions to be modified.
+2026-01-07 21:16:02.589 INFO All manifests have been modified and pushed through.
+2026-01-07 21:16:11.901 INFO Workspace clean-up completed.
+~~ End of logging ~~
