@@ -1,0 +1,28 @@
+~~ Start logging ~~
+2026-01-07 20:02:21.535 FUN 【🤔: 偷梁换柱, 🤖: 飞沙走石, 🤔: 偷梁换柱, 🤖: 技能模仿】https://www.bilibili.com/video/BV12x47zkE3y/
+2026-01-07 20:02:21.549 INFO Found the following version folder: ['1.0.2', '1.1.0', '1.1.1', '1.2.0', '1.2.1', '1.2.2', '1.2.3', '1.3.0', '1.3.1']
+2026-01-07 20:02:21.551 INFO Skip version 1.0.2, because it's not in the list of versions to be modified.
+2026-01-07 20:02:21.553 INFO Processing version folder: 1.1.0
+2026-01-07 20:02:21.554 INFO   Create and checkout to a new branch: Modify-S-Nethesis.NethLink-1.1.0-1767787341
+2026-01-07 20:04:30.748 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\n\Nethesis\NethLink\1.1.0\Nethesis.NethLink.installer.yaml
+2026-01-07 20:04:30.754 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\n\Nethesis\NethLink\1.1.0\Nethesis.NethLink.installer.yaml
+2026-01-07 20:04:31.711 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\n\Nethesis\NethLink\1.1.0\Nethesis.NethLink.locale.en-US.yaml
+2026-01-07 20:04:31.779 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\n\Nethesis\NethLink\1.1.0\Nethesis.NethLink.locale.en-US.yaml
+2026-01-07 20:04:31.275 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\n\Nethesis\NethLink\1.1.0\Nethesis.NethLink.yaml
+2026-01-07 20:04:31.281 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\n\Nethesis\NethLink\1.1.0\Nethesis.NethLink.yaml
+2026-01-07 20:14:06.907 INFO Manifest validation succeeded with "sundry validate".
+2026-01-07 20:14:06.909 INFO   Staging and Committing Changes to Git
+2026-01-07 20:14:29.730 INFO     Commit message: Modify: Nethesis.NethLink version 1.1.0 (Auto)
+2026-01-07 20:14:29.732 INFO   Pushing changes to remote (origin) repository
+2026-01-07 20:14:34.140 INFO     Successfully pushed to remote (origin): Modify-S-Nethesis.NethLink-1.1.0-1767787341
+2026-01-07 20:14:37.213 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/328504
+2026-01-07 20:14:37.220 INFO Skip version 1.1.1, because it's not in the list of versions to be modified.
+2026-01-07 20:14:37.223 INFO Skip version 1.2.0, because it's not in the list of versions to be modified.
+2026-01-07 20:14:37.225 INFO Skip version 1.2.1, because it's not in the list of versions to be modified.
+2026-01-07 20:14:37.227 INFO Skip version 1.2.2, because it's not in the list of versions to be modified.
+2026-01-07 20:14:37.229 INFO Skip version 1.2.3, because it's not in the list of versions to be modified.
+2026-01-07 20:14:37.232 INFO Skip version 1.3.0, because it's not in the list of versions to be modified.
+2026-01-07 20:14:37.234 INFO Skip version 1.3.1, because it's not in the list of versions to be modified.
+2026-01-07 20:14:37.236 INFO All manifests have been modified and pushed through.
+2026-01-07 20:14:46.455 INFO Workspace clean-up completed.
+~~ End of logging ~~
