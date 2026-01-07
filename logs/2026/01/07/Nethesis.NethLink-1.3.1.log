@@ -1,0 +1,29 @@
+~~ Start logging ~~
+2026-01-07 21:37:02.247 FUN 鸡肚菜花
+2026-01-07 21:37:02.254 INFO Found the following version folder: ['1.0.2', '1.1.0', '1.1.1', '1.2.0', '1.2.1', '1.2.2', '1.2.3', '1.3.0', '1.3.1', '1.3.2']
+2026-01-07 21:37:02.256 INFO Skip version 1.0.2, because it's not in the list of versions to be modified.
+2026-01-07 21:37:02.258 INFO Skip version 1.1.0, because it's not in the list of versions to be modified.
+2026-01-07 21:37:02.260 INFO Skip version 1.1.1, because it's not in the list of versions to be modified.
+2026-01-07 21:37:02.261 INFO Skip version 1.2.0, because it's not in the list of versions to be modified.
+2026-01-07 21:37:02.299 INFO Skip version 1.2.1, because it's not in the list of versions to be modified.
+2026-01-07 21:37:02.304 INFO Skip version 1.2.2, because it's not in the list of versions to be modified.
+2026-01-07 21:37:02.308 INFO Skip version 1.2.3, because it's not in the list of versions to be modified.
+2026-01-07 21:37:02.310 INFO Skip version 1.3.0, because it's not in the list of versions to be modified.
+2026-01-07 21:37:02.313 INFO Processing version folder: 1.3.1
+2026-01-07 21:37:02.317 INFO   Create and checkout to a new branch: Modify-S-Nethesis.NethLink-1.3.1-1767793022
+2026-01-07 21:39:57.324 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\n\Nethesis\NethLink\1.3.1\Nethesis.NethLink.installer.yaml
+2026-01-07 21:39:57.331 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\n\Nethesis\NethLink\1.3.1\Nethesis.NethLink.installer.yaml
+2026-01-07 21:39:57.482 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\n\Nethesis\NethLink\1.3.1\Nethesis.NethLink.locale.en-US.yaml
+2026-01-07 21:39:57.524 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\n\Nethesis\NethLink\1.3.1\Nethesis.NethLink.locale.en-US.yaml
+2026-01-07 21:39:57.700 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\n\Nethesis\NethLink\1.3.1\Nethesis.NethLink.yaml
+2026-01-07 21:39:57.706 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\n\Nethesis\NethLink\1.3.1\Nethesis.NethLink.yaml
+2026-01-07 21:44:54.614 INFO Manifest validation succeeded with "sundry validate".
+2026-01-07 21:44:54.616 INFO   Staging and Committing Changes to Git
+2026-01-07 21:45:10.375 INFO     Commit message: Modify: Nethesis.NethLink version 1.3.1 (Auto)
+2026-01-07 21:45:10.378 INFO   Pushing changes to remote (origin) repository
+2026-01-07 22:05:30.322 INFO     Successfully pushed to remote (origin): Modify-S-Nethesis.NethLink-1.3.1-1767793022
+2026-01-07 22:05:34.767 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/328536
+2026-01-07 22:05:34.775 INFO Skip version 1.3.2, because it's not in the list of versions to be modified.
+2026-01-07 22:05:34.778 INFO All manifests have been modified and pushed through.
+2026-01-07 22:05:51.676 INFO Workspace clean-up completed.
+~~ End of logging ~~
