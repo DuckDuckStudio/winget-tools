@@ -57,6 +57,13 @@ namespace checker
                 "https://sf1-cdn-tos.douyinstatic.com/obj/microapp/frontend/ide/package/obj/developer/ide/", // 反爬
         ];
 
+#if DEBUG
+        private static readonly HashSet<string> furtherInvestigationRequired = [
+            // 在检查类型时需要进一步信息的 URL
+            ""
+        ];
+#endif
+
         static async Task<int> Main(string[] args)
         {
             if (args.Length < 1)
@@ -491,6 +498,14 @@ namespace checker
                         errorMessage = $"\n[Warning] <ManifestFilePath> 中的 {url} 响应的类型似乎不是有效的安装程序 ({unexpectedType})\n[Hint] Sundry 命令: sundry remove <PackageIdentifier> <PackageVersion> \"The installer url(s) responded with an unexpected type ({unexpectedType}) in GitHub Action.\"";
                         checkedUrls.TryAdd(url, errorMessage);
                         WriteErrorMessage(errorMessage, filePath);
+#if DEBUG
+                        if (furtherInvestigationRequired.Any(url.Contains))
+                        {
+                            // 看看响应的内容是什么
+                            string content = await response.Content.ReadAsStringAsync();
+                            Console.WriteLine($"[Debug] 响应内容:\n{content}");
+                        }
+#endif
                         if (failureLevel == "详细")
                         {
                             return false;
