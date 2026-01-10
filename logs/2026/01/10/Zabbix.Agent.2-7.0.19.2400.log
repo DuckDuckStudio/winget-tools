@@ -1,0 +1,27 @@
+~~ Start logging ~~
+2026-01-10 20:26:37.234 FUN ( ´_ゝ｀)
+2026-01-10 20:26:37.239 INFO Found the following version folder: ['7.0.19', '7.0.19.2400', '7.2.3', '7.2.4', '7.2.5', '7.2.6', '7.4.4', '7.4.6']
+2026-01-10 20:26:37.241 INFO Skip version 7.0.19, because it's not in the list of versions to be modified.
+2026-01-10 20:26:37.242 INFO Processing version folder: 7.0.19.2400
+2026-01-10 20:26:37.243 INFO   Create and checkout to a new branch: Modify-S-Zabbix.Agent.2-7.0.19.2400-1768047997
+2026-01-10 20:27:03.762 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\z\Zabbix\Agent\2\7.0.19.2400\Zabbix.Agent.2.installer.yaml
+2026-01-10 20:27:03.780 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\z\Zabbix\Agent\2\7.0.19.2400\Zabbix.Agent.2.installer.yaml
+2026-01-10 20:27:04.366 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\z\Zabbix\Agent\2\7.0.19.2400\Zabbix.Agent.2.locale.en-US.yaml
+2026-01-10 20:27:04.427 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\z\Zabbix\Agent\2\7.0.19.2400\Zabbix.Agent.2.locale.en-US.yaml
+2026-01-10 20:27:04.218 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\z\Zabbix\Agent\2\7.0.19.2400\Zabbix.Agent.2.yaml
+2026-01-10 20:27:04.236 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\z\Zabbix\Agent\2\7.0.19.2400\Zabbix.Agent.2.yaml
+2026-01-10 20:29:41.765 INFO Manifest validation succeeded with "sundry validate".
+2026-01-10 20:29:41.766 INFO   Staging and Committing Changes to Git
+2026-01-10 20:29:56.851 INFO     Commit message: Modify: Zabbix.Agent.2 version 7.0.19.2400 (Auto)
+2026-01-10 20:29:56.854 INFO   Pushing changes to remote (origin) repository
+2026-01-10 20:54:26.630 INFO     Successfully pushed to remote (origin): Modify-S-Zabbix.Agent.2-7.0.19.2400-1768047997
+2026-01-10 20:54:30.711 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/329224
+2026-01-10 20:54:30.714 INFO Skip version 7.2.3, because it's not in the list of versions to be modified.
+2026-01-10 20:54:30.716 INFO Skip version 7.2.4, because it's not in the list of versions to be modified.
+2026-01-10 20:54:30.718 INFO Skip version 7.2.5, because it's not in the list of versions to be modified.
+2026-01-10 20:54:30.719 INFO Skip version 7.2.6, because it's not in the list of versions to be modified.
+2026-01-10 20:54:30.722 INFO Skip version 7.4.4, because it's not in the list of versions to be modified.
+2026-01-10 20:54:30.723 INFO Skip version 7.4.6, because it's not in the list of versions to be modified.
+2026-01-10 20:54:30.725 INFO All manifests have been modified and pushed through.
+2026-01-10 20:54:46.265 INFO Workspace clean-up completed.
+~~ End of logging ~~
