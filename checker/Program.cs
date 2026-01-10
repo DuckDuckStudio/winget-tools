@@ -53,7 +53,7 @@ namespace checker
             "https://downloads.mysql.com/", "https://swcdn.apple.com/content/downloads/", "sourceforge.net", "https://cdn1.waterfox.net/waterfox/releases/", "https://downloads.tableau.com/public/", "https://sp.thsi.cn/staticS3/mobileweb-upload-static-server.file/app_6/downloadcenter/THS_insoft", "https://files02.tchspt.com/down/", "https://cdn-dl.yinxiang.com/", "https://download.mono-project.com/archive/", "https://cdn-resource.aunbox.cn/", "https://www.fischertechnik.de/-/media/fischertechnik/fite/service/downloads/robotics/robo-pro/documents/update-robopro.ashx", "https://azcopyvnext-awgzd8g7aagqhzhe.b02.azurefd.net/releases", "https://files03.tchspt.com/down/iview466_plugins_setup.exe", "https://file2.speedtest.cn/pc-pro/win64/网维助手", "https://www.wagnardsoft.com/DDU/download/", "https://static.cebbank.com/static/cebbank/cebent/ass1/CEBAssistant.zip", "https://www.autodesk.com/support", "https://ftp.gnu.org", // 假403
             "https://issuepcdn.baidupcs.com/", "https://lf-luna-release.qishui.com/obj/luna-release/", "https://down.360safe.com/cse/", "https://www.gerbview.com/", // 超时
             "https://aurorabuilder.com/downloads/Aurora%20Setup.zip", // 假400
-                "https://developer.arm.com/", // Client Challenge
+            "https://developer.arm.com/", // Client Challenge
         ];
 
         static async Task<int> Main(string[] args)
