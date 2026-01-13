@@ -1,0 +1,30 @@
+~~ Start logging ~~
+2026-01-13 09:35:08.528 FUN 每个人一天 18 公斤的凤梨，吃个两个礼拜，很难吗？一颗就 3 公斤，很难吗？一点都不难，我们怕什么？
+2026-01-13 09:35:08.577 INFO Found the following version folder: ['2.2.2', '2.2.3', '2.2.4', '2.2.5', '2.2.6', '2.2.7', '2.3.0', '2.4.0']
+2026-01-13 09:35:08.581 INFO Skip version 2.2.2, because it's not in the list of versions to be modified.
+2026-01-13 09:35:08.585 INFO Skip version 2.2.3, because it's not in the list of versions to be modified.
+2026-01-13 09:35:08.587 INFO Skip version 2.2.4, because it's not in the list of versions to be modified.
+2026-01-13 09:35:08.590 INFO Skip version 2.2.5, because it's not in the list of versions to be modified.
+2026-01-13 09:35:08.591 INFO Skip version 2.2.6, because it's not in the list of versions to be modified.
+2026-01-13 09:35:08.594 INFO Skip version 2.2.7, because it's not in the list of versions to be modified.
+2026-01-13 09:35:08.597 INFO Skip version 2.3.0, because it's not in the list of versions to be modified.
+2026-01-13 09:35:08.599 INFO Processing version folder: 2.4.0
+2026-01-13 09:35:08.600 INFO   Create and checkout to a new branch: New-Version-josephburnett.jd-2.4.0-1768268108
+2026-01-13 09:35:22.183 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.4.0\josephburnett.jd.installer.yaml
+2026-01-13 09:35:22.187 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.4.0\josephburnett.jd.installer.yaml
+2026-01-13 09:35:22.513 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.4.0\josephburnett.jd.locale.en-US.yaml
+2026-01-13 09:35:22.518 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.4.0\josephburnett.jd.locale.en-US.yaml
+2026-01-13 09:35:22.683 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.4.0\josephburnett.jd.locale.zh-CN.yaml
+2026-01-13 09:35:22.688 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.4.0\josephburnett.jd.locale.zh-CN.yaml
+2026-01-13 09:35:22.917 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.4.0\josephburnett.jd.yaml
+2026-01-13 09:35:22.922 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.4.0\josephburnett.jd.yaml
+2026-01-13 09:35:23.129 INFO   New manifests in D:\...\winget-pkgs\manifests\j\josephburnett\jd\2.4.0 for josephburnett.jd (2.4.0)
+2026-01-13 09:40:14.585 INFO Manifest validation succeeded with "sundry validate".
+2026-01-13 09:40:14.587 INFO   Staging and Committing Changes to Git
+2026-01-13 09:40:34.382 INFO     Commit message: New version: josephburnett.jd version 2.4.0 (Auto)
+2026-01-13 09:41:14.431 INFO   Pushing changes to remote (origin) repository
+2026-01-13 09:41:19.594 INFO     Successfully pushed to remote (origin): New-Version-josephburnett.jd-2.4.0-1768268108
+2026-01-13 09:41:22.935 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/329712
+2026-01-13 09:41:22.940 INFO All manifests have been modified and pushed through.
+2026-01-13 09:41:37.292 INFO Workspace clean-up completed.
+~~ End of logging ~~
