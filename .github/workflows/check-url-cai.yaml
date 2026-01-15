@@ -52,7 +52,7 @@ jobs:
         uses: actions/checkout@v6.0.1
 
       - name: 设置 .NET
-        uses: actions/setup-dotnet@v5.0.1
+        uses: actions/setup-dotnet@v5.1.0
         with:
           dotnet-version: 10.x
 
