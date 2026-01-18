@@ -1,0 +1,305 @@
+--> sundry autoremove GeoGebra.GraphingCalculator
+INFO 正在检查 GeoGebra.GraphingCalculator 6.0.905 (1/5) ...
+使用 winget 验证...
+  ██████████████████████████████  100% MB / 2.53 MB
+已找到 GeoGebra Graphing Calculator [GeoGebra.GraphingCalculator] 版本 6.0.905
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/graphing/GeoGebraGraphing-Windows-Installer-6-0-905-1.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : Not found (404).
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.geogebra.org/installers/6.0/graphing/GeoGebraGraphing-Windows-Installer-6-0-905-1.exe | 失效 (404)
+✕ GeoGebra.GraphingCalculator 6.0.905 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+INFO 已签出到 master 分支
+From https://github.com/microsoft/winget-pkgs
+   56766c8e31c..8728f134ad2  master     -> upstream/master
+INFO 已获取上游修改
+INFO 已获取远程修改
+Successfully rebased and updated refs/heads/master.
+INFO 已变基上游修改
+remote: Bypassed rule violations for refs/heads/master:
+remote:
+remote: - Changes must be made through a pull request.
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+   56766c8e31c..8728f134ad2  master -> master
+INFO 已推送到远程
+✓ 同步完成
+Switched to a new branch 'Remove-GeoGebra.GraphingCalculator-6.0.905-1768723852'
+  已签出新分支 Remove-GeoGebra.GraphingCalculator-6.0.905-1768723852
+  已移除包 GeoGebra.GraphingCalculator 版本 6.0.905
+[Remove-GeoGebra.GraphingCalculator-6.0.905-1768723852 f0e21021ce9] Remove version: GeoGebra.GraphingCalculator version 6.0.905 (Auto)
+ 4 files changed, 82 deletions(-)
+ delete mode 100644 manifests/g/GeoGebra/GraphingCalculator/6.0.905/GeoGebra.GraphingCalculator.installer.yaml
+ delete mode 100644 manifests/g/GeoGebra/GraphingCalculator/6.0.905/GeoGebra.GraphingCalculator.locale.en-US.yaml
+ delete mode 100644 manifests/g/GeoGebra/GraphingCalculator/6.0.905/GeoGebra.GraphingCalculator.locale.zh-CN.yaml
+ delete mode 100644 manifests/g/GeoGebra/GraphingCalculator/6.0.905/GeoGebra.GraphingCalculator.yaml
+  已提交修改
+branch 'Remove-GeoGebra.GraphingCalculator-6.0.905-1768723852' set up to track 'origin/Remove-GeoGebra.GraphingCalculator-6.0.905-1768723852'.
+remote:
+remote: Create a pull request for 'Remove-GeoGebra.GraphingCalculator-6.0.905-1768723852' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-GeoGebra.GraphingCalculator-6.0.905-1768723852
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-GeoGebra.GraphingCalculator-6.0.905-1768723852 -> Remove-GeoGebra.GraphingCalculator-6.0.905-1768723852
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/331438
+ 成功移除 GeoGebra.GraphingCalculator 版本 6.0.905
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-GeoGebra.GraphingCalculator-6.0.905-1768723852 (was f0e21021ce9).
+工作区清理完成
+
+
+--> sundry autoremove GeoGebra.Geometry
+INFO 正在检查 GeoGebra.Geometry 6.0.905 (1/5) ...
+使用 winget 验证...
+已找到 GeoGebra Geometry [GeoGebra.Geometry] 版本 6.0.905
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/geometry/GeoGebraGeometry-Windows-Installer-6-0-905-1.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : Not found (404).
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.geogebra.org/installers/6.0/geometry/GeoGebraGeometry-Windows-Installer-6-0-905-1.exe | 失效 (404)
+✕ GeoGebra.Geometry 6.0.905 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+INFO 已签出到 master 分支
+From https://github.com/microsoft/winget-pkgs
+   8728f134ad2..ca9fe3df4e4  master     -> upstream/master
+INFO 已获取上游修改
+INFO 已获取远程修改
+Successfully rebased and updated refs/heads/master.
+INFO 已变基上游修改
+remote: Bypassed rule violations for refs/heads/master:
+remote:
+remote: - Changes must be made through a pull request.
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+   8728f134ad2..ca9fe3df4e4  master -> master
+INFO 已推送到远程
+✓ 同步完成
+Switched to a new branch 'Remove-GeoGebra.Geometry-6.0.905-1768724047'
+  已签出新分支 Remove-GeoGebra.Geometry-6.0.905-1768724047
+  已移除包 GeoGebra.Geometry 版本 6.0.905
+[Remove-GeoGebra.Geometry-6.0.905-1768724047 4f538a25ef7] Remove version: GeoGebra.Geometry version 6.0.905 (Auto)
+ 4 files changed, 82 deletions(-)
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.905/GeoGebra.Geometry.installer.yaml
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.905/GeoGebra.Geometry.locale.en-US.yaml
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.905/GeoGebra.Geometry.locale.zh-CN.yaml
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.905/GeoGebra.Geometry.yaml
+  已提交修改
+branch 'Remove-GeoGebra.Geometry-6.0.905-1768724047' set up to track 'origin/Remove-GeoGebra.Geometry-6.0.905-1768724047'.
+remote:
+remote: Create a pull request for 'Remove-GeoGebra.Geometry-6.0.905-1768724047' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-GeoGebra.Geometry-6.0.905-1768724047
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-GeoGebra.Geometry-6.0.905-1768724047 -> Remove-GeoGebra.Geometry-6.0.905-1768724047
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/331442
+ 成功移除 GeoGebra.Geometry 版本 6.0.905
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-GeoGebra.Geometry-6.0.905-1768724047 (was 4f538a25ef7).
+工作区清理完成
+
+
+--> sundry autoremove GeoGebra.CalculatorSuite
+INFO 正在检查 GeoGebra.CalculatorSuite 6.0.905 (1/5) ...
+使用 winget 验证...
+已找到 GeoGebra Calculator Suite [GeoGebra.CalculatorSuite] 版本 6.0.905
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/suite/GeoGebraCalculator-Windows-Installer-6-0-905-1.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : Not found (404).
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.geogebra.org/installers/6.0/suite/GeoGebraCalculator-Windows-Installer-6-0-905-1.exe | 失效 (404)
+✕ GeoGebra.CalculatorSuite 6.0.905 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+INFO 已签出到 master 分支
+fatal: unable to access 'https://github.com/microsoft/winget-pkgs.git/': Failed to connect to github.com port 443 after 21178 ms: Could not connect to server
+✕ 运行 git fetch upstream 失败，git 返回非零退出代码 128
+INFO 正在重试 ...
+INFO 已获取上游修改
+fatal: unable to access 'https://github.com/DuckDuckStudio/winget-pkgs.git/': Failed to connect to github.com port 443 after 21171 ms: Could not connect to server
+✕ 运行 git fetch origin 失败，git 返回非零退出代码 128
+INFO 正在重试 ...
+fatal: unable to access 'https://github.com/DuckDuckStudio/winget-pkgs.git/': Failed to connect to github.com port 443 after 21141 ms: Could not connect to server
+✕ 运行 git fetch origin 失败，git 返回非零退出代码 128
+INFO 正在重试 ...
+INFO 已获取远程修改
+Current branch master is up to date.
+INFO 已变基上游修改
+Everything up-to-date
+INFO 已推送到远程
+✓ 同步完成
+Switched to a new branch 'Remove-GeoGebra.CalculatorSuite-6.0.905-1768724462'
+  已签出新分支 Remove-GeoGebra.CalculatorSuite-6.0.905-1768724462
+  已移除包 GeoGebra.CalculatorSuite 版本 6.0.905
+[Remove-GeoGebra.CalculatorSuite-6.0.905-1768724462 c0a8dfa1651] Remove version: GeoGebra.CalculatorSuite version 6.0.905 (Auto)
+ 4 files changed, 81 deletions(-)
+ delete mode 100644 manifests/g/GeoGebra/CalculatorSuite/6.0.905/GeoGebra.CalculatorSuite.installer.yaml
+ delete mode 100644 manifests/g/GeoGebra/CalculatorSuite/6.0.905/GeoGebra.CalculatorSuite.locale.en-US.yaml
+ delete mode 100644 manifests/g/GeoGebra/CalculatorSuite/6.0.905/GeoGebra.CalculatorSuite.locale.zh-CN.yaml
+ delete mode 100644 manifests/g/GeoGebra/CalculatorSuite/6.0.905/GeoGebra.CalculatorSuite.yaml
+  已提交修改
+branch 'Remove-GeoGebra.CalculatorSuite-6.0.905-1768724462' set up to track 'origin/Remove-GeoGebra.CalculatorSuite-6.0.905-1768724462'.
+remote:
+remote: Create a pull request for 'Remove-GeoGebra.CalculatorSuite-6.0.905-1768724462' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-GeoGebra.CalculatorSuite-6.0.905-1768724462
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-GeoGebra.CalculatorSuite-6.0.905-1768724462 -> Remove-GeoGebra.CalculatorSuite-6.0.905-1768724462
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/331445
+ 成功移除 GeoGebra.CalculatorSuite 版本 6.0.905
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-GeoGebra.CalculatorSuite-6.0.905-1768724462 (was c0a8dfa1651).
+工作区清理完成
+
+
+--> sundry autoremove GeoGebra.Classic
+INFO 正在检查 GeoGebra.Classic 6.0.905 (1/5) ...
+使用 winget 验证...
+已找到 GeoGebra Classic [GeoGebra.Classic] 版本 6.0.905
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-905-1.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : Not found (404).
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-905-1.msi | 失效 (404)
+https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-905-1.exe | 失效 (404)
+✕ GeoGebra.Classic 6.0.905 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+INFO 已签出到 master 分支
+fatal: unable to access 'https://github.com/microsoft/winget-pkgs.git/': Failed to connect to github.com port 443 after 21097 ms: Could not connect to server
+✕ 运行 git fetch upstream 失败，git 返回非零退出代码 128
+INFO 正在重试 ...
+fatal: unable to access 'https://github.com/microsoft/winget-pkgs.git/': Failed to connect to github.com port 443 after 21134 ms: Could not connect to server
+✕ 运行 git fetch upstream 失败，git 返回非零退出代码 128
+INFO 正在重试 ...
+error: RPC failed; curl 28 Recv failure: Connection was reset
+fatal: expected flush after ref listing
+✕ 运行 git fetch upstream 失败，git 返回非零退出代码 128
+INFO 正在重试 ...
+fatal: unable to access 'https://github.com/microsoft/winget-pkgs.git/': Failed to connect to github.com port 443 after 21104 ms: Could not connect to server
+✕ 运行 git fetch upstream 失败，git 返回非零退出代码 128
+INFO 正在重试 ...
+fatal: unable to access 'https://github.com/microsoft/winget-pkgs.git/': Failed to connect to github.com port 443 after 21106 ms: Could not connect to server
+✕ 运行 git fetch upstream 失败，git 返回非零退出代码 128
+INFO 正在重试 ...
+INFO 已获取上游修改
+INFO 已获取远程修改
+Current branch master is up to date.
+INFO 已变基上游修改
+Everything up-to-date
+INFO 已推送到远程
+✓ 同步完成
+Switched to a new branch 'Remove-GeoGebra.Classic-6.0.905-1768725086'
+  已签出新分支 Remove-GeoGebra.Classic-6.0.905-1768725086
+  已移除包 GeoGebra.Classic 版本 6.0.905
+[Remove-GeoGebra.Classic-6.0.905-1768725086 91b495678a2] Remove version: GeoGebra.Classic version 6.0.905 (Auto)
+ 4 files changed, 96 deletions(-)
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.905/GeoGebra.Classic.installer.yaml
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.905/GeoGebra.Classic.locale.en-US.yaml
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.905/GeoGebra.Classic.locale.zh-CN.yaml
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.905/GeoGebra.Classic.yaml
+  已提交修改
+branch 'Remove-GeoGebra.Classic-6.0.905-1768725086' set up to track 'origin/Remove-GeoGebra.Classic-6.0.905-1768725086'.
+remote:
+remote: Create a pull request for 'Remove-GeoGebra.Classic-6.0.905-1768725086' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-GeoGebra.Classic-6.0.905-1768725086
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-GeoGebra.Classic-6.0.905-1768725086 -> Remove-GeoGebra.Classic-6.0.905-1768725086
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/331447
+ 成功移除 GeoGebra.Classic 版本 6.0.905
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-GeoGebra.Classic-6.0.905-1768725086 (was 91b495678a2).
+工作区清理完成
+
+
+--> sundry autoremove GeoGebra.CASCalculator
+INFO 正在检查 GeoGebra.CASCalculator 6.0.905 (1/5) ...
+使用 winget 验证...
+  ██████████████████████████████  100% MB / 2.53 MB
+已找到 GeoGebra CAS Calculator [GeoGebra.CASCalculator] 版本 6.0.905
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/cas/GeoGebraCAS-Windows-Installer-6-0-905-1.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : Not found (404).
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.geogebra.org/installers/6.0/cas/GeoGebraCAS-Windows-Installer-6-0-905-1.exe | 失效 (404)
+✕ GeoGebra.CASCalculator 6.0.905 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+INFO 已签出到 master 分支
+INFO 已获取上游修改
+INFO 已获取远程修改
+Current branch master is up to date.
+INFO 已变基上游修改
+Everything up-to-date
+INFO 已推送到远程
+✓ 同步完成
+Switched to a new branch 'Remove-GeoGebra.CASCalculator-6.0.905-1768725250'
+  已签出新分支 Remove-GeoGebra.CASCalculator-6.0.905-1768725250
+  已移除包 GeoGebra.CASCalculator 版本 6.0.905
+[Remove-GeoGebra.CASCalculator-6.0.905-1768725250 605f6a7e4ed] Remove version: GeoGebra.CASCalculator version 6.0.905 (Auto)
+ 4 files changed, 78 deletions(-)
+ delete mode 100644 manifests/g/GeoGebra/CASCalculator/6.0.905/GeoGebra.CASCalculator.installer.yaml
+ delete mode 100644 manifests/g/GeoGebra/CASCalculator/6.0.905/GeoGebra.CASCalculator.locale.en-US.yaml
+ delete mode 100644 manifests/g/GeoGebra/CASCalculator/6.0.905/GeoGebra.CASCalculator.locale.zh-CN.yaml
+ delete mode 100644 manifests/g/GeoGebra/CASCalculator/6.0.905/GeoGebra.CASCalculator.yaml
+  已提交修改
+branch 'Remove-GeoGebra.CASCalculator-6.0.905-1768725250' set up to track 'origin/Remove-GeoGebra.CASCalculator-6.0.905-1768725250'.
+remote:
+remote: Create a pull request for 'Remove-GeoGebra.CASCalculator-6.0.905-1768725250' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-GeoGebra.CASCalculator-6.0.905-1768725250
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-GeoGebra.CASCalculator-6.0.905-1768725250 -> Remove-GeoGebra.CASCalculator-6.0.905-1768725250
+  已推送修改
+    拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/331448
+ 成功移除 GeoGebra.CASCalculator 版本 6.0.905
+开始清理工作区
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+Deleted branch Remove-GeoGebra.CASCalculator-6.0.905-1768725250 (was 605f6a7e4ed).
+工作区清理完成
