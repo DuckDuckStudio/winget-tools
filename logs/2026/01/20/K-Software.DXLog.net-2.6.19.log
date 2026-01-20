@@ -1,0 +1,20 @@
+~~ Start logging ~~
+2026-01-20 07:30:51.394 FUN 干什么!
+2026-01-20 07:30:51.442 INFO Found the following version folder: ['2.6.19']
+2026-01-20 07:30:51.475 INFO Processing version folder: 2.6.19
+2026-01-20 07:30:51.498 INFO   Create and checkout to a new branch: Modify-S-K-Software.DXLog.net-2.6.19-1768865451
+2026-01-20 07:43:30.531 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\k\K-Software\DXLog\net\2.6.19\K-Software.DXLog.net.installer.yaml
+2026-01-20 07:43:30.534 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\k\K-Software\DXLog\net\2.6.19\K-Software.DXLog.net.installer.yaml
+2026-01-20 07:43:30.954 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\k\K-Software\DXLog\net\2.6.19\K-Software.DXLog.net.locale.en-US.yaml
+2026-01-20 07:43:30.970 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\k\K-Software\DXLog\net\2.6.19\K-Software.DXLog.net.locale.en-US.yaml
+2026-01-20 07:43:31.128 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\k\K-Software\DXLog\net\2.6.19\K-Software.DXLog.net.yaml
+2026-01-20 07:43:31.135 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\k\K-Software\DXLog\net\2.6.19\K-Software.DXLog.net.yaml
+2026-01-20 07:57:33.156 INFO Manifest validation succeeded with "sundry validate".
+2026-01-20 07:57:33.174 INFO   Staging and Committing Changes to Git
+2026-01-20 07:57:54.488 INFO     Commit message: Modify: K-Software.DXLog.net version 2.6.19 (Auto)
+2026-01-20 07:57:54.490 INFO   Pushing changes to remote (origin) repository
+2026-01-20 07:57:58.810 INFO     Successfully pushed to remote (origin): Modify-S-K-Software.DXLog.net-2.6.19-1768865451
+2026-01-20 07:58:01.707 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/331764
+2026-01-20 07:58:01.711 INFO All manifests have been modified and pushed through.
+2026-01-20 07:58:11.409 INFO Workspace clean-up completed.
+~~ End of logging ~~
