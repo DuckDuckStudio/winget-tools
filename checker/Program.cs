@@ -54,7 +54,7 @@ namespace checker
             "https://issuepcdn.baidupcs.com/", "https://lf-luna-release.qishui.com/obj/luna-release/", "https://down.360safe.com/cse/", "https://www.gerbview.com/", // 超时
             "https://aurorabuilder.com/downloads/Aurora%20Setup.zip", // 假400
             "https://developer.arm.com/", // Client Challenge
-                "https://sf1-cdn-tos.douyinstatic.com/obj/microapp/frontend/ide/package/obj/developer/ide/", // 反爬
+                "https://sf1-cdn-tos.douyinstatic.com/obj/microapp/frontend/ide/package/obj/developer/ide/", "https://git.mylloon.fr/", // 反爬
         ];
 
         static async Task<int> Main(string[] args)
