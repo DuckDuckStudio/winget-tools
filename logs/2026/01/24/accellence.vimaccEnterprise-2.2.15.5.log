@@ -1,0 +1,23 @@
+~~ Start logging ~~
+2026-01-24 12:01:17.172 FUN 这下听懂了。
+2026-01-24 12:01:17.176 INFO Found the following version folder: ['2.2.15.4', '2.2.15.5']
+2026-01-24 12:01:17.178 INFO Skip version 2.2.15.4, because it's not in the list of versions to be modified.
+2026-01-24 12:01:17.181 INFO Processing version folder: 2.2.15.5
+2026-01-24 12:01:17.186 INFO   Create and checkout to a new branch: Modify-S-accellence.vimaccEnterprise-2.2.15.5-1769227277
+2026-01-24 12:01:59.265 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\accellence\vimaccEnterprise\2.2.15.5\accellence.vimaccEnterprise.installer.yaml
+2026-01-24 12:01:59.306 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\accellence\vimaccEnterprise\2.2.15.5\accellence.vimaccEnterprise.installer.yaml
+2026-01-24 12:01:59.617 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\accellence\vimaccEnterprise\2.2.15.5\accellence.vimaccEnterprise.locale.de-DE.yaml
+2026-01-24 12:01:59.632 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\accellence\vimaccEnterprise\2.2.15.5\accellence.vimaccEnterprise.locale.de-DE.yaml
+2026-01-24 12:01:59.777 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\accellence\vimaccEnterprise\2.2.15.5\accellence.vimaccEnterprise.locale.en-US.yaml
+2026-01-24 12:01:59.782 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\accellence\vimaccEnterprise\2.2.15.5\accellence.vimaccEnterprise.locale.en-US.yaml
+2026-01-24 12:01:59.928 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\a\accellence\vimaccEnterprise\2.2.15.5\accellence.vimaccEnterprise.yaml
+2026-01-24 12:01:59.933 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\a\accellence\vimaccEnterprise\2.2.15.5\accellence.vimaccEnterprise.yaml
+2026-01-24 12:03:13.210 INFO Manifest validation succeeded with "sundry validate".
+2026-01-24 12:03:13.212 INFO   Staging and Committing Changes to Git
+2026-01-24 12:03:38.129 INFO     Commit message: Modify: accellence.vimaccEnterprise version 2.2.15.5 (Auto)
+2026-01-24 12:03:38.131 INFO   Pushing changes to remote (origin) repository
+2026-01-24 12:03:42.687 INFO     Successfully pushed to remote (origin): Modify-S-accellence.vimaccEnterprise-2.2.15.5-1769227277
+2026-01-24 12:03:46.156 INFO     Pull request created successfully: https://github.com/microsoft/winget-pkgs/pull/333406
+2026-01-24 12:03:46.160 INFO All manifests have been modified and pushed through.
+2026-01-24 12:04:04.991 INFO Workspace clean-up completed.
+~~ End of logging ~~
