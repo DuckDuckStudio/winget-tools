@@ -1,0 +1,76 @@
+~~ Start logging ~~
+2026-01-26 21:25:48.749 FUN |･ω･｀)
+2026-01-26 21:25:48.778 INFO Found the following version folder: ['1.0.1', '1.0.10', '1.0.11', '1.0.2', '1.0.3', '1.0.4', '1.0.5', '1.0.6', '1.0.7', '1.0.8', '1.0.9', '1.1.0', '1.1.1', '1.1.10', '1.1.11', '1.1.12', '1.1.13', '1.1.14', '1.1.2', '1.1.3', '1.1.4', '1.1.6', '1.1.7', '1.1.8', '1.1.9', '1.2.0', '1.2.1', '1.2.2', '1.2.3', '1.2.4', '1.2.5', '1.2.6', '1.2.7', '1.2.8', '1.2.9', '1.3.0', '1.3.1', '1.3.2', '1.3.3', '1.3.4', '1.3.5', '1.3.6', '1.3.7', '1.3.8', '1.3.9', '1.4.0', '1.4.1', '1.4.2', '1.4.3', '1.5.0', '1.5.1', '1.5.2', '1.6.0', '1.6.1', '1.6.2']
+2026-01-26 21:25:48.786 INFO Skip version 1.0.1, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.788 INFO Skip version 1.0.10, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.789 INFO Skip version 1.0.11, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.792 INFO Skip version 1.0.2, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.793 INFO Skip version 1.0.3, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.795 INFO Skip version 1.0.4, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.796 INFO Skip version 1.0.5, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.797 INFO Skip version 1.0.6, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.798 INFO Skip version 1.0.7, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.799 INFO Skip version 1.0.8, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.800 INFO Skip version 1.0.9, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.801 INFO Skip version 1.1.0, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.802 INFO Skip version 1.1.1, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.803 INFO Skip version 1.1.10, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.805 INFO Skip version 1.1.11, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.806 INFO Skip version 1.1.12, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.808 INFO Skip version 1.1.13, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.810 INFO Skip version 1.1.14, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.811 INFO Skip version 1.1.2, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.812 INFO Skip version 1.1.3, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.814 INFO Skip version 1.1.4, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.815 INFO Skip version 1.1.6, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.816 INFO Skip version 1.1.7, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.817 INFO Skip version 1.1.8, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.818 INFO Skip version 1.1.9, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.819 INFO Skip version 1.2.0, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.820 INFO Skip version 1.2.1, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.821 INFO Skip version 1.2.2, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.823 INFO Skip version 1.2.3, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.826 INFO Skip version 1.2.4, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.827 INFO Skip version 1.2.5, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.829 INFO Skip version 1.2.6, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.830 INFO Skip version 1.2.7, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.832 INFO Skip version 1.2.8, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.833 INFO Skip version 1.2.9, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.834 INFO Skip version 1.3.0, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.835 INFO Skip version 1.3.1, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.836 INFO Skip version 1.3.2, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.837 INFO Skip version 1.3.3, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.838 INFO Skip version 1.3.4, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.839 INFO Skip version 1.3.5, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.841 INFO Skip version 1.3.6, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.843 INFO Skip version 1.3.7, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.845 INFO Skip version 1.3.8, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.847 INFO Skip version 1.3.9, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.848 INFO Skip version 1.4.0, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.849 INFO Skip version 1.4.1, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.850 INFO Skip version 1.4.2, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.851 INFO Skip version 1.4.3, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.852 INFO Skip version 1.5.0, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.853 INFO Skip version 1.5.1, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.854 INFO Skip version 1.5.2, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.855 INFO Skip version 1.6.0, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.856 INFO Skip version 1.6.1, because it's not in the list of versions to be modified.
+2026-01-26 21:25:48.859 INFO Processing version folder: 1.6.2
+2026-01-26 21:25:48.861 INFO   Create and checkout to a new branch: New-Version-DuckStudio.Sundry-1.6.2-1769433948
+2026-01-26 21:26:08.796 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.6.2\DuckStudio.Sundry.installer.yaml
+2026-01-26 21:26:08.800 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.6.2\DuckStudio.Sundry.installer.yaml
+2026-01-26 21:26:09.180 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.6.2\DuckStudio.Sundry.locale.en-US.yaml
+2026-01-26 21:26:09.265 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.6.2\DuckStudio.Sundry.locale.en-US.yaml
+2026-01-26 21:26:09.168 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.6.2\DuckStudio.Sundry.locale.zh-CN.yaml
+2026-01-26 21:26:09.172 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.6.2\DuckStudio.Sundry.locale.zh-CN.yaml
+2026-01-26 21:26:09.324 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.6.2\DuckStudio.Sundry.yaml
+2026-01-26 21:26:09.329 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.6.2\DuckStudio.Sundry.yaml
+2026-01-26 21:26:09.543 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.6.2 for DuckStudio.Sundry (1.6.2)
+2026-01-26 21:27:29.235 INFO Manifest validation succeeded with "sundry validate".
+2026-01-26 21:27:29.237 INFO   Staging and Committing Changes to Git
+2026-01-26 21:27:46.960 INFO     Commit message: New version: DuckStudio.Sundry version 1.6.2 (Auto)
+2026-01-26 21:30:43.495 INFO   Pushing changes to remote (origin) repository
+2026-01-26 21:30:47.878 INFO     Successfully pushed to remote (origin): New-Version-DuckStudio.Sundry-1.6.2-1769433948
+2026-01-26 21:30:52.257 INFO All manifests have been modified and pushed through.
+2026-01-26 21:31:07.118 INFO Workspace clean-up completed.
+~~ End of logging ~~
