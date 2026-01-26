@@ -1,0 +1,31 @@
+~~ Start logging ~~
+2026-01-26 11:10:54.246 FUN 不懂就问，我要问什么？
+2026-01-26 11:10:54.318 INFO Found the following version folder: ['21.0.20', '21.0.40', '21.0.45', '21.0.50', '21.1.0', '21.2.0', '21.3.0', '21.4.0', '21.5.0', '21.6.0', '21.6.1', '21.7.0', '21.8.0']
+2026-01-26 11:10:54.792 INFO Skip version 21.0.20, because it's not in the list of versions to be modified.
+2026-01-26 11:10:54.820 INFO Skip version 21.0.40, because it's not in the list of versions to be modified.
+2026-01-26 11:10:54.849 INFO Skip version 21.0.45, because it's not in the list of versions to be modified.
+2026-01-26 11:10:54.910 INFO Processing version folder: 21.0.50
+2026-01-26 11:10:54.931 INFO   Create and checkout to a new branch: Modify-S-Bluebeam.Revu.21-21.0.50-1769397054
+2026-01-26 11:11:30.407 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Bluebeam\Revu\21\21.0.50\Bluebeam.Revu.21.installer.yaml
+2026-01-26 11:11:30.411 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Bluebeam\Revu\21\21.0.50\Bluebeam.Revu.21.installer.yaml
+2026-01-26 11:11:30.659 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Bluebeam\Revu\21\21.0.50\Bluebeam.Revu.21.locale.en-US.yaml
+2026-01-26 11:11:30.663 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Bluebeam\Revu\21\21.0.50\Bluebeam.Revu.21.locale.en-US.yaml
+2026-01-26 11:11:30.804 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\b\Bluebeam\Revu\21\21.0.50\Bluebeam.Revu.21.yaml
+2026-01-26 11:11:30.808 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\b\Bluebeam\Revu\21\21.0.50\Bluebeam.Revu.21.yaml
+2026-01-26 11:17:24.949 INFO Manifest validation succeeded with "sundry validate".
+2026-01-26 11:17:24.950 INFO   Staging and Committing Changes to Git
+2026-01-26 11:18:06.999 INFO     Commit message: Modify: Bluebeam.Revu.21 version 21.0.50 (Auto)
+2026-01-26 11:18:07.739 INFO   Pushing changes to remote (origin) repository
+2026-01-26 11:28:53.567 INFO     Successfully pushed to remote (origin): Modify-S-Bluebeam.Revu.21-21.0.50-1769397054
+2026-01-26 11:28:57.434 INFO Skip version 21.1.0, because it's not in the list of versions to be modified.
+2026-01-26 11:28:57.437 INFO Skip version 21.2.0, because it's not in the list of versions to be modified.
+2026-01-26 11:28:57.440 INFO Skip version 21.3.0, because it's not in the list of versions to be modified.
+2026-01-26 11:28:57.442 INFO Skip version 21.4.0, because it's not in the list of versions to be modified.
+2026-01-26 11:28:57.445 INFO Skip version 21.5.0, because it's not in the list of versions to be modified.
+2026-01-26 11:28:57.447 INFO Skip version 21.6.0, because it's not in the list of versions to be modified.
+2026-01-26 11:28:57.450 INFO Skip version 21.6.1, because it's not in the list of versions to be modified.
+2026-01-26 11:28:57.452 INFO Skip version 21.7.0, because it's not in the list of versions to be modified.
+2026-01-26 11:28:57.455 INFO Skip version 21.8.0, because it's not in the list of versions to be modified.
+2026-01-26 11:28:57.458 INFO All manifests have been modified and pushed through.
+2026-01-26 11:29:11.212 INFO Workspace clean-up completed.
+~~ End of logging ~~
