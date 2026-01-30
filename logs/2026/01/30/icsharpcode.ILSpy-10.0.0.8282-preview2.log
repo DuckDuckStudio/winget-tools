@@ -1,0 +1,27 @@
+~~ Start logging ~~
+2026-01-30 14:25:54.605 FUN Never Gonna Give You Up!
+2026-01-30 14:25:54.610 INFO Found the following version folder: ['10.0.0.8282-preview2', '7.2.0.6791', '7.2.0.6839', '7.2.1.6856', '8.0.0.7345', '8.1.1.7464', '8.2.0.7535', '9.0.0.7889', '9.1.0.7988']
+2026-01-30 14:25:54.612 INFO Processing version folder: 10.0.0.8282-preview2
+2026-01-30 14:25:54.615 INFO   Create and checkout to a new branch: Modify-S-icsharpcode.ILSpy-10.0.0.8282-preview2-1769754354
+2026-01-30 14:26:35.743 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\i\icsharpcode\ILSpy\10.0.0.8282-preview2\icsharpcode.ILSpy.installer.yaml
+2026-01-30 14:26:35.748 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\i\icsharpcode\ILSpy\10.0.0.8282-preview2\icsharpcode.ILSpy.installer.yaml
+2026-01-30 14:26:38.247 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\i\icsharpcode\ILSpy\10.0.0.8282-preview2\icsharpcode.ILSpy.locale.en-US.yaml
+2026-01-30 14:26:38.254 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\i\icsharpcode\ILSpy\10.0.0.8282-preview2\icsharpcode.ILSpy.locale.en-US.yaml
+2026-01-30 14:26:38.395 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\i\icsharpcode\ILSpy\10.0.0.8282-preview2\icsharpcode.ILSpy.yaml
+2026-01-30 14:26:38.399 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\i\icsharpcode\ILSpy\10.0.0.8282-preview2\icsharpcode.ILSpy.yaml
+2026-01-30 14:35:03.384 INFO Manifest validation succeeded with "sundry validate".
+2026-01-30 14:35:03.386 INFO   Staging and Committing Changes to Git
+2026-01-30 14:35:24.533 INFO     Commit message: Modify: icsharpcode.ILSpy version 10.0.0.8282-preview2 (Auto)
+2026-01-30 14:35:24.535 INFO   Pushing changes to remote (origin) repository
+2026-01-30 14:35:28.835 INFO     Successfully pushed to remote (origin): Modify-S-icsharpcode.ILSpy-10.0.0.8282-preview2-1769754354
+2026-01-30 14:35:34.960 VERBOSE Skip version 7.2.0.6791, because it's not in the list of versions to be modified.
+2026-01-30 14:35:34.976 VERBOSE Skip version 7.2.0.6839, because it's not in the list of versions to be modified.
+2026-01-30 14:35:34.987 VERBOSE Skip version 7.2.1.6856, because it's not in the list of versions to be modified.
+2026-01-30 14:35:34.101 VERBOSE Skip version 8.0.0.7345, because it's not in the list of versions to be modified.
+2026-01-30 14:35:34.103 VERBOSE Skip version 8.1.1.7464, because it's not in the list of versions to be modified.
+2026-01-30 14:35:34.104 VERBOSE Skip version 8.2.0.7535, because it's not in the list of versions to be modified.
+2026-01-30 14:35:34.105 VERBOSE Skip version 9.0.0.7889, because it's not in the list of versions to be modified.
+2026-01-30 14:35:34.106 VERBOSE Skip version 9.1.0.7988, because it's not in the list of versions to be modified.
+2026-01-30 14:35:34.107 INFO All manifests have been modified and pushed through.
+2026-01-30 14:35:43.214 INFO Workspace clean-up completed.
+~~ End of logging ~~
