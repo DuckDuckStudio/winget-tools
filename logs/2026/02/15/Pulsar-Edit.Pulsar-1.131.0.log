@@ -1,0 +1,31 @@
+~~ Start logging ~~
+2026-02-15 15:29:33.993 FUN 【设计大冰冰🧊】https://www.bilibili.com/video/BV1BokqYmEyr/
+2026-02-15 15:29:34.211 INFO Found the following version folder: ['1.105.0', '1.106.0', '1.113.0', '1.114.0', '1.124.0', '1.125.0', '1.127.1', '1.128.0', '1.129.0', '1.130.0', '1.130.1', '1.131.0']
+2026-02-15 15:29:34.427 VERBOSE Skip version 1.105.0, because it's not in the list of versions to be modified.
+2026-02-15 15:29:34.629 VERBOSE Skip version 1.106.0, because it's not in the list of versions to be modified.
+2026-02-15 15:29:34.857 VERBOSE Skip version 1.113.0, because it's not in the list of versions to be modified.
+2026-02-15 15:29:34.107 VERBOSE Skip version 1.114.0, because it's not in the list of versions to be modified.
+2026-02-15 15:29:34.126 VERBOSE Skip version 1.124.0, because it's not in the list of versions to be modified.
+2026-02-15 15:29:34.153 VERBOSE Skip version 1.125.0, because it's not in the list of versions to be modified.
+2026-02-15 15:29:34.176 VERBOSE Skip version 1.127.1, because it's not in the list of versions to be modified.
+2026-02-15 15:29:34.195 VERBOSE Skip version 1.128.0, because it's not in the list of versions to be modified.
+2026-02-15 15:29:34.214 VERBOSE Skip version 1.129.0, because it's not in the list of versions to be modified.
+2026-02-15 15:29:34.234 VERBOSE Skip version 1.130.0, because it's not in the list of versions to be modified.
+2026-02-15 15:29:34.255 VERBOSE Skip version 1.130.1, because it's not in the list of versions to be modified.
+2026-02-15 15:29:34.270 INFO Processing version folder: 1.131.0
+2026-02-15 15:29:34.284 INFO   Create and checkout to a new branch: New-Version-Pulsar-Edit.Pulsar-1.131.0-1771140574
+2026-02-15 15:29:45.706 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.131.0\Pulsar-Edit.Pulsar.installer.yaml
+2026-02-15 15:29:45.711 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.131.0\Pulsar-Edit.Pulsar.installer.yaml
+2026-02-15 15:29:46.345 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.131.0\Pulsar-Edit.Pulsar.locale.en-US.yaml
+2026-02-15 15:29:46.391 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.131.0\Pulsar-Edit.Pulsar.locale.en-US.yaml
+2026-02-15 15:29:46.214 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.131.0\Pulsar-Edit.Pulsar.yaml
+2026-02-15 15:29:46.218 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.131.0\Pulsar-Edit.Pulsar.yaml
+2026-02-15 15:29:46.394 INFO   New manifests in D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.131.0 for Pulsar-Edit.Pulsar (1.131.0)
+2026-02-15 15:56:42.157 INFO Manifest validation succeeded with "sundry validate".
+2026-02-15 15:56:42.161 INFO   Staging and Committing Changes to Git
+2026-02-15 15:57:25.649 INFO     Commit message: New version: Pulsar-Edit.Pulsar version 1.131.0 (Auto)
+2026-02-15 16:09:46.949 INFO   Pushing changes to remote (origin) repository
+2026-02-15 16:09:52.920 INFO     Successfully pushed to remote (origin): New-Version-Pulsar-Edit.Pulsar-1.131.0-1771140574
+2026-02-15 16:09:58.498 INFO All manifests have been modified and pushed through.
+2026-02-15 16:10:08.990 INFO Workspace clean-up completed.
+~~ End of logging ~~
