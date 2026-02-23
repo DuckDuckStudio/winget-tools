@@ -1,0 +1,20 @@
+~~ Start logging ~~
+2026-02-24 07:41:56.613 FUN 每天老板催，砍树被熊追
+2026-02-24 07:41:56.615 INFO Found the following version folder: ['v2.0.0-preview.120']
+2026-02-24 07:41:56.617 INFO Processing version folder: v2.0.0-preview.120
+2026-02-24 07:41:56.618 INFO   Create and checkout to a new branch: New-Version-dbtLabs.dbtFusion-v2.0.0-preview.120-1771890116
+2026-02-24 07:42:11.139 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\dbtLabs\dbtFusion\v2.0.0-preview.120\dbtLabs.dbtFusion.installer.yaml
+2026-02-24 07:42:11.143 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\dbtLabs\dbtFusion\v2.0.0-preview.120\dbtLabs.dbtFusion.installer.yaml
+2026-02-24 07:42:11.395 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\dbtLabs\dbtFusion\v2.0.0-preview.120\dbtLabs.dbtFusion.locale.en-US.yaml
+2026-02-24 07:42:11.402 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\dbtLabs\dbtFusion\v2.0.0-preview.120\dbtLabs.dbtFusion.locale.en-US.yaml
+2026-02-24 07:42:11.516 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\dbtLabs\dbtFusion\v2.0.0-preview.120\dbtLabs.dbtFusion.yaml
+2026-02-24 07:42:11.519 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\dbtLabs\dbtFusion\v2.0.0-preview.120\dbtLabs.dbtFusion.yaml
+2026-02-24 07:42:11.626 INFO   New manifests in D:\...\winget-pkgs\manifests\d\dbtLabs\dbtFusion\v2.0.0-preview.120 for dbtLabs.dbtFusion (v2.0.0-preview.120)
+2026-02-24 07:47:11.815 INFO Manifest validation succeeded with "sundry validate".
+2026-02-24 07:47:11.816 INFO   Staging and Committing Changes to Git
+2026-02-24 07:47:32.165 INFO     Commit message: New version: dbtLabs.dbtFusion version v2.0.0-preview.120 (Auto)
+2026-02-24 07:48:16.803 INFO   Pushing changes to remote (origin) repository
+2026-02-24 07:48:20.665 INFO     Successfully pushed to remote (origin): New-Version-dbtLabs.dbtFusion-v2.0.0-preview.120-1771890116
+2026-02-24 07:48:25.714 INFO All manifests have been modified and pushed through.
+2026-02-24 07:48:37.681 INFO Workspace clean-up completed.
+~~ End of logging ~~
