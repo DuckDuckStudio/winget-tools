@@ -1,0 +1,45 @@
+~~ Start logging ~~
+2026-02-25 14:37:05.900 FUN 师傅，你是做什么工作的？
+2026-02-25 14:37:05.909 INFO Found the following version folder: ['2024.06.24.2036', '2024.06.30.1356', '2024.07.02.1330', '2024.07.03.0000', '2024.07.25.2030', '2024.08.01.0000', '2024.09.08.2000', '2024.09.26.2000', '2024.10.01.0630', '2024.11.27.2000', '2025.01.02.2300', '2025.02.03.2358', '2025.02.09.1314', '2025.02.14.1314', '2025.02.20.1150', '2025.03.17.1640', '2025.07.16.2048', '2026.2.25.1340']
+2026-02-25 14:37:05.912 VERBOSE Skip version 2024.06.24.2036, because it's not in the list of versions to be modified.
+2026-02-25 14:37:05.950 VERBOSE Skip version 2024.06.30.1356, because it's not in the list of versions to be modified.
+2026-02-25 14:37:05.953 VERBOSE Skip version 2024.07.02.1330, because it's not in the list of versions to be modified.
+2026-02-25 14:37:05.957 VERBOSE Skip version 2024.07.03.0000, because it's not in the list of versions to be modified.
+2026-02-25 14:37:05.960 VERBOSE Skip version 2024.07.25.2030, because it's not in the list of versions to be modified.
+2026-02-25 14:37:05.963 VERBOSE Skip version 2024.08.01.0000, because it's not in the list of versions to be modified.
+2026-02-25 14:37:05.968 VERBOSE Skip version 2024.09.08.2000, because it's not in the list of versions to be modified.
+2026-02-25 14:37:05.972 VERBOSE Skip version 2024.09.26.2000, because it's not in the list of versions to be modified.
+2026-02-25 14:37:05.975 VERBOSE Skip version 2024.10.01.0630, because it's not in the list of versions to be modified.
+2026-02-25 14:37:05.978 VERBOSE Skip version 2024.11.27.2000, because it's not in the list of versions to be modified.
+2026-02-25 14:37:05.984 VERBOSE Skip version 2025.01.02.2300, because it's not in the list of versions to be modified.
+2026-02-25 14:37:05.987 VERBOSE Skip version 2025.02.03.2358, because it's not in the list of versions to be modified.
+2026-02-25 14:37:05.989 VERBOSE Skip version 2025.02.09.1314, because it's not in the list of versions to be modified.
+2026-02-25 14:37:05.992 VERBOSE Skip version 2025.02.14.1314, because it's not in the list of versions to be modified.
+2026-02-25 14:37:05.994 VERBOSE Skip version 2025.02.20.1150, because it's not in the list of versions to be modified.
+2026-02-25 14:37:05.998 VERBOSE Skip version 2025.03.17.1640, because it's not in the list of versions to be modified.
+2026-02-25 14:37:06.212 VERBOSE Skip version 2025.07.16.2048, because it's not in the list of versions to be modified.
+2026-02-25 14:37:06.441 INFO Processing version folder: 2026.2.25.1340
+2026-02-25 14:37:06.690 INFO   Create and checkout to a new branch: New-Version-DuckStudio.FufuDevTools-2026.2.25.1340-1772001426
+2026-02-25 14:37:15.469 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2026.2.25.1340\DuckStudio.FufuDevTools.installer.yaml
+2026-02-25 14:37:15.473 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2026.2.25.1340\DuckStudio.FufuDevTools.installer.yaml
+2026-02-25 14:37:15.781 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2026.2.25.1340\DuckStudio.FufuDevTools.locale.en-GB.yaml
+2026-02-25 14:37:15.786 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2026.2.25.1340\DuckStudio.FufuDevTools.locale.en-GB.yaml
+2026-02-25 14:37:15.900 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2026.2.25.1340\DuckStudio.FufuDevTools.locale.en-US.yaml
+2026-02-25 14:37:15.904 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2026.2.25.1340\DuckStudio.FufuDevTools.locale.en-US.yaml
+2026-02-25 14:37:16.266 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2026.2.25.1340\DuckStudio.FufuDevTools.locale.ja-JP.yaml
+2026-02-25 14:37:16.305 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2026.2.25.1340\DuckStudio.FufuDevTools.locale.ja-JP.yaml
+2026-02-25 14:37:16.144 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2026.2.25.1340\DuckStudio.FufuDevTools.locale.zh-CN.yaml
+2026-02-25 14:37:16.148 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2026.2.25.1340\DuckStudio.FufuDevTools.locale.zh-CN.yaml
+2026-02-25 14:37:16.273 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2026.2.25.1340\DuckStudio.FufuDevTools.locale.zh-TW.yaml
+2026-02-25 14:37:16.278 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2026.2.25.1340\DuckStudio.FufuDevTools.locale.zh-TW.yaml
+2026-02-25 14:37:16.433 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2026.2.25.1340\DuckStudio.FufuDevTools.yaml
+2026-02-25 14:37:16.437 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2026.2.25.1340\DuckStudio.FufuDevTools.yaml
+2026-02-25 14:37:16.684 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\FufuDevTools\2026.2.25.1340 for DuckStudio.FufuDevTools (2026.2.25.1340)
+2026-02-25 14:38:42.908 INFO Manifest validation succeeded with "sundry validate".
+2026-02-25 14:38:42.909 INFO   Staging and Committing Changes to Git
+2026-02-25 14:39:01.804 INFO     Commit message: New version: DuckStudio.FufuDevTools version 2026.2.25.1340 (Auto)
+2026-02-25 14:39:34.374 INFO   Pushing changes to remote (origin) repository
+2026-02-25 14:39:39.220 INFO     Successfully pushed to remote (origin): New-Version-DuckStudio.FufuDevTools-2026.2.25.1340-1772001426
+2026-02-25 14:39:43.852 INFO All manifests have been modified and pushed through.
+2026-02-25 14:39:56.188 INFO Workspace clean-up completed.
+~~ End of logging ~~
