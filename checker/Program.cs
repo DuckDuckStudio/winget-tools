@@ -55,6 +55,7 @@ namespace checker
             "https://aurorabuilder.com/downloads/Aurora%20Setup.zip", // 假400
             "https://developer.arm.com/", // Client Challenge
                 "https://sf1-cdn-tos.douyinstatic.com/obj/microapp/frontend/ide/package/obj/developer/ide/", "https://git.mylloon.fr/", // 反爬
+                "https://release.axocdn.com/windows/GitKrakenSetup", // 未找到替代链接
         ];
 
         static async Task<int> Main(string[] args)
