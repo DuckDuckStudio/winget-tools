@@ -1,0 +1,295 @@
+$ sundry move Chill-Astro.MsixCertImportTool Chill-Astro.TMM
+WARN 这只是一个还未完善的脚本! 请谨慎使用
+Already on 'master'
+INFO 已签出到 master 分支
+From https://github.com/microsoft/winget-pkgs
+   4b4c17502df..b11b0363751  master     -> upstream/master
+INFO 已获取上游修改
+INFO 已获取远程修改
+Successfully rebased and updated refs/heads/master.
+INFO 已变基上游修改
+remote: Bypassed rule violations for refs/heads/master:
+remote:
+remote: - Changes must be made through a pull request.
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+   4b4c17502df..b11b0363751  master -> master
+INFO 已推送到远程
+✓ 同步完成
+INFO 正在处理版本 1.0 ...
+INFO 复制 manifests\c\Chill-Astro\MsixCertImportTool\1.0 -> manifests\c\Chill-Astro\TMM\1.0
+INFO 更新清单...
+INFO 重命名 manifests\c\Chill-Astro\TMM\1.0\Chill-Astro.MsixCertImportTool.installer.yaml -> manifests\c\Chill-Astro\TMM\1.0\Chill-Astro.TMM.installer.yaml
+INFO 更新清单中的标识符: replace Chill-Astro.MsixCertImportTool -> Chill-Astro.TMM
+INFO 更新仓库 Chill-Astro/MsixCertImportTool -> Chill-Astro/Trust-My-Msix
+INFO 格式化清单
+更新 ManifestVersion: 1.9.0 -> 1.12.0
+更新 schema 引用: 1.9.0.schema.json -> 1.12.0.schema.json
+INFO 写回清单
+INFO 更新清单...
+INFO 重命名 manifests\c\Chill-Astro\TMM\1.0\Chill-Astro.MsixCertImportTool.locale.en-US.yaml -> manifests\c\Chill-Astro\TMM\1.0\Chill-Astro.TMM.locale.en-US.yaml
+INFO 更新清单中的标识符: replace Chill-Astro.MsixCertImportTool -> Chill-Astro.TMM
+INFO 更新仓库 Chill-Astro/MsixCertImportTool -> Chill-Astro/Trust-My-Msix
+INFO 格式化清单
+更新 ManifestVersion: 1.9.0 -> 1.12.0
+更新 schema 引用: 1.9.0.schema.json -> 1.12.0.schema.json
+INFO 写回清单
+INFO 更新清单...
+INFO 重命名 manifests\c\Chill-Astro\TMM\1.0\Chill-Astro.MsixCertImportTool.yaml -> manifests\c\Chill-Astro\TMM\1.0\Chill-Astro.TMM.yaml
+INFO 更新清单中的标识符: replace Chill-Astro.MsixCertImportTool -> Chill-Astro.TMM
+INFO 更新仓库 Chill-Astro/MsixCertImportTool -> Chill-Astro/Trust-My-Msix
+INFO 格式化清单
+更新 ManifestVersion: 1.9.0 -> 1.12.0
+更新 schema 引用: 1.9.0.schema.json -> 1.12.0.schema.json
+INFO 写回清单
+Hint 运行 sundry update Chill-Astro.TMM 1.0 "Moved from Chill-Astro.MsixCertImportTool version 1.0."
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+Already up to date.
+Switched to a new branch 'Chill-Astro.TMM-1.0.log'
+找到以下版本文件夹: ['1.0']
+
+正在处理版本文件夹: 1.0
+  创建并切换到新分支: New-Version-Chill-Astro.TMM-1.0-1772541400
+Already on 'master'
+Switched to a new branch 'New-Version-Chill-Astro.TMM-1.0-1772541400'
+  正在处理文件: D:\...\winget-pkgs\manifests\c\Chill-Astro\TMM\1.0\Chill-Astro.TMM.installer.yaml
+  修改后的文件已保存: D:\...\winget-pkgs\manifests\c\Chill-Astro\TMM\1.0\Chill-Astro.TMM.installer.yaml
+  正在处理文件: D:\...\winget-pkgs\manifests\c\Chill-Astro\TMM\1.0\Chill-Astro.TMM.locale.en-US.yaml
+  修改后的文件已保存: D:\...\winget-pkgs\manifests\c\Chill-Astro\TMM\1.0\Chill-Astro.TMM.locale.en-US.yaml
+
+  正在处理文件: D:\...\winget-pkgs\manifests\c\Chill-Astro\TMM\1.0\Chill-Astro.TMM.yaml
+  修改后的文件已保存: D:\...\winget-pkgs\manifests\c\Chill-Astro\TMM\1.0\Chill-Astro.TMM.yaml
+
+  修改完后按 Enter 键继续...
+
+  验证清单修改
+清单验证成功。
+DEBUG 读取缓存 validate.schema.installer.1.12.0, 位置 D:\Temp\Sundry\Cache\Validate\ManifestSchema\1.12.0\installer.json
+DEBUG 读取缓存 validate.schema.defaultLocale.1.12.0, 位置 D:\Temp\Sundry\Cache\Validate\ManifestSchema\1.12.0\defaultLocale.json
+DEBUG 读取缓存 validate.schema.version.1.12.0, 位置 D:\Temp\Sundry\Cache\Validate\ManifestSchema\1.12.0\version.json
+✓ 清单验证成功
+  清单验证成功
+  暂存并提交更改到 Git
+[New-Version-Chill-Astro.TMM-1.0-1772541400 cd6ec716c6e] New version: Chill-Astro.TMM version 1.0 (Auto)
+ 3 files changed, 52 insertions(+)
+ create mode 100644 manifests/c/Chill-Astro/TMM/1.0/Chill-Astro.TMM.installer.yaml
+ create mode 100644 manifests/c/Chill-Astro/TMM/1.0/Chill-Astro.TMM.locale.en-US.yaml
+ create mode 100644 manifests/c/Chill-Astro/TMM/1.0/Chill-Astro.TMM.yaml
+    提交信息: New version: Chill-Astro.TMM version 1.0 (Auto)
+  尝试变基更新分支
+Current branch New-Version-Chill-Astro.TMM-1.0-1772541400 is up to date.
+  推送更改到远程仓库
+remote:
+remote: Create a pull request for 'New-Version-Chill-Astro.TMM-1.0-1772541400' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/New-Version-Chill-Astro.TMM-1.0-1772541400
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              New-Version-Chill-Astro.TMM-1.0-1772541400 -> New-Version-Chill-Astro.TMM-1.0-1772541400
+    推送到远程成功: New-Version-Chill-Astro.TMM-1.0-1772541400
+✓ 拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/344814
+
+所有版本清单已修改并推送完成。
+Switched to branch 'master'
+Deleted branch New-Version-Chill-Astro.TMM-1.0-1772541400 (was cd6ec716c6e).
+工作区清理完成。
+INFO 日志已关闭，正在退出...
+INFO  已将日志转存本地
+INFO  已暂存日志文件
+[Chill-Astro.TMM-1.0.log ee8ca4c] [Auto] 自动化日志 logs/2026/03/03/Chill-Astro.TMM-1.0.log
+ 1 file changed, 20 insertions(+)
+ create mode 100644 logs/2026/03/03/Chill-Astro.TMM-1.0.log
+INFO  已提交日志文件: [Auto] 自动化日志 logs/2026/03/03/Chill-Astro.TMM-1.0.log
+branch 'Chill-Astro.TMM-1.0.log' set up to track 'origin/Chill-Astro.TMM-1.0.log'.
+remote:
+remote: Create a pull request for 'Chill-Astro.TMM-1.0.log' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-tools/pull/new/Chill-Astro.TMM-1.0.log
+remote:
+To https://github.com/DuckDuckStudio/winget-tools.git
+ * [new branch]      Chill-Astro.TMM-1.0.log -> Chill-Astro.TMM-1.0.log
+INFO  已推送日志文件分支: Chill-Astro.TMM-1.0.log
+日志拉取请求创建成功: https://github.com/DuckDuckStudio/winget-tools/pull/713
+https://github.com/DuckDuckStudio/winget-tools/pull/713
+✓ Pull request DuckDuckStudio/winget-tools#713 will be automatically merged via squash when all requirements are met
+日志拉取请求处理成功: https://github.com/DuckDuckStudio/winget-tools/pull/713
+日志提交完成
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+Deleted branch Chill-Astro.TMM-1.0.log (was ee8ca4c).
+winget-tools仓库清理完成
+✓ 成功更新 Chill-Astro.TMM 版本 1.0 。
+Hint 运行 sundry remove Chill-Astro.MsixCertImportTool 1.0 True "Move to Chill-Astro.TMM."
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+INFO 已签出到 master 分支
+INFO 已获取上游修改
+INFO 已获取远程修改
+Current branch master is up to date.
+INFO 已变基上游修改
+Everything up-to-date
+INFO 已推送到远程
+✓ 同步完成
+Switched to a new branch 'Remove-Chill-Astro.MsixCertImportTool-1.0-1772541558'
+  已签出新分支 Remove-Chill-Astro.MsixCertImportTool-1.0-1772541558
+  已移除包 Chill-Astro.MsixCertImportTool 版本 1.0
+[Remove-Chill-Astro.MsixCertImportTool-1.0-1772541558 22d606667da] Remove version: Chill-Astro.MsixCertImportTool version 1.0 (Auto)
+ 3 files changed, 52 deletions(-)
+ delete mode 100644 manifests/c/Chill-Astro/MsixCertImportTool/1.0/Chill-Astro.MsixCertImportTool.installer.yaml
+ delete mode 100644 manifests/c/Chill-Astro/MsixCertImportTool/1.0/Chill-Astro.MsixCertImportTool.locale.en-US.yaml
+ delete mode 100644 manifests/c/Chill-Astro/MsixCertImportTool/1.0/Chill-Astro.MsixCertImportTool.yaml
+  已提交修改
+branch 'Remove-Chill-Astro.MsixCertImportTool-1.0-1772541558' set up to track 'origin/Remove-Chill-Astro.MsixCertImportTool-1.0-1772541558'.
+remote:
+remote: Create a pull request for 'Remove-Chill-Astro.MsixCertImportTool-1.0-1772541558' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Chill-Astro.MsixCertImportTool-1.0-1772541558
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Chill-Astro.MsixCertImportTool-1.0-1772541558 -> Remove-Chill-Astro.MsixCertImportTool-1.0-1772541558
+  已推送修改
+✓ 拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/344815
+ 成功移除 Chill-Astro.MsixCertImportTool 版本 1.0
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Chill-Astro.MsixCertImportTool-1.0-1772541558 (was 22d606667da).
+工作区清理完成
+✓ 版本 1.0 处理完毕
+INFO 正在处理版本 1.1 ...
+INFO 复制 manifests\c\Chill-Astro\MsixCertImportTool\1.1 -> manifests\c\Chill-Astro\TMM\1.1
+INFO 更新清单...
+INFO 重命名 manifests\c\Chill-Astro\TMM\1.1\Chill-Astro.MsixCertImportTool.installer.yaml -> manifests\c\Chill-Astro\TMM\1.1\Chill-Astro.TMM.installer.yaml
+INFO 更新清单中的标识符: replace Chill-Astro.MsixCertImportTool -> Chill-Astro.TMM
+INFO 更新仓库 Chill-Astro/MsixCertImportTool -> Chill-Astro/Trust-My-Msix
+INFO 格式化清单
+更新 ManifestVersion: 1.10.0 -> 1.12.0
+更新 schema 引用: 1.10.0.schema.json -> 1.12.0.schema.json
+INFO 写回清单
+INFO 更新清单...
+INFO 重命名 manifests\c\Chill-Astro\TMM\1.1\Chill-Astro.MsixCertImportTool.locale.en-US.yaml -> manifests\c\Chill-Astro\TMM\1.1\Chill-Astro.TMM.locale.en-US.yaml
+INFO 更新清单中的标识符: replace Chill-Astro.MsixCertImportTool -> Chill-Astro.TMM
+INFO 更新仓库 Chill-Astro/MsixCertImportTool -> Chill-Astro/Trust-My-Msix
+INFO 格式化清单
+更新 ManifestVersion: 1.10.0 -> 1.12.0
+更新 schema 引用: 1.10.0.schema.json -> 1.12.0.schema.json
+INFO 写回清单
+INFO 更新清单...
+INFO 重命名 manifests\c\Chill-Astro\TMM\1.1\Chill-Astro.MsixCertImportTool.yaml -> manifests\c\Chill-Astro\TMM\1.1\Chill-Astro.TMM.yaml
+INFO 更新清单中的标识符: replace Chill-Astro.MsixCertImportTool -> Chill-Astro.TMM
+INFO 更新仓库 Chill-Astro/MsixCertImportTool -> Chill-Astro/Trust-My-Msix
+INFO 格式化清单
+更新 ManifestVersion: 1.10.0 -> 1.12.0
+更新 schema 引用: 1.10.0.schema.json -> 1.12.0.schema.json
+INFO 写回清单
+Hint 运行 sundry update Chill-Astro.TMM 1.1 "Moved from Chill-Astro.MsixCertImportTool version 1.1."
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+Already up to date.
+Switched to a new branch 'Chill-Astro.TMM-1.1.log'
+找到以下版本文件夹: ['1.1']
+
+正在处理版本文件夹: 1.1
+  创建并切换到新分支: New-Version-Chill-Astro.TMM-1.1-1772541599
+Already on 'master'
+Switched to a new branch 'New-Version-Chill-Astro.TMM-1.1-1772541599'
+  正在处理文件: D:\...\winget-pkgs\manifests\c\Chill-Astro\TMM\1.1\Chill-Astro.TMM.installer.yaml
+  修改后的文件已保存: D:\...\winget-pkgs\manifests\c\Chill-Astro\TMM\1.1\Chill-Astro.TMM.installer.yaml
+  正在处理文件: D:\...\winget-pkgs\manifests\c\Chill-Astro\TMM\1.1\Chill-Astro.TMM.locale.en-US.yaml
+  修改后的文件已保存: D:\...\winget-pkgs\manifests\c\Chill-Astro\TMM\1.1\Chill-Astro.TMM.locale.en-US.yaml
+
+  正在处理文件: D:\...\winget-pkgs\manifests\c\Chill-Astro\TMM\1.1\Chill-Astro.TMM.yaml
+  修改后的文件已保存: D:\...\winget-pkgs\manifests\c\Chill-Astro\TMM\1.1\Chill-Astro.TMM.yaml
+
+  修改完后按 Enter 键继续...
+
+  验证清单修改
+清单验证成功。
+DEBUG 读取缓存 validate.schema.installer.1.12.0, 位置 D:\Temp\Sundry\Cache\Validate\ManifestSchema\1.12.0\installer.json
+DEBUG 读取缓存 validate.schema.defaultLocale.1.12.0, 位置 D:\Temp\Sundry\Cache\Validate\ManifestSchema\1.12.0\defaultLocale.json
+DEBUG 读取缓存 validate.schema.version.1.12.0, 位置 D:\Temp\Sundry\Cache\Validate\ManifestSchema\1.12.0\version.json
+✓ 清单验证成功
+  清单验证成功
+  暂存并提交更改到 Git
+[New-Version-Chill-Astro.TMM-1.1-1772541599 14c822942b9] New version: Chill-Astro.TMM version 1.1 (Auto)
+ 3 files changed, 74 insertions(+)
+ create mode 100644 manifests/c/Chill-Astro/TMM/1.1/Chill-Astro.TMM.installer.yaml
+ create mode 100644 manifests/c/Chill-Astro/TMM/1.1/Chill-Astro.TMM.locale.en-US.yaml
+ create mode 100644 manifests/c/Chill-Astro/TMM/1.1/Chill-Astro.TMM.yaml
+    提交信息: New version: Chill-Astro.TMM version 1.1 (Auto)
+  尝试变基更新分支
+Current branch New-Version-Chill-Astro.TMM-1.1-1772541599 is up to date.
+  推送更改到远程仓库
+remote:
+remote: Create a pull request for 'New-Version-Chill-Astro.TMM-1.1-1772541599' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/New-Version-Chill-Astro.TMM-1.1-1772541599
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              New-Version-Chill-Astro.TMM-1.1-1772541599 -> New-Version-Chill-Astro.TMM-1.1-1772541599
+    推送到远程成功: New-Version-Chill-Astro.TMM-1.1-1772541599
+✓ 拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/344816
+
+所有版本清单已修改并推送完成。
+Switched to branch 'master'
+Deleted branch New-Version-Chill-Astro.TMM-1.1-1772541599 (was 14c822942b9).
+工作区清理完成。
+INFO 日志已关闭，正在退出...
+INFO  已将日志转存本地
+INFO  已暂存日志文件
+[Chill-Astro.TMM-1.1.log 9b27fdf] [Auto] 自动化日志 logs/2026/03/03/Chill-Astro.TMM-1.1.log
+ 1 file changed, 20 insertions(+)
+ create mode 100644 logs/2026/03/03/Chill-Astro.TMM-1.1.log
+INFO  已提交日志文件: [Auto] 自动化日志 logs/2026/03/03/Chill-Astro.TMM-1.1.log
+branch 'Chill-Astro.TMM-1.1.log' set up to track 'origin/Chill-Astro.TMM-1.1.log'.
+remote:
+remote: Create a pull request for 'Chill-Astro.TMM-1.1.log' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-tools/pull/new/Chill-Astro.TMM-1.1.log
+remote:
+To https://github.com/DuckDuckStudio/winget-tools.git
+ * [new branch]      Chill-Astro.TMM-1.1.log -> Chill-Astro.TMM-1.1.log
+INFO  已推送日志文件分支: Chill-Astro.TMM-1.1.log
+日志拉取请求创建成功: https://github.com/DuckDuckStudio/winget-tools/pull/714
+https://github.com/DuckDuckStudio/winget-tools/pull/714
+✓ Pull request DuckDuckStudio/winget-tools#714 will be automatically merged via squash when all requirements are met
+日志拉取请求处理成功: https://github.com/DuckDuckStudio/winget-tools/pull/714
+日志提交完成
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+Deleted branch Chill-Astro.TMM-1.1.log (was 9b27fdf).
+winget-tools仓库清理完成
+✓ 成功更新 Chill-Astro.TMM 版本 1.1 。
+Hint 运行 sundry remove Chill-Astro.MsixCertImportTool 1.1 True "Move to Chill-Astro.TMM."
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+INFO 已签出到 master 分支
+INFO 已获取上游修改
+INFO 已获取远程修改
+Current branch master is up to date.
+INFO 已变基上游修改
+Everything up-to-date
+INFO 已推送到远程
+✓ 同步完成
+Switched to a new branch 'Remove-Chill-Astro.MsixCertImportTool-1.1-1772541767'
+  已签出新分支 Remove-Chill-Astro.MsixCertImportTool-1.1-1772541767
+  已移除包 Chill-Astro.MsixCertImportTool 版本 1.1
+[Remove-Chill-Astro.MsixCertImportTool-1.1-1772541767 5cba55237d5] Remove version: Chill-Astro.MsixCertImportTool version 1.1 (Auto)
+ 3 files changed, 74 deletions(-)
+ delete mode 100644 manifests/c/Chill-Astro/MsixCertImportTool/1.1/Chill-Astro.MsixCertImportTool.installer.yaml
+ delete mode 100644 manifests/c/Chill-Astro/MsixCertImportTool/1.1/Chill-Astro.MsixCertImportTool.locale.en-US.yaml
+ delete mode 100644 manifests/c/Chill-Astro/MsixCertImportTool/1.1/Chill-Astro.MsixCertImportTool.yaml
+  已提交修改
+branch 'Remove-Chill-Astro.MsixCertImportTool-1.1-1772541767' set up to track 'origin/Remove-Chill-Astro.MsixCertImportTool-1.1-1772541767'.
+remote:
+remote: Create a pull request for 'Remove-Chill-Astro.MsixCertImportTool-1.1-1772541767' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-Chill-Astro.MsixCertImportTool-1.1-1772541767
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-Chill-Astro.MsixCertImportTool-1.1-1772541767 -> Remove-Chill-Astro.MsixCertImportTool-1.1-1772541767
+  已推送修改
+✓ 拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/344818
+ 成功移除 Chill-Astro.MsixCertImportTool 版本 1.1
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-Chill-Astro.MsixCertImportTool-1.1-1772541767 (was 5cba55237d5).
+工作区清理完成
+✓ 版本 1.1 处理完毕
+✓ 移动完毕!
