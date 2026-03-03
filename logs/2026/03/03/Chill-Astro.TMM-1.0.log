@@ -1,0 +1,20 @@
+~~ Start logging ~~
+2026-03-03 20:36:40.125 FUN 知其燃，而不知其所以燃
+2026-03-03 20:36:40.129 INFO Found the following version folder: ['1.0']
+2026-03-03 20:36:40.131 INFO Processing version folder: 1.0
+2026-03-03 20:36:40.133 INFO   Create and checkout to a new branch: New-Version-Chill-Astro.TMM-1.0-1772541400
+2026-03-03 20:36:57.917 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Chill-Astro\TMM\1.0\Chill-Astro.TMM.installer.yaml
+2026-03-03 20:36:57.921 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Chill-Astro\TMM\1.0\Chill-Astro.TMM.installer.yaml
+2026-03-03 20:36:58.151 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Chill-Astro\TMM\1.0\Chill-Astro.TMM.locale.en-US.yaml
+2026-03-03 20:36:58.156 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Chill-Astro\TMM\1.0\Chill-Astro.TMM.locale.en-US.yaml
+2026-03-03 20:36:58.296 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Chill-Astro\TMM\1.0\Chill-Astro.TMM.yaml
+2026-03-03 20:36:58.299 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Chill-Astro\TMM\1.0\Chill-Astro.TMM.yaml
+2026-03-03 20:36:58.456 INFO   New manifests in D:\...\winget-pkgs\manifests\c\Chill-Astro\TMM\1.0 for Chill-Astro.TMM (1.0)
+2026-03-03 20:37:26.882 INFO Manifest validation succeeded with "sundry validate".
+2026-03-03 20:37:26.883 INFO   Staging and Committing Changes to Git
+2026-03-03 20:37:45.929 INFO     Commit message: New version: Chill-Astro.TMM version 1.0 (Auto)
+2026-03-03 20:38:01.500 INFO   Pushing changes to remote (origin) repository
+2026-03-03 20:38:06.491 INFO     Successfully pushed to remote (origin): New-Version-Chill-Astro.TMM-1.0-1772541400
+2026-03-03 20:38:13.103 INFO All manifests have been modified and pushed through.
+2026-03-03 20:38:26.588 INFO Workspace clean-up completed.
+~~ End of logging ~~
