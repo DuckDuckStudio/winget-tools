@@ -1,0 +1,21 @@
+~~ Start logging ~~
+2026-03-06 20:11:55.202 FUN 左边是个人，右边是个民，他们就在人民中间搞破坏。
+2026-03-06 20:11:55.205 INFO Found the following version folder: ['1.2', '1.9']
+2026-03-06 20:11:55.207 INFO Processing version folder: 1.2
+2026-03-06 20:11:55.208 INFO   Create and checkout to a new branch: New-Version-Chill-Astro.PyCalc-1.2-1772799115
+2026-03-06 20:12:05.745 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Chill-Astro\PyCalc\1.2\Chill-Astro.PyCalc.installer.yaml
+2026-03-06 20:12:05.747 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Chill-Astro\PyCalc\1.2\Chill-Astro.PyCalc.installer.yaml
+2026-03-06 20:12:05.873 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Chill-Astro\PyCalc\1.2\Chill-Astro.PyCalc.locale.en-US.yaml
+2026-03-06 20:12:05.878 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Chill-Astro\PyCalc\1.2\Chill-Astro.PyCalc.locale.en-US.yaml
+2026-03-06 20:12:05.996 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Chill-Astro\PyCalc\1.2\Chill-Astro.PyCalc.yaml
+2026-03-06 20:12:06.410 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Chill-Astro\PyCalc\1.2\Chill-Astro.PyCalc.yaml
+2026-03-06 20:12:06.122 INFO   New manifests in D:\...\winget-pkgs\manifests\c\Chill-Astro\PyCalc\1.2 for Chill-Astro.PyCalc (1.2)
+2026-03-06 20:12:44.176 INFO Manifest validation succeeded with "sundry validate".
+2026-03-06 20:12:44.178 INFO   Staging and Committing Changes to Git
+2026-03-06 20:12:58.442 INFO     Commit message: New version: Chill-Astro.PyCalc version 1.2 (Auto)
+2026-03-06 20:13:10.204 INFO   Pushing changes to remote (origin) repository
+2026-03-06 20:13:14.837 INFO     Successfully pushed to remote (origin): New-Version-Chill-Astro.PyCalc-1.2-1772799115
+2026-03-06 20:13:18.848 VERBOSE Skip version 1.9, because it's not in the list of versions to be modified.
+2026-03-06 20:13:18.850 INFO All manifests have been modified and pushed through.
+2026-03-06 20:13:30.786 INFO Workspace clean-up completed.
+~~ End of logging ~~
