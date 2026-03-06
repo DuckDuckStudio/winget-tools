@@ -1,0 +1,25 @@
+~~ Start logging ~~
+2026-03-06 19:57:51.341 FUN 完型填空 let me see! let me see!
+2026-03-06 19:57:51.346 INFO Found the following version folder: ['1.1', '1.5', '1.6', '1.7', '1.8', '1.9']
+2026-03-06 19:57:51.347 INFO Processing version folder: 1.1
+2026-03-06 19:57:51.349 INFO   Create and checkout to a new branch: New-Version-Chill-Astro.PyCalc-1.1-1772798271
+2026-03-06 19:58:01.887 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Chill-Astro\PyCalc\1.1\Chill-Astro.PyCalc.installer.yaml
+2026-03-06 19:58:01.890 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Chill-Astro\PyCalc\1.1\Chill-Astro.PyCalc.installer.yaml
+2026-03-06 19:58:02.101 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Chill-Astro\PyCalc\1.1\Chill-Astro.PyCalc.locale.en-US.yaml
+2026-03-06 19:58:02.104 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Chill-Astro\PyCalc\1.1\Chill-Astro.PyCalc.locale.en-US.yaml
+2026-03-06 19:58:02.206 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\c\Chill-Astro\PyCalc\1.1\Chill-Astro.PyCalc.yaml
+2026-03-06 19:58:02.208 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\c\Chill-Astro\PyCalc\1.1\Chill-Astro.PyCalc.yaml
+2026-03-06 19:58:02.320 INFO   New manifests in D:\...\winget-pkgs\manifests\c\Chill-Astro\PyCalc\1.1 for Chill-Astro.PyCalc (1.1)
+2026-03-06 20:06:11.641 INFO Manifest validation succeeded with "sundry validate".
+2026-03-06 20:06:11.642 INFO   Staging and Committing Changes to Git
+2026-03-06 20:07:53.489 INFO     Commit message: New version: Chill-Astro.PyCalc version 1.1 (Auto)
+2026-03-06 20:10:04.122 INFO   Pushing changes to remote (origin) repository
+2026-03-06 20:10:08.903 INFO     Successfully pushed to remote (origin): New-Version-Chill-Astro.PyCalc-1.1-1772798271
+2026-03-06 20:10:12.838 VERBOSE Skip version 1.5, because it's not in the list of versions to be modified.
+2026-03-06 20:10:12.840 VERBOSE Skip version 1.6, because it's not in the list of versions to be modified.
+2026-03-06 20:10:12.841 VERBOSE Skip version 1.7, because it's not in the list of versions to be modified.
+2026-03-06 20:10:12.842 VERBOSE Skip version 1.8, because it's not in the list of versions to be modified.
+2026-03-06 20:10:12.843 VERBOSE Skip version 1.9, because it's not in the list of versions to be modified.
+2026-03-06 20:10:12.844 INFO All manifests have been modified and pushed through.
+2026-03-06 20:10:23.571 INFO Workspace clean-up completed.
+~~ End of logging ~~
