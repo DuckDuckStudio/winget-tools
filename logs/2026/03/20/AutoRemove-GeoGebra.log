@@ -1,0 +1,552 @@
+PS> & "./autoremovePlus.ps1"
+
+INFO 正在检查 GeoGebra.GraphingCalculator 6.0.915 (1/4) ...
+使用 winget 验证...
+已找到 GeoGebra Graphing Calculator [GeoGebra.GraphingCalculator] 版本 6.0.915
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/graphing/GeoGebraGraphing-Windows-Installer-6-0-915-1.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : Not found (404).
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.geogebra.org/installers/6.0/graphing/GeoGebraGraphing-Windows-Installer-6-0-915-1.exe | 失效 (404)
+✕ GeoGebra.GraphingCalculator 6.0.915 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+INFO 已签出到 master 分支
+From https://github.com/microsoft/winget-pkgs
+   850e9504343..32aced75beb  master     -> upstream/master
+INFO 已获取上游修改
+From https://github.com/DuckDuckStudio/winget-pkgs
+   850e9504343..32aced75beb  master     -> origin/master
+INFO 已获取远程修改
+Successfully rebased and updated refs/heads/master.
+INFO 已变基上游修改
+Everything up-to-date
+INFO 已推送到远程
+✓ 同步完成
+Switched to a new branch 'Remove-GeoGebra.GraphingCalculator-6.0.915-1773971334'
+  已签出新分支 Remove-GeoGebra.GraphingCalculator-6.0.915-1773971334
+  已移除包 GeoGebra.GraphingCalculator 版本 6.0.915
+[Remove-GeoGebra.GraphingCalculator-6.0.915-1773971334 ae91e24996b] Remove version: GeoGebra.GraphingCalculator version 6.0.915 (Auto)
+ 4 files changed, 82 deletions(-)
+ delete mode 100644 manifests/g/GeoGebra/GraphingCalculator/6.0.915/GeoGebra.GraphingCalculator.installer.yaml
+ delete mode 100644 manifests/g/GeoGebra/GraphingCalculator/6.0.915/GeoGebra.GraphingCalculator.locale.en-US.yaml
+ delete mode 100644 manifests/g/GeoGebra/GraphingCalculator/6.0.915/GeoGebra.GraphingCalculator.locale.zh-CN.yaml
+ delete mode 100644 manifests/g/GeoGebra/GraphingCalculator/6.0.915/GeoGebra.GraphingCalculator.yaml
+  已提交修改
+branch 'Remove-GeoGebra.GraphingCalculator-6.0.915-1773971334' set up to track 'origin/Remove-GeoGebra.GraphingCalculator-6.0.915-1773971334'.
+remote:
+remote: Create a pull request for 'Remove-GeoGebra.GraphingCalculator-6.0.915-1773971334' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-GeoGebra.GraphingCalculator-6.0.915-1773971334
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-GeoGebra.GraphingCalculator-6.0.915-1773971334 -> Remove-GeoGebra.GraphingCalculator-6.0.915-1773971334
+  已推送修改
+✓ 拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/350263
+ 成功移除 GeoGebra.GraphingCalculator 版本 6.0.915
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-GeoGebra.GraphingCalculator-6.0.915-1773971334 (was ae91e24996b).
+工作区清理完成
+
+INFO 正在检查 GeoGebra.GraphingCalculator 6.0.916 (2/4) ...
+使用 winget 验证...
+已找到 GeoGebra Graphing Calculator [GeoGebra.GraphingCalculator] 版本 6.0.916
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/graphing/GeoGebraGraphing-Windows-Installer-6-0-916-2.exe
+  ██████████████████████████████   127 MB /  127 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\GeoGebra Graphing Calculator_6.0.916_User_X86_exe_zh-CN.exe
+✓ 验证 GeoGebra.GraphingCalculator 6.0.916 通过！
+
+INFO 正在检查 GeoGebra.GraphingCalculator 6.0.918 (3/4) ...
+使用 winget 验证...
+已找到 GeoGebra Graphing Calculator [GeoGebra.GraphingCalculator] 版本 6.0.918
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/graphing/GeoGebraGraphing-Windows-Installer-6-0-918-0.exe
+  ██████████████████████████████   127 MB /  127 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\GeoGebra Graphing Calculator_6.0.918_User_X86_exe_zh-CN.exe
+✓ 验证 GeoGebra.GraphingCalculator 6.0.918 通过！
+
+INFO 正在检查 GeoGebra.GraphingCalculator 6.0.919 (4/4) ...
+使用 winget 验证...
+已找到 GeoGebra Graphing Calculator [GeoGebra.GraphingCalculator] 版本 6.0.919
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/graphing/GeoGebraGraphing-Windows-Installer-6-0-919-1.exe
+  ██████████████████████████████   127 MB /  127 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\GeoGebra Graphing Calculator_6.0.919_User_X86_exe_zh-CN.exe
+✓ 验证 GeoGebra.GraphingCalculator 6.0.919 通过！
+✓ 成功检查 GeoGebra.GraphingCalculator 的所有版本
+
+INFO 正在检查 GeoGebra.Classic 6.0.915 (1/6) ...
+使用 winget 验证...
+已找到 GeoGebra Classic [GeoGebra.Classic] 版本 6.0.915
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-915-1.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : Not found (404).
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-915-1.exe | 失效 (404)
+https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-915-1.msi | 失效 (404)
+✕ GeoGebra.Classic 6.0.915 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+INFO 已签出到 master 分支
+INFO 已获取上游修改
+INFO 已获取远程修改
+Current branch master is up to date.
+INFO 已变基上游修改
+Everything up-to-date
+INFO 已推送到远程
+✓ 同步完成
+Switched to a new branch 'Remove-GeoGebra.Classic-6.0.915-1773971480'
+  已签出新分支 Remove-GeoGebra.Classic-6.0.915-1773971480
+  已移除包 GeoGebra.Classic 版本 6.0.915
+[Remove-GeoGebra.Classic-6.0.915-1773971480 4a8ca6cbaf2] Remove version: GeoGebra.Classic version 6.0.915 (Auto)
+ 4 files changed, 96 deletions(-)
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.915/GeoGebra.Classic.installer.yaml
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.915/GeoGebra.Classic.locale.en-US.yaml
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.915/GeoGebra.Classic.locale.zh-CN.yaml
+ delete mode 100644 manifests/g/GeoGebra/Classic/6.0.915/GeoGebra.Classic.yaml
+  已提交修改
+branch 'Remove-GeoGebra.Classic-6.0.915-1773971480' set up to track 'origin/Remove-GeoGebra.Classic-6.0.915-1773971480'.
+remote:
+remote: Create a pull request for 'Remove-GeoGebra.Classic-6.0.915-1773971480' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-GeoGebra.Classic-6.0.915-1773971480
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-GeoGebra.Classic-6.0.915-1773971480 -> Remove-GeoGebra.Classic-6.0.915-1773971480
+  已推送修改
+✓ 拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/350267
+ 成功移除 GeoGebra.Classic 版本 6.0.915
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-GeoGebra.Classic-6.0.915-1773971480 (was 4a8ca6cbaf2).
+工作区清理完成
+
+INFO 正在检查 GeoGebra.Classic 6.0.916 (2/6) ...
+使用 winget 验证...
+已找到 GeoGebra Classic [GeoGebra.Classic] 版本 6.0.916
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-916-2.exe
+  ██████████████████████████████   127 MB /  127 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\GeoGebra Classic_6.0.916_User_X86_exe_zh-CN.exe
+✓ 验证 GeoGebra.Classic 6.0.916 通过！
+
+INFO 正在检查 GeoGebra.Classic 6.0.916.2 (3/6) ...
+使用 winget 验证...
+已找到 GeoGebra Classic [GeoGebra.Classic] 版本 6.0.916.2
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-916-2.msi
+  ██████████████████████████████   102 MB /  102 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\GeoGebra Classic_6.0.916.2_User_X86_wix_en-US.msi
+✓ 验证 GeoGebra.Classic 6.0.916.2 通过！
+
+INFO 正在检查 GeoGebra.Classic 6.0.918 (4/6) ...
+使用 winget 验证...
+已找到 GeoGebra Classic [GeoGebra.Classic] 版本 6.0.918
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-918-0.msi
+  ██████████████████████████████   102 MB /  102 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\GeoGebra Classic_6.0.918_User_X86_wix_en-US.msi
+✓ 验证 GeoGebra.Classic 6.0.918 通过！
+
+INFO 正在检查 GeoGebra.Classic 6.0.919 (5/6) ...
+使用 winget 验证...
+已找到 GeoGebra Classic [GeoGebra.Classic] 版本 6.0.919
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-919-1.msi
+  ██████████████████████████████   102 MB /  102 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\GeoGebra Classic_6.0.919_User_X86_wix_en-US.msi
+✓ 验证 GeoGebra.Classic 6.0.919 通过！
+
+INFO 正在检查 GeoGebra.Classic 6.0.920 (6/6) ...
+使用 winget 验证...
+已找到 GeoGebra Classic [GeoGebra.Classic] 版本 6.0.920
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Installer-6-0-920-0.msi
+  ██████████████████████████████   103 MB /  103 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\GeoGebra Classic_6.0.920_User_X86_wix_en-US.msi
+✓ 验证 GeoGebra.Classic 6.0.920 通过！
+✓ 成功检查 GeoGebra.Classic 的所有版本
+
+INFO 正在检查 GeoGebra.CalculatorSuite 6.0.915 (1/5) ...
+使用 winget 验证...
+已找到 GeoGebra Calculator Suite [GeoGebra.CalculatorSuite] 版本 6.0.915
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/suite/GeoGebraCalculator-Windows-Installer-6-0-915-1.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : Not found (404).
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.geogebra.org/installers/6.0/suite/GeoGebraCalculator-Windows-Installer-6-0-915-1.exe | 失效 (404)
+✕ GeoGebra.CalculatorSuite 6.0.915 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+INFO 已签出到 master 分支
+From https://github.com/microsoft/winget-pkgs
+   32aced75beb..5ab4486f516  master     -> upstream/master
+INFO 已获取上游修改
+INFO 已获取远程修改
+Successfully rebased and updated refs/heads/master.
+INFO 已变基上游修改
+remote: Bypassed rule violations for refs/heads/master:
+remote:
+remote: - Changes must be made through a pull request.
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+   32aced75beb..5ab4486f516  master -> master
+INFO 已推送到远程
+✓ 同步完成
+Switched to a new branch 'Remove-GeoGebra.CalculatorSuite-6.0.915-1773972311'
+  已签出新分支 Remove-GeoGebra.CalculatorSuite-6.0.915-1773972311
+  已移除包 GeoGebra.CalculatorSuite 版本 6.0.915
+[Remove-GeoGebra.CalculatorSuite-6.0.915-1773972311 96a0b8c9e7d] Remove version: GeoGebra.CalculatorSuite version 6.0.915 (Auto)
+ 4 files changed, 81 deletions(-)
+ delete mode 100644 manifests/g/GeoGebra/CalculatorSuite/6.0.915/GeoGebra.CalculatorSuite.installer.yaml
+ delete mode 100644 manifests/g/GeoGebra/CalculatorSuite/6.0.915/GeoGebra.CalculatorSuite.locale.en-US.yaml
+ delete mode 100644 manifests/g/GeoGebra/CalculatorSuite/6.0.915/GeoGebra.CalculatorSuite.locale.zh-CN.yaml
+ delete mode 100644 manifests/g/GeoGebra/CalculatorSuite/6.0.915/GeoGebra.CalculatorSuite.yaml
+  已提交修改
+branch 'Remove-GeoGebra.CalculatorSuite-6.0.915-1773972311' set up to track 'origin/Remove-GeoGebra.CalculatorSuite-6.0.915-1773972311'.
+remote:
+remote: Create a pull request for 'Remove-GeoGebra.CalculatorSuite-6.0.915-1773972311' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-GeoGebra.CalculatorSuite-6.0.915-1773972311
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-GeoGebra.CalculatorSuite-6.0.915-1773972311 -> Remove-GeoGebra.CalculatorSuite-6.0.915-1773972311
+  已推送修改
+✓ 拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/350269
+ 成功移除 GeoGebra.CalculatorSuite 版本 6.0.915
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-GeoGebra.CalculatorSuite-6.0.915-1773972311 (was 96a0b8c9e7d).
+工作区清理完成
+
+INFO 正在检查 GeoGebra.CalculatorSuite 6.0.916 (2/5) ...
+使用 winget 验证...
+已找到 GeoGebra Calculator Suite [GeoGebra.CalculatorSuite] 版本 6.0.916
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/suite/GeoGebraCalculator-Windows-Installer-6-0-916-2.exe
+  ██████████████████████████████   127 MB /  127 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\GeoGebra Calculator Suite_6.0.916_User_X86_exe_zh-CN.exe
+✓ 验证 GeoGebra.CalculatorSuite 6.0.916 通过！
+
+INFO 正在检查 GeoGebra.CalculatorSuite 6.0.918 (3/5) ...
+使用 winget 验证...
+已找到 GeoGebra Calculator Suite [GeoGebra.CalculatorSuite] 版本 6.0.918
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/suite/GeoGebraCalculator-Windows-Installer-6-0-918-0.exe
+  ██████████████████████████████   127 MB /  127 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\GeoGebra Calculator Suite_6.0.918_User_X86_exe_zh-CN.exe
+✓ 验证 GeoGebra.CalculatorSuite 6.0.918 通过！
+
+INFO 正在检查 GeoGebra.CalculatorSuite 6.0.919 (4/5) ...
+使用 winget 验证...
+已找到 GeoGebra Calculator Suite [GeoGebra.CalculatorSuite] 版本 6.0.919
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/suite/GeoGebraCalculator-Windows-Installer-6-0-919-1.exe
+  ██████████████████████████████   127 MB /  127 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\GeoGebra Calculator Suite_6.0.919_User_X86_exe_zh-CN.exe
+✓ 验证 GeoGebra.CalculatorSuite 6.0.919 通过！
+
+INFO 正在检查 GeoGebra.CalculatorSuite 6.0.920 (5/5) ...
+使用 winget 验证...
+已找到 GeoGebra Calculator Suite [GeoGebra.CalculatorSuite] 版本 6.0.920
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/suite/GeoGebraCalculator-Windows-Installer-6-0-920-0.exe
+  ██████████████████████████████   127 MB /  127 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\GeoGebra Calculator Suite_6.0.920_User_X86_exe_zh-CN.exe
+✓ 验证 GeoGebra.CalculatorSuite 6.0.920 通过！
+✓ 成功检查 GeoGebra.CalculatorSuite 的所有版本
+
+INFO 正在检查 GeoGebra.CASCalculator 6.0.913 (1/6) ...
+使用 winget 验证...
+已找到 GeoGebra CAS Calculator [GeoGebra.CASCalculator] 版本 6.0.913
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/cas/GeoGebraCAS-Windows-Installer-6-0-913-0.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : Not found (404).
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.geogebra.org/installers/6.0/cas/GeoGebraCAS-Windows-Installer-6-0-913-0.exe | 失效 (404)
+✕ GeoGebra.CASCalculator 6.0.913 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+INFO 已签出到 master 分支
+INFO 已获取上游修改
+INFO 已获取远程修改
+Current branch master is up to date.
+INFO 已变基上游修改
+Everything up-to-date
+INFO 已推送到远程
+✓ 同步完成
+Switched to a new branch 'Remove-GeoGebra.CASCalculator-6.0.913-1773972757'
+  已签出新分支 Remove-GeoGebra.CASCalculator-6.0.913-1773972757
+  已移除包 GeoGebra.CASCalculator 版本 6.0.913
+[Remove-GeoGebra.CASCalculator-6.0.913-1773972757 3d39ffe8587] Remove version: GeoGebra.CASCalculator version 6.0.913 (Auto)
+ 4 files changed, 78 deletions(-)
+ delete mode 100644 manifests/g/GeoGebra/CASCalculator/6.0.913/GeoGebra.CASCalculator.installer.yaml
+ delete mode 100644 manifests/g/GeoGebra/CASCalculator/6.0.913/GeoGebra.CASCalculator.locale.en-US.yaml
+ delete mode 100644 manifests/g/GeoGebra/CASCalculator/6.0.913/GeoGebra.CASCalculator.locale.zh-CN.yaml
+ delete mode 100644 manifests/g/GeoGebra/CASCalculator/6.0.913/GeoGebra.CASCalculator.yaml
+  已提交修改
+branch 'Remove-GeoGebra.CASCalculator-6.0.913-1773972757' set up to track 'origin/Remove-GeoGebra.CASCalculator-6.0.913-1773972757'.
+remote:
+remote: Create a pull request for 'Remove-GeoGebra.CASCalculator-6.0.913-1773972757' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-GeoGebra.CASCalculator-6.0.913-1773972757
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-GeoGebra.CASCalculator-6.0.913-1773972757 -> Remove-GeoGebra.CASCalculator-6.0.913-1773972757
+  已推送修改
+✓ 拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/350272
+ 成功移除 GeoGebra.CASCalculator 版本 6.0.913
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-GeoGebra.CASCalculator-6.0.913-1773972757 (was 3d39ffe8587).
+工作区清理完成
+
+INFO 正在检查 GeoGebra.CASCalculator 6.0.915 (2/6) ...
+使用 winget 验证...
+已找到 GeoGebra CAS Calculator [GeoGebra.CASCalculator] 版本 6.0.915
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/cas/GeoGebraCAS-Windows-Installer-6-0-915-1.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : Not found (404).
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.geogebra.org/installers/6.0/cas/GeoGebraCAS-Windows-Installer-6-0-915-1.exe | 失效 (404)
+✕ GeoGebra.CASCalculator 6.0.915 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+INFO 已签出到 master 分支
+INFO 已获取上游修改
+INFO 已获取远程修改
+Current branch master is up to date.
+INFO 已变基上游修改
+Everything up-to-date
+INFO 已推送到远程
+✓ 同步完成
+Switched to a new branch 'Remove-GeoGebra.CASCalculator-6.0.915-1773972862'
+  已签出新分支 Remove-GeoGebra.CASCalculator-6.0.915-1773972862
+  已移除包 GeoGebra.CASCalculator 版本 6.0.915
+[Remove-GeoGebra.CASCalculator-6.0.915-1773972862 a778ed34306] Remove version: GeoGebra.CASCalculator version 6.0.915 (Auto)
+ 4 files changed, 78 deletions(-)
+ delete mode 100644 manifests/g/GeoGebra/CASCalculator/6.0.915/GeoGebra.CASCalculator.installer.yaml
+ delete mode 100644 manifests/g/GeoGebra/CASCalculator/6.0.915/GeoGebra.CASCalculator.locale.en-US.yaml
+ delete mode 100644 manifests/g/GeoGebra/CASCalculator/6.0.915/GeoGebra.CASCalculator.locale.zh-CN.yaml
+ delete mode 100644 manifests/g/GeoGebra/CASCalculator/6.0.915/GeoGebra.CASCalculator.yaml
+  已提交修改
+branch 'Remove-GeoGebra.CASCalculator-6.0.915-1773972862' set up to track 'origin/Remove-GeoGebra.CASCalculator-6.0.915-1773972862'.
+remote:
+remote: Create a pull request for 'Remove-GeoGebra.CASCalculator-6.0.915-1773972862' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-GeoGebra.CASCalculator-6.0.915-1773972862
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-GeoGebra.CASCalculator-6.0.915-1773972862 -> Remove-GeoGebra.CASCalculator-6.0.915-1773972862
+  已推送修改
+✓ 拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/350274
+ 成功移除 GeoGebra.CASCalculator 版本 6.0.915
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-GeoGebra.CASCalculator-6.0.915-1773972862 (was a778ed34306).
+工作区清理完成
+
+INFO 正在检查 GeoGebra.CASCalculator 6.0.916 (3/6) ...
+使用 winget 验证...
+已找到 GeoGebra CAS Calculator [GeoGebra.CASCalculator] 版本 6.0.916
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/cas/GeoGebraCAS-Windows-Installer-6-0-916-2.exe
+  ██████████████████████████████   127 MB /  127 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\GeoGebra CAS Calculator_6.0.916_User_X86_exe_zh-CN.exe
+✓ 验证 GeoGebra.CASCalculator 6.0.916 通过！
+
+INFO 正在检查 GeoGebra.CASCalculator 6.0.918 (4/6) ...
+使用 winget 验证...
+已找到 GeoGebra CAS Calculator [GeoGebra.CASCalculator] 版本 6.0.918
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/cas/GeoGebraCAS-Windows-Installer-6-0-918-0.exe
+  ██████████████████████████████   127 MB /  127 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\GeoGebra CAS Calculator_6.0.918_User_X86_exe_zh-CN.exe
+✓ 验证 GeoGebra.CASCalculator 6.0.918 通过！
+
+INFO 正在检查 GeoGebra.CASCalculator 6.0.919 (5/6) ...
+使用 winget 验证...
+已找到 GeoGebra CAS Calculator [GeoGebra.CASCalculator] 版本 6.0.919
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/cas/GeoGebraCAS-Windows-Installer-6-0-919-1.exe
+  ██████████████████████████████   127 MB /  127 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\GeoGebra CAS Calculator_6.0.919_User_X86_exe_zh-CN.exe
+✓ 验证 GeoGebra.CASCalculator 6.0.919 通过！
+
+INFO 正在检查 GeoGebra.CASCalculator 6.0.920 (6/6) ...
+使用 winget 验证...
+已找到 GeoGebra CAS Calculator [GeoGebra.CASCalculator] 版本 6.0.920
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/cas/GeoGebraCAS-Windows-Installer-6-0-920-0.exe
+  ██████████████████████████████   127 MB /  127 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\GeoGebra CAS Calculator_6.0.920_User_X86_exe_zh-CN.exe
+✓ 验证 GeoGebra.CASCalculator 6.0.920 通过！
+✓ 成功检查 GeoGebra.CASCalculator 的所有版本
+
+INFO 正在检查 GeoGebra.Geometry 6.0.915 (1/5) ...
+使用 winget 验证...
+已找到 GeoGebra Geometry [GeoGebra.Geometry] 版本 6.0.915
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/geometry/GeoGebraGeometry-Windows-Installer-6-0-915-1.exe
+执行此命令时发生意外错误：
+Download request status is not success.
+0x80190194 : Not found (404).
+========== 验证安装程序清单中的 InstallerUrl(s) ==========
+https://download.geogebra.org/installers/6.0/geometry/GeoGebraGeometry-Windows-Installer-6-0-915-1.exe | 失效 (404)
+✕ GeoGebra.Geometry 6.0.915 下载失败！将移除此版本...
+⚠ 已跳过相关检查
+开始操作
+Already on 'master'
+INFO 已签出到 master 分支
+INFO 已获取上游修改
+INFO 已获取远程修改
+Current branch master is up to date.
+INFO 已变基上游修改
+Everything up-to-date
+INFO 已推送到远程
+✓ 同步完成
+Switched to a new branch 'Remove-GeoGebra.Geometry-6.0.915-1773973214'
+  已签出新分支 Remove-GeoGebra.Geometry-6.0.915-1773973214
+  已移除包 GeoGebra.Geometry 版本 6.0.915
+[Remove-GeoGebra.Geometry-6.0.915-1773973214 41c279ff01f] Remove version: GeoGebra.Geometry version 6.0.915 (Auto)
+ 4 files changed, 82 deletions(-)
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.915/GeoGebra.Geometry.installer.yaml
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.915/GeoGebra.Geometry.locale.en-US.yaml
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.915/GeoGebra.Geometry.locale.zh-CN.yaml
+ delete mode 100644 manifests/g/GeoGebra/Geometry/6.0.915/GeoGebra.Geometry.yaml
+  已提交修改
+branch 'Remove-GeoGebra.Geometry-6.0.915-1773973214' set up to track 'origin/Remove-GeoGebra.Geometry-6.0.915-1773973214'.
+remote:
+remote: Create a pull request for 'Remove-GeoGebra.Geometry-6.0.915-1773973214' on GitHub by visiting:
+remote:      https://github.com/DuckDuckStudio/winget-pkgs/pull/new/Remove-GeoGebra.Geometry-6.0.915-1773973214
+remote:
+To https://github.com/DuckDuckStudio/winget-pkgs.git
+ * [new branch]              Remove-GeoGebra.Geometry-6.0.915-1773973214 -> Remove-GeoGebra.Geometry-6.0.915-1773973214
+  已推送修改
+✓ 拉取请求创建成功: https://github.com/microsoft/winget-pkgs/pull/350277
+ 成功移除 GeoGebra.Geometry 版本 6.0.915
+开始清理工作区
+Switched to branch 'master'
+Deleted branch Remove-GeoGebra.Geometry-6.0.915-1773973214 (was 41c279ff01f).
+工作区清理完成
+
+INFO 正在检查 GeoGebra.Geometry 6.0.916 (2/5) ...
+使用 winget 验证...
+已找到 GeoGebra Geometry [GeoGebra.Geometry] 版本 6.0.916
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/geometry/GeoGebraGeometry-Windows-Installer-6-0-916-2.exe
+  ██████████████████████████████   127 MB /  127 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\GeoGebra Geometry_6.0.916_User_X86_exe_zh-CN.exe
+✓ 验证 GeoGebra.Geometry 6.0.916 通过！
+
+INFO 正在检查 GeoGebra.Geometry 6.0.918 (3/5) ...
+使用 winget 验证...
+已找到 GeoGebra Geometry [GeoGebra.Geometry] 版本 6.0.918
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/geometry/GeoGebraGeometry-Windows-Installer-6-0-918-0.exe
+  ██████████████████████████████   127 MB /  127 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\GeoGebra Geometry_6.0.918_User_X86_exe_zh-CN.exe
+✓ 验证 GeoGebra.Geometry 6.0.918 通过！
+
+INFO 正在检查 GeoGebra.Geometry 6.0.919 (4/5) ...
+使用 winget 验证...
+已找到 GeoGebra Geometry [GeoGebra.Geometry] 版本 6.0.919
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/geometry/GeoGebraGeometry-Windows-Installer-6-0-919-1.exe
+  ██████████████████████████████   127 MB /  127 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\GeoGebra Geometry_6.0.919_User_X86_exe_zh-CN.exe
+✓ 验证 GeoGebra.Geometry 6.0.919 通过！
+
+INFO 正在检查 GeoGebra.Geometry 6.0.920 (5/5) ...
+使用 winget 验证...
+已找到 GeoGebra Geometry [GeoGebra.Geometry] 版本 6.0.920
+此应用程序由其所有者授权给你。
+Microsoft 对第三方程序包概不负责，也不向第三方程序包授予任何许可证。
+已跳过依赖项。
+正在下载 https://download.geogebra.org/installers/6.0/geometry/GeoGebraGeometry-Windows-Installer-6-0-920-0.exe
+  ██████████████████████████████   127 MB /  127 MB
+已成功验证安装程序哈希
+已下载安装程序: D:\Temp\Sundry\RemoveAndAutoRemove\DownloadInstallers\GeoGebra Geometry_6.0.920_User_X86_exe_zh-CN.exe
+✓ 验证 GeoGebra.Geometry 6.0.920 通过！
+✓ 成功检查 GeoGebra.Geometry 的所有版本
