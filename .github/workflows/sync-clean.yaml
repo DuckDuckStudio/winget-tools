@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: 设置 Rust
         # 用于后续的 `cargo binstall` 安装
-        uses: cargo-bins/cargo-binstall@main
+        uses: cargo-bins/cargo-binstall@v1.17.8
         env:
           GITHUB_TOKEN: ${{ github.token }}
 
