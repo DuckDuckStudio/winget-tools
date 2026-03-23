@@ -26,6 +26,7 @@ permissions:
 jobs:
   Retry:
     runs-on: ubuntu-latest
+    environment: WINGET-PKGS-TOKEN-ENV
 
     steps:
       - name: 验证触发者
@@ -39,6 +40,8 @@ jobs:
       - name: 检出代码
         if: ${{ github.event_name == 'schedule' || github.actor == 'DuckDuckStudio' }}
         uses: actions/checkout@v6.0.2
+        with:
+          persist-credentials: false
 
       - name: 设置 .NET
         if: ${{ github.event_name == 'schedule' || github.actor == 'DuckDuckStudio' }}
@@ -51,14 +54,15 @@ jobs:
         env:
           # GITHUB_LOGIN 为工作流所在仓库所有者
           GITHUB_LOGIN: ${{ github.repository_owner }}
-          GITHUB_TOKEN: ${{ secrets.RETRY_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.WINGET_PKGS_TOKEN }}
+          INPUTS_PR: ${{ inputs.PR }}
         shell: bash
         run: |-
           # 如果 inputs.PR 未指定或为空，则使用 auto 模式
-          if [[ -z "${{ inputs.PR }}" || "${{ inputs.PR }}" == "auto" ]]; then
+          if [[ -z "${INPUTS_PR}" || "${INPUTS_PR}" == "auto" ]]; then
             export PR="auto"
           else
-            export PR="specify ${{ inputs.PR }}"
+            export PR="specify ${INPUTS_PR}"
           fi
 
           # 如果生成模式为空，则指定为 Debug
@@ -84,4 +88,4 @@ jobs:
             本次运行的日志: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
             --label "auto,DEV-需要注意,github_actions,bug" \
             --repo "${{ github.repository }}" \
-            --assignee "${{ github.actor }}"
+            --assignee "${GITHUB_ACTOR}"

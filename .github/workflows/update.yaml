@@ -27,11 +27,12 @@ permissions:
 jobs:
   komac-update:
     runs-on: ubuntu-latest
+    environment: WINGET-PKGS-TOKEN-ENV
 
     steps:
     - name: 设置 Rust
     # 用于后续的 `cargo binstall` 安装
-      uses: cargo-bins/cargo-binstall@main
+      uses: cargo-bins/cargo-binstall@v1.17.8
       env:
         GITHUB_TOKEN: ${{ github.token }}
 
@@ -44,13 +45,18 @@ jobs:
       env:
         KOMAC_FORK_OWNER: "DuckDuckStudio"
         GITHUB_TOKEN: ${{ secrets.WINGET_PKGS_TOKEN }}
+        GITHUB_EVENT_INPUTS_SUBMIT: ${{ github.event.inputs.submit }}
+        GITHUB_EVENT_INPUTS_ISSUE: ${{ github.event.inputs.issue }}
+        GITHUB_EVENT_INPUTS_ID: ${{ github.event.inputs.id }}
+        GITHUB_EVENT_INPUTS_VER: ${{ github.event.inputs.ver }}
+        GITHUB_EVENT_INPUTS_URLS: ${{ github.event.inputs.urls }}
       run: |-
-        if [ ${{ github.event.inputs.submit }} = true ]; then
-          if [ -n "${{ github.event.inputs.issue }}" ]; then
-            komac update ${{ github.event.inputs.id }} --version ${{ github.event.inputs.ver }} --urls ${{ github.event.inputs.urls }} --created-with "@DuckDuckStudio's Automation" --created-with-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" --submit --resolves ${{ github.event.inputs.issue }}
+        if [ ${GITHUB_EVENT_INPUTS_SUBMIT} = true ]; then
+          if [ -n "${GITHUB_EVENT_INPUTS_ISSUE}" ]; then
+            komac update "${GITHUB_EVENT_INPUTS_ID}" --version "${GITHUB_EVENT_INPUTS_VER}" --urls "${GITHUB_EVENT_INPUTS_URLS}" --created-with "@DuckDuckStudio's Automation" --created-with-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" --submit --resolves "${GITHUB_EVENT_INPUTS_ISSUE}"
           else
-            komac update ${{ github.event.inputs.id }} --version ${{ github.event.inputs.ver }} --urls ${{ github.event.inputs.urls }} --created-with "@DuckDuckStudio's Automation" --created-with-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" --submit
+            komac update "${GITHUB_EVENT_INPUTS_ID}" --version "${GITHUB_EVENT_INPUTS_VER}" --urls "${GITHUB_EVENT_INPUTS_URLS}" --created-with "@DuckDuckStudio's Automation" --created-with-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" --submit
           fi
         else
-          komac update ${{ github.event.inputs.id }} --version ${{ github.event.inputs.ver }} --urls ${{ github.event.inputs.urls }} --created-with "@DuckDuckStudio's Automation" --created-with-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" --dry-run
+          komac update "${GITHUB_EVENT_INPUTS_ID}" --version "${GITHUB_EVENT_INPUTS_VER}" --urls "${GITHUB_EVENT_INPUTS_URLS}" --created-with "@DuckDuckStudio's Automation" --created-with-url "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" --dry-run
         fi
