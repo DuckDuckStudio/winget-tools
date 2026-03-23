@@ -27,6 +27,7 @@ permissions:
 jobs:
   komac-update:
     runs-on: ubuntu-latest
+    environment: WINGET-PKGS-TOKEN-ENV
 
     steps:
     - name: 设置 Rust
