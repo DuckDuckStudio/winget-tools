@@ -39,6 +39,8 @@ jobs:
       - name: 检出代码
         if: ${{ github.event_name == 'schedule' || github.actor == 'DuckDuckStudio' }}
         uses: actions/checkout@v6.0.2
+        with:
+          persist-credentials: false
 
       - name: 设置 .NET
         if: ${{ github.event_name == 'schedule' || github.actor == 'DuckDuckStudio' }}
