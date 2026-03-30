@@ -57,7 +57,7 @@ jobs:
         sha256sum "installer.${FILE_EXTENSION}" | tr 'a-f' 'A-F'
 
     - name: 上传获取的文件
-      uses: actions/upload-artifact@v7
+      uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7
       with:
         archive: false
         path: installer.${{ env.file_extension }}
@@ -65,7 +65,7 @@ jobs:
 
     - name: 设置 Rust
       # 用于后续的 `cargo binstall` 安装
-      uses: cargo-bins/cargo-binstall@v1.17.8
+      uses: cargo-bins/cargo-binstall@113a77a4ce971c41332f2129c3d995df993cf746 # v1.17.8
       env:
         GITHUB_TOKEN: ${{ github.token }}
 
