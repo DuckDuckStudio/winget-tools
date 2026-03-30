@@ -1,0 +1,34 @@
+~~ Start logging ~~
+2026-03-30 10:53:24.953 FUN 对方正在输入...
+2026-03-30 10:53:24.961 INFO Found the following version folder: ['2.2.0.0', '2.3.0.0', '2.3.1.1', '3.0.0.0', '3.0.1.0', '3.1.0.0', '3.1.1.0', '3.1.2.0', '3.1.4.0', '3.2.0.0', '3.2.1.0', '3.2.2.0', '3.2.3.0']
+2026-03-30 10:53:24.963 VERBOSE Skip version 2.2.0.0, because it's not in the list of versions to be modified.
+2026-03-30 10:53:24.964 VERBOSE Skip version 2.3.0.0, because it's not in the list of versions to be modified.
+2026-03-30 10:53:24.966 VERBOSE Skip version 2.3.1.1, because it's not in the list of versions to be modified.
+2026-03-30 10:53:24.968 VERBOSE Skip version 3.0.0.0, because it's not in the list of versions to be modified.
+2026-03-30 10:53:24.969 VERBOSE Skip version 3.0.1.0, because it's not in the list of versions to be modified.
+2026-03-30 10:53:24.971 VERBOSE Skip version 3.1.0.0, because it's not in the list of versions to be modified.
+2026-03-30 10:53:24.972 VERBOSE Skip version 3.1.1.0, because it's not in the list of versions to be modified.
+2026-03-30 10:53:24.974 VERBOSE Skip version 3.1.2.0, because it's not in the list of versions to be modified.
+2026-03-30 10:53:24.975 VERBOSE Skip version 3.1.4.0, because it's not in the list of versions to be modified.
+2026-03-30 10:53:24.977 VERBOSE Skip version 3.2.0.0, because it's not in the list of versions to be modified.
+2026-03-30 10:53:24.978 VERBOSE Skip version 3.2.1.0, because it's not in the list of versions to be modified.
+2026-03-30 10:53:24.980 VERBOSE Skip version 3.2.2.0, because it's not in the list of versions to be modified.
+2026-03-30 10:53:24.981 INFO Processing version folder: 3.2.3.0
+2026-03-30 10:53:24.982 INFO   Create and checkout to a new branch: New-Version-denglihong2007.CRSim-3.2.3.0-1774839204
+2026-03-30 10:53:35.545 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\denglihong2007\CRSim\3.2.3.0\denglihong2007.CRSim.installer.yaml
+2026-03-30 10:53:35.548 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\denglihong2007\CRSim\3.2.3.0\denglihong2007.CRSim.installer.yaml
+2026-03-30 10:53:35.757 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\denglihong2007\CRSim\3.2.3.0\denglihong2007.CRSim.locale.en-US.yaml
+2026-03-30 10:53:35.764 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\denglihong2007\CRSim\3.2.3.0\denglihong2007.CRSim.locale.en-US.yaml
+2026-03-30 10:53:35.875 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\denglihong2007\CRSim\3.2.3.0\denglihong2007.CRSim.locale.zh-CN.yaml
+2026-03-30 10:53:35.879 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\denglihong2007\CRSim\3.2.3.0\denglihong2007.CRSim.locale.zh-CN.yaml
+2026-03-30 10:53:36.343 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\denglihong2007\CRSim\3.2.3.0\denglihong2007.CRSim.yaml
+2026-03-30 10:53:36.648 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\denglihong2007\CRSim\3.2.3.0\denglihong2007.CRSim.yaml
+2026-03-30 10:53:36.136 INFO   New manifests in D:\...\winget-pkgs\manifests\d\denglihong2007\CRSim\3.2.3.0 for denglihong2007.CRSim (3.2.3.0)
+2026-03-30 10:55:58.417 INFO Manifest validation succeeded with "sundry validate".
+2026-03-30 10:55:58.418 INFO   Staging and Committing Changes to Git
+2026-03-30 10:56:21.554 INFO     Commit message: New version: denglihong2007.CRSim version 3.2.3.0 (Auto)
+2026-03-30 10:56:54.330 INFO   Pushing changes to remote (origin) repository
+2026-03-30 10:56:58.976 INFO     Successfully pushed to remote (origin): New-Version-denglihong2007.CRSim-3.2.3.0-1774839204
+2026-03-30 10:57:04.874 INFO All manifests have been modified and pushed through.
+2026-03-30 10:57:20.293 INFO Workspace clean-up completed.
+~~ End of logging ~~
