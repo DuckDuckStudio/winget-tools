@@ -1,0 +1,22 @@
+~~ Start logging ~~
+2026-04-01 11:30:49.247 FUN qaq
+2026-04-01 11:30:49.249 INFO Found the following version folder: ['1.0.0']
+2026-04-01 11:30:49.251 INFO Processing version folder: 1.0.0
+2026-04-01 11:30:49.252 INFO   Create and checkout to a new branch: New-Version-DuckStudio.FCM-1.0.0-1775014249
+2026-04-01 11:30:58.783 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.0.0\DuckStudio.FCM.installer.yaml
+2026-04-01 11:30:58.785 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.0.0\DuckStudio.FCM.installer.yaml
+2026-04-01 11:30:59.195 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.0.0\DuckStudio.FCM.locale.en-US.yaml
+2026-04-01 11:30:59.255 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.0.0\DuckStudio.FCM.locale.en-US.yaml
+2026-04-01 11:30:59.155 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.0.0\DuckStudio.FCM.locale.zh-CN.yaml
+2026-04-01 11:30:59.159 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.0.0\DuckStudio.FCM.locale.zh-CN.yaml
+2026-04-01 11:30:59.290 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.0.0\DuckStudio.FCM.yaml
+2026-04-01 11:30:59.293 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.0.0\DuckStudio.FCM.yaml
+2026-04-01 11:30:59.429 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.0.0 for DuckStudio.FCM (1.0.0)
+2026-04-01 11:31:29.540 INFO Manifest validation succeeded with "sundry validate".
+2026-04-01 11:31:29.541 INFO   Staging and Committing Changes to Git
+2026-04-01 11:31:52.799 INFO     Commit message: New version: DuckStudio.FCM version 1.0.0 (Auto)
+2026-04-01 11:32:24.467 INFO   Pushing changes to remote (origin) repository
+2026-04-01 11:32:28.991 INFO     Successfully pushed to remote (origin): New-Version-DuckStudio.FCM-1.0.0-1775014249
+2026-04-01 11:32:34.252 INFO All manifests have been modified and pushed through.
+2026-04-01 11:32:48.968 INFO Workspace clean-up completed.
+~~ End of logging ~~
