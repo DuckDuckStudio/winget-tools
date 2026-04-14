@@ -1,0 +1,21 @@
+~~ Start logging ~~
+2026-04-14 18:33:39.122 FUN 这么近，那么美，周末到__！
+2026-04-14 18:33:39.125 INFO Found the following version folder: ['0.6.7', '0.7.1']
+2026-04-14 18:33:39.127 VERBOSE Skip version 0.6.7, because it's not in the list of versions to be modified.
+2026-04-14 18:33:39.128 INFO Processing version folder: 0.7.1
+2026-04-14 18:33:39.129 INFO   Create and checkout to a new branch: New-Version-TeamFlos.Phira-0.7.1-1776162819
+2026-04-14 18:33:50.508 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.7.1\TeamFlos.Phira.installer.yaml
+2026-04-14 18:33:50.546 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.7.1\TeamFlos.Phira.installer.yaml
+2026-04-14 18:33:50.656 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.7.1\TeamFlos.Phira.locale.zh-CN.yaml
+2026-04-14 18:33:50.664 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.7.1\TeamFlos.Phira.locale.zh-CN.yaml
+2026-04-14 18:33:50.777 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.7.1\TeamFlos.Phira.yaml
+2026-04-14 18:33:50.780 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.7.1\TeamFlos.Phira.yaml
+2026-04-14 18:33:50.900 INFO   New manifests in D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.7.1 for TeamFlos.Phira (0.7.1)
+2026-04-14 18:45:02.409 INFO Manifest validation succeeded with "sundry validate".
+2026-04-14 18:45:02.410 INFO   Staging and Committing Changes to Git
+2026-04-14 18:45:20.571 INFO     Commit message: New version: TeamFlos.Phira version 0.7.1 (Auto)
+2026-04-14 18:45:48.768 INFO   Pushing changes to remote (origin) repository
+2026-04-14 18:45:53.342 INFO     Successfully pushed to remote (origin): New-Version-TeamFlos.Phira-0.7.1-1776162819
+2026-04-14 18:45:58.218 INFO All manifests have been modified and pushed through.
+2026-04-14 18:46:09.728 INFO Workspace clean-up completed.
+~~ End of logging ~~
