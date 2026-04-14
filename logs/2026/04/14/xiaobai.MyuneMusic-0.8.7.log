@@ -1,0 +1,22 @@
+~~ Start logging ~~
+2026-04-14 18:46:29.455 FUN 对方正在输入...
+2026-04-14 18:46:29.459 INFO Found the following version folder: ['0.6.3', '0.8.6', '0.8.7']
+2026-04-14 18:46:29.461 VERBOSE Skip version 0.6.3, because it's not in the list of versions to be modified.
+2026-04-14 18:46:29.462 VERBOSE Skip version 0.8.6, because it's not in the list of versions to be modified.
+2026-04-14 18:46:29.464 INFO Processing version folder: 0.8.7
+2026-04-14 18:46:29.465 INFO   Create and checkout to a new branch: New-Version-xiaobai.MyuneMusic-0.8.7-1776163589
+2026-04-14 18:46:40.889 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\x\xiaobai\MyuneMusic\0.8.7\xiaobai.MyuneMusic.installer.yaml
+2026-04-14 18:46:40.902 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\x\xiaobai\MyuneMusic\0.8.7\xiaobai.MyuneMusic.installer.yaml
+2026-04-14 18:46:41.116 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\x\xiaobai\MyuneMusic\0.8.7\xiaobai.MyuneMusic.locale.zh-CN.yaml
+2026-04-14 18:46:41.182 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\x\xiaobai\MyuneMusic\0.8.7\xiaobai.MyuneMusic.locale.zh-CN.yaml
+2026-04-14 18:46:41.173 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\x\xiaobai\MyuneMusic\0.8.7\xiaobai.MyuneMusic.yaml
+2026-04-14 18:46:41.176 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\x\xiaobai\MyuneMusic\0.8.7\xiaobai.MyuneMusic.yaml
+2026-04-14 18:46:41.312 INFO   New manifests in D:\...\winget-pkgs\manifests\x\xiaobai\MyuneMusic\0.8.7 for xiaobai.MyuneMusic (0.8.7)
+2026-04-14 18:47:31.102 INFO Manifest validation succeeded with "sundry validate".
+2026-04-14 18:47:31.103 INFO   Staging and Committing Changes to Git
+2026-04-14 18:47:44.624 INFO     Commit message: New version: xiaobai.MyuneMusic version 0.8.7 (Auto)
+2026-04-14 18:48:13.368 INFO   Pushing changes to remote (origin) repository
+2026-04-14 18:48:17.996 INFO     Successfully pushed to remote (origin): New-Version-xiaobai.MyuneMusic-0.8.7-1776163589
+2026-04-14 18:48:22.762 INFO All manifests have been modified and pushed through.
+2026-04-14 18:48:34.708 INFO Workspace clean-up completed.
+~~ End of logging ~~
