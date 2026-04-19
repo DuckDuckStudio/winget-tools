@@ -1,0 +1,21 @@
+~~ Start logging ~~
+2026-04-19 12:49:54.460 FUN 一勺料汁~
+2026-04-19 12:49:54.464 INFO Found the following version folder: ['2.12.0', '2.12.1']
+2026-04-19 12:49:54.466 VERBOSE Skip version 2.12.0, because it's not in the list of versions to be modified.
+2026-04-19 12:49:54.467 INFO Processing version folder: 2.12.1
+2026-04-19 12:49:54.469 INFO   Create and checkout to a new branch: New-Version-walles.moor-2.12.1-1776574194
+2026-04-19 12:50:14.329 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\w\walles\moor\2.12.1\walles.moor.installer.yaml
+2026-04-19 12:50:14.333 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\w\walles\moor\2.12.1\walles.moor.installer.yaml
+2026-04-19 12:50:14.615 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\w\walles\moor\2.12.1\walles.moor.locale.en-US.yaml
+2026-04-19 12:50:14.620 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\w\walles\moor\2.12.1\walles.moor.locale.en-US.yaml
+2026-04-19 12:50:14.768 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\w\walles\moor\2.12.1\walles.moor.yaml
+2026-04-19 12:50:14.773 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\w\walles\moor\2.12.1\walles.moor.yaml
+2026-04-19 12:50:14.947 INFO   New manifests in D:\...\winget-pkgs\manifests\w\walles\moor\2.12.1 for walles.moor (2.12.1)
+2026-04-19 12:52:35.745 INFO Manifest validation succeeded with "sundry validate".
+2026-04-19 12:52:35.746 INFO   Staging and Committing Changes to Git
+2026-04-19 12:52:55.902 INFO     Commit message: New version: walles.moor version 2.12.1 (Auto)
+2026-04-19 12:53:12.219 INFO   Pushing changes to remote (origin) repository
+2026-04-19 12:53:16.833 INFO     Successfully pushed to remote (origin): New-Version-walles.moor-2.12.1-1776574194
+2026-04-19 12:53:21.390 INFO All manifests have been modified and pushed through.
+2026-04-19 12:53:35.709 INFO Workspace clean-up completed.
+~~ End of logging ~~
