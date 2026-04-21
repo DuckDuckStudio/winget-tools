@@ -1,0 +1,25 @@
+~~ Start logging ~~
+2026-04-22 01:43:05.120 FUN Q：奇怪，你这家好便宜啊
+2026-04-22 01:43:05.120 FUN A：您要买什么吗？可以给您涨价
+2026-04-22 01:43:05.125 INFO Found the following version folder: ['1.0.0', '1.0.1', '1.0.2']
+2026-04-22 01:43:05.128 VERBOSE Skip version 1.0.0, because it's not in the list of versions to be modified.
+2026-04-22 01:43:05.130 VERBOSE Skip version 1.0.1, because it's not in the list of versions to be modified.
+2026-04-22 01:43:05.131 INFO Processing version folder: 1.0.2
+2026-04-22 01:43:05.133 INFO   Create and checkout to a new branch: New-Version-DuckStudio.FCM-1.0.2-1776793385
+2026-04-22 01:43:17.137 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.0.2\DuckStudio.FCM.installer.yaml
+2026-04-22 01:43:17.172 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.0.2\DuckStudio.FCM.installer.yaml
+2026-04-22 01:43:17.300 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.0.2\DuckStudio.FCM.locale.en-US.yaml
+2026-04-22 01:43:17.306 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.0.2\DuckStudio.FCM.locale.en-US.yaml
+2026-04-22 01:43:17.495 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.0.2\DuckStudio.FCM.locale.zh-CN.yaml
+2026-04-22 01:43:17.501 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.0.2\DuckStudio.FCM.locale.zh-CN.yaml
+2026-04-22 01:43:17.691 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.0.2\DuckStudio.FCM.yaml
+2026-04-22 01:43:17.711 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.0.2\DuckStudio.FCM.yaml
+2026-04-22 01:43:17.882 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.0.2 for DuckStudio.FCM (1.0.2)
+2026-04-22 01:45:52.667 INFO Manifest validation succeeded with "sundry validate".
+2026-04-22 01:45:52.683 INFO   Staging and Committing Changes to Git
+2026-04-22 01:46:02.852 INFO     Commit message: New version: DuckStudio.FCM version 1.0.2 (Auto)
+2026-04-22 01:46:54.764 INFO   Pushing changes to remote (origin) repository
+2026-04-22 01:46:59.907 INFO     Successfully pushed to remote (origin): New-Version-DuckStudio.FCM-1.0.2-1776793385
+2026-04-22 01:47:05.581 INFO All manifests have been modified and pushed through.
+2026-04-22 01:47:20.863 INFO Workspace clean-up completed.
+~~ End of logging ~~
