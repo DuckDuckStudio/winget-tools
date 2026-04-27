@@ -1,0 +1,22 @@
+~~ Start logging ~~
+2026-04-27 12:51:03.893 FUN I use Sundry btw.
+2026-04-27 12:51:03.896 INFO Found the following version folder: ['2.12.0', '2.12.1', '2.12.2']
+2026-04-27 12:51:03.898 VERBOSE Skip version 2.12.0, because it's not in the list of versions to be modified.
+2026-04-27 12:51:03.900 VERBOSE Skip version 2.12.1, because it's not in the list of versions to be modified.
+2026-04-27 12:51:03.902 INFO Processing version folder: 2.12.2
+2026-04-27 12:51:03.904 INFO   Create and checkout to a new branch: New-Version-walles.moor-2.12.2-1777265463
+2026-04-27 12:51:28.293 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\w\walles\moor\2.12.2\walles.moor.installer.yaml
+2026-04-27 12:51:28.327 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\w\walles\moor\2.12.2\walles.moor.installer.yaml
+2026-04-27 12:51:28.288 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\w\walles\moor\2.12.2\walles.moor.locale.en-US.yaml
+2026-04-27 12:51:28.302 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\w\walles\moor\2.12.2\walles.moor.locale.en-US.yaml
+2026-04-27 12:51:28.477 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\w\walles\moor\2.12.2\walles.moor.yaml
+2026-04-27 12:51:28.498 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\w\walles\moor\2.12.2\walles.moor.yaml
+2026-04-27 12:51:28.684 INFO   New manifests in D:\...\winget-pkgs\manifests\w\walles\moor\2.12.2 for walles.moor (2.12.2)
+2026-04-27 12:53:21.859 INFO Manifest validation succeeded with "sundry validate".
+2026-04-27 12:53:21.860 INFO   Staging and Committing Changes to Git
+2026-04-27 12:53:39.904 INFO     Commit message: New version: walles.moor version 2.12.2 (Auto)
+2026-04-27 13:00:43.981 INFO   Pushing changes to remote (origin) repository
+2026-04-27 13:00:49.511 INFO     Successfully pushed to remote (origin): New-Version-walles.moor-2.12.2-1777265463
+2026-04-27 13:00:54.148 INFO All manifests have been modified and pushed through.
+2026-04-27 13:01:08.138 INFO Workspace clean-up completed.
+~~ End of logging ~~
