@@ -1,0 +1,24 @@
+~~ Start logging ~~
+2026-05-10 21:35:27.769 FUN 师傅，你是做什么工作的？
+2026-05-10 21:35:27.773 INFO Found the following version folder: ['2.12.0', '2.12.1', '2.12.2', '2.12.3', '2.13.0']
+2026-05-10 21:35:27.774 VERBOSE Skip version 2.12.0, because it's not in the list of versions to be modified.
+2026-05-10 21:35:27.776 VERBOSE Skip version 2.12.1, because it's not in the list of versions to be modified.
+2026-05-10 21:35:27.778 VERBOSE Skip version 2.12.2, because it's not in the list of versions to be modified.
+2026-05-10 21:35:27.779 VERBOSE Skip version 2.12.3, because it's not in the list of versions to be modified.
+2026-05-10 21:35:27.780 INFO Processing version folder: 2.13.0
+2026-05-10 21:35:27.781 INFO   Create and checkout to a new branch: New-Version-walles.moor-2.13.0-1778420127
+2026-05-10 21:35:38.806 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\w\walles\moor\2.13.0\walles.moor.installer.yaml
+2026-05-10 21:35:38.810 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\w\walles\moor\2.13.0\walles.moor.installer.yaml
+2026-05-10 21:35:39.106 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\w\walles\moor\2.13.0\walles.moor.locale.en-US.yaml
+2026-05-10 21:35:39.109 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\w\walles\moor\2.13.0\walles.moor.locale.en-US.yaml
+2026-05-10 21:35:39.245 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\w\walles\moor\2.13.0\walles.moor.yaml
+2026-05-10 21:35:39.248 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\w\walles\moor\2.13.0\walles.moor.yaml
+2026-05-10 21:35:39.400 INFO   New manifests in D:\...\winget-pkgs\manifests\w\walles\moor\2.13.0 for walles.moor (2.13.0)
+2026-05-10 21:38:47.177 INFO Manifest validation succeeded with "sundry validate".
+2026-05-10 21:38:47.178 INFO   Staging and Committing Changes to Git
+2026-05-10 21:38:58.386 INFO     Commit message: New version: walles.moor version 2.13.0 (Auto)
+2026-05-10 21:42:12.721 INFO   Pushing changes to remote (origin) repository
+2026-05-10 21:45:21.456 INFO     Successfully pushed to remote (origin): New-Version-walles.moor-2.13.0-1778420127
+2026-05-10 21:45:25.155 INFO All manifests have been modified and pushed through.
+2026-05-10 21:45:35.284 INFO Workspace clean-up completed.
+~~ End of logging ~~
