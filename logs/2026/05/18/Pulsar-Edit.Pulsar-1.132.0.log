@@ -1,0 +1,35 @@
+~~ Start logging ~~
+2026-05-18 11:08:33.337 FUN :)
+2026-05-18 11:08:33.354 INFO Found the following version folder: ['1.105.0', '1.106.0', '1.113.0', '1.114.0', '1.124.0', '1.125.0', '1.127.1', '1.128.0', '1.129.0', '1.130.0', '1.130.1', '1.131.0', '1.131.1', '1.131.2', '1.131.3', '1.132.0']
+2026-05-18 11:08:33.356 VERBOSE Skip version 1.105.0, because it's not in the list of versions to be modified.
+2026-05-18 11:08:33.358 VERBOSE Skip version 1.106.0, because it's not in the list of versions to be modified.
+2026-05-18 11:08:33.359 VERBOSE Skip version 1.113.0, because it's not in the list of versions to be modified.
+2026-05-18 11:08:33.362 VERBOSE Skip version 1.114.0, because it's not in the list of versions to be modified.
+2026-05-18 11:08:33.364 VERBOSE Skip version 1.124.0, because it's not in the list of versions to be modified.
+2026-05-18 11:08:33.365 VERBOSE Skip version 1.125.0, because it's not in the list of versions to be modified.
+2026-05-18 11:08:33.367 VERBOSE Skip version 1.127.1, because it's not in the list of versions to be modified.
+2026-05-18 11:08:33.368 VERBOSE Skip version 1.128.0, because it's not in the list of versions to be modified.
+2026-05-18 11:08:33.370 VERBOSE Skip version 1.129.0, because it's not in the list of versions to be modified.
+2026-05-18 11:08:33.371 VERBOSE Skip version 1.130.0, because it's not in the list of versions to be modified.
+2026-05-18 11:08:33.374 VERBOSE Skip version 1.130.1, because it's not in the list of versions to be modified.
+2026-05-18 11:08:33.376 VERBOSE Skip version 1.131.0, because it's not in the list of versions to be modified.
+2026-05-18 11:08:33.378 VERBOSE Skip version 1.131.1, because it's not in the list of versions to be modified.
+2026-05-18 11:08:33.380 VERBOSE Skip version 1.131.2, because it's not in the list of versions to be modified.
+2026-05-18 11:08:33.382 VERBOSE Skip version 1.131.3, because it's not in the list of versions to be modified.
+2026-05-18 11:08:33.383 INFO Processing version folder: 1.132.0
+2026-05-18 11:08:33.384 INFO   Create and checkout to a new branch: New-Version-Pulsar-Edit.Pulsar-1.132.0-1779073713
+2026-05-18 11:08:48.947 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.132.0\Pulsar-Edit.Pulsar.installer.yaml
+2026-05-18 11:08:48.950 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.132.0\Pulsar-Edit.Pulsar.installer.yaml
+2026-05-18 11:08:49.142 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.132.0\Pulsar-Edit.Pulsar.locale.en-US.yaml
+2026-05-18 11:08:49.145 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.132.0\Pulsar-Edit.Pulsar.locale.en-US.yaml
+2026-05-18 11:08:49.254 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.132.0\Pulsar-Edit.Pulsar.yaml
+2026-05-18 11:08:49.257 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.132.0\Pulsar-Edit.Pulsar.yaml
+2026-05-18 11:08:49.373 INFO   New manifests in D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.132.0 for Pulsar-Edit.Pulsar (1.132.0)
+2026-05-18 11:09:54.726 INFO Manifest validation succeeded with "sundry validate".
+2026-05-18 11:09:54.728 INFO   Staging and Committing Changes to Git
+2026-05-18 11:10:20.659 INFO     Commit message: New version: Pulsar-Edit.Pulsar version 1.132.0 (Auto)
+2026-05-18 11:16:38.699 INFO   Pushing changes to remote (origin) repository
+2026-05-18 11:16:43.165 INFO     Successfully pushed to remote (origin): New-Version-Pulsar-Edit.Pulsar-1.132.0-1779073713
+2026-05-18 11:16:47.234 INFO All manifests have been modified and pushed through.
+2026-05-18 11:16:56.453 INFO Workspace clean-up completed.
+~~ End of logging ~~
