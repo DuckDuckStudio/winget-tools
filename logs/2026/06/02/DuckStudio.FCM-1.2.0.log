@@ -1,0 +1,44 @@
+~~ Start logging ~~
+2026-06-02 05:56:24.117 FUN 我是奶龙，我才是奶龙！
+2026-06-02 05:56:24.122 INFO Found the following version folder: ['1.0.0', '1.0.1', '1.0.2', '1.1.0', '1.2.0']
+2026-06-02 05:56:24.124 VERBOSE Skip version 1.0.0, because it's not in the list of versions to be modified.
+2026-06-02 05:56:24.126 VERBOSE Skip version 1.0.1, because it's not in the list of versions to be modified.
+2026-06-02 05:56:24.128 VERBOSE Skip version 1.0.2, because it's not in the list of versions to be modified.
+2026-06-02 05:56:24.130 VERBOSE Skip version 1.1.0, because it's not in the list of versions to be modified.
+2026-06-02 05:56:24.132 INFO Processing version folder: 1.2.0
+2026-06-02 05:56:24.134 INFO   Create and checkout to a new branch: New-Version-DuckStudio.FCM-1.2.0-1780350984
+2026-06-02 05:56:41.231 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.2.0\DuckStudio.FCM.installer.yaml
+2026-06-02 05:56:41.234 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.2.0\DuckStudio.FCM.installer.yaml
+2026-06-02 05:56:41.500 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.2.0\DuckStudio.FCM.locale.en-US.yaml
+2026-06-02 05:56:41.505 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.2.0\DuckStudio.FCM.locale.en-US.yaml
+2026-06-02 05:56:41.658 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.2.0\DuckStudio.FCM.locale.zh-CN.yaml
+2026-06-02 05:56:41.662 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.2.0\DuckStudio.FCM.locale.zh-CN.yaml
+2026-06-02 05:56:41.842 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.2.0\DuckStudio.FCM.yaml
+2026-06-02 05:56:41.846 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.2.0\DuckStudio.FCM.yaml
+2026-06-02 05:56:42.496 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.2.0 for DuckStudio.FCM (1.2.0)
+2026-06-02 05:58:06.248 INFO Manifest validation succeeded with "sundry validate".
+2026-06-02 05:58:06.261 INFO   Staging and Committing Changes to Git
+2026-06-02 05:58:30.125 INFO     Commit message: New version: DuckStudio.FCM version 1.2.0 (Auto)
+2026-06-02 05:58:47.906 INFO   Pushing changes to remote (origin) repository
+2026-06-02 05:58:53.638 INFO     Successfully pushed to remote (origin): New-Version-DuckStudio.FCM-1.2.0-1780350984
+2026-06-02 05:58:58.318 INFO All manifests have been modified and pushed through.
+Traceback (most recent call last):
+  File "...", line 217, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "...", line 105, in main
+    return updater.main(args)
+           ~~~~~~~~~~~~^^^^^^
+  File "...", line 53, in main
+    if e := update(PackageIdentifier):
+            ~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "...", line 129, in update
+    if e := tools.update.main([PackageIdentifier, release.ver]):
+            ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "...", line 177, in main
+    subprocess.run(["git", "branch", "-D", branch], check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\...\AppData\Local\Python\pythoncore-3.14-64\Lib\subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['git', 'branch', '-D', '+ agents/duckstudio-fcm-new-manifest']' returned non-zero exit status 1.
