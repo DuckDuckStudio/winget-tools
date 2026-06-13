@@ -58,7 +58,7 @@ namespace checker
             "https://release.axocdn.com/windows/GitKrakenSetup", // 未找到替代链接
         ];
 
-        static async Task<int> Main(string[] args)
+        private static async Task<int> Main(string[] args)
         {
             if (args.Length < 1)
             {
@@ -194,7 +194,7 @@ namespace checker
             return !failed;
         }
 
-        static string GetPackageIdentifier(string filePath)
+        private static string GetPackageIdentifier(string filePath)
         {
             // 传入路径，先获取文件名
             string fileName = Path.GetFileNameWithoutExtension(filePath);
@@ -218,7 +218,7 @@ namespace checker
             }
         }
 
-        static async Task FailureCheck(string filePath)
+        private static async Task FailureCheck(string filePath)
         {
             // 获取常失败包和原因
             if (GetFrequentlyFailingPackageHint(filePath))
@@ -228,7 +228,7 @@ namespace checker
             }
         }
 
-        static async Task FoundDuplicatePullRequests(string packageId, string? packageVersion)
+        private static async Task FoundDuplicatePullRequests(string packageId, string? packageVersion)
         {
             if (!(string.IsNullOrWhiteSpace(packageId) || string.IsNullOrWhiteSpace(packageVersion)))
             {
@@ -273,7 +273,7 @@ namespace checker
             }
         }
 
-        static bool GetFrequentlyFailingPackageHint(string filePath)
+        private static bool GetFrequentlyFailingPackageHint(string filePath)
         {
             if (FrequentlyFailingPackages.TryGetValue(GetPackageIdentifier(filePath), out string? hint))
             {
@@ -286,12 +286,12 @@ namespace checker
             }
         }
 
-        static void WriteErrorMessage(string errorMessage, string filePath)
+        private static void WriteErrorMessage(string errorMessage, string filePath)
         {
             Console.WriteLine(errorMessage.Replace("<ManifestFilePath>", filePath).Replace("<PackageIdentifier>", GetPackageIdentifier(filePath)).Replace("<PackageVersion>", Path.GetFileName(Path.GetDirectoryName(filePath))));
         }
 
-        static async Task<bool> CheckUrlAsync(HttpClient client, string filePath, string url, string failureLevel)
+        private static async Task<bool> CheckUrlAsync(HttpClient client, string filePath, string url, string failureLevel)
         {
             // * OK | - 忽略 | ^ 使用存储的结果
 
@@ -628,7 +628,7 @@ namespace checker
             return true;
         }
 
-        static HashSet<string> FindUrls(YamlNode node, string failureLevel)
+        private static HashSet<string> FindUrls(YamlNode node, string failureLevel)
         {
             HashSet<string> urls = [];
             if (node is YamlMappingNode mappingNode)
@@ -699,7 +699,7 @@ namespace checker
             return urls;
         }
 
-        static string? GetUnexpectedContentType(string url, string? contentType)
+        private static string? GetUnexpectedContentType(string url, string? contentType)
         {
             if (!string.IsNullOrWhiteSpace(contentType) && InstallerType.Any(ext => url.EndsWith(ext, StringComparison.OrdinalIgnoreCase)))
             {
@@ -712,7 +712,7 @@ namespace checker
             return null;
         }
 
-        static bool IsExcluded(string url)
+        private static bool IsExcluded(string url)
         {
             /* 常见的错误原因
              * 假 403: 发布者使用了 Cloudflare
