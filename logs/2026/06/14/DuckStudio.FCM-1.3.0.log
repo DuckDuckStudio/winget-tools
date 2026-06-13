@@ -1,0 +1,26 @@
+~~ Start logging ~~
+2026-06-14 00:24:29.550 FUN 【撞飞机了ToT】https://www.bilibili.com/video/BV1f14y1h7Hp/?t=272
+2026-06-14 00:24:29.561 INFO Found the following version folder: ['1.0.0', '1.0.1', '1.0.2', '1.1.0', '1.3.0']
+2026-06-14 00:24:29.564 VERBOSE Skip version 1.0.0, because it's not in the list of versions to be modified.
+2026-06-14 00:24:29.566 VERBOSE Skip version 1.0.1, because it's not in the list of versions to be modified.
+2026-06-14 00:24:29.569 VERBOSE Skip version 1.0.2, because it's not in the list of versions to be modified.
+2026-06-14 00:24:29.572 VERBOSE Skip version 1.1.0, because it's not in the list of versions to be modified.
+2026-06-14 00:24:29.574 INFO Processing version folder: 1.3.0
+2026-06-14 00:24:29.576 INFO   Create and checkout to a new branch: New-Version-DuckStudio.FCM-1.3.0-1781367869
+2026-06-14 00:24:52.499 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.3.0\DuckStudio.FCM.installer.yaml
+2026-06-14 00:24:52.506 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.3.0\DuckStudio.FCM.installer.yaml
+2026-06-14 00:24:52.840 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.3.0\DuckStudio.FCM.locale.en-US.yaml
+2026-06-14 00:24:52.846 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.3.0\DuckStudio.FCM.locale.en-US.yaml
+2026-06-14 00:24:53.226 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.3.0\DuckStudio.FCM.locale.zh-CN.yaml
+2026-06-14 00:24:53.272 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.3.0\DuckStudio.FCM.locale.zh-CN.yaml
+2026-06-14 00:24:53.191 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.3.0\DuckStudio.FCM.yaml
+2026-06-14 00:24:53.196 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.3.0\DuckStudio.FCM.yaml
+2026-06-14 00:24:53.395 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\FCM\1.3.0 for DuckStudio.FCM (1.3.0)
+2026-06-14 00:28:21.484 INFO Manifest validation succeeded with "sundry validate".
+2026-06-14 00:28:21.487 INFO   Staging and Committing Changes to Git
+2026-06-14 00:28:46.751 INFO     Commit message: New version: DuckStudio.FCM version 1.3.0 (Auto)
+2026-06-14 00:29:08.692 INFO   Pushing changes to remote (origin) repository
+2026-06-14 00:29:13.944 INFO     Successfully pushed to remote (origin): New-Version-DuckStudio.FCM-1.3.0-1781367869
+2026-06-14 00:29:19.250 INFO All manifests have been modified and pushed through.
+2026-06-14 00:29:40.643 INFO Workspace clean-up completed.
+~~ End of logging ~~
