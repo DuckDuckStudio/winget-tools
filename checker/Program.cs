@@ -11,7 +11,7 @@ using YamlDotNet.RepresentationModel;
 
 namespace checker
 {
-    internal class Program
+    internal static class Program
     {
         private static readonly ConcurrentDictionary<string, string> checkedUrls = new();
         // 标 readonly 是因为“IDE0044 将字段设置为只读”提示。
