@@ -198,24 +198,22 @@ namespace checker
         {
             // 传入路径，先获取文件名
             string fileName = Path.GetFileNameWithoutExtension(filePath);
+
             // 此时，有这三种可能
             // xxx.xxx
             // xxx.xxx.installer
             // xxx.xxx.locale.<区域>
 
-            // 判断文件名是否包含 .installer/.locale，然后获取最后一个 .installer/.locale 前的内容
-            if (fileName.Contains(".installer"))
-            {
-                return fileName[..fileName.LastIndexOf(".installer")];
-            }
-            else if (fileName.Contains(".locale"))
-            {
-                return fileName[..fileName.LastIndexOf(".locale")];
-            }
-            else
-            {
-                return fileName;
-            }
+            // 尝试获取最后一个 .installer/.locale 前的内容
+            int index = fileName.LastIndexOf(".installer", StringComparison.Ordinal);
+            if (index >= 0)
+                return fileName[..index];
+
+            index = fileName.LastIndexOf(".locale", StringComparison.Ordinal);
+            if (index >= 0)
+                return fileName[..index];
+
+            return fileName;
         }
 
         private static async Task FailureCheck(string filePath)
@@ -531,7 +529,7 @@ namespace checker
                             errorMessage = $"\n[Warning] (安装程序? Name or service not known) <ManifestFilePath> 中的 {url} 域名或服务器未知 ({e.Message})";
                             if (failureLevel == "详细")
                             {
-                                errorMessage = string.Concat(errorMessage, $"[Hint] Sundry 命令: sundry remove <PackageIdentifier> <PackageVersion>");
+                                errorMessage = string.Concat(errorMessage, "[Hint] Sundry 命令: sundry remove <PackageIdentifier> <PackageVersion>");
                             }
                             CheckedUrls.TryAdd(url, errorMessage);
                             WriteErrorMessage(errorMessage, filePath);
