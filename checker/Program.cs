@@ -11,14 +11,14 @@ using YamlDotNet.RepresentationModel;
 
 namespace checker
 {
-    internal class Program
+    internal static class Program
     {
-        private static readonly ConcurrentDictionary<string, string> checkedUrls = new();
+        private static readonly ConcurrentDictionary<string, string> CheckedUrls = new();
         // 标 readonly 是因为“IDE0044 将字段设置为只读”提示。
         // readonly 确保引用不变（不能再 checkedUrls = new ConcurrentDictionary<string, string>();）
         // 但内容可变（可以 TryAdd）。
 
-        private static readonly string[] installerType = [".exe", ".zip", ".msi", ".msix", ".appx", "download", ".msixbundle"];
+        private static readonly string[] InstallerType = [".exe", ".zip", ".msi", ".msix", ".appx", "download", ".msixbundle"];
         // &download 为 sourceforge 和类似网站的下载链接
 
         private static readonly Dictionary<string, string> FrequentlyFailingPackages = new()
@@ -44,7 +44,7 @@ namespace checker
             // ========
         };
 
-        private static readonly HashSet<string> excludedDomains =
+        private static readonly HashSet<string> ExcludedDomains =
         [
             "https://www.betterbird.eu/", "https://github.com/coq/platform/releases/", "typora", "https://cdn.kde.org/", // 过于复杂
             "https://github.com/paintdotnet/release/", "https://cdn.kde.org/ci-builds/education/kiten/master/windows/", "https://catsxp.oss-cn-hongkong.aliyuncs.com/win_x86/catsxp_installer", // 更新时移除 - 这也许应该归为常失败包而不是忽略？
@@ -58,7 +58,7 @@ namespace checker
             "https://release.axocdn.com/windows/GitKrakenSetup", // 未找到替代链接
         ];
 
-        static async Task<int> Main(string[] args)
+        private static async Task<int> Main(string[] args)
         {
             if (args.Length < 1)
             {
@@ -194,7 +194,7 @@ namespace checker
             return !failed;
         }
 
-        static string GetPackageIdentifier(string filePath)
+        private static string GetPackageIdentifier(string filePath)
         {
             // 传入路径，先获取文件名
             string fileName = Path.GetFileNameWithoutExtension(filePath);
@@ -218,7 +218,7 @@ namespace checker
             }
         }
 
-        static async Task FailureCheck(string filePath)
+        private static async Task FailureCheck(string filePath)
         {
             // 获取常失败包和原因
             if (GetFrequentlyFailingPackageHint(filePath))
@@ -228,9 +228,9 @@ namespace checker
             }
         }
 
-        static async Task FoundDuplicatePullRequests(string packageID, string? packageVersion)
+        private static async Task FoundDuplicatePullRequests(string packageId, string? packageVersion)
         {
-            if (!(string.IsNullOrWhiteSpace(packageID) || string.IsNullOrWhiteSpace(packageVersion)))
+            if (!(string.IsNullOrWhiteSpace(packageId) || string.IsNullOrWhiteSpace(packageVersion)))
             {
                 // 从环境变量获取 Token
                 string? githubToken = Environment.GetEnvironmentVariable("GITHUB_TOKEN");
@@ -247,7 +247,7 @@ namespace checker
                     client = new GitHubClient(productHeader) { Credentials = new Credentials(githubToken) };
                 }
 
-                SearchIssuesRequest searchRequest = new($"is:pr is:open repo:microsoft/winget-pkgs {packageID} {packageVersion}");
+                SearchIssuesRequest searchRequest = new($"is:pr is:open repo:microsoft/winget-pkgs {packageId} {packageVersion}");
 
                 try
                 {
@@ -269,11 +269,11 @@ namespace checker
             }
             else
             {
-                Console.WriteLine($"[Error] 查找重复的拉取请求时出现错误: packageID (\"{packageID}\") 或 packageVersion (\"{packageVersion}\") 为 null 或空");
+                Console.WriteLine($"[Error] 查找重复的拉取请求时出现错误: packageID (\"{packageId}\") 或 packageVersion (\"{packageVersion}\") 为 null 或空");
             }
         }
 
-        static bool GetFrequentlyFailingPackageHint(string filePath)
+        private static bool GetFrequentlyFailingPackageHint(string filePath)
         {
             if (FrequentlyFailingPackages.TryGetValue(GetPackageIdentifier(filePath), out string? hint))
             {
@@ -286,17 +286,17 @@ namespace checker
             }
         }
 
-        static void WriteErrorMessage(string errorMessage, string filePath)
+        private static void WriteErrorMessage(string errorMessage, string filePath)
         {
             Console.WriteLine(errorMessage.Replace("<ManifestFilePath>", filePath).Replace("<PackageIdentifier>", GetPackageIdentifier(filePath)).Replace("<PackageVersion>", Path.GetFileName(Path.GetDirectoryName(filePath))));
         }
 
-        static async Task<bool> CheckUrlAsync(HttpClient client, string filePath, string url, string failureLevel)
+        private static async Task<bool> CheckUrlAsync(HttpClient client, string filePath, string url, string failureLevel)
         {
             // * OK | - 忽略 | ^ 使用存储的结果
 
             // 检查这个 URL 是否在 checkedUrls 中
-            if (checkedUrls.TryGetValue(url, out string? result))
+            if (CheckedUrls.TryGetValue(url, out string? result))
             {
                 if (result == "OK")
                 {
@@ -342,11 +342,11 @@ namespace checker
 
                         if (filePath.Contains("installer.yaml"))
                         {
-                            if (installerType.Any(ext => url.EndsWith(ext, StringComparison.OrdinalIgnoreCase)))
+                            if (InstallerType.Any(ext => url.EndsWith(ext, StringComparison.OrdinalIgnoreCase)))
                             {
                                 errorMessage = $"\n[Error] (安装程序返回 {(int)response.StatusCode}) <ManifestFilePath> 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})\n[Hint] Sundry 命令: sundry remove <PackageIdentifier> <PackageVersion>";
                                 WriteErrorMessage(errorMessage, filePath);
-                                checkedUrls.TryAdd(url, errorMessage);
+                                CheckedUrls.TryAdd(url, errorMessage);
                                 await FailureCheck(filePath);
                                 return false;
                             }
@@ -354,7 +354,7 @@ namespace checker
                             {
                                 errorMessage = $"\n[Warning] (安装程序? 返回 {(int)response.StatusCode}) <ManifestFilePath> 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})\n[Hint] Sundry 命令: sundry remove <PackageIdentifier> <PackageVersion>";
                                 WriteErrorMessage(errorMessage, filePath);
-                                checkedUrls.TryAdd(url, errorMessage);
+                                CheckedUrls.TryAdd(url, errorMessage);
                                 await FailureCheck(filePath);
                                 if (failureLevel == "详细")
                                 {
@@ -366,7 +366,7 @@ namespace checker
                         {
                             errorMessage = $"\n[Warning] (一般链接返回 {(int)response.StatusCode}) <ManifestFilePath> 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})\n[Hint] Sundry 命令: sundry modify <PackageIdentifier> <PackageVersion> \"(一般链接返回 {(int)response.StatusCode}) <ManifestFilePath> 中的 {url} 返回了状态码 {(int)response.StatusCode} ({message})\"";
                             WriteErrorMessage(errorMessage, filePath);
-                            checkedUrls.TryAdd(url, errorMessage);
+                            CheckedUrls.TryAdd(url, errorMessage);
                             await FailureCheck(filePath);
                             if (failureLevel == "详细")
                             {
@@ -380,7 +380,7 @@ namespace checker
                         {
                             errorMessage = $"\n[Warning] <ManifestFilePath> 中的 {url} 返回了状态码 {(int)response.StatusCode} (Forbidden - 已禁止)\n[Hint] Sundry 命令: sundry remove <PackageIdentifier> <PackageVersion> \"It returns a 403 status code in GitHub Action.\"";
                             WriteErrorMessage(errorMessage, filePath);
-                            checkedUrls.TryAdd(url, errorMessage);
+                            CheckedUrls.TryAdd(url, errorMessage);
                             await FailureCheck(filePath);
                             if (failureLevel == "详细")
                             {
@@ -391,7 +391,7 @@ namespace checker
                         {
                             Console.Write("-");
                             errorMessage = $"\n[Debug] <ManifestFilePath> 中的 {url} 返回了状态码 {(int)response.StatusCode} (Forbidden - 已禁止)";
-                            checkedUrls.TryAdd(url, errorMessage);
+                            CheckedUrls.TryAdd(url, errorMessage);
 #if DEBUG
                             WriteErrorMessage(errorMessage, filePath);
 #endif
@@ -418,7 +418,7 @@ namespace checker
                     {
                         Console.Write("-");
                         errorMessage = $"\n[Debug] <ManifestFilePath> 中的 {url} 返回了状态码 {(int)response.StatusCode} (Method Not Allowed - 方法不允许)";
-                        checkedUrls.TryAdd(url, errorMessage);
+                        CheckedUrls.TryAdd(url, errorMessage);
 #if DEBUG
                         WriteErrorMessage(errorMessage, filePath);
 #endif
@@ -428,7 +428,7 @@ namespace checker
                         // 418 I'm a teapot
                         Console.Write("-");
                         errorMessage = $"\n[Debug] <ManifestFilePath> 中的 {url} 返回了状态码 {(int)response.StatusCode} (I'm a teapot - 服务器拒绝冲泡咖啡，因为它一直都是茶壶)\n[Debug] 这可能只是因为服务器不想处理我们的请求。";
-                        checkedUrls.TryAdd(url, errorMessage);
+                        CheckedUrls.TryAdd(url, errorMessage);
 #if DEBUG
                         WriteErrorMessage(errorMessage, filePath);
 #endif
@@ -440,7 +440,7 @@ namespace checker
                         {
                             errorMessage = string.Concat(errorMessage, $"\n[Hint] Sundry 命令: sundry remove <PackageIdentifier> <PackageVersion> \"It returns a {(int)response.StatusCode} (≥ 400) status code in GitHub Action.\"");
                         }
-                        checkedUrls.TryAdd(url, errorMessage);
+                        CheckedUrls.TryAdd(url, errorMessage);
                         WriteErrorMessage(errorMessage, filePath);
                         await FailureCheck(filePath);
                         if (failureLevel == "详细")
@@ -453,7 +453,7 @@ namespace checker
                 {
                     Console.Write("-");
                     errorMessage = $"\n[Debug] <ManifestFilePath> 中的 {url} 返回了状态码 {(int)response.StatusCode} (≥500 - 服务端错误)";
-                    checkedUrls.TryAdd(url, errorMessage);
+                    CheckedUrls.TryAdd(url, errorMessage);
 #if DEBUG
                     WriteErrorMessage(errorMessage, filePath);
 #endif
@@ -473,7 +473,7 @@ namespace checker
                             if ((int)httpsResponse.StatusCode < 400)
                             {
                                 errorMessage = $"\n[Warning] <ManifestFilePath> 中的 {url} 不安全 (HTTP)，请使用安全 URL {httpsUrl} (HTTPS) 替代。\n[Hint] Sundry 命令: sundry modify <PackageIdentifier> <PackageVersion> \"<ManifestFilePath> 中的 {url} 不安全 (HTTP)，请使用安全 URL {httpsUrl} (HTTPS) 替代。\"";
-                                checkedUrls.TryAdd(url, errorMessage);
+                                CheckedUrls.TryAdd(url, errorMessage);
                                 WriteErrorMessage(errorMessage, filePath);
                                 if (failureLevel == "详细")
                                 {
@@ -490,7 +490,7 @@ namespace checker
                     if (!string.IsNullOrWhiteSpace(unexpectedType))
                     {
                         errorMessage = $"\n[Warning] <ManifestFilePath> 中的 {url} 响应的类型似乎不是有效的安装程序 ({unexpectedType})\n[Hint] Sundry 命令: sundry remove <PackageIdentifier> <PackageVersion> \"The installer url(s) responded with an unexpected type ({unexpectedType}) in GitHub Action.\"";
-                        checkedUrls.TryAdd(url, errorMessage);
+                        CheckedUrls.TryAdd(url, errorMessage);
                         WriteErrorMessage(errorMessage, filePath);
                         if (failureLevel == "详细")
                         {
@@ -499,7 +499,7 @@ namespace checker
                     }
                     // 如果没有抛出异常，也没有遇到检查错误
                     Console.Write("*");
-                    checkedUrls.TryAdd(url, "OK");
+                    CheckedUrls.TryAdd(url, "OK");
                 }
             }
             catch (HttpRequestException e)
@@ -508,7 +508,7 @@ namespace checker
                 {
                     Console.Write("-");
                     errorMessage = $"\n[Debug] 访问 <ManifestFilePath> 中的 {url} 时发生错误: {e.Message} (资源暂时不可用)";
-                    checkedUrls.TryAdd(url, errorMessage);
+                    CheckedUrls.TryAdd(url, errorMessage);
 #if DEBUG
                     WriteErrorMessage(errorMessage, filePath);
                     // 定义的 e 无论如何都会在判断时使用，故无需丢弃
@@ -519,10 +519,10 @@ namespace checker
                     // 视作 404 Not Found 按错误处理
                     if (filePath.Contains("installer.yaml"))
                     {
-                        if (installerType.Any(ext => url.EndsWith(ext, StringComparison.OrdinalIgnoreCase)))
+                        if (InstallerType.Any(ext => url.EndsWith(ext, StringComparison.OrdinalIgnoreCase)))
                         {
                             errorMessage = $"\n[Error] (安装程序 Name or service not known) <ManifestFilePath> 中的 {url} 域名或服务器未知 ({e.Message})\n[Hint] Sundry 命令: sundry remove <PackageIdentifier> <PackageVersion>";
-                            checkedUrls.TryAdd(url, errorMessage);
+                            CheckedUrls.TryAdd(url, errorMessage);
                             WriteErrorMessage(errorMessage, filePath);
                             return false;
                         }
@@ -533,7 +533,7 @@ namespace checker
                             {
                                 errorMessage = string.Concat(errorMessage, $"[Hint] Sundry 命令: sundry remove <PackageIdentifier> <PackageVersion>");
                             }
-                            checkedUrls.TryAdd(url, errorMessage);
+                            CheckedUrls.TryAdd(url, errorMessage);
                             WriteErrorMessage(errorMessage, filePath);
                             if (failureLevel == "详细")
                             {
@@ -544,7 +544,7 @@ namespace checker
                     else
                     {
                         errorMessage = $"\n[Warning] (一般链接 Name or service not known) <ManifestFilePath> 中的 {url} 域名或服务器未知 ({e.Message})";
-                        checkedUrls.TryAdd(url, errorMessage);
+                        CheckedUrls.TryAdd(url, errorMessage);
                         WriteErrorMessage(errorMessage, filePath);
                         if (failureLevel == "详细")
                         {
@@ -556,7 +556,7 @@ namespace checker
                 {
                     Console.Write("-");
                     errorMessage = $"\n[Debug] 无法访问 <ManifestFilePath> 中的 {url} : {e.Message} - {e.InnerException?.Message ?? "没有内部异常"} (SSL 连接无法建立)";
-                    checkedUrls.TryAdd(url, errorMessage);
+                    CheckedUrls.TryAdd(url, errorMessage);
 #if DEBUG
                     WriteErrorMessage(errorMessage, filePath);
                     // 定义的 e 无论如何都会在判断时使用，故无需丢弃
@@ -566,7 +566,7 @@ namespace checker
                 {
                     Console.Write("-");
                     errorMessage = $"\n[Debug] 无法访问 <ManifestFilePath> 中的 {url} : {e.Message} - {e.InnerException?.Message ?? "没有内部异常"} (发送请求时发生错误)";
-                    checkedUrls.TryAdd(url, errorMessage);
+                    CheckedUrls.TryAdd(url, errorMessage);
 #if DEBUG
                     WriteErrorMessage(errorMessage, filePath);
                     // 定义的 e 无论如何都会在判断时使用，故无需丢弃
@@ -575,7 +575,7 @@ namespace checker
                 else
                 {
                     errorMessage = $"\n[Warning] 无法访问 <ManifestFilePath> 中的 {url} : {e.Message} - {e.InnerException?.Message ?? "没有内部异常"}";
-                    checkedUrls.TryAdd(url, errorMessage);
+                    CheckedUrls.TryAdd(url, errorMessage);
                     WriteErrorMessage(errorMessage, filePath);
                     if (failureLevel == "详细")
                     {
@@ -589,12 +589,12 @@ namespace checker
                 if (e.InnerException is TimeoutException)
                 {
                     errorMessage = $"\n[Debug] 访问 <ManifestFilePath> 中的 {url} 时超时: {e.Message}";
-                    checkedUrls.TryAdd(url, errorMessage);
+                    CheckedUrls.TryAdd(url, errorMessage);
                 }
                 else
                 {
                     errorMessage = $"\n[Debug] 访问 <ManifestFilePath> 中的 {url} 时任务取消: {e.Message} ({e.InnerException?.Message ?? "没有内部异常"})";
-                    checkedUrls.TryAdd(url, errorMessage);
+                    CheckedUrls.TryAdd(url, errorMessage);
                 }
 #if DEBUG
                 WriteErrorMessage(errorMessage, filePath);
@@ -604,7 +604,7 @@ namespace checker
             {
                 Console.Write("-");
                 errorMessage = $"\n[Debug] 访问 <ManifestFilePath> 中的 {url} 时超时: {e.Message}";
-                checkedUrls.TryAdd(url, errorMessage);
+                CheckedUrls.TryAdd(url, errorMessage);
 #if DEBUG
                 WriteErrorMessage(errorMessage, filePath);
 #endif
@@ -612,14 +612,14 @@ namespace checker
             catch (UriFormatException e)
             {
                 errorMessage = $"\n[Error] <ManifestFilePath> 中的 {url} 无效: {e.Message}";
-                checkedUrls.TryAdd(url, errorMessage);
+                CheckedUrls.TryAdd(url, errorMessage);
                 WriteErrorMessage(errorMessage, filePath);
                 return false;
             }
             catch (Exception e)
             {
                 errorMessage = $"\n[Error] <ManifestFilePath> 中的 {url} 发生错误: {e.Message}";
-                checkedUrls.TryAdd(url, errorMessage);
+                CheckedUrls.TryAdd(url, errorMessage);
                 WriteErrorMessage(errorMessage, filePath);
                 return false;
             }
@@ -628,27 +628,27 @@ namespace checker
             return true;
         }
 
-        static HashSet<string> FindUrls(YamlNode node, string failureLevel)
+        private static HashSet<string> FindUrls(YamlNode node, string failureLevel)
         {
             HashSet<string> urls = [];
             if (node is YamlMappingNode mappingNode)
             {
                 foreach (KeyValuePair<YamlNode, YamlNode> entry in mappingNode.Children)
                 {
-                    HashSet<string> must_check_manifest_keys =
+                    HashSet<string> mustCheckManifestKeys =
                     [
                         "InstallerUrl", "ReturnResponseUrl"
                     ];
 
-                    HashSet<string> all_manifest_keys =
+                    HashSet<string> allManifestKeys =
                     [
-                        .. must_check_manifest_keys,
+                        .. mustCheckManifestKeys,
                         "PublisherUrl", "PublisherSupportUrl", "PrivacyUrl", "PackageUrl", "LicenseUrl",
                         "CopyrightUrl", "AgreementUrl", "DocumentUrl", "ReleaseNotesUrl", "PurchaseUrl"
                     ];
 
                     // 判断 entry.Key 是否为 YamlScalarNode 且 keyNode.Value 是否不为空
-                    if (entry.Key is YamlScalarNode keyNode && keyNode.Value != null)
+                    if (entry.Key is YamlScalarNode { Value: not null } keyNode)
                     {
                         bool flag;
 
@@ -656,12 +656,12 @@ namespace checker
                         if (failureLevel == "详细")
                         {
                             // 如果是 详细，检查所有 URL
-                            flag = all_manifest_keys.Contains(keyNode.Value);
+                            flag = allManifestKeys.Contains(keyNode.Value);
                         }
                         else
                         {
                             // 否则，始终检查 InstallerUrl 和 ReturnResponseUrl
-                            flag = must_check_manifest_keys.Contains(keyNode.Value);
+                            flag = mustCheckManifestKeys.Contains(keyNode.Value);
                         }
 
                         // #if DEBUG
@@ -670,7 +670,7 @@ namespace checker
                         // 仅当清单很少时才建议启用此输出
 
                         // 如果 flag 为 true，检查 entry.Value 是否为 YamlScalarNode 且非 null
-                        if (flag && entry.Value is YamlScalarNode scalarNode && scalarNode.Value != null)
+                        if (flag && entry.Value is YamlScalarNode { Value: not null } scalarNode)
                         {
                             // 如果没被忽略
                             if (!IsExcluded(scalarNode.Value))
@@ -699,9 +699,9 @@ namespace checker
             return urls;
         }
 
-        static string? GetUnexpectedContentType(string url, string? contentType)
+        private static string? GetUnexpectedContentType(string url, string? contentType)
         {
-            if (!string.IsNullOrWhiteSpace(contentType) && installerType.Any(ext => url.EndsWith(ext, StringComparison.OrdinalIgnoreCase)))
+            if (!string.IsNullOrWhiteSpace(contentType) && InstallerType.Any(ext => url.EndsWith(ext, StringComparison.OrdinalIgnoreCase)))
             {
                 HashSet<string> unexpectedTypes = ["xml", "json", "html"];
                 if (unexpectedTypes.Any(i => contentType.Contains(i, StringComparison.OrdinalIgnoreCase)))
@@ -712,12 +712,12 @@ namespace checker
             return null;
         }
 
-        static bool IsExcluded(string url)
+        private static bool IsExcluded(string url)
         {
             /* 常见的错误原因
              * 假 403: 发布者使用了 Cloudflare
              */
-            return excludedDomains.Any(url.Contains);
+            return ExcludedDomains.Any(url.Contains);
         }
     }
 }
