@@ -529,7 +529,7 @@ namespace checker
                             errorMessage = $"\n[Warning] (安装程序? Name or service not known) <ManifestFilePath> 中的 {url} 域名或服务器未知 ({e.Message})";
                             if (failureLevel == "详细")
                             {
-                                errorMessage = string.Concat(errorMessage, $"[Hint] Sundry 命令: sundry remove <PackageIdentifier> <PackageVersion>");
+                                errorMessage = string.Concat(errorMessage, "[Hint] Sundry 命令: sundry remove <PackageIdentifier> <PackageVersion>");
                             }
                             CheckedUrls.TryAdd(url, errorMessage);
                             WriteErrorMessage(errorMessage, filePath);
