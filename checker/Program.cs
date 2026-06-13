@@ -648,7 +648,7 @@ namespace checker
                     ];
 
                     // 判断 entry.Key 是否为 YamlScalarNode 且 keyNode.Value 是否不为空
-                    if (entry.Key is YamlScalarNode keyNode && keyNode.Value != null)
+                    if (entry.Key is YamlScalarNode { Value: not null } keyNode)
                     {
                         bool flag;
 
@@ -670,7 +670,7 @@ namespace checker
                         // 仅当清单很少时才建议启用此输出
 
                         // 如果 flag 为 true，检查 entry.Value 是否为 YamlScalarNode 且非 null
-                        if (flag && entry.Value is YamlScalarNode scalarNode && scalarNode.Value != null)
+                        if (flag && entry.Value is YamlScalarNode { Value: not null } scalarNode)
                         {
                             // 如果没被忽略
                             if (!IsExcluded(scalarNode.Value))
