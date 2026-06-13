@@ -58,6 +58,11 @@ namespace checker
             "https://release.axocdn.com/windows/GitKrakenSetup", // 未找到替代链接
         ];
 
+        private static readonly HashSet<string> ExcludedPackages =
+        [
+            "cURL.trurl", // 由 Okeanos 维护，见 https://github.com/microsoft/winget-pkgs/pull/368327#issuecomment-4695846478
+        ];
+
         private static async Task<int> Main(string[] args)
         {
             if (args.Length < 1)
@@ -149,6 +154,11 @@ namespace checker
             {
                 try
                 {
+                    if (IsExcludedPackage(filePath))
+                    {
+                        continue;
+                    }
+
                     YamlStream yaml = [];
                     using StreamReader reader = new(filePath);
                     yaml.Load(reader);
@@ -671,7 +681,7 @@ namespace checker
                         if (flag && entry.Value is YamlScalarNode { Value: not null } scalarNode)
                         {
                             // 如果没被忽略
-                            if (!IsExcluded(scalarNode.Value))
+                            if (!IsExcludedUrl(scalarNode.Value))
                             {
                                 // 向 urls 添加键的值
                                 urls.Add(scalarNode.Value);
@@ -710,12 +720,14 @@ namespace checker
             return null;
         }
 
-        private static bool IsExcluded(string url)
+        private static bool IsExcludedUrl(string url)
         {
-            /* 常见的错误原因
-             * 假 403: 发布者使用了 Cloudflare
-             */
             return ExcludedDomains.Any(url.Contains);
+        }
+
+        private static bool IsExcludedPackage(string filePath)
+        {
+            return ExcludedPackages.Contains(GetPackageIdentifier(filePath));
         }
     }
 }
