@@ -1,0 +1,83 @@
+~~ Start logging ~~
+2026-06-16 01:40:28.700 FUN 哇这个好可爱口牙
+2026-06-16 01:40:28.749 INFO Found the following version folder: ['1.0.1', '1.0.10', '1.0.11', '1.0.2', '1.0.3', '1.0.4', '1.0.5', '1.0.6', '1.0.7', '1.0.8', '1.0.9', '1.1.0', '1.1.1', '1.1.10', '1.1.11', '1.1.12', '1.1.13', '1.1.14', '1.1.2', '1.1.3', '1.1.4', '1.1.6', '1.1.7', '1.1.8', '1.1.9', '1.2.0', '1.2.1', '1.2.2', '1.2.3', '1.2.4', '1.2.5', '1.2.6', '1.2.7', '1.2.8', '1.2.9', '1.3.0', '1.3.1', '1.3.2', '1.3.3', '1.3.4', '1.3.5', '1.3.6', '1.3.7', '1.3.8', '1.3.9', '1.4.0', '1.4.1', '1.4.2', '1.4.3', '1.5.0', '1.5.1', '1.5.2', '1.6.0', '1.6.1', '1.6.2', '1.6.3', '1.6.4', '1.6.5', '1.6.6', '1.6.7', '1.6.8', '1.6.9']
+2026-06-16 01:40:28.752 VERBOSE Skip version 1.0.1, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.755 VERBOSE Skip version 1.0.10, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.758 VERBOSE Skip version 1.0.11, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.761 VERBOSE Skip version 1.0.2, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.764 VERBOSE Skip version 1.0.3, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.766 VERBOSE Skip version 1.0.4, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.768 VERBOSE Skip version 1.0.5, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.771 VERBOSE Skip version 1.0.6, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.774 VERBOSE Skip version 1.0.7, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.777 VERBOSE Skip version 1.0.8, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.779 VERBOSE Skip version 1.0.9, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.783 VERBOSE Skip version 1.1.0, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.787 VERBOSE Skip version 1.1.1, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.790 VERBOSE Skip version 1.1.10, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.792 VERBOSE Skip version 1.1.11, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.794 VERBOSE Skip version 1.1.12, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.797 VERBOSE Skip version 1.1.13, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.798 VERBOSE Skip version 1.1.14, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.800 VERBOSE Skip version 1.1.2, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.802 VERBOSE Skip version 1.1.3, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.804 VERBOSE Skip version 1.1.4, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.806 VERBOSE Skip version 1.1.6, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.808 VERBOSE Skip version 1.1.7, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.809 VERBOSE Skip version 1.1.8, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.812 VERBOSE Skip version 1.1.9, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.813 VERBOSE Skip version 1.2.0, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.816 VERBOSE Skip version 1.2.1, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.817 VERBOSE Skip version 1.2.2, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.819 VERBOSE Skip version 1.2.3, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.821 VERBOSE Skip version 1.2.4, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.823 VERBOSE Skip version 1.2.5, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.824 VERBOSE Skip version 1.2.6, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.828 VERBOSE Skip version 1.2.7, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.830 VERBOSE Skip version 1.2.8, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.832 VERBOSE Skip version 1.2.9, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.836 VERBOSE Skip version 1.3.0, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.838 VERBOSE Skip version 1.3.1, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.840 VERBOSE Skip version 1.3.2, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.841 VERBOSE Skip version 1.3.3, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.843 VERBOSE Skip version 1.3.4, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.845 VERBOSE Skip version 1.3.5, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.848 VERBOSE Skip version 1.3.6, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.851 VERBOSE Skip version 1.3.7, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.853 VERBOSE Skip version 1.3.8, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.855 VERBOSE Skip version 1.3.9, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.858 VERBOSE Skip version 1.4.0, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.861 VERBOSE Skip version 1.4.1, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.863 VERBOSE Skip version 1.4.2, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.866 VERBOSE Skip version 1.4.3, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.869 VERBOSE Skip version 1.5.0, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.872 VERBOSE Skip version 1.5.1, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.874 VERBOSE Skip version 1.5.2, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.876 VERBOSE Skip version 1.6.0, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.880 VERBOSE Skip version 1.6.1, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.882 VERBOSE Skip version 1.6.2, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.884 VERBOSE Skip version 1.6.3, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.886 VERBOSE Skip version 1.6.4, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.888 VERBOSE Skip version 1.6.5, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.890 VERBOSE Skip version 1.6.6, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.892 VERBOSE Skip version 1.6.7, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.895 VERBOSE Skip version 1.6.8, because it's not in the list of versions to be modified.
+2026-06-16 01:40:28.897 INFO Processing version folder: 1.6.9
+2026-06-16 01:40:28.899 INFO   Create and checkout to a new branch: New-Version-DuckStudio.Sundry-1.6.9-1781545228
+2026-06-16 01:40:41.944 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.6.9\DuckStudio.Sundry.installer.yaml
+2026-06-16 01:40:41.948 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.6.9\DuckStudio.Sundry.installer.yaml
+2026-06-16 01:40:42.299 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.6.9\DuckStudio.Sundry.locale.en-US.yaml
+2026-06-16 01:40:42.302 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.6.9\DuckStudio.Sundry.locale.en-US.yaml
+2026-06-16 01:40:42.445 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.6.9\DuckStudio.Sundry.locale.zh-CN.yaml
+2026-06-16 01:40:42.450 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.6.9\DuckStudio.Sundry.locale.zh-CN.yaml
+2026-06-16 01:40:42.590 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.6.9\DuckStudio.Sundry.yaml
+2026-06-16 01:40:42.593 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.6.9\DuckStudio.Sundry.yaml
+2026-06-16 01:40:42.759 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\Sundry\1.6.9 for DuckStudio.Sundry (1.6.9)
+2026-06-16 01:42:54.895 INFO Manifest validation succeeded with "sundry validate".
+2026-06-16 01:42:54.897 INFO   Staging and Committing Changes to Git
+2026-06-16 01:43:14.940 INFO     Commit message: New version: DuckStudio.Sundry version 1.6.9 (Auto)
+2026-06-16 01:47:27.539 INFO   Pushing changes to remote (origin) repository
+2026-06-16 01:48:35.789 INFO     Successfully pushed to remote (origin): New-Version-DuckStudio.Sundry-1.6.9-1781545228
+2026-06-16 01:48:40.441 INFO All manifests have been modified and pushed through.
+2026-06-16 01:49:00.695 INFO Workspace clean-up completed.
+~~ End of logging ~~
