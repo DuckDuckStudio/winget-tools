@@ -1,0 +1,27 @@
+~~ Start logging ~~
+2026-06-17 20:27:24.827 FUN 虽然什么都没做，但还是辛苦我自己了。
+2026-06-17 20:27:24.845 INFO Found the following version folder: ['1.0.0', '1.0.1', '1.0.3', '1.0.4', '1.0.5', '1.0.6', '2026.06.17.27686834029', 'Nightly']
+2026-06-17 20:27:24.847 VERBOSE Skip version 1.0.0, because it's not in the list of versions to be modified.
+2026-06-17 20:27:24.850 VERBOSE Skip version 1.0.1, because it's not in the list of versions to be modified.
+2026-06-17 20:27:24.853 VERBOSE Skip version 1.0.3, because it's not in the list of versions to be modified.
+2026-06-17 20:27:24.857 VERBOSE Skip version 1.0.4, because it's not in the list of versions to be modified.
+2026-06-17 20:27:24.860 VERBOSE Skip version 1.0.5, because it's not in the list of versions to be modified.
+2026-06-17 20:27:24.862 VERBOSE Skip version 1.0.6, because it's not in the list of versions to be modified.
+2026-06-17 20:27:24.864 INFO Processing version folder: 2026.06.17.27686834029
+2026-06-17 20:27:24.866 INFO   Create and checkout to a new branch: New-Version-DuckStudio.GitHubView-2026.06.17.27686834029-1781699244
+2026-06-17 20:27:40.592 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\2026.06.17.27686834029\DuckStudio.GitHubView.installer.yaml
+2026-06-17 20:27:40.656 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\2026.06.17.27686834029\DuckStudio.GitHubView.installer.yaml
+2026-06-17 20:27:40.482 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\2026.06.17.27686834029\DuckStudio.GitHubView.locale.zh-CN.yaml
+2026-06-17 20:27:40.488 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\2026.06.17.27686834029\DuckStudio.GitHubView.locale.zh-CN.yaml
+2026-06-17 20:27:40.777 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\2026.06.17.27686834029\DuckStudio.GitHubView.yaml
+2026-06-17 20:27:40.785 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\2026.06.17.27686834029\DuckStudio.GitHubView.yaml
+2026-06-17 20:27:41.653 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\2026.06.17.27686834029 for DuckStudio.GitHubView (2026.06.17.27686834029)
+2026-06-17 20:28:34.429 INFO Manifest validation succeeded with "sundry validate".
+2026-06-17 20:28:34.432 INFO   Staging and Committing Changes to Git
+2026-06-17 20:29:18.498 INFO     Commit message: New version: DuckStudio.GitHubView version 2026.06.17.27686834029 (Auto)
+2026-06-17 20:30:02.768 INFO   Pushing changes to remote (origin) repository
+2026-06-17 20:30:10.738 INFO     Successfully pushed to remote (origin): New-Version-DuckStudio.GitHubView-2026.06.17.27686834029-1781699244
+2026-06-17 20:30:17.264 VERBOSE Skip version Nightly, because it's not in the list of versions to be modified.
+2026-06-17 20:30:17.266 INFO All manifests have been modified and pushed through.
+2026-06-17 20:30:51.515 INFO Workspace clean-up completed.
+~~ End of logging ~~
