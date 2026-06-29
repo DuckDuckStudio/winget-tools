@@ -1,0 +1,24 @@
+~~ Start logging ~~
+2026-06-29 22:10:12.932 FUN 上抄网抄它啊
+2026-06-29 22:10:12.938 INFO Found the following version folder: ['1.0.0', '1.0.1', '1.1.0']
+2026-06-29 22:10:12.941 VERBOSE Skip version 1.0.0, because it's not in the list of versions to be modified.
+2026-06-29 22:10:12.943 VERBOSE Skip version 1.0.1, because it's not in the list of versions to be modified.
+2026-06-29 22:10:12.944 INFO Processing version folder: 1.1.0
+2026-06-29 22:10:12.945 INFO   Create and checkout to a new branch: New-Version-DuckStudio.PinAction-1.1.0-1782742212
+2026-06-29 22:10:31.545 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\PinAction\1.1.0\DuckStudio.PinAction.installer.yaml
+2026-06-29 22:10:31.549 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\PinAction\1.1.0\DuckStudio.PinAction.installer.yaml
+2026-06-29 22:10:31.806 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\PinAction\1.1.0\DuckStudio.PinAction.locale.en-US.yaml
+2026-06-29 22:10:31.809 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\PinAction\1.1.0\DuckStudio.PinAction.locale.en-US.yaml
+2026-06-29 22:10:31.935 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\PinAction\1.1.0\DuckStudio.PinAction.locale.zh-CN.yaml
+2026-06-29 22:10:31.938 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\PinAction\1.1.0\DuckStudio.PinAction.locale.zh-CN.yaml
+2026-06-29 22:10:32.854 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\PinAction\1.1.0\DuckStudio.PinAction.yaml
+2026-06-29 22:10:32.892 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\PinAction\1.1.0\DuckStudio.PinAction.yaml
+2026-06-29 22:10:32.254 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\PinAction\1.1.0 for DuckStudio.PinAction (1.1.0)
+2026-06-29 22:34:18.202 INFO Manifest validation succeeded with "sundry validate".
+2026-06-29 22:34:18.204 INFO   Staging and Committing Changes to Git
+2026-06-29 22:35:55.794 INFO     Commit message: New version: DuckStudio.PinAction version 1.1.0 (Auto)
+2026-06-29 22:37:54.120 INFO   Pushing changes to remote (origin) repository
+2026-06-29 22:38:00.478 INFO     Successfully pushed to remote (origin): New-Version-DuckStudio.PinAction-1.1.0-1782742212
+2026-06-29 22:38:06.815 INFO All manifests have been modified and pushed through.
+2026-06-29 22:38:24.872 INFO Workspace clean-up completed.
+~~ End of logging ~~
