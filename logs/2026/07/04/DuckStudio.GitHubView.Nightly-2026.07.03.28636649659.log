@@ -1,0 +1,40 @@
+~~ Start logging ~~
+2026-07-04 08:39:06.580 FUN 【\(•-•\)(/•-•)/\(•-•\)\(•-•\)(/•-•)/\(•-•\)(/•-•)/(/•-•)/\(•-•\)(/•-•)/\(•-•\)\(•-•\)(/•-•)/\(•-•\)(/•-•)/(/•-•)/】https://www.bilibili.com/video/BV1pW411f7Px/?p=2
+2026-07-04 08:39:06.596 INFO Found the following version folder: ['2024.12.25.12494060383', '2025.01.14.12764289055', '2025.01.15.12782147412', '2025.01.19.12849721517', '2025.01.22.12907017964', '2025.01.22.12911106870', '2025.03.07.13718228324', '2025.03.10.13761118669', '2025.04.10.14373190636', '2025.07.16.16318740224', '2025.07.17.16336851664', '2025.09.08.17538371202', '2025.10.14.18485774741', '2025.11.13.19317791500', '2025.11.13.19329603276', '2025.12.14.20209192776', '2026.06.17.27686501084', '2026.06.17.27686834029', '2026.07.03.28636649659']
+2026-07-04 08:39:06.600 VERBOSE Skip version 2024.12.25.12494060383, because it's not in the list of versions to be modified.
+2026-07-04 08:39:06.603 VERBOSE Skip version 2025.01.14.12764289055, because it's not in the list of versions to be modified.
+2026-07-04 08:39:06.606 VERBOSE Skip version 2025.01.15.12782147412, because it's not in the list of versions to be modified.
+2026-07-04 08:39:06.609 VERBOSE Skip version 2025.01.19.12849721517, because it's not in the list of versions to be modified.
+2026-07-04 08:39:06.611 VERBOSE Skip version 2025.01.22.12907017964, because it's not in the list of versions to be modified.
+2026-07-04 08:39:06.613 VERBOSE Skip version 2025.01.22.12911106870, because it's not in the list of versions to be modified.
+2026-07-04 08:39:06.615 VERBOSE Skip version 2025.03.07.13718228324, because it's not in the list of versions to be modified.
+2026-07-04 08:39:06.617 VERBOSE Skip version 2025.03.10.13761118669, because it's not in the list of versions to be modified.
+2026-07-04 08:39:06.619 VERBOSE Skip version 2025.04.10.14373190636, because it's not in the list of versions to be modified.
+2026-07-04 08:39:06.622 VERBOSE Skip version 2025.07.16.16318740224, because it's not in the list of versions to be modified.
+2026-07-04 08:39:06.624 VERBOSE Skip version 2025.07.17.16336851664, because it's not in the list of versions to be modified.
+2026-07-04 08:39:06.627 VERBOSE Skip version 2025.09.08.17538371202, because it's not in the list of versions to be modified.
+2026-07-04 08:39:06.629 VERBOSE Skip version 2025.10.14.18485774741, because it's not in the list of versions to be modified.
+2026-07-04 08:39:06.631 VERBOSE Skip version 2025.11.13.19317791500, because it's not in the list of versions to be modified.
+2026-07-04 08:39:06.633 VERBOSE Skip version 2025.11.13.19329603276, because it's not in the list of versions to be modified.
+2026-07-04 08:39:06.635 VERBOSE Skip version 2025.12.14.20209192776, because it's not in the list of versions to be modified.
+2026-07-04 08:39:06.637 VERBOSE Skip version 2026.06.17.27686501084, because it's not in the list of versions to be modified.
+2026-07-04 08:39:06.639 VERBOSE Skip version 2026.06.17.27686834029, because it's not in the list of versions to be modified.
+2026-07-04 08:39:06.641 INFO Processing version folder: 2026.07.03.28636649659
+2026-07-04 08:39:06.642 INFO   Create and checkout to a new branch: New-Version-DuckStudio.GitHubView.Nightly-2026.07.03.28636649659-1783125546
+2026-07-04 08:39:42.737 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2026.07.03.28636649659\DuckStudio.GitHubView.Nightly.installer.yaml
+2026-07-04 08:39:42.779 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2026.07.03.28636649659\DuckStudio.GitHubView.Nightly.installer.yaml
+2026-07-04 08:39:43.162 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2026.07.03.28636649659\DuckStudio.GitHubView.Nightly.locale.en-US.yaml
+2026-07-04 08:39:43.178 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2026.07.03.28636649659\DuckStudio.GitHubView.Nightly.locale.en-US.yaml
+2026-07-04 08:39:43.404 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2026.07.03.28636649659\DuckStudio.GitHubView.Nightly.locale.zh-CN.yaml
+2026-07-04 08:39:43.445 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2026.07.03.28636649659\DuckStudio.GitHubView.Nightly.locale.zh-CN.yaml
+2026-07-04 08:39:43.672 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2026.07.03.28636649659\DuckStudio.GitHubView.Nightly.yaml
+2026-07-04 08:39:43.678 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2026.07.03.28636649659\DuckStudio.GitHubView.Nightly.yaml
+2026-07-04 08:39:43.957 INFO   New manifests in D:\...\winget-pkgs\manifests\d\DuckStudio\GitHubView\Nightly\2026.07.03.28636649659 for DuckStudio.GitHubView.Nightly (2026.07.03.28636649659)
+2026-07-04 08:41:01.545 INFO Manifest validation succeeded with "sundry validate".
+2026-07-04 08:41:01.547 INFO   Staging and Committing Changes to Git
+2026-07-04 08:41:34.469 INFO     Commit message: New version: DuckStudio.GitHubView.Nightly version 2026.07.03.28636649659 (Auto)
+2026-07-04 08:41:50.965 INFO   Pushing changes to remote (origin) repository
+2026-07-04 08:41:56.932 INFO     Successfully pushed to remote (origin): New-Version-DuckStudio.GitHubView.Nightly-2026.07.03.28636649659-1783125546
+2026-07-04 08:42:01.991 INFO All manifests have been modified and pushed through.
+2026-07-04 08:42:22.202 INFO Workspace clean-up completed.
+~~ End of logging ~~
