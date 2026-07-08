@@ -1,0 +1,64 @@
+~~ Start logging ~~
+2026-07-08 10:40:03.324 FUN (ˊ˘ˋ*)
+2026-07-08 10:40:03.350 INFO Found the following version folder: ['14.0.24215.1', '14.0.24516.0', '14.16.27027.1', '14.20.27404.0', '14.24.28127.4', '14.26.28720.3', '14.27.29016.0', '14.27.29112.0', '14.28.29325.2', '14.28.29910.0', '14.28.29913.0', '14.28.29914.0', '14.29.30037.0', '14.29.30040.0', '14.29.30133.0', '14.29.30135.0', '14.29.30139.0', '14.30.30704.0', '14.31.30818.0', '14.31.30919.0', '14.31.31005.0', '14.31.31103.0', '14.32.31302.0', '14.32.31326.0', '14.32.31332.0', '14.34.31823.3', '14.34.31931.0', '14.34.31938.0', '14.36.32532.0', '14.38.32919.0', '14.38.33130.0', '14.38.33135.0', '14.40.33807.0', '14.40.33810.0', '14.40.33816.0', '14.42.34433.0', '14.42.34438.0', '14.44.35208.0', '14.44.35211.0', '14.50.35719.0', '14.51.36231.0', '14.51.36247.0']
+2026-07-08 10:40:03.353 VERBOSE Skip version 14.0.24215.1, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.356 VERBOSE Skip version 14.0.24516.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.358 VERBOSE Skip version 14.16.27027.1, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.360 VERBOSE Skip version 14.20.27404.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.363 VERBOSE Skip version 14.24.28127.4, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.365 VERBOSE Skip version 14.26.28720.3, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.367 VERBOSE Skip version 14.27.29016.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.370 VERBOSE Skip version 14.27.29112.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.373 VERBOSE Skip version 14.28.29325.2, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.375 VERBOSE Skip version 14.28.29910.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.377 VERBOSE Skip version 14.28.29913.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.380 VERBOSE Skip version 14.28.29914.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.382 VERBOSE Skip version 14.29.30037.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.384 VERBOSE Skip version 14.29.30040.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.386 VERBOSE Skip version 14.29.30133.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.389 VERBOSE Skip version 14.29.30135.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.391 VERBOSE Skip version 14.29.30139.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.394 VERBOSE Skip version 14.30.30704.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.397 VERBOSE Skip version 14.31.30818.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.400 VERBOSE Skip version 14.31.30919.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.403 VERBOSE Skip version 14.31.31005.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.406 VERBOSE Skip version 14.31.31103.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.409 VERBOSE Skip version 14.32.31302.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.411 VERBOSE Skip version 14.32.31326.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.414 VERBOSE Skip version 14.32.31332.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.416 VERBOSE Skip version 14.34.31823.3, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.418 VERBOSE Skip version 14.34.31931.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.420 VERBOSE Skip version 14.34.31938.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.422 VERBOSE Skip version 14.36.32532.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.424 VERBOSE Skip version 14.38.32919.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.426 VERBOSE Skip version 14.38.33130.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.428 VERBOSE Skip version 14.38.33135.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.431 VERBOSE Skip version 14.40.33807.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.433 VERBOSE Skip version 14.40.33810.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.438 VERBOSE Skip version 14.40.33816.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.441 VERBOSE Skip version 14.42.34433.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.445 VERBOSE Skip version 14.42.34438.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.447 VERBOSE Skip version 14.44.35208.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.450 VERBOSE Skip version 14.44.35211.0, because it's not in the list of versions to be modified.
+2026-07-08 10:40:03.452 INFO Processing version folder: 14.50.35719.0
+2026-07-08 10:40:03.454 INFO   Create and checkout to a new branch: Modify-S-Microsoft.VCRedist.2015+.x64-14.50.35719.0-1783478403
+2026-07-08 10:41:42.799 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\Microsoft\VCRedist\2015+\x64\14.50.35719.0\Microsoft.VCRedist.2015+.x64.installer.yaml
+2026-07-08 10:41:42.804 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\Microsoft\VCRedist\2015+\x64\14.50.35719.0\Microsoft.VCRedist.2015+.x64.installer.yaml
+2026-07-08 10:41:43.830 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\Microsoft\VCRedist\2015+\x64\14.50.35719.0\Microsoft.VCRedist.2015+.x64.locale.en-US.yaml
+2026-07-08 10:41:43.935 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\Microsoft\VCRedist\2015+\x64\14.50.35719.0\Microsoft.VCRedist.2015+.x64.locale.en-US.yaml
+2026-07-08 10:41:43.247 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\Microsoft\VCRedist\2015+\x64\14.50.35719.0\Microsoft.VCRedist.2015+.x64.locale.zh-CN.yaml
+2026-07-08 10:41:43.254 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\Microsoft\VCRedist\2015+\x64\14.50.35719.0\Microsoft.VCRedist.2015+.x64.locale.zh-CN.yaml
+2026-07-08 10:41:43.426 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\Microsoft\VCRedist\2015+\x64\14.50.35719.0\Microsoft.VCRedist.2015+.x64.locale.zh-TW.yaml
+2026-07-08 10:41:43.432 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\Microsoft\VCRedist\2015+\x64\14.50.35719.0\Microsoft.VCRedist.2015+.x64.locale.zh-TW.yaml
+2026-07-08 10:41:43.647 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\Microsoft\VCRedist\2015+\x64\14.50.35719.0\Microsoft.VCRedist.2015+.x64.yaml
+2026-07-08 10:41:43.652 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\Microsoft\VCRedist\2015+\x64\14.50.35719.0\Microsoft.VCRedist.2015+.x64.yaml
+2026-07-08 10:43:09.191 INFO Manifest validation succeeded with "sundry validate".
+2026-07-08 10:43:09.327 INFO   Staging and Committing Changes to Git
+2026-07-08 10:43:45.182 INFO     Commit message: Modify: Microsoft.VCRedist.2015+.x64 version 14.50.35719.0 (Auto)
+2026-07-08 10:43:45.186 INFO   Pushing changes to remote (origin) repository
+2026-07-08 10:50:00.709 INFO     Successfully pushed to remote (origin): Modify-S-Microsoft.VCRedist.2015+.x64-14.50.35719.0-1783478403
+2026-07-08 10:50:08.181 VERBOSE Skip version 14.51.36231.0, because it's not in the list of versions to be modified.
+2026-07-08 10:50:08.185 VERBOSE Skip version 14.51.36247.0, because it's not in the list of versions to be modified.
+2026-07-08 10:50:08.188 INFO All manifests have been modified and pushed through.
+2026-07-08 10:50:32.268 INFO Workspace clean-up completed.
+~~ End of logging ~~
