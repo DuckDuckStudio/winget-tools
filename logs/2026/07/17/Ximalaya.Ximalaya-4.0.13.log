@@ -1,0 +1,53 @@
+~~ Start logging ~~
+2026-07-17 13:59:22.318 FUN 凡是以各种名义发送不明链接，让你输入银行卡号、手机验证码和各种密码的，都是诈骗！
+2026-07-17 13:59:22.340 INFO Found the following version folder: ['2.0.2', '2.3.0', '2.4.0', '2.4.1', '2.5.0', '2.6.0', '2.8.2', '2.9.0', '3.0.0', '3.0.1', '3.0.2', '3.1.0', '3.1.1', '3.1.2', '3.2.0', '3.3.0', '3.3.2', '3.3.3', '3.3.4', '3.3.5', '3.3.7', '4.0.0', '4.0.1', '4.0.11', '4.0.12', '4.0.13', '4.0.2', '4.0.3', '4.0.4', '4.0.5', '4.0.6', '4.0.9']
+2026-07-17 13:59:22.342 VERBOSE Skip version 2.0.2, because it's not in the list of versions to be modified.
+2026-07-17 13:59:22.345 VERBOSE Skip version 2.3.0, because it's not in the list of versions to be modified.
+2026-07-17 13:59:22.346 VERBOSE Skip version 2.4.0, because it's not in the list of versions to be modified.
+2026-07-17 13:59:22.347 VERBOSE Skip version 2.4.1, because it's not in the list of versions to be modified.
+2026-07-17 13:59:22.349 VERBOSE Skip version 2.5.0, because it's not in the list of versions to be modified.
+2026-07-17 13:59:22.350 VERBOSE Skip version 2.6.0, because it's not in the list of versions to be modified.
+2026-07-17 13:59:22.352 VERBOSE Skip version 2.8.2, because it's not in the list of versions to be modified.
+2026-07-17 13:59:22.353 VERBOSE Skip version 2.9.0, because it's not in the list of versions to be modified.
+2026-07-17 13:59:22.355 VERBOSE Skip version 3.0.0, because it's not in the list of versions to be modified.
+2026-07-17 13:59:22.358 VERBOSE Skip version 3.0.1, because it's not in the list of versions to be modified.
+2026-07-17 13:59:22.360 VERBOSE Skip version 3.0.2, because it's not in the list of versions to be modified.
+2026-07-17 13:59:22.362 VERBOSE Skip version 3.1.0, because it's not in the list of versions to be modified.
+2026-07-17 13:59:22.363 VERBOSE Skip version 3.1.1, because it's not in the list of versions to be modified.
+2026-07-17 13:59:22.365 VERBOSE Skip version 3.1.2, because it's not in the list of versions to be modified.
+2026-07-17 13:59:22.367 VERBOSE Skip version 3.2.0, because it's not in the list of versions to be modified.
+2026-07-17 13:59:22.368 VERBOSE Skip version 3.3.0, because it's not in the list of versions to be modified.
+2026-07-17 13:59:22.370 VERBOSE Skip version 3.3.2, because it's not in the list of versions to be modified.
+2026-07-17 13:59:22.371 VERBOSE Skip version 3.3.3, because it's not in the list of versions to be modified.
+2026-07-17 13:59:22.374 VERBOSE Skip version 3.3.4, because it's not in the list of versions to be modified.
+2026-07-17 13:59:22.377 VERBOSE Skip version 3.3.5, because it's not in the list of versions to be modified.
+2026-07-17 13:59:22.379 VERBOSE Skip version 3.3.7, because it's not in the list of versions to be modified.
+2026-07-17 13:59:22.380 VERBOSE Skip version 4.0.0, because it's not in the list of versions to be modified.
+2026-07-17 13:59:22.382 VERBOSE Skip version 4.0.1, because it's not in the list of versions to be modified.
+2026-07-17 13:59:22.383 VERBOSE Skip version 4.0.11, because it's not in the list of versions to be modified.
+2026-07-17 13:59:22.385 VERBOSE Skip version 4.0.12, because it's not in the list of versions to be modified.
+2026-07-17 13:59:22.386 INFO Processing version folder: 4.0.13
+2026-07-17 13:59:22.387 INFO   Create and checkout to a new branch: New-Version-Ximalaya.Ximalaya-4.0.13-1784267962
+2026-07-17 13:59:36.346 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\x\Ximalaya\Ximalaya\4.0.13\Ximalaya.Ximalaya.installer.yaml
+2026-07-17 13:59:36.349 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\x\Ximalaya\Ximalaya\4.0.13\Ximalaya.Ximalaya.installer.yaml
+2026-07-17 13:59:36.603 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\x\Ximalaya\Ximalaya\4.0.13\Ximalaya.Ximalaya.locale.en-US.yaml
+2026-07-17 13:59:36.607 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\x\Ximalaya\Ximalaya\4.0.13\Ximalaya.Ximalaya.locale.en-US.yaml
+2026-07-17 13:59:36.744 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\x\Ximalaya\Ximalaya\4.0.13\Ximalaya.Ximalaya.locale.zh-CN.yaml
+2026-07-17 13:59:36.750 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\x\Ximalaya\Ximalaya\4.0.13\Ximalaya.Ximalaya.locale.zh-CN.yaml
+2026-07-17 13:59:36.898 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\x\Ximalaya\Ximalaya\4.0.13\Ximalaya.Ximalaya.yaml
+2026-07-17 13:59:36.901 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\x\Ximalaya\Ximalaya\4.0.13\Ximalaya.Ximalaya.yaml
+2026-07-17 13:59:37.780 INFO   New manifests in D:\...\winget-pkgs\manifests\x\Ximalaya\Ximalaya\4.0.13 for Ximalaya.Ximalaya (4.0.13)
+2026-07-17 14:20:40.130 INFO Manifest validation succeeded with "sundry validate".
+2026-07-17 14:20:40.136 INFO   Staging and Committing Changes to Git
+2026-07-17 14:20:58.571 INFO     Commit message: New version: Ximalaya.Ximalaya version 4.0.13 (Auto)
+2026-07-17 14:27:53.774 INFO   Pushing changes to remote (origin) repository
+2026-07-17 14:28:00.378 INFO     Successfully pushed to remote (origin): New-Version-Ximalaya.Ximalaya-4.0.13-1784267962
+2026-07-17 14:28:04.273 VERBOSE Skip version 4.0.2, because it's not in the list of versions to be modified.
+2026-07-17 14:28:04.277 VERBOSE Skip version 4.0.3, because it's not in the list of versions to be modified.
+2026-07-17 14:28:04.280 VERBOSE Skip version 4.0.4, because it's not in the list of versions to be modified.
+2026-07-17 14:28:04.283 VERBOSE Skip version 4.0.5, because it's not in the list of versions to be modified.
+2026-07-17 14:28:04.287 VERBOSE Skip version 4.0.6, because it's not in the list of versions to be modified.
+2026-07-17 14:28:04.290 VERBOSE Skip version 4.0.9, because it's not in the list of versions to be modified.
+2026-07-17 14:28:04.292 INFO All manifests have been modified and pushed through.
+2026-07-17 14:28:22.469 INFO Workspace clean-up completed.
+~~ End of logging ~~
