@@ -1,0 +1,22 @@
+~~ Start logging ~~
+2026-07-19 09:14:30.220 FUN 师傅，你是做什么工作的？
+2026-07-19 09:14:30.223 INFO Found the following version folder: ['0.6.7', '0.7.1', '0.8.0']
+2026-07-19 09:14:30.225 VERBOSE Skip version 0.6.7, because it's not in the list of versions to be modified.
+2026-07-19 09:14:30.227 VERBOSE Skip version 0.7.1, because it's not in the list of versions to be modified.
+2026-07-19 09:14:30.229 INFO Processing version folder: 0.8.0
+2026-07-19 09:14:30.230 INFO   Create and checkout to a new branch: New-Version-TeamFlos.Phira-0.8.0-1784423670
+2026-07-19 09:14:45.629 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.8.0\TeamFlos.Phira.installer.yaml
+2026-07-19 09:14:45.633 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.8.0\TeamFlos.Phira.installer.yaml
+2026-07-19 09:14:45.871 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.8.0\TeamFlos.Phira.locale.zh-CN.yaml
+2026-07-19 09:14:45.877 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.8.0\TeamFlos.Phira.locale.zh-CN.yaml
+2026-07-19 09:14:46.270 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.8.0\TeamFlos.Phira.yaml
+2026-07-19 09:14:46.313 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.8.0\TeamFlos.Phira.yaml
+2026-07-19 09:14:46.224 INFO   New manifests in D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.8.0 for TeamFlos.Phira (0.8.0)
+2026-07-19 09:16:43.778 INFO Manifest validation succeeded with "sundry validate".
+2026-07-19 09:16:43.780 INFO   Staging and Committing Changes to Git
+2026-07-19 09:17:10.220 INFO     Commit message: New version: TeamFlos.Phira version 0.8.0 (Auto)
+2026-07-19 09:29:49.717 INFO   Pushing changes to remote (origin) repository
+2026-07-19 09:34:00.554 INFO     Successfully pushed to remote (origin): New-Version-TeamFlos.Phira-0.8.0-1784423670
+2026-07-19 09:34:04.559 INFO All manifests have been modified and pushed through.
+2026-07-19 09:34:17.971 INFO Workspace clean-up completed.
+~~ End of logging ~~
