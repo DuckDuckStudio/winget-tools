@@ -1,0 +1,23 @@
+~~ Start logging ~~
+2026-07-21 02:03:30.853 FUN 凡是要求垫付资金做任务的兼职刷单，都是诈骗！
+2026-07-21 02:03:30.856 INFO Found the following version folder: ['0.6.7', '0.7.1', '0.8.0', '0.8.1']
+2026-07-21 02:03:30.857 VERBOSE Skip version 0.6.7, because it's not in the list of versions to be modified.
+2026-07-21 02:03:30.859 VERBOSE Skip version 0.7.1, because it's not in the list of versions to be modified.
+2026-07-21 02:03:30.860 VERBOSE Skip version 0.8.0, because it's not in the list of versions to be modified.
+2026-07-21 02:03:30.861 INFO Processing version folder: 0.8.1
+2026-07-21 02:03:30.862 INFO   Create and checkout to a new branch: New-Version-TeamFlos.Phira-0.8.1-1784570610
+2026-07-21 02:03:41.998 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.8.1\TeamFlos.Phira.installer.yaml
+2026-07-21 02:03:42.447 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.8.1\TeamFlos.Phira.installer.yaml
+2026-07-21 02:03:42.205 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.8.1\TeamFlos.Phira.locale.zh-CN.yaml
+2026-07-21 02:03:42.210 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.8.1\TeamFlos.Phira.locale.zh-CN.yaml
+2026-07-21 02:03:42.319 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.8.1\TeamFlos.Phira.yaml
+2026-07-21 02:03:42.322 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.8.1\TeamFlos.Phira.yaml
+2026-07-21 02:03:42.452 INFO   New manifests in D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.8.1 for TeamFlos.Phira (0.8.1)
+2026-07-21 02:04:54.870 INFO Manifest validation succeeded with "sundry validate".
+2026-07-21 02:04:54.872 INFO   Staging and Committing Changes to Git
+2026-07-21 02:05:15.112 INFO     Commit message: New version: TeamFlos.Phira version 0.8.1 (Auto)
+2026-07-21 02:05:26.608 INFO   Pushing changes to remote (origin) repository
+2026-07-21 02:06:01.719 INFO     Successfully pushed to remote (origin): New-Version-TeamFlos.Phira-0.8.1-1784570610
+2026-07-21 02:06:05.546 INFO All manifests have been modified and pushed through.
+2026-07-21 02:06:17.307 INFO Workspace clean-up completed.
+~~ End of logging ~~
