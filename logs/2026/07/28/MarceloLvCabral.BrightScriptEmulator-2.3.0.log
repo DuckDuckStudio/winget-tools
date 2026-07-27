@@ -1,0 +1,32 @@
+~~ Start logging ~~
+2026-07-28 05:39:16.855 FUN 哇这个好可爱口牙
+2026-07-28 05:39:16.865 INFO Found the following version folder: ['0.9.0.20210627.1', '1.4.0', '2.0.0', '2.0.1', '2.0.3', '2.0.4', '2.0.5', '2.1.0', '2.1.1', '2.1.2', '2.1.3', '2.2.0', '2.3.0']
+2026-07-28 05:39:16.867 VERBOSE Skip version 0.9.0.20210627.1, because it's not in the list of versions to be modified.
+2026-07-28 05:39:16.868 VERBOSE Skip version 1.4.0, because it's not in the list of versions to be modified.
+2026-07-28 05:39:16.870 VERBOSE Skip version 2.0.0, because it's not in the list of versions to be modified.
+2026-07-28 05:39:16.871 VERBOSE Skip version 2.0.1, because it's not in the list of versions to be modified.
+2026-07-28 05:39:16.873 VERBOSE Skip version 2.0.3, because it's not in the list of versions to be modified.
+2026-07-28 05:39:16.874 VERBOSE Skip version 2.0.4, because it's not in the list of versions to be modified.
+2026-07-28 05:39:16.875 VERBOSE Skip version 2.0.5, because it's not in the list of versions to be modified.
+2026-07-28 05:39:16.877 VERBOSE Skip version 2.1.0, because it's not in the list of versions to be modified.
+2026-07-28 05:39:16.879 VERBOSE Skip version 2.1.1, because it's not in the list of versions to be modified.
+2026-07-28 05:39:16.880 VERBOSE Skip version 2.1.2, because it's not in the list of versions to be modified.
+2026-07-28 05:39:16.882 VERBOSE Skip version 2.1.3, because it's not in the list of versions to be modified.
+2026-07-28 05:39:16.883 VERBOSE Skip version 2.2.0, because it's not in the list of versions to be modified.
+2026-07-28 05:39:16.884 INFO Processing version folder: 2.3.0
+2026-07-28 05:39:16.885 INFO   Create and checkout to a new branch: New-Version-MarceloLvCabral.BrightScriptEmulator-2.3.0-1785188356
+2026-07-28 05:39:31.470 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\MarceloLvCabral\BrightScriptEmulator\2.3.0\MarceloLvCabral.BrightScriptEmulator.installer.yaml
+2026-07-28 05:39:31.472 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\MarceloLvCabral\BrightScriptEmulator\2.3.0\MarceloLvCabral.BrightScriptEmulator.installer.yaml
+2026-07-28 05:39:31.715 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\MarceloLvCabral\BrightScriptEmulator\2.3.0\MarceloLvCabral.BrightScriptEmulator.locale.en-US.yaml
+2026-07-28 05:39:31.719 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\MarceloLvCabral\BrightScriptEmulator\2.3.0\MarceloLvCabral.BrightScriptEmulator.locale.en-US.yaml
+2026-07-28 05:39:31.855 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\m\MarceloLvCabral\BrightScriptEmulator\2.3.0\MarceloLvCabral.BrightScriptEmulator.yaml
+2026-07-28 05:39:31.859 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\m\MarceloLvCabral\BrightScriptEmulator\2.3.0\MarceloLvCabral.BrightScriptEmulator.yaml
+2026-07-28 05:39:31.999 INFO   New manifests in D:\...\winget-pkgs\manifests\m\MarceloLvCabral\BrightScriptEmulator\2.3.0 for MarceloLvCabral.BrightScriptEmulator (2.3.0)
+2026-07-28 05:47:03.820 INFO Manifest validation succeeded with "sundry validate".
+2026-07-28 05:47:03.830 INFO   Staging and Committing Changes to Git
+2026-07-28 05:47:48.170 INFO     Commit message: New version: MarceloLvCabral.BrightScriptEmulator version 2.3.0 (Auto)
+2026-07-28 05:48:38.834 INFO   Pushing changes to remote (origin) repository
+2026-07-28 05:48:46.432 INFO     Successfully pushed to remote (origin): New-Version-MarceloLvCabral.BrightScriptEmulator-2.3.0-1785188356
+2026-07-28 05:48:51.924 INFO All manifests have been modified and pushed through.
+2026-07-28 05:49:10.399 INFO Workspace clean-up completed.
+~~ End of logging ~~
