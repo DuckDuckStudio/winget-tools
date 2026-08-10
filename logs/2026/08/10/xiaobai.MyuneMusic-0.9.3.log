@@ -1,0 +1,27 @@
+~~ Start logging ~~
+2026-08-10 16:26:26.703 FUN 这...这不对吧？
+2026-08-10 16:26:26.707 INFO Found the following version folder: ['0.6.3', '0.8.6', '0.8.7', '0.8.8', '0.9.0', '0.9.1', '0.9.2', '0.9.3']
+2026-08-10 16:26:26.709 VERBOSE Skip version 0.6.3, because it's not in the list of versions to be modified.
+2026-08-10 16:26:26.710 VERBOSE Skip version 0.8.6, because it's not in the list of versions to be modified.
+2026-08-10 16:26:26.711 VERBOSE Skip version 0.8.7, because it's not in the list of versions to be modified.
+2026-08-10 16:26:26.713 VERBOSE Skip version 0.8.8, because it's not in the list of versions to be modified.
+2026-08-10 16:26:26.714 VERBOSE Skip version 0.9.0, because it's not in the list of versions to be modified.
+2026-08-10 16:26:26.715 VERBOSE Skip version 0.9.1, because it's not in the list of versions to be modified.
+2026-08-10 16:26:26.716 VERBOSE Skip version 0.9.2, because it's not in the list of versions to be modified.
+2026-08-10 16:26:26.717 INFO Processing version folder: 0.9.3
+2026-08-10 16:26:26.719 INFO   Create and checkout to a new branch: New-Version-xiaobai.MyuneMusic-0.9.3-1786350386
+2026-08-10 16:26:41.295 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\x\xiaobai\MyuneMusic\0.9.3\xiaobai.MyuneMusic.installer.yaml
+2026-08-10 16:26:41.301 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\x\xiaobai\MyuneMusic\0.9.3\xiaobai.MyuneMusic.installer.yaml
+2026-08-10 16:26:41.877 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\x\xiaobai\MyuneMusic\0.9.3\xiaobai.MyuneMusic.locale.zh-CN.yaml
+2026-08-10 16:26:41.900 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\x\xiaobai\MyuneMusic\0.9.3\xiaobai.MyuneMusic.locale.zh-CN.yaml
+2026-08-10 16:26:42.125 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\x\xiaobai\MyuneMusic\0.9.3\xiaobai.MyuneMusic.yaml
+2026-08-10 16:26:42.132 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\x\xiaobai\MyuneMusic\0.9.3\xiaobai.MyuneMusic.yaml
+2026-08-10 16:26:42.343 INFO   New manifests in D:\...\winget-pkgs\manifests\x\xiaobai\MyuneMusic\0.9.3 for xiaobai.MyuneMusic (0.9.3)
+2026-08-10 16:28:07.229 INFO Manifest validation succeeded with "sundry validate".
+2026-08-10 16:28:07.230 INFO   Staging and Committing Changes to Git
+2026-08-10 16:28:35.188 INFO     Commit message: New version: xiaobai.MyuneMusic version 0.9.3 (Auto)
+2026-08-10 16:29:21.817 INFO   Pushing changes to remote (origin) repository
+2026-08-10 16:29:27.642 INFO     Successfully pushed to remote (origin): New-Version-xiaobai.MyuneMusic-0.9.3-1786350386
+2026-08-10 16:29:28.307 INFO All manifests have been modified and pushed through.
+2026-08-10 16:29:41.806 INFO Workspace clean-up completed.
+~~ End of logging ~~
