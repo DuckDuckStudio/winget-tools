@@ -1,0 +1,36 @@
+~~ Start logging ~~
+2026-08-12 12:05:15.624 FUN 龙卷风摧毁停车场！
+2026-08-12 12:05:15.635 INFO Found the following version folder: ['2.12.0', '2.12.1', '2.12.2', '2.12.3', '2.13.0', '2.13.1', '2.13.2', '2.13.3', '2.13.4', '2.14.0', '2.15.0', '2.15.1', '2.15.2', '2.16.0', '2.16.1', '2.16.2', '2.16.3']
+2026-08-12 12:05:15.637 VERBOSE Skip version 2.12.0, because it's not in the list of versions to be modified.
+2026-08-12 12:05:15.639 VERBOSE Skip version 2.12.1, because it's not in the list of versions to be modified.
+2026-08-12 12:05:15.640 VERBOSE Skip version 2.12.2, because it's not in the list of versions to be modified.
+2026-08-12 12:05:15.642 VERBOSE Skip version 2.12.3, because it's not in the list of versions to be modified.
+2026-08-12 12:05:15.644 VERBOSE Skip version 2.13.0, because it's not in the list of versions to be modified.
+2026-08-12 12:05:15.645 VERBOSE Skip version 2.13.1, because it's not in the list of versions to be modified.
+2026-08-12 12:05:15.647 VERBOSE Skip version 2.13.2, because it's not in the list of versions to be modified.
+2026-08-12 12:05:15.649 VERBOSE Skip version 2.13.3, because it's not in the list of versions to be modified.
+2026-08-12 12:05:15.651 VERBOSE Skip version 2.13.4, because it's not in the list of versions to be modified.
+2026-08-12 12:05:15.653 VERBOSE Skip version 2.14.0, because it's not in the list of versions to be modified.
+2026-08-12 12:05:15.654 VERBOSE Skip version 2.15.0, because it's not in the list of versions to be modified.
+2026-08-12 12:05:15.656 VERBOSE Skip version 2.15.1, because it's not in the list of versions to be modified.
+2026-08-12 12:05:15.657 VERBOSE Skip version 2.15.2, because it's not in the list of versions to be modified.
+2026-08-12 12:05:15.659 VERBOSE Skip version 2.16.0, because it's not in the list of versions to be modified.
+2026-08-12 12:05:15.660 VERBOSE Skip version 2.16.1, because it's not in the list of versions to be modified.
+2026-08-12 12:05:15.663 VERBOSE Skip version 2.16.2, because it's not in the list of versions to be modified.
+2026-08-12 12:05:15.664 INFO Processing version folder: 2.16.3
+2026-08-12 12:05:15.666 INFO   Create and checkout to a new branch: New-Version-walles.moor-2.16.3-1786507515
+2026-08-12 12:05:32.636 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\w\walles\moor\2.16.3\walles.moor.installer.yaml
+2026-08-12 12:05:32.639 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\w\walles\moor\2.16.3\walles.moor.installer.yaml
+2026-08-12 12:05:35.235 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\w\walles\moor\2.16.3\walles.moor.locale.en-US.yaml
+2026-08-12 12:05:35.239 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\w\walles\moor\2.16.3\walles.moor.locale.en-US.yaml
+2026-08-12 12:05:35.391 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\w\walles\moor\2.16.3\walles.moor.yaml
+2026-08-12 12:05:35.395 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\w\walles\moor\2.16.3\walles.moor.yaml
+2026-08-12 12:05:35.549 INFO   New manifests in D:\...\winget-pkgs\manifests\w\walles\moor\2.16.3 for walles.moor (2.16.3)
+2026-08-12 12:07:02.427 INFO Manifest validation succeeded with "sundry validate".
+2026-08-12 12:07:02.429 INFO   Staging and Committing Changes to Git
+2026-08-12 12:07:40.803 INFO     Commit message: New version: walles.moor version 2.16.3 (Auto)
+2026-08-12 12:08:05.425 INFO   Pushing changes to remote (origin) repository
+2026-08-12 12:08:11.459 INFO     Successfully pushed to remote (origin): New-Version-walles.moor-2.16.3-1786507515
+2026-08-12 12:08:13.484 INFO All manifests have been modified and pushed through.
+2026-08-12 12:08:31.783 INFO Workspace clean-up completed.
+~~ End of logging ~~
