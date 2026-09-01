@@ -44,8 +44,7 @@ namespace checker
             // ========
         };
 
-        private static readonly HashSet<string> ExcludedDomains =
-        [
+        private static readonly HashSet<string> ExcludedDomains = new(StringComparer.OrdinalIgnoreCase) {
             "https://www.betterbird.eu/", "https://github.com/coq/platform/releases/", "typora", "https://cdn.kde.org/", // 过于复杂
             "https://github.com/paintdotnet/release/", "https://cdn.kde.org/ci-builds/education/kiten/master/windows/", "https://catsxp.oss-cn-hongkong.aliyuncs.com/win_x86/catsxp_installer", // 更新时移除 - 这也许应该归为常失败包而不是忽略？
             "https://cdn.krisp.ai", "https://www.huaweicloud.com/", "https://mirrors.kodi.tv", "https://scache.vzw.com", "https://acessos.fiorilli.com.br/api/instalacao/webextension.exe", "https://www.magicdesktop.com/get/kiosk?src=winget", "https://download.voicecloud.cn/", "https://dl.jisupdftoword.com/", "123pan.com", "jisupdf.com", "jisupdfeditor.com", // 假404
@@ -55,13 +54,12 @@ namespace checker
             "https://aurorabuilder.com/downloads/Aurora%20Setup.zip", // 假400
             "https://developer.arm.com/", // Client Challenge
             "https://sf1-cdn-tos.douyinstatic.com/obj/microapp/frontend/ide/package/obj/developer/ide/", "https://git.mylloon.fr/", // 反爬
-            "https://release.axocdn.com/windows/GitKrakenSetup", // 未找到替代链接
-        ];
+            "https://release.axocdn.com/windows/GitKrakenSetup" // 未找到替代链接
+        };
 
-        private static readonly HashSet<string> ExcludedPackages =
-        [
-            "cURL.trurl", // 由 Okeanos 维护，见 https://github.com/microsoft/winget-pkgs/pull/368327#issuecomment-4695846478
-        ];
+        private static readonly HashSet<string> ExcludedPackages = new(StringComparer.OrdinalIgnoreCase) {
+            "cURL.trurl" // 由 Okeanos 维护，见 https://github.com/microsoft/winget-pkgs/pull/368327#issuecomment-4695846478
+        };
 
         private static async Task<int> Main(string[] args)
         {
