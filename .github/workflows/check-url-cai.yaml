@@ -23,8 +23,7 @@ on:
         default: master
       max_concurrency:
         description: 最大并发数
-        required: false
-        # 有默认 8
+        required: true
         default: "8"
       mode:
         type: choice
@@ -52,6 +51,7 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
+          sparse-checkout: manifests/${{ matrix.subdirectory }}/
 
       - name: 设置 .NET
         uses: actions/setup-dotnet@a98b56852c35b8e3190ac28c8c2271da59106c68 # v6.0.0
