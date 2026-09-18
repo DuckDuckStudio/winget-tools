@@ -1,0 +1,28 @@
+~~ Start logging ~~
+2026-09-18 14:05:18.762 FUN 服务器繁忙，请稍后再试。
+2026-09-18 14:05:18.781 INFO Found the following version folder: ['2.0.7', '2.0.9', '2.1.0', '2.1.1', '2.1.2', '2.1.3', '2.1.4', '2.1.5', '2.1.6']
+2026-09-18 14:05:18.799 VERBOSE Skip version 2.0.7, because it's not in the list of versions to be modified.
+2026-09-18 14:05:18.807 INFO Processing version folder: 2.0.9
+2026-09-18 14:05:18.809 INFO   Create and checkout to a new branch: New-Version-GoshsLabs.Goshs-2.0.9-1789711518
+2026-09-18 14:05:41.723 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GoshsLabs\Goshs\2.0.9\GoshsLabs.Goshs.installer.yaml
+2026-09-18 14:05:41.727 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\GoshsLabs\Goshs\2.0.9\GoshsLabs.Goshs.installer.yaml
+2026-09-18 14:05:41.923 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GoshsLabs\Goshs\2.0.9\GoshsLabs.Goshs.locale.en-US.yaml
+2026-09-18 14:05:41.934 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\GoshsLabs\Goshs\2.0.9\GoshsLabs.Goshs.locale.en-US.yaml
+2026-09-18 14:05:42.165 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\g\GoshsLabs\Goshs\2.0.9\GoshsLabs.Goshs.yaml
+2026-09-18 14:05:42.173 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\g\GoshsLabs\Goshs\2.0.9\GoshsLabs.Goshs.yaml
+2026-09-18 14:05:42.391 INFO   New manifests in D:\...\winget-pkgs\manifests\g\GoshsLabs\Goshs\2.0.9 for GoshsLabs.Goshs (2.0.9)
+2026-09-18 14:06:11.928 INFO Manifest validation succeeded with "sundry validate".
+2026-09-18 14:06:11.931 INFO   Staging and Committing Changes to Git
+2026-09-18 14:06:31.617 INFO     Commit message: New version: GoshsLabs.Goshs version 2.0.9 (Auto)
+2026-09-18 14:06:48.232 INFO   Pushing changes to remote (origin) repository
+2026-09-18 14:06:54.236 INFO     Successfully pushed to remote (origin): New-Version-GoshsLabs.Goshs-2.0.9-1789711518
+2026-09-18 14:06:56.952 VERBOSE Skip version 2.1.0, because it's not in the list of versions to be modified.
+2026-09-18 14:06:56.956 VERBOSE Skip version 2.1.1, because it's not in the list of versions to be modified.
+2026-09-18 14:06:56.960 VERBOSE Skip version 2.1.2, because it's not in the list of versions to be modified.
+2026-09-18 14:06:56.964 VERBOSE Skip version 2.1.3, because it's not in the list of versions to be modified.
+2026-09-18 14:06:56.968 VERBOSE Skip version 2.1.4, because it's not in the list of versions to be modified.
+2026-09-18 14:06:56.972 VERBOSE Skip version 2.1.5, because it's not in the list of versions to be modified.
+2026-09-18 14:06:56.978 VERBOSE Skip version 2.1.6, because it's not in the list of versions to be modified.
+2026-09-18 14:06:56.981 INFO All manifests have been modified and pushed through.
+2026-09-18 14:07:17.564 INFO Workspace clean-up completed.
+~~ End of logging ~~
