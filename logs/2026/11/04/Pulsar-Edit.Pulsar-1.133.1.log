@@ -1,0 +1,38 @@
+~~ Start logging ~~
+2026-11-04 20:07:35.340 FUN 快让开，我要变美啦啊啊啊啊啊啊
+2026-11-04 20:07:35.350 INFO Found the following version folder: ['1.105.0', '1.106.0', '1.113.0', '1.114.0', '1.124.0', '1.125.0', '1.127.1', '1.128.0', '1.129.0', '1.130.0', '1.130.1', '1.131.0', '1.131.1', '1.131.2', '1.131.3', '1.132.0', '1.132.1', '1.133.1']
+2026-11-04 20:07:35.352 VERBOSE Skip version 1.105.0, because it's not in the list of versions to be modified.
+2026-11-04 20:07:35.353 VERBOSE Skip version 1.106.0, because it's not in the list of versions to be modified.
+2026-11-04 20:07:35.354 VERBOSE Skip version 1.113.0, because it's not in the list of versions to be modified.
+2026-11-04 20:07:35.356 VERBOSE Skip version 1.114.0, because it's not in the list of versions to be modified.
+2026-11-04 20:07:35.357 VERBOSE Skip version 1.124.0, because it's not in the list of versions to be modified.
+2026-11-04 20:07:35.359 VERBOSE Skip version 1.125.0, because it's not in the list of versions to be modified.
+2026-11-04 20:07:35.360 VERBOSE Skip version 1.127.1, because it's not in the list of versions to be modified.
+2026-11-04 20:07:35.361 VERBOSE Skip version 1.128.0, because it's not in the list of versions to be modified.
+2026-11-04 20:07:35.362 VERBOSE Skip version 1.129.0, because it's not in the list of versions to be modified.
+2026-11-04 20:07:35.363 VERBOSE Skip version 1.130.0, because it's not in the list of versions to be modified.
+2026-11-04 20:07:35.364 VERBOSE Skip version 1.130.1, because it's not in the list of versions to be modified.
+2026-11-04 20:07:35.365 VERBOSE Skip version 1.131.0, because it's not in the list of versions to be modified.
+2026-11-04 20:07:35.366 VERBOSE Skip version 1.131.1, because it's not in the list of versions to be modified.
+2026-11-04 20:07:35.368 VERBOSE Skip version 1.131.2, because it's not in the list of versions to be modified.
+2026-11-04 20:07:35.369 VERBOSE Skip version 1.131.3, because it's not in the list of versions to be modified.
+2026-11-04 20:07:35.370 VERBOSE Skip version 1.132.0, because it's not in the list of versions to be modified.
+2026-11-04 20:07:35.371 VERBOSE Skip version 1.132.1, because it's not in the list of versions to be modified.
+2026-11-04 20:07:35.372 INFO Processing version folder: 1.133.1
+2026-11-04 20:07:35.373 INFO   Create and checkout to a new branch: New-Version-Pulsar-Edit.Pulsar-1.133.1-1793794055
+2026-11-04 20:08:01.536 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.133.1\Pulsar-Edit.Pulsar.installer.yaml
+2026-11-04 20:08:01.539 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.133.1\Pulsar-Edit.Pulsar.installer.yaml
+2026-11-04 20:08:01.909 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.133.1\Pulsar-Edit.Pulsar.locale.en-US.yaml
+2026-11-04 20:08:01.915 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.133.1\Pulsar-Edit.Pulsar.locale.en-US.yaml
+2026-11-04 20:08:02.169 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.133.1\Pulsar-Edit.Pulsar.yaml
+2026-11-04 20:08:02.181 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.133.1\Pulsar-Edit.Pulsar.yaml
+2026-11-04 20:08:02.467 INFO   New manifests in D:\...\winget-pkgs\manifests\p\Pulsar-Edit\Pulsar\1.133.1 for Pulsar-Edit.Pulsar (1.133.1)
+2026-11-04 20:18:02.915 INFO The manifest failed to validate using "sundry validate".
+2026-11-04 20:19:01.811 INFO Manifest Error Fixed.
+2026-11-04 20:19:01.843 INFO   Staging and Committing Changes to Git
+2026-11-04 20:19:42.274 INFO     Commit message: New version: Pulsar-Edit.Pulsar version 1.133.1 (Auto)
+2026-11-04 20:27:30.686 INFO   Pushing changes to remote (origin) repository
+2026-11-04 20:27:38.203 INFO     Successfully pushed to remote (origin): New-Version-Pulsar-Edit.Pulsar-1.133.1-1793794055
+2026-11-04 20:27:41.168 INFO All manifests have been modified and pushed through.
+2026-11-04 20:28:06.109 INFO Workspace clean-up completed.
+~~ End of logging ~~
