@@ -1,0 +1,27 @@
+~~ Start logging ~~
+2026-11-04 20:28:31.508 FUN 敲传统木鱼，见观音如来。
+2026-11-04 20:28:31.508 FUN 敲电子木鱼，见初音未来。
+2026-11-04 20:28:31.563 INFO Found the following version folder: ['0.6.7', '0.7.1', '0.8.0', '0.8.1', '0.8.2', '0.8.3']
+2026-11-04 20:28:31.596 VERBOSE Skip version 0.6.7, because it's not in the list of versions to be modified.
+2026-11-04 20:28:31.622 VERBOSE Skip version 0.7.1, because it's not in the list of versions to be modified.
+2026-11-04 20:28:31.642 VERBOSE Skip version 0.8.0, because it's not in the list of versions to be modified.
+2026-11-04 20:28:31.663 VERBOSE Skip version 0.8.1, because it's not in the list of versions to be modified.
+2026-11-04 20:28:31.680 VERBOSE Skip version 0.8.2, because it's not in the list of versions to be modified.
+2026-11-04 20:28:31.694 INFO Processing version folder: 0.8.3
+2026-11-04 20:28:31.704 INFO   Create and checkout to a new branch: New-Version-TeamFlos.Phira-0.8.3-1793795311
+2026-11-04 20:28:54.531 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.8.3\TeamFlos.Phira.installer.yaml
+2026-11-04 20:28:54.847 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.8.3\TeamFlos.Phira.installer.yaml
+2026-11-04 20:28:54.156 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.8.3\TeamFlos.Phira.locale.zh-CN.yaml
+2026-11-04 20:28:54.173 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.8.3\TeamFlos.Phira.locale.zh-CN.yaml
+2026-11-04 20:28:54.385 INFO   Processing of manifest: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.8.3\TeamFlos.Phira.yaml
+2026-11-04 20:28:54.391 INFO     The manifest file has been saved as: D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.8.3\TeamFlos.Phira.yaml
+2026-11-04 20:28:54.653 INFO   New manifests in D:\...\winget-pkgs\manifests\t\TeamFlos\Phira\0.8.3 for TeamFlos.Phira (0.8.3)
+2026-11-04 20:30:14.356 INFO The manifest failed to validate using "sundry validate".
+2026-11-04 20:30:53.329 INFO Manifest Error Fixed.
+2026-11-04 20:30:53.351 INFO   Staging and Committing Changes to Git
+2026-11-04 20:31:27.145 INFO     Commit message: New version: TeamFlos.Phira version 0.8.3 (Auto)
+2026-11-04 20:32:20.547 INFO   Pushing changes to remote (origin) repository
+2026-11-04 20:32:28.305 INFO     Successfully pushed to remote (origin): New-Version-TeamFlos.Phira-0.8.3-1793795311
+2026-11-04 20:32:34.818 INFO All manifests have been modified and pushed through.
+2026-11-04 20:32:58.279 INFO Workspace clean-up completed.
+~~ End of logging ~~
