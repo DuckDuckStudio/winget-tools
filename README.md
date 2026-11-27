@@ -16,9 +16,6 @@
 Want use these GitHub Action Workflows? Fork this repo and run the workflow.  
 Do not forget to set up the repository secret!  
 
-### External tools
-Do you want to integrate with winget-tools? Take a look at [Sundry](https://github.com/DuckDuckStudio/Sundry/)! - And you can install it using `winget install --id DuckStudio.Sundry --source winget --exact`.  
-
 ## About Open source
 Tools author: [鸭鸭「カモ」](https://duckduckstudio.github.io/yazicbs.github.io/zh_cn/index.html)  
 Open source license: [MIT](https://github.com/DuckDuckStudio/winget-tools/blob/main/LICENSE)  
